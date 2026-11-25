@@ -13,6 +13,8 @@ import { FIRST_KINGS_CHAPTERS } from './books/firstKingsChapters';
 import { SECOND_KINGS_CHAPTERS } from './books/secondKingsChapters';
 import { FIRST_CHRONICLES_CHAPTERS } from './books/firstChroniclesChapters';
 import { SECOND_CHRONICLES_CHAPTERS } from './books/secondChroniclesChapters';
+import { EZRA_CHAPTERS } from './books/ezraChapters';
+import { NEHEMIAH_CHAPTERS } from './books/nehemiahChapters';
 import { JOB_CHAPTERS } from './books/jobChapters';
 import { PSALMS_CHAPTERS } from './books/psalmsChapters';
 import { DANIEL_CHAPTERS } from './books/danielChapters';
@@ -1291,6 +1293,66 @@ export const SEED_VERSE_EXPLANATIONS: Record<string, VerseExplanation> = {
     tryThisAction: 'Step forward into one constructive, hopeful habit today trusting God goes up with you.',
     kidFriendlySummary: 'At the very end of the scroll, God opened the doors home—saying, “Cheer up, I’m right with you, let’s go rebuild together!”',
   },
+  'EZR-3:11': {
+    verseId: 'EZR-3:11',
+    verseRef: 'Ezra 3:11',
+    whatThisMeans:
+      'Standing among burned stones on an empty plaza, returned exiles rebuild only the foundation and altar—yet lift the exact joyful refrain from David’s and Solomon’s golden days: God is good, and His covenant love still outlasts exile.',
+    lessonForYou:
+      'You don’t have to wait until everything is finished to celebrate God’s faithfulness right in the middle of rebuilding.',
+    tryThisAction: 'Give thanks today for one small, unfinished step of progress in your life.',
+    kidFriendlySummary: 'Even before the new walls stood tall, families sang happily together: “God is good, and His kindness lasts forever!”',
+  },
+  'EZR-7:10': {
+    verseId: 'EZR-7:10',
+    verseRef: 'Ezra 7:10',
+    whatThisMeans:
+      'Ezra didn’t merely study Scripture out of curiosity, nor lecture people about rules he skipped himself. Study flowed first into everyday obedience (“to do it”), and only then outward into teaching others.',
+    lessonForYou:
+      'One truth quietly lived out speaks ten times louder than clever advice left unpracticed.',
+    tryThisAction: 'Choose one simple verse today to put into gentle action before sharing it with anyone else.',
+    kidFriendlySummary: 'Before Ezra taught anyone else, he read God’s Word carefully, lived it out kindly at home, and then shared it cheerfully!',
+  },
+  'NEH-2:4': {
+    verseId: 'NEH-2:4',
+    verseRef: 'Nehemiah 2:4',
+    whatThisMeans:
+      'Caught off guard when King Artaxerxes asks a direct question in the royal dining room, Nehemiah silently shoots a split-second “arrow prayer” to Heaven between one sentence and the next—backed by months of deep private prayer in Chapter 1.',
+    lessonForYou:
+      'God hears two-second silent whispers right inside tense meetings just as clearly as hour-long prayers.',
+    tryThisAction: 'Whisper a three-word silent prayer (“Help me, Lord”) before your next tough conversation today.',
+    kidFriendlySummary: 'When the king asked a scary question fast, Nehemiah whispered a tiny lightning-fast prayer inside his heart—and God helped right away!',
+  },
+  'NEH-6:3': {
+    verseId: 'NEH-6:3',
+    verseRef: 'Nehemiah 6:3',
+    whatThisMeans:
+      'Four times critics sent messages trying to pull Nehemiah down from Jerusalem’s rising wall into endless distractions. Nehemiah stayed clear-eyed without picking needless fights: great work deserves focused attention.',
+    lessonForYou:
+      'Saying a polite no to noisy distractions is often how meaningful work actually gets finished.',
+    tryThisAction: 'Mute one unnecessary distraction for 45 minutes today to finish something that truly matters.',
+    kidFriendlySummary: 'When bullies tried tricking Nehemiah into quitting early, he shouted cheerfully from the wall: “I’m doing great work and won’t climb down!”',
+  },
+  'NEH-8:10': {
+    verseId: 'NEH-8:10',
+    verseRef: 'Nehemiah 8:10',
+    whatThisMeans:
+      'Listening to God’s Word opened cleanly at the Water Gate, people broke down weeping over old failures. Ezra, Nehemiah, and Levites urged them to wipe tears, feast gratefully, share food with neighbors in need, and draw quiet strength from God’s joy over forgiving them.',
+    lessonForYou:
+      'Shame drains strength, while receiving God’s glad grace energizes generous care for neighbors.',
+    tryThisAction: 'Turn a moment of self-criticism today into gratitude—and share something warm with someone nearby.',
+    kidFriendlySummary: 'Hearing God’s Word wasn’t meant to keep everyone sad—they cheered up, shared yummy snacks with friends, and smiled because God’s joy makes us strong!',
+  },
+  'NEH-13:31': {
+    verseId: 'NEH-13:31',
+    verseRef: 'Nehemiah 13:31',
+    whatThisMeans:
+      'Instead of chasing monuments or applause after tough reforms, Nehemiah closes his personal memoir speaking softly to the only Audience who sees every hidden sacrifice: “Remember me, O my God, for good.”',
+    lessonForYou:
+      'Quiet faithfulness unseen by crowds is never overlooked by God.',
+    tryThisAction: 'Do one helpful chore or kindness quietly today purely for God’s smile without needing credit.',
+    kidFriendlySummary: 'Even when nobody gave trophies, Nehemiah smiled praying to his heavenly Father: “You saw everything, God—thank You!”',
+  },
 };
 
 export function getExplanationForVerse(verseId: string): VerseExplanation {
@@ -1537,6 +1599,40 @@ export function getExplanationForVerse(verseId: string): VerseExplanation {
       };
     }
     return SEED_VERSE_EXPLANATIONS['2CH-7:14'];
+  }
+
+  if (verseId.startsWith('EZR-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = EZRA_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Ezra ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, Ezra reminds us God’s good hand guides faithful study, prayerful journeys, and humble worship restoration.`,
+        tryThisAction: `Ask how ${ref} calls you to trust God’s good hand and live His Word cheerfully today.`,
+        kidFriendlySummary: `${chapData.subtitle} God’s gentle hand helps families rebuild worship and learn His Word together!`,
+      };
+    }
+    return SEED_VERSE_EXPLANATIONS['EZR-7:10'];
+  }
+
+  if (verseId.startsWith('NEH-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = NEHEMIAH_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Nehemiah ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, Nehemiah pairs persistent prayer with focused teamwork, neighbor justice, and strength-giving joy.`,
+        tryThisAction: `Pause for a quick prayer before your next task today remembering ${ref}.`,
+        kidFriendlySummary: `${chapData.subtitle} Prayer and working together turn broken ruins into happy singing cities!`,
+      };
+    }
+    return SEED_VERSE_EXPLANATIONS['NEH-8:10'];
   }
 
   if (verseId.startsWith('JOB-')) {

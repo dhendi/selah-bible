@@ -63,38 +63,42 @@ export const TodayScreen: React.FC = () => {
             </span>
             <span className="text-xs font-medium text-[#76746E]">
               {currentChapterId.startsWith('DAN-')
-                ? 'Lesson 18 of 18'
+                ? 'Lesson 20 of 20'
                 : currentChapterId.startsWith('PSA-')
-                ? 'Lesson 17 of 18'
+                ? 'Lesson 19 of 20'
                 : currentChapterId.startsWith('JOB-')
-                ? 'Lesson 16 of 18'
+                ? 'Lesson 18 of 20'
+                : currentChapterId.startsWith('NEH-')
+                ? 'Lesson 17 of 20'
+                : currentChapterId.startsWith('EZR-')
+                ? 'Lesson 16 of 20'
                 : currentChapterId.startsWith('2CH-')
-                ? 'Lesson 15 of 18'
+                ? 'Lesson 15 of 20'
                 : currentChapterId.startsWith('1CH-')
-                ? 'Lesson 14 of 18'
+                ? 'Lesson 14 of 20'
                 : currentChapterId.startsWith('2KI-')
-                ? 'Lesson 13 of 18'
+                ? 'Lesson 13 of 20'
                 : currentChapterId.startsWith('1KI-')
-                ? 'Lesson 12 of 18'
+                ? 'Lesson 12 of 20'
                 : currentChapterId.startsWith('2SA-')
-                ? 'Lesson 11 of 18'
+                ? 'Lesson 11 of 20'
                 : currentChapterId.startsWith('1SA-')
-                ? 'Lesson 10 of 18'
+                ? 'Lesson 10 of 20'
                 : currentChapterId.startsWith('RUT-')
-                ? 'Lesson 9 of 18'
+                ? 'Lesson 9 of 20'
                 : currentChapterId.startsWith('JDG-')
-                ? 'Lesson 8 of 18'
+                ? 'Lesson 8 of 20'
                 : currentChapterId.startsWith('JOS-')
-                ? 'Lesson 7 of 18'
+                ? 'Lesson 7 of 20'
                 : currentChapterId.startsWith('DEU-')
-                ? 'Lesson 6 of 18'
+                ? 'Lesson 6 of 20'
                 : currentChapterId.startsWith('NUM-')
-                ? 'Lesson 5 of 18'
+                ? 'Lesson 5 of 20'
                 : currentChapterId.startsWith('LEV-')
-                ? 'Lesson 4 of 18'
+                ? 'Lesson 4 of 20'
                 : currentChapterId.startsWith('EXO-')
-                ? 'Lesson 2 of 18'
-                : 'Lesson 1 of 18'}
+                ? 'Lesson 2 of 20'
+                : 'Lesson 1 of 20'}
             </span>
           </div>
 
@@ -105,6 +109,10 @@ export const TodayScreen: React.FC = () => {
               ? 'Psalms: Prayers, Laments & Hallelujahs'
               : currentChapterId.startsWith('JOB-')
               ? 'Job: Suffering, Wisdom & Whirlwind'
+              : currentChapterId.startsWith('NEH-')
+              ? 'Nehemiah: Prayer, Walls & Joyful Strength'
+              : currentChapterId.startsWith('EZR-')
+              ? 'Ezra: Homecoming, Altar & Word'
               : currentChapterId.startsWith('2CH-')
               ? '2 Chronicles: Prayer, Revival & Mercy'
               : currentChapterId.startsWith('1CH-')
@@ -142,6 +150,10 @@ export const TodayScreen: React.FC = () => {
               ? 'Sing beside green pastures in Psalm 23, pray for a clean heart in Psalm 51, and lift Hallelujahs across all 150 Psalms.'
               : currentChapterId.startsWith('JOB-')
               ? 'Walk through sudden loss in Uz, proclaim “my Redeemer lives,” and hear Yahweh speak out of the whirlwind.'
+              : currentChapterId.startsWith('NEH-')
+              ? 'Pray in Susa’s court, rebuild Jerusalem’s walls in fifty-two days, and celebrate at the Water Gate where joy becomes strength.'
+              : currentChapterId.startsWith('EZR-')
+              ? 'Return from exile behind Cyrus’s decree, rebuild Jerusalem’s altar with joyful tears, and follow God’s good hand in Scripture.'
               : currentChapterId.startsWith('2CH-')
               ? 'Stand in Temple dedication fire, march behind singing choirs in Jehoshaphat’s valley, shelter baby Joash, and see Manasseh forgiven.'
               : currentChapterId.startsWith('1CH-')
@@ -248,6 +260,10 @@ export const TodayScreen: React.FC = () => {
                   ? '1ch-temple-worship'
                   : currentChapterId.startsWith('2CH-')
                   ? '2ch-choir-humility'
+                  : currentChapterId.startsWith('EZR-')
+                  ? 'ezr-return-word'
+                  : currentChapterId.startsWith('NEH-')
+                  ? 'neh-wall-joy'
                   : currentChapterId.startsWith('JOB-')
                   ? 'job-suffering-whirlwind'
                   : currentChapterId.startsWith('PSA-')
@@ -470,6 +486,30 @@ export const TodayScreen: React.FC = () => {
           >
             <div className="text-xs font-bold font-serif text-[#2C2C2A]">2 Chronicles 1–36</div>
             <div className="text-[10px] text-[#76746E] mt-0.5">Humble, Choirs & Revival</div>
+          </button>
+
+          <button
+            onClick={() => handleSelectPath('EZR-7')}
+            className={`p-3 rounded-2xl border text-left transition-all cursor-pointer ${
+              currentChapterId.startsWith('EZR-')
+                ? 'bg-[#EBF2ED] border-[#7A9A82]'
+                : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+            }`}
+          >
+            <div className="text-xs font-bold font-serif text-[#2C2C2A]">Ezra 1–10</div>
+            <div className="text-[10px] text-[#76746E] mt-0.5">Homecoming & God’s Word</div>
+          </button>
+
+          <button
+            onClick={() => handleSelectPath('NEH-8')}
+            className={`p-3 rounded-2xl border text-left transition-all cursor-pointer ${
+              currentChapterId.startsWith('NEH-')
+                ? 'bg-[#EBF2ED] border-[#7A9A82]'
+                : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+            }`}
+          >
+            <div className="text-xs font-bold font-serif text-[#2C2C2A]">Nehemiah 1–13</div>
+            <div className="text-[10px] text-[#76746E] mt-0.5">52-Day Wall & Water Gate</div>
           </button>
 
           <button

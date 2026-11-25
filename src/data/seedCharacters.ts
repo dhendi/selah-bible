@@ -3669,6 +3669,206 @@ export const SEED_CHARACTERS: Record<string, CharacterCard> = {
       },
     ],
   },
+  'char-profile-cyrus': {
+    id: 'char-profile-cyrus',
+    name: 'King Cyrus of Persia',
+    nameMeaning: 'Old Persian: Kurush ("Sun / Shepherd King")',
+    era: 'Persian Restoration ~559–530 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-cyrus',
+    quickBio:
+      'Conquered Babylon without destroying temples—then stirred by Yahweh in his first year to proclaim Jewish exiles free to return to Jerusalem and return five thousand four hundred Temple vessels.',
+    familyTree: { parents: ['Cambyses I'], siblings: [] },
+    locationsLived: [
+      {
+        placeName: 'Babylon & Ecbatana',
+        roleInLife: 'Issued decree restoring Jerusalem’s Temple in 538 BC',
+        coordinates: { lat: 32.54, lng: 44.42 },
+        mapPinId: 'loc-babylon',
+      },
+    ],
+    whyTheyMatter: [
+      'Named over a century in advance by Isaiah 44–45 as Heaven’s shepherd opening prison doors for exiles.',
+    ],
+    keyChapters: [
+      {
+        reference: 'Ezra 1:1–11',
+        label: 'Dawn Decree & Return of Gold Bowls',
+        storyModuleId: 'story-ezr-decree-altar',
+        chapterId: 'EZR-1',
+        anchorVerseNumber: 1,
+      },
+    ],
+  },
+  'char-profile-zerubbabel': {
+    id: 'char-profile-zerubbabel',
+    name: 'Zerubbabel, Governor of Judah',
+    nameMeaning: 'Hebrew / Akkadian: Zer-Babili ("Seed / Offspring of Babylon")',
+    era: 'First Return ~538–515 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-zerubbabel',
+    quickBio:
+      'Royal grandson of King Jehoiachin who led the first massive caravan home from Babylon, laid Jerusalem’s new Temple foundation amid shouts and tears, and pressed on after prophets Haggai and Zechariah spoke courage.',
+    familyTree: { parents: ['Shealtiel / Pedaiah (House of David)'], siblings: [] },
+    locationsLived: [
+      {
+        placeName: 'Babylon & Jerusalem',
+        roleInLife: 'Governor of Judah who rebuilt the Altar and Second Temple',
+        coordinates: { lat: 31.77, lng: 35.23 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Kept the line of David alive in returning Judah and completed the Second Temple despite fierce pushback.',
+    ],
+    keyChapters: [
+      {
+        reference: 'Ezra 3:1–13',
+        label: 'Laying the Foundation With Tears & Joy',
+        storyModuleId: 'story-ezr-decree-altar',
+        chapterId: 'EZR-3',
+        anchorVerseNumber: 11,
+      },
+    ],
+  },
+  'char-profile-jeshua': {
+    id: 'char-profile-jeshua',
+    name: 'Jeshua (Joshua) the High Priest',
+    nameMeaning: 'Hebrew: Yeshua ("Yahweh Saves")',
+    era: 'First Return ~538–515 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-jeshua',
+    quickBio:
+      'Post-exilic high priest standing shoulder to shoulder with Zerubbabel to build Jerusalem’s stone altar first—lighting daily morning offerings even while surrounding hostility lingered.',
+    familyTree: { parents: ['Jehozadak'], siblings: [] },
+    locationsLived: [
+      {
+        placeName: 'Jerusalem Temple Courts',
+        roleInLife: 'Co-led altar restoration and Second Temple dedication',
+        coordinates: { lat: 31.778, lng: 35.235 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Crowned prophetically in Zechariah 3 & 6 while faithfully rebuilding worship after seventy years of silence.',
+    ],
+    keyChapters: [
+      {
+        reference: 'Ezra 3:2–9',
+        label: 'Building the Altar Before Temple Walls',
+        storyModuleId: 'story-ezr-decree-altar',
+        chapterId: 'EZR-3',
+        anchorVerseNumber: 2,
+      },
+    ],
+  },
+  'char-profile-ezra': {
+    id: 'char-profile-ezra',
+    name: 'Ezra the Scribe & Priest',
+    nameMeaning: 'Hebrew: Ezra ("Help")',
+    era: 'Second Return ~458–444 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-ezra',
+    quickBio:
+      'Skilled scribe of Moses’s Torah who “set his heart to study the law of Yahweh, to practice it, and to teach it”—leading families home without armed guards after praying at the Ahava canal, and reading Scripture joyfully at the Water Gate.',
+    familyTree: { parents: ['Seraiah (Priestly Line of Aaron)'], siblings: [] },
+    locationsLived: [
+      {
+        placeName: 'Babylon, Ahava Canal & Jerusalem',
+        roleInLife: 'Led Scripture renewal in Ezra 7–10 and Nehemiah 8',
+        coordinates: { lat: 31.77, lng: 35.23 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Turned returning Israel into a people anchored around open Scripture clearly understood.',
+    ],
+    keyChapters: [
+      {
+        reference: 'Ezra 7:1–10',
+        label: 'Study, Practice & Teach by God’s Good Hand',
+        storyModuleId: 'story-ezr-study-teach',
+        chapterId: 'EZR-7',
+        anchorVerseNumber: 10,
+      },
+      {
+        reference: 'Nehemiah 8:1–12',
+        label: 'Reading Torah Joyfully at the Water Gate',
+        storyModuleId: 'story-neh-water-gate',
+        chapterId: 'NEH-8',
+        anchorVerseNumber: 10,
+      },
+    ],
+  },
+  'char-profile-nehemiah': {
+    id: 'char-profile-nehemiah',
+    name: 'Nehemiah, Cupbearer & Governor',
+    nameMeaning: 'Hebrew: Nechemyah ("Yahweh Comforts")',
+    era: 'Persian Restoration ~445–432 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-nehemiah',
+    quickBio:
+      'Trusted Persian palace cupbearer whose heart broke over Jerusalem’s burned gates—leading neighbors to rebuild city walls in fifty-two days with trowel in one hand and spear nearby, canceling debt for the poor, and praying simply: “Remember me, O my God!”',
+    familyTree: { parents: ['Hacaliah'], siblings: ['Hanani'] },
+    locationsLived: [
+      {
+        placeName: 'Susa & Jerusalem',
+        roleInLife: 'Governor of Judah who rebuilt Jerusalem’s walls in 52 days',
+        coordinates: { lat: 31.77, lng: 35.23 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Unites spontaneous “arrow prayers,” fearless organization, and economic compassion for struggling neighbors.',
+    ],
+    keyChapters: [
+      {
+        reference: 'Nehemiah 2:1–20',
+        label: 'Silent Arrow Prayer & Midnight Wall Inspection',
+        storyModuleId: 'story-neh-wall-builders',
+        chapterId: 'NEH-2',
+        anchorVerseNumber: 4,
+      },
+      {
+        reference: 'Nehemiah 6:1–16',
+        label: '“I Am Doing a Great Work”—Wall Done in 52 Days',
+        storyModuleId: 'story-neh-wall-builders',
+        chapterId: 'NEH-6',
+        anchorVerseNumber: 3,
+      },
+    ],
+  },
+  'char-profile-artaxerxes': {
+    id: 'char-profile-artaxerxes',
+    name: 'King Artaxerxes of Persia',
+    nameMeaning: 'Old Persian: Artakhshassa ("Whose Reign Is Through Truth")',
+    era: 'Persian Empire 465–424 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-artaxerxes',
+    quickBio:
+      'Persian monarch who entrusted priest Ezra with silver and teaching authority across Judah—and twelve years later noticed cupbearer Nehemiah’s hidden grief, commissioning him with royal timber letters to rebuild Jerusalem’s walls.',
+    familyTree: { parents: ['Xerxes I (Ahasuerus)'], siblings: [] },
+    locationsLived: [
+      {
+        placeName: 'Susa Citadel (Winter Palace)',
+        roleInLife: 'Granted Ezra and Nehemiah royal decrees to restore Jerusalem',
+        coordinates: { lat: 32.19, lng: 48.25 },
+        mapPinId: 'loc-babylon',
+      },
+    ],
+    whyTheyMatter: [
+      'God softened this emperor’s heart repeatedly—turning palace service into open doors for restoration.',
+    ],
+    keyChapters: [
+      {
+        reference: 'Nehemiah 2:1–8',
+        label: 'Noticing Sadness & Granting Timber Letters',
+        storyModuleId: 'story-neh-wall-builders',
+        chapterId: 'NEH-2',
+        anchorVerseNumber: 8,
+      },
+    ],
+  },
 };
 
 export const CHARACTER_DIRECTORY_LIST: CharacterCard[] = [
@@ -3754,5 +3954,11 @@ export const CHARACTER_DIRECTORY_LIST: CharacterCard[] = [
   SEED_CHARACTERS['char-profile-jehoshabeath'],
   SEED_CHARACTERS['char-profile-jehoiada'],
   SEED_CHARACTERS['char-profile-manasseh'],
+  SEED_CHARACTERS['char-profile-cyrus'],
+  SEED_CHARACTERS['char-profile-zerubbabel'],
+  SEED_CHARACTERS['char-profile-jeshua'],
+  SEED_CHARACTERS['char-profile-ezra'],
+  SEED_CHARACTERS['char-profile-nehemiah'],
+  SEED_CHARACTERS['char-profile-artaxerxes'],
   SEED_CHARACTERS['char-profile-peter'],
 ];

@@ -1004,6 +1004,8 @@ export const BUILT_BOOK_START_CHAPTER: Record<string, string> = {
   '2KI': '2KI-1',
   '1CH': '1CH-1',
   '2CH': '2CH-1',
+  EZR: 'EZR-1',
+  NEH: 'NEH-1',
   JOB: 'JOB-1',
   PSA: 'PSA-1',
   DAN: 'DAN-1',

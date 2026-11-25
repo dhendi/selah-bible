@@ -169,6 +169,26 @@ function resolveChapterAsset(key: string): { src: string; alt: string } | undefi
       };
     }
   }
+  const ezraMatch = /^ill-ezr-(\d+)$/.exec(key);
+  if (ezraMatch) {
+    const ch = Number(ezraMatch[1]);
+    if (ch >= 1 && ch <= 10) {
+      return {
+        src: `/images/ezr-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Ezra ${ch} illustration`,
+      };
+    }
+  }
+  const nehemiahMatch = /^ill-neh-(\d+)$/.exec(key);
+  if (nehemiahMatch) {
+    const ch = Number(nehemiahMatch[1]);
+    if (ch >= 1 && ch <= 13) {
+      return {
+        src: `/images/neh-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Nehemiah ${ch} illustration`,
+      };
+    }
+  }
   const jobMatch = /^ill-job-(\d+)$/.exec(key);
   if (jobMatch) {
     const ch = Number(jobMatch[1]);

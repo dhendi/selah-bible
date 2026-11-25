@@ -955,6 +955,106 @@ export const SEED_QUIZZES: Record<string, QuizQuestion[]> = {
       takeaway: 'No heart is too far gone to be heard by a merciful God.',
     },
   ],
+  'ezr-return-word': [
+    {
+      id: 'q-ezr-1',
+      passageId: 'EZR-3',
+      passageRef: 'Ezra 3:10–13',
+      question: 'When builders laid the new Temple foundation in Ezra 3, why couldn’t bystanders distinguish shouts of joy from weeping?',
+      options: [
+        'Sudden hailstorms drowned out the silver trumpets',
+        'Younger people cheered wildly while older elders who remembered Solomon’s first Temple wept aloud',
+        'Babylonian guards locked the courtyard gates',
+        'None of the Levites knew the Psalms of David',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Ezra honors honest mixed grief over smaller beginnings alongside sincere praise—reminding us God welcomes both honest tears and small faithful starts.',
+      takeaway: 'Never despise humble new beginnings alongside honest memories.',
+    },
+    {
+      id: 'q-ezr-2',
+      passageId: 'EZR-7',
+      passageRef: 'Ezra 7:10',
+      question: 'According to Ezra 7:10, in what sequence did Ezra set his heart regarding the Law of Yahweh?',
+      options: [
+        'Write decrees first, debate priests second, rest third',
+        'Study it first, live and practice it second, and teach it third',
+        'Memorize genealogies only before returning to Susa',
+        'Hide scrolls inside Ecbatana until Artaxerxes arrives',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Ezra’s rhythm—study -> obedience -> teaching—kept leadership humble, authentic, and life-giving.',
+      takeaway: 'Real teaching grows out of practicing what we learn first.',
+    },
+    {
+      id: 'q-ezr-3',
+      passageId: 'EZR-8',
+      passageRef: 'Ezra 8:21–23',
+      question: 'Why did Ezra feel embarrassed to ask King Artaxerxes for armed soldiers to guard their silver caravan home?',
+      options: [
+        'He already boasted that “our God’s hand is on all who seek Him for good”—so he led three days of fasting at Ahava instead',
+        'Susa had zero horsemen left in Persia',
+        'Zerubbabel already stationed soldiers at the Euphrates bridge',
+        'Silver coins were carried secretly inside olive jars',
+      ],
+      correctIndex: 0,
+      explanation:
+        'Ezra backed bold words about trusting God with earnest, humble prayer—and God delivered every family safely to Jerusalem.',
+      takeaway: 'Prayer aligns our daily choices with what we profess about God.',
+    },
+  ],
+  'neh-wall-joy': [
+    {
+      id: 'q-neh-1',
+      passageId: 'NEH-2',
+      passageRef: 'Nehemiah 2:4–8',
+      question: 'When King Artaxerxes asked cupbearer Nehemiah what he wanted in the middle of serving wine, what did Nehemiah do first?',
+      options: [
+        'Asked for a thirty-day delay to return to Jerusalem first',
+        'Prayed instantly to the God of heaven before answering the king',
+        'Handed over a sealed silver check to Sanballat',
+        'Resigned his palace post immediately without speaking',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Nehemiah’s famous “arrow prayer” took only a heartbeat—fueled by four months of private weeping and prayer in Chapter 1.',
+      takeaway: 'Habitual prayer prepares calm trust right inside sudden moments.',
+    },
+    {
+      id: 'q-neh-2',
+      passageId: 'NEH-6',
+      passageRef: 'Nehemiah 6:3',
+      question: 'How did Nehemiah answer four repeated invitations from Sanballat and Geshem to leave the wall for summit meetings on Ono’s plain?',
+      options: [
+        'He sent Ezra to negotiate taxes in Samaria',
+        'He replied: “I am doing a great work, so I cannot come down!”',
+        'He halted wall construction for fourteen weeks',
+        'He marched armies north to Megiddo',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Focus protected both his safety and mission—allowing Jerusalem’s walls to rise in just fifty-two days.',
+      takeaway: 'Clear focus politely refuses distractions pulling you off purpose.',
+    },
+    {
+      id: 'q-neh-3',
+      passageId: 'NEH-8',
+      passageRef: 'Nehemiah 8:10',
+      question: 'As citizens wept aloud hearing Moses’s Law read clearly at the Water Gate, what encouraged them in Nehemiah 8:10?',
+      options: [
+        'Stop mourning, celebrate, share portions of food, for “the joy of Yahweh is your strength!”',
+        'Build an extra bronze tower before winter rains',
+        'Stay inside fasting silently for forty days',
+        'Return sealed scrolls back to Babylon archives',
+      ],
+      correctIndex: 0,
+      explanation:
+        'Hearing God’s Word rightly understood brings forgiveness, fellowship meals shared with neighbors, and cheerful strength.',
+      takeaway: 'God’s strength flows through grateful joy and shared generosity.',
+    },
+  ],
 };
 
 // Quick onboarding mini-quiz check

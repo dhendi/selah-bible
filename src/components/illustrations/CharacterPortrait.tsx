@@ -374,6 +374,30 @@ const PORTRAIT_URL_MAP: Record<string, { src: string; alt: string }> = {
     src: '/images/portrait-manasseh.jpg',
     alt: 'Portrait of Penitent King Manasseh',
   },
+  'portrait-cyrus': {
+    src: '/images/portrait-cyrus.jpg',
+    alt: 'Portrait of King Cyrus of Persia',
+  },
+  'portrait-zerubbabel': {
+    src: '/images/portrait-zerubbabel.jpg',
+    alt: 'Portrait of Zerubbabel, Governor of Judah',
+  },
+  'portrait-ezra': {
+    src: '/images/portrait-ezra.jpg',
+    alt: 'Portrait of Ezra the Scribe & Priest',
+  },
+  'portrait-nehemiah': {
+    src: '/images/portrait-nehemiah.jpg',
+    alt: 'Portrait of Nehemiah, Governor & Wall Builder',
+  },
+  'portrait-jeshua': {
+    src: '/images/portrait-jeshua.jpg',
+    alt: 'Portrait of High Priest Jeshua (Joshua)',
+  },
+  'portrait-artaxerxes': {
+    src: '/images/portrait-artaxerxes.jpg',
+    alt: 'Portrait of King Artaxerxes of Persia',
+  },
   'portrait-boaz': {
     src: '/images/portrait-boaz.jpg',
     alt: 'Portrait of Boaz of Bethlehem',
