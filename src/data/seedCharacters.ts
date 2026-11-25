@@ -4131,6 +4131,113 @@ export const SEED_CHARACTERS: Record<string, CharacterCard> = {
       },
     ],
   },
+  'char-profile-qohelet': {
+    id: 'char-profile-qohelet',
+    name: 'Qohelet (The Teacher)',
+    nameMeaning: 'Hebrew: קֹהֶלֶת / Qohelet ("Convener / Teacher of the Assembly")',
+    era: 'Solomonic Wisdom Reflections',
+    roleBadge: 'Prophets',
+    portraitIllustrationId: 'portrait-qohelet',
+    quickBio:
+      'Brutally honest royal sage of Ecclesiastes who investigated wealth, pleasure, toil, and human illusions “under the sun”—discovering that ordinary bread, warm companionship, and remembering our Creator hold lasting joy.',
+    familyTree: { parents: ['Tradition of House of David'], siblings: [] },
+    locationsLived: [
+      {
+        placeName: 'Jerusalem Royal Gardens',
+        roleInLife: 'Gathered assembly to weigh passing vapor against eternal reverence',
+        coordinates: { lat: 31.77, lng: 35.23 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Gives Scripture space for honest questions about monotony while anchoring peace in seasons, joy, and revering God.',
+    ],
+    keyChapters: [
+      {
+        reference: 'Ecclesiastes 3:1–14',
+        label: 'A Season for Every Purpose & Eternity in Hearts',
+        storyModuleId: 'story-ecc-seasons-cord',
+        chapterId: 'ECC-3',
+        anchorVerseNumber: 1,
+      },
+      {
+        reference: 'Ecclesiastes 12:1–14',
+        label: 'Remember Your Creator & Whole Duty',
+        storyModuleId: 'story-ecc-seasons-cord',
+        chapterId: 'ECC-12',
+        anchorVerseNumber: 1,
+      },
+    ],
+  },
+  'char-profile-shulammite': {
+    id: 'char-profile-shulammite',
+    name: 'The Shulammite Bride',
+    nameMeaning: 'Hebrew: Shulammith (Feminine reflection of Shalom / "Peaceful One")',
+    era: 'Song of Songs Poetry',
+    roleBadge: 'Women of Faith',
+    portraitIllustrationId: 'portrait-shulammite',
+    quickBio:
+      'Sun-tanned vineyard keeper and central voice of Song of Solomon—choosing authentic, mutual covenant devotion (“I am my beloved’s, and my beloved is mine”) over dazzling royal treasure.',
+    familyTree: { parents: ['Rural Judean Household'], siblings: ['Elder Brothers (Vineyard Keepers)'] },
+    locationsLived: [
+      {
+        placeName: 'En Gedi Vineyards & Sharon Plain',
+        roleInLife: 'Celebrates pure, unquenchable love in the Song of Songs',
+        coordinates: { lat: 31.46, lng: 35.39 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Models faithful, wholehearted delight declaring real love stronger than death and unpurchasable with silver.',
+    ],
+    keyChapters: [
+      {
+        reference: 'Song of Solomon 2:1–17',
+        label: 'Lily of the Valleys & Springtime Awakening',
+        storyModuleId: 'story-sng-love-flame',
+        chapterId: 'SNG-2',
+        anchorVerseNumber: 10,
+      },
+      {
+        reference: 'Song of Solomon 8:6–7',
+        label: 'Unquenchable Flame & Seal Over Heart',
+        storyModuleId: 'story-sng-love-flame',
+        chapterId: 'SNG-8',
+        anchorVerseNumber: 6,
+      },
+    ],
+  },
+  'char-profile-beloved-shepherd': {
+    id: 'char-profile-beloved-shepherd',
+    name: 'The Beloved Shepherd',
+    nameMeaning: 'Hebrew: דּוֹדִי / Dodi ("My Beloved Companion")',
+    era: 'Song of Songs Poetry',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-beloved-shepherd',
+    quickBio:
+      'Tender companion of the Shulammite in Song of Solomon who delights among green lilies and cedar beams—calling his beloved gently out of winter solitude into blooming springtime faithfulness.',
+    familyTree: { parents: [], siblings: [] },
+    locationsLived: [
+      {
+        placeName: 'Lebanon Slopes & Sharon Pastures',
+        roleInLife: 'Tender shepherd voice in Song of Songs 2–8',
+        coordinates: { lat: 32.3, lng: 34.9 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Became Scripture’s vivid reflection of God’s tender covenant delight over His beloved people.',
+    ],
+    keyChapters: [
+      {
+        reference: 'Song of Solomon 2:8–16',
+        label: '“Rise Up, My Love—Winter Is Past!”',
+        storyModuleId: 'story-sng-love-flame',
+        chapterId: 'SNG-2',
+        anchorVerseNumber: 11,
+      },
+    ],
+  },
 };
 
 export const CHARACTER_DIRECTORY_LIST: CharacterCard[] = [
@@ -4230,5 +4337,8 @@ export const CHARACTER_DIRECTORY_LIST: CharacterCard[] = [
   SEED_CHARACTERS['char-profile-agur'],
   SEED_CHARACTERS['char-profile-lemuel'],
   SEED_CHARACTERS['char-profile-proverbs-31-woman'],
+  SEED_CHARACTERS['char-profile-qohelet'],
+  SEED_CHARACTERS['char-profile-shulammite'],
+  SEED_CHARACTERS['char-profile-beloved-shepherd'],
   SEED_CHARACTERS['char-profile-peter'],
 ];

@@ -1010,5 +1010,7 @@ export const BUILT_BOOK_START_CHAPTER: Record<string, string> = {
   JOB: 'JOB-1',
   PSA: 'PSA-1',
   PRO: 'PRO-1',
+  ECC: 'ECC-1',
+  SNG: 'SNG-1',
   DAN: 'DAN-1',
 };

@@ -1155,6 +1155,106 @@ export const SEED_QUIZZES: Record<string, QuizQuestion[]> = {
       takeaway: 'Real wisdom always shows up through kindness, justice, and open hands.',
     },
   ],
+  'ecc-season-creator': [
+    {
+      id: 'q-ecc-1',
+      passageId: 'ECC-3',
+      passageRef: 'Ecclesiastes 3:1–11',
+      question: 'Amid life’s changing cycles of planting, weeping, and laughing, what deeper gift does Ecclesiastes 3:11 say God set inside human hearts?',
+      options: [
+        'A desire to hoard bronze weights in Susa',
+        'Eternity—making everything fitting in its proper time even when humans cannot grasp the whole',
+        'Instructions to avoid ever weeping',
+        'A map of all rivers flowing into Egypt',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Qohelet balances realistic limits (“can’t find out from beginning to end”) with awe: eternity inside our hearts nudges us toward trusting our Creator.',
+      takeaway: 'Accepting our limits frees us to enjoy today’s season with gratitude.',
+    },
+    {
+      id: 'q-ecc-2',
+      passageId: 'ECC-4',
+      passageRef: 'Ecclesiastes 4:9–12',
+      question: 'According to Ecclesiastes 4:9–12, why are two companions far better than isolated solo striving?',
+      options: [
+        'If one falls, the other lifts them up—and a threefold cord is not quickly broken',
+        'Two people never feel chilly in winter',
+        'Because solitary travelers lose palace robes',
+        'Two sheep double harvest taxes at Hebron',
+      ],
+      correctIndex: 0,
+      explanation:
+        'Lonely achievement rings hollow (“for whom am I working?”), while shared companionship strengthens every climb.',
+      takeaway: 'Community and faithful friendship turn fragile effort into lasting strength.',
+    },
+    {
+      id: 'q-ecc-3',
+      passageId: 'ECC-12',
+      passageRef: 'Ecclesiastes 12:1 & 13',
+      question: 'After testing palaces, gardens, wealth, and endless questions under the sun, what clear conclusion closes Ecclesiastes?',
+      options: [
+        'Withdraw silently to caves on Mount Gilboa',
+        'Remember your Creator, revere God, and keep His commandments',
+        'Write fifty more gold proverbs for Babylon',
+        'Wait for winds to stop blowing forever',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Honest doubt never stays cynical—it walks out the door remembering that every fleeting day sits securely in our Creator’s hands.',
+      takeaway: 'Revering God gives meaning to every ordinary breath and task.',
+    },
+  ],
+  'sng-love-song': [
+    {
+      id: 'q-sng-1',
+      passageId: 'SNG-2',
+      passageRef: 'Song of Solomon 2:10–15',
+      question: 'As winter rain clears in Song of Solomon 2, what tiny nuisance does the song urge lovers to catch early so budding joy isn’t damaged?',
+      options: [
+        'Giant locusts flying over Jerusalem gates',
+        'The little foxes that spoil blooming vineyards',
+        'Babylonian camels near En Gedi',
+        'Sea storms crossing Cyprus waters',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Little unresolved resentments or neglect (“little foxes”) slowly injure relationships far more often than sudden storms.',
+      takeaway: 'Protect tender love by tending small daily habits kindly and early.',
+    },
+    {
+      id: 'q-sng-2',
+      passageId: 'SNG-6',
+      passageRef: 'Song of Solomon 6:3',
+      question: 'What simple three-part refrain sums up mutual devotion across the Song of Songs?',
+      options: [
+        '“Gold belongs to Tyre, silver to Egypt”',
+        '“I am my beloved’s, and my beloved is mine”',
+        '“Stand apart in silence above Lebanon”',
+        '“Let chariots guard our spice gates”',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Healthy love replaces anxious power games with glad, wholehearted mutual belonging.',
+      takeaway: 'Covenant love thrives on mutual devotion and faithfulness.',
+    },
+    {
+      id: 'q-sng-3',
+      passageId: 'SNG-8',
+      passageRef: 'Song of Solomon 8:6–7',
+      question: 'In Song of Solomon 8:6–7, how is genuine, unbought love described?',
+      options: [
+        'As temporary mist vanishing before sunrise',
+        'As strong as death—a very flame of Yahweh that rushing rivers cannot quench or wealth purchase',
+        'Like quiet silver coins stored inside ivory',
+        'Like a cedar boat crossing the Nile',
+      ],
+      correctIndex: 1,
+      explanation:
+        'By calling love a “flame of Yahweh,” the Song roots joyful human tenderness right back inside God’s own creative love.',
+      takeaway: 'True faithful love is priceless, resilient, and blessed by God.',
+    },
+  ],
 };
 
 // Quick onboarding mini-quiz check

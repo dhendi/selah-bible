@@ -21,6 +21,8 @@ import { ESTHER_CHAPTERS } from '../../data/books/estherChapters';
 import { JOB_CHAPTERS } from '../../data/books/jobChapters';
 import { PSALMS_CHAPTERS } from '../../data/books/psalmsChapters';
 import { PROVERBS_CHAPTERS } from '../../data/books/proverbsChapters';
+import { ECCLESIASTES_CHAPTERS } from '../../data/books/ecclesiastesChapters';
+import { SONG_OF_SOLOMON_CHAPTERS } from '../../data/books/songOfSolomonChapters';
 import { DANIEL_CHAPTERS } from '../../data/books/danielChapters';
 
 export const ChapterPickerModal: React.FC = () => {
@@ -34,10 +36,14 @@ export const ChapterPickerModal: React.FC = () => {
   } = useStudyStore();
 
   const [selectedBookTab, setSelectedBookTab] = useState<
-    'GEN' | 'EXO' | 'LEV' | 'NUM' | 'DEU' | 'JOS' | 'JDG' | 'RUT' | '1SA' | '2SA' | '1KI' | '2KI' | '1CH' | '2CH' | 'EZR' | 'NEH' | 'EST' | 'JOB' | 'PSA' | 'PRO' | 'DAN' | 'FEATURED'
+    'GEN' | 'EXO' | 'LEV' | 'NUM' | 'DEU' | 'JOS' | 'JDG' | 'RUT' | '1SA' | '2SA' | '1KI' | '2KI' | '1CH' | '2CH' | 'EZR' | 'NEH' | 'EST' | 'JOB' | 'PSA' | 'PRO' | 'ECC' | 'SNG' | 'DAN' | 'FEATURED'
   >(
     currentChapterId.startsWith('DAN-')
       ? 'DAN'
+      : currentChapterId.startsWith('SNG-')
+      ? 'SNG'
+      : currentChapterId.startsWith('ECC-')
+      ? 'ECC'
       : currentChapterId.startsWith('PRO-')
       ? 'PRO'
       : currentChapterId.startsWith('PSA-')
@@ -109,6 +115,8 @@ export const ChapterPickerModal: React.FC = () => {
   const jobChapterNumbers = Array.from({ length: 42 }, (_, i) => i + 1);
   const psalmsChapterNumbers = Array.from({ length: 150 }, (_, i) => i + 1);
   const proverbsChapterNumbers = Array.from({ length: 31 }, (_, i) => i + 1);
+  const eccChapterNumbers = Array.from({ length: 12 }, (_, i) => i + 1);
+  const sngChapterNumbers = Array.from({ length: 8 }, (_, i) => i + 1);
   const danielChapterNumbers = Array.from({ length: 12 }, (_, i) => i + 1);
 
   return (
@@ -356,6 +364,28 @@ export const ChapterPickerModal: React.FC = () => {
             }`}
           >
             <span>Pro (31)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('ECC')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'ECC'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Ecc (12)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('SNG')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'SNG'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Sng (8)</span>
           </button>
 
           <button
@@ -1622,6 +1652,125 @@ export const ChapterPickerModal: React.FC = () => {
             </div>
           )}
 
+          {selectedBookTab === 'ECC' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>12 Chapters · Full WEB Text</span>
+                <span>222 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-4 gap-2 mb-4">
+                {eccChapterNumbers.map((num) => {
+                  const id = `ECC-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = ECCLESIASTES_CHAPTERS[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Ecclesiastes ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#7A9A82] text-white border-[#7A9A82] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#7A9A82]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+
+              <div className="pt-2 border-t border-[#E8E2D7] space-y-1.5">
+                <div className="text-[11px] font-bold uppercase tracking-wider text-[#76746E] px-1">
+                  Key Ecclesiastes Anchors
+                </div>
+                {[
+                  { id: 'ECC-1', label: 'Ch 1 · Vapor & Turning Streams' },
+                  { id: 'ECC-3', label: 'Ch 3 · A Time for Every Season & Eternity' },
+                  { id: 'ECC-4', label: 'Ch 4 · Two Are Better & Threefold Cord' },
+                  { id: 'ECC-9', label: 'Ch 9 · Eat Bread Gladly & Quiet Helper' },
+                  { id: 'ECC-12', label: 'Ch 12 · Remember Your Creator Early' },
+                ].map((shortcut) => (
+                  <button
+                    key={shortcut.id}
+                    onClick={() => handleSelect(shortcut.id)}
+                    className={`w-full text-left px-3 py-2 rounded-xl text-xs font-medium flex items-center justify-between transition-colors cursor-pointer ${
+                      currentChapterId === shortcut.id
+                        ? 'bg-[#EBF2ED] text-[#1F3A27] font-semibold'
+                        : 'bg-[#F3EFE6] hover:bg-[#EBE5DA] text-[#2C2C2A]'
+                    }`}
+                  >
+                    <span>{shortcut.label}</span>
+                    {currentChapterId === shortcut.id && (
+                      <Check className="w-3.5 h-3.5 text-[#7A9A82]" />
+                    )}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {selectedBookTab === 'SNG' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>8 Chapters · Full WEB Text</span>
+                <span>117 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-4 gap-2 mb-4">
+                {sngChapterNumbers.map((num) => {
+                  const id = `SNG-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = SONG_OF_SOLOMON_CHAPTERS[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Song of Solomon ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#7A9A82] text-white border-[#7A9A82] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#7A9A82]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+
+              <div className="pt-2 border-t border-[#E8E2D7] space-y-1.5">
+                <div className="text-[11px] font-bold uppercase tracking-wider text-[#76746E] px-1">
+                  Key Song of Songs Moments
+                </div>
+                {[
+                  { id: 'SNG-2', label: 'Ch 2 · Rose of Sharon & Winter Past' },
+                  { id: 'SNG-4', label: 'Ch 4 · Enclosed Garden & Lebanon Streams' },
+                  { id: 'SNG-6', label: 'Ch 6 · “I Am My Beloved’s, Beloved Is Mine”' },
+                  { id: 'SNG-8', label: 'Ch 8 · Love Strong as Death & Yahweh’s Flame' },
+                ].map((shortcut) => (
+                  <button
+                    key={shortcut.id}
+                    onClick={() => handleSelect(shortcut.id)}
+                    className={`w-full text-left px-3 py-2 rounded-xl text-xs font-medium flex items-center justify-between transition-colors cursor-pointer ${
+                      currentChapterId === shortcut.id
+                        ? 'bg-[#EBF2ED] text-[#1F3A27] font-semibold'
+                        : 'bg-[#F3EFE6] hover:bg-[#EBE5DA] text-[#2C2C2A]'
+                    }`}
+                  >
+                    <span>{shortcut.label}</span>
+                    {currentChapterId === shortcut.id && (
+                      <Check className="w-3.5 h-3.5 text-[#7A9A82]" />
+                    )}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
           {selectedBookTab === 'DAN' && (
             <div>
               <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
@@ -2222,6 +2371,60 @@ export const ChapterPickerModal: React.FC = () => {
                   </p>
                 </div>
                 {currentChapterId.startsWith('PRO-') && (
+                  <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
+                )}
+              </button>
+
+              {/* Ecclesiastes 1–12 */}
+              <button
+                onClick={() => handleSelect('ECC-3')}
+                className={`w-full text-left p-3.5 rounded-2xl border transition-all flex items-center justify-between cursor-pointer ${
+                  currentChapterId.startsWith('ECC-')
+                    ? 'bg-[#EBF2ED] border-[#7A9A82] shadow-sm'
+                    : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+                }`}
+              >
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-serif font-bold text-[#2C2C2A] flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5 text-[#7A9A82]" /> Ecclesiastes 1–12
+                    </span>
+                    <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-[#7A9A82]/15 text-[#5A7D63]">
+                      Full Book
+                    </span>
+                  </div>
+                  <p className="text-xs text-[#6B6862] mt-0.5">
+                    Every season under heaven (3), threefold cord (4:12), and remembering your Creator (12).
+                  </p>
+                </div>
+                {currentChapterId.startsWith('ECC-') && (
+                  <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
+                )}
+              </button>
+
+              {/* Song of Solomon 1–8 */}
+              <button
+                onClick={() => handleSelect('SNG-2')}
+                className={`w-full text-left p-3.5 rounded-2xl border transition-all flex items-center justify-between cursor-pointer ${
+                  currentChapterId.startsWith('SNG-')
+                    ? 'bg-[#EBF2ED] border-[#7A9A82] shadow-sm'
+                    : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+                }`}
+              >
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-serif font-bold text-[#2C2C2A] flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5 text-[#7A9A82]" /> Song of Solomon 1–8
+                    </span>
+                    <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-[#7A9A82]/15 text-[#5A7D63]">
+                      Full Book
+                    </span>
+                  </div>
+                  <p className="text-xs text-[#6B6862] mt-0.5">
+                    Spring awakening after winter rains (2:11) and unquenchable love strong as death (8:6).
+                  </p>
+                </div>
+                {currentChapterId.startsWith('SNG-') && (
                   <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
                 )}
               </button>

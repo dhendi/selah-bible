@@ -430,6 +430,18 @@ const PORTRAIT_URL_MAP: Record<string, { src: string; alt: string }> = {
     src: '/images/portrait-proverbs-31-woman.jpg',
     alt: 'Portrait of the Noble Woman of Proverbs 31',
   },
+  'portrait-qohelet': {
+    src: '/images/portrait-qohelet.jpg',
+    alt: 'Portrait of Qohelet (The Teacher)',
+  },
+  'portrait-shulammite': {
+    src: '/images/portrait-shulammite.jpg',
+    alt: 'Portrait of the Shulammite Bride',
+  },
+  'portrait-beloved-shepherd': {
+    src: '/images/portrait-beloved-shepherd.jpg',
+    alt: 'Portrait of the Beloved Shepherd',
+  },
   'portrait-boaz': {
     src: '/images/portrait-boaz.jpg',
     alt: 'Portrait of Boaz of Bethlehem',

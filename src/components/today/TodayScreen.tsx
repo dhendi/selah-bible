@@ -63,52 +63,60 @@ export const TodayScreen: React.FC = () => {
             </span>
             <span className="text-xs font-medium text-[#76746E]">
               {currentChapterId.startsWith('DAN-')
-                ? 'Lesson 22 of 22'
+                ? 'Lesson 24 of 24'
+                : currentChapterId.startsWith('SNG-')
+                ? 'Lesson 23 of 24'
+                : currentChapterId.startsWith('ECC-')
+                ? 'Lesson 22 of 24'
                 : currentChapterId.startsWith('PRO-')
-                ? 'Lesson 21 of 22'
+                ? 'Lesson 21 of 24'
                 : currentChapterId.startsWith('PSA-')
-                ? 'Lesson 20 of 22'
+                ? 'Lesson 20 of 24'
                 : currentChapterId.startsWith('JOB-')
-                ? 'Lesson 19 of 22'
+                ? 'Lesson 19 of 24'
                 : currentChapterId.startsWith('EST-')
-                ? 'Lesson 18 of 22'
+                ? 'Lesson 18 of 24'
                 : currentChapterId.startsWith('NEH-')
-                ? 'Lesson 17 of 22'
+                ? 'Lesson 17 of 24'
                 : currentChapterId.startsWith('EZR-')
-                ? 'Lesson 16 of 22'
+                ? 'Lesson 16 of 24'
                 : currentChapterId.startsWith('2CH-')
-                ? 'Lesson 15 of 22'
+                ? 'Lesson 15 of 24'
                 : currentChapterId.startsWith('1CH-')
-                ? 'Lesson 14 of 22'
+                ? 'Lesson 14 of 24'
                 : currentChapterId.startsWith('2KI-')
-                ? 'Lesson 13 of 22'
+                ? 'Lesson 13 of 24'
                 : currentChapterId.startsWith('1KI-')
-                ? 'Lesson 12 of 22'
+                ? 'Lesson 12 of 24'
                 : currentChapterId.startsWith('2SA-')
-                ? 'Lesson 11 of 22'
+                ? 'Lesson 11 of 24'
                 : currentChapterId.startsWith('1SA-')
-                ? 'Lesson 10 of 22'
+                ? 'Lesson 10 of 24'
                 : currentChapterId.startsWith('RUT-')
-                ? 'Lesson 9 of 22'
+                ? 'Lesson 9 of 24'
                 : currentChapterId.startsWith('JDG-')
-                ? 'Lesson 8 of 22'
+                ? 'Lesson 8 of 24'
                 : currentChapterId.startsWith('JOS-')
-                ? 'Lesson 7 of 22'
+                ? 'Lesson 7 of 24'
                 : currentChapterId.startsWith('DEU-')
-                ? 'Lesson 6 of 22'
+                ? 'Lesson 6 of 24'
                 : currentChapterId.startsWith('NUM-')
-                ? 'Lesson 5 of 22'
+                ? 'Lesson 5 of 24'
                 : currentChapterId.startsWith('LEV-')
-                ? 'Lesson 4 of 22'
+                ? 'Lesson 4 of 24'
                 : currentChapterId.startsWith('EXO-')
-                ? 'Lesson 2 of 22'
-                : 'Lesson 1 of 22'}
+                ? 'Lesson 2 of 24'
+                : 'Lesson 1 of 24'}
             </span>
           </div>
 
           <h2 className="text-xl font-serif font-bold text-[#2C2C2A] leading-tight">
             {currentChapterId.startsWith('DAN-')
               ? 'Daniel: Fiery Furnace, Lions & Kingdom'
+              : currentChapterId.startsWith('SNG-')
+              ? 'Song of Solomon: Love Strong as Death'
+              : currentChapterId.startsWith('ECC-')
+              ? 'Ecclesiastes: Seasons, Joy & Creator'
               : currentChapterId.startsWith('PRO-')
               ? 'Proverbs: Wisdom, Speech & Integrity'
               : currentChapterId.startsWith('PSA-')
@@ -154,6 +162,10 @@ export const TodayScreen: React.FC = () => {
           <p className="text-xs text-[#6B6862] mt-1.5 leading-relaxed">
             {currentChapterId.startsWith('DAN-')
               ? 'Stand with three friends inside the fiery furnace, kneel in prayer before the lions’ den, and behold the coming Son of Man.'
+              : currentChapterId.startsWith('SNG-')
+              ? 'Step out of winter storms into blooming spring vineyards and celebrate faithful love stronger than death.'
+              : currentChapterId.startsWith('ECC-')
+              ? 'Honor honest seasons under heaven, braid a threefold cord of friendship, and remember your Creator early.'
               : currentChapterId.startsWith('PRO-')
               ? 'Trust Yahweh with all your heart, practice gentle answers that turn away wrath, and walk beside faithful friends.'
               : currentChapterId.startsWith('PSA-')
@@ -284,6 +296,10 @@ export const TodayScreen: React.FC = () => {
                   ? 'psa-praise-shepherd'
                   : currentChapterId.startsWith('PRO-')
                   ? 'pro-wisdom-way'
+                  : currentChapterId.startsWith('ECC-')
+                  ? 'ecc-season-creator'
+                  : currentChapterId.startsWith('SNG-')
+                  ? 'sng-love-song'
                   : currentChapterId.startsWith('DAN-')
                   ? 'dan-exile-kingdom'
                   : currentChapterId === 'EXO-16'
@@ -574,6 +590,30 @@ export const TodayScreen: React.FC = () => {
           >
             <div className="text-xs font-bold font-serif text-[#2C2C2A]">Proverbs 1–31</div>
             <div className="text-[10px] text-[#76746E] mt-0.5">Wisdom, Speech & Trust</div>
+          </button>
+
+          <button
+            onClick={() => handleSelectPath('ECC-3')}
+            className={`p-3 rounded-2xl border text-left transition-all cursor-pointer ${
+              currentChapterId.startsWith('ECC-')
+                ? 'bg-[#EBF2ED] border-[#7A9A82]'
+                : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+            }`}
+          >
+            <div className="text-xs font-bold font-serif text-[#2C2C2A]">Ecclesiastes 1–12</div>
+            <div className="text-[10px] text-[#76746E] mt-0.5">Seasons & Remember God</div>
+          </button>
+
+          <button
+            onClick={() => handleSelectPath('SNG-2')}
+            className={`p-3 rounded-2xl border text-left transition-all cursor-pointer ${
+              currentChapterId.startsWith('SNG-')
+                ? 'bg-[#EBF2ED] border-[#7A9A82]'
+                : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+            }`}
+          >
+            <div className="text-xs font-bold font-serif text-[#2C2C2A]">Song of Solomon 1–8</div>
+            <div className="text-[10px] text-[#76746E] mt-0.5">Spring & Unquenched Love</div>
           </button>
 
           <button

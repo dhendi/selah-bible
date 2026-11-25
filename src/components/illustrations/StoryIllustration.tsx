@@ -229,6 +229,26 @@ function resolveChapterAsset(key: string): { src: string; alt: string } | undefi
       };
     }
   }
+  const eccMatch = /^ill-ecc-(\d+)$/.exec(key);
+  if (eccMatch) {
+    const ch = Number(eccMatch[1]);
+    if (ch >= 1 && ch <= 12) {
+      return {
+        src: `/images/ecc-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Ecclesiastes ${ch} illustration`,
+      };
+    }
+  }
+  const sngMatch = /^ill-sng-(\d+)$/.exec(key);
+  if (sngMatch) {
+    const ch = Number(sngMatch[1]);
+    if (ch >= 1 && ch <= 8) {
+      return {
+        src: `/images/sng-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Song of Solomon ${ch} illustration`,
+      };
+    }
+  }
   const danielMatch = /^ill-dan-(\d+)$/.exec(key);
   if (danielMatch) {
     const ch = Number(danielMatch[1]);

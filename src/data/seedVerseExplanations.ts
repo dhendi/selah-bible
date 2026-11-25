@@ -19,6 +19,8 @@ import { ESTHER_CHAPTERS } from './books/estherChapters';
 import { JOB_CHAPTERS } from './books/jobChapters';
 import { PSALMS_CHAPTERS } from './books/psalmsChapters';
 import { PROVERBS_CHAPTERS } from './books/proverbsChapters';
+import { ECCLESIASTES_CHAPTERS } from './books/ecclesiastesChapters';
+import { SONG_OF_SOLOMON_CHAPTERS } from './books/songOfSolomonChapters';
 import { DANIEL_CHAPTERS } from './books/danielChapters';
 
 export const SEED_VERSE_EXPLANATIONS: Record<string, VerseExplanation> = {
@@ -1435,6 +1437,56 @@ export const SEED_VERSE_EXPLANATIONS: Record<string, VerseExplanation> = {
     tryThisAction: 'Stand up warmly today for someone quieter in your room, team, or neighborhood.',
     kidFriendlySummary: 'Wise helpers don’t brag about being boss—they use their strong voices to stick up kindly for kids or neighbors who feel left out!',
   },
+  'ECC-3:1': {
+    verseId: 'ECC-3:1',
+    verseRef: 'Ecclesiastes 3:1 & 11',
+    whatThisMeans:
+      'Life is never meant to stay stuck in one endless afternoon. There are real seasons for joyful dancing alongside honest grief—and God weaves all of them into purpose far larger than any single snapshot.',
+    lessonForYou:
+      'Stop fighting the season you are in; ask how God can meet you warmly right inside today’s weather.',
+    tryThisAction: 'Name the current season of your week with gratitude instead of wishing it away.',
+    kidFriendlySummary: 'Just like spring buds, summer sunshine, and cozy autumn leaves all belong, God gives every day its right special time!',
+  },
+  'ECC-4:9': {
+    verseId: 'ECC-4:9',
+    verseRef: 'Ecclesiastes 4:9–12',
+    whatThisMeans:
+      'Walking completely alone leaves nobody to catch you on slippery trails. Like strands braided cleanly together into a strong rope, loyal friends multiply warmth, resilience, and joy.',
+    lessonForYou:
+      'Don’t wait until you hit rock bottom to invest gently in trustworthy friends.',
+    tryThisAction: 'Send one honest check-in message today to walk beside a friend this week.',
+    kidFriendlySummary: 'Just like three braided strings won’t snap easily, having faithful friends to help us up makes hard hills much lighter!',
+  },
+  'ECC-12:1': {
+    verseId: 'ECC-12:1',
+    verseRef: 'Ecclesiastes 12:1 & 13',
+    whatThisMeans:
+      'Instead of saving gratitude only for empty crisis days late in life, Ecclesiastes invites young energy and fresh mornings to delight in our Maker early—simplifying life down to awe and loving obedience.',
+    lessonForYou:
+      'Remembering your Creator right in ordinary work turns routine into quiet peace.',
+    tryThisAction: 'Step outside for one quiet minute today noticing sky, breeze, and trees crafted by your Maker.',
+    kidFriendlySummary: 'While we’re young and full of bounce, remembering our kind Creator makes every sunny morning sparkle with joy!',
+  },
+  'SNG-2:11': {
+    verseId: 'SNG-2:11',
+    verseRef: 'Song of Solomon 2:11–12',
+    whatThisMeans:
+      'Winter’s long chill never holds the final word over creation or human hearts. Blossoms unfold, birds sing across valleys, and affection calls lovingly outward into fresh light.',
+    lessonForYou:
+      'Notice small signs of spring renewal sprouting in friendships, hope, and ordinary life today.',
+    tryThisAction: 'Share a fresh note of encouragement today celebrating warmth after a cold stretch.',
+    kidFriendlySummary: 'Winter rain is over, pink flowers are popping out, and little birds are singing happily outside again!',
+  },
+  'SNG-8:6': {
+    verseId: 'SNG-8:6',
+    verseRef: 'Song of Solomon 8:6–7',
+    whatThisMeans:
+      'At its luminous climax, Song of Songs pairs fierce human devotion with the only poetic reference to Yahweh’s flame in the book: faithful love is never cheap luggage bought with cash, but an unquenchable ember lit by Heaven.',
+    lessonForYou:
+      'Cherish loyal, patient love in your life steadily—it outlasts passing glamour every time.',
+    tryThisAction: 'Express warm, sincere appreciation today to someone whose steady care you rarely thank aloud.',
+    kidFriendlySummary: 'Real faithful love is stronger than scary oceans and shines brightly like a warm cozy flame nothing can blow out!',
+  },
 };
 
 export function getExplanationForVerse(verseId: string): VerseExplanation {
@@ -1783,6 +1835,40 @@ export function getExplanationForVerse(verseId: string): VerseExplanation {
       };
     }
     return SEED_VERSE_EXPLANATIONS['PRO-3:5'];
+  }
+
+  if (verseId.startsWith('ECC-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = ECCLESIASTES_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Ecclesiastes ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, Ecclesiastes honors honest questions while pointing toward quiet gratitude and reverence for our Creator.`,
+        tryThisAction: `Ask how ${ref} invites peaceful contentment in your work or friendships today.`,
+        kidFriendlySummary: `${chapData.subtitle} Remembering our Creator brings calm joy in every changing season!`,
+      };
+    }
+    return SEED_VERSE_EXPLANATIONS['ECC-3:1'];
+  }
+
+  if (verseId.startsWith('SNG-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = SONG_OF_SOLOMON_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Song of Solomon ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, Song of Solomon celebrates tender, faithful love and beauty as sacred gifts.`,
+        tryThisAction: `Reflect warmly on ${ref} and express gratitude to someone you love today.`,
+        kidFriendlySummary: `${chapData.subtitle} Faithful, kind love is one of God’s brightest springtime treasures!`,
+      };
+    }
+    return SEED_VERSE_EXPLANATIONS['SNG-8:6'];
   }
 
   if (verseId.startsWith('DAN-')) {
