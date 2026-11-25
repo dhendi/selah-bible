@@ -414,6 +414,22 @@ const PORTRAIT_URL_MAP: Record<string, { src: string; alt: string }> = {
     src: '/images/portrait-haman.jpg',
     alt: 'Portrait of Haman the Agagite',
   },
+  'portrait-lady-wisdom': {
+    src: '/images/portrait-lady-wisdom.jpg',
+    alt: 'Portrait of Lady Wisdom (Chochmah)',
+  },
+  'portrait-agur': {
+    src: '/images/portrait-agur.jpg',
+    alt: 'Portrait of Agur, Son of Jakeh',
+  },
+  'portrait-lemuel': {
+    src: '/images/portrait-lemuel.jpg',
+    alt: 'Portrait of King Lemuel',
+  },
+  'portrait-proverbs-31-woman': {
+    src: '/images/portrait-proverbs-31-woman.jpg',
+    alt: 'Portrait of the Noble Woman of Proverbs 31',
+  },
   'portrait-boaz': {
     src: '/images/portrait-boaz.jpg',
     alt: 'Portrait of Boaz of Bethlehem',

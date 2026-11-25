@@ -4007,6 +4007,130 @@ export const SEED_CHARACTERS: Record<string, CharacterCard> = {
       },
     ],
   },
+  'char-profile-lady-wisdom': {
+    id: 'char-profile-lady-wisdom',
+    name: 'Lady Wisdom (Chochmah)',
+    nameMeaning: 'Hebrew: חָכְמָה / Chochmah ("Skillful Living With God")',
+    era: 'Poetry & Creation Order',
+    roleBadge: 'Women of Faith',
+    portraitIllustrationId: 'portrait-lady-wisdom',
+    quickBio:
+      'God’s poetic voice throughout Proverbs 1–9—not locked behind palace doors, but standing openly at city gates inviting everyday people into humility, honesty, justice, and cosmic joy crafted before the mountains settled.',
+    familyTree: { parents: ['Formed by Yahweh before Creation (Proverbs 8:22)'], siblings: [] },
+    locationsLived: [
+      {
+        placeName: 'City Gates, Crossroads & Seven-Pillar House',
+        roleInLife: 'Calls openly to every learner seeking life and understanding',
+        coordinates: { lat: 31.77, lng: 35.23 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Shows that Scripture’s universe rests on wisdom, beauty, and moral goodness—echoed later in Christ as God’s Wisdom.',
+    ],
+    keyChapters: [
+      {
+        reference: 'Proverbs 8:1–36',
+        label: 'Wisdom’s Delight Beside Yahweh at Creation',
+        storyModuleId: 'story-pro-wisdom-call',
+        chapterId: 'PRO-8',
+        anchorVerseNumber: 22,
+      },
+    ],
+  },
+  'char-profile-agur': {
+    id: 'char-profile-agur',
+    name: 'Agur, Son of Jakeh',
+    nameMeaning: 'Hebrew: Agur ("Gathered / Collector")',
+    era: 'Wisdom Traditions of Massa',
+    roleBadge: 'Prophets',
+    portraitIllustrationId: 'portrait-agur',
+    quickBio:
+      'Refreshingly honest sage of Proverbs 30 who confesses feeling small before God’s infinite wind and waters—praying for modest daily bread (“neither poverty nor riches”) while marveling at four wise tiny creatures.',
+    familyTree: { parents: ['Jakeh'], siblings: [] },
+    locationsLived: [
+      {
+        placeName: 'Massa / Eastern Frontier',
+        roleInLife: 'Spoke humble riddles of dependence and natural wonder to Ithiel and Ucal',
+        coordinates: { lat: 30.2, lng: 35.5 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Gave Scripture its most balanced prayer of contentment (30:8–9) and delighted observation of creation.',
+    ],
+    keyChapters: [
+      {
+        reference: 'Proverbs 30:1–33',
+        label: 'Neither Poverty Nor Riches & Tiny Wise Creatures',
+        storyModuleId: 'story-pro-gentle-steps',
+        chapterId: 'PRO-30',
+        anchorVerseNumber: 8,
+      },
+    ],
+  },
+  'char-profile-lemuel': {
+    id: 'char-profile-lemuel',
+    name: 'King Lemuel',
+    nameMeaning: 'Hebrew: Lemo’el ("Devoted / Belonging to God")',
+    era: 'Wisdom Traditions of Massa',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-lemuel',
+    quickBio:
+      'Young monarch who opens Proverbs 31 by passing along the oracle his own wise mother taught him: stay clear-headed, guard self-control, and open your mouth boldly to defend the voiceless and poor.',
+    familyTree: { parents: ['Wise Queen Mother of Massa'], siblings: [] },
+    locationsLived: [
+      {
+        placeName: 'Royal Gate Court',
+        roleInLife: 'Preserved his mother’s leadership ethic and noble-woman acrostic',
+        coordinates: { lat: 31.5, lng: 35.4 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Anchors political authority in defending vulnerable neighbors rather than indulging royal luxury.',
+    ],
+    keyChapters: [
+      {
+        reference: 'Proverbs 31:1–9',
+        label: 'A Mother’s Charge to Speak Up for the Voiceless',
+        storyModuleId: 'story-pro-noble-hands',
+        chapterId: 'PRO-31',
+        anchorVerseNumber: 8,
+      },
+    ],
+  },
+  'char-profile-proverbs-31-woman': {
+    id: 'char-profile-proverbs-31-woman',
+    name: 'The Noble Woman (Eshet Chayil)',
+    nameMeaning: 'Hebrew: אֵשֶׁת חַיִל / Eshet Chayil ("Woman of Valorous Strength")',
+    era: 'Hebrew Acrostic Ideal',
+    roleBadge: 'Women of Faith',
+    portraitIllustrationId: 'portrait-proverbs-31-woman',
+    quickBio:
+      'Celebrated in the 22-letter alphabetic poem closing Proverbs 31—combining entrepreneurial wisdom in planting vineyards and trade with compassionate hands opening wide to the poor and teaching with kindness on her tongue.',
+    familyTree: { parents: [], siblings: [] },
+    locationsLived: [
+      {
+        placeName: 'Household, Vineyard & City Gate',
+        roleInLife: 'Model of joyful strength, faith, industry, and generosity',
+        coordinates: { lat: 31.77, lng: 35.23 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Uses the same Hebrew word “chayil” (valorous strength) given to Boaz and mighty heroes—honoring everyday faithfulness as heroic.',
+    ],
+    keyChapters: [
+      {
+        reference: 'Proverbs 31:10–31',
+        label: '“She Opens Her Hand to the Poor” & Kindness',
+        storyModuleId: 'story-pro-noble-hands',
+        chapterId: 'PRO-31',
+        anchorVerseNumber: 26,
+      },
+    ],
+  },
 };
 
 export const CHARACTER_DIRECTORY_LIST: CharacterCard[] = [
@@ -4102,5 +4226,9 @@ export const CHARACTER_DIRECTORY_LIST: CharacterCard[] = [
   SEED_CHARACTERS['char-profile-mordecai'],
   SEED_CHARACTERS['char-profile-ahasuerus'],
   SEED_CHARACTERS['char-profile-haman'],
+  SEED_CHARACTERS['char-profile-lady-wisdom'],
+  SEED_CHARACTERS['char-profile-agur'],
+  SEED_CHARACTERS['char-profile-lemuel'],
+  SEED_CHARACTERS['char-profile-proverbs-31-woman'],
   SEED_CHARACTERS['char-profile-peter'],
 ];

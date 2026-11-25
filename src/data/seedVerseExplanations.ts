@@ -18,6 +18,7 @@ import { NEHEMIAH_CHAPTERS } from './books/nehemiahChapters';
 import { ESTHER_CHAPTERS } from './books/estherChapters';
 import { JOB_CHAPTERS } from './books/jobChapters';
 import { PSALMS_CHAPTERS } from './books/psalmsChapters';
+import { PROVERBS_CHAPTERS } from './books/proverbsChapters';
 import { DANIEL_CHAPTERS } from './books/danielChapters';
 
 export const SEED_VERSE_EXPLANATIONS: Record<string, VerseExplanation> = {
@@ -1384,6 +1385,56 @@ export const SEED_VERSE_EXPLANATIONS: Record<string, VerseExplanation> = {
     tryThisAction: 'Share a snack, coffee, or small kindness today with someone who didn’t expect it.',
     kidFriendlySummary: 'Instead of keeping treats only for themselves, families packed yummy food baskets to surprise neighbors and friends in need!',
   },
+  'PRO-1:7': {
+    verseId: 'PRO-1:7',
+    verseRef: 'Proverbs 1:7',
+    whatThisMeans:
+      '“Fear of Yahweh” does not mean shrinking terror; it means wide-eyed awe, respect, and humility acknowledging God knows how life fits together best. That posture is where real learning starts.',
+    lessonForYou:
+      'Wisdom begins the moment we trade know-it-all pride for curious, teachable humility.',
+    tryThisAction: 'Approach one confusing task today asking humbly to learn rather than rushing to look impressive.',
+    kidFriendlySummary: 'The very first secret to growing wise is listening respectfully to the loving Creator who made everything!',
+  },
+  'PRO-3:5': {
+    verseId: 'PRO-3:5',
+    verseRef: 'Proverbs 3:5–6',
+    whatThisMeans:
+      'We are invited to think thoughtfully—yet never lean all our weight solely onto our own narrow map. When we invite God into ordinary work, friendships, and detours (“all your ways”), He smoothly clears straight footing ahead.',
+    lessonForYou:
+      'Anxiety lifts when you admit you don’t have to figure out every mile alone today.',
+    tryThisAction: 'Pick one decision hovering over you and ask God simply to guide your next honest step.',
+    kidFriendlySummary: 'Even when you aren’t sure which trail to pick, trusting God with your whole heart helps Him walk right ahead smoothing the path!',
+  },
+  'PRO-15:1': {
+    verseId: 'PRO-15:1',
+    verseRef: 'Proverbs 15:1',
+    whatThisMeans:
+      'When someone snaps angrily, instinct tells us to fire back twice as sharp. Proverbs points out the surprising strength of calm gentleness—lowering vocal temperature so real listening can happen.',
+    lessonForYou:
+      'Winning an argument harshly usually loses the person; calm gentleness keeps dignity intact.',
+    tryThisAction: 'Pause two slow breaths before replying to the next frustrating message you receive today.',
+    kidFriendlySummary: 'Mean words pour gasoline on fights, but gentle kind words turn grumpy storms into sunshine!',
+  },
+  'PRO-27:17': {
+    verseId: 'PRO-27:17',
+    verseRef: 'Proverbs 27:17',
+    whatThisMeans:
+      'Two soft sponges rubbing together never change shape—only real iron meets honest iron with mild sparks that polish keenness. Real friendships don’t settle for shallow flattery; they help both people grow stronger.',
+    lessonForYou:
+      'Treasure friends loving enough to tell you gentle truth instead of mere applause.',
+    tryThisAction: 'Check in warmly with a trusted friend today—and welcome honest perspective.',
+    kidFriendlySummary: 'Just like clinking tools sharpen each other up, true friends challenge us kindly to be brave, fair, and thoughtful!',
+  },
+  'PRO-31:8': {
+    verseId: 'PRO-31:8',
+    verseRef: 'Proverbs 31:8–9',
+    whatThisMeans:
+      'Closing Solomon’s wisdom collection, King Lemuel quotes his mother reminding leaders why crowns exist: speak up cleanly in defense of neighbors who lack influence or voice.',
+    lessonForYou:
+      'Everyday integrity means noticing who is left out at the table—and speaking up kindly for fairness.',
+    tryThisAction: 'Stand up warmly today for someone quieter in your room, team, or neighborhood.',
+    kidFriendlySummary: 'Wise helpers don’t brag about being boss—they use their strong voices to stick up kindly for kids or neighbors who feel left out!',
+  },
 };
 
 export function getExplanationForVerse(verseId: string): VerseExplanation {
@@ -1715,6 +1766,23 @@ export function getExplanationForVerse(verseId: string): VerseExplanation {
       };
     }
     return SEED_VERSE_EXPLANATIONS['PSA-23:1'];
+  }
+
+  if (verseId.startsWith('PRO-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = PROVERBS_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Proverbs ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, Proverbs invites everyday skill for living rooted in humble awe before God, gentle speech, and honest love.`,
+        tryThisAction: `Apply ${ref} directly in one small conversation or decision ahead today.`,
+        kidFriendlySummary: `${chapData.subtitle} God’s wisdom helps make homes kinder, calmer, and full of joyful learning!`,
+      };
+    }
+    return SEED_VERSE_EXPLANATIONS['PRO-3:5'];
   }
 
   if (verseId.startsWith('DAN-')) {

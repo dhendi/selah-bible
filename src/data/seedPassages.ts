@@ -18,6 +18,7 @@ import { NEHEMIAH_CHAPTERS } from './books/nehemiahChapters';
 import { ESTHER_CHAPTERS } from './books/estherChapters';
 import { JOB_CHAPTERS } from './books/jobChapters';
 import { PSALMS_CHAPTERS } from './books/psalmsChapters';
+import { PROVERBS_CHAPTERS } from './books/proverbsChapters';
 import { DANIEL_CHAPTERS } from './books/danielChapters';
 
 export const SEED_CHAPTERS: Record<string, ChapterData> = {
@@ -40,5 +41,6 @@ export const SEED_CHAPTERS: Record<string, ChapterData> = {
   ...ESTHER_CHAPTERS,
   ...JOB_CHAPTERS,
   ...PSALMS_CHAPTERS,
+  ...PROVERBS_CHAPTERS,
   ...DANIEL_CHAPTERS,
 };

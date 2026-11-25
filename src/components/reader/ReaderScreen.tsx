@@ -377,6 +377,7 @@ export const ReaderScreen: React.FC = () => {
             chapterData.bookId === 'EST' ||
             chapterData.bookId === 'JOB' ||
             chapterData.bookId === 'PSA' ||
+            chapterData.bookId === 'PRO' ||
             chapterData.bookId === 'DAN') && (() => {
             const maxChapters =
               chapterData.bookId === 'GEN'
@@ -417,6 +418,8 @@ export const ReaderScreen: React.FC = () => {
                 ? 42
                 : chapterData.bookId === 'PSA'
                 ? 150
+                : chapterData.bookId === 'PRO'
+                ? 31
                 : 12;
             const prefix = chapterData.bookId;
 

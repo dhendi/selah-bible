@@ -1105,6 +1105,56 @@ export const SEED_QUIZZES: Record<string, QuizQuestion[]> = {
       takeaway: 'True celebration always widens the table toward those in need.',
     },
   ],
+  'pro-wisdom-way': [
+    {
+      id: 'q-pro-1',
+      passageId: 'PRO-3',
+      passageRef: 'Proverbs 3:5–6',
+      question: 'What foundational posture does Proverbs 3:5–6 invite when leaning only on our own cleverness falls short?',
+      options: [
+        'Trust Yahweh with all your heart, acknowledge Him in all ways, and let Him straighten your paths',
+        'Avoid speaking to friends during summer harvest',
+        'Lock silver weights inside stone towers forever',
+        'Move across the desert without asking counsel',
+      ],
+      correctIndex: 0,
+      explanation:
+        'Biblical wisdom never pretends human intellect holds every map—it pairs attentive thinking with wholehearted trust in God.',
+      takeaway: 'Wholehearted trust invites steady direction across uncertain paths.',
+    },
+    {
+      id: 'q-pro-2',
+      passageId: 'PRO-15',
+      passageRef: 'Proverbs 15:1',
+      question: 'According to Proverbs 15:1, what practical tool cools down flaring anger in a tense conversation?',
+      options: [
+        'Raising your voice louder until crowds listen',
+        'A gentle, soft answer',
+        'Walking out before winter rains start',
+        'Sending royal couriers to Susa',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Harshness piles wood onto arguments, while calm, patient words defuse hostility without compromising truth.',
+      takeaway: 'Gentle restraint shows quiet strength in heated rooms.',
+    },
+    {
+      id: 'q-pro-3',
+      passageId: 'PRO-31',
+      passageRef: 'Proverbs 31:8–30',
+      question: 'How do King Lemuel’s mother’s lesson and the closing poem of Proverbs 31 define true honor?',
+      options: [
+        'Speaking up for the voiceless, opening hands cheerfully to the poor, and living in reverence toward Yahweh',
+        'Amassing tall cedar towers without neighbors',
+        'Winning courtroom quarrels over tiny fences',
+        'Boasting loudly before dawn about tomorrow’s crops',
+      ],
+      correctIndex: 0,
+      explanation:
+        'Charm fades and outward flash passes, while reverent wisdom overflowing into compassion for others earns lasting praise.',
+      takeaway: 'Real wisdom always shows up through kindness, justice, and open hands.',
+    },
+  ],
 };
 
 // Quick onboarding mini-quiz check

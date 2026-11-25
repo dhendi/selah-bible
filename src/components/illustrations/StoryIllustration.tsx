@@ -219,6 +219,16 @@ function resolveChapterAsset(key: string): { src: string; alt: string } | undefi
       };
     }
   }
+  const proverbsMatch = /^ill-pro-(\d+)$/.exec(key);
+  if (proverbsMatch) {
+    const ch = Number(proverbsMatch[1]);
+    if (ch >= 1 && ch <= 31) {
+      return {
+        src: `/images/pro-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Proverbs ${ch} illustration`,
+      };
+    }
+  }
   const danielMatch = /^ill-dan-(\d+)$/.exec(key);
   if (danielMatch) {
     const ch = Number(danielMatch[1]);
