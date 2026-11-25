@@ -374,6 +374,7 @@ export const ReaderScreen: React.FC = () => {
             chapterData.bookId === '2CH' ||
             chapterData.bookId === 'EZR' ||
             chapterData.bookId === 'NEH' ||
+            chapterData.bookId === 'EST' ||
             chapterData.bookId === 'JOB' ||
             chapterData.bookId === 'PSA' ||
             chapterData.bookId === 'DAN') && (() => {
@@ -410,6 +411,8 @@ export const ReaderScreen: React.FC = () => {
                 ? 10
                 : chapterData.bookId === 'NEH'
                 ? 13
+                : chapterData.bookId === 'EST'
+                ? 10
                 : chapterData.bookId === 'JOB'
                 ? 42
                 : chapterData.bookId === 'PSA'

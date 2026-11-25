@@ -3869,6 +3869,144 @@ export const SEED_CHARACTERS: Record<string, CharacterCard> = {
       },
     ],
   },
+  'char-profile-esther': {
+    id: 'char-profile-esther',
+    name: 'Queen Esther (Hadassah)',
+    nameMeaning: 'Hebrew: Hadassah ("Myrtle") · Persian: Star',
+    era: 'Persian Empire ~483–473 BC',
+    roleBadge: 'Women of Faith',
+    portraitIllustrationId: 'portrait-esther',
+    quickBio:
+      'Orphaned Jewish maiden raised in Susa by her cousin Mordecai who became queen of Persia—fasting three days before stepping uninvited into the royal throne room, praying “If I perish, I perish,” and rescuing her people “for such a time as this.”',
+    familyTree: { parents: ['Abihail'], siblings: [], spouse: ['char-profile-ahasuerus'] },
+    locationsLived: [
+      {
+        placeName: 'Susa Citadel (Royal Palace)',
+        roleInLife: 'Queen of Persia who courageously saved Israel during Purim',
+        coordinates: { lat: 32.19, lng: 48.25 },
+        mapPinId: 'loc-babylon',
+      },
+    ],
+    whyTheyMatter: [
+      'Shows how patient wisdom, shared fasting, and quiet bravery turn crisis upside down.',
+    ],
+    keyChapters: [
+      {
+        reference: 'Esther 4:1–17',
+        label: '“For Such a Time as This” & Three-Day Fast',
+        storyModuleId: 'story-est-such-a-time',
+        chapterId: 'EST-4',
+        anchorVerseNumber: 14,
+      },
+      {
+        reference: 'Esther 7:1–10',
+        label: 'Banquet Plea & Reversal of Haman’s Plot',
+        storyModuleId: 'story-est-great-reversal',
+        chapterId: 'EST-7',
+        anchorVerseNumber: 3,
+      },
+    ],
+  },
+  'char-profile-mordecai': {
+    id: 'char-profile-mordecai',
+    name: 'Mordecai of Susa',
+    nameMeaning: 'Babylonian / Persian: Marduka (Benjaminite faithful elder)',
+    era: 'Persian Empire ~483–473 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-mordecai',
+    quickBio:
+      'Faithful Benjaminite elder sitting at Susa’s royal gate who raised orphaned cousin Hadassah, exposed an assassination plot in silence, refused to bow to arrogant Haman, urged Esther toward brave action, and served later seeking the peace of all his people.',
+    familyTree: { parents: ['Jair (Tribe of Benjamin)'], siblings: [] },
+    locationsLived: [
+      {
+        placeName: 'Susa King’s Gate',
+        roleInLife: 'Elder guardian of Esther and Prime Minister of Persia',
+        coordinates: { lat: 32.19, lng: 48.25 },
+        mapPinId: 'loc-babylon',
+      },
+    ],
+    whyTheyMatter: [
+      'Forgotten faithfulness at the gate became the exact hinge Heaven turned during one sleepless royal night.',
+    ],
+    keyChapters: [
+      {
+        reference: 'Esther 4:13–17',
+        label: 'Challenging Esther at the Gate in Sackcloth',
+        storyModuleId: 'story-est-such-a-time',
+        chapterId: 'EST-4',
+        anchorVerseNumber: 14,
+      },
+      {
+        reference: 'Esther 6:1–14',
+        label: 'Sleepless Night Chronicle & Unexpected Honor',
+        storyModuleId: 'story-est-great-reversal',
+        chapterId: 'EST-6',
+        anchorVerseNumber: 1,
+      },
+    ],
+  },
+  'char-profile-ahasuerus': {
+    id: 'char-profile-ahasuerus',
+    name: 'King Ahasuerus (Xerxes I)',
+    nameMeaning: 'Hebrew: Achashverosh · Persian: Khshayarsha ("Ruler of Heroes")',
+    era: 'Persian Empire 486–465 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-ahasuerus',
+    quickBio:
+      'Impulsive monarch ruling 127 provinces from India to Cush whose golden scepter spared brave Queen Esther and whose unexpected sleepless night drove him to read royal chronicles honoring forgotten Mordecai.',
+    familyTree: { parents: ['Darius I'], siblings: [], spouse: ['char-profile-esther'] },
+    locationsLived: [
+      {
+        placeName: 'Susa Citadel',
+        roleInLife: 'Persian emperor who sealed the counter-decree saving Israel',
+        coordinates: { lat: 32.19, lng: 48.25 },
+        mapPinId: 'loc-babylon',
+      },
+    ],
+    whyTheyMatter: [
+      'Demonstrates Proverbs 21:1—even an impulsive emperor’s sleepless night bends silently under Heaven’s steering.',
+    ],
+    keyChapters: [
+      {
+        reference: 'Esther 5:1–8',
+        label: 'Golden Scepter Extended Across Inner Court',
+        storyModuleId: 'story-est-such-a-time',
+        chapterId: 'EST-5',
+        anchorVerseNumber: 2,
+      },
+    ],
+  },
+  'char-profile-haman': {
+    id: 'char-profile-haman',
+    name: 'Haman the Agagite',
+    nameMeaning: 'Persian / Elamite: Haman ("Magnificent / Illustrious")',
+    era: 'Persian Empire ~474 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-haman',
+    quickBio:
+      'Vain vizier promoted above Persia’s princes who grew consumed with rage because one man—Mordecai—refused to kneel, casting Pur dice to exterminate every Jewish household before collapsing in his own trap.',
+    familyTree: { parents: ['Hammedatha'], siblings: [] },
+    locationsLived: [
+      {
+        placeName: 'Susa Palace Courts',
+        roleInLife: 'Grand Vizier whose prideful conspiracy reversed on himself',
+        coordinates: { lat: 32.19, lng: 48.25 },
+        mapPinId: 'loc-babylon',
+      },
+    ],
+    whyTheyMatter: [
+      'Embodies Psalm 7’s warning: arrogance digging a pit for innocent neighbors tumbles straight into it.',
+    ],
+    keyChapters: [
+      {
+        reference: 'Esther 7:1–10',
+        label: 'Unmasked at Esther’s Second Banquet',
+        storyModuleId: 'story-est-great-reversal',
+        chapterId: 'EST-7',
+        anchorVerseNumber: 6,
+      },
+    ],
+  },
 };
 
 export const CHARACTER_DIRECTORY_LIST: CharacterCard[] = [
@@ -3960,5 +4098,9 @@ export const CHARACTER_DIRECTORY_LIST: CharacterCard[] = [
   SEED_CHARACTERS['char-profile-ezra'],
   SEED_CHARACTERS['char-profile-nehemiah'],
   SEED_CHARACTERS['char-profile-artaxerxes'],
+  SEED_CHARACTERS['char-profile-esther'],
+  SEED_CHARACTERS['char-profile-mordecai'],
+  SEED_CHARACTERS['char-profile-ahasuerus'],
+  SEED_CHARACTERS['char-profile-haman'],
   SEED_CHARACTERS['char-profile-peter'],
 ];

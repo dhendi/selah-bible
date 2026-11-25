@@ -189,6 +189,16 @@ function resolveChapterAsset(key: string): { src: string; alt: string } | undefi
       };
     }
   }
+  const estherMatch = /^ill-est-(\d+)$/.exec(key);
+  if (estherMatch) {
+    const ch = Number(estherMatch[1]);
+    if (ch >= 1 && ch <= 10) {
+      return {
+        src: `/images/est-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Esther ${ch} illustration`,
+      };
+    }
+  }
   const jobMatch = /^ill-job-(\d+)$/.exec(key);
   if (jobMatch) {
     const ch = Number(jobMatch[1]);

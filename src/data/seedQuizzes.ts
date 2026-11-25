@@ -1055,6 +1055,56 @@ export const SEED_QUIZZES: Record<string, QuizQuestion[]> = {
       takeaway: 'God’s strength flows through grateful joy and shared generosity.',
     },
   ],
+  'est-hidden-providence': [
+    {
+      id: 'q-est-1',
+      passageId: 'EST-4',
+      passageRef: 'Esther 4:14–16',
+      question: 'Before Esther risked death by entering King Ahasuerus’s inner court uninvited, what did she ask Mordecai and Susa’s families to do with her?',
+      options: [
+        'Gather silver coins to bribe the royal guards',
+        'Fast together for three days and three nights while she and her maids fasted too',
+        'Escape silently north toward Nineveh before dawn',
+        'Ask Ezra to bring scrolls from Babylon',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Even though God’s name isn’t mentioned explicitly in Hebrew Esther, shared three-day fasting reveals deep hidden dependence on Heaven’s help.',
+      takeaway: 'Courageous steps rest best on humble, united prayer and fasting.',
+    },
+    {
+      id: 'q-est-2',
+      passageId: 'EST-6',
+      passageRef: 'Esther 6:1–11',
+      question: 'On the very night Haman plotted Mordecai’s death, what ordinary event changed everything in Susa’s palace?',
+      options: [
+        'A sudden Euphrates flood washed away the city gate',
+        'King Ahasuerus couldn’t sleep, had royal chronicles read aloud, and discovered Mordecai’s unrewarded loyalty',
+        'Haman dropped his silver signet ring in the Tigris',
+        'Cyrus returned to rebuild Susa’s walls',
+      ],
+      correctIndex: 1,
+      explanation:
+        'God’s hidden providence often moves through ordinary coincidences—insomnia, old records, and exact timing.',
+      takeaway: 'Quiet integrity is never forgotten even when credit seems delayed.',
+    },
+    {
+      id: 'q-est-3',
+      passageId: 'EST-9',
+      passageRef: 'Esther 9:22',
+      question: 'When sorrow turned into gladness at the first Feast of Purim, what generous practice did Mordecai and Esther establish alongside feasting?',
+      options: [
+        'Sending portions of food to friends and giving gifts to the poor',
+        'Closing Susa’s marble doors for forty days',
+        'Melting bronze pillars into golden statues',
+        'Taxing every island along the Mediterranean Sea',
+      ],
+      correctIndex: 0,
+      explanation:
+        'Purim celebrates God’s rescue by making sure neighbors in need share directly in the feast.',
+      takeaway: 'True celebration always widens the table toward those in need.',
+    },
+  ],
 };
 
 // Quick onboarding mini-quiz check

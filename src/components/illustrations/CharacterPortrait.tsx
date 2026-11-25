@@ -398,6 +398,22 @@ const PORTRAIT_URL_MAP: Record<string, { src: string; alt: string }> = {
     src: '/images/portrait-artaxerxes.jpg',
     alt: 'Portrait of King Artaxerxes of Persia',
   },
+  'portrait-esther': {
+    src: '/images/portrait-esther.jpg',
+    alt: 'Portrait of Queen Esther (Hadassah)',
+  },
+  'portrait-mordecai': {
+    src: '/images/portrait-mordecai.jpg',
+    alt: 'Portrait of Mordecai of Susa',
+  },
+  'portrait-ahasuerus': {
+    src: '/images/portrait-ahasuerus.jpg',
+    alt: 'Portrait of King Ahasuerus (Xerxes)',
+  },
+  'portrait-haman': {
+    src: '/images/portrait-haman.jpg',
+    alt: 'Portrait of Haman the Agagite',
+  },
   'portrait-boaz': {
     src: '/images/portrait-boaz.jpg',
     alt: 'Portrait of Boaz of Bethlehem',

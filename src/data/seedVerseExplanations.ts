@@ -15,6 +15,7 @@ import { FIRST_CHRONICLES_CHAPTERS } from './books/firstChroniclesChapters';
 import { SECOND_CHRONICLES_CHAPTERS } from './books/secondChroniclesChapters';
 import { EZRA_CHAPTERS } from './books/ezraChapters';
 import { NEHEMIAH_CHAPTERS } from './books/nehemiahChapters';
+import { ESTHER_CHAPTERS } from './books/estherChapters';
 import { JOB_CHAPTERS } from './books/jobChapters';
 import { PSALMS_CHAPTERS } from './books/psalmsChapters';
 import { DANIEL_CHAPTERS } from './books/danielChapters';
@@ -1353,6 +1354,36 @@ export const SEED_VERSE_EXPLANATIONS: Record<string, VerseExplanation> = {
     tryThisAction: 'Do one helpful chore or kindness quietly today purely for God’s smile without needing credit.',
     kidFriendlySummary: 'Even when nobody gave trophies, Nehemiah smiled praying to his heavenly Father: “You saw everything, God—thank You!”',
   },
+  'EST-4:14': {
+    verseId: 'EST-4:14',
+    verseRef: 'Esther 4:14',
+    whatThisMeans:
+      'Although the book of Esther never speaks God’s name aloud, providence glows behind every line. When Esther hesitates, Mordecai asks gently: what if every closed door, orphan loss, and unexpected turn placed you right here for this very moment?',
+    lessonForYou:
+      'You never end up where you are purely by accident—small everyday positions can serve loving purpose.',
+    tryThisAction: 'Notice one neighbor, classmate, or coworker today whom you are uniquely positioned to encourage.',
+    kidFriendlySummary: 'Mordecai reminded shy Esther: “Maybe God let you become queen right now so you could be super brave and help people!”',
+  },
+  'EST-6:1': {
+    verseId: 'EST-6:1',
+    verseRef: 'Esther 6:1',
+    whatThisMeans:
+      'While arrogant Haman spends the night celebrating his plot, King Ahasuerus simply cannot fall asleep—and happens to ask for old state records opened right to Mordecai’s unrewarded act of loyalty years earlier.',
+    lessonForYou:
+      'Doing good when nobody applauds is safe with God; He keeps exact timing when ordinary moments seem unremarkable.',
+    tryThisAction: 'Trust God peacefully tonight with one piece of unfinished good work you have done silently.',
+    kidFriendlySummary: 'When the king couldn’t sleep all night, God quietly helped him read the exact dusty scroll page remembering brave Mordecai!',
+  },
+  'EST-9:22': {
+    verseId: 'EST-9:22',
+    verseRef: 'Esther 9:22',
+    whatThisMeans:
+      'Marking how dread gave way to joy across Persian cities, Mordecai makes generosity the centerpiece of Purim: send food baskets to friends and remember the poor directly so nobody celebrates alone.',
+    lessonForYou:
+      'Gratitude after rescue feels shallow unless it overflows toward those who still need help today.',
+    tryThisAction: 'Share a snack, coffee, or small kindness today with someone who didn’t expect it.',
+    kidFriendlySummary: 'Instead of keeping treats only for themselves, families packed yummy food baskets to surprise neighbors and friends in need!',
+  },
 };
 
 export function getExplanationForVerse(verseId: string): VerseExplanation {
@@ -1633,6 +1664,23 @@ export function getExplanationForVerse(verseId: string): VerseExplanation {
       };
     }
     return SEED_VERSE_EXPLANATIONS['NEH-8:10'];
+  }
+
+  if (verseId.startsWith('EST-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = ESTHER_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Esther ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, Esther reminds us God’s quiet providence works through fasting, wise courage, and unexpected reversals.`,
+        tryThisAction: `Ask where you may be placed “for such a time as this” today while reflecting on ${ref}.`,
+        kidFriendlySummary: `${chapData.subtitle} God watches over His people quietly—turning scary days into Purim joy!`,
+      };
+    }
+    return SEED_VERSE_EXPLANATIONS['EST-4:14'];
   }
 
   if (verseId.startsWith('JOB-')) {
