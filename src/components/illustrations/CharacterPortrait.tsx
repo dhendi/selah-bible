@@ -334,6 +334,26 @@ const PORTRAIT_URL_MAP: Record<string, { src: string; alt: string }> = {
     src: '/images/portrait-darius.jpg',
     alt: 'King Darius the Mede',
   },
+  'portrait-jabez': {
+    src: '/images/portrait-jabez.jpg',
+    alt: 'Portrait of Jabez of Judah',
+  },
+  'portrait-benaiah': {
+    src: '/images/portrait-benaiah.jpg',
+    alt: 'Portrait of Benaiah, Mighty Warrior & Commander',
+  },
+  'portrait-abishai': {
+    src: '/images/portrait-abishai.jpg',
+    alt: 'Portrait of Abishai, Captain of the Thirty',
+  },
+  'portrait-zadok': {
+    src: '/images/portrait-zadok.jpg',
+    alt: 'Portrait of Zadok the High Priest',
+  },
+  'portrait-jeduthun': {
+    src: '/images/portrait-jeduthun.jpg',
+    alt: 'Portrait of Jeduthun (Ethan), Chief Sanctuary Musician',
+  },
   'portrait-boaz': {
     src: '/images/portrait-boaz.jpg',
     alt: 'Portrait of Boaz of Bethlehem',

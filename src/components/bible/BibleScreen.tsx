@@ -18,6 +18,7 @@ const BOOK_SEQUENCE: { bookId: string; bookName: string; chapters: number }[] = 
   { bookId: '2SA', bookName: '2 Samuel', chapters: 24 },
   { bookId: '1KI', bookName: '1 Kings', chapters: 22 },
   { bookId: '2KI', bookName: '2 Kings', chapters: 25 },
+  { bookId: '1CH', bookName: '1 Chronicles', chapters: 29 },
   { bookId: 'JOB', bookName: 'Job', chapters: 42 },
   { bookId: 'PSA', bookName: 'Psalms', chapters: 150 },
   { bookId: 'DAN', bookName: 'Daniel', chapters: 12 },

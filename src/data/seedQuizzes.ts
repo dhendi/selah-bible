@@ -855,6 +855,56 @@ export const SEED_QUIZZES: Record<string, QuizQuestion[]> = {
       takeaway: 'Human empires roar briefly, while God’s gentle everlasting Kingdom stands forever.',
     },
   ],
+  '1ch-temple-worship': [
+    {
+      id: 'q-1ch-1',
+      passageId: '1CH-4',
+      passageRef: '1 Chronicles 4:9–10',
+      question: 'Tucked quietly inside the opening genealogies of 1 Chronicles, why was humble Jabez remembered above his brothers?',
+      options: [
+        'He captured Damascus with sixty golden chariots',
+        'He called honestly upon the God of Israel for blessing, presence, and protection from harm—and God granted his request',
+        'He carved twelve cedar pillars for Babylon',
+        'He composed all 150 Psalms in Hebron',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Even though his mother named him Jabez (“Sorrowful”), he looked to God in trust rather than accepting defeat—showing God notices quiet individual prayers inside long family histories.',
+      takeaway: 'Past pain never closes the door to bold, humble prayer.',
+    },
+    {
+      id: 'q-1ch-2',
+      passageId: '1CH-21',
+      passageRef: '1 Chronicles 21:22–26',
+      question: 'When Ornan offered his threshing floor, oxen, and wood for free, why did King David insist on paying full price?',
+      options: [
+        'David wanted to turn the threshing floor into a royal wheat barn',
+        'Because he refused to offer Yahweh burnt offerings that cost him nothing',
+        'Because Levites forbade stone altars outside Hebron',
+        'Because Solomon needed silver ingots for ships at Tarshish',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Genuine worship gives out of wholehearted love and integrity rather than convenience—and Mount Moriah’s threshing floor became the very ground of Solomon’s Temple.',
+      takeaway: 'Wholehearted gratitude never brings God leftover devotion.',
+    },
+    {
+      id: 'q-1ch-3',
+      passageId: '1CH-29',
+      passageRef: '1 Chronicles 29:11–14',
+      question: 'After leaders and families gave generously toward building the Temple, what truth grounded King David’s joyful prayer?',
+      options: [
+        'That Israel had earned favor by stone architecture alone',
+        'That “all things come from You, and we have given You of Your own”',
+        'That only kings are permitted to bring bronze vessels',
+        'That Jerusalem walls would never need repairs',
+      ],
+      correctIndex: 1,
+      explanation:
+        '1 Chronicles closes in wonder rather than pride: generous giving overflows cheerfully when we remember every talent, breath, and resource came from God’s open hand first.',
+      takeaway: 'Cheerful generosity flows naturally from grateful stewardship.',
+    },
+  ],
 };
 
 // Quick onboarding mini-quiz check

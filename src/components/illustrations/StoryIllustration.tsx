@@ -149,6 +149,16 @@ function resolveChapterAsset(key: string): { src: string; alt: string } | undefi
       };
     }
   }
+  const firstChroniclesMatch = /^ill-1ch-(\d+)$/.exec(key);
+  if (firstChroniclesMatch) {
+    const ch = Number(firstChroniclesMatch[1]);
+    if (ch >= 1 && ch <= 29) {
+      return {
+        src: `/images/1ch-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `1 Chronicles ${ch} illustration`,
+      };
+    }
+  }
   const jobMatch = /^ill-job-(\d+)$/.exec(key);
   if (jobMatch) {
     const ch = Number(jobMatch[1]);

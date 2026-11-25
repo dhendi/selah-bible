@@ -63,34 +63,36 @@ export const TodayScreen: React.FC = () => {
             </span>
             <span className="text-xs font-medium text-[#76746E]">
               {currentChapterId.startsWith('DAN-')
-                ? 'Lesson 16 of 16'
+                ? 'Lesson 17 of 17'
                 : currentChapterId.startsWith('PSA-')
-                ? 'Lesson 15 of 16'
+                ? 'Lesson 16 of 17'
                 : currentChapterId.startsWith('JOB-')
-                ? 'Lesson 14 of 16'
+                ? 'Lesson 15 of 17'
+                : currentChapterId.startsWith('1CH-')
+                ? 'Lesson 14 of 17'
                 : currentChapterId.startsWith('2KI-')
-                ? 'Lesson 13 of 16'
+                ? 'Lesson 13 of 17'
                 : currentChapterId.startsWith('1KI-')
-                ? 'Lesson 12 of 16'
+                ? 'Lesson 12 of 17'
                 : currentChapterId.startsWith('2SA-')
-                ? 'Lesson 11 of 16'
+                ? 'Lesson 11 of 17'
                 : currentChapterId.startsWith('1SA-')
-                ? 'Lesson 10 of 16'
+                ? 'Lesson 10 of 17'
                 : currentChapterId.startsWith('RUT-')
-                ? 'Lesson 9 of 16'
+                ? 'Lesson 9 of 17'
                 : currentChapterId.startsWith('JDG-')
-                ? 'Lesson 8 of 16'
+                ? 'Lesson 8 of 17'
                 : currentChapterId.startsWith('JOS-')
-                ? 'Lesson 7 of 16'
+                ? 'Lesson 7 of 17'
                 : currentChapterId.startsWith('DEU-')
-                ? 'Lesson 6 of 16'
+                ? 'Lesson 6 of 17'
                 : currentChapterId.startsWith('NUM-')
-                ? 'Lesson 5 of 16'
+                ? 'Lesson 5 of 17'
                 : currentChapterId.startsWith('LEV-')
-                ? 'Lesson 4 of 16'
+                ? 'Lesson 4 of 17'
                 : currentChapterId.startsWith('EXO-')
-                ? 'Lesson 2 of 16'
-                : 'Lesson 1 of 16'}
+                ? 'Lesson 2 of 17'
+                : 'Lesson 1 of 17'}
             </span>
           </div>
 
@@ -101,6 +103,8 @@ export const TodayScreen: React.FC = () => {
               ? 'Psalms: Prayers, Laments & Hallelujahs'
               : currentChapterId.startsWith('JOB-')
               ? 'Job: Suffering, Wisdom & Whirlwind'
+              : currentChapterId.startsWith('1CH-')
+              ? '1 Chronicles: Worship, Legacy & Praise'
               : currentChapterId.startsWith('2KI-')
               ? '2 Kings: Elisha, Hezekiah & Josiah'
               : currentChapterId.startsWith('1KI-')
@@ -134,6 +138,8 @@ export const TodayScreen: React.FC = () => {
               ? 'Sing beside green pastures in Psalm 23, pray for a clean heart in Psalm 51, and lift Hallelujahs across all 150 Psalms.'
               : currentChapterId.startsWith('JOB-')
               ? 'Walk through sudden loss in Uz, proclaim “my Redeemer lives,” and hear Yahweh speak out of the whirlwind.'
+              : currentChapterId.startsWith('1CH-')
+              ? 'Pray with humble Jabez, sing before the Ark in Jerusalem, stand on Ornan’s threshing floor, and give joyfully with King David.'
               : currentChapterId.startsWith('2KI-')
               ? 'See Elisha’s eyes opened at Dothan, Naaman healed in the Jordan, and young King Josiah rediscover the Torah scroll.'
               : currentChapterId.startsWith('1KI-')
@@ -232,6 +238,8 @@ export const TodayScreen: React.FC = () => {
                   ? '1ki-wisdom-prophets'
                   : currentChapterId.startsWith('2KI-')
                   ? '2ki-mercy-reform'
+                  : currentChapterId.startsWith('1CH-')
+                  ? '1ch-temple-worship'
                   : currentChapterId.startsWith('JOB-')
                   ? 'job-suffering-whirlwind'
                   : currentChapterId.startsWith('PSA-')
@@ -430,6 +438,18 @@ export const TodayScreen: React.FC = () => {
           >
             <div className="text-xs font-bold font-serif text-[#2C2C2A]">2 Kings 1–25</div>
             <div className="text-[10px] text-[#76746E] mt-0.5">Elisha, Hezekiah & Josiah</div>
+          </button>
+
+          <button
+            onClick={() => handleSelectPath('1CH-16')}
+            className={`p-3 rounded-2xl border text-left transition-all cursor-pointer ${
+              currentChapterId.startsWith('1CH-')
+                ? 'bg-[#EBF2ED] border-[#7A9A82]'
+                : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+            }`}
+          >
+            <div className="text-xs font-bold font-serif text-[#2C2C2A]">1 Chronicles 1–29</div>
+            <div className="text-[10px] text-[#76746E] mt-0.5">Jabez, Ark Praise & Temple</div>
           </button>
 
           <button

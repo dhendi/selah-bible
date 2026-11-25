@@ -13,6 +13,7 @@ import { FIRST_SAMUEL_CHAPTERS } from '../../data/books/firstSamuelChapters';
 import { SECOND_SAMUEL_CHAPTERS } from '../../data/books/secondSamuelChapters';
 import { FIRST_KINGS_CHAPTERS } from '../../data/books/firstKingsChapters';
 import { SECOND_KINGS_CHAPTERS } from '../../data/books/secondKingsChapters';
+import { FIRST_CHRONICLES_CHAPTERS } from '../../data/books/firstChroniclesChapters';
 import { JOB_CHAPTERS } from '../../data/books/jobChapters';
 import { PSALMS_CHAPTERS } from '../../data/books/psalmsChapters';
 import { DANIEL_CHAPTERS } from '../../data/books/danielChapters';
@@ -28,7 +29,7 @@ export const ChapterPickerModal: React.FC = () => {
   } = useStudyStore();
 
   const [selectedBookTab, setSelectedBookTab] = useState<
-    'GEN' | 'EXO' | 'LEV' | 'NUM' | 'DEU' | 'JOS' | 'JDG' | 'RUT' | '1SA' | '2SA' | '1KI' | '2KI' | 'JOB' | 'PSA' | 'DAN' | 'FEATURED'
+    'GEN' | 'EXO' | 'LEV' | 'NUM' | 'DEU' | 'JOS' | 'JDG' | 'RUT' | '1SA' | '2SA' | '1KI' | '2KI' | '1CH' | 'JOB' | 'PSA' | 'DAN' | 'FEATURED'
   >(
     currentChapterId.startsWith('DAN-')
       ? 'DAN'
@@ -36,6 +37,8 @@ export const ChapterPickerModal: React.FC = () => {
       ? 'PSA'
       : currentChapterId.startsWith('JOB-')
       ? 'JOB'
+      : currentChapterId.startsWith('1CH-')
+      ? '1CH'
       : currentChapterId.startsWith('2KI-')
       ? '2KI'
       : currentChapterId.startsWith('1KI-')
@@ -83,6 +86,7 @@ export const ChapterPickerModal: React.FC = () => {
   const secondSamuelChapterNumbers = Array.from({ length: 24 }, (_, i) => i + 1);
   const firstKingsChapterNumbers = Array.from({ length: 22 }, (_, i) => i + 1);
   const secondKingsChapterNumbers = Array.from({ length: 25 }, (_, i) => i + 1);
+  const firstChroniclesChapterNumbers = Array.from({ length: 29 }, (_, i) => i + 1);
   const jobChapterNumbers = Array.from({ length: 42 }, (_, i) => i + 1);
   const psalmsChapterNumbers = Array.from({ length: 150 }, (_, i) => i + 1);
   const danielChapterNumbers = Array.from({ length: 12 }, (_, i) => i + 1);
@@ -244,6 +248,17 @@ export const ChapterPickerModal: React.FC = () => {
             }`}
           >
             <span>2Ki (25)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('1CH')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === '1CH'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>1Ch (29)</span>
           </button>
 
           <button
@@ -1034,6 +1049,69 @@ export const ChapterPickerModal: React.FC = () => {
             </div>
           )}
 
+          {selectedBookTab === '1CH' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>29 Chapters · Full WEB Text</span>
+                <span>942 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-5 gap-2 mb-4">
+                {firstChroniclesChapterNumbers.map((num) => {
+                  const id = `1CH-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = FIRST_CHRONICLES_CHAPTERS[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `1 Chronicles ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#C88A6B] text-white border-[#C88A6B] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#C88A6B]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+
+              <div className="pt-2 border-t border-[#E8E2D7] space-y-1.5">
+                <div className="text-[11px] font-bold uppercase tracking-wider text-[#76746E] px-1">
+                  Key 1 Chronicles Turning Points
+                </div>
+                {[
+                  { id: '1CH-4', label: 'Ch 4 · Humble Prayer of Jabez Inside Judah’s Tree' },
+                  { id: '1CH-11', label: 'Ch 11 · David Crowned & Benaiah’s Lion in Snow' },
+                  { id: '1CH-15', label: 'Ch 15 · Levites Carry the Ark With Trumpets' },
+                  { id: '1CH-16', label: 'Ch 16 · “For His Lovingkindness Endures Forever!”' },
+                  { id: '1CH-17', label: 'Ch 17 · Prophet Nathan & Eternal Covenant Promise' },
+                  { id: '1CH-21', label: 'Ch 21 · Altar of Mercy on Ornan’s Threshing Floor' },
+                  { id: '1CH-28', label: 'Ch 28 · Temple Blueprint Scroll & “Be Strong!”' },
+                  { id: '1CH-29', label: 'Ch 29 · Cheerful Offerings & David’s Doxology' },
+                ].map((shortcut) => (
+                  <button
+                    key={shortcut.id}
+                    onClick={() => handleSelect(shortcut.id)}
+                    className={`w-full text-left px-3 py-2 rounded-xl text-xs font-medium flex items-center justify-between transition-colors cursor-pointer ${
+                      currentChapterId === shortcut.id
+                        ? 'bg-[#F7EBE4] text-[#8F5338] font-semibold'
+                        : 'bg-[#F3EFE6] hover:bg-[#EBE5DA] text-[#2C2C2A]'
+                    }`}
+                  >
+                    <span>{shortcut.label}</span>
+                    {currentChapterId === shortcut.id && (
+                      <Check className="w-3.5 h-3.5 text-[#C88A6B]" />
+                    )}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
           {selectedBookTab === 'JOB' && (
             <div>
               <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
@@ -1544,6 +1622,33 @@ export const ChapterPickerModal: React.FC = () => {
                   </p>
                 </div>
                 {currentChapterId.startsWith('2KI-') && (
+                  <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
+                )}
+              </button>
+
+              {/* 1 Chronicles 1–29 */}
+              <button
+                onClick={() => handleSelect('1CH-16')}
+                className={`w-full text-left p-3.5 rounded-2xl border transition-all flex items-center justify-between cursor-pointer ${
+                  currentChapterId.startsWith('1CH-')
+                    ? 'bg-[#EBF2ED] border-[#7A9A82] shadow-sm'
+                    : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+                }`}
+              >
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-serif font-bold text-[#2C2C2A] flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5 text-[#C88A6B]" /> 1 Chronicles 1–29
+                    </span>
+                    <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-[#F7EBE4] text-[#8F5338]">
+                      Full Book
+                    </span>
+                  </div>
+                  <p className="text-xs text-[#6B6862] mt-0.5">
+                    Prayer of Jabez, Ark thanksgiving praise, Ornan’s threshing floor, and cheerful Temple giving.
+                  </p>
+                </div>
+                {currentChapterId.startsWith('1CH-') && (
                   <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
                 )}
               </button>

@@ -3317,6 +3317,189 @@ export const SEED_CHARACTERS: Record<string, CharacterCard> = {
       },
     ],
   },
+  'char-profile-jabez': {
+    id: 'char-profile-jabez',
+    name: 'Jabez of Judah',
+    nameMeaning: 'Hebrew: Yabetz ("He Will Cause Pain" — reclaimed through prayer)',
+    era: 'Early Settlement of Judah',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-jabez',
+    quickBio:
+      'Named “Sorrowful” by his mother after a painful birth, Jabez stood out in Judah’s genealogies as “more honorable than his brothers” simply because he asked God for blessing, protection, and good purpose—and God answered.',
+    familyTree: { parents: ['Judahite Household'], siblings: ['Brothers of Judah'] },
+    locationsLived: [
+      {
+        placeName: 'Judah (Jabez Settlement)',
+        roleInLife: 'Founded scribe-tented town bearing his name (1 Chronicles 2:55)',
+        coordinates: { lat: 31.6, lng: 35.1 },
+        mapPinId: 'loc-bethlehem',
+      },
+    ],
+    whyTheyMatter: [
+      'Shows that painful origins never dictate destiny when we bring honest, simple prayer to God.',
+    ],
+    keyChapters: [
+      {
+        reference: '1 Chronicles 4:9–10',
+        label: 'Prayer of Jabez Inside the Genealogies',
+        storyModuleId: 'story-1ch-jabez',
+        chapterId: '1CH-4',
+        anchorVerseNumber: 10,
+      },
+    ],
+  },
+  'char-profile-benaiah': {
+    id: 'char-profile-benaiah',
+    name: 'Benaiah, Son of Jehoiada',
+    nameMeaning: 'Hebrew: Benayahu ("Yahweh Has Built Up")',
+    era: 'United Monarchy ~1010–970 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-benaiah',
+    quickBio:
+      'Priest’s son from Kabzeel who became David’s fearless bodyguard captain—famous for descending into a snowy cistern alone to slay a lion, disarming a towering Egyptian spearman, and commanding King Solomon’s armies.',
+    familyTree: { parents: ['Jehoiada (Chief Priest)'], siblings: [] },
+    locationsLived: [
+      {
+        placeName: 'Jerusalem (City of David)',
+        roleInLife: 'Commander of the Kerethites, Pelethites, and Third Month Guard (1 Chron 27:5)',
+        coordinates: { lat: 31.77, lng: 35.23 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Demonstrates steady, disciplined courage in thankless hard days—rising from lion-pit faithfulness to lifelong royal trust.',
+    ],
+    keyChapters: [
+      {
+        reference: '1 Chronicles 11:22–25',
+        label: 'Lion in a Snowy Pit & Captain of the Guard',
+        storyModuleId: 'story-1ch-jabez',
+        chapterId: '1CH-11',
+        anchorVerseNumber: 22,
+      },
+      {
+        reference: '1 Chronicles 27:5–6',
+        label: 'Third Monthly Division Commander',
+        storyModuleId: 'story-1ch-cheerful-giving',
+        chapterId: '1CH-27',
+        anchorVerseNumber: 5,
+      },
+    ],
+  },
+  'char-profile-abishai': {
+    id: 'char-profile-abishai',
+    name: 'Abishai, Son of Zeruiah',
+    nameMeaning: 'Hebrew: Avishai ("My Father Is a Gift")',
+    era: 'United Monarchy ~1015–980 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-abishai',
+    quickBio:
+      'David’s devoted nephew, Joab’s brother, and leader of the famed Thirty Warriors—standing shoulder to shoulder with his brother in two-front battle while encouraging Israel to trust whatever Yahweh sees as good.',
+    familyTree: { parents: ['Zeruiah (Sister of David)'], siblings: ['char-profile-joab', 'Asahel'] },
+    locationsLived: [
+      {
+        placeName: 'Jerusalem & Judean Frontier',
+        roleInLife: 'Most honored captain of the Thirty Warriors (1 Chron 11:20–21)',
+        coordinates: { lat: 31.77, lng: 35.23 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Models fierce personal loyalty beside David from wilderness caves to later national battles.',
+    ],
+    keyChapters: [
+      {
+        reference: '1 Chronicles 11:20–21',
+        label: 'Chief Captain of the Thirty',
+        storyModuleId: 'story-1ch-jabez',
+        chapterId: '1CH-11',
+        anchorVerseNumber: 20,
+      },
+      {
+        reference: '1 Chronicles 19:11–15',
+        label: 'Brothers Back-to-Back Against Syria & Ammon',
+        storyModuleId: 'story-1ch-ark-praise',
+        chapterId: '1CH-19',
+        anchorVerseNumber: 13,
+      },
+    ],
+  },
+  'char-profile-zadok': {
+    id: 'char-profile-zadok',
+    name: 'Zadok the High Priest',
+    nameMeaning: 'Hebrew: Tzadok ("Righteous / Just")',
+    era: 'David & Solomon ~1010–950 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-zadok',
+    quickBio:
+      'Joined David at Hebron as a courageous young warrior-priest leading twenty-two commanders, carried the golden Ark with purified Levites into Jerusalem, organized the twenty-four priestly courses, and anointed Solomon.',
+    familyTree: { parents: ['Ahitub (Line of Eleazar)'], siblings: [] },
+    locationsLived: [
+      {
+        placeName: 'Hebron & Jerusalem',
+        roleInLife: 'High Priest at the Tabernacle at Gibeon & Jerusalem Sanctuary (1 Chron 16:39)',
+        coordinates: { lat: 31.77, lng: 35.23 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Fidelity at both altar and crisis made his name synonymous with faithful priesthood across Kings, Chronicles, and Ezekiel.',
+    ],
+    keyChapters: [
+      {
+        reference: '1 Chronicles 15:11–15',
+        label: 'Sanctifying Priests to Bear the Ark',
+        storyModuleId: 'story-1ch-ark-praise',
+        chapterId: '1CH-15',
+        anchorVerseNumber: 11,
+      },
+      {
+        reference: '1 Chronicles 24:1–6',
+        label: 'Twenty-Four Courses of Temple Service',
+        storyModuleId: 'story-1ch-cheerful-giving',
+        chapterId: '1CH-24',
+        anchorVerseNumber: 3,
+      },
+    ],
+  },
+  'char-profile-jeduthun': {
+    id: 'char-profile-jeduthun',
+    name: 'Jeduthun (Ethan), Worship Leader',
+    nameMeaning: 'Hebrew: Yedutun ("Praising / Confessing") · Ethan ("Enduring")',
+    era: 'Reign of King David ~1000 BC',
+    roleBadge: 'Prophets',
+    portraitIllustrationId: 'portrait-jeduthun',
+    quickBio:
+      'Appointed alongside Asaph and Heman to strike bronze cymbals and prophesy upon harps before the Ark—leading morning and evening choirs in repeating: “Give thanks to Yahweh, for His lovingkindness endures forever!”',
+    familyTree: { parents: ['Kishi / Kushaiah (Merarite Levite)'], siblings: ['Guilds of Asaph & Heman'] },
+    locationsLived: [
+      {
+        placeName: 'Jerusalem & Gibeon Sanctuaries',
+        roleInLife: 'Chief Musician prophesying with harp and thanksgiving (1 Chron 16:41; 25:1–3)',
+        coordinates: { lat: 31.77, lng: 35.23 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Unites musical craft with prophetic ministry—putting Psalms 39, 62, 77, and 89 in Israel’s hands.',
+    ],
+    keyChapters: [
+      {
+        reference: '1 Chronicles 16:37–42',
+        label: 'Morning & Evening Singers Before the Ark',
+        storyModuleId: 'story-1ch-ark-praise',
+        chapterId: '1CH-16',
+        anchorVerseNumber: 41,
+      },
+      {
+        reference: '1 Chronicles 25:1–6',
+        label: 'Prophesying With Harps & Thanksgiving',
+        storyModuleId: 'story-1ch-cheerful-giving',
+        chapterId: '1CH-25',
+        anchorVerseNumber: 3,
+      },
+    ],
+  },
 };
 
 export const CHARACTER_DIRECTORY_LIST: CharacterCard[] = [
@@ -3392,5 +3575,10 @@ export const CHARACTER_DIRECTORY_LIST: CharacterCard[] = [
   SEED_CHARACTERS['char-profile-abednego'],
   SEED_CHARACTERS['char-profile-nebuchadnezzar'],
   SEED_CHARACTERS['char-profile-darius'],
+  SEED_CHARACTERS['char-profile-jabez'],
+  SEED_CHARACTERS['char-profile-benaiah'],
+  SEED_CHARACTERS['char-profile-abishai'],
+  SEED_CHARACTERS['char-profile-zadok'],
+  SEED_CHARACTERS['char-profile-jeduthun'],
   SEED_CHARACTERS['char-profile-peter'],
 ];

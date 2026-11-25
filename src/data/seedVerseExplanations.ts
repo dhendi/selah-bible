@@ -11,6 +11,7 @@ import { FIRST_SAMUEL_CHAPTERS } from './books/firstSamuelChapters';
 import { SECOND_SAMUEL_CHAPTERS } from './books/secondSamuelChapters';
 import { FIRST_KINGS_CHAPTERS } from './books/firstKingsChapters';
 import { SECOND_KINGS_CHAPTERS } from './books/secondKingsChapters';
+import { FIRST_CHRONICLES_CHAPTERS } from './books/firstChroniclesChapters';
 import { JOB_CHAPTERS } from './books/jobChapters';
 import { PSALMS_CHAPTERS } from './books/psalmsChapters';
 import { DANIEL_CHAPTERS } from './books/danielChapters';
@@ -1189,6 +1190,56 @@ export const SEED_VERSE_EXPLANATIONS: Record<string, VerseExplanation> = {
     tryThisAction: 'Send one encouraging note today to help a friend keep walking hopefully.',
     kidFriendlySummary: 'God promises everyone who stays kind, wise, and helpful will sparkle forever like bright stars in the night sky!',
   },
+  '1CH-4:10': {
+    verseId: '1CH-4:10',
+    verseRef: '1 Chronicles 4:10',
+    whatThisMeans:
+      'Placed quietly inside long lists of Judah’s families, Jabez (“Sorrowful”) refuses to let a painful start define his story. He asks God for wholehearted blessing, wider usefulness, steady companionship (“Your hand with me”), and protection from evil—and Scripture simply writes: “God granted what he requested.”',
+    lessonForYou:
+      'God never loses track of an individual heart inside a big crowd or slow chapter of life.',
+    tryThisAction: 'Pray Jabez’s simple four-part prayer today: ask God for His hand beside you in one task ahead.',
+    kidFriendlySummary: 'Even inside a giant list of family names, God stopped to listen to humble Jabez’s short prayer—and gave him a joyful yes!',
+  },
+  '1CH-16:34': {
+    verseId: '1CH-16:34',
+    verseRef: '1 Chronicles 16:34',
+    whatThisMeans:
+      'As Levites carry the Ark joyfully into Jerusalem on cedar poles, David puts this unforgettable chorus on the lips of Asaph, Heman, and Jeduthun: Yahweh is good, and His covenant faithfulness (chesed) never wears thin.',
+    lessonForYou:
+      'Gratitude re-anchors anxious hearts around God’s unchanging kindness rather than shifting headlines.',
+    tryThisAction: 'Speak one concrete reason to thank God for His kindness before opening emails or news today.',
+    kidFriendlySummary: 'With trumpets, harps, and clanging cymbals, everyone sang the happiest echo in Israel: “God is good, and His love lasts forever!”',
+  },
+  '1CH-21:24': {
+    verseId: '1CH-21:24',
+    verseRef: '1 Chronicles 21:24',
+    whatThisMeans:
+      'When Ornan humbly tries to gift King David both land and oxen after disaster strikes, David insists on paying full weight in gold. Sincere devotion never hands God leftovers—and Mount Moriah’s altar becomes the permanent site of Solomon’s Temple.',
+    lessonForYou:
+      'Wholehearted love shows up in quiet integrity even when nobody would fault us for taking the shortcut.',
+    tryThisAction: 'Give your best undivided attention today to someone or something you usually rush past.',
+    kidFriendlySummary: 'King David refused to bring God a free shortcut—and turned that quiet hilltop wheat floor into the place for God’s great house!',
+  },
+  '1CH-28:20': {
+    verseId: '1CH-28:20',
+    verseRef: '1 Chronicles 28:20',
+    whatThisMeans:
+      'Standing before young Solomon with the Spirit-given Temple scroll, aging King David echoes Moses’s charge to Joshua centuries earlier: “Be strong and courageous, and do it... Yahweh God will not fail you or forsake you.”',
+    lessonForYou:
+      'Stepping into intimidating work doesn’t depend on feeling fearless first—it rests on God staying right beside us until completion.',
+    tryThisAction: 'Encourage a younger friend or coworker today with calm confidence rather than pressure.',
+    kidFriendlySummary: 'Grandpa David gave young Solomon big building drawings and whispered the best encouragement: “Be brave and start—God won’t ever leave you!”',
+  },
+  '1CH-29:14': {
+    verseId: '1CH-29:14',
+    verseRef: '1 Chronicles 29:14',
+    whatThisMeans:
+      'After king and congregation give joyfully out of willing hearts toward God’s house, David’s final prayer bursts with amazement: humans cannot put God in our debt, because every ounce of generosity merely returns gifts He placed in our hands first.',
+    lessonForYou:
+      'When we see ourselves as grateful stewards instead of owners, generosity feels liberating instead of scary.',
+    tryThisAction: 'Practice giving something away cheerfully today—time, encouragement, or a meal—with open hands.',
+    kidFriendlySummary: 'Everyone happily shared gold, silver, and wood—and David cheered, “Everything good we have already came as a gift from You!”',
+  },
 };
 
 export function getExplanationForVerse(verseId: string): VerseExplanation {
@@ -1401,6 +1452,23 @@ export function getExplanationForVerse(verseId: string): VerseExplanation {
       };
     }
     return SEED_VERSE_EXPLANATIONS['2KI-6:17'];
+  }
+
+  if (verseId.startsWith('1CH-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = FIRST_CHRONICLES_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `1 Chronicles ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, 1 Chronicles roots ordinary families and leaders in joyful worship, covenant faithfulness, and generous legacy.`,
+        tryThisAction: `Ask how ${ref} invites you into wholehearted worship or grateful generosity today.`,
+        kidFriendlySummary: `${chapData.subtitle} God remembers every faithful family and loves cheerful thankful hearts!`,
+      };
+    }
+    return SEED_VERSE_EXPLANATIONS['1CH-16:34'];
   }
 
   if (verseId.startsWith('JOB-')) {
