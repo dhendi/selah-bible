@@ -28,6 +28,7 @@ const BOOK_SEQUENCE: { bookId: string; bookName: string; chapters: number }[] = 
   { bookId: 'PRO', bookName: 'Proverbs', chapters: 31 },
   { bookId: 'ECC', bookName: 'Ecclesiastes', chapters: 12 },
   { bookId: 'SNG', bookName: 'Song of Solomon', chapters: 8 },
+  { bookId: 'ISA', bookName: 'Isaiah', chapters: 66 },
   { bookId: 'DAN', bookName: 'Daniel', chapters: 12 },
 ];
 

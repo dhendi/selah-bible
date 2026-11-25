@@ -23,6 +23,7 @@ import { PSALMS_CHAPTERS } from '../../data/books/psalmsChapters';
 import { PROVERBS_CHAPTERS } from '../../data/books/proverbsChapters';
 import { ECCLESIASTES_CHAPTERS } from '../../data/books/ecclesiastesChapters';
 import { SONG_OF_SOLOMON_CHAPTERS } from '../../data/books/songOfSolomonChapters';
+import { ISAIAH_CHAPTERS } from '../../data/books/isaiahChapters';
 import { DANIEL_CHAPTERS } from '../../data/books/danielChapters';
 
 export const ChapterPickerModal: React.FC = () => {
@@ -36,10 +37,12 @@ export const ChapterPickerModal: React.FC = () => {
   } = useStudyStore();
 
   const [selectedBookTab, setSelectedBookTab] = useState<
-    'GEN' | 'EXO' | 'LEV' | 'NUM' | 'DEU' | 'JOS' | 'JDG' | 'RUT' | '1SA' | '2SA' | '1KI' | '2KI' | '1CH' | '2CH' | 'EZR' | 'NEH' | 'EST' | 'JOB' | 'PSA' | 'PRO' | 'ECC' | 'SNG' | 'DAN' | 'FEATURED'
+    'GEN' | 'EXO' | 'LEV' | 'NUM' | 'DEU' | 'JOS' | 'JDG' | 'RUT' | '1SA' | '2SA' | '1KI' | '2KI' | '1CH' | '2CH' | 'EZR' | 'NEH' | 'EST' | 'JOB' | 'PSA' | 'PRO' | 'ECC' | 'SNG' | 'ISA' | 'DAN' | 'FEATURED'
   >(
     currentChapterId.startsWith('DAN-')
       ? 'DAN'
+      : currentChapterId.startsWith('ISA-')
+      ? 'ISA'
       : currentChapterId.startsWith('SNG-')
       ? 'SNG'
       : currentChapterId.startsWith('ECC-')
@@ -117,6 +120,7 @@ export const ChapterPickerModal: React.FC = () => {
   const proverbsChapterNumbers = Array.from({ length: 31 }, (_, i) => i + 1);
   const eccChapterNumbers = Array.from({ length: 12 }, (_, i) => i + 1);
   const sngChapterNumbers = Array.from({ length: 8 }, (_, i) => i + 1);
+  const isaiahChapterNumbers = Array.from({ length: 66 }, (_, i) => i + 1);
   const danielChapterNumbers = Array.from({ length: 12 }, (_, i) => i + 1);
 
   return (
@@ -386,6 +390,17 @@ export const ChapterPickerModal: React.FC = () => {
             }`}
           >
             <span>Sng (8)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('ISA')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'ISA'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Isa (66)</span>
           </button>
 
           <button
@@ -1771,6 +1786,69 @@ export const ChapterPickerModal: React.FC = () => {
             </div>
           )}
 
+          {selectedBookTab === 'ISA' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>66 Chapters · Full WEB Text</span>
+                <span>1,292 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-6 gap-1.5 mb-4">
+                {isaiahChapterNumbers.map((num) => {
+                  const id = `ISA-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = ISAIAH_CHAPTERS[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Isaiah ${num}`}
+                      className={`py-2 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#7A9A82] text-white border-[#7A9A82] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#7A9A82]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+
+              <div className="pt-2 border-t border-[#E8E2D7] space-y-1.5">
+                <div className="text-[11px] font-bold uppercase tracking-wider text-[#76746E] px-1">
+                  Key Isaiah Turning Points
+                </div>
+                {[
+                  { id: 'ISA-6', label: 'Ch 6 · “Holy, Holy, Holy!”—Here Am I, Send Me' },
+                  { id: 'ISA-9', label: 'Ch 9 · Great Light & “Prince of Peace” Born' },
+                  { id: 'ISA-11', label: 'Ch 11 · Shoot From Jesse’s Stump & Peaceable Kingdom' },
+                  { id: 'ISA-35', label: 'Ch 35 · Desert Blossoms & Highway of Holiness' },
+                  { id: 'ISA-40', label: 'Ch 40 · “Comfort My People” & Mounting Like Eagles' },
+                  { id: 'ISA-53', label: 'Ch 53 · Suffering Servant Pierced for Our Peace' },
+                  { id: 'ISA-61', label: 'Ch 61 · Anointed to Bind Up Brokenhearted' },
+                  { id: 'ISA-65', label: 'Ch 65 · New Heavens & New Earth' },
+                ].map((shortcut) => (
+                  <button
+                    key={shortcut.id}
+                    onClick={() => handleSelect(shortcut.id)}
+                    className={`w-full text-left px-3 py-2 rounded-xl text-xs font-medium flex items-center justify-between transition-colors cursor-pointer ${
+                      currentChapterId === shortcut.id
+                        ? 'bg-[#EBF2ED] text-[#4E6E56] font-semibold'
+                        : 'bg-[#F3EFE6] hover:bg-[#EBE5DA] text-[#2C2C2A]'
+                    }`}
+                  >
+                    <span>{shortcut.label}</span>
+                    {currentChapterId === shortcut.id && (
+                      <Check className="w-3.5 h-3.5 text-[#7A9A82]" />
+                    )}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
           {selectedBookTab === 'DAN' && (
             <div>
               <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
@@ -2425,6 +2503,33 @@ export const ChapterPickerModal: React.FC = () => {
                   </p>
                 </div>
                 {currentChapterId.startsWith('SNG-') && (
+                  <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
+                )}
+              </button>
+
+              {/* Isaiah 1–66 */}
+              <button
+                onClick={() => handleSelect('ISA-40')}
+                className={`w-full text-left p-3.5 rounded-2xl border transition-all flex items-center justify-between cursor-pointer ${
+                  currentChapterId.startsWith('ISA-')
+                    ? 'bg-[#EBF2ED] border-[#7A9A82] shadow-sm'
+                    : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+                }`}
+              >
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-serif font-bold text-[#2C2C2A] flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5 text-[#7A9A82]" /> Isaiah 1–66
+                    </span>
+                    <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-[#EBF2ED] text-[#4E6E56]">
+                      Full Book
+                    </span>
+                  </div>
+                  <p className="text-xs text-[#6B6862] mt-0.5">
+                    Throne room call, Prince of Peace, “Comfort My People,” and the Suffering Servant.
+                  </p>
+                </div>
+                {currentChapterId.startsWith('ISA-') && (
                   <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
                 )}
               </button>

@@ -1255,6 +1255,56 @@ export const SEED_QUIZZES: Record<string, QuizQuestion[]> = {
       takeaway: 'True faithful love is priceless, resilient, and blessed by God.',
     },
   ],
+  'isa-throne-servant': [
+    {
+      id: 'q-isa-1',
+      passageId: 'ISA-6',
+      passageRef: 'Isaiah 6:1–8',
+      question: 'After seeing heaven’s seraphs proclaim “Holy, holy, holy!” and having his lips touched by a glowing altar coal, how did Isaiah respond to God’s call?',
+      options: [
+        'He asked Assyria for a peace treaty first',
+        '“Here I am. Send me!”',
+        'He closed Jerusalem’s upper water conduit for thirty days',
+        'He hid under the olive trees near Shiloah',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Awe before God’s holiness didn’t drive Isaiah into hiding—cleansing grace turned terror into willing joyful availability.',
+      takeaway: 'Grace forgives our inadequacy so we can step forward willingly.',
+    },
+    {
+      id: 'q-isa-2',
+      passageId: 'ISA-40',
+      passageRef: 'Isaiah 40:28–31',
+      question: 'According to Isaiah 40:31, what happens to exhausted people who wait patiently and trust in Yahweh?',
+      options: [
+        'They flee silently down to Egypt’s river reeds',
+        'They renew their strength, mounting up with wings like eagles and walking without fainting',
+        'They carve bronze pillars outside Nineveh',
+        'They build taller watchtowers without speaking',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Even young runners stumble eventually, while leaning on the untiring Creator turns weary days into quiet upward stamina.',
+      takeaway: 'Waiting in trust restores strength far deeper than hurried self-reliance.',
+    },
+    {
+      id: 'q-isa-3',
+      passageId: 'ISA-53',
+      passageRef: 'Isaiah 53:4–6',
+      question: 'In Isaiah 53, how does the Suffering Servant bring healing and peace to wandering sheep (“all we like sheep have gone astray”)?',
+      options: [
+        'By marching iron chariots across Babylon and Egypt',
+        'By willingly carrying our griefs and sins upon Himself so we can be healed and forgiven',
+        'By taxing merchant ships sailing past ancient Tyre',
+        'By sealing Temple gates until Uzziah’s jubilee year',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Quoted clearly in Acts 8 and 1 Peter 2, Isaiah 53 reveals salvation won not through violence, but through self-giving love.',
+      takeaway: 'God’s greatest victory comes through humble love taking our burdens on Himself.',
+    },
+  ],
 };
 
 // Quick onboarding mini-quiz check

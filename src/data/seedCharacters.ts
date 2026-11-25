@@ -2778,6 +2778,27 @@ export const SEED_CHARACTERS: Record<string, CharacterCard> = {
     ],
     keyChapters: [
       {
+        reference: 'Isaiah 6:1–8',
+        label: '“Holy, Holy, Holy!”—Here Am I, Send Me!',
+        storyModuleId: 'story-isa-throne-send-me',
+        chapterId: 'ISA-6',
+        anchorVerseNumber: 8,
+      },
+      {
+        reference: 'Isaiah 40:1–31',
+        label: '“Comfort My People” & Soaring Like Eagles',
+        storyModuleId: 'story-isa-comfort-eagles',
+        chapterId: 'ISA-40',
+        anchorVerseNumber: 31,
+      },
+      {
+        reference: 'Isaiah 53:1–12',
+        label: 'Song of the Suffering Servant',
+        storyModuleId: 'story-isa-suffering-servant',
+        chapterId: 'ISA-53',
+        anchorVerseNumber: 5,
+      },
+      {
         reference: '2 Kings 19:1–34',
         label: 'Prophetic Hope During Siege',
         storyModuleId: 'story-2ki-hezekiah',
@@ -4238,6 +4259,144 @@ export const SEED_CHARACTERS: Record<string, CharacterCard> = {
       },
     ],
   },
+  'char-profile-uzziah': {
+    id: 'char-profile-uzziah',
+    name: 'King Uzziah (Azariah)',
+    nameMeaning: 'Hebrew: עֻזִּיָּהוּ / Uzziyahu ("Yahweh Is My Strength")',
+    era: 'Kingdom of Judah ~790–740 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-uzziah',
+    quickBio:
+      'Gifted fifty-two-year builder king of Judah who strengthened Jerusalem’s walls and loved farming—until late pride led him to usurp Temple incense before his passing opened Isaiah 6’s heavenly throne vision.',
+    familyTree: { parents: ['Amaziah', 'Jecoliah'], siblings: [], children: ['Jotham'] },
+    locationsLived: [
+      {
+        placeName: 'Jerusalem & Judean Hills',
+        roleInLife: 'Prosperous builder-king whose death marks Isaiah 6:1',
+        coordinates: { lat: 31.77, lng: 35.23 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Reminds readers that earthly kings pass away while Yahweh remains seated high and lifted up on heaven’s throne.',
+    ],
+    keyChapters: [
+      {
+        reference: 'Isaiah 6:1–8',
+        label: 'The Year King Uzziah Died',
+        storyModuleId: 'story-isa-throne-send-me',
+        chapterId: 'ISA-6',
+        anchorVerseNumber: 1,
+      },
+      {
+        reference: '2 Chronicles 26:1–23',
+        label: 'Rise, Pride & Final Years of Uzziah',
+        storyModuleId: 'story-2ch-josiah-scroll',
+        chapterId: '2CH-26',
+        anchorVerseNumber: 16,
+      },
+    ],
+  },
+  'char-profile-ahaz': {
+    id: 'char-profile-ahaz',
+    name: 'King Ahaz',
+    nameMeaning: 'Hebrew: אָחָז / Achaz ("He Has Grasped")',
+    era: 'Assyrian Crisis ~735–715 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-ahaz',
+    quickBio:
+      'Trembling Judean king who met Isaiah beside the Upper Pool conduit during Syria’s threat—refusing God’s offered sign while unwittingly prompting Scripture’s famous Immanuel prophecy in Isaiah 7.',
+    familyTree: { parents: ['Jotham'], siblings: [], children: ['char-profile-hezekiah'] },
+    locationsLived: [
+      {
+        placeName: 'Jerusalem Upper Conduit',
+        roleInLife: 'Tested whether Judah would trust Yahweh or Assyria in crisis',
+        coordinates: { lat: 31.77, lng: 35.23 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Illustrates Isaiah’s crisp warning: “If you will not stand firm in faith, surely you shall not stand at all.”',
+    ],
+    keyChapters: [
+      {
+        reference: 'Isaiah 7:1–17',
+        label: 'The Sign of Immanuel Offered to Ahaz',
+        storyModuleId: 'story-isa-throne-send-me',
+        chapterId: 'ISA-7',
+        anchorVerseNumber: 14,
+      },
+    ],
+  },
+  'char-profile-eliakim': {
+    id: 'char-profile-eliakim',
+    name: 'Eliakim son of Hilkiah',
+    nameMeaning: 'Hebrew: אֶלְיָקִים / Elyaqim ("God Raises Up")',
+    era: 'Kingdom of Judah ~701 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-eliakim',
+    quickBio:
+      'Humble, trustworthy palace steward chosen by God to replace self-serving Shebna—honored in Isaiah 22 with “the key of the house of David” and sent by Hezekiah to answer Sennacherib’s envoys.',
+    familyTree: { parents: ['Hilkiah'], siblings: [] },
+    locationsLived: [
+      {
+        placeName: 'Jerusalem Royal Palace',
+        roleInLife: 'Faithful steward and siege envoy alongside Isaiah',
+        coordinates: { lat: 31.77, lng: 35.23 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Models integrity-driven leadership entrusted with keys that foreshadow Jesus’s authority in Revelation 3:7.',
+    ],
+    keyChapters: [
+      {
+        reference: 'Isaiah 22:20–24',
+        label: 'Given the Key of the House of David',
+        storyModuleId: 'story-isa-throne-send-me',
+        chapterId: 'ISA-22',
+        anchorVerseNumber: 22,
+      },
+      {
+        reference: 'Isaiah 36:1–37:4',
+        label: 'Representing Hezekiah Before Isaiah',
+        storyModuleId: 'story-2ki-hezekiah',
+        chapterId: 'ISA-36',
+        anchorVerseNumber: 22,
+      },
+    ],
+  },
+  'char-profile-sennacherib': {
+    id: 'char-profile-sennacherib',
+    name: 'King Sennacherib',
+    nameMeaning: 'Akkadian: Sin-ahhe-eriba ("Sin Has Replaced the Brothers")',
+    era: 'Neo-Assyrian Empire ~705–681 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-sennacherib',
+    quickBio:
+      'Formidable Assyrian emperor who marched across Judah capturing forty-six fortified towns—only for his threatening ultimatum over Jerusalem to shatter overnight against Hezekiah’s Temple prayer and Isaiah’s prophecy.',
+    familyTree: { parents: ['Sargon II'], siblings: [], children: ['Esarhaddon', 'Adrammelech', 'Sharezer'] },
+    locationsLived: [
+      {
+        placeName: 'Nineveh & Lachish Siege',
+        roleInLife: 'Challenged Yahweh openly outside Jerusalem’s walls in 701 BC',
+        coordinates: { lat: 36.36, lng: 43.15 },
+        mapPinId: 'loc-babylon',
+      },
+    ],
+    whyTheyMatter: [
+      'Proves historically in both Scripture and Nineveh prisms that Jerusalem stood protected without Assyria setting one foot inside.',
+    ],
+    keyChapters: [
+      {
+        reference: 'Isaiah 36:1–37:38',
+        label: 'Siege Ultimatum Spread Before God',
+        storyModuleId: 'story-2ki-hezekiah',
+        chapterId: 'ISA-37',
+        anchorVerseNumber: 14,
+      },
+    ],
+  },
 };
 
 export const CHARACTER_DIRECTORY_LIST: CharacterCard[] = [
@@ -4340,5 +4499,9 @@ export const CHARACTER_DIRECTORY_LIST: CharacterCard[] = [
   SEED_CHARACTERS['char-profile-qohelet'],
   SEED_CHARACTERS['char-profile-shulammite'],
   SEED_CHARACTERS['char-profile-beloved-shepherd'],
+  SEED_CHARACTERS['char-profile-uzziah'],
+  SEED_CHARACTERS['char-profile-ahaz'],
+  SEED_CHARACTERS['char-profile-eliakim'],
+  SEED_CHARACTERS['char-profile-sennacherib'],
   SEED_CHARACTERS['char-profile-peter'],
 ];

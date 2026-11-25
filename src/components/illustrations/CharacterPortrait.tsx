@@ -442,6 +442,22 @@ const PORTRAIT_URL_MAP: Record<string, { src: string; alt: string }> = {
     src: '/images/portrait-beloved-shepherd.jpg',
     alt: 'Portrait of the Beloved Shepherd',
   },
+  'portrait-uzziah': {
+    src: '/images/portrait-uzziah.jpg',
+    alt: 'Portrait of King Uzziah of Judah',
+  },
+  'portrait-ahaz': {
+    src: '/images/portrait-ahaz.jpg',
+    alt: 'Portrait of King Ahaz of Judah',
+  },
+  'portrait-eliakim': {
+    src: '/images/portrait-eliakim.jpg',
+    alt: 'Portrait of Eliakim son of Hilkiah',
+  },
+  'portrait-sennacherib': {
+    src: '/images/portrait-sennacherib.jpg',
+    alt: 'Portrait of King Sennacherib of Assyria',
+  },
   'portrait-boaz': {
     src: '/images/portrait-boaz.jpg',
     alt: 'Portrait of Boaz of Bethlehem',

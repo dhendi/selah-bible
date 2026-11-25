@@ -21,6 +21,7 @@ import { PSALMS_CHAPTERS } from './books/psalmsChapters';
 import { PROVERBS_CHAPTERS } from './books/proverbsChapters';
 import { ECCLESIASTES_CHAPTERS } from './books/ecclesiastesChapters';
 import { SONG_OF_SOLOMON_CHAPTERS } from './books/songOfSolomonChapters';
+import { ISAIAH_CHAPTERS } from './books/isaiahChapters';
 import { DANIEL_CHAPTERS } from './books/danielChapters';
 
 export const SEED_VERSE_EXPLANATIONS: Record<string, VerseExplanation> = {
@@ -1487,6 +1488,56 @@ export const SEED_VERSE_EXPLANATIONS: Record<string, VerseExplanation> = {
     tryThisAction: 'Express warm, sincere appreciation today to someone whose steady care you rarely thank aloud.',
     kidFriendlySummary: 'Real faithful love is stronger than scary oceans and shines brightly like a warm cozy flame nothing can blow out!',
   },
+  'ISA-6:8': {
+    verseId: 'ISA-6:8',
+    verseRef: 'Isaiah 6:8',
+    whatThisMeans:
+      'In Hebrew, Hineni (“Here I am”) echoes Abraham and Moses before God—combining reverence before heaven’s holiness with humble availability once grace cleanses guilty lips.',
+    lessonForYou:
+      'Notice how God cleanses before commissioning: you don’t have to make yourself spotless first to answer “Here I am.”',
+    tryThisAction: 'Offer one ordinary moment today openly: “Here I am, Lord—help me love someone right around me.”',
+    kidFriendlySummary: 'Even though Isaiah felt super small inside heaven’s shining temple, God forgave him warmly—and Isaiah raised his hand ready to help!',
+  },
+  'ISA-9:6': {
+    verseId: 'ISA-9:6',
+    verseRef: 'Isaiah 9:6',
+    whatThisMeans:
+      'Pronounced while Assyria shadowed northern Galilee, Isaiah foretells not a warlord, but a royal Child bearing four throne titles culminating in Sar-Shalom (“Prince of Peace”).',
+    lessonForYou:
+      'Even when news looks stormy, God quietly plants redemption through humble beginnings.',
+    tryThisAction: 'Pray for one anxious person today trusting the Prince of Peace with their worry.',
+    kidFriendlySummary: 'Isaiah promised that right into dark places a special Baby King would arrive—the gentle Prince of Peace!',
+  },
+  'ISA-40:31': {
+    verseId: 'ISA-40:31',
+    verseRef: 'Isaiah 40:31',
+    whatThisMeans:
+      'The Hebrew word qavah (“wait”) originally evokes braiding loose fibers together into strong rope: tying your weary heart tightly onto God’s endurance lifts you higher like eagles riding warm thermals.',
+    lessonForYou:
+      'When you feel completely tapped out, stop trying to sprint solo and braid your weakness into prayer.',
+    tryThisAction: 'Take two calm minutes away from screens right now breathing deeply over Isaiah 40:31.',
+    kidFriendlySummary: 'When our legs feel super tired, waiting on God lifts our hearts soaring high like golden eagles!',
+  },
+  'ISA-53:5': {
+    verseId: 'ISA-53:5',
+    verseRef: 'Isaiah 53:5',
+    whatThisMeans:
+      'Peak of Isaiah’s four Servant Songs: the innocent Servant receives the wound that buys shalom (“wholeness/peace”) for broken sheep—connecting the Passover lamb straight to Jesus’s cross.',
+    lessonForYou:
+      'True peace with God isn’t earned by dodging shame; it was lovingly carried by the Servant for you.',
+    tryThisAction: 'Reflect gratefully on the cost of grace today and extend mercy freely to someone who offended you.',
+    kidFriendlySummary: 'Jesus loved us so fiercely He took our mistakes on Himself like a gentle Shepherd saving His whole flock!',
+  },
+  'ISA-55:8': {
+    verseId: 'ISA-55:8',
+    verseRef: 'Isaiah 55:8–9',
+    whatThisMeans:
+      'Positioned inside God’s free invitation to thirsty exiles (“Come, buy wine and milk without money”), God explains His higher ways aren’t stingier—they are far more forgiving than human grudges.',
+    lessonForYou:
+      'Never project human impatience onto Heaven; God’s "higher thoughts" specialize in astonishing pardon.',
+    tryThisAction: 'Release a lingering regret today trusting God’s abundant willingness to pardon.',
+    kidFriendlySummary: 'God’s thoughts sit higher than the highest fluffy clouds—meaning His kindness reaches even further than we can dream!',
+  },
 };
 
 export function getExplanationForVerse(verseId: string): VerseExplanation {
@@ -1869,6 +1920,23 @@ export function getExplanationForVerse(verseId: string): VerseExplanation {
       };
     }
     return SEED_VERSE_EXPLANATIONS['SNG-8:6'];
+  }
+
+  if (verseId.startsWith('ISA-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = ISAIAH_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Isaiah ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, Isaiah lifts eyes beyond crisis to the Holy One of Israel and His coming Prince of Peace.`,
+        tryThisAction: `Trust God’s promise in ${ref} with one anxious concern in your week today.`,
+        kidFriendlySummary: `${chapData.subtitle} Even when storms gather, God comforts His people and lifts waiting hearts like eagles!`,
+      };
+    }
+    return SEED_VERSE_EXPLANATIONS['ISA-40:31'];
   }
 
   if (verseId.startsWith('DAN-')) {

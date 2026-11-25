@@ -249,6 +249,16 @@ function resolveChapterAsset(key: string): { src: string; alt: string } | undefi
       };
     }
   }
+  const isaMatch = /^ill-isa-(\d+)$/.exec(key);
+  if (isaMatch) {
+    const ch = Number(isaMatch[1]);
+    if (ch >= 1 && ch <= 66) {
+      return {
+        src: `/images/isa-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Isaiah ${ch} illustration`,
+      };
+    }
+  }
   const danielMatch = /^ill-dan-(\d+)$/.exec(key);
   if (danielMatch) {
     const ch = Number(danielMatch[1]);
