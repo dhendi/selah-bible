@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #FAF7F2;
+  --color-paper-subtle: #F6F2EA;
+  --color-card: #F3EFE6;
+  --color-card-elevated: #EDE7DC;
+  --color-card-border: #E5DFD5;
+  --color-card-border-soft: #DDD6C8;
+  
+  --color-charcoal: #2C2C2A;
+  --color-charcoal-muted: #6B6862;
+  --color-charcoal-subtle: #96938B;
+  
+  --color-sage: #7A9A82;
+  --color-sage-dark: #64826C;
+  --color-sage-light: #EBF2ED;
+  --color-sage-subtle: rgba(122, 154, 130, 0.15);
+  
+  --color-terracotta: #C88A6B;
+  --color-terracotta-dark: #B07456;
+  --color-terracotta-light: #FAECE5;
+  --color-terracotta-subtle: rgba(200, 138, 107, 0.15);
+
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: 'Lora', 'Newsreader', Georgia, serif;
+  --font-dyslexic: 'Lexend', sans-serif;
+  --font-hebrew: 'Noto Serif Hebrew', 'Times New Roman', serif;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAF7F2;
+    color: #2C2C2A;
+    font-family: var(--font-sans);
+    min-height: 100vh;
+    min-height: 100dvh;
+    overscroll-behavior-y: none;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(122, 154, 130, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(122, 154, 130, 0.4);
+}
+
+/* Bottom Sheet backdrop & animations */
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0.5;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-slide-up {
+  animation: slideUp 0.28s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.2s ease-out forwards;
+}
+
+/* Perspective for 3D flashcard flip */
+.perspective-1000 {
+  perspective: 1000px;
+}
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+.backface-hidden {
+  backface-visibility: hidden;
+}
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}

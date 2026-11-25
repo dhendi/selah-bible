@@ -1,0 +1,105 @@
+import type { TimelineEra } from '../types/bible';
+
+export const SEED_TIMELINE_ERAS: TimelineEra[] = [
+  {
+    id: 'era-creation',
+    name: 'Creation & Beginnings',
+    approxDate: 'Cosmic Dawn & Primeval',
+    summary: 'God creates the cosmos in beauty, humans fracture relationship with God, and divine promises of redemption begin.',
+    color: '#7A9A82',
+    keyEvents: [
+      { year: 'Beginning', event: 'God creates the heavens, the earth, and humanity in His image', reference: 'Genesis 1:1–31' },
+      { year: 'Primeval', event: 'The Fall: sin enters human history; promise of the serpent crusher', reference: 'Genesis 3:15' },
+      { year: 'Antiquity', event: 'The Ark and covenant of the rainbow with Noah', reference: 'Genesis 9:8–17' },
+    ],
+  },
+  {
+    id: 'era-patriarchs',
+    name: 'The Patriarchs',
+    approxDate: '~2000–1600 BC',
+    summary: 'God calls Abraham out of Ur to start a family of faith through whom all families of the earth will be blessed.',
+    color: '#98846C',
+    keyEvents: [
+      { year: '~2000 BC', event: 'Call of Abraham: land, offspring, and global blessing promised', reference: 'Genesis 12:1–3' },
+      { year: '~1900 BC', event: 'Sacrifice of Isaac on Mount Moriah; God provides the ram substitute', reference: 'Genesis 22:1–19' },
+      { year: '~1800 BC', event: 'Jacob’s twelve sons become the twelve tribes of Israel', reference: 'Genesis 35:22–26' },
+      { year: '~1700 BC', event: 'Joseph sold into Egypt; preserves millions from famine', reference: 'Genesis 50:20' },
+      { year: 'Ancient Uz', event: 'Upright Job loses everything, refuses despair, and encounters God in the whirlwind', reference: 'Job 38:1–18' },
+    ],
+  },
+  {
+    id: 'era-exodus',
+    name: 'The Exodus & Wilderness',
+    approxDate: '~1446–1406 BC',
+    summary: 'Deliverance from Egyptian bondage, covenant at Sinai, and 40 years of daily manna training faith.',
+    color: '#C88A6B',
+    keyEvents: [
+      { year: '~1446 BC', event: 'The Burning Bush: God reveals His holy name YHWH to Moses', reference: 'Exodus 3:1–15' },
+      { year: '~1446 BC', event: 'The Passover and parting of the Red Sea', reference: 'Exodus 12 & 14' },
+      { year: '~1446 BC', event: 'Daily Manna and quail provided in the Wilderness of Sin', reference: 'Exodus 16:11–15' },
+      { year: '~1446 BC', event: 'The Ten Commandments given on Mount Sinai', reference: 'Exodus 20:1–17' },
+    ],
+  },
+  {
+    id: 'era-judges',
+    name: 'Conquest & Judges',
+    approxDate: '~1406–1050 BC',
+    summary: 'Joshua leads Israel into Canaan; a cyclical period of moral compromise and dramatic deliverers.',
+    color: '#8A9978',
+    keyEvents: [
+      { year: '~1400 BC', event: 'Walls of Jericho fall; Israel settles the Promised Land', reference: 'Joshua 6' },
+      { year: '~1200 BC', event: 'Deborah and Barak deliver Israel at the Kishon River', reference: 'Judges 4–5' },
+      { year: '~1150 BC', event: 'Gideon’s small army of 300 defeats Midian with torches and jars', reference: 'Judges 7' },
+      { year: '~1100 BC', event: 'Ruth pledges loyalty to Naomi and meets Boaz in Bethlehem', reference: 'Ruth 1–4' },
+    ],
+  },
+  {
+    id: 'era-kingdom',
+    name: 'The United Kingdom',
+    approxDate: '~1050–930 BC',
+    summary: 'Israel unites under David and Solomon, establishing Jerusalem and building the First Temple.',
+    color: '#D4A373',
+    keyEvents: [
+      { year: '~1010 BC', event: 'David anointed King; establishes Jerusalem as the capital', reference: '2 Samuel 5' },
+      { year: '~1000 BC', event: 'God makes an eternal dynasty covenant with David', reference: '2 Samuel 7' },
+      { year: '~960 BC', event: 'Solomon constructs the glorious Temple on Mount Moriah', reference: '1 Kings 6–8' },
+      { year: '~1000–500 BC', event: 'Israel compiles 150 inspired songs of lament, trust, and Hallelujah across the Psalter', reference: 'Psalm 23' },
+    ],
+  },
+  {
+    id: 'era-exile',
+    name: 'Divided Kingdom & Exile',
+    approxDate: '~930–539 BC',
+    summary: 'Civil war splits the kingdom into Israel and Judah; prophets warn against idolatry before Babylonian exile.',
+    color: '#A56E68',
+    keyEvents: [
+      { year: '~722 BC', event: 'Northern Kingdom of Israel falls to the Assyrian empire', reference: '2 Kings 17' },
+      { year: '~586 BC', event: 'Babylon conquers Jerusalem; Solomon’s Temple burned; exile begins', reference: '2 Kings 25' },
+      { year: '~550 BC', event: 'Daniel lives with integrity in Babylon; prophesies coming Messiah', reference: 'Daniel 6–7' },
+    ],
+  },
+  {
+    id: 'era-jesus',
+    name: 'Life of Jesus & Gospels',
+    approxDate: '~4 BC–33 AD',
+    summary: 'The promised Messiah arrives: teaching the Kingdom of God, healing, dying for sins, and rising on the third day.',
+    color: '#658D76',
+    keyEvents: [
+      { year: '~4 BC', event: 'Birth of Jesus in Bethlehem ("The Word became flesh")', reference: 'Luke 2, John 1:14' },
+      { year: '~30 AD', event: 'Sermon on the Mount; miraculous signs across Galilee', reference: 'Matthew 5–7' },
+      { year: '~33 AD', event: 'Crucifixion and bodily resurrection in Jerusalem', reference: 'Matthew 28, John 20' },
+    ],
+  },
+  {
+    id: 'era-church',
+    name: 'The Early Church',
+    approxDate: '~33–100 AD',
+    summary: 'The Holy Spirit ignites the church at Pentecost, spreading the gospel through the Roman world.',
+    color: '#7685A4',
+    keyEvents: [
+      { year: '~33 AD', event: 'Pentecost: Holy Spirit descends; 3,000 baptized in one day', reference: 'Acts 2' },
+      { year: '~45–60 AD', event: 'Paul’s missionary journeys plant churches across the Mediterranean', reference: 'Acts 13–28' },
+      { year: '~95 AD', event: 'John receives the Revelation of the new heaven and new earth', reference: 'Revelation 21–22' },
+    ],
+  },
+];

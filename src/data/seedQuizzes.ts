@@ -1,0 +1,875 @@
+import type { QuizQuestion } from '../types/bible';
+
+export const SEED_QUIZZES: Record<string, QuizQuestion[]> = {
+  'gen-1': [
+    {
+      id: 'gen-q1',
+      passageId: 'GEN-1',
+      passageRef: 'Genesis 1:1',
+      question: 'What does the Hebrew verb "bara" (created) uniquely signify in Genesis 1:1?',
+      options: [
+        'A human artisan carving raw materials into idols',
+        'God exclusively bringing novel existence and life into being from nothing',
+        'A natural evolutionary collision of chaotic celestial matter',
+        'An angel supervising the construction of the earth',
+      ],
+      correctIndex: 1,
+      explanation:
+        'In biblical Hebrew, the verb "bara" is used with only one subject in all of Scripture: God alone. It denotes miraculous divine origination ex nihilo (out of nothing).',
+      takeaway: 'God does not reshape old rubble; He speaks new life into being.',
+    },
+    {
+      id: 'gen-q2',
+      passageId: 'GEN-1',
+      passageRef: 'Genesis 1:1',
+      question: 'The Hebrew name "Elohim" used for God is grammatically plural. What does this grammatical form convey?',
+      options: [
+        'A pantheon of multiple equal gods sharing authority',
+        'A plural of majesty and supreme sovereign fullness',
+        'An ancient scribal spelling error',
+        'A title used exclusively for human judges',
+      ],
+      correctIndex: 1,
+      explanation:
+        'In Hebrew grammar, Elohim is a "plural of majesty" (pluralis excellentiae), expressing the unlimited power, majesty, and creative fullness of the one true God.',
+      takeaway: 'Elohim signifies the infinite richness of God’s majesty.',
+    },
+    {
+      id: 'gen-q3',
+      passageId: 'GEN-1',
+      passageRef: 'Genesis 1:3',
+      question: 'How did God bring light into existence on Day 1?',
+      options: [
+        'By striking cosmic lightning onto the primordial waters',
+        'By merely speaking: "Let there be light," and it existed',
+        'By igniting the physical sun and moon first',
+        'By gathering heat from nearby stars',
+      ],
+      correctIndex: 1,
+      explanation:
+        'God spoke light into existence with effortless divine power. The celestial bodies (sun and moon) are not appointed until Day 4, showing God Himself is the ultimate source of light.',
+      takeaway: 'God’s word possesses creative authority to banish darkness instantly.',
+    },
+  ],
+
+  'exo-16': [
+    {
+      id: 'exo-q1',
+      passageId: 'EXO-16',
+      passageRef: 'Exodus 16:15',
+      question: 'What does the word "Manna" literally mean in the original Hebrew text?',
+      options: [
+        '"Bread of the desert"',
+        '"What is it?" (Man hu)',
+        '"Sweet coriander seed"',
+        '"Angel food"',
+      ],
+      correctIndex: 1,
+      explanation:
+        'When the Israelites first saw the thin white frost-like flakes on the desert floor, they asked each other in astonishment, "Man hu?" ("What is it?"). The name stuck as a perpetual reminder of God’s mysterious provision.',
+      takeaway: 'God often answers our prayers in ways so surprising we ask "What is it?"',
+    },
+    {
+      id: 'exo-q2',
+      passageId: 'EXO-16',
+      passageRef: 'Exodus 16:13-14',
+      question: 'In what geographical region was Israel camping when God first rained down manna?',
+      options: [
+        'The Valley of Elah',
+        'The Wilderness of Sin (between Elim and Mount Sinai)',
+        'The plains of Jericho',
+        'The Nile River Delta in Goshen',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Israel entered the Wilderness of Sin exactly one month after leaving Egypt, having exhausted their portable rations. In this arid limestone wilderness, God proved His daily faithfulness.',
+      takeaway: 'The barren wilderness is where God proves our true provider is not Egypt, but Him.',
+    },
+    {
+      id: 'exo-q3',
+      passageId: 'EXO-16',
+      passageRef: 'Exodus 16:15',
+      question: 'What core spiritual lesson did God intend to teach Israel through the daily gathering of manna?',
+      options: [
+        'To stockpile food in large barns for future security',
+        'To trust Him day-by-day rather than hoarding',
+        'To rely exclusively on their own hunting skills',
+        'To return to the abundant fleshpots of Egypt',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Manna could not be hoarded overnight (it spoiled with worms, except on Friday for the Sabbath). Deuteronomy 8:3 and Jesus in Matthew 6 remind us that man lives by every word from God’s mouth, trusting Him for daily bread.',
+      takeaway: 'Faith is not a 10-year stockpile; it is trusting God for today’s bread today.',
+    },
+  ],
+
+  'gen-patriarchs': [
+    {
+      id: 'gen-pat-q1',
+      passageId: 'GEN-15',
+      passageRef: 'Genesis 15:6',
+      question: 'When Abraham looked up at the night stars and trusted God’s promise, how did God respond?',
+      options: [
+        'God demanded Abraham build a stone temple first',
+        'God credited Abraham’s simple belief as righteousness',
+        'God told Abraham to wait 100 years in Egypt',
+        'God changed Abraham’s name to Israel',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Genesis 15:6 is the cornerstone verse quoted in Romans 4 and Galatians 3: right standing with God rests on trusting His promise, not human perfection.',
+      takeaway: 'Faith means leaning your weight on God’s word even before seeing the outcome.',
+    },
+    {
+      id: 'gen-pat-q2',
+      passageId: 'GEN-28',
+      passageRef: 'Genesis 28:15–19',
+      question: 'What did Jacob rename the hillside where he dreamed of angels climbing a stairway to heaven?',
+      options: [
+        'Babylon ("Confusion")',
+        'Bethel ("House of God")',
+        'Sinai ("Thorny Bush")',
+        'Gomorrah',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Waking up in awe from his stone pillow, Jacob realized "God is in this place" and named it Bethel—House of God.',
+      takeaway: 'Even in lonely wilderness nights, God meets travelers with His presence.',
+    },
+    {
+      id: 'gen-pat-q3',
+      passageId: 'GEN-50',
+      passageRef: 'Genesis 50:20',
+      question: 'How does Joseph summarize his brothers’ betrayal and his years in Egypt at the end of Genesis?',
+      options: [
+        '"Vengeance belongs to the strongest ruler in Egypt"',
+        '"You meant evil against me, but God meant it for good"',
+        '"Forget the past and return to Mesopotamia"',
+        '"Only the eldest brother deserves inheritance"',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Genesis 50:20 captures the overarching message of Genesis: God faithfully weaves human brokenness into life-saving redemption.',
+      takeaway: 'Nothing wasted or broken in your past is beyond God’s redeeming skill.',
+    },
+  ],
+
+  'exo-sinai': [
+    {
+      id: 'exo-sinai-q1',
+      passageId: 'EXO-3',
+      passageRef: 'Exodus 3:14',
+      question: 'At the Burning Bush, what covenant name did God reveal to Moses ("I AM WHO I AM")?',
+      options: [
+        'El Shaddai',
+        'Yahweh (YHWH)',
+        'Adonai',
+        'Elohim',
+      ],
+      correctIndex: 1,
+      explanation:
+        'God connected "Ehyeh" ("I AM / I WILL BE") to His personal covenant name YHWH (Yahweh)—signifying eternal self-existence and faithful presence.',
+      takeaway: 'The Great I AM walks beside us when we feel inadequate.',
+    },
+    {
+      id: 'exo-sinai-q2',
+      passageId: 'EXO-20',
+      passageRef: 'Exodus 20:2',
+      question: 'How do the Ten Commandments begin before God lists a single command?',
+      options: [
+        'With a threat of exile if Israel disobeys',
+        'With a reminder of grace: "I am Yahweh, who brought you out of slavery"',
+        'With detailed instructions for building the bronze altar',
+        'With a census of the twelve tribes',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Law follows deliverance! God rescued Israel first by sheer grace, then gave ten loving boundaries so freed slaves could flourish.',
+      takeaway: 'Obedience flows from already being loved and rescued, not trying to earn rescue.',
+    },
+    {
+      id: 'exo-sinai-q3',
+      passageId: 'EXO-34',
+      passageRef: 'Exodus 34:6',
+      question: 'When God proclaimed His character to Moses after the golden calf failure, which traits came first?',
+      options: [
+        'Fierce, distant, and impossible to please',
+        'Merciful, gracious, slow to anger, and abundant in loving kindness',
+        'Silent and hidden behind thick smoke forever',
+        'Focused only on military victory',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Exodus 34:6 becomes the most echoed description of God across Psalms, Prophets, and Jonah—highlighting His patient compassion.',
+      takeaway: 'God’s deepest reflex toward repentant people is patient mercy.',
+    },
+  ],
+
+  'lev-holiness': [
+    {
+      id: 'lev-q1',
+      passageId: 'LEV-16',
+      passageRef: 'Leviticus 16:21–30',
+      question: 'On the Day of Atonement (Yom Kippur), what did the second goat ("scapegoat") symbolize?',
+      options: [
+        'Carrying Israel’s confessed sins far away into the wilderness',
+        'A military victory parade through Egypt',
+        'Paying tax tribute to neighboring nations',
+        'Determining the harvest calendar',
+      ],
+      correctIndex: 0,
+      explanation:
+        'Laying hands on the goat and sending it out into the uninhabited desert vividly pictured God removing Israel’s guilt completely.',
+      takeaway: 'When God forgives sin, He carries it far away so it never defines you again.',
+    },
+    {
+      id: 'lev-q2',
+      passageId: 'LEV-19',
+      passageRef: 'Leviticus 19:18',
+      question: 'Which command from Leviticus 19 did Jesus call the second greatest commandment?',
+      options: [
+        '"Avoid all salted grain offerings"',
+        '"Love your neighbor as yourself"',
+        '"Travel to Mount Sinai every spring"',
+        '"Never wear garments of mixed wool"',
+      ],
+      correctIndex: 1,
+      explanation:
+        'In Matthew 22:39, Jesus directly quotes Leviticus 19:18—showing that Old Testament holiness centers on compassionate love for neighbors.',
+      takeaway: 'True holiness shows up in fairness, kindness, and refusing grudges.',
+    },
+    {
+      id: 'lev-q3',
+      passageId: 'LEV-25',
+      passageRef: 'Leviticus 25:10',
+      question: 'What happened across Israel every fiftieth year during the Year of Jubilee?',
+      options: [
+        'Taxes were doubled to build a stone palace',
+        'Debts were canceled, workers freed, and family land restored',
+        'The Tabernacle was permanently closed',
+        'All crops were exported to Babylon',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Proclaiming liberty throughout the land, Jubilee prevented permanent generational poverty and reminded Israel that the land belonged to God.',
+      takeaway: 'God’s heart beats for fresh starts, mercy over debt, and freedom.',
+    },
+  ],
+  'num-wilderness': [
+    {
+      id: 'q-num-1',
+      passageId: 'NUM-6',
+      passageRef: 'Numbers 6:24–26',
+      question: 'What three gifts does the Priestly Blessing in Numbers 6:24–26 ask God to shine over His people?',
+      options: [
+        'Gold, silver, and large flocks of sheep',
+        'Blessing/keeping, His shining face of grace, and peace (shalom)',
+        'Rain in the desert, victory trumpets, and bronze shields',
+        'High walls, swift horses, and royal crowns',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Aaron’s blessing puts God’s own name on the Israelites—praying for protection, radiant favor ("make his face to shine upon you"), and wholeness (shalom).',
+      takeaway: 'God sends ordinary travelers forward wrapped in His blessing and peace.',
+    },
+    {
+      id: 'q-num-2',
+      passageId: 'NUM-13',
+      passageRef: 'Numbers 13:30',
+      question: 'At Kadesh Barnea, which two scouts urged Israel to trust God and enter Canaan despite the giants?',
+      options: [
+        'Korah and Dathan',
+        'Nadab and Abihu',
+        'Caleb and Joshua',
+        'Balaam and Balak',
+      ],
+      correctIndex: 2,
+      explanation:
+        'While ten spies spread panic about fortified cities and Anakim giants, Caleb and Joshua insisted the Lord would bring them safely into the good land.',
+      takeaway: 'Courageous faith sees real obstacles clearly—and measures them against a bigger God.',
+    },
+    {
+      id: 'q-num-3',
+      passageId: 'NUM-27',
+      passageRef: 'Numbers 27:7',
+      question: 'What did the five daughters of Zelophehad ask Moses for in Numbers 27, and how did God respond?',
+      options: [
+        'A golden lampstand, which Moses refused',
+        'Permission to turn back to Egypt, which caused a census',
+        'Their late father’s land inheritance, and God declared their plea right and changed the law',
+        'A priestly robe for their uncle Eleazar',
+      ],
+      correctIndex: 2,
+      explanation:
+        'Mahlah, Noah, Hoglah, Milcah, and Tirzah stepped forward respectfully at the Tent of Meeting, and God affirmed, "The daughters of Zelophehad speak what is right."',
+      takeaway: 'God welcomes honest appeals for fairness and weaves justice directly into community law.',
+    },
+  ],
+  'deu-covenant': [
+    {
+      id: 'q-deu-1',
+      passageId: 'DEU-6',
+      passageRef: 'Deuteronomy 6:4–5',
+      question: 'In the Shema (Deuteronomy 6:4–5), how does Moses call Israel to love Yahweh?',
+      options: [
+        'Only during spring harvest festivals',
+        'With all your heart, all your soul, and all your might',
+        'By building golden statues on hilltops',
+        'By keeping the Torah scroll locked away silently',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Jesus called Deuteronomy 6:5 the greatest commandment—inviting undivided devotion of mind, life, and everyday energy.',
+      takeaway: 'Loving God belongs naturally in every ordinary conversation and rhythm of home life.',
+    },
+    {
+      id: 'q-deu-2',
+      passageId: 'DEU-8',
+      passageRef: 'Deuteronomy 8:3',
+      question: 'According to Deuteronomy 8:3, why did God feed Israel with manna in the desert?',
+      options: [
+        'To teach that people do not live by bread only, but by every word from God’s mouth',
+        'Because Canaan had no grain fields',
+        'To hide Israel’s campsite from Egypt',
+        'Only as an emergency ration for priests',
+      ],
+      correctIndex: 0,
+      explanation:
+        'Jesus quoted Deuteronomy 8:3 during His wilderness temptation—reminding us that daily bread and spiritual life alike depend on God’s faithful word.',
+      takeaway: 'Remembering how God sustained us in lean seasons guards us against pride in plenty.',
+    },
+    {
+      id: 'q-deu-3',
+      passageId: 'DEU-30',
+      passageRef: 'Deuteronomy 30:19',
+      question: 'As Moses closes his Moab address in Deuteronomy 30:19, what choice does he set before Israel?',
+      options: [
+        'Returning to Egypt or sailing to Tarshish',
+        'Staying east of the Jordan forever',
+        'Life and blessing versus death and curse—"therefore choose life!"',
+        'Choosing a prophet from Midian instead of Joshua',
+      ],
+      correctIndex: 2,
+      explanation:
+        'Moses calls heaven and earth as witnesses and pleads with the new generation to love God, cling to Him, and choose life.',
+      takeaway: 'God’s life-giving word isn’t far away—it is right in your mouth and heart to choose today.',
+    },
+  ],
+  'jos-promised-land': [
+    {
+      id: 'q-jos-1',
+      passageId: 'JOS-2',
+      passageRef: 'Joshua 2:11–18',
+      question: 'What sign did Rahab hang in her Jericho window so her household would be spared when the city fell?',
+      options: [
+        'A silver trumpet from Mount Sinai',
+        'A scarlet cord tied in the window',
+        'Twelve smooth stones from the Jordan',
+        'A bronze serpent banner',
+      ],
+      correctIndex: 1,
+      explanation:
+        'After hiding the two scouts and confessing Yahweh as God in heaven and earth, Rahab hung a scarlet cord in her window—and her entire family was rescued and welcomed into Israel.',
+      takeaway: 'Bold faith opens God’s rescue to everyone, even outsiders who seem farthest away.',
+    },
+    {
+      id: 'q-jos-2',
+      passageId: 'JOS-4',
+      passageRef: 'Joshua 4:6–7',
+      question: 'Why did Joshua instruct one representative from each tribe to carry a stone out of the dry Jordan riverbed to Gilgal?',
+      options: [
+        'To build a stone bridge across the Dead Sea',
+        'To forge weapons against Jericho’s chariots',
+        'So future children would ask, "What do these stones mean?" and hear what God did',
+        'To mark Caleb’s retirement vineyard',
+      ],
+      correctIndex: 2,
+      explanation:
+        'The twelve-stone memorial turned a one-day miracle into a multi-generational conversation starter about God’s faithfulness.',
+      takeaway: 'Sharing stories of past deliverance gives the next generation courage for their own rivers.',
+    },
+    {
+      id: 'q-jos-3',
+      passageId: 'JOS-24',
+      passageRef: 'Joshua 24:15',
+      question: 'At Shechem in Joshua 24, what famous choice did Joshua declare for himself and his household?',
+      options: [
+        '"We will return east of the Jordan before winter"',
+        '"As for me and my house, we will serve Yahweh"',
+        '"Let only the Levites keep the covenant stones"',
+        '"We will wait forty more years before settling"',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Standing beneath the oak at Shechem, Joshua urged Israel to put away compromises and pledged his own home wholly to Yahweh.',
+      takeaway: 'Vibrant faith stays intentional—choosing daily whom we love and serve.',
+    },
+  ],
+  'jdg-deliverers': [
+    {
+      id: 'q-jdg-1',
+      passageId: 'JDG-4',
+      passageRef: 'Judges 4:4–14',
+      question: 'Who sat judging Israel under a palm tree in Ephraim and encouraged Barak to lead Israel down Mount Tabor?',
+      options: [
+        'Miriam the sister of Moses',
+        'Deborah the prophetess',
+        'Rahab of Jericho',
+        'Ruth of Moab',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Prophetess Deborah assured Barak that Yahweh Himself was going out before them against Sisera’s 900 iron chariots, later celebrating victory in Judges 5.',
+      takeaway: 'Courageous faith multiplies when wise mentors remind us God walks out ahead.',
+    },
+    {
+      id: 'q-jdg-2',
+      passageId: 'JDG-7',
+      passageRef: 'Judges 7:7–20',
+      question: 'Why did God shrink Gideon’s army from 32,000 fighters down to just 300 men with jars and torches?',
+      options: [
+        'So Israel wouldn’t boast that their own strength saved them instead of Yahweh',
+        'Because Midian had already retreated across the Nile',
+        'So the rest could guard Shiloh’s barley harvest',
+        'Because there were only 300 bronze swords available',
+      ],
+      correctIndex: 0,
+      explanation:
+        'In Judges 7:2, God warned Israel might say "My own hand has saved me." Three hundred watchful soldiers carrying clay jars and torches proved God won the rescue.',
+      takeaway: 'God works through ordinary, fragile jars so His light shines unmistakably.',
+    },
+    {
+      id: 'q-jdg-3',
+      passageId: 'JDG-16',
+      passageRef: 'Judges 16:28',
+      question: 'What was Samson’s consecration from birth, and what did he do in his final moments in Gaza?',
+      options: [
+        'He was a king who built an ivory throne',
+        'He was a Nazirite who prayed humbly for God to remember and strengthen him one final time',
+        'He was a Levite scribe copying Torah scrolls',
+        'He was a shepherd from Bethlehem who played the harp',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Set apart as a Nazirite from Judges 13, humbled Samson cried out in sincere prayer in Judges 16:28—and God answered in mercy.',
+      takeaway: 'No stumble puts us beyond honest prayer; God meets humility with fresh grace.',
+    },
+  ],
+  'rut-chesed': [
+    {
+      id: 'q-rut-1',
+      passageId: 'RUT-1',
+      passageRef: 'Ruth 1:16–18',
+      question: 'When Naomi urged her daughters-in-law to stay in Moab, what did Ruth declare?',
+      options: [
+        '"I will meet you after the autumn barley festival"',
+        '"Wherever you go, I will go... your people shall be my people, and your God my God"',
+        '"Send Boaz a letter from Bethlehem first"',
+        '"Wait for me beside Mount Nebo"',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Ruth expressed extraordinary loyal love (Hebrew: chesed), leaving familiarity behind to care for grieving Naomi and trust Israel’s God.',
+      takeaway: 'Faithful love walks beside friends through grief rather than choosing only what is easy.',
+    },
+    {
+      id: 'q-rut-2',
+      passageId: 'RUT-2',
+      passageRef: 'Ruth 2:12',
+      question: 'How did Boaz honor Leviticus’s care for the poor when Ruth gleaned in his barley field?',
+      options: [
+        'He charged her silver for leftover stalks',
+        'He protected her safety, shared roasted grain, and blessed her refuge under Yahweh’s wings',
+        'He sent her to Shiloh for grain rations',
+        'He told her to wait until next spring',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Boaz embodied Torah generosity—instructing workers to leave extra barley sheaves and praising Ruth for sheltering under God’s wings.',
+      takeaway: 'Everyday kindness is how God’s sheltering wings feel real to people around us.',
+    },
+    {
+      id: 'q-rut-3',
+      passageId: 'RUT-4',
+      passageRef: 'Ruth 4:14–22',
+      question: 'Who was the son born to Ruth and Boaz—and how did he connect to Israel’s future?',
+      options: [
+        'Obed, grandfather of King David',
+        'Gideon, deliverer of Midian',
+        'Samuel, prophet at Shiloh',
+        'Phinehas, grandson of Aaron',
+      ],
+      correctIndex: 0,
+      explanation:
+        'Ruth and Boaz welcomed Obed, who became father of Jesse and grandfather of King David—placing a faithful Moabite widow right inside Jesus’s family tree (Matthew 1:5).',
+      takeaway: 'Quiet loyalty in small towns often anchors God’s biggest redemptive chapters.',
+    },
+  ],
+  '1sa-kingship': [
+    {
+      id: 'q-1sa-1',
+      passageId: '1SA-3',
+      passageRef: '1 Samuel 3:9–10',
+      question: 'When young Samuel kept hearing his name in the night at Shiloh, what did priest Eli teach him to answer God?',
+      options: [
+        '"Send me back to Ramah before sunrise"',
+        '"Speak, Yahweh, for your servant hears"',
+        '"Bring the golden Ark to Beth Shemesh"',
+        '"Tell Saul to wait seven days at Gilgal"',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Eli recognized that Yahweh was calling the boy personally and coached Samuel to respond with attentive humility.',
+      takeaway: 'Prayer begins with a listening heart ready to welcome God’s voice.',
+    },
+    {
+      id: 'q-1sa-2',
+      passageId: '1SA-16',
+      passageRef: '1 Samuel 16:7',
+      question: 'Why did God pass over David’s seven tall older brothers in Bethlehem and anoint youngest shepherd David?',
+      options: [
+        'Because David already commanded 400 soldiers',
+        'Because "man looks at the outward appearance, but Yahweh looks at the heart"',
+        'Because David lived closer to Shiloh’s gate',
+        'Because Jesse forgot his eldest sons in Moab',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Samuel learned that inward character, humility, and devotion to God matter infinitely more than height or outward stature.',
+      takeaway: 'God sees and values faithful character even when everyone else overlooks it.',
+    },
+    {
+      id: 'q-1sa-3',
+      passageId: '1SA-25',
+      passageRef: '1 Samuel 25:32',
+      question: 'Who rode out with bread, figs, and wise counsel to turn David away from angry revenge against Nabal?',
+      options: [
+        'Abigail of Carmel',
+        'Deborah of Ephraim',
+        'Delilah of Sorek',
+        'Naomi of Bethlehem',
+      ],
+      correctIndex: 0,
+      explanation:
+        'Prudent, courageous Abigail stepped swiftly between angry armies and reminded David of God’s promise—winning David’s heartfelt blessing for stopping bloodshed.',
+      takeaway: 'Peacemakers courageously step into tension with generosity and wisdom.',
+    },
+  ],
+  '2sa-davidic-grace': [
+    {
+      id: 'q-2sa-1',
+      passageId: '2SA-7',
+      passageRef: '2 Samuel 7:12–16',
+      question: 'When King David offered to build God a cedar temple in Jerusalem, what did God promise David through prophet Nathan instead?',
+      options: [
+        'That David’s throne and kingdom would be established forever',
+        'That David would move the capital back to Shiloh',
+        'That only Levites could enter Jerusalem',
+        'That David should build two golden altars in Hebron',
+      ],
+      correctIndex: 0,
+      explanation:
+        'In the Davidic Covenant (2 Samuel 7:16), God promised to build David a lasting royal house and eternal throne—ultimately fulfilled in Jesus Christ.',
+      takeaway: 'Before we build anything for God, He builds unshakable promises of grace around us.',
+    },
+    {
+      id: 'q-2sa-2',
+      passageId: '2SA-9',
+      passageRef: '2 Samuel 9:7–13',
+      question: 'How did King David honor his covenant friendship with Jonathan toward Jonathan’s injured son Mephibosheth?',
+      options: [
+        'He banished him east of the Jordan River',
+        'He restored Saul’s land and welcomed Mephibosheth to dine at the king’s table continually',
+        'He sent him to guard En Gedi’s caves alone',
+        'He asked him to wait until Solomon became king',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Reaching into Lo Debar ("No-Pasture") in 2 Samuel 9, David showed God’s chesed kindness—restoring inheritance and welcoming Mephibosheth like a royal son.',
+      takeaway: 'True grace invites overlooked people straight to the table of belonging.',
+    },
+    {
+      id: 'q-2sa-3',
+      passageId: '2SA-24',
+      passageRef: '2 Samuel 24:24',
+      question: 'Why did King David insist on paying full silver for Araunah’s threshing floor rather than taking it for free?',
+      options: [
+        'Because he refused to offer sacrifices to God that cost him nothing',
+        'Because Araunah demanded triple tax from Judah',
+        'Because Joab forbade gifts from Jerusalem farmers',
+        'Because he planned to build a granary instead of an altar',
+      ],
+      correctIndex: 0,
+      explanation:
+        'David declared, "I will not offer burnt offerings to Yahweh my God which cost me nothing"—buying the exact hilltop site where Solomon’s Temple later rose.',
+      takeaway: 'Sincere worship offers our best heart and care rather than leftovers.',
+    },
+  ],
+  '1ki-wisdom-prophets': [
+    {
+      id: 'q-1ki-1',
+      passageId: '1KI-3',
+      passageRef: '1 Kings 3:5–14',
+      question: 'When God appeared to young King Solomon in a dream at Gibeon, what did Solomon ask for above wealth or long life?',
+      options: [
+        'A larger chariot army to conquer Egypt',
+        'A discerning, listening heart to govern Israel wisely',
+        'Ten golden palaces along the Mediterranean coast',
+        'Seven extra years before ascending the throne',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Solomon humbly called himself "but a little child" and asked for lev shomea—an understanding, listening heart—pleasing God so deeply that God granted wisdom alongside honor.',
+      takeaway: 'True leadership starts with listening humbly rather than grasping for power.',
+    },
+    {
+      id: 'q-1ki-2',
+      passageId: '1KI-17',
+      passageRef: '1 Kings 17:6–16',
+      question: 'How did God feed Elijah first by the Kerith ravine and later in Phoenician Zarephath during severe famine?',
+      options: [
+        'First with food carried by wild ravens, then via a widow’s jar of flour and oil that never ran dry',
+        'First with manna in Galilee, then from Solomon’s hidden storehouses',
+        'By sending Ahab’s royal bakery across the Jordan River',
+        'Through silver coins found inside three fish in Sidon',
+      ],
+      correctIndex: 0,
+      explanation:
+        'At Kerith brook ravens brought Elijah bread and meat morning and evening; then in Zarephath an impoverished widow’s tiny flour jar sustained her household daily until rain fell.',
+      takeaway: 'God’s daily faithfulness often flows through unexpected messengers and small generous hands.',
+    },
+    {
+      id: 'q-1ki-3',
+      passageId: '1KI-19',
+      passageRef: '1 Kings 19:11–13',
+      question: 'When exhausted prophet Elijah stood at the cave mouth on Mount Horeb after violent wind, earthquake, and fire, how did Yahweh speak?',
+      options: [
+        'In a thunderclap heard across all of Judah',
+        'In a gentle whisper ("still small voice")',
+        'Through a pillar of smoke rising from Samaria',
+        'By carving fresh stone tablets beside Jordan',
+      ],
+      correctIndex: 1,
+      explanation:
+        'After feeding tired Elijah warm bread and letting him rest, God revealed Himself not in terrifying spectacle, but in qol demamah daqqah—the gentle whisper of a still small voice.',
+      takeaway: 'When burnout sets in, God meets weary hearts with rest and quiet gentleness.',
+    },
+  ],
+  '2ki-mercy-reform': [
+    {
+      id: 'q-2ki-1',
+      passageId: '2KI-5',
+      passageRef: '2 Kings 5:1–14',
+      question: 'Why did Syrian commander Naaman nearly miss his healing before turning back in humility?',
+      options: [
+        'Because Elisha told him to cross Mount Carmel barefoot',
+        'Because Elisha simply told him to wash seven times in the humble Jordan River without royal spectacle',
+        'Because King Hezekiah closed Jerusalem’s gates',
+        'Because his chariot broke near Dothan',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Expecting dramatic hand-waving, Naaman scoffed at Jordan’s waters until his gentle servants urged him to try—revealing that God’s healing meets humility.',
+      takeaway: 'Grace resists pride and shines brightest in ordinary humility.',
+    },
+    {
+      id: 'q-2ki-2',
+      passageId: '2KI-6',
+      passageRef: '2 Kings 6:15–17',
+      question: 'When surrounded at Dothan by enemy chariots, what did prophet Elisha pray for his terrified servant?',
+      options: [
+        'For thunder to flood the Kishon River',
+        '“Yahweh, please open his eyes, that he may see”',
+        'For eagles to carry them to Mount Horeb',
+        'To strike Samaria with darkness for forty days',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Elisha prayed open his helper’s eyes—showing hills full of fiery horses and chariots, teaching that those with us are more than those against us.',
+      takeaway: 'Prayer opens tired eyes to God’s unseen nearness.',
+    },
+    {
+      id: 'q-2ki-3',
+      passageId: '2KI-22',
+      passageRef: '2 Kings 22:8–13',
+      question: 'What did workers uncover while repairing Jerusalem’s Temple during the reign of young King Josiah?',
+      options: [
+        'The lost Book of the Law (Torah scroll), prompting Josiah to weep and renew Judah’s covenant',
+        'David’s five smooth pebbles from Elah',
+        'Seven trumpets from Jericho’s walls',
+        'A golden calf hidden beneath Bethel',
+      ],
+      correctIndex: 0,
+      explanation:
+        'Hearing the rediscovered Torah read aloud pierced young Josiah’s heart—sparking heartfelt repentance and Judah’s joyful Passover renewal.',
+      takeaway: 'Opening God’s neglected Word with a humble heart restores whole communities.',
+    },
+  ],
+  'job-suffering-whirlwind': [
+    {
+      id: 'q-job-1',
+      passageId: 'JOB-1',
+      passageRef: 'Job 1:21',
+      question: 'After losing livestock, servants, and children in a single day, how did Job respond in worship?',
+      options: [
+        'He fled the land of Uz and vowed never to speak again',
+        '“Yahweh gave, and Yahweh has taken away. Blessed be Yahweh’s name.”',
+        'He blamed his three friends for his sudden calamity',
+        'He rebuilt his house with silver mined in Edom',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Job tore his robe in genuine grief yet bowed to the earth in honest worship—proving true love for God does not rest merely on earthly comfort.',
+      takeaway: 'Honest tears and reverent worship can sit side by side.',
+    },
+    {
+      id: 'q-job-2',
+      passageId: 'JOB-19',
+      passageRef: 'Job 19:25',
+      question: 'When Eliphaz, Bildad, and Zophar insisted suffering must mean secret guilt, what radiant confession did Job proclaim in chapter 19?',
+      options: [
+        '“There is no hope left for mortals under the sun”',
+        '“I know that my Redeemer lives, and in the end he will stand upon the earth.”',
+        '“Silence is the only wisdom for kings and elders”',
+        '“Only sacrifices of bulls can answer my case”',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Even in deep isolation, Job looked past his critics to a living Kinsman-Redeemer (Goel) who would stand up and vindicate him.',
+      takeaway: 'Even when people misunderstand you, your Redeemer lives.',
+    },
+    {
+      id: 'q-job-3',
+      passageId: 'JOB-38',
+      passageRef: 'Job 38:1–7',
+      question: 'How did Yahweh finally answer Job out of the whirlwind in Job 38?',
+      options: [
+        'By giving Job a neat legal chart explaining every tragedy',
+        'By expanding Job’s vision across dawn’s stars, snow storehouses, sea bounds, and wild creation',
+        'By ordering Job’s friends to write a proverb scroll',
+        'By commanding rain to flood the land of Uz for forty days',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Rather than offering shallow equations, God invited Job into breathtaking awe of creation—showing the vast loving wisdom guiding every corner of the universe.',
+      takeaway: 'Encountering God’s majestic presence brings deeper peace than small human answers.',
+    },
+  ],
+  'psa-praise-shepherd': [
+    {
+      id: 'q-psa-1',
+      passageId: 'PSA-23',
+      passageRef: 'Psalm 23:1–4',
+      question: 'Even when walking through “the valley of the shadow of death” in Psalm 23, why does David say he fears no evil?',
+      options: [
+        'Because armies surround the pastures ahead of him',
+        '“For you are with me. Your rod and your staff, they comfort me.”',
+        'Because winter rains have already passed away',
+        'Because he stays hidden inside Shiloh’s tent',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Psalm 23 shifts from speaking *about* Yahweh (“He leads me”) to speaking directly *to* Him (“You are with me”) the moment shadows thicken.',
+      takeaway: 'In dark valleys, God’s close presence turns fear into calm comfort.',
+    },
+    {
+      id: 'q-psa-2',
+      passageId: 'PSA-51',
+      passageRef: 'Psalm 51:10–17',
+      question: 'According to David’s heartfelt prayer in Psalm 51, what sacrifice will God never despise?',
+      options: [
+        'Ten golden bowls from Ophir',
+        'A broken spirit—a broken and contrite heart',
+        'Silence outside Jerusalem’s gate for seven weeks',
+        'High stone pillars carved in Lebanon',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Clean honesty before God matters infinitely more than outward religious performance.',
+      takeaway: 'Honest repentance always meets forgiving grace.',
+    },
+    {
+      id: 'q-psa-3',
+      passageId: 'PSA-150',
+      passageRef: 'Psalm 150:6',
+      question: 'How does the entire five-book Psalter reach its final climax in Psalm 150?',
+      options: [
+        'With a quiet warning to stay silent inside the gate',
+        'With trumpets, harps, tambourines, and “Let everything that has breath praise Yah!”',
+        'With a census list of twelve tribes at Sinai',
+        'With a map of Euphrates rivers',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Beginning with honest sighs and dark laments across 150 songs, the Psalter opens wide until every breathing creature joins one joyful orchestra of Hallelujah.',
+      takeaway: 'Every honest emotion can grow steadily into wholehearted praise.',
+    },
+  ],
+  'dan-exile-kingdom': [
+    {
+      id: 'q-dan-1',
+      passageId: 'DAN-3',
+      passageRef: 'Daniel 3:17–25',
+      question: 'When thrown bound into Nebuchadnezzar’s seven-times-hotter fiery furnace, what astonished the watching king?',
+      options: [
+        'Snow fell down from Mount Hermon to put out the coals',
+        'Four men walked unbound inside the flames—and the fourth looked like a son of the gods',
+        'Heavy Euphrates floodwaters washed the furnace wall away',
+        'The three friends turned invisible behind copper doors',
+      ],
+      correctIndex: 1,
+      explanation:
+        'God did not always spare faithful people from entering the fire, yet walked tenderly right alongside them inside it—burning only the ropes.',
+      takeaway: 'Courage declares “God is able—and even if not, we stay faithful.”',
+    },
+    {
+      id: 'q-dan-2',
+      passageId: 'DAN-6',
+      passageRef: 'Daniel 6:10–22',
+      question: 'When a thirty-day royal decree banned praying to anyone except King Darius, how did elderly Daniel respond?',
+      options: [
+        'He secretly hid inside Susa’s cedar cellar without praying',
+        'He kept kneeling toward Jerusalem three times daily, praying and giving thanks just as before',
+        'He resigned his office and sailed back across the Euphrates',
+        'He signed a counter-petition with the royal magicians',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Daniel’s quiet lifelong rhythm of prayer anchored his courage cleanly when crisis struck—and God sent an angel to shut the lions’ mouths.',
+      takeaway: 'Steady daily faithfulness prepares fearless peace in sudden tests.',
+    },
+    {
+      id: 'q-dan-3',
+      passageId: 'DAN-7',
+      passageRef: 'Daniel 7:13–14',
+      question: 'In Daniel’s midnight vision after the four fierce sea beasts, who comes with the clouds of heaven to receive an everlasting kingdom?',
+      options: [
+        'Cyrus riding an ivory chariot',
+        'One like a Son of Man before the Ancient of Days',
+        'Four captains returning from Samaria',
+        'High priest Aaron holding a bronze lamp',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Jesus repeatedly adopted “Son of Man” from Daniel 7 as His favorite self-title—uniting eternal divine glory with tender human representation.',
+      takeaway: 'Human empires roar briefly, while God’s gentle everlasting Kingdom stands forever.',
+    },
+  ],
+};
+
+// Quick onboarding mini-quiz check
+export const ONBOARDING_QUIZ: QuizQuestion = {
+  id: 'onboard-aha-q1',
+  passageId: 'EXO-16',
+  passageRef: 'Exodus 16:15',
+  question: 'When the Israelites first laid eyes on the bread from heaven, what did they name it?',
+  options: [
+    'Matzah (Unleavened Bread)',
+    'Manna (meaning "What is it?")',
+    'Challah (Sabbath Loaf)',
+    'Nile Flour',
+  ],
+  correctIndex: 1,
+  explanation: 'Spot on! They called it "Manna" because they had never seen anything like it before in Egypt. God’s daily supernatural care was unlike anything the world had ever seen.',
+  takeaway: 'You just unlocked your first connected biblical insight!',
+};
