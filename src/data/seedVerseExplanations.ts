@@ -12,6 +12,7 @@ import { SECOND_SAMUEL_CHAPTERS } from './books/secondSamuelChapters';
 import { FIRST_KINGS_CHAPTERS } from './books/firstKingsChapters';
 import { SECOND_KINGS_CHAPTERS } from './books/secondKingsChapters';
 import { FIRST_CHRONICLES_CHAPTERS } from './books/firstChroniclesChapters';
+import { SECOND_CHRONICLES_CHAPTERS } from './books/secondChroniclesChapters';
 import { JOB_CHAPTERS } from './books/jobChapters';
 import { PSALMS_CHAPTERS } from './books/psalmsChapters';
 import { DANIEL_CHAPTERS } from './books/danielChapters';
@@ -1240,6 +1241,56 @@ export const SEED_VERSE_EXPLANATIONS: Record<string, VerseExplanation> = {
     tryThisAction: 'Practice giving something away cheerfully today—time, encouragement, or a meal—with open hands.',
     kidFriendlySummary: 'Everyone happily shared gold, silver, and wood—and David cheered, “Everything good we have already came as a gift from You!”',
   },
+  '2CH-7:14': {
+    verseId: '2CH-7:14',
+    verseRef: '2 Chronicles 7:14',
+    whatThisMeans:
+      'Spoken quietly at night to Solomon right after Temple dedication, God lays out the spiritual heartbeat of Chronicles: whenever life fractures or seasons grow dry, healing begins with God’s own people softening stubbornness in prayer.',
+    lessonForYou:
+      'Before asking others to change, lowering pride before God opens fresh mercy and clarity.',
+    tryThisAction: 'Spend two honest minutes praying simply for grace and gentleness in one area you usually defend.',
+    kidFriendlySummary: 'Whenever people stop being stubborn, pray from the heart, and turn toward God’s good way, Heaven listens right away!',
+  },
+  '2CH-14:11': {
+    verseId: '2CH-14:11',
+    verseRef: '2 Chronicles 14:11',
+    whatThisMeans:
+      'Standing outmanned before Zerah’s huge host, King Asa refuses empty boasts and prays Scripture’s clearest confession of dependence: God doesn’t need strong armies—He steps effortlessly between the mighty and the powerless.',
+    lessonForYou:
+      'Feeling small or unequipped is never a barrier when we ask God to help honestly.',
+    tryThisAction: 'Hand over one task that feels way too big for you today with Asa’s short prayer: “Help us, O Yahweh our God!”',
+    kidFriendlySummary: 'King Asa didn’t pretend to be giant—he whispered straight to God, “Only You can help little ones against huge problems!”',
+  },
+  '2CH-20:12': {
+    verseId: '2CH-20:12',
+    verseRef: '2 Chronicles 20:12',
+    whatThisMeans:
+      'Surrounded by crisis, Jehoshaphat admits without embarrassment: “We don’t know what to do—but our eyes are on You.” God answers by sending Levite choirs praising His lovingkindness out front before any fighting.',
+    lessonForYou:
+      'Not knowing the next step doesn’t disqualify faith—keeping your eyes lifted toward God turns panic into peace.',
+    tryThisAction: 'When you feel stuck on a decision today, whisper “My eyes are on You” before taking the next calm step.',
+    kidFriendlySummary: 'When enemies marched up the hill, King Jehoshaphat told God honestly, “We don’t know what to do, so we’re looking at You!”—then put singers out front!',
+  },
+  '2CH-33:13': {
+    verseId: '2CH-33:13',
+    verseRef: '2 Chronicles 33:12–13',
+    whatThisMeans:
+      'King Manasseh spent decades filling Jerusalem with violence and idols. Yet bound in bronze chains in a foreign dungeon, he humbled himself deeply—and Yahweh heard, forgave, and restored him to undo harm where he could.',
+    lessonForYou:
+      'No past season is ever too messy for honest repentance and a fresh beginning with God.',
+    tryThisAction: 'Release shame over a past regret today by thanking God for real forgiveness and doing one quiet good deed.',
+    kidFriendlySummary: 'Even a king who made terrible messes was completely heard and forgiven the moment he prayed with a soft, sorry heart!',
+  },
+  '2CH-36:23': {
+    verseId: '2CH-36:23',
+    verseRef: '2 Chronicles 36:23',
+    whatThisMeans:
+      'As the final line of the entire Hebrew Bible order (Tanakh), Persian king Cyrus echoes God’s restoration promise over scattered exiles: “Whoever is among you of all His people, may Yahweh his God be with him, and let him go up!”',
+    lessonForYou:
+      'Biblical history never ends in a locked prison—even after exile, God opens dawn roads toward rebuilding and hope.',
+    tryThisAction: 'Step forward into one constructive, hopeful habit today trusting God goes up with you.',
+    kidFriendlySummary: 'At the very end of the scroll, God opened the doors home—saying, “Cheer up, I’m right with you, let’s go rebuild together!”',
+  },
 };
 
 export function getExplanationForVerse(verseId: string): VerseExplanation {
@@ -1469,6 +1520,23 @@ export function getExplanationForVerse(verseId: string): VerseExplanation {
       };
     }
     return SEED_VERSE_EXPLANATIONS['1CH-16:34'];
+  }
+
+  if (verseId.startsWith('2CH-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = SECOND_CHRONICLES_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `2 Chronicles ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, 2 Chronicles reveals how humble prayer, heartfelt worship, and turning back to God invite mercy even in hard times.`,
+        tryThisAction: `Ask how ${ref} invites you to seek God humbly and trust His help today.`,
+        kidFriendlySummary: `${chapData.subtitle} When God’s people pray humbly, Heaven hears and helps!`,
+      };
+    }
+    return SEED_VERSE_EXPLANATIONS['2CH-7:14'];
   }
 
   if (verseId.startsWith('JOB-')) {

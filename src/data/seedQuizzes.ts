@@ -905,6 +905,56 @@ export const SEED_QUIZZES: Record<string, QuizQuestion[]> = {
       takeaway: 'Cheerful generosity flows naturally from grateful stewardship.',
     },
   ],
+  '2ch-choir-humility': [
+    {
+      id: 'q-2ch-1',
+      passageId: '2CH-7',
+      passageRef: '2 Chronicles 7:14',
+      question: 'After fire falls on Solomon’s Temple offerings, what four-step path does God promise leads to hearing, forgiving, and healing?',
+      options: [
+        'Build taller gold gates and hire chariots from Egypt',
+        'Humble themselves, pray, seek God’s face, and turn from wicked ways',
+        'Move the Ark out of Jerusalem to Mount Hermon',
+        'Gather taxes every Sabbath without songs',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Throughout 2 Chronicles, military strength never saves unrepentant pride, yet humble prayer immediately opens heaven’s compassionate mercy.',
+      takeaway: 'Humility before God is always the open door to renewal.',
+    },
+    {
+      id: 'q-2ch-2',
+      passageId: '2CH-20',
+      passageRef: '2 Chronicles 20:12–22',
+      question: 'Facing a huge coalition in 2 Chronicles 20, whom did King Jehoshaphat appoint to march at the very front of Judah’s troops?',
+      options: [
+        'Three hundred bronze battering rams',
+        'Worship singers in holy attire praising “For His lovingkindness endures forever!”',
+        'Silent scouts disguised as merchants from Tyre',
+        'Mounted archers from Samaria',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Trusting God’s promise that “the battle is not yours, but God’s,” Jehoshaphat let joyful worship precede combat—turning threat into the Valley of Blessing.',
+      takeaway: 'Worshiping before rescue arrives shows real trust in God.',
+    },
+    {
+      id: 'q-2ch-3',
+      passageId: '2CH-33',
+      passageRef: '2 Chronicles 33:12–13',
+      question: 'Carried in bronze shackles to Babylon after years of terrible sin, how did God respond when King Manasseh finally humbled himself and prayed?',
+      options: [
+        'He kept Jerusalem’s doors shut for seventy years',
+        'He listened tenderly, forgave him, and brought him back to Jerusalem',
+        'He sent lightning down onto Nineveh’s walls',
+        'He forbade Manasseh from ever entering the courtyard',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Manasseh’s unexpected forgiveness in 2 Chronicles 33 stands among Scripture’s boldest demonstrations that sincere repentance is never turned away.',
+      takeaway: 'No heart is too far gone to be heard by a merciful God.',
+    },
+  ],
 };
 
 // Quick onboarding mini-quiz check

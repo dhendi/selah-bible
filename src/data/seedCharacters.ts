@@ -3500,6 +3500,175 @@ export const SEED_CHARACTERS: Record<string, CharacterCard> = {
       },
     ],
   },
+  'char-profile-asa': {
+    id: 'char-profile-asa',
+    name: 'King Asa of Judah',
+    nameMeaning: 'Hebrew: Asa ("Healer / Physician")',
+    era: 'Divided Monarchy ~910–869 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-asa',
+    quickBio:
+      'Early Judean reformer who cleared away idols, cried out “There is none besides You to help!” against a million-man army at Mareshah, and rallied Judah in covenant renewal—reminding readers later why finishing well matters.',
+    familyTree: { parents: ['Abijah', 'Maacah (removed as queen mother)'], siblings: [], children: ['char-profile-jehoshaphat'] },
+    locationsLived: [
+      {
+        placeName: 'Jerusalem & Mareshah Valley',
+        roleInLife: 'Reigned forty-one years over Judah through early revival and later testing',
+        coordinates: { lat: 31.77, lng: 35.23 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Gave Israel 2 Chronicles 14:11’s unforgettable prayer of powerless trust in Yahweh.',
+    ],
+    keyChapters: [
+      {
+        reference: '2 Chronicles 14:1–15',
+        label: 'Prayer of Helpless Trust at Mareshah',
+        storyModuleId: 'story-2ch-humble-heal',
+        chapterId: '2CH-14',
+        anchorVerseNumber: 11,
+      },
+      {
+        reference: '2 Chronicles 15:1–15',
+        label: '“Take Courage—Your Work Will Be Rewarded!”',
+        storyModuleId: 'story-2ch-humble-heal',
+        chapterId: '2CH-15',
+        anchorVerseNumber: 7,
+      },
+    ],
+  },
+  'char-profile-jehoshaphat': {
+    id: 'char-profile-jehoshaphat',
+    name: 'King Jehoshaphat',
+    nameMeaning: 'Hebrew: Yehoshafat ("Yahweh Has Judged")',
+    era: 'Divided Monarchy ~872–848 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-jehoshaphat',
+    quickBio:
+      'Sent Levite teachers across every town in Judah carrying the Book of the Law, reformed courts free of bribery, and when surrounded by allied invaders stood praying: “Neither know we what to do, but our eyes are upon You!”',
+    familyTree: { parents: ['char-profile-asa', 'Azubah'], siblings: [], children: ['Jehoram'] },
+    locationsLived: [
+      {
+        placeName: 'Jerusalem & Valley of Beracah',
+        roleInLife: 'Led Judah in Torah teaching, court reform, and choir-led deliverance',
+        coordinates: { lat: 31.65, lng: 35.22 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Put worship singers at the very front line of battle—turning danger into the Valley of Blessing.',
+    ],
+    keyChapters: [
+      {
+        reference: '2 Chronicles 17:7–10',
+        label: 'Sending Torah Teachers Across All Cities',
+        storyModuleId: 'story-2ch-choir-battle',
+        chapterId: '2CH-17',
+        anchorVerseNumber: 9,
+      },
+      {
+        reference: '2 Chronicles 20:1–30',
+        label: '“Our Eyes Are Upon You” & Choirs Marching First',
+        storyModuleId: 'story-2ch-choir-battle',
+        chapterId: '2CH-20',
+        anchorVerseNumber: 12,
+      },
+    ],
+  },
+  'char-profile-jehoshabeath': {
+    id: 'char-profile-jehoshabeath',
+    name: 'Princess Jehoshabeath (Jehosheba)',
+    nameMeaning: 'Hebrew: Yehoshavat ("Yahweh Is an Oath")',
+    era: 'House of David Crisis ~841 BC',
+    roleBadge: 'Women of Faith',
+    portraitIllustrationId: 'portrait-jehoshabeath',
+    quickBio:
+      'Brave royal daughter of Judah and wife of high priest Jehoiada who quietly whisked infant prince Joash out of queen Athaliah’s palace purge and sheltered him safely inside God’s Temple for six years.',
+    familyTree: { parents: ['King Jehoram'], siblings: ['Ahaziah'], spouse: ['char-profile-jehoiada'] },
+    locationsLived: [
+      {
+        placeName: 'Jerusalem Temple Chambers',
+        roleInLife: 'Kept the sole surviving royal heir of David hidden for six years',
+        coordinates: { lat: 31.778, lng: 35.235 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Without her swift, hidden courage, the royal line of David (leading to Jesus) faced extinction.',
+    ],
+    keyChapters: [
+      {
+        reference: '2 Chronicles 22:10–12',
+        label: 'Rescuing Infant Joash Into the Temple',
+        storyModuleId: 'story-2ch-joash-rescue',
+        chapterId: '2CH-22',
+        anchorVerseNumber: 11,
+      },
+    ],
+  },
+  'char-profile-jehoiada': {
+    id: 'char-profile-jehoiada',
+    name: 'High Priest Jehoiada',
+    nameMeaning: 'Hebrew: Yehoyada ("Yahweh Knows")',
+    era: 'Judah ~900–796 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-jehoiada',
+    quickBio:
+      'Wise high priest who sheltered baby Joash beside his wife Jehoshabeath, united captains and Levites in his seventh year to crown the child-king, tore down Baal shrines, and was honored with burial among Israel’s kings.',
+    familyTree: { parents: [], siblings: [], spouse: ['char-profile-jehoshabeath'], children: ['Zechariah (Prophet)'] },
+    locationsLived: [
+      {
+        placeName: 'Jerusalem Temple Courts',
+        roleInLife: 'High Priest who restored Davidic kingship and repaired the Temple',
+        coordinates: { lat: 31.778, lng: 35.235 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Modeled faithful stewardship of both throne and sanctuary across 130 years of life.',
+    ],
+    keyChapters: [
+      {
+        reference: '2 Chronicles 23:1–21',
+        label: 'Crowning Seven-Year-Old King Joash',
+        storyModuleId: 'story-2ch-joash-rescue',
+        chapterId: '2CH-23',
+        anchorVerseNumber: 11,
+      },
+    ],
+  },
+  'char-profile-manasseh': {
+    id: 'char-profile-manasseh',
+    name: 'King Manasseh (Penitent)',
+    nameMeaning: 'Hebrew: Menasheh ("Causing to Forget")',
+    era: 'Assyrian Hegemony ~697–643 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-manasseh',
+    quickBio:
+      'Son of faithful Hezekiah who plunged Judah into devastating idolatry for decades—until taken in bronze shackles to Babylon, where he humbled himself deeply before Yahweh, received astonishing forgiveness, and returned to rebuild and worship.',
+    familyTree: { parents: ['char-profile-hezekiah', 'Hephzibah'], siblings: [], children: ['Amon'] },
+    locationsLived: [
+      {
+        placeName: 'Jerusalem & Babylon Prison',
+        roleInLife: 'Exiled in shackles before deep repentance brought restoration home',
+        coordinates: { lat: 32.54, lng: 44.42 },
+        mapPinId: 'loc-babylon',
+      },
+    ],
+    whyTheyMatter: [
+      'Exclusive to 2 Chronicles 33, Manasseh’s forgiveness proves no failure puts anyone beyond God’s mercy.',
+    ],
+    keyChapters: [
+      {
+        reference: '2 Chronicles 33:10–19',
+        label: 'Humbled in Bronze Chains & Astonishingly Forgiven',
+        storyModuleId: 'story-2ch-manasseh-mercy',
+        chapterId: '2CH-33',
+        anchorVerseNumber: 12,
+      },
+    ],
+  },
 };
 
 export const CHARACTER_DIRECTORY_LIST: CharacterCard[] = [
@@ -3580,5 +3749,10 @@ export const CHARACTER_DIRECTORY_LIST: CharacterCard[] = [
   SEED_CHARACTERS['char-profile-abishai'],
   SEED_CHARACTERS['char-profile-zadok'],
   SEED_CHARACTERS['char-profile-jeduthun'],
+  SEED_CHARACTERS['char-profile-asa'],
+  SEED_CHARACTERS['char-profile-jehoshaphat'],
+  SEED_CHARACTERS['char-profile-jehoshabeath'],
+  SEED_CHARACTERS['char-profile-jehoiada'],
+  SEED_CHARACTERS['char-profile-manasseh'],
   SEED_CHARACTERS['char-profile-peter'],
 ];

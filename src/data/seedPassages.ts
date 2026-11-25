@@ -12,6 +12,7 @@ import { SECOND_SAMUEL_CHAPTERS } from './books/secondSamuelChapters';
 import { FIRST_KINGS_CHAPTERS } from './books/firstKingsChapters';
 import { SECOND_KINGS_CHAPTERS } from './books/secondKingsChapters';
 import { FIRST_CHRONICLES_CHAPTERS } from './books/firstChroniclesChapters';
+import { SECOND_CHRONICLES_CHAPTERS } from './books/secondChroniclesChapters';
 import { JOB_CHAPTERS } from './books/jobChapters';
 import { PSALMS_CHAPTERS } from './books/psalmsChapters';
 import { DANIEL_CHAPTERS } from './books/danielChapters';
@@ -30,6 +31,7 @@ export const SEED_CHAPTERS: Record<string, ChapterData> = {
   ...FIRST_KINGS_CHAPTERS,
   ...SECOND_KINGS_CHAPTERS,
   ...FIRST_CHRONICLES_CHAPTERS,
+  ...SECOND_CHRONICLES_CHAPTERS,
   ...JOB_CHAPTERS,
   ...PSALMS_CHAPTERS,
   ...DANIEL_CHAPTERS,

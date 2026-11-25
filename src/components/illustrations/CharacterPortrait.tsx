@@ -354,6 +354,26 @@ const PORTRAIT_URL_MAP: Record<string, { src: string; alt: string }> = {
     src: '/images/portrait-jeduthun.jpg',
     alt: 'Portrait of Jeduthun (Ethan), Chief Sanctuary Musician',
   },
+  'portrait-asa': {
+    src: '/images/portrait-asa.jpg',
+    alt: 'Portrait of King Asa of Judah',
+  },
+  'portrait-jehoshaphat': {
+    src: '/images/portrait-jehoshaphat.jpg',
+    alt: 'Portrait of King Jehoshaphat of Judah',
+  },
+  'portrait-jehoshabeath': {
+    src: '/images/portrait-jehoshabeath.jpg',
+    alt: 'Portrait of Princess Jehoshabeath of Judah',
+  },
+  'portrait-jehoiada': {
+    src: '/images/portrait-jehoiada.jpg',
+    alt: 'Portrait of High Priest Jehoiada',
+  },
+  'portrait-manasseh': {
+    src: '/images/portrait-manasseh.jpg',
+    alt: 'Portrait of Penitent King Manasseh',
+  },
   'portrait-boaz': {
     src: '/images/portrait-boaz.jpg',
     alt: 'Portrait of Boaz of Bethlehem',
