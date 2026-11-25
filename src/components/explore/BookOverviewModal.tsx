@@ -2,7 +2,7 @@ import React from 'react';
 import { X, BookOpen, Clock, Tag } from 'lucide-react';
 import type { BookOverview } from '../../types/bible';
 import { useStudyStore } from '../../store/useStudyStore';
-import { GENRE_COLORS } from '../../data/seedBooks';
+import { GENRE_COLORS, BUILT_BOOK_START_CHAPTER } from '../../data/seedBooks';
 
 export const BookOverviewModal: React.FC<{
   book: BookOverview | null;
@@ -13,40 +13,12 @@ export const BookOverviewModal: React.FC<{
   if (!book) return null;
 
   const genreColor = GENRE_COLORS[book.genre] || GENRE_COLORS['Law'];
+  const startPassageId = BUILT_BOOK_START_CHAPTER[book.id];
 
   const handleStartReading = () => {
+    if (!startPassageId) return;
     onClose();
-    if (book.id === 'EXO') {
-      navigateToPassage('EXO-16');
-    } else if (book.id === 'LEV') {
-      navigateToPassage('LEV-1');
-    } else if (book.id === 'NUM') {
-      navigateToPassage('NUM-1');
-    } else if (book.id === 'DEU') {
-      navigateToPassage('DEU-1');
-    } else if (book.id === 'JOS') {
-      navigateToPassage('JOS-1');
-    } else if (book.id === 'JDG') {
-      navigateToPassage('JDG-1');
-    } else if (book.id === '1SA') {
-      navigateToPassage('1SA-1');
-    } else if (book.id === '2SA') {
-      navigateToPassage('2SA-1');
-    } else if (book.id === '1KI') {
-      navigateToPassage('1KI-1');
-    } else if (book.id === '2KI') {
-      navigateToPassage('2KI-1');
-    } else if (book.id === 'JOB') {
-      navigateToPassage('JOB-1');
-    } else if (book.id === 'PSA') {
-      navigateToPassage('PSA-1');
-    } else if (book.id === 'DAN') {
-      navigateToPassage('DAN-1');
-    } else if (book.id === 'RUT') {
-      navigateToPassage('RUT-1');
-    } else {
-      navigateToPassage('GEN-1');
-    }
+    navigateToPassage(startPassageId);
   };
 
   return (
@@ -125,13 +97,23 @@ export const BookOverviewModal: React.FC<{
         </div>
 
         {/* Action Button */}
-        <button
-          onClick={handleStartReading}
-          className="w-full py-3.5 rounded-2xl bg-[#7A9A82] hover:bg-[#68866F] text-white font-medium text-sm transition-colors shadow-xs flex items-center justify-center gap-2 cursor-pointer"
-        >
-          <BookOpen className="w-4 h-4" />
-          <span>Start Reading {book.title}</span>
-        </button>
+        {startPassageId ? (
+          <button
+            onClick={handleStartReading}
+            className="w-full py-3.5 rounded-2xl bg-[#7A9A82] hover:bg-[#68866F] text-white font-medium text-sm transition-colors shadow-xs flex items-center justify-center gap-2 cursor-pointer"
+          >
+            <BookOpen className="w-4 h-4" />
+            <span>Start Reading {book.title}</span>
+          </button>
+        ) : (
+          <div
+            aria-disabled="true"
+            className="w-full py-3.5 rounded-2xl bg-[#EFECE6] border border-[#E5E2D9] text-[#7D7B74] font-medium text-sm flex items-center justify-center gap-2 cursor-not-allowed select-none"
+          >
+            <Clock className="w-4 h-4" />
+            <span>Chapters &amp; Artwork Coming Soon</span>
+          </div>
+        )}
       </div>
     </div>
   );

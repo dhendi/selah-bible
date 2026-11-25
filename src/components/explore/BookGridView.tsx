@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import type { BookOverview, BiblicalGenre } from '../../types/bible';
-import { SEED_BOOKS, GENRE_COLORS } from '../../data/seedBooks';
+import { SEED_BOOKS, GENRE_COLORS, BUILT_BOOK_START_CHAPTER } from '../../data/seedBooks';
 import { BookOverviewModal } from './BookOverviewModal';
 
 export const BookGridView: React.FC = () => {
@@ -15,6 +15,7 @@ export const BookGridView: React.FC = () => {
     'Prophets',
     'Gospels',
     'Letters',
+    'Prophecy',
   ];
 
   const filteredBooks =
@@ -45,22 +46,7 @@ export const BookGridView: React.FC = () => {
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
         {filteredBooks.map((book) => {
           const color = GENRE_COLORS[book.genre] || GENRE_COLORS['Law'];
-          const isFeaturedSeed =
-            book.id === 'GEN' ||
-            book.id === 'EXO' ||
-            book.id === 'LEV' ||
-            book.id === 'NUM' ||
-            book.id === 'DEU' ||
-            book.id === 'JOS' ||
-            book.id === 'JDG' ||
-            book.id === 'RUT' ||
-            book.id === '1SA' ||
-            book.id === '2SA' ||
-            book.id === '1KI' ||
-            book.id === '2KI' ||
-            book.id === 'JOB' ||
-            book.id === 'PSA' ||
-            book.id === 'DAN';
+          const isFeaturedSeed = Boolean(BUILT_BOOK_START_CHAPTER[book.id]);
 
           return (
             <button
