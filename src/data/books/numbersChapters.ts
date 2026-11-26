@@ -53,7 +53,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Take a census of all the congregation of the children of Israel, by their families, by their fathers’ houses, according to the number of the names, every male, one by one,",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-1:3",
@@ -68,6 +73,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -91,7 +100,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the names of the men who shall stand with you: Of Reuben: Elizur the son of Shedeur.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "NUM-1:6",
@@ -102,7 +116,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of Simeon: Shelumiel the son of Zurishaddai.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "NUM-1:7",
@@ -113,7 +132,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of Judah: Nahshon the son of Amminadab.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "NUM-1:8",
@@ -124,7 +148,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of Issachar: Nethanel the son of Zuar.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          }
+        ]
       },
       {
         "id": "NUM-1:9",
@@ -135,7 +164,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of Zebulun: Eliab the son of Helon.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "NUM-1:10",
@@ -146,7 +180,20 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the children of Joseph: of Ephraim: Elishama the son of Ammihud; of Manasseh: Gamaliel the son of Pedahzur.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          }
+        ]
       },
       {
         "id": "NUM-1:11",
@@ -157,7 +204,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of Benjamin: Abidan the son of Gideoni.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "NUM-1:12",
@@ -168,7 +220,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of Dan: Ahiezer the son of Ammishaddai.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "NUM-1:13",
@@ -179,7 +236,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of Asher: Pagiel the son of Ochran.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "NUM-1:14",
@@ -190,7 +252,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of Gad: Eliasaph the son of Deuel.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          }
+        ]
       },
       {
         "id": "NUM-1:15",
@@ -201,7 +268,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of Naphtali: Ahira the son of Enan.”",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          }
+        ]
       },
       {
         "id": "NUM-1:16",
@@ -212,7 +284,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are those who were called of the congregation, the princes of the tribes of their fathers; they were the heads of the thousands of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-1:17",
@@ -278,7 +355,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Reuben, Israel’s firstborn, their generations, by their families, by their fathers’ houses, according to the number of the names, one by one, every male from twenty years old and upward, all who were able to go out to war:",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-1:21",
@@ -289,7 +375,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "those who were counted of them, of the tribe of Reuben, were forty-six thousand five hundred.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "NUM-1:22",
@@ -300,7 +391,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the children of Simeon, their generations, by their families, by their fathers’ houses, those who were counted of it, according to the number of the names, one by one, every male from twenty years old and upward, all who were able to go out to war:",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "NUM-1:23",
@@ -311,7 +407,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "those who were counted of them, of the tribe of Simeon, were fifty-nine thousand three hundred.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "NUM-1:24",
@@ -322,7 +423,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the children of Gad, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          }
+        ]
       },
       {
         "id": "NUM-1:25",
@@ -333,7 +439,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "those who were counted of them, of the tribe of Gad, were forty-five thousand six hundred fifty.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          }
+        ]
       },
       {
         "id": "NUM-1:26",
@@ -344,7 +455,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the children of Judah, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "NUM-1:27",
@@ -355,7 +471,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "those who were counted of them, of the tribe of Judah, were seventy-four thousand six hundred.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "NUM-1:28",
@@ -366,7 +487,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the children of Issachar, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          }
+        ]
       },
       {
         "id": "NUM-1:29",
@@ -377,7 +503,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "those who were counted of them, of the tribe of Issachar, were fifty-four thousand four hundred.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          }
+        ]
       },
       {
         "id": "NUM-1:30",
@@ -388,7 +519,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the children of Zebulun, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "NUM-1:31",
@@ -399,7 +535,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "those who were counted of them, of the tribe of Zebulun, were fifty-seven thousand four hundred.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "NUM-1:32",
@@ -410,7 +551,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the children of Joseph: of the children of Ephraim, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          }
+        ]
       },
       {
         "id": "NUM-1:33",
@@ -421,7 +571,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "those who were counted of them, of the tribe of Ephraim, were forty thousand five hundred.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "NUM-1:34",
@@ -432,7 +587,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the children of Manasseh, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          }
+        ]
       },
       {
         "id": "NUM-1:35",
@@ -443,7 +603,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "those who were counted of them, of the tribe of Manasseh, were thirty-two thousand two hundred.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          }
+        ]
       },
       {
         "id": "NUM-1:36",
@@ -454,7 +619,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the children of Benjamin, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "NUM-1:37",
@@ -465,7 +635,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "those who were counted of them, of the tribe of Benjamin, were thirty-five thousand four hundred.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "NUM-1:38",
@@ -476,7 +651,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the children of Dan, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "NUM-1:39",
@@ -487,7 +667,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "those who were counted of them, of the tribe of Dan, were sixty-two thousand seven hundred.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "NUM-1:40",
@@ -498,7 +683,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the children of Asher, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "NUM-1:41",
@@ -509,7 +699,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "those who were counted of them, of the tribe of Asher, were forty-one thousand five hundred.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "NUM-1:42",
@@ -520,7 +715,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the children of Naphtali, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          }
+        ]
       },
       {
         "id": "NUM-1:43",
@@ -531,7 +731,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "those who were counted of them, of the tribe of Naphtali, were fifty-three thousand four hundred.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          }
+        ]
       },
       {
         "id": "NUM-1:44",
@@ -550,6 +755,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -562,7 +771,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So all those who were counted of the children of Israel by their fathers’ houses, from twenty years old and upward, all who were able to go out to war in Israel—",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-1:46",
@@ -584,7 +798,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But the Levites after the tribe of their fathers were not counted among them.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-1:48",
@@ -615,7 +834,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Only the tribe of Levi you shall not count, neither shall you take a census of them among the children of Israel;",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-1:50",
@@ -630,6 +858,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -646,6 +878,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -658,7 +894,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Israel shall pitch their tents, every man by his own camp, and every man by his own standard, according to their divisions.",
         "translation": "WEB",
         "illustrationId": "ill-num-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-1:53",
@@ -673,6 +914,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -693,6 +942,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -746,6 +999,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -758,7 +1015,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Those who encamp on the east side toward the sunrise shall be of the standard of the camp of Judah, according to their divisions. The prince of the children of Judah shall be Nahshon the son of Amminadab.",
         "translation": "WEB",
         "illustrationId": "ill-num-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "NUM-2:4",
@@ -780,7 +1042,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Those who encamp next to him shall be the tribe of Issachar. The prince of the children of Issachar shall be Nethanel the son of Zuar.",
         "translation": "WEB",
         "illustrationId": "ill-num-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          }
+        ]
       },
       {
         "id": "NUM-2:6",
@@ -802,7 +1069,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The tribe of Zebulun: the prince of the children of Zebulun shall be Eliab the son of Helon.",
         "translation": "WEB",
         "illustrationId": "ill-num-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "NUM-2:8",
@@ -824,7 +1096,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "All who were counted of the camp of Judah were one hundred eighty-six thousand four hundred, according to their divisions. They shall set out first.",
         "translation": "WEB",
         "illustrationId": "ill-num-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "NUM-2:10",
@@ -835,7 +1112,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“On the south side shall be the standard of the camp of Reuben according to their divisions. The prince of the children of Reuben shall be Elizur the son of Shedeur.",
         "translation": "WEB",
         "illustrationId": "ill-num-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "NUM-2:11",
@@ -857,7 +1139,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Those who encamp next to him shall be the tribe of Simeon. The prince of the children of Simeon shall be Shelumiel the son of Zurishaddai.",
         "translation": "WEB",
         "illustrationId": "ill-num-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "NUM-2:13",
@@ -879,7 +1166,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“The tribe of Gad: the prince of the children of Gad shall be Eliasaph the son of Reuel.",
         "translation": "WEB",
         "illustrationId": "ill-num-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          }
+        ]
       },
       {
         "id": "NUM-2:15",
@@ -901,7 +1193,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“All who were counted of the camp of Reuben were one hundred fifty-one thousand four hundred fifty, according to their armies. They shall set out second.",
         "translation": "WEB",
         "illustrationId": "ill-num-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "NUM-2:17",
@@ -916,6 +1213,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -928,7 +1229,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“On the west side shall be the standard of the camp of Ephraim according to their divisions. The prince of the children of Ephraim shall be Elishama the son of Ammihud.",
         "translation": "WEB",
         "illustrationId": "ill-num-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "NUM-2:19",
@@ -950,7 +1256,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Next to him shall be the tribe of Manasseh. The prince of the children of Manasseh shall be Gamaliel the son of Pedahzur.",
         "translation": "WEB",
         "illustrationId": "ill-num-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          }
+        ]
       },
       {
         "id": "NUM-2:21",
@@ -972,7 +1283,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“The tribe of Benjamin: the prince of the children of Benjamin shall be Abidan the son of Gideoni.",
         "translation": "WEB",
         "illustrationId": "ill-num-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "NUM-2:23",
@@ -994,7 +1310,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“All who were counted of the camp of Ephraim were one hundred eight thousand one hundred, according to their divisions. They shall set out third.",
         "translation": "WEB",
         "illustrationId": "ill-num-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "NUM-2:25",
@@ -1005,7 +1326,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“On the north side shall be the standard of the camp of Dan according to their divisions. The prince of the children of Dan shall be Ahiezer the son of Ammishaddai.",
         "translation": "WEB",
         "illustrationId": "ill-num-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "NUM-2:26",
@@ -1027,7 +1353,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Those who encamp next to him shall be the tribe of Asher. The prince of the children of Asher shall be Pagiel the son of Ochran.",
         "translation": "WEB",
         "illustrationId": "ill-num-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "NUM-2:28",
@@ -1049,7 +1380,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“The tribe of Naphtali: the prince of the children of Naphtali shall be Ahira the son of Enan.",
         "translation": "WEB",
         "illustrationId": "ill-num-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          }
+        ]
       },
       {
         "id": "NUM-2:30",
@@ -1071,7 +1407,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“All who were counted of the camp of Dan were one hundred fifty-seven thousand six hundred. They shall set out last by their standards.”",
         "translation": "WEB",
         "illustrationId": "ill-num-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "NUM-2:32",
@@ -1082,7 +1423,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are those who were counted of the children of Israel by their fathers’ houses. All who were counted of the camps according to their armies were six hundred three thousand five hundred fifty.",
         "translation": "WEB",
         "illustrationId": "ill-num-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-2:33",
@@ -1101,6 +1447,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1121,6 +1475,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -1202,6 +1560,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1234,6 +1596,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sinai",
             "entityId": "place-sinai"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1270,6 +1636,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1310,6 +1684,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1326,6 +1704,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1374,7 +1760,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Behold, I have taken the Levites from among the children of Israel instead of all the firstborn who open the womb among the children of Israel; and the Levites shall be mine,",
         "translation": "WEB",
         "illustrationId": "ill-num-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-3:13",
@@ -1393,6 +1788,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1429,7 +1828,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Count the children of Levi by their fathers’ houses, by their families. You shall count every male from a month old and upward.”",
         "translation": "WEB",
         "illustrationId": "ill-num-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          }
+        ]
       },
       {
         "id": "NUM-3:16",
@@ -1460,7 +1864,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These were the sons of Levi by their names: Gershon, Kohath, and Merari.",
         "translation": "WEB",
         "illustrationId": "ill-num-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "Gershon",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-3:18",
@@ -1471,7 +1884,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the names of the sons of Gershon by their families: Libni and Shimei.",
         "translation": "WEB",
         "illustrationId": "ill-num-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gershon",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-3:19",
@@ -1482,7 +1900,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Kohath by their families: Amram, Izhar, Hebron, and Uzziel.",
         "translation": "WEB",
         "illustrationId": "ill-num-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hebron",
+            "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Kohath",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-3:20",
@@ -1493,7 +1920,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Merari by their families: Mahli and Mushi. These are the families of the Levites according to their fathers’ houses.",
         "translation": "WEB",
         "illustrationId": "ill-num-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-3:21",
@@ -1504,7 +1936,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of Gershon was the family of the Libnites, and the family of the Shimeites. These are the families of the Gershonites.",
         "translation": "WEB",
         "illustrationId": "ill-num-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gershon",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-3:22",
@@ -1530,6 +1967,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Gershonites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -1542,7 +1983,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Eliasaph the son of Lael shall be the prince of the fathers’ house of the Gershonites.",
         "translation": "WEB",
         "illustrationId": "ill-num-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gershonites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-3:25",
@@ -1561,6 +2007,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Gershon",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -1577,6 +2027,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -1589,7 +2043,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of Kohath was the family of the Amramites, the family of the Izharites, the family of the Hebronites, and the family of the Uzzielites. These are the families of the Kohathites.",
         "translation": "WEB",
         "illustrationId": "ill-num-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Kohath",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-3:28",
@@ -1615,6 +2074,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Kohath",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -1627,7 +2090,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The prince of the fathers’ house of the families of the Kohathites shall be Elizaphan the son of Uzziel.",
         "translation": "WEB",
         "illustrationId": "ill-num-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Kohathites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-3:31",
@@ -1638,7 +2106,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Their duty shall be the ark, the table, the lamp stand, the altars, the vessels of the sanctuary with which they minister, the screen, and all its service.",
         "translation": "WEB",
         "illustrationId": "ill-num-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "altars",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "NUM-3:32",
@@ -1657,6 +2134,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eleazar",
             "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1669,7 +2154,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of Merari was the family of the Mahlites and the family of the Mushites. These are the families of Merari.",
         "translation": "WEB",
         "illustrationId": "ill-num-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Merari",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-3:34",
@@ -1695,6 +2185,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Merari",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -1711,6 +2205,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Merari",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -1750,6 +2248,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1774,6 +2276,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -1794,6 +2300,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1810,6 +2320,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1830,6 +2348,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1877,6 +2399,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1889,7 +2419,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the redemption of the two hundred seventy-three of the firstborn of the children of Israel who exceed the number of the Levites,",
         "translation": "WEB",
         "illustrationId": "ill-num-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-3:47",
@@ -1931,6 +2470,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -1943,7 +2486,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "from the firstborn of the children of Israel he took the money, one thousand three hundred sixty-five shekels, according to the shekel of the sanctuary;",
         "translation": "WEB",
         "illustrationId": "ill-num-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-3:51",
@@ -2015,7 +2563,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Take a census of the sons of Kohath from among the sons of Levi, by their families, by their fathers’ houses,",
         "translation": "WEB",
         "illustrationId": "ill-num-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "Kohath",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-4:3",
@@ -2046,6 +2603,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Kohath",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -2062,6 +2623,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -2129,7 +2694,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“On the golden altar they shall spread a blue cloth, and cover it with a covering of sealskin, and shall put in its poles.",
         "translation": "WEB",
         "illustrationId": "ill-num-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "NUM-4:12",
@@ -2151,7 +2721,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“They shall take away the ashes from the altar, and spread a purple cloth on it.",
         "translation": "WEB",
         "illustrationId": "ill-num-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "NUM-4:14",
@@ -2162,7 +2737,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They shall put on it all its vessels with which they minister about it, the fire pans, the meat hooks, the shovels, and the basins—all the vessels of the altar; and they shall spread on it a covering of sealskin, and put in its poles.",
         "translation": "WEB",
         "illustrationId": "ill-num-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "NUM-4:15",
@@ -2181,6 +2761,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Kohath",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -2205,6 +2789,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2241,7 +2837,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Don’t cut off the tribe of the families of the Kohathites from among the Levites;",
         "translation": "WEB",
         "illustrationId": "ill-num-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-4:19",
@@ -2299,7 +2900,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Take a census of the sons of Gershon also, by their fathers’ houses, by their families;",
         "translation": "WEB",
         "illustrationId": "ill-num-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gershon",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-4:23",
@@ -2326,7 +2932,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“This is the service of the families of the Gershonites, in serving and in bearing burdens:",
         "translation": "WEB",
         "illustrationId": "ill-num-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gershonites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-4:25",
@@ -2361,6 +2972,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -2377,6 +2992,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Gershonites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -2401,6 +3020,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Gershonites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -2413,7 +3040,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“As for the sons of Merari, you shall count them by their families, by their fathers’ houses;",
         "translation": "WEB",
         "illustrationId": "ill-num-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Merari",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-4:30",
@@ -2483,6 +3115,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Merari",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -2503,6 +3143,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Kohathites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -2558,6 +3202,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Kohathites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -2570,7 +3218,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Those who were counted of the sons of Gershon, by their families, and by their fathers’ houses,",
         "translation": "WEB",
         "illustrationId": "ill-num-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gershon",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-4:39",
@@ -2624,6 +3277,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Gershon",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -2636,7 +3293,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Those who were counted of the families of the sons of Merari, by their families, by their fathers’ houses,",
         "translation": "WEB",
         "illustrationId": "ill-num-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Merari",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-4:43",
@@ -2686,6 +3348,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Merari",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -2706,6 +3372,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2798,7 +3472,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Command the children of Israel that they put out of the camp every leper, everyone who has a discharge, and whoever is unclean by a corpse.",
         "translation": "WEB",
         "illustrationId": "ill-num-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-5:3",
@@ -2828,6 +3507,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2864,6 +3547,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2895,6 +3582,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2907,7 +3598,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Every heave offering of all the holy things of the children of Israel, which they present to the priest, shall be his.",
         "translation": "WEB",
         "illustrationId": "ill-num-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NUM-5:10",
@@ -2918,7 +3618,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Every man’s holy things shall be his; whatever any man gives the priest, it shall be his.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-num-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NUM-5:11",
@@ -2949,7 +3654,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Speak to the children of Israel, and tell them: ‘If any man’s wife goes astray and is unfaithful to him,",
         "translation": "WEB",
         "illustrationId": "ill-num-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-5:13",
@@ -2982,7 +3692,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "then the man shall bring his wife to the priest, and shall bring her offering for her: one tenth of an ephah of barley meal. He shall pour no oil on it, nor put frankincense on it, for it is a meal offering of jealousy, a meal offering of memorial, bringing iniquity to memory.",
         "translation": "WEB",
         "illustrationId": "ill-num-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NUM-5:16",
@@ -2997,6 +3716,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3013,6 +3736,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3029,6 +3756,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3041,7 +3776,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priest shall cause her to take an oath and shall tell the woman, “If no man has lain with you, and if you haven’t gone aside to uncleanness, being under your husband’s authority, be free from this water of bitterness that brings a curse.",
         "translation": "WEB",
         "illustrationId": "ill-num-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NUM-5:20",
@@ -3067,6 +3807,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3090,7 +3834,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘The priest shall write these curses in a book, and he shall wipe them into the water of bitterness.",
         "translation": "WEB",
         "illustrationId": "ill-num-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NUM-5:24",
@@ -3116,6 +3865,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3128,7 +3889,20 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priest shall take a handful of the meal offering, as its memorial portion, and burn it on the altar, and afterward shall make the woman drink the water.",
         "translation": "WEB",
         "illustrationId": "ill-num-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NUM-5:27",
@@ -3176,6 +3950,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3240,6 +4018,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Nazirite",
             "entityId": "term-nazirite"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3353,6 +4135,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3369,6 +4155,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3421,6 +4219,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
           }
         ]
       },
@@ -3433,7 +4243,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "a basket of unleavened bread, cakes of fine flour mixed with oil, and unleavened wafers anointed with oil with their meal offering and their drink offerings.",
         "translation": "WEB",
         "illustrationId": "ill-num-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-6:16",
@@ -3448,6 +4263,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3464,6 +4291,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3484,6 +4323,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
           }
         ]
       },
@@ -3500,6 +4343,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Nazirite",
             "entityId": "term-nazirite"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3520,6 +4367,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Nazirite",
             "entityId": "term-nazirite"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3580,6 +4431,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "bless",
             "entityId": "term-blessing"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3648,6 +4503,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "bless",
             "entityId": "term-blessing"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -3681,6 +4540,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -3693,7 +4556,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "the princes of Israel, the heads of their fathers’ houses, offered. These were the princes of the tribes. These are they who were over those who were counted;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-7:3",
@@ -3748,6 +4616,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -3764,6 +4636,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -3776,7 +4652,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He gave two wagons and four oxen to the sons of Gershon, according to their service.",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gershon",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-7:8",
@@ -3795,6 +4676,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ithamar",
             "entityId": "char-ithamar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Merari",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -3807,7 +4696,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But to the sons of Kohath he gave none, because the service of the sanctuary belonged to them; they carried it on their shoulders.",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Kohath",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-7:10",
@@ -3818,7 +4712,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The princes gave offerings for the dedication of the altar in the day that it was anointed. The princes gave their offerings before the altar.",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "NUM-7:11",
@@ -3837,6 +4736,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -3849,7 +4752,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He who offered his offering the first day was Nahshon the son of Amminadab, of the tribe of Judah,",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "NUM-7:13",
@@ -3860,7 +4768,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and his offering was: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:14",
@@ -3871,7 +4784,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one golden ladle of ten shekels, full of incense;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "NUM-7:15",
@@ -3882,7 +4800,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:16",
@@ -3893,7 +4816,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one male goat for a sin offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:17",
@@ -3904,7 +4832,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Nahshon the son of Amminadab.",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:18",
@@ -3915,7 +4848,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "On the second day Nethanel the son of Zuar, prince of Issachar, gave his offering.",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          }
+        ]
       },
       {
         "id": "NUM-7:19",
@@ -3926,7 +4864,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He offered for his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:20",
@@ -3937,7 +4880,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one golden ladle of ten shekels, full of incense;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "NUM-7:21",
@@ -3948,7 +4896,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:22",
@@ -3959,7 +4912,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one male goat for a sin offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:23",
@@ -3970,7 +4928,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, five male lambs a year old. This was the offering of Nethanel the son of Zuar.",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:24",
@@ -3981,7 +4944,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "On the third day Eliab the son of Helon, prince of the children of Zebulun,",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "NUM-7:25",
@@ -3992,7 +4960,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "gave his offering: one silver platter, the weight of which was a hundred and thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:26",
@@ -4003,7 +4976,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one golden ladle of ten shekels, full of incense;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "NUM-7:27",
@@ -4014,7 +4992,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:28",
@@ -4025,7 +5008,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one male goat for a sin offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:29",
@@ -4036,7 +5024,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Eliab the son of Helon.",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:30",
@@ -4047,7 +5040,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "On the fourth day Elizur the son of Shedeur, prince of the children of Reuben,",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "NUM-7:31",
@@ -4058,7 +5056,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:32",
@@ -4069,7 +5072,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one golden ladle of ten shekels, full of incense;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "NUM-7:33",
@@ -4080,7 +5088,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:34",
@@ -4091,7 +5104,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one male goat for a sin offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:35",
@@ -4102,7 +5120,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Elizur the son of Shedeur.",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:36",
@@ -4113,7 +5136,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "On the fifth day Shelumiel the son of Zurishaddai, prince of the children of Simeon,",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "NUM-7:37",
@@ -4124,7 +5152,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:38",
@@ -4135,7 +5168,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one golden ladle of ten shekels, full of incense;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "NUM-7:39",
@@ -4146,7 +5184,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:40",
@@ -4157,7 +5200,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one male goat for a sin offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:41",
@@ -4168,7 +5216,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old: this was the offering of Shelumiel the son of Zurishaddai.",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:42",
@@ -4179,7 +5232,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "On the sixth day, Eliasaph the son of Deuel, prince of the children of Gad,",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          }
+        ]
       },
       {
         "id": "NUM-7:43",
@@ -4190,7 +5248,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:44",
@@ -4201,7 +5264,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one golden ladle of ten shekels, full of incense;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "NUM-7:45",
@@ -4212,7 +5280,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:46",
@@ -4223,7 +5296,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one male goat for a sin offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:47",
@@ -4234,7 +5312,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Eliasaph the son of Deuel.",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:48",
@@ -4245,7 +5328,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "On the seventh day Elishama the son of Ammihud, prince of the children of Ephraim,",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "NUM-7:49",
@@ -4256,7 +5344,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:50",
@@ -4267,7 +5360,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one golden ladle of ten shekels, full of incense;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "NUM-7:51",
@@ -4278,7 +5376,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:52",
@@ -4289,7 +5392,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one male goat for a sin offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:53",
@@ -4300,7 +5408,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Elishama the son of Ammihud.",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:54",
@@ -4311,7 +5424,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "On the eighth day Gamaliel the son of Pedahzur, prince of the children of Manasseh,",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          }
+        ]
       },
       {
         "id": "NUM-7:55",
@@ -4322,7 +5440,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:56",
@@ -4333,7 +5456,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one golden ladle of ten shekels, full of incense;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "NUM-7:57",
@@ -4344,7 +5472,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:58",
@@ -4355,7 +5488,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one male goat for a sin offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:59",
@@ -4366,7 +5504,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Gamaliel the son of Pedahzur.",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:60",
@@ -4377,7 +5520,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "On the ninth day Abidan the son of Gideoni, prince of the children of Benjamin,",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "NUM-7:61",
@@ -4388,7 +5536,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:62",
@@ -4399,7 +5552,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one golden ladle of ten shekels, full of incense;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "NUM-7:63",
@@ -4410,7 +5568,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:64",
@@ -4421,7 +5584,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one male goat for a sin offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:65",
@@ -4432,7 +5600,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Abidan the son of Gideoni.",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:66",
@@ -4443,7 +5616,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "On the tenth day Ahiezer the son of Ammishaddai, prince of the children of Dan,",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "NUM-7:67",
@@ -4454,7 +5632,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:68",
@@ -4465,7 +5648,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one golden ladle of ten shekels, full of incense;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "NUM-7:69",
@@ -4476,7 +5664,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:70",
@@ -4487,7 +5680,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one male goat for a sin offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:71",
@@ -4498,7 +5696,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Ahiezer the son of Ammishaddai.",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:72",
@@ -4509,7 +5712,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "On the eleventh day Pagiel the son of Ochran, prince of the children of Asher,",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "NUM-7:73",
@@ -4520,7 +5728,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:74",
@@ -4531,7 +5744,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one golden ladle of ten shekels, full of incense;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "NUM-7:75",
@@ -4542,7 +5760,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:76",
@@ -4553,7 +5776,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one male goat for a sin offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:77",
@@ -4564,7 +5792,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Pagiel the son of Ochran.",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:78",
@@ -4575,7 +5808,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "On the twelfth day Ahira the son of Enan, prince of the children of Naphtali,",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          }
+        ]
       },
       {
         "id": "NUM-7:79",
@@ -4586,7 +5824,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:80",
@@ -4597,7 +5840,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one golden spoon of ten shekels, full of incense;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "NUM-7:81",
@@ -4608,7 +5856,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:82",
@@ -4619,7 +5872,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "one male goat for a sin offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:83",
@@ -4630,7 +5888,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Ahira the son of Enan.",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:84",
@@ -4641,7 +5904,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "This was the dedication offering of the altar, on the day when it was anointed, by the princes of Israel: twelve silver platters, twelve silver bowls, twelve golden ladles;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "NUM-7:85",
@@ -4663,7 +5935,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "the twelve golden ladles, full of incense, weighing ten shekels apiece, according to the shekel of the sanctuary; all the gold of the ladles weighed one hundred twenty shekels;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "NUM-7:87",
@@ -4674,7 +5951,20 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "all the cattle for the burnt offering twelve bulls, the rams twelve, the male lambs a year old twelve, and their meal offering; and twelve male goats for a sin offering;",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:88",
@@ -4685,7 +5975,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and all the cattle for the sacrifice of peace offerings: twenty-four bulls, sixty rams, sixty male goats, and sixty male lambs a year old. This was the dedication offering of the altar, after it was anointed.",
         "translation": "WEB",
         "illustrationId": "ill-num-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          }
+        ]
       },
       {
         "id": "NUM-7:89",
@@ -4708,6 +6007,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       }
@@ -4833,7 +6136,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Take the Levites from among the children of Israel, and cleanse them.",
         "translation": "WEB",
         "illustrationId": "ill-num-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-8:7",
@@ -4855,7 +6167,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then let them take a young bull and its meal offering, fine flour mixed with oil; and another young bull you shall take for a sin offering.",
         "translation": "WEB",
         "illustrationId": "ill-num-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-8:9",
@@ -4870,6 +6191,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4886,6 +6215,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4906,6 +6243,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4926,6 +6271,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -4946,6 +6303,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -4958,7 +6319,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Thus you shall separate the Levites from among the children of Israel, and the Levites shall be mine.",
         "translation": "WEB",
         "illustrationId": "ill-num-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-8:15",
@@ -4973,6 +6343,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -4985,7 +6359,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For they are wholly given to me from among the children of Israel; instead of all who open the womb, even the firstborn of all the children of Israel, I have taken them to me.",
         "translation": "WEB",
         "illustrationId": "ill-num-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-8:17",
@@ -5000,6 +6379,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5012,7 +6395,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I have taken the Levites instead of all the firstborn among the children of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-num-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-8:19",
@@ -5035,6 +6427,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5059,6 +6459,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5083,6 +6491,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -5111,6 +6523,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -5147,6 +6563,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -5174,6 +6594,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       }
@@ -5231,6 +6655,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Passover",
             "entityId": "term-passover"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5262,6 +6690,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Passover",
             "entityId": "term-passover"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5290,6 +6722,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sinai",
             "entityId": "place-sinai"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5330,6 +6766,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5390,6 +6830,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Passover",
             "entityId": "term-passover"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5473,6 +6917,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "cloud",
+            "entityId": "term-pillar-fire"
+          },
+          {
+            "spanText": "Tent",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -5485,7 +6937,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So it was continually. The cloud covered it, and the appearance of fire by night.",
         "translation": "WEB",
         "illustrationId": "ill-num-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cloud",
+            "entityId": "term-pillar-fire"
+          }
+        ]
       },
       {
         "id": "NUM-9:17",
@@ -5496,7 +6953,20 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whenever the cloud was taken up from over the Tent, then after that the children of Israel traveled; and in the place where the cloud remained, there the children of Israel encamped.",
         "translation": "WEB",
         "illustrationId": "ill-num-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "cloud",
+            "entityId": "term-pillar-fire"
+          },
+          {
+            "spanText": "Tent",
+            "entityId": "place-tent-of-meeting"
+          }
+        ]
       },
       {
         "id": "NUM-9:18",
@@ -5515,6 +6985,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "cloud",
+            "entityId": "term-pillar-fire"
           }
         ]
       },
@@ -5535,6 +7013,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "cloud",
+            "entityId": "term-pillar-fire"
           }
         ]
       },
@@ -5555,6 +7041,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "cloud",
+            "entityId": "term-pillar-fire"
           }
         ]
       },
@@ -5567,7 +7057,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Sometimes the cloud was from evening until morning; and when the cloud was taken up in the morning, they traveled; or by day and by night, when the cloud was taken up, they traveled.",
         "translation": "WEB",
         "illustrationId": "ill-num-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cloud",
+            "entityId": "term-pillar-fire"
+          }
+        ]
       },
       {
         "id": "NUM-9:22",
@@ -5582,6 +7077,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "cloud",
+            "entityId": "term-pillar-fire"
           }
         ]
       },
@@ -5647,7 +7150,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Make two trumpets of silver. You shall make them of beaten work. You shall use them for the calling of the congregation, and for the journeying of the camps.",
         "translation": "WEB",
         "illustrationId": "ill-num-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
+          }
+        ]
       },
       {
         "id": "NUM-10:3",
@@ -5674,7 +7182,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If they blow just one, then the princes, the heads of the thousands of Israel, shall gather themselves to you.",
         "translation": "WEB",
         "illustrationId": "ill-num-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-10:5",
@@ -5722,6 +7235,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -5742,6 +7263,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
           }
         ]
       },
@@ -5762,6 +7287,22 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          },
+          {
+            "spanText": "feasts",
+            "entityId": "term-feasts"
           }
         ]
       },
@@ -5782,6 +7323,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "cloud",
+            "entityId": "term-pillar-fire"
           }
         ]
       },
@@ -5798,6 +7343,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sinai",
             "entityId": "place-sinai"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "cloud",
+            "entityId": "term-pillar-fire"
           }
         ]
       },
@@ -5830,7 +7383,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "First, the standard of the camp of the children of Judah went forward according to their armies. Nahshon the son of Amminadab was over his army.",
         "translation": "WEB",
         "illustrationId": "ill-num-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "NUM-10:15",
@@ -5841,7 +7399,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Nethanel the son of Zuar was over the army of the tribe of the children of Issachar.",
         "translation": "WEB",
         "illustrationId": "ill-num-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          }
+        ]
       },
       {
         "id": "NUM-10:16",
@@ -5852,7 +7415,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Eliab the son of Helon was over the army of the tribe of the children of Zebulun.",
         "translation": "WEB",
         "illustrationId": "ill-num-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "NUM-10:17",
@@ -5867,6 +7435,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Gershon",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -5879,7 +7451,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The standard of the camp of Reuben went forward according to their armies. Elizur the son of Shedeur was over his army.",
         "translation": "WEB",
         "illustrationId": "ill-num-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "NUM-10:19",
@@ -5890,7 +7467,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Shelumiel the son of Zurishaddai was over the army of the tribe of the children of Simeon.",
         "translation": "WEB",
         "illustrationId": "ill-num-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "NUM-10:20",
@@ -5901,7 +7483,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Eliasaph the son of Deuel was over the army of the tribe of the children of Gad.",
         "translation": "WEB",
         "illustrationId": "ill-num-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          }
+        ]
       },
       {
         "id": "NUM-10:21",
@@ -5916,6 +7503,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Kohathites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -5928,7 +7519,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The standard of the camp of the children of Ephraim set forward according to their armies. Elishama the son of Ammihud was over his army.",
         "translation": "WEB",
         "illustrationId": "ill-num-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "NUM-10:23",
@@ -5939,7 +7535,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Gamaliel the son of Pedahzur was over the army of the tribe of the children of Manasseh.",
         "translation": "WEB",
         "illustrationId": "ill-num-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          }
+        ]
       },
       {
         "id": "NUM-10:24",
@@ -5950,7 +7551,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Abidan the son of Gideoni was over the army of the tribe of the children of Benjamin.",
         "translation": "WEB",
         "illustrationId": "ill-num-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "NUM-10:25",
@@ -5961,7 +7567,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The standard of the camp of the children of Dan, which was the rear guard of all the camps, set forward according to their armies. Ahiezer the son of Ammishaddai was over his army.",
         "translation": "WEB",
         "illustrationId": "ill-num-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "NUM-10:26",
@@ -5972,7 +7583,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Pagiel the son of Ochran was over the army of the tribe of the children of Asher.",
         "translation": "WEB",
         "illustrationId": "ill-num-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "NUM-10:27",
@@ -5983,7 +7599,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Ahira the son of Enan was over the army of the tribe of the children of Naphtali.",
         "translation": "WEB",
         "illustrationId": "ill-num-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          }
+        ]
       },
       {
         "id": "NUM-10:28",
@@ -5994,7 +7615,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Thus were the travels of the children of Israel according to their armies; and they went forward.",
         "translation": "WEB",
         "illustrationId": "ill-num-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-10:29",
@@ -6013,6 +7639,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Midianite",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -6076,6 +7710,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -6092,6 +7730,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "cloud",
+            "entityId": "term-pillar-fire"
           }
         ]
       },
@@ -6112,6 +7754,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -6128,6 +7774,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -6205,7 +7855,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The mixed multitude that was among them lusted exceedingly; and the children of Israel also wept again, and said, “Who will give us meat to eat?",
         "translation": "WEB",
         "illustrationId": "ill-num-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-11:5",
@@ -6387,6 +8042,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6521,6 +8180,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Tent",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -6541,6 +8204,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "cloud",
+            "entityId": "term-pillar-fire"
           }
         ]
       },
@@ -6557,6 +8224,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Tent",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -6633,6 +8304,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6827,6 +8502,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Miriam",
             "entityId": "char-miriam"
+          },
+          {
+            "spanText": "pillar of cloud",
+            "entityId": "term-pillar-fire"
+          },
+          {
+            "spanText": "Tent",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -6915,6 +8598,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Miriam",
             "entityId": "char-miriam"
+          },
+          {
+            "spanText": "cloud",
+            "entityId": "term-pillar-fire"
+          },
+          {
+            "spanText": "Tent",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -7066,6 +8757,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7086,6 +8781,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7098,7 +8797,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These were their names: Of the tribe of Reuben, Shammua the son of Zaccur.",
         "translation": "WEB",
         "illustrationId": "ill-num-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "NUM-13:5",
@@ -7109,7 +8813,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the tribe of Simeon, Shaphat the son of Hori.",
         "translation": "WEB",
         "illustrationId": "ill-num-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "NUM-13:6",
@@ -7124,6 +8833,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Caleb",
             "entityId": "char-caleb"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -7136,7 +8849,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the tribe of Issachar, Igal the son of Joseph.",
         "translation": "WEB",
         "illustrationId": "ill-num-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          }
+        ]
       },
       {
         "id": "NUM-13:8",
@@ -7147,7 +8869,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the tribe of Ephraim, Hoshea the son of Nun.",
         "translation": "WEB",
         "illustrationId": "ill-num-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "NUM-13:9",
@@ -7158,7 +8885,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the tribe of Benjamin, Palti the son of Raphu.",
         "translation": "WEB",
         "illustrationId": "ill-num-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "NUM-13:10",
@@ -7169,7 +8901,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the tribe of Zebulun, Gaddiel the son of Sodi.",
         "translation": "WEB",
         "illustrationId": "ill-num-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "NUM-13:11",
@@ -7180,7 +8917,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the tribe of Joseph, of the tribe of Manasseh, Gaddi the son of Susi.",
         "translation": "WEB",
         "illustrationId": "ill-num-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          }
+        ]
       },
       {
         "id": "NUM-13:12",
@@ -7191,7 +8937,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the tribe of Dan, Ammiel the son of Gemalli.",
         "translation": "WEB",
         "illustrationId": "ill-num-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "NUM-13:13",
@@ -7202,7 +8953,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the tribe of Asher, Sethur the son of Michael.",
         "translation": "WEB",
         "illustrationId": "ill-num-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "NUM-13:14",
@@ -7213,7 +8969,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the tribe of Naphtali, Nahbi the son of Vophsi.",
         "translation": "WEB",
         "illustrationId": "ill-num-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          }
+        ]
       },
       {
         "id": "NUM-13:15",
@@ -7224,7 +8985,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the tribe of Gad, Geuel the son of Machi.",
         "translation": "WEB",
         "illustrationId": "ill-num-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          }
+        ]
       },
       {
         "id": "NUM-13:16",
@@ -7323,6 +9089,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Hebron",
+            "entityId": "place-hebron"
           }
         ]
       },
@@ -7346,7 +9116,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "That place was called the valley of Eshcol, because of the cluster which the children of Israel cut down from there.",
         "translation": "WEB",
         "illustrationId": "ill-num-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-13:25",
@@ -7380,6 +9155,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Kadesh",
             "entityId": "place-kadesh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7418,6 +9197,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Amorite",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Canaanite",
+            "entityId": "char-canaanites"
+          },
+          {
+            "spanText": "Amalek",
+            "entityId": "char-amalek"
           }
         ]
       },
@@ -7461,7 +9252,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They brought up an evil report of the land which they had spied out to the children of Israel, saying, “The land, through which we have gone to spy it out, is a land that eats up its inhabitants; and all the people who we saw in it are men of great stature.",
         "translation": "WEB",
         "illustrationId": "ill-num-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-13:33",
@@ -7519,6 +9315,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7575,6 +9375,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7607,7 +9411,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They spoke to all the congregation of the children of Israel, saying, “The land, which we passed through to spy it out, is an exceedingly good land.",
         "translation": "WEB",
         "illustrationId": "ill-num-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-14:8",
@@ -7658,6 +9467,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7725,6 +9538,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "cloud",
+            "entityId": "term-pillar-fire"
           }
         ]
       },
@@ -7882,7 +9699,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Since the Amalekite and the Canaanite dwell in the valley, tomorrow turn and go into the wilderness by the way to the Red Sea.”",
         "translation": "WEB",
         "illustrationId": "ill-num-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Canaanite",
+            "entityId": "char-canaanites"
+          },
+          {
+            "spanText": "Amalekite",
+            "entityId": "char-amalek"
+          }
+        ]
       },
       {
         "id": "NUM-14:26",
@@ -7917,7 +9743,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“How long shall I bear with this evil congregation that complain against me? I have heard the complaints of the children of Israel, which they complain against me.",
         "translation": "WEB",
         "illustrationId": "ill-num-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-14:28",
@@ -8091,6 +9922,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8159,6 +9994,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Canaanite",
+            "entityId": "char-canaanites"
+          },
+          {
+            "spanText": "Amalekite",
+            "entityId": "char-amalek"
           }
         ]
       },
@@ -8183,6 +10026,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -8195,7 +10042,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the Amalekites came down, and the Canaanites who lived in that mountain, and struck them and beat them down, even to Hormah.",
         "translation": "WEB",
         "illustrationId": "ill-num-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          },
+          {
+            "spanText": "Amalekites",
+            "entityId": "char-amalek"
+          }
+        ]
       }
     ]
   },
@@ -8239,7 +10095,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Speak to the children of Israel, and tell them, ‘When you have come into the land of your habitations, which I give to you,",
         "translation": "WEB",
         "illustrationId": "ill-num-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-15:3",
@@ -8254,6 +10115,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "feasts",
+            "entityId": "term-feasts"
           }
         ]
       },
@@ -8270,6 +10139,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -8282,7 +10155,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall prepare wine for the drink offering, one fourth of a hin, with the burnt offering or for the sacrifice, for each lamb.",
         "translation": "WEB",
         "illustrationId": "ill-num-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "NUM-15:6",
@@ -8293,7 +10171,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘For a ram, you shall prepare for a meal offering two tenths of an ephah of fine flour mixed with the third part of a hin of oil;",
         "translation": "WEB",
         "illustrationId": "ill-num-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-15:7",
@@ -8324,6 +10207,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
           }
         ]
       },
@@ -8336,7 +10227,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "then he shall offer with the bull a meal offering of three tenths of an ephah of fine flour mixed with half a hin of oil;",
         "translation": "WEB",
         "illustrationId": "ill-num-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-15:10",
@@ -8464,7 +10360,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Speak to the children of Israel, and tell them, ‘When you come into the land where I bring you,",
         "translation": "WEB",
         "illustrationId": "ill-num-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-15:19",
@@ -8562,6 +10463,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -8582,6 +10495,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -8594,7 +10519,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the congregation of the children of Israel shall be forgiven, as well as the stranger who lives as a foreigner among them; for with regard to all the people, it was done unwittingly.",
         "translation": "WEB",
         "illustrationId": "ill-num-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-15:27",
@@ -8605,7 +10535,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘If a person sins unwittingly, then he shall offer a female goat a year old for a sin offering.",
         "translation": "WEB",
         "illustrationId": "ill-num-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          }
+        ]
       },
       {
         "id": "NUM-15:28",
@@ -8624,6 +10559,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -8636,7 +10575,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall have one law for him who does anything unwittingly, for him who is native-born among the children of Israel, and for the stranger who lives as a foreigner among them.",
         "translation": "WEB",
         "illustrationId": "ill-num-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-15:30",
@@ -8683,6 +10627,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sabbath",
             "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8786,7 +10734,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Speak to the children of Israel, and tell them that they should make themselves fringes on the borders of their garments throughout their generations, and that they put on the fringe of each border a cord of blue.",
         "translation": "WEB",
         "illustrationId": "ill-num-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-15:39",
@@ -8870,6 +10823,22 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Korah",
             "entityId": "char-korah"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "Dathan and Abiram",
+            "entityId": "char-dathan-abiram"
+          },
+          {
+            "spanText": "Kohath",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -8886,6 +10855,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8978,6 +10951,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
           }
         ]
       },
@@ -8998,6 +10979,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Korah",
             "entityId": "char-korah"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
           }
         ]
       },
@@ -9022,6 +11007,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9034,7 +11023,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and that he has brought you near, and all your brothers the sons of Levi with you? Do you seek the priesthood also?",
         "translation": "WEB",
         "illustrationId": "ill-num-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          }
+        ]
       },
       {
         "id": "NUM-16:11",
@@ -9069,6 +11063,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Dathan and Abiram",
+            "entityId": "char-dathan-abiram"
           }
         ]
       },
@@ -9159,6 +11157,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
           }
         ]
       },
@@ -9183,6 +11185,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
           }
         ]
       },
@@ -9294,6 +11300,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Korah",
             "entityId": "char-korah"
+          },
+          {
+            "spanText": "Dathan",
+            "entityId": "char-dathan-abiram"
           }
         ]
       },
@@ -9310,6 +11320,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Dathan and Abiram",
+            "entityId": "char-dathan-abiram"
           }
         ]
       },
@@ -9337,6 +11355,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Korah",
             "entityId": "char-korah"
+          },
+          {
+            "spanText": "Dathan",
+            "entityId": "char-dathan-abiram"
           }
         ]
       },
@@ -9439,7 +11461,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "All Israel that were around them fled at their cry; for they said, “Lest the earth swallow us up!”",
         "translation": "WEB",
         "illustrationId": "ill-num-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-16:35",
@@ -9454,6 +11481,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
           }
         ]
       },
@@ -9494,6 +11525,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eleazar",
             "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9510,6 +11545,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -9526,6 +11569,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eleazar",
             "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9554,6 +11605,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Korah",
             "entityId": "char-korah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
           }
         ]
       },
@@ -9578,6 +11637,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9606,6 +11669,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "cloud",
+            "entityId": "term-pillar-fire"
           }
         ]
       },
@@ -9689,6 +11756,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
           }
         ]
       },
@@ -9713,6 +11788,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
           }
         ]
       },
@@ -9809,7 +11888,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Speak to the children of Israel, and take rods from them, one for each fathers’ house, of all their princes according to their fathers’ houses, twelve rods. Write each man’s name on his rod.",
         "translation": "WEB",
         "illustrationId": "ill-num-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-17:3",
@@ -9824,6 +11908,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
           }
         ]
       },
@@ -9856,7 +11944,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "It shall happen that the rod of the man whom I shall choose shall bud. I will make the murmurings of the children of Israel, which they murmur against you, cease from me.”",
         "translation": "WEB",
         "illustrationId": "ill-num-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-17:6",
@@ -9875,6 +11968,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9895,6 +11992,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Tent",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -9915,6 +12016,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "Tent",
+            "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "budded",
+            "entityId": "term-budding-staff"
           }
         ]
       },
@@ -9935,6 +12048,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9999,6 +12116,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10064,7 +12185,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Bring your brothers also, the tribe of Levi, the tribe of your father, near with you, that they may be joined to you, and minister to you; but you and your sons with you shall be before the Tent of the Testimony.",
         "translation": "WEB",
         "illustrationId": "ill-num-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "Tent",
+            "entityId": "place-tent-of-meeting"
+          }
+        ]
       },
       {
         "id": "NUM-18:3",
@@ -10075,7 +12205,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They shall keep your commands and the duty of the whole Tent; only they shall not come near to the vessels of the sanctuary and to the altar, that they not die, neither they nor you.",
         "translation": "WEB",
         "illustrationId": "ill-num-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "Tent",
+            "entityId": "place-tent-of-meeting"
+          }
+        ]
       },
       {
         "id": "NUM-18:4",
@@ -10102,7 +12241,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“You shall perform the duty of the sanctuary and the duty of the altar, that there be no more wrath on the children of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-num-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "NUM-18:6",
@@ -10121,6 +12269,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10133,7 +12289,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You and your sons with you shall keep your priesthood for everything of the altar, and for that within the veil. You shall serve. I give you the service of the priesthood as a gift. The stranger who comes near shall be put to death.”",
         "translation": "WEB",
         "illustrationId": "ill-num-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "NUM-18:8",
@@ -10152,6 +12313,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10164,7 +12329,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "This shall be yours of the most holy things from the fire: every offering of theirs, even every meal offering of theirs, and every sin offering of theirs, and every trespass offering of theirs, which they shall render to me, shall be most holy for you and for your sons.",
         "translation": "WEB",
         "illustrationId": "ill-num-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-18:10",
@@ -10186,7 +12360,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“This is yours, too: the wave offering of their gift, even all the wave offerings of the children of Israel. I have given them to you, and to your sons and to your daughters with you, as a portion forever. Everyone who is clean in your house shall eat of it.",
         "translation": "WEB",
         "illustrationId": "ill-num-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-18:12",
@@ -10229,7 +12408,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Everything devoted in Israel shall be yours.",
         "translation": "WEB",
         "illustrationId": "ill-num-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-18:15",
@@ -10271,6 +12455,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -10302,6 +12490,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10322,6 +12514,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10338,6 +12534,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "tithe",
+            "entityId": "term-tithe"
           }
         ]
       },
@@ -10354,6 +12562,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10370,6 +12582,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10386,6 +12606,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "tithe",
+            "entityId": "term-tithe"
           }
         ]
       },
@@ -10422,6 +12654,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "tithe",
+            "entityId": "term-tithe"
           }
         ]
       },
@@ -10453,6 +12697,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "tithes",
+            "entityId": "term-tithe"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10481,7 +12737,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Therefore you shall tell them, ‘When you heave its best from it, then it shall be credited to the Levites as the increase of the threshing floor, and as the increase of the wine press.",
         "translation": "WEB",
         "illustrationId": "ill-num-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-18:31",
@@ -10508,7 +12769,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall bear no sin by reason of it, when you have heaved from it its best. You shall not profane the holy things of the children of Israel, that you not die.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-num-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       }
     ]
   },
@@ -10560,6 +12826,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "red heifer",
+            "entityId": "term-red-heifer"
           }
         ]
       },
@@ -10576,6 +12850,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eleazar",
             "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10596,6 +12874,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10619,7 +12901,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priest shall take cedar wood, hyssop, and scarlet, and cast it into the middle of the burning of the heifer.",
         "translation": "WEB",
         "illustrationId": "ill-num-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NUM-19:7",
@@ -10630,7 +12917,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the priest shall wash his clothes, and he shall bathe his flesh in water, and afterward he shall come into the camp, and the priest shall be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-num-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NUM-19:8",
@@ -10652,7 +12944,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“A man who is clean shall gather up the ashes of the heifer, and lay them up outside of the camp in a clean place; and it shall be kept for the congregation of the children of Israel for use in water for cleansing impurity. It is a sin offering.",
         "translation": "WEB",
         "illustrationId": "ill-num-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          }
+        ]
       },
       {
         "id": "NUM-19:10",
@@ -10663,7 +12964,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He who gathers the ashes of the heifer shall wash his clothes, and be unclean until the evening. It shall be to the children of Israel, and to the stranger who lives as a foreigner among them, for a statute forever.",
         "translation": "WEB",
         "illustrationId": "ill-num-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-19:11",
@@ -10704,6 +13010,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10749,7 +13059,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“For the unclean, they shall take of the ashes of the burning of the sin offering; and running water shall be poured on them in a vessel.",
         "translation": "WEB",
         "illustrationId": "ill-num-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          }
+        ]
       },
       {
         "id": "NUM-19:18",
@@ -10841,6 +13156,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Kadesh",
             "entityId": "place-kadesh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11057,6 +13376,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11073,6 +13396,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11093,6 +13420,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Kadesh",
             "entityId": "place-kadesh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -11156,7 +13491,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Edom said to him, “You shall not pass through me, lest I come out with the sword against you.”",
         "translation": "WEB",
         "illustrationId": "ill-num-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "NUM-20:19",
@@ -11167,7 +13507,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Israel said to him, “We will go up by the highway; and if we drink your water, I and my livestock, then I will give its price. Only let me, without doing anything else, pass through on my feet.”",
         "translation": "WEB",
         "illustrationId": "ill-num-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-20:20",
@@ -11178,7 +13523,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said, “You shall not pass through.” Edom came out against him with many people, and with a strong hand.",
         "translation": "WEB",
         "illustrationId": "ill-num-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "NUM-20:21",
@@ -11189,7 +13539,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Thus Edom refused to give Israel passage through his border, so Israel turned away from him.",
         "translation": "WEB",
         "illustrationId": "ill-num-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "NUM-20:22",
@@ -11208,6 +13567,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mount Hor",
             "entityId": "place-mount-hor"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11236,6 +13599,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mount Hor",
             "entityId": "place-mount-hor"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -11252,6 +13619,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11360,6 +13731,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -11385,7 +13760,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Canaanite, the king of Arad, who lived in the South, heard that Israel came by the way of Atharim. He fought against Israel, and took some of them captive.",
         "translation": "WEB",
         "illustrationId": "ill-num-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Canaanite",
+            "entityId": "char-canaanites"
+          }
+        ]
       },
       {
         "id": "NUM-21:2",
@@ -11400,6 +13784,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11416,6 +13804,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
           }
         ]
       },
@@ -11432,6 +13828,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mount Hor",
             "entityId": "place-mount-hor"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -11472,6 +13872,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11544,7 +13948,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Israel traveled, and encamped in Oboth.",
         "translation": "WEB",
         "illustrationId": "ill-num-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-21:11",
@@ -11586,6 +13995,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -11650,7 +14063,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Israel sang this song: “Spring up, well! Sing to it,",
         "translation": "WEB",
         "illustrationId": "ill-num-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-21:18",
@@ -11699,7 +14117,20 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Israel sent messengers to Sihon king of the Amorites, saying,",
         "translation": "WEB",
         "illustrationId": "ill-num-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          }
+        ]
       },
       {
         "id": "NUM-21:22",
@@ -11721,7 +14152,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Sihon would not allow Israel to pass through his border, but Sihon gathered all his people together, and went out against Israel into the wilderness, and came to Jahaz. He fought against Israel.",
         "translation": "WEB",
         "illustrationId": "ill-num-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          }
+        ]
       },
       {
         "id": "NUM-21:24",
@@ -11732,7 +14172,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Israel struck him with the edge of the sword, and possessed his land from the Arnon to the Jabbok, even to the children of Ammon; for the border of the children of Ammon was fortified.",
         "translation": "WEB",
         "illustrationId": "ill-num-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-21:25",
@@ -11743,7 +14188,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Israel took all these cities. Israel lived in all the cities of the Amorites, in Heshbon, and in all its villages.",
         "translation": "WEB",
         "illustrationId": "ill-num-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          }
+        ]
       },
       {
         "id": "NUM-21:26",
@@ -11758,6 +14212,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -11770,7 +14232,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore those who speak in proverbs say, “Come to Heshbon. Let the city of Sihon be built and established;",
         "translation": "WEB",
         "illustrationId": "ill-num-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          }
+        ]
       },
       {
         "id": "NUM-21:28",
@@ -11785,6 +14252,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
           }
         ]
       },
@@ -11801,6 +14272,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -11824,7 +14303,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Thus Israel lived in the land of the Amorites.",
         "translation": "WEB",
         "illustrationId": "ill-num-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          }
+        ]
       },
       {
         "id": "NUM-21:32",
@@ -11839,6 +14327,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -11851,7 +14343,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They turned and went up by the way of Bashan. Og the king of Bashan went out against them, he and all his people, to battle at Edrei.",
         "translation": "WEB",
         "illustrationId": "ill-num-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Og",
+            "entityId": "char-og"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "NUM-21:34",
@@ -11870,6 +14371,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -11914,6 +14423,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jericho",
+            "entityId": "place-jericho"
           }
         ]
       },
@@ -11926,7 +14443,20 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Balak the son of Zippor saw all that Israel had done to the Amorites.",
         "translation": "WEB",
         "illustrationId": "ill-num-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          }
+        ]
       },
       {
         "id": "NUM-22:3",
@@ -11941,6 +14471,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11957,6 +14491,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -12013,6 +14555,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -12081,6 +14631,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -12137,6 +14691,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -12157,6 +14715,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -12169,7 +14731,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Balak again sent princes, more, and more honorable than they.",
         "translation": "WEB",
         "illustrationId": "ill-num-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
+          }
+        ]
       },
       {
         "id": "NUM-22:16",
@@ -12184,6 +14751,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -12219,6 +14790,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -12526,6 +15101,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -12546,6 +15125,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -12562,6 +15145,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -12582,6 +15169,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -12598,6 +15189,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -12614,6 +15209,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -12630,6 +15229,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
           }
         ]
       }
@@ -12659,6 +15266,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
+          },
+          {
+            "spanText": "altars",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -12675,6 +15290,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -12695,6 +15318,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -12715,6 +15346,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "altars",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -12735,6 +15370,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -12751,6 +15390,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -12767,6 +15410,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -12810,7 +15465,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Who can count the dust of Jacob, or count the fourth part of Israel? Let me die the death of the righteous! Let my last end be like his!”",
         "translation": "WEB",
         "illustrationId": "ill-num-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-23:11",
@@ -12825,6 +15489,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -12853,7 +15521,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Balak said to him, “Please come with me to another place, where you may see them. You shall see just part of them, and shall not see them all. Curse them from there for me.”",
         "translation": "WEB",
         "illustrationId": "ill-num-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
+          }
+        ]
       },
       {
         "id": "NUM-23:14",
@@ -12864,7 +15537,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He took him into the field of Zophim, to the top of Pisgah, and built seven altars, and offered up a bull and a ram on every altar.",
         "translation": "WEB",
         "illustrationId": "ill-num-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altars",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "NUM-23:15",
@@ -12879,6 +15557,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -12899,6 +15585,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -12919,6 +15609,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -12931,7 +15629,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He took up his parable, and said, “Rise up, Balak, and hear! Listen to me, you son of Zippor.",
         "translation": "WEB",
         "illustrationId": "ill-num-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
+          }
+        ]
       },
       {
         "id": "NUM-23:19",
@@ -12982,6 +15685,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13018,6 +15729,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13049,6 +15768,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "bless",
             "entityId": "term-blessing"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -13069,6 +15792,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -13089,6 +15816,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -13105,6 +15836,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -13121,6 +15856,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
+          },
+          {
+            "spanText": "altars",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -13137,6 +15880,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       }
@@ -13174,6 +15925,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "bless",
             "entityId": "term-blessing"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13198,6 +15953,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13242,7 +16001,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "How goodly are your tents, Jacob, and your dwellings, Israel!",
         "translation": "WEB",
         "illustrationId": "ill-num-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-24:6",
@@ -13315,6 +16083,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -13347,6 +16119,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -13363,6 +16139,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -13422,6 +16202,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13434,7 +16222,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Edom shall be a possession. Seir, his enemies, also shall be a possession, while Israel does valiantly.",
         "translation": "WEB",
         "illustrationId": "ill-num-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "NUM-24:19",
@@ -13445,7 +16242,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Out of Jacob shall one have dominion, and shall destroy the remnant from the city.”",
         "translation": "WEB",
         "illustrationId": "ill-num-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "NUM-24:20",
@@ -13456,7 +16258,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He looked at Amalek, and took up his parable, and said, “Amalek was the first of the nations, But his latter end shall come to destruction.”",
         "translation": "WEB",
         "illustrationId": "ill-num-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Amalek",
+            "entityId": "char-amalek"
+          }
+        ]
       },
       {
         "id": "NUM-24:21",
@@ -13520,6 +16327,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       }
@@ -13549,6 +16360,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13576,6 +16391,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Baal Peor",
+            "entityId": "term-baal"
           }
         ]
       },
@@ -13596,6 +16419,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13612,6 +16439,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Baal Peor",
+            "entityId": "term-baal"
           }
         ]
       },
@@ -13632,6 +16467,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Midianite",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -13656,6 +16499,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Phinehas",
             "entityId": "char-phinehas"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -13668,7 +16515,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He went after the man of Israel into the pavilion, and thrust both of them through, the man of Israel, and the woman through her body. So the plague was stopped among the children of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-num-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-25:9",
@@ -13722,6 +16574,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Phinehas",
             "entityId": "char-phinehas"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -13762,6 +16622,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13774,7 +16638,20 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the name of the man of Israel that was slain, who was slain with the Midianite woman, was Zimri, the son of Salu, a prince of a fathers’ house among the Simeonites.",
         "translation": "WEB",
         "illustrationId": "ill-num-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Simeonites",
+            "entityId": "char-simeon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Midianite",
+            "entityId": "place-midian"
+          }
+        ]
       },
       {
         "id": "NUM-25:15",
@@ -13785,7 +16662,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The name of the Midianite woman who was slain was Cozbi, the daughter of Zur. He was head of the people of a fathers’ house in Midian.",
         "translation": "WEB",
         "illustrationId": "ill-num-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Midianite",
+            "entityId": "place-midian"
+          }
+        ]
       },
       {
         "id": "NUM-25:16",
@@ -13816,7 +16698,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Harass the Midianites, and strike them;",
         "translation": "WEB",
         "illustrationId": "ill-num-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Midianites",
+            "entityId": "place-midian"
+          }
+        ]
       },
       {
         "id": "NUM-25:18",
@@ -13827,7 +16714,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "for they harassed you with their wiles, wherein they have deceived you in the matter of Peor, and in the incident regarding Cozbi, the daughter of the prince of Midian, their sister, who was slain on the day of the plague in the matter of Peor.”",
         "translation": "WEB",
         "illustrationId": "ill-num-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
+          }
+        ]
       }
     ]
   },
@@ -13867,6 +16759,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eleazar",
             "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -13879,7 +16775,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Take a census of all the congregation of the children of Israel, from twenty years old and upward, by their fathers’ houses, all who are able to go out to war in Israel.”",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-26:3",
@@ -13906,6 +16807,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Jericho",
+            "entityId": "place-jericho"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -13930,6 +16839,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13942,7 +16855,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Reuben, the firstborn of Israel; the sons of Reuben: of Hanoch, the family of the Hanochites; of Pallu, the family of the Palluites;",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-26:6",
@@ -13964,7 +16886,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the families of the Reubenites; and those who were counted of them were forty-three thousand seven hundred thirty.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reubenites",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "NUM-26:8",
@@ -14002,6 +16929,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Korah",
             "entityId": "char-korah"
+          },
+          {
+            "spanText": "Dathan",
+            "entityId": "char-dathan-abiram"
           }
         ]
       },
@@ -14046,7 +16977,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Simeon after their families: of Nemuel, the family of the Nemuelites; of Jamin, the family of the Jaminites; of Jachin, the family of the Jachinites;",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "NUM-26:13",
@@ -14068,7 +17004,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the families of the Simeonites, twenty-two thousand two hundred.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Simeonites",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "NUM-26:15",
@@ -14079,7 +17020,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Gad after their families: of Zephon, the family of the Zephonites; of Haggi, the family of the Haggites; of Shuni, the family of the Shunites;",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          }
+        ]
       },
       {
         "id": "NUM-26:16",
@@ -14112,7 +17058,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the families of the sons of Gad according to those who were counted of them, forty thousand and five hundred.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          }
+        ]
       },
       {
         "id": "NUM-26:19",
@@ -14127,6 +17078,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -14139,7 +17094,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Judah after their families were: of Shelah, the family of the Shelanites; of Perez, the family of the Perezites; of Zerah, the family of the Zerahites.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "NUM-26:21",
@@ -14161,7 +17121,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the families of Judah according to those who were counted of them, seventy-six thousand five hundred.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "NUM-26:23",
@@ -14172,7 +17137,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Issachar after their families: of Tola, the family of the Tolaites; of Puvah, the family of the Punites;",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          }
+        ]
       },
       {
         "id": "NUM-26:24",
@@ -14194,7 +17164,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the families of Issachar according to those who were counted of them, sixty-four thousand three hundred.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          }
+        ]
       },
       {
         "id": "NUM-26:26",
@@ -14205,7 +17180,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Zebulun after their families: of Sered, the family of the Seredites; of Elon, the family of the Elonites; of Jahleel, the family of the Jahleelites.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "NUM-26:27",
@@ -14227,7 +17207,20 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Joseph after their families: Manasseh and Ephraim.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          }
+        ]
       },
       {
         "id": "NUM-26:29",
@@ -14238,7 +17231,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Manasseh: of Machir, the family of the Machirites; and Machir became the father of Gilead; of Gilead, the family of the Gileadites.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "NUM-26:30",
@@ -14249,7 +17251,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the sons of Gilead: of Iezer, the family of the Iezerites; of Helek, the family of the Helekites;",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "NUM-26:31",
@@ -14260,7 +17267,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and Asriel, the family of the Asrielites; and Shechem, the family of the Shechemites;",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Shechem",
+            "entityId": "place-shechem"
+          }
+        ]
       },
       {
         "id": "NUM-26:32",
@@ -14298,7 +17310,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the families of Manasseh. Those who were counted of them were fifty-two thousand seven hundred.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          }
+        ]
       },
       {
         "id": "NUM-26:35",
@@ -14309,7 +17326,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the sons of Ephraim after their families: of Shuthelah, the family of the Shuthelahites; of Becher, the family of the Becherites; of Tahan, the family of the Tahanites.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "NUM-26:36",
@@ -14331,7 +17353,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the families of the sons of Ephraim according to those who were counted of them, thirty-two thousand five hundred. These are the sons of Joseph after their families.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          }
+        ]
       },
       {
         "id": "NUM-26:38",
@@ -14342,7 +17373,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Benjamin after their families: of Bela, the family of the Belaites; of Ashbel, the family of the Ashbelites; of Ahiram, the family of the Ahiramites;",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "NUM-26:39",
@@ -14375,7 +17411,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the sons of Benjamin after their families; and those who were counted of them were forty-five thousand six hundred.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "NUM-26:42",
@@ -14386,7 +17427,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the sons of Dan after their families: of Shuham, the family of the Shuhamites. These are the families of Dan after their families.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "NUM-26:43",
@@ -14408,7 +17454,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Asher after their families: of Imnah, the family of the Imnites; of Ishvi, the family of the Ishvites; of Beriah, the family of the Berites.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "NUM-26:45",
@@ -14430,7 +17481,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The name of the daughter of Asher was Serah.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "NUM-26:47",
@@ -14441,7 +17497,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the families of the sons of Asher according to those who were counted of them, fifty-three thousand and four hundred.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "NUM-26:48",
@@ -14452,7 +17513,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Naphtali after their families: of Jahzeel, the family of the Jahzeelites; of Guni, the family of the Gunites;",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          }
+        ]
       },
       {
         "id": "NUM-26:49",
@@ -14474,7 +17540,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the families of Naphtali according to their families; and those who were counted of them were forty-five thousand four hundred.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          }
+        ]
       },
       {
         "id": "NUM-26:51",
@@ -14485,7 +17556,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are those who were counted of the children of Israel, six hundred one thousand seven hundred thirty.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-26:52",
@@ -14560,7 +17636,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are those who were counted of the Levites after their families: of Gershon, the family of the Gershonites; of Kohath, the family of the Kohathites; of Merari, the family of the Merarites.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-26:58",
@@ -14571,7 +17652,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the families of Levi: the family of the Libnites, the family of the Hebronites, the family of the Mahlites, the family of the Mushites, and the family of the Korahites. Kohath became the father of Amram.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "Kohath",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-26:59",
@@ -14598,6 +17688,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
           }
         ]
       },
@@ -14650,7 +17744,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Those who were counted of them were twenty-three thousand, every male from a month old and upward; for they were not counted among the children of Israel, because there was no inheritance given them among the children of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-num-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-26:63",
@@ -14677,6 +17776,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jericho",
+            "entityId": "place-jericho"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -14701,6 +17812,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sinai",
             "entityId": "place-sinai"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -14754,6 +17873,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zelophehad",
             "entityId": "char-zelophehad"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -14778,6 +17909,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -14877,7 +18012,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall speak to the children of Israel, saying, ‘If a man dies, and has no son, then you shall cause his inheritance to pass to his daughter.",
         "translation": "WEB",
         "illustrationId": "ill-num-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-27:9",
@@ -14918,6 +18058,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -14938,6 +18082,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15070,6 +18218,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eleazar",
             "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -15082,7 +18234,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall give authority to him, that all the congregation of the children of Israel may obey.",
         "translation": "WEB",
         "illustrationId": "ill-num-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-27:21",
@@ -15101,6 +18258,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eleazar",
             "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -15129,6 +18294,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -15194,7 +18363,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Command the children of Israel, and tell them, ‘See that you present my offering, my food for my offerings made by fire, as a pleasant aroma to me, in their due season.’",
         "translation": "WEB",
         "illustrationId": "ill-num-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-28:3",
@@ -15209,6 +18383,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -15232,7 +18410,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "with one tenth of an ephah of fine flour for a meal offering, mixed with the fourth part of a hin of beaten oil.",
         "translation": "WEB",
         "illustrationId": "ill-num-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-28:6",
@@ -15251,6 +18434,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sinai",
             "entityId": "place-sinai"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -15283,6 +18470,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -15299,6 +18490,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sabbath",
             "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -15315,6 +18510,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sabbath",
             "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -15331,6 +18530,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -15343,7 +18546,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and three tenths of an ephah of fine flour for a meal offering mixed with oil, for each bull; and two tenth parts of fine flour for a meal offering mixed with oil, for the one ram;",
         "translation": "WEB",
         "illustrationId": "ill-num-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-28:13",
@@ -15358,6 +18566,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -15370,7 +18586,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Their drink offerings shall be half a hin of wine for a bull, the third part of a hin for the ram, and the fourth part of a hin for a lamb. This is the burnt offering of every month throughout the months of the year.",
         "translation": "WEB",
         "illustrationId": "ill-num-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "NUM-28:15",
@@ -15385,6 +18606,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -15417,7 +18646,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "On the fifteenth day of this month shall be a feast. Unleavened bread shall be eaten for seven days.",
         "translation": "WEB",
         "illustrationId": "ill-num-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "feast",
+            "entityId": "term-feasts"
+          }
+        ]
       },
       {
         "id": "NUM-28:18",
@@ -15443,6 +18677,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -15455,7 +18693,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "with their meal offering, fine flour mixed with oil. You shall offer three tenths for a bull, and two tenths for the ram.",
         "translation": "WEB",
         "illustrationId": "ill-num-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-28:21",
@@ -15481,6 +18724,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -15493,7 +18740,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall offer these in addition to the burnt offering of the morning, which is for a continual burnt offering.",
         "translation": "WEB",
         "illustrationId": "ill-num-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "NUM-28:24",
@@ -15508,6 +18760,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -15535,6 +18791,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "feast",
+            "entityId": "term-feasts"
           }
         ]
       },
@@ -15551,6 +18815,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -15563,7 +18831,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and their meal offering, fine flour mixed with oil, three tenths for each bull, two tenths for the one ram,",
         "translation": "WEB",
         "illustrationId": "ill-num-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-28:29",
@@ -15601,7 +18874,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Besides the continual burnt offering and its meal offering, you shall offer them and their drink offerings. See that they are without defect.",
         "translation": "WEB",
         "illustrationId": "ill-num-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       }
     ]
   },
@@ -15625,7 +18907,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘In the seventh month, on the first day of the month, you shall have a holy convocation; you shall do no regular work. It is a day of blowing of trumpets to you.",
         "translation": "WEB",
         "illustrationId": "ill-num-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
+          }
+        ]
       },
       {
         "id": "NUM-29:2",
@@ -15640,6 +18927,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -15652,7 +18943,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and their meal offering, fine flour mixed with oil: three tenths for the bull, two tenths for the ram,",
         "translation": "WEB",
         "illustrationId": "ill-num-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-29:4",
@@ -15678,6 +18974,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -15694,6 +18994,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -15721,6 +19029,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -15733,7 +19045,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and their meal offering, fine flour mixed with oil: three tenths for the bull, two tenths for the one ram,",
         "translation": "WEB",
         "illustrationId": "ill-num-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-29:10",
@@ -15759,6 +19076,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -15775,6 +19104,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "feast",
+            "entityId": "term-feasts"
           }
         ]
       },
@@ -15791,6 +19124,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -15803,7 +19140,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and their meal offering, fine flour mixed with oil: three tenths for every bull of the thirteen bulls, two tenths for each ram of the two rams,",
         "translation": "WEB",
         "illustrationId": "ill-num-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-29:15",
@@ -15825,7 +19167,20 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and one male goat for a sin offering, in addition to the continual burnt offering, its meal offering, and its drink offering.",
         "translation": "WEB",
         "illustrationId": "ill-num-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-29:17",
@@ -15847,7 +19202,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and their meal offering and their drink offerings for the bulls, for the rams, and for the lambs, according to their number, after the ordinance;",
         "translation": "WEB",
         "illustrationId": "ill-num-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-29:19",
@@ -15858,7 +19218,20 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and one male goat for a sin offering, in addition to the continual burnt offering, with its meal offering and their drink offerings.",
         "translation": "WEB",
         "illustrationId": "ill-num-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-29:20",
@@ -15880,7 +19253,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and their meal offering and their drink offerings for the bulls, for the rams, and for the lambs, according to their number, after the ordinance;",
         "translation": "WEB",
         "illustrationId": "ill-num-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-29:22",
@@ -15891,7 +19269,20 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and one male goat for a sin offering, in addition to the continual burnt offering, and its meal offering, and its drink offering.",
         "translation": "WEB",
         "illustrationId": "ill-num-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-29:23",
@@ -15913,7 +19304,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "their meal offering and their drink offerings for the bulls, for the rams, and for the lambs, according to their number, after the ordinance;",
         "translation": "WEB",
         "illustrationId": "ill-num-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-29:25",
@@ -15924,7 +19320,20 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and one male goat for a sin offering; in addition to the continual burnt offering, its meal offering, and its drink offering.",
         "translation": "WEB",
         "illustrationId": "ill-num-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-29:26",
@@ -15946,7 +19355,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and their meal offering and their drink offerings for the bulls, for the rams, and for the lambs, according to their number, after the ordinance,",
         "translation": "WEB",
         "illustrationId": "ill-num-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-29:28",
@@ -15957,7 +19371,20 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and one male goat for a sin offering, in addition to the continual burnt offering, and its meal offering, and its drink offering.",
         "translation": "WEB",
         "illustrationId": "ill-num-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-29:29",
@@ -15979,7 +19406,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and their meal offering and their drink offerings for the bulls, for the rams, and for the lambs, according to their number, after the ordinance,",
         "translation": "WEB",
         "illustrationId": "ill-num-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-29:31",
@@ -15990,7 +19422,20 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and one male goat for a sin offering; in addition to the continual burnt offering, its meal offering, and the drink offerings of it.",
         "translation": "WEB",
         "illustrationId": "ill-num-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-29:32",
@@ -16012,7 +19457,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and their meal offering and their drink offerings for the bulls, for the rams, and for the lambs, according to their number, after the ordinance,",
         "translation": "WEB",
         "illustrationId": "ill-num-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-29:34",
@@ -16023,7 +19473,20 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and one male goat for a sin offering; in addition to the continual burnt offering, its meal offering, and its drink offering.",
         "translation": "WEB",
         "illustrationId": "ill-num-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-29:35",
@@ -16049,6 +19512,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -16061,7 +19528,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "their meal offering and their drink offerings for the bull, for the ram, and for the lambs, shall be according to their number, after the ordinance,",
         "translation": "WEB",
         "illustrationId": "ill-num-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-29:38",
@@ -16072,7 +19544,20 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and one male goat for a sin offering, in addition to the continual burnt offering, with its meal offering, and its drink offering.",
         "translation": "WEB",
         "illustrationId": "ill-num-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          }
+        ]
       },
       {
         "id": "NUM-29:39",
@@ -16087,6 +19572,22 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          },
+          {
+            "spanText": "meal offerings",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "feasts",
+            "entityId": "term-feasts"
           }
         ]
       },
@@ -16107,6 +19608,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -16140,6 +19645,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -16384,7 +19893,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Avenge the children of Israel on the Midianites. Afterward you shall be gathered to your people.”",
         "translation": "WEB",
         "illustrationId": "ill-num-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Midianites",
+            "entityId": "place-midian"
+          }
+        ]
       },
       {
         "id": "NUM-31:3",
@@ -16403,6 +19921,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -16415,7 +19937,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall send one thousand out of every tribe, throughout all the tribes of Israel, to the war.”",
         "translation": "WEB",
         "illustrationId": "ill-num-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-31:5",
@@ -16426,7 +19953,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So there were delivered, out of the thousands of Israel, a thousand from every tribe, twelve thousand armed for war.",
         "translation": "WEB",
         "illustrationId": "ill-num-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-31:6",
@@ -16449,6 +19981,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Phinehas",
             "entityId": "char-phinehas"
+          },
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -16469,6 +20009,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -16485,6 +20029,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -16497,7 +20045,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Israel took the women of Midian captive with their little ones; and all their livestock, all their flocks, and all their goods, they took as plunder.",
         "translation": "WEB",
         "illustrationId": "ill-num-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
+          }
+        ]
       },
       {
         "id": "NUM-31:10",
@@ -16546,6 +20103,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jericho",
+            "entityId": "place-jericho"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -16566,6 +20135,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eleazar",
             "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -16618,6 +20191,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Balaam",
             "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -16686,6 +20263,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eleazar",
             "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -16755,6 +20336,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eleazar",
             "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -16802,6 +20387,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eleazar",
             "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -16822,6 +20411,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -16846,6 +20443,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eleazar",
             "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -16989,6 +20590,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eleazar",
             "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -17005,6 +20610,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -17073,6 +20682,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -17145,6 +20762,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eleazar",
             "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -17200,6 +20821,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       }
@@ -17225,7 +20854,20 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the children of Reuben and the children of Gad had a very great multitude of livestock. They saw the land of Jazer, and the land of Gilead. Behold, the place was a place for livestock.",
         "translation": "WEB",
         "illustrationId": "ill-num-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "NUM-32:2",
@@ -17244,6 +20886,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eleazar",
             "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -17271,6 +20925,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -17303,6 +20961,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
           }
         ]
       },
@@ -17319,6 +20985,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -17351,6 +21021,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -17383,6 +21057,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Isaac",
+            "entityId": "char-isaac"
           }
         ]
       },
@@ -17423,6 +21109,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -17439,6 +21129,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -17473,7 +21167,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "but we ourselves will be ready armed to go before the children of Israel, until we have brought them to their place. Our little ones shall dwell in the fortified cities because of the inhabitants of the land.",
         "translation": "WEB",
         "illustrationId": "ill-num-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-32:18",
@@ -17484,7 +21183,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "We will not return to our houses until the children of Israel have all received their inheritance.",
         "translation": "WEB",
         "illustrationId": "ill-num-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-32:19",
@@ -17555,6 +21259,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -17598,6 +21306,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
           }
         ]
       },
@@ -17610,7 +21326,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Our little ones, our wives, our flocks, and all our livestock shall be there in the cities of Gilead;",
         "translation": "WEB",
         "illustrationId": "ill-num-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "NUM-32:27",
@@ -17649,6 +21370,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -17673,6 +21402,18 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -17705,6 +21446,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
           }
         ]
       },
@@ -17745,6 +21494,38 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          },
+          {
+            "spanText": "Og",
+            "entityId": "char-og"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -17757,7 +21538,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Gad built Dibon, Ataroth, Aroer,",
         "translation": "WEB",
         "illustrationId": "ill-num-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          }
+        ]
       },
       {
         "id": "NUM-32:35",
@@ -17790,7 +21576,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Reuben built Heshbon, Elealeh, Kiriathaim,",
         "translation": "WEB",
         "illustrationId": "ill-num-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "NUM-32:38",
@@ -17801,7 +21592,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Nebo, and Baal Meon, (their names being changed), and Sibmah. They gave other names to the cities which they built.",
         "translation": "WEB",
         "illustrationId": "ill-num-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          }
+        ]
       },
       {
         "id": "NUM-32:39",
@@ -17812,7 +21608,20 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Machir the son of Manasseh went to Gilead, took it, and dispossessed the Amorites who were therein.",
         "translation": "WEB",
         "illustrationId": "ill-num-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "NUM-32:40",
@@ -17827,6 +21636,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -17839,7 +21656,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jair the son of Manasseh went and took its villages, and called them Havvoth Jair.",
         "translation": "WEB",
         "illustrationId": "ill-num-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          }
+        ]
       },
       {
         "id": "NUM-32:42",
@@ -17886,6 +21708,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -17922,6 +21748,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Passover",
             "entityId": "term-passover"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -17950,7 +21780,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Israel traveled from Rameses, and encamped in Succoth.",
         "translation": "WEB",
         "illustrationId": "ill-num-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-33:6",
@@ -17972,7 +21807,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They traveled from Etham, and turned back to Pihahiroth, which is before Baal Zephon, and they encamped before Migdol.",
         "translation": "WEB",
         "illustrationId": "ill-num-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          }
+        ]
       },
       {
         "id": "NUM-33:8",
@@ -18325,6 +22165,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mount Hor",
             "entityId": "place-mount-hor"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -18353,6 +22197,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -18389,6 +22241,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Canaanite",
+            "entityId": "char-canaanites"
           }
         ]
       },
@@ -18455,7 +22315,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They traveled from Iyim, and encamped in Dibon Gad.",
         "translation": "WEB",
         "illustrationId": "ill-num-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          }
+        ]
       },
       {
         "id": "NUM-33:46",
@@ -18466,7 +22331,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They traveled from Dibon Gad, and encamped in Almon Diblathaim.",
         "translation": "WEB",
         "illustrationId": "ill-num-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          }
+        ]
       },
       {
         "id": "NUM-33:47",
@@ -18496,6 +22366,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Jericho",
+            "entityId": "place-jericho"
           }
         ]
       },
@@ -18544,6 +22418,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Jericho",
+            "entityId": "place-jericho"
           }
         ]
       },
@@ -18564,6 +22442,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -18668,6 +22550,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -18680,7 +22566,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "then your south quarter shall be from the wilderness of Zin along by the side of Edom, and your south border shall be from the end of the Salt Sea eastward.",
         "translation": "WEB",
         "illustrationId": "ill-num-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "NUM-34:4",
@@ -18823,6 +22714,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -18835,7 +22730,20 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "for the tribe of the children of Reuben according to their fathers’ houses, the tribe of the children of Gad according to their fathers’ houses, and the half-tribe of Manasseh have received their inheritance.",
         "translation": "WEB",
         "illustrationId": "ill-num-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "NUM-34:15",
@@ -18850,6 +22758,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Jericho",
+            "entityId": "place-jericho"
           }
         ]
       },
@@ -18890,6 +22802,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -18917,6 +22833,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Caleb",
             "entityId": "char-caleb"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -18929,7 +22849,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the tribe of the children of Simeon, Shemuel the son of Ammihud.",
         "translation": "WEB",
         "illustrationId": "ill-num-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "NUM-34:21",
@@ -18940,7 +22865,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the tribe of Benjamin, Elidad the son of Chislon.",
         "translation": "WEB",
         "illustrationId": "ill-num-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "NUM-34:22",
@@ -18951,7 +22881,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the tribe of the children of Dan a prince, Bukki the son of Jogli.",
         "translation": "WEB",
         "illustrationId": "ill-num-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "NUM-34:23",
@@ -18962,7 +22897,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the children of Joseph: of the tribe of the children of Manasseh a prince, Hanniel the son of Ephod.",
         "translation": "WEB",
         "illustrationId": "ill-num-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          }
+        ]
       },
       {
         "id": "NUM-34:24",
@@ -18973,7 +22917,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the tribe of the children of Ephraim a prince, Kemuel the son of Shiphtan.",
         "translation": "WEB",
         "illustrationId": "ill-num-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "NUM-34:25",
@@ -18984,7 +22933,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the tribe of the children of Zebulun a prince, Elizaphan the son of Parnach.",
         "translation": "WEB",
         "illustrationId": "ill-num-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "NUM-34:26",
@@ -18995,7 +22949,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the tribe of the children of Issachar a prince, Paltiel the son of Azzan.",
         "translation": "WEB",
         "illustrationId": "ill-num-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          }
+        ]
       },
       {
         "id": "NUM-34:27",
@@ -19006,7 +22965,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the tribe of the children of Asher a prince, Ahihud the son of Shelomi.",
         "translation": "WEB",
         "illustrationId": "ill-num-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "NUM-34:28",
@@ -19017,7 +22981,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the tribe of the children of Naphtali a prince, Pedahel the son of Ammihud.”",
         "translation": "WEB",
         "illustrationId": "ill-num-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          }
+        ]
       },
       {
         "id": "NUM-34:29",
@@ -19036,6 +23005,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -19077,6 +23050,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Jericho",
+            "entityId": "place-jericho"
           }
         ]
       },
@@ -19089,7 +23066,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Command the children of Israel to give to the Levites cities to dwell in out of their inheritance. You shall give pasture lands for the cities around them to the Levites.",
         "translation": "WEB",
         "illustrationId": "ill-num-35",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-35:3",
@@ -19111,7 +23097,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“The pasture lands of the cities, which you shall give to the Levites, shall be from the wall of the city and outward one thousand cubits around it.",
         "translation": "WEB",
         "illustrationId": "ill-num-35",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-35:5",
@@ -19137,6 +23128,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "refuge",
             "entityId": "term-cities-of-refuge"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -19149,7 +23144,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the cities which you shall give to the Levites shall be forty-eight cities together with their pasture lands.",
         "translation": "WEB",
         "illustrationId": "ill-num-35",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NUM-35:8",
@@ -19160,7 +23160,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Concerning the cities which you shall give of the possession of the children of Israel, from the many you shall take many, and from the few you shall take few. Everyone according to his inheritance which he inherits shall give some of his cities to the Levites.”",
         "translation": "WEB",
         "illustrationId": "ill-num-35",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-35:9",
@@ -19199,6 +23208,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -19287,6 +23300,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "refuge",
             "entityId": "term-cities-of-refuge"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -19402,6 +23419,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "refuge",
             "entityId": "term-cities-of-refuge"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -19450,6 +23471,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "refuge",
             "entityId": "term-cities-of-refuge"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -19499,6 +23524,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "refuge",
             "entityId": "term-cities-of-refuge"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -19531,6 +23560,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -19560,6 +23593,22 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -19580,6 +23629,10 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zelophehad",
             "entityId": "char-zelophehad"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -19592,7 +23645,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If they are married to any of the sons of the other tribes of the children of Israel, then their inheritance will be taken away from the inheritance of our fathers, and will be added to the inheritance of the tribe to which they shall belong. So it will be taken away from the lot of our inheritance.",
         "translation": "WEB",
         "illustrationId": "ill-num-36",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-36:4",
@@ -19603,7 +23661,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the jubilee of the children of Israel comes, then their inheritance will be added to the inheritance of the tribe to which they shall belong. So their inheritance will be taken away from the inheritance of the tribe of our fathers.”",
         "translation": "WEB",
         "illustrationId": "ill-num-36",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "jubilee",
+            "entityId": "term-jubilee"
+          }
+        ]
       },
       {
         "id": "NUM-36:5",
@@ -19622,6 +23689,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -19654,7 +23729,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So shall no inheritance of the children of Israel move from tribe to tribe; for the children of Israel shall all keep the inheritance of the tribe of his fathers.",
         "translation": "WEB",
         "illustrationId": "ill-num-36",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-36:8",
@@ -19665,7 +23745,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Every daughter who possesses an inheritance in any tribe of the children of Israel shall be wife to one of the family of the tribe of her father, that the children of Israel may each possess the inheritance of his fathers.",
         "translation": "WEB",
         "illustrationId": "ill-num-36",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-36:9",
@@ -19676,7 +23761,12 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So shall no inheritance move from one tribe to another tribe; for the tribes of the children of Israel shall each keep his own inheritance.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-num-36",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NUM-36:10",
@@ -19727,7 +23817,16 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They were married into the families of the sons of Manasseh the son of Joseph. Their inheritance remained in the tribe of the family of their father.",
         "translation": "WEB",
         "illustrationId": "ill-num-36",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          }
+        ]
       },
       {
         "id": "NUM-36:13",
@@ -19754,6 +23853,14 @@ export const NUMBERS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jericho",
+            "entityId": "place-jericho"
           }
         ]
       }

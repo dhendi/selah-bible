@@ -57,9 +57,9 @@ export const ContextualBottomSheet: React.FC = () => {
       navigateToMapPin('loc-midian');
     } else if (region.includes('Negev') || region.includes('Paran')) {
       navigateToMapPin('loc-kadesh');
-    } else if (region.includes('Edom')) {
+    } else if (region.includes('Edom') || region.includes('Seir')) {
       navigateToMapPin('loc-mount-hor');
-    } else if (region.includes('Transjordan') || region.includes('Jordan Valley')) {
+    } else if (region.includes('Transjordan') || region.includes('Jordan Valley') || region.includes('Gilead') || region.includes('Bashan') || region.includes('Heshbon')) {
       navigateToMapPin('loc-moab');
     } else if (region.includes('Nebo') || region.includes('Pisgah')) {
       navigateToMapPin('loc-mount-nebo');
@@ -106,11 +106,11 @@ export const ContextualBottomSheet: React.FC = () => {
 
   const handleTimelineClick = () => {
     closeEntitySheet();
-    if (entity.timelineEra.includes('Exodus')) {
+    if (entity.timelineEra.includes('Exodus') || entity.timelineEra.includes('Wilderness') || entity.timelineEra.includes('Numbers') || entity.timelineEra.includes('Deuteronomy')) {
       navigateToTimelineEra('era-exodus');
     } else if (entity.timelineEra.includes('Patriarch')) {
       navigateToTimelineEra('era-patriarchs');
-    } else if (entity.timelineEra.includes('Judges')) {
+    } else if (entity.timelineEra.includes('Judges') || entity.timelineEra.includes('Conquest') || entity.timelineEra.includes('Joshua')) {
       navigateToTimelineEra('era-judges');
     } else {
       navigateToTimelineEra('era-creation');
@@ -121,7 +121,7 @@ export const ContextualBottomSheet: React.FC = () => {
     if (entity.id.includes('ruth') || entity.id.includes('naomi') || entity.id.includes('loyal') || entity.id.includes('bethlehem')) {
       return 'ill-ruth-naomi';
     }
-    if (entity.timelineEra.includes('Exodus') || entity.id.includes('manna')) {
+    if (entity.timelineEra.includes('Exodus') || entity.timelineEra.includes('Wilderness') || entity.id.includes('manna')) {
       return 'ill-desert-manna';
     }
     return 'ill-creation';
@@ -131,11 +131,17 @@ export const ContextualBottomSheet: React.FC = () => {
     const ref = entity.relatedVerseRefs[0] || 'Genesis 1:1';
     const bookId = ref.includes('Ruth')
       ? 'RUT'
-      : ref.includes('Leviticus')
-        ? 'LEV'
-        : ref.includes('Exodus')
-          ? 'EXO'
-          : 'GEN';
+      : ref.includes('Joshua')
+        ? 'JOS'
+        : ref.includes('Deuteronomy')
+          ? 'DEU'
+          : ref.includes('Numbers')
+            ? 'NUM'
+            : ref.includes('Leviticus')
+              ? 'LEV'
+              : ref.includes('Exodus')
+                ? 'EXO'
+                : 'GEN';
     openJournalSheet({
       verseRef: ref,
       bookId,
