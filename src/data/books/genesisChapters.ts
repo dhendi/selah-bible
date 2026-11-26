@@ -775,6 +775,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "tree of life",
+            "entityId": "term-tree-of-life"
           }
         ]
       },
@@ -1047,6 +1051,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "serpent",
+            "entityId": "term-serpent"
           }
         ]
       },
@@ -1059,7 +1067,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The woman said to the serpent, “We may eat fruit from the trees of the garden,",
         "translation": "WEB",
         "illustrationId": "ill-gen-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "serpent",
+            "entityId": "term-serpent"
+          }
+        ]
       },
       {
         "id": "GEN-3:3",
@@ -1086,7 +1099,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The serpent said to the woman, “You won’t really die,",
         "translation": "WEB",
         "illustrationId": "ill-gen-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "serpent",
+            "entityId": "term-serpent"
+          }
+        ]
       },
       {
         "id": "GEN-3:5",
@@ -1221,6 +1239,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "serpent",
+            "entityId": "term-serpent"
           }
         ]
       },
@@ -1241,6 +1263,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "serpent",
+            "entityId": "term-serpent"
           }
         ]
       },
@@ -1361,6 +1387,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "tree of life",
+            "entityId": "term-tree-of-life"
           }
         ]
       },
@@ -1401,6 +1431,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eden",
             "entityId": "place-eden"
+          },
+          {
+            "spanText": "tree of life",
+            "entityId": "term-tree-of-life"
+          },
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
           }
         ]
       }
@@ -1728,6 +1766,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Cain",
             "entityId": "char-cain"
+          },
+          {
+            "spanText": "Enoch",
+            "entityId": "char-enoch"
           }
         ]
       },
@@ -1740,7 +1782,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Irad was born to Enoch. Irad became the father of Mehujael. Mehujael became the father of Methushael. Methushael became the father of Lamech.",
         "translation": "WEB",
         "illustrationId": "ill-gen-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Enoch",
+            "entityId": "char-enoch"
+          }
+        ]
       },
       {
         "id": "GEN-4:19",
@@ -2143,7 +2190,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jared lived one hundred sixty-two years, then became the father of Enoch.",
         "translation": "WEB",
         "illustrationId": "ill-gen-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Enoch",
+            "entityId": "char-enoch"
+          }
+        ]
       },
       {
         "id": "GEN-5:19",
@@ -2154,7 +2206,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jared lived after he became the father of Enoch eight hundred years, and became the father of other sons and daughters.",
         "translation": "WEB",
         "illustrationId": "ill-gen-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Enoch",
+            "entityId": "char-enoch"
+          }
+        ]
       },
       {
         "id": "GEN-5:20",
@@ -2176,7 +2233,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Enoch lived sixty-five years, then became the father of Methuselah.",
         "translation": "WEB",
         "illustrationId": "ill-gen-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Enoch",
+            "entityId": "char-enoch"
+          }
+        ]
       },
       {
         "id": "GEN-5:22",
@@ -2191,6 +2253,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Enoch",
+            "entityId": "char-enoch"
           }
         ]
       },
@@ -2203,7 +2269,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the days of Enoch were three hundred sixty-five years.",
         "translation": "WEB",
         "illustrationId": "ill-gen-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Enoch",
+            "entityId": "char-enoch"
+          }
+        ]
       },
       {
         "id": "GEN-5:24",
@@ -2218,6 +2289,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Enoch",
+            "entityId": "char-enoch"
           }
         ]
       },
@@ -2736,6 +2811,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Noah",
             "entityId": "char-noah"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -3431,6 +3510,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Noah",
             "entityId": "char-noah"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -3697,6 +3780,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "rainbow",
+            "entityId": "term-rainbow"
           }
         ]
       },
@@ -3713,6 +3800,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "earth",
             "entityId": "term-earth"
+          },
+          {
+            "spanText": "rainbow",
+            "entityId": "term-rainbow"
           }
         ]
       },
@@ -3753,6 +3844,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "rainbow",
+            "entityId": "term-rainbow"
           }
         ]
       },
@@ -4240,7 +4335,16 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The border of the Canaanites was from Sidon—as you go toward Gerar—to Gaza—as you go toward Sodom, Gomorrah, Admah, and Zeboiim—to Lasha.",
         "translation": "WEB",
         "illustrationId": "ill-gen-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
+          },
+          {
+            "spanText": "Gomorrah",
+            "entityId": "place-gomorrah"
+          }
+        ]
       },
       {
         "id": "GEN-10:20",
@@ -4766,6 +4870,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Haran",
             "entityId": "place-haran"
+          },
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
           }
         ]
       },
@@ -4858,6 +4966,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
           }
         ]
       },
@@ -4958,6 +5070,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Haran",
             "entityId": "place-haran"
+          },
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
           }
         ]
       },
@@ -4986,6 +5102,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
           }
         ]
       },
@@ -5002,6 +5122,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abram",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Shechem",
+            "entityId": "place-shechem"
           }
         ]
       },
@@ -5022,6 +5146,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abram",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -5042,6 +5170,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethel",
             "entityId": "place-bethel"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -5152,7 +5284,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The princes of Pharaoh saw her, and praised her to Pharaoh; and the woman was taken into Pharaoh’s house.",
         "translation": "WEB",
         "illustrationId": "ill-gen-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-12:16",
@@ -5191,6 +5328,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sarai",
             "entityId": "char-sarah"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -5207,6 +5348,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abram",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -5230,7 +5375,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Pharaoh commanded men concerning him, and they escorted him away with his wife and all that he had.",
         "translation": "WEB",
         "illustrationId": "ill-gen-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       }
     ]
   },
@@ -5262,6 +5412,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
           }
         ]
       },
@@ -5318,6 +5472,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abram",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -5334,6 +5492,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abram",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
           }
         ]
       },
@@ -5361,6 +5523,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abram",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
           }
         ]
       },
@@ -5377,6 +5543,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abram",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
           }
         ]
       },
@@ -5408,6 +5578,18 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
+          },
+          {
+            "spanText": "Gomorrah",
+            "entityId": "place-gomorrah"
+          },
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
           }
         ]
       },
@@ -5420,7 +5602,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So Lot chose the Plain of the Jordan for himself. Lot traveled east, and they separated themselves from one other.",
         "translation": "WEB",
         "illustrationId": "ill-gen-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
+          }
+        ]
       },
       {
         "id": "GEN-13:12",
@@ -5439,6 +5626,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
+          },
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
           }
         ]
       },
@@ -5455,6 +5650,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
           }
         ]
       },
@@ -5475,6 +5674,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abram",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
           }
         ]
       },
@@ -5541,6 +5744,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mamre",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       }
@@ -5577,7 +5784,16 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "they made war with Bera, king of Sodom; Birsha, king of Gomorrah; Shinab, king of Admah; Shemeber, king of Zeboiim; and the king of Bela (also called Zoar).",
         "translation": "WEB",
         "illustrationId": "ill-gen-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
+          },
+          {
+            "spanText": "Gomorrah",
+            "entityId": "place-gomorrah"
+          }
+        ]
       },
       {
         "id": "GEN-14:3",
@@ -5643,7 +5859,16 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The king of Sodom, and the king of Gomorrah, the king of Admah, the king of Zeboiim, and the king of Bela (also called Zoar) went out; and they set the battle in array against them in the valley of Siddim",
         "translation": "WEB",
         "illustrationId": "ill-gen-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
+          },
+          {
+            "spanText": "Gomorrah",
+            "entityId": "place-gomorrah"
+          }
+        ]
       },
       {
         "id": "GEN-14:9",
@@ -5665,7 +5890,16 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the valley of Siddim was full of tar pits; and the kings of Sodom and Gomorrah fled, and some fell there. Those who remained fled to the hills.",
         "translation": "WEB",
         "illustrationId": "ill-gen-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
+          },
+          {
+            "spanText": "Gomorrah",
+            "entityId": "place-gomorrah"
+          }
+        ]
       },
       {
         "id": "GEN-14:11",
@@ -5676,7 +5910,16 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They took all the goods of Sodom and Gomorrah, and all their food, and went their way.",
         "translation": "WEB",
         "illustrationId": "ill-gen-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
+          },
+          {
+            "spanText": "Gomorrah",
+            "entityId": "place-gomorrah"
+          }
+        ]
       },
       {
         "id": "GEN-14:12",
@@ -5691,6 +5934,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abram",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
+          },
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
           }
         ]
       },
@@ -5727,6 +5978,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abram",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
           }
         ]
       },
@@ -5750,7 +6005,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He brought back all the goods, and also brought back his relative Lot and his goods, and the women also, and the other people.",
         "translation": "WEB",
         "illustrationId": "ill-gen-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
+          }
+        ]
       },
       {
         "id": "GEN-14:17",
@@ -5761,7 +6021,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The king of Sodom went out to meet him after his return from the slaughter of Chedorlaomer and the kings who were with him, at the valley of Shaveh (that is, the King’s Valley).",
         "translation": "WEB",
         "illustrationId": "ill-gen-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
+          }
+        ]
       },
       {
         "id": "GEN-14:18",
@@ -5776,6 +6041,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Melchizedek",
+            "entityId": "char-melchizedek"
           }
         ]
       },
@@ -5820,6 +6089,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abram",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "tenth",
+            "entityId": "term-tithe"
           }
         ]
       },
@@ -5836,6 +6109,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abram",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
           }
         ]
       },
@@ -5864,6 +6141,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abram",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
           }
         ]
       },
@@ -6017,6 +6298,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -6465,6 +6750,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael"
           }
         ]
       },
@@ -6527,6 +6816,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hagar",
             "entityId": "char-hagar"
+          },
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael"
           }
         ]
       },
@@ -6547,6 +6840,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hagar",
             "entityId": "char-hagar"
+          },
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael"
           }
         ]
       }
@@ -6885,6 +7182,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael"
           }
         ]
       },
@@ -6925,7 +7226,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "As for Ishmael, I have heard you. Behold, I have blessed him, and will make him fruitful, and will multiply him exceedingly. He will become the father of twelve princes, and I will make him a great nation.",
         "translation": "WEB",
         "illustrationId": "ill-gen-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael"
+          }
+        ]
       },
       {
         "id": "GEN-17:21",
@@ -6988,6 +7294,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael"
           }
         ]
       },
@@ -7016,7 +7326,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Ishmael, his son, was thirteen years old when he was circumcised in the flesh of his foreskin.",
         "translation": "WEB",
         "illustrationId": "ill-gen-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael"
+          }
+        ]
       },
       {
         "id": "GEN-17:26",
@@ -7031,6 +7346,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael"
           }
         ]
       },
@@ -7315,6 +7634,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
           }
         ]
       },
@@ -7375,6 +7698,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -7391,6 +7718,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
+          },
+          {
+            "spanText": "Gomorrah",
+            "entityId": "place-gomorrah"
           }
         ]
       },
@@ -7422,6 +7757,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
           }
         ]
       },
@@ -7481,6 +7820,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
           }
         ]
       },
@@ -7601,6 +7944,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "earth",
             "entityId": "term-earth"
+          },
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
+          },
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
           }
         ]
       },
@@ -7635,7 +7986,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But before they lay down, the men of the city, the men of Sodom, surrounded the house, both young and old, all the people from every quarter.",
         "translation": "WEB",
         "illustrationId": "ill-gen-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
+          }
+        ]
       },
       {
         "id": "GEN-19:5",
@@ -7646,7 +8002,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They called to Lot, and said to him, “Where are the men who came in to you this night? Bring them out to us, that we may have sex with them.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
+          }
+        ]
       },
       {
         "id": "GEN-19:6",
@@ -7657,7 +8018,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Lot went out to them through the door, and shut the door after himself.",
         "translation": "WEB",
         "illustrationId": "ill-gen-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
+          }
+        ]
       },
       {
         "id": "GEN-19:7",
@@ -7690,7 +8056,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They said, “Stand back!” Then they said, “This one fellow came in to live as a foreigner, and he appoints himself a judge. Now we will deal worse with you than with them!” They pressed hard on the man Lot, and came near to break the door.",
         "translation": "WEB",
         "illustrationId": "ill-gen-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
+          }
+        ]
       },
       {
         "id": "GEN-19:10",
@@ -7701,7 +8072,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But the men reached out their hand, and brought Lot into the house to them, and shut the door.",
         "translation": "WEB",
         "illustrationId": "ill-gen-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
+          }
+        ]
       },
       {
         "id": "GEN-19:11",
@@ -7723,7 +8099,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The men said to Lot, “Do you have anybody else here? Sons-in-law, your sons, your daughters, and whomever you have in the city, bring them out of the place:",
         "translation": "WEB",
         "illustrationId": "ill-gen-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
+          }
+        ]
       },
       {
         "id": "GEN-19:13",
@@ -7754,6 +8135,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
           }
         ]
       },
@@ -7766,7 +8151,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the morning came, then the angels hurried Lot, saying, “Get up! Take your wife and your two daughters who are here, lest you be consumed in the iniquity of the city.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
+          }
+        ]
       },
       {
         "id": "GEN-19:16",
@@ -7804,7 +8194,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Lot said to them, “Oh, not so, my lord.",
         "translation": "WEB",
         "illustrationId": "ill-gen-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
+          }
+        ]
       },
       {
         "id": "GEN-19:19",
@@ -7863,6 +8258,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "earth",
             "entityId": "term-earth"
+          },
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
           }
         ]
       },
@@ -7879,6 +8278,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
+          },
+          {
+            "spanText": "Gomorrah",
+            "entityId": "place-gomorrah"
           }
         ]
       },
@@ -7902,7 +8309,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But Lot’s wife looked back from behind him, and she became a pillar of salt.",
         "translation": "WEB",
         "illustrationId": "ill-gen-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
+          }
+        ]
       },
       {
         "id": "GEN-19:27",
@@ -7933,7 +8345,16 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He looked toward Sodom and Gomorrah, and toward all the land of the plain, and saw that the smoke of the land went up as the smoke of a furnace.",
         "translation": "WEB",
         "illustrationId": "ill-gen-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
+          },
+          {
+            "spanText": "Gomorrah",
+            "entityId": "place-gomorrah"
+          }
+        ]
       },
       {
         "id": "GEN-19:29",
@@ -7952,6 +8373,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
           }
         ]
       },
@@ -7964,7 +8389,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Lot went up out of Zoar, and lived in the mountain, and his two daughters with him; for he was afraid to live in Zoar. He lived in a cave with his two daughters.",
         "translation": "WEB",
         "illustrationId": "ill-gen-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
+          }
+        ]
       },
       {
         "id": "GEN-19:31",
@@ -8035,7 +8465,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Thus both of Lot’s daughters were with child by their father.",
         "translation": "WEB",
         "illustrationId": "ill-gen-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lot",
+            "entityId": "char-lot"
+          }
+        ]
       },
       {
         "id": "GEN-19:37",
@@ -8105,6 +8540,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sarah",
             "entityId": "char-sarah"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
           }
         ]
       },
@@ -8121,6 +8560,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "dream",
+            "entityId": "term-dream"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
           }
         ]
       },
@@ -8133,7 +8580,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now Abimelech had not come near her. He said, “Lord, will you kill even a righteous nation?",
         "translation": "WEB",
         "illustrationId": "ill-gen-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
+          }
+        ]
       },
       {
         "id": "GEN-20:5",
@@ -8159,6 +8611,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "dream",
+            "entityId": "term-dream"
           }
         ]
       },
@@ -8182,7 +8638,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Abimelech rose early in the morning, and called all his servants, and told all these things in their ear. The men were very scared.",
         "translation": "WEB",
         "illustrationId": "ill-gen-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
+          }
+        ]
       },
       {
         "id": "GEN-20:9",
@@ -8197,6 +8658,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
           }
         ]
       },
@@ -8213,6 +8678,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
           }
         ]
       },
@@ -8280,6 +8749,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sarah",
             "entityId": "char-sarah"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
           }
         ]
       },
@@ -8292,7 +8765,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Abimelech said, “Behold, my land is before you. Dwell where it pleases you.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
+          }
+        ]
       },
       {
         "id": "GEN-20:16",
@@ -8327,6 +8805,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
           }
         ]
       },
@@ -8351,6 +8833,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sarah",
             "entityId": "char-sarah"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
           }
         ]
       }
@@ -8655,6 +9141,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hagar",
             "entityId": "char-hagar"
+          },
+          {
+            "spanText": "Beersheba",
+            "entityId": "place-beersheba"
           }
         ]
       },
@@ -8776,6 +9266,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
           }
         ]
       },
@@ -8824,6 +9318,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
           }
         ]
       },
@@ -8836,7 +9334,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Abimelech said, “I don’t know who has done this thing. You didn’t tell me, and I didn’t hear of it until today.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
+          }
+        ]
       },
       {
         "id": "GEN-21:27",
@@ -8855,6 +9358,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
           }
         ]
       },
@@ -8887,6 +9394,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
           }
         ]
       },
@@ -8910,7 +9421,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore he called that place Beersheba, because they both swore an oath there.",
         "translation": "WEB",
         "illustrationId": "ill-gen-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Beersheba",
+            "entityId": "place-beersheba"
+          }
+        ]
       },
       {
         "id": "GEN-21:32",
@@ -8925,6 +9441,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Beersheba",
+            "entityId": "place-beersheba"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
           }
         ]
       },
@@ -8949,6 +9473,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Beersheba",
+            "entityId": "place-beersheba"
           }
         ]
       },
@@ -9158,6 +9686,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Isaac",
             "entityId": "char-isaac"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -9330,6 +9862,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Beersheba",
+            "entityId": "place-beersheba"
           }
         ]
       },
@@ -9554,7 +10090,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "that he may sell me the cave of Machpelah, which he has, which is in the end of his field. For the full price let him sell it to me among you as a possession for a burial place.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Machpelah",
+            "entityId": "place-machpelah"
+          }
+        ]
       },
       {
         "id": "GEN-23:10",
@@ -9666,6 +10207,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mamre",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Machpelah",
+            "entityId": "place-machpelah"
           }
         ]
       },
@@ -9714,6 +10259,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mamre",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Machpelah",
+            "entityId": "place-machpelah"
           }
         ]
       },
@@ -10168,6 +10717,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Rebekah",
             "entityId": "char-rebekah"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -10223,7 +10776,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Food was set before him to eat, but he said, “I will not eat until I have told my message.” Laban said, “Speak on.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
+          }
+        ]
       },
       {
         "id": "GEN-24:34",
@@ -10470,6 +11028,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -10904,6 +11466,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mamre",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Machpelah",
+            "entityId": "place-machpelah"
+          },
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael"
           }
         ]
       },
@@ -10972,6 +11542,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hagar",
             "entityId": "char-hagar"
+          },
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael"
           }
         ]
       },
@@ -10984,7 +11558,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the names of the sons of Ishmael, by their names, according to the order of their birth: the firstborn of Ishmael, Nebaioth, then Kedar, Adbeel, Mibsam,",
         "translation": "WEB",
         "illustrationId": "ill-gen-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael"
+          }
+        ]
       },
       {
         "id": "GEN-25:14",
@@ -11017,7 +11596,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the sons of Ishmael, and these are their names, by their villages, and by their encampments: twelve princes, according to their nations.",
         "translation": "WEB",
         "illustrationId": "ill-gen-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael"
+          }
+        ]
       },
       {
         "id": "GEN-25:17",
@@ -11028,7 +11612,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the years of the life of Ishmael: one hundred thirty-seven years. He gave up his spirit and died, and was gathered to his people.",
         "translation": "WEB",
         "illustrationId": "ill-gen-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael"
+          }
+        ]
       },
       {
         "id": "GEN-25:18",
@@ -11083,6 +11672,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Rebekah",
             "entityId": "char-rebekah"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -11379,6 +11972,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Isaac",
             "entityId": "char-isaac"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
           }
         ]
       },
@@ -11499,6 +12096,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Rebekah",
             "entityId": "char-rebekah"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
           }
         ]
       },
@@ -11515,6 +12116,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Isaac",
             "entityId": "char-isaac"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
           }
         ]
       },
@@ -11527,7 +12132,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Abimelech said, “What is this you have done to us? One of the people might easily have lain with your wife, and you would have brought guilt on us!”",
         "translation": "WEB",
         "illustrationId": "ill-gen-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
+          }
+        ]
       },
       {
         "id": "GEN-26:11",
@@ -11538,7 +12148,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Abimelech commanded all the people, saying, “He who touches this man or his wife will surely be put to death.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
+          }
+        ]
       },
       {
         "id": "GEN-26:12",
@@ -11615,6 +12230,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Isaac",
             "entityId": "char-isaac"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
           }
         ]
       },
@@ -11722,7 +12341,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He went up from there to Beersheba.",
         "translation": "WEB",
         "illustrationId": "ill-gen-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Beersheba",
+            "entityId": "place-beersheba"
+          }
+        ]
       },
       {
         "id": "GEN-26:24",
@@ -11765,6 +12389,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Isaac",
             "entityId": "char-isaac"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -11777,7 +12405,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Abimelech went to him from Gerar, and Ahuzzath his friend, and Phicol the captain of his army.",
         "translation": "WEB",
         "illustrationId": "ill-gen-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech"
+          }
+        ]
       },
       {
         "id": "GEN-26:27",
@@ -11883,7 +12516,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He called it “Shibah”. Therefore the name of the city is “Beersheba” to this day.",
         "translation": "WEB",
         "illustrationId": "ill-gen-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Beersheba",
+            "entityId": "place-beersheba"
+          }
+        ]
       },
       {
         "id": "GEN-26:34",
@@ -12639,6 +13277,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Haran",
             "entityId": "place-haran"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -12734,7 +13376,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Arise, go to Paddan Aram, to the house of Bethuel your mother’s father. Take a wife from there from the daughters of Laban, your mother’s brother.",
         "translation": "WEB",
         "illustrationId": "ill-gen-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
+          }
+        ]
       },
       {
         "id": "GEN-28:3",
@@ -12797,6 +13444,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Esau",
             "entityId": "char-esau"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -12885,6 +13536,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Esau",
             "entityId": "char-esau"
+          },
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael"
           }
         ]
       },
@@ -12905,6 +13560,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Haran",
             "entityId": "place-haran"
+          },
+          {
+            "spanText": "Beersheba",
+            "entityId": "place-beersheba"
           }
         ]
       },
@@ -13115,6 +13774,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "tenth",
+            "entityId": "term-tithe"
           }
         ]
       }
@@ -13198,7 +13861,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to them, “Do you know Laban, the son of Nahor?” They said, “We know him.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
+          }
+        ]
       },
       {
         "id": "GEN-29:6",
@@ -13271,6 +13939,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Rachel",
             "entityId": "char-rachel"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -13331,6 +14003,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -13347,6 +14023,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -13363,6 +14043,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -13383,6 +14067,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Leah",
             "entityId": "char-leah"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -13435,7 +14123,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Laban said, “It is better that I give her to you, than that I should give her to another man. Stay with me.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
+          }
+        ]
       },
       {
         "id": "GEN-29:20",
@@ -13470,6 +14163,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -13482,7 +14179,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Laban gathered together all the men of the place, and made a feast.",
         "translation": "WEB",
         "illustrationId": "ill-gen-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
+          }
+        ]
       },
       {
         "id": "GEN-29:23",
@@ -13517,6 +14219,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Leah",
             "entityId": "char-leah"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -13537,6 +14243,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Leah",
             "entityId": "char-leah"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -13549,7 +14259,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Laban said, “It is not done so in our place, to give the younger before the firstborn.",
         "translation": "WEB",
         "illustrationId": "ill-gen-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
+          }
+        ]
       },
       {
         "id": "GEN-29:27",
@@ -13595,6 +14310,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Rachel",
             "entityId": "char-rachel"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -13659,6 +14378,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Leah",
             "entityId": "char-leah"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
           }
         ]
       },
@@ -13675,6 +14398,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
           }
         ]
       },
@@ -13687,7 +14414,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "She conceived again, and bore a son. She said, “Now this time my husband will be joined to me, because I have borne him three sons.” Therefore his name was called Levi.",
         "translation": "WEB",
         "illustrationId": "ill-gen-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          }
+        ]
       },
       {
         "id": "GEN-29:35",
@@ -13702,6 +14434,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       }
@@ -13822,6 +14558,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Rachel",
             "entityId": "char-rachel"
+          },
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
           }
         ]
       },
@@ -13858,6 +14598,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Rachel",
             "entityId": "char-rachel"
+          },
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
           }
         ]
       },
@@ -13914,6 +14658,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Leah",
             "entityId": "char-leah"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
           }
         ]
       },
@@ -13950,6 +14698,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Leah",
             "entityId": "char-leah"
+          },
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
           }
         ]
       },
@@ -13970,6 +14722,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Leah",
             "entityId": "char-leah"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
           }
         ]
       },
@@ -14054,6 +14810,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Leah",
             "entityId": "char-leah"
+          },
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
           }
         ]
       },
@@ -14094,6 +14854,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Leah",
             "entityId": "char-leah"
+          },
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
           }
         ]
       },
@@ -14106,7 +14870,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Afterwards, she bore a daughter, and named her Dinah.",
         "translation": "WEB",
         "illustrationId": "ill-gen-30",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dinah",
+            "entityId": "char-dinah"
+          }
+        ]
       },
       {
         "id": "GEN-30:22",
@@ -14185,6 +14954,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -14212,6 +14985,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -14271,6 +15048,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -14294,7 +15075,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So my righteousness will answer for me hereafter, when you come concerning my hire that is before you. Every one that is not speckled and spotted among the goats, and black among the sheep, that might be with me, will be considered stolen.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-30",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "GEN-30:34",
@@ -14305,7 +15091,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Laban said, “Behold, let it be according to your word.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-30",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
+          }
+        ]
       },
       {
         "id": "GEN-30:35",
@@ -14331,6 +15122,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -14385,6 +15180,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -14417,6 +15216,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -14457,6 +15260,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -14473,6 +15280,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -14599,7 +15410,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "During mating season, I lifted up my eyes, and saw in a dream, and behold, the male goats which leaped on the flock were streaked, speckled, and grizzled.",
         "translation": "WEB",
         "illustrationId": "ill-gen-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "dream",
+            "entityId": "term-dream"
+          }
+        ]
       },
       {
         "id": "GEN-31:11",
@@ -14618,6 +15434,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "dream",
+            "entityId": "term-dream"
           }
         ]
       },
@@ -14630,7 +15450,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said, ‘Now lift up your eyes, and behold, all the male goats which leap on the flock are streaked, speckled, and grizzled, for I have seen all that Laban does to you.",
         "translation": "WEB",
         "illustrationId": "ill-gen-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
+          }
+        ]
       },
       {
         "id": "GEN-31:13",
@@ -14748,6 +15573,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Rachel",
             "entityId": "char-rachel"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -14764,6 +15593,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -14791,6 +15624,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -14822,6 +15659,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "dream",
+            "entityId": "term-dream"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -14838,6 +15683,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -14854,6 +15703,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -14923,6 +15776,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -14967,6 +15824,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Leah",
             "entityId": "char-leah"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -14983,6 +15844,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Rachel",
             "entityId": "char-rachel"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -15010,6 +15875,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -15105,6 +15974,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -15169,6 +16042,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -15181,7 +16058,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Laban said, “This heap is witness between me and you today.” Therefore it was named Galeed",
         "translation": "WEB",
         "illustrationId": "ill-gen-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
+          }
+        ]
       },
       {
         "id": "GEN-31:49",
@@ -15228,6 +16110,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -15295,7 +16181,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Early in the morning, Laban rose up, and kissed his sons and his daughters, and blessed them. Laban departed and returned to his place.",
         "translation": "WEB",
         "illustrationId": "ill-gen-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
+          }
+        ]
       }
     ]
   },
@@ -15387,6 +16278,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Esau",
             "entityId": "char-esau"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -15794,6 +16689,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Peniel",
+            "entityId": "place-peniel"
           }
         ]
       },
@@ -15806,7 +16705,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sun rose on him as he passed over Peniel, and he limped because of his thigh.",
         "translation": "WEB",
         "illustrationId": "ill-gen-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Peniel",
+            "entityId": "place-peniel"
+          }
+        ]
       },
       {
         "id": "GEN-32:32",
@@ -16151,6 +17055,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Shechem",
+            "entityId": "place-shechem"
           }
         ]
       },
@@ -16163,7 +17071,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He bought the parcel of ground where he had spread his tent, at the hand of the children of Hamor, Shechem’s father, for one hundred pieces of money.",
         "translation": "WEB",
         "illustrationId": "ill-gen-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Shechem",
+            "entityId": "place-shechem"
+          }
+        ]
       },
       {
         "id": "GEN-33:20",
@@ -16178,6 +17091,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Israel",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       }
@@ -16211,6 +17128,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Leah",
             "entityId": "char-leah"
+          },
+          {
+            "spanText": "Dinah",
+            "entityId": "char-dinah"
           }
         ]
       },
@@ -16223,7 +17144,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Shechem the son of Hamor the Hivite, the prince of the land, saw her. He took her, lay with her, and humbled her.",
         "translation": "WEB",
         "illustrationId": "ill-gen-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Shechem",
+            "entityId": "place-shechem"
+          }
+        ]
       },
       {
         "id": "GEN-34:3",
@@ -16238,6 +17164,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Dinah",
+            "entityId": "char-dinah"
           }
         ]
       },
@@ -16250,7 +17180,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Shechem spoke to his father, Hamor, saying, “Get me this young lady as a wife.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Shechem",
+            "entityId": "place-shechem"
+          }
+        ]
       },
       {
         "id": "GEN-34:5",
@@ -16265,6 +17200,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Dinah",
+            "entityId": "char-dinah"
           }
         ]
       },
@@ -16281,6 +17220,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Shechem",
+            "entityId": "place-shechem"
           }
         ]
       },
@@ -16313,7 +17256,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Hamor talked with them, saying, “The soul of my son, Shechem, longs for your daughter. Please give her to him as a wife.",
         "translation": "WEB",
         "illustrationId": "ill-gen-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Shechem",
+            "entityId": "place-shechem"
+          }
+        ]
       },
       {
         "id": "GEN-34:9",
@@ -16346,7 +17294,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Shechem said to her father and to her brothers, “Let me find favor in your eyes, and whatever you will tell me I will give.",
         "translation": "WEB",
         "illustrationId": "ill-gen-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Shechem",
+            "entityId": "place-shechem"
+          }
+        ]
       },
       {
         "id": "GEN-34:12",
@@ -16372,6 +17325,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Shechem",
+            "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Dinah",
+            "entityId": "char-dinah"
           }
         ]
       },
@@ -16428,7 +17389,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Their words pleased Hamor and Shechem, Hamor’s son.",
         "translation": "WEB",
         "illustrationId": "ill-gen-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Shechem",
+            "entityId": "place-shechem"
+          }
+        ]
       },
       {
         "id": "GEN-34:19",
@@ -16455,7 +17421,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Hamor and Shechem, his son, came to the gate of their city, and talked with the men of their city, saying,",
         "translation": "WEB",
         "illustrationId": "ill-gen-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Shechem",
+            "entityId": "place-shechem"
+          }
+        ]
       },
       {
         "id": "GEN-34:21",
@@ -16499,7 +17470,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "All who went out of the gate of his city listened to Hamor, and to Shechem his son; and every male was circumcised, all who went out of the gate of his city.",
         "translation": "WEB",
         "illustrationId": "ill-gen-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Shechem",
+            "entityId": "place-shechem"
+          }
+        ]
       },
       {
         "id": "GEN-34:25",
@@ -16514,6 +17490,18 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          },
+          {
+            "spanText": "Dinah",
+            "entityId": "char-dinah"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
           }
         ]
       },
@@ -16526,7 +17514,16 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They killed Hamor and Shechem, his son, with the edge of the sword, and took Dinah out of Shechem’s house, and went away.",
         "translation": "WEB",
         "illustrationId": "ill-gen-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Shechem",
+            "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Dinah",
+            "entityId": "char-dinah"
+          }
+        ]
       },
       {
         "id": "GEN-34:27",
@@ -16579,6 +17576,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
           }
         ]
       },
@@ -16631,6 +17636,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethel",
             "entityId": "place-bethel"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -16667,6 +17676,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethel",
             "entityId": "place-bethel"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -16683,6 +17696,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Shechem",
+            "entityId": "place-shechem"
           }
         ]
       },
@@ -16743,6 +17760,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -16942,7 +17963,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "As her soul was departing (for she died), she named him Benoni, but his father named him Benjamin.",
         "translation": "WEB",
         "illustrationId": "ill-gen-35",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "GEN-35:19",
@@ -17013,6 +18039,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Israel",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
           }
         ]
       },
@@ -17033,6 +18063,30 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Leah",
             "entityId": "char-leah"
+          },
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          },
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
           }
         ]
       },
@@ -17053,6 +18107,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -17069,6 +18127,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Rachel",
             "entityId": "char-rachel"
+          },
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          },
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
           }
         ]
       },
@@ -17089,6 +18155,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Leah",
             "entityId": "char-leah"
+          },
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
           }
         ]
       },
@@ -17222,7 +18296,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and Basemath, Ishmael’s daughter, sister of Nebaioth.",
         "translation": "WEB",
         "illustrationId": "ill-gen-36",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael"
+          }
+        ]
       },
       {
         "id": "GEN-36:4",
@@ -17853,6 +18932,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "dream",
+            "entityId": "term-dream"
           }
         ]
       },
@@ -17865,7 +18948,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to them, “Please hear this dream which I have dreamed:",
         "translation": "WEB",
         "illustrationId": "ill-gen-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "dream",
+            "entityId": "term-dream"
+          }
+        ]
       },
       {
         "id": "GEN-37:7",
@@ -17887,7 +18975,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "His brothers asked him, “Will you indeed reign over us? Will you indeed have dominion over us?” They hated him all the more for his dreams and for his words.",
         "translation": "WEB",
         "illustrationId": "ill-gen-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "dreams",
+            "entityId": "term-dream"
+          }
+        ]
       },
       {
         "id": "GEN-37:9",
@@ -17898,7 +18991,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He dreamed yet another dream, and told it to his brothers, and said, “Behold, I have dreamed yet another dream: and behold, the sun and the moon and eleven stars bowed down to me.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "dream",
+            "entityId": "term-dream"
+          }
+        ]
       },
       {
         "id": "GEN-37:10",
@@ -17913,6 +19011,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "earth",
             "entityId": "term-earth"
+          },
+          {
+            "spanText": "dream",
+            "entityId": "term-dream"
           }
         ]
       },
@@ -17936,7 +19038,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "His brothers went to feed their father’s flock in Shechem.",
         "translation": "WEB",
         "illustrationId": "ill-gen-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Shechem",
+            "entityId": "place-shechem"
+          }
+        ]
       },
       {
         "id": "GEN-37:13",
@@ -17955,6 +19062,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Shechem",
+            "entityId": "place-shechem"
           }
         ]
       },
@@ -17971,6 +19082,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Shechem",
+            "entityId": "place-shechem"
           }
         ]
       },
@@ -18043,7 +19158,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Come now therefore, and let’s kill him, and cast him into one of the pits, and we will say, ‘An evil animal has devoured him.’ We will see what will become of his dreams.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "dreams",
+            "entityId": "term-dream"
+          }
+        ]
       },
       {
         "id": "GEN-37:21",
@@ -18054,7 +19174,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Reuben heard it, and delivered him out of their hand, and said, “Let’s not take his life.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "GEN-37:22",
@@ -18065,7 +19190,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Reuben said to them, “Shed no blood. Throw him into this pit that is in the wilderness, but lay no hand on him”—that he might deliver him out of their hand, to restore him to his father.",
         "translation": "WEB",
         "illustrationId": "ill-gen-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "GEN-37:23",
@@ -18119,7 +19249,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Judah said to his brothers, “What profit is it if we kill our brother and conceal his blood?",
         "translation": "WEB",
         "illustrationId": "ill-gen-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "GEN-37:27",
@@ -18165,6 +19300,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
           }
         ]
       },
@@ -18262,6 +19401,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       }
@@ -18287,7 +19430,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "At that time, Judah went down from his brothers, and visited a certain Adullamite, whose name was Hirah.",
         "translation": "WEB",
         "illustrationId": "ill-gen-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "GEN-38:2",
@@ -18298,7 +19446,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "There, Judah saw the daughter of a certain Canaanite man named Shua. He took her, and went in to her.",
         "translation": "WEB",
         "illustrationId": "ill-gen-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "GEN-38:3",
@@ -18342,7 +19495,16 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Judah took a wife for Er, his firstborn, and her name was Tamar.",
         "translation": "WEB",
         "illustrationId": "ill-gen-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Tamar",
+            "entityId": "char-tamar-gen"
+          }
+        ]
       },
       {
         "id": "GEN-38:7",
@@ -18357,6 +19519,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -18369,7 +19535,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Judah said to Onan, “Go in to your brother’s wife, and perform the duty of a husband’s brother to her, and raise up offspring for your brother.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "GEN-38:9",
@@ -18407,7 +19578,16 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Judah said to Tamar, his daughter-in-law, “Remain a widow in your father’s house, until Shelah, my son, is grown up;” for he said, “Lest he also die, like his brothers.” Tamar went and lived in her father’s house.",
         "translation": "WEB",
         "illustrationId": "ill-gen-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Tamar",
+            "entityId": "char-tamar-gen"
+          }
+        ]
       },
       {
         "id": "GEN-38:12",
@@ -18418,7 +19598,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "After many days, Shua’s daughter, the wife of Judah, died. Judah was comforted, and went up to his sheep shearers to Timnah, he and his friend Hirah, the Adullamite.",
         "translation": "WEB",
         "illustrationId": "ill-gen-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "GEN-38:13",
@@ -18429,7 +19614,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Tamar was told, “Behold, your father-in-law is going up to Timnah to shear his sheep.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tamar",
+            "entityId": "char-tamar-gen"
+          }
+        ]
       },
       {
         "id": "GEN-38:14",
@@ -18451,7 +19641,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When Judah saw her, he thought that she was a prostitute, for she had covered her face.",
         "translation": "WEB",
         "illustrationId": "ill-gen-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "GEN-38:16",
@@ -18506,7 +19701,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Judah sent the young goat by the hand of his friend, the Adullamite, to receive the pledge from the woman’s hand, but he didn’t find her.",
         "translation": "WEB",
         "illustrationId": "ill-gen-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "GEN-38:21",
@@ -18528,7 +19728,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He returned to Judah, and said, “I haven’t found her; and also the men of the place said, ‘There has been no prostitute here.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-gen-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "GEN-38:23",
@@ -18539,7 +19744,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Judah said, “Let her keep it, lest we be shamed. Behold, I sent this young goat, and you haven’t found her.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "GEN-38:24",
@@ -18550,7 +19760,16 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "About three months later, Judah was told, “Tamar, your daughter-in-law, has played the prostitute. Moreover, behold, she is with child by prostitution.” Judah said, “Bring her out, and let her be burned.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Tamar",
+            "entityId": "char-tamar-gen"
+          }
+        ]
       },
       {
         "id": "GEN-38:25",
@@ -18572,7 +19791,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Judah acknowledged them, and said, “She is more righteous than I, because I didn’t give her to Shelah, my son.” He knew her again no more.",
         "translation": "WEB",
         "illustrationId": "ill-gen-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "GEN-38:27",
@@ -18648,6 +19872,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -19003,7 +20231,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Pharaoh was angry with his two officers, the chief cup bearer and the chief baker.",
         "translation": "WEB",
         "illustrationId": "ill-gen-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-40:3",
@@ -19050,6 +20283,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "dream",
+            "entityId": "term-dream"
           }
         ]
       },
@@ -19078,7 +20315,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He asked Pharaoh’s officers who were with him in custody in his master’s house, saying, “Why do you look so sad today?”",
         "translation": "WEB",
         "illustrationId": "ill-gen-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-40:8",
@@ -19097,6 +20339,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "dream",
+            "entityId": "term-dream"
           }
         ]
       },
@@ -19113,6 +20359,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "dream",
+            "entityId": "term-dream"
           }
         ]
       },
@@ -19136,7 +20386,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Pharaoh’s cup was in my hand; and I took the grapes, and pressed them into Pharaoh’s cup, and I gave the cup into Pharaoh’s hand.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-40:12",
@@ -19163,7 +20418,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Within three more days, Pharaoh will lift up your head, and restore you to your office. You will give Pharaoh’s cup into his hand, the way you did when you were his cup bearer.",
         "translation": "WEB",
         "illustrationId": "ill-gen-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-40:14",
@@ -19174,7 +20434,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But remember me when it is well with you. Please show kindness to me, and make mention of me to Pharaoh, and bring me out of this house.",
         "translation": "WEB",
         "illustrationId": "ill-gen-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-40:15",
@@ -19200,6 +20465,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "dream",
+            "entityId": "term-dream"
           }
         ]
       },
@@ -19212,7 +20481,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "In the uppermost basket there were all kinds of baked food for Pharaoh, and the birds ate them out of the basket on my head.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-40:18",
@@ -19239,7 +20513,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Within three more days, Pharaoh will lift up your head from off you, and will hang you on a tree; and the birds will eat your flesh from off you.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-40:20",
@@ -19250,7 +20529,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "On the third day, which was Pharaoh’s birthday, he made a feast for all his servants, and he lifted up the head of the chief cup bearer and the head of the chief baker among his servants.",
         "translation": "WEB",
         "illustrationId": "ill-gen-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-40:21",
@@ -19261,7 +20545,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He restored the chief cup bearer to his position again, and he gave the cup into Pharaoh’s hand;",
         "translation": "WEB",
         "illustrationId": "ill-gen-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-40:22",
@@ -19317,7 +20606,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "At the end of two full years, Pharaoh dreamed, and behold, he stood by the river.",
         "translation": "WEB",
         "illustrationId": "ill-gen-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-41:2",
@@ -19350,7 +20644,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The ugly and thin cattle ate up the seven sleek and fat cattle. So Pharaoh awoke.",
         "translation": "WEB",
         "illustrationId": "ill-gen-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-41:5",
@@ -19383,7 +20682,16 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The thin heads of grain swallowed up the seven healthy and full ears. Pharaoh awoke, and behold, it was a dream.",
         "translation": "WEB",
         "illustrationId": "ill-gen-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "dream",
+            "entityId": "term-dream"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-41:8",
@@ -19398,6 +20706,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "dreams",
+            "entityId": "term-dream"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -19410,7 +20726,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the chief cup bearer spoke to Pharaoh, saying, “I remember my faults today.",
         "translation": "WEB",
         "illustrationId": "ill-gen-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-41:10",
@@ -19421,7 +20742,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Pharaoh was angry with his servants, and put me in custody in the house of the captain of the guard, with the chief baker.",
         "translation": "WEB",
         "illustrationId": "ill-gen-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-41:11",
@@ -19432,7 +20758,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "We dreamed a dream in one night, he and I. Each man dreamed according to the interpretation of his dream.",
         "translation": "WEB",
         "illustrationId": "ill-gen-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "dream",
+            "entityId": "term-dream"
+          }
+        ]
       },
       {
         "id": "GEN-41:12",
@@ -19443,7 +20774,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "There was with us there a young man, a Hebrew, servant to the captain of the guard, and we told him, and he interpreted to us our dreams. He interpreted to each man according to his dream.",
         "translation": "WEB",
         "illustrationId": "ill-gen-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "dreams",
+            "entityId": "term-dream"
+          }
+        ]
       },
       {
         "id": "GEN-41:13",
@@ -19469,6 +20805,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -19485,6 +20825,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "dream",
+            "entityId": "term-dream"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -19505,6 +20853,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -19521,6 +20873,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "dream",
+            "entityId": "term-dream"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -19587,7 +20947,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I saw in my dream, and behold, seven heads of grain came up on one stalk, full and good;",
         "translation": "WEB",
         "illustrationId": "ill-gen-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "dream",
+            "entityId": "term-dream"
+          }
+        ]
       },
       {
         "id": "GEN-41:23",
@@ -19628,6 +20993,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "dream",
+            "entityId": "term-dream"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -19640,7 +21013,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The seven good cattle are seven years; and the seven good heads of grain are seven years. The dream is one.",
         "translation": "WEB",
         "illustrationId": "ill-gen-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "dream",
+            "entityId": "term-dream"
+          }
+        ]
       },
       {
         "id": "GEN-41:27",
@@ -19666,6 +21044,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -19725,6 +21107,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "dream",
+            "entityId": "term-dream"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -19741,6 +21131,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -19757,6 +21151,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -19769,7 +21167,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let them gather all the food of these good years that come, and store grain under the hand of Pharaoh for food in the cities, and let them keep it.",
         "translation": "WEB",
         "illustrationId": "ill-gen-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-41:36",
@@ -19796,7 +21199,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The thing was good in the eyes of Pharaoh, and in the eyes of all his servants.",
         "translation": "WEB",
         "illustrationId": "ill-gen-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-41:38",
@@ -19815,6 +21223,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -19835,6 +21247,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -19866,6 +21282,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -19882,6 +21302,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -19918,6 +21342,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -19938,6 +21366,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -19958,6 +21390,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -20042,6 +21478,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
           }
         ]
       },
@@ -20058,6 +21498,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
           }
         ]
       },
@@ -20114,6 +21558,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -20251,6 +21699,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -20343,6 +21795,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "dreams",
+            "entityId": "term-dream"
           }
         ]
       },
@@ -20420,7 +21876,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "By this you shall be tested. By the life of Pharaoh, you shall not go out from here, unless your youngest brother comes here.",
         "translation": "WEB",
         "illustrationId": "ill-gen-42",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-42:16",
@@ -20431,7 +21892,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Send one of you, and let him get your brother, and you shall be bound, that your words may be tested, whether there is truth in you, or else by the life of Pharaoh surely you are spies.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-42",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-42:17",
@@ -20506,7 +21972,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Reuben answered them, saying, “Didn’t I tell you, saying, ‘Don’t sin against the child,’ and you wouldn’t listen? Therefore also, behold, his blood is required.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-42",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "GEN-42:23",
@@ -20533,7 +22004,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He turned himself away from them, and wept. Then he returned to them, and spoke to them, and took Simeon from among them, and bound him before their eyes.",
         "translation": "WEB",
         "illustrationId": "ill-gen-42",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "GEN-42:25",
@@ -20697,6 +22173,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
           }
         ]
       },
@@ -20709,7 +22193,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Reuben spoke to his father, saying, “Kill my two sons, if I don’t bring him to you. Entrust him to my care, and I will bring him to you again.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-42",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "GEN-42:38",
@@ -20771,7 +22260,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Judah spoke to him, saying, “The man solemnly warned us, saying, ‘You shall not see my face, unless your brother is with you.’",
         "translation": "WEB",
         "illustrationId": "ill-gen-43",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "GEN-43:4",
@@ -20835,6 +22329,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Israel",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -20911,6 +22409,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -20931,6 +22433,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -20947,6 +22453,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -21044,6 +22554,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
           }
         ]
       },
@@ -21134,6 +22648,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -21195,7 +22713,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He sent portions to them from before him, but Benjamin’s portion was five times as much as any of theirs. They drank, and were merry with him.",
         "translation": "WEB",
         "illustrationId": "ill-gen-43",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       }
     ]
   },
@@ -21359,6 +22882,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "beginning",
             "entityId": "term-beginning"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -21386,6 +22913,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -21418,6 +22949,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -21441,7 +22976,16 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Judah came near to him, and said, “Oh, my lord, please let your servant speak a word in my lord’s ears, and don’t let your anger burn against your servant; for you are even as Pharaoh.",
         "translation": "WEB",
         "illustrationId": "ill-gen-44",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "GEN-44:19",
@@ -21657,7 +23201,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He wept aloud. The Egyptians heard, and the house of Pharaoh heard.",
         "translation": "WEB",
         "illustrationId": "ill-gen-45",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-45:3",
@@ -21759,6 +23308,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -21795,7 +23348,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall dwell in the land of Goshen, and you will be near to me, you, your children, your children’s children, your flocks, your herds, and all that you have.",
         "translation": "WEB",
         "illustrationId": "ill-gen-45",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Goshen",
+            "entityId": "place-goshen"
+          }
+        ]
       },
       {
         "id": "GEN-45:11",
@@ -21817,7 +23375,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, your eyes see, and the eyes of my brother Benjamin, that it is my mouth that speaks to you.",
         "translation": "WEB",
         "illustrationId": "ill-gen-45",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "GEN-45:13",
@@ -21844,7 +23407,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He fell on his brother Benjamin’s neck and wept, and Benjamin wept on his neck.",
         "translation": "WEB",
         "illustrationId": "ill-gen-45",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "GEN-45:15",
@@ -21870,6 +23438,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -21890,6 +23462,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -21958,6 +23534,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -21970,7 +23550,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He gave each one of them changes of clothing, but to Benjamin he gave three hundred pieces of silver and five changes of clothing.",
         "translation": "WEB",
         "illustrationId": "ill-gen-45",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "GEN-45:23",
@@ -22117,6 +23702,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Israel",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Beersheba",
+            "entityId": "place-beersheba"
           }
         ]
       },
@@ -22201,6 +23790,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Israel",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Beersheba",
+            "entityId": "place-beersheba"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -22265,6 +23862,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
           }
         ]
       },
@@ -22277,7 +23878,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Reuben: Hanoch, Pallu, Hezron, and Carmi.",
         "translation": "WEB",
         "illustrationId": "ill-gen-46",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "GEN-46:10",
@@ -22288,7 +23894,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Simeon: Jemuel, Jamin, Ohad, Jachin, Zohar, and Shaul the son of a Canaanite woman.",
         "translation": "WEB",
         "illustrationId": "ill-gen-46",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "GEN-46:11",
@@ -22299,7 +23910,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Levi: Gershon, Kohath, and Merari.",
         "translation": "WEB",
         "illustrationId": "ill-gen-46",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          }
+        ]
       },
       {
         "id": "GEN-46:12",
@@ -22314,6 +23930,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -22326,7 +23946,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Issachar: Tola, Puvah, Iob, and Shimron.",
         "translation": "WEB",
         "illustrationId": "ill-gen-46",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          }
+        ]
       },
       {
         "id": "GEN-46:14",
@@ -22337,7 +23962,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Zebulun: Sered, Elon, and Jahleel.",
         "translation": "WEB",
         "illustrationId": "ill-gen-46",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "GEN-46:15",
@@ -22356,6 +23986,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Leah",
             "entityId": "char-leah"
+          },
+          {
+            "spanText": "Dinah",
+            "entityId": "char-dinah"
           }
         ]
       },
@@ -22368,7 +24002,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Gad: Ziphion, Haggi, Shuni, Ezbon, Eri, Arodi, and Areli.",
         "translation": "WEB",
         "illustrationId": "ill-gen-46",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          }
+        ]
       },
       {
         "id": "GEN-46:17",
@@ -22379,7 +24018,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Asher: Imnah, Ishvah, Ishvi, Beriah, and Serah their sister. The sons of Beriah: Heber and Malchiel.",
         "translation": "WEB",
         "illustrationId": "ill-gen-46",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "GEN-46:18",
@@ -22398,6 +24042,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Leah",
             "entityId": "char-leah"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -22422,6 +24070,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -22442,6 +24094,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
           }
         ]
       },
@@ -22454,7 +24114,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Benjamin: Bela, Becher, Ashbel, Gera, Naaman, Ehi, Rosh, Muppim, Huppim, and Ard.",
         "translation": "WEB",
         "illustrationId": "ill-gen-46",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "GEN-46:22",
@@ -22485,7 +24150,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The son of Dan: Hushim.",
         "translation": "WEB",
         "illustrationId": "ill-gen-46",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "GEN-46:24",
@@ -22496,7 +24166,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Naphtali: Jahzeel, Guni, Jezer, and Shillem.",
         "translation": "WEB",
         "illustrationId": "ill-gen-46",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          }
+        ]
       },
       {
         "id": "GEN-46:25",
@@ -22515,6 +24190,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Rachel",
             "entityId": "char-rachel"
+          },
+          {
+            "spanText": "Laban",
+            "entityId": "char-laban"
           }
         ]
       },
@@ -22579,6 +24258,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Goshen",
+            "entityId": "place-goshen"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -22599,6 +24286,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Goshen",
+            "entityId": "place-goshen"
           }
         ]
       },
@@ -22639,6 +24330,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -22662,7 +24357,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "It will happen, when Pharaoh summons you, and will say, ‘What is your occupation?’",
         "translation": "WEB",
         "illustrationId": "ill-gen-46",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-46:34",
@@ -22673,7 +24373,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "that you shall say, ‘Your servants have been keepers of livestock from our youth even until now, both we, and our fathers:’ that you may dwell in the land of Goshen; for every shepherd is an abomination to the Egyptians.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-46",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Goshen",
+            "entityId": "place-goshen"
+          }
+        ]
       }
     ]
   },
@@ -22705,6 +24410,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Goshen",
+            "entityId": "place-goshen"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -22717,7 +24430,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "From among his brothers he took five men, and presented them to Pharaoh.",
         "translation": "WEB",
         "illustrationId": "ill-gen-47",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-47:3",
@@ -22728,7 +24446,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Pharaoh said to his brothers, “What is your occupation?” They said to Pharaoh, “Your servants are shepherds, both we, and our fathers.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-47",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-47:4",
@@ -22743,6 +24466,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Goshen",
+            "entityId": "place-goshen"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -22759,6 +24490,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -22775,6 +24510,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Goshen",
+            "entityId": "place-goshen"
           }
         ]
       },
@@ -22795,6 +24534,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -22811,6 +24554,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -22827,6 +24574,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -22843,6 +24594,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -22863,6 +24618,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -22923,6 +24682,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -23002,7 +24765,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Why should we die before your eyes, both we and our land? Buy us and our land for bread, and we and our land will be servants to Pharaoh. Give us seed, that we may live, and not die, and that the land won’t be desolate.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-47",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-47:20",
@@ -23021,6 +24789,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -23049,7 +24821,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Only he didn’t buy the land of the priests, for the priests had a portion from Pharaoh, and ate their portion which Pharaoh gave them. That is why they didn’t sell their land.",
         "translation": "WEB",
         "illustrationId": "ill-gen-47",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-47:23",
@@ -23064,6 +24841,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -23076,7 +24857,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "It will happen at the harvests, that you shall give a fifth to Pharaoh, and four parts will be your own, for seed of the field, for your food, for them of your households, and for food for your little ones.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-47",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-47:25",
@@ -23087,7 +24873,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They said, “You have saved our lives! Let us find favor in the sight of my lord, and we will be Pharaoh’s servants.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-47",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-47:26",
@@ -23106,6 +24897,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -23126,6 +24921,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Goshen",
+            "entityId": "place-goshen"
           }
         ]
       },
@@ -23235,6 +25034,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
           }
         ]
       },
@@ -23314,6 +25121,22 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
           }
         ]
       },
@@ -23469,6 +25292,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
           }
         ]
       },
@@ -23485,6 +25316,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Israel",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
           }
         ]
       },
@@ -23553,6 +25392,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
           }
         ]
       },
@@ -23600,6 +25447,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Israel",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
           }
         ]
       },
@@ -23700,6 +25555,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "beginning",
             "entityId": "term-beginning"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
           }
         ]
       },
@@ -23723,7 +25582,16 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Simeon and Levi are brothers. Their swords are weapons of violence.",
         "translation": "WEB",
         "illustrationId": "ill-gen-49",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          }
+        ]
       },
       {
         "id": "GEN-49:6",
@@ -23765,7 +25633,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Judah, your brothers will praise you. Your hand will be on the neck of your enemies. Your father’s sons will bow down before you.",
         "translation": "WEB",
         "illustrationId": "ill-gen-49",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "GEN-49:9",
@@ -23776,7 +25649,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Judah is a lion’s cub. From the prey, my son, you have gone up. He stooped down, he crouched as a lion, as a lioness. Who will rouse him up?",
         "translation": "WEB",
         "illustrationId": "ill-gen-49",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "GEN-49:10",
@@ -23787,7 +25665,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The scepter will not depart from Judah, nor the ruler’s staff from between his feet, until he comes to whom it belongs. To him will the obedience of the peoples be.",
         "translation": "WEB",
         "illustrationId": "ill-gen-49",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "GEN-49:11",
@@ -23820,7 +25703,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Zebulun will dwell at the haven of the sea. He will be for a haven of ships. His border will be on Sidon.",
         "translation": "WEB",
         "illustrationId": "ill-gen-49",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "GEN-49:14",
@@ -23831,7 +25719,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Issachar is a strong donkey, lying down between the saddlebags.",
         "translation": "WEB",
         "illustrationId": "ill-gen-49",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          }
+        ]
       },
       {
         "id": "GEN-49:15",
@@ -23857,6 +25750,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Israel",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
           }
         ]
       },
@@ -23869,7 +25766,16 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Dan will be a serpent on the trail, an adder in the path, that bites the horse’s heels, so that his rider falls backward.",
         "translation": "WEB",
         "illustrationId": "ill-gen-49",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "serpent",
+            "entityId": "term-serpent"
+          },
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "GEN-49:18",
@@ -23896,7 +25802,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“A troop will press on Gad, but he will press on their heel.",
         "translation": "WEB",
         "illustrationId": "ill-gen-49",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          }
+        ]
       },
       {
         "id": "GEN-49:20",
@@ -23907,7 +25818,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Asher’s food will be rich. He will produce royal dainties.",
         "translation": "WEB",
         "illustrationId": "ill-gen-49",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "GEN-49:21",
@@ -23918,7 +25834,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Naphtali is a doe set free, who bears beautiful fawns.",
         "translation": "WEB",
         "illustrationId": "ill-gen-49",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          }
+        ]
       },
       {
         "id": "GEN-49:22",
@@ -24008,7 +25929,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Benjamin is a ravenous wolf. In the morning he will devour the prey. At evening he will divide the plunder.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-49",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "GEN-49:28",
@@ -24058,6 +25984,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mamre",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Machpelah",
+            "entityId": "place-machpelah"
           }
         ]
       },
@@ -24198,6 +26128,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -24226,7 +26160,12 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Pharaoh said, “Go up, and bury your father, just like he made you swear.”",
         "translation": "WEB",
         "illustrationId": "ill-gen-50",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "GEN-50:7",
@@ -24245,6 +26184,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -24261,6 +26204,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Goshen",
+            "entityId": "place-goshen"
           }
         ]
       },
@@ -24334,6 +26281,10 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mamre",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Machpelah",
+            "entityId": "place-machpelah"
           }
         ]
       },
@@ -24500,6 +26451,14 @@ export const GENESIS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
           }
         ]
       },

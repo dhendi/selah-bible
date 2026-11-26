@@ -45,13 +45,13 @@ export const ContextualBottomSheet: React.FC = () => {
       navigateToMapPin('loc-haran');
     } else if (region.includes('Bethel')) {
       navigateToMapPin('loc-bethel');
-    } else if (region.includes('Hebron')) {
+    } else if (region.includes('Hebron') || region.includes('Machpelah') || region.includes('Beersheba') || region.includes('Dead Sea') || region.includes('Sodom')) {
       navigateToMapPin('loc-hebron');
-    } else if (region.includes('Goshen')) {
+    } else if (region.includes('Goshen') || region.includes('Egypt')) {
       navigateToMapPin('loc-goshen');
     } else if (region.includes('Ararat')) {
       navigateToMapPin('loc-ararat');
-    } else if (region.includes('Jerusalem')) {
+    } else if (region.includes('Jerusalem') || region.includes('Moriah')) {
       navigateToMapPin('loc-jerusalem');
     } else if (region.includes('Midian')) {
       navigateToMapPin('loc-midian');
@@ -129,7 +129,13 @@ export const ContextualBottomSheet: React.FC = () => {
 
   const handleReflect = () => {
     const ref = entity.relatedVerseRefs[0] || 'Genesis 1:1';
-    const bookId = ref.includes('Ruth') ? 'RUT' : ref.includes('Exodus') ? 'EXO' : 'GEN';
+    const bookId = ref.includes('Ruth')
+      ? 'RUT'
+      : ref.includes('Leviticus')
+        ? 'LEV'
+        : ref.includes('Exodus')
+          ? 'EXO'
+          : 'GEN';
     openJournalSheet({
       verseRef: ref,
       bookId,
