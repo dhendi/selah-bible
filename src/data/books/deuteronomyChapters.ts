@@ -29,6 +29,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Arabah",
+            "entityId": "place-arabah"
           }
         ]
       },
@@ -49,6 +57,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Kadesh",
             "entityId": "place-kadesh"
+          },
+          {
+            "spanText": "Mount Seir",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -69,6 +81,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -81,7 +97,24 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "after he had struck Sihon the king of the Amorites who lived in Heshbon, and Og the king of Bashan who lived in Ashtaroth, at Edrei.",
         "translation": "WEB",
         "illustrationId": "ill-deu-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          },
+          {
+            "spanText": "Og",
+            "entityId": "char-og"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "DEU-1:5",
@@ -144,7 +177,20 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Turn, and take your journey, and go to the hill country of the Amorites and to all the places near there: in the Arabah, in the hill country, in the lowland, in the South, by the seashore, in the land of the Canaanites, and in Lebanon as far as the great river, the river Euphrates.",
         "translation": "WEB",
         "illustrationId": "ill-deu-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          },
+          {
+            "spanText": "Arabah",
+            "entityId": "place-arabah"
+          }
+        ]
       },
       {
         "id": "DEU-1:8",
@@ -159,6 +205,18 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Isaac",
+            "entityId": "char-isaac"
           }
         ]
       },
@@ -324,6 +382,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Kadesh",
             "entityId": "place-kadesh"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -344,6 +406,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -457,6 +523,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -469,7 +539,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Where are we going up? Our brothers have made our heart melt, saying, ‘The people are greater and taller than we. The cities are great and fortified up to the sky. Moreover we have seen the sons of the Anakim there!’ ”",
         "translation": "WEB",
         "illustrationId": "ill-deu-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Anakim",
+            "entityId": "char-anakim"
+          }
+        ]
       },
       {
         "id": "DEU-1:29",
@@ -555,7 +630,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "who went before you on the way, to seek out a place for you to pitch your tents in: in fire by night, to show you by what way you should go, and in the cloud by day.",
         "translation": "WEB",
         "illustrationId": "ill-deu-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cloud",
+            "entityId": "term-pillar-fire"
+          }
+        ]
       },
       {
         "id": "DEU-1:34",
@@ -633,6 +713,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -719,7 +803,16 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Amorites, who lived in that hill country, came out against you and chased you as bees do, and beat you down in Seir, even to Hormah.",
         "translation": "WEB",
         "illustrationId": "ill-deu-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Seir",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "DEU-1:45",
@@ -779,6 +872,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Mount Seir",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -818,7 +915,16 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Command the people, saying, ‘You are to pass through the border of your brothers, the children of Esau, who dwell in Seir; and they will be afraid of you. Therefore be careful.",
         "translation": "WEB",
         "illustrationId": "ill-deu-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Esau",
+            "entityId": "char-esau"
+          },
+          {
+            "spanText": "Seir",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "DEU-2:5",
@@ -829,7 +935,16 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t contend with them; for I will not give you any of their land, no, not so much as for the sole of the foot to tread on, because I have given Mount Seir to Esau for a possession.",
         "translation": "WEB",
         "illustrationId": "ill-deu-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Esau",
+            "entityId": "char-esau"
+          },
+          {
+            "spanText": "Mount Seir",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "DEU-2:6",
@@ -875,6 +990,18 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Esau",
+            "entityId": "char-esau"
+          },
+          {
+            "spanText": "Seir",
+            "entityId": "place-edom"
+          },
+          {
+            "spanText": "Arabah",
+            "entityId": "place-arabah"
           }
         ]
       },
@@ -907,7 +1034,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "(The Emim lived there before, a great and numerous people, and tall as the Anakim.",
         "translation": "WEB",
         "illustrationId": "ill-deu-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Anakim",
+            "entityId": "char-anakim"
+          }
+        ]
       },
       {
         "id": "DEU-2:11",
@@ -918,7 +1050,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "These also are considered to be Rephaim, as the Anakim; but the Moabites call them Emim.",
         "translation": "WEB",
         "illustrationId": "ill-deu-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Rephaim",
+            "entityId": "char-anakim"
+          }
+        ]
       },
       {
         "id": "DEU-2:12",
@@ -933,6 +1070,18 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Esau",
+            "entityId": "char-esau"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Seir",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -1035,7 +1184,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "When you come near the border of the children of Ammon, don’t bother them, nor contend with them; for I will not give you any of the land of the children of Ammon for a possession, because I have given it to the children of Lot for a possession.”",
         "translation": "WEB",
         "illustrationId": "ill-deu-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          }
+        ]
       },
       {
         "id": "DEU-2:20",
@@ -1046,7 +1200,16 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "(That also is considered a land of Rephaim. Rephaim lived there in the past, but the Ammonites call them Zamzummim,",
         "translation": "WEB",
         "illustrationId": "ill-deu-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Rephaim",
+            "entityId": "char-anakim"
+          },
+          {
+            "spanText": "Ammonites",
+            "entityId": "place-ammon"
+          }
+        ]
       },
       {
         "id": "DEU-2:21",
@@ -1061,6 +1224,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Anakim",
+            "entityId": "char-anakim"
           }
         ]
       },
@@ -1073,7 +1244,16 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "as he did for the children of Esau who dwell in Seir, when he destroyed the Horites from before them; and they succeeded them, and lived in their place even to this day.",
         "translation": "WEB",
         "illustrationId": "ill-deu-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Esau",
+            "entityId": "char-esau"
+          },
+          {
+            "spanText": "Seir",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "DEU-2:23",
@@ -1095,7 +1275,16 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Rise up, take your journey, and pass over the valley of the Arnon. Behold, I have given into your hand Sihon the Amorite, king of Heshbon, and his land; begin to possess it, and contend with him in battle.",
         "translation": "WEB",
         "illustrationId": "ill-deu-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          },
+          {
+            "spanText": "Amorite",
+            "entityId": "char-amorites"
+          }
+        ]
       },
       {
         "id": "DEU-2:25",
@@ -1117,7 +1306,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "I sent messengers out of the wilderness of Kedemoth to Sihon king of Heshbon with words of peace, saying,",
         "translation": "WEB",
         "illustrationId": "ill-deu-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          }
+        ]
       },
       {
         "id": "DEU-2:27",
@@ -1162,6 +1356,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Esau",
+            "entityId": "char-esau"
+          },
+          {
+            "spanText": "Seir",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -1182,6 +1384,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
           }
         ]
       },
@@ -1198,6 +1404,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
           }
         ]
       },
@@ -1210,7 +1420,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Sihon came out against us, he and all his people, to battle at Jahaz.",
         "translation": "WEB",
         "illustrationId": "ill-deu-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          }
+        ]
       },
       {
         "id": "DEU-2:33",
@@ -1271,6 +1486,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -1291,6 +1510,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       }
@@ -1316,7 +1539,16 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then we turned, and went up the way to Bashan. Og the king of Bashan came out against us, he and all his people, to battle at Edrei.",
         "translation": "WEB",
         "illustrationId": "ill-deu-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Og",
+            "entityId": "char-og"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "DEU-3:2",
@@ -1331,6 +1563,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -1351,6 +1591,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Og",
+            "entityId": "char-og"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -1363,7 +1611,16 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "We took all his cities at that time. There was not a city which we didn’t take from them: sixty cities, all the region of Argob, the kingdom of Og in Bashan.",
         "translation": "WEB",
         "illustrationId": "ill-deu-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Og",
+            "entityId": "char-og"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "DEU-3:5",
@@ -1385,7 +1642,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "We utterly destroyed them, as we did to Sihon king of Heshbon, utterly destroying every inhabited city, with the women and the little ones.",
         "translation": "WEB",
         "illustrationId": "ill-deu-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          }
+        ]
       },
       {
         "id": "DEU-3:7",
@@ -1411,6 +1673,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -1423,7 +1689,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "(The Sidonians call Hermon Sirion, and the Amorites call it Senir.)",
         "translation": "WEB",
         "illustrationId": "ill-deu-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          }
+        ]
       },
       {
         "id": "DEU-3:10",
@@ -1434,7 +1705,16 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "We took all the cities of the plain, and all Gilead, and all Bashan, to Salecah and Edrei, cities of the kingdom of Og in Bashan.",
         "translation": "WEB",
         "illustrationId": "ill-deu-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Og",
+            "entityId": "char-og"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "DEU-3:11",
@@ -1445,7 +1725,24 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "(For only Og king of Bashan remained of the remnant of the Rephaim. Behold, his bedstead was a bedstead of iron. Isn’t it in Rabbah of the children of Ammon? Nine cubits was its length, and four cubits its width, after the cubit of a man.)",
         "translation": "WEB",
         "illustrationId": "ill-deu-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Og",
+            "entityId": "char-og"
+          },
+          {
+            "spanText": "Rephaim",
+            "entityId": "char-anakim"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "DEU-3:12",
@@ -1456,7 +1753,20 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "This land we took in possession at that time: from Aroer, which is by the valley of the Arnon, and half the hill country of Gilead with its cities, I gave to the Reubenites and to the Gadites;",
         "translation": "WEB",
         "illustrationId": "ill-deu-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gadites",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reubenites",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "DEU-3:13",
@@ -1467,7 +1777,24 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "and the rest of Gilead, and all Bashan, the kingdom of Og, I gave to the half-tribe of Manasseh—all the region of Argob, even all Bashan. (The same is called the land of Rephaim.",
         "translation": "WEB",
         "illustrationId": "ill-deu-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Og",
+            "entityId": "char-og"
+          },
+          {
+            "spanText": "Rephaim",
+            "entityId": "char-anakim"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "DEU-3:14",
@@ -1478,7 +1805,16 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jair the son of Manasseh took all the region of Argob, to the border of the Geshurites and the Maacathites, and called them, even Bashan, after his own name, Havvoth Jair, to this day.)",
         "translation": "WEB",
         "illustrationId": "ill-deu-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "DEU-3:15",
@@ -1489,7 +1825,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "I gave Gilead to Machir.",
         "translation": "WEB",
         "illustrationId": "ill-deu-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "DEU-3:16",
@@ -1500,7 +1841,24 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "To the Reubenites and to the Gadites I gave from Gilead even to the valley of the Arnon, the middle of the valley, and its border, even to the river Jabbok, which is the border of the children of Ammon;",
         "translation": "WEB",
         "illustrationId": "ill-deu-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gadites",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reubenites",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "DEU-3:17",
@@ -1519,6 +1877,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Arabah",
+            "entityId": "place-arabah"
           }
         ]
       },
@@ -1539,6 +1901,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1762,6 +2128,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1806,6 +2176,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Baal Peor",
+            "entityId": "term-baal"
           }
         ]
       },
@@ -1940,7 +2314,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "You came near and stood under the mountain. The mountain burned with fire to the heart of the sky, with darkness, cloud, and thick darkness.",
         "translation": "WEB",
         "illustrationId": "ill-deu-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cloud",
+            "entityId": "term-pillar-fire"
+          }
+        ]
       },
       {
         "id": "DEU-4:12",
@@ -2500,7 +2879,20 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Bezer in the wilderness, in the plain country, for the Reubenites; and Ramoth in Gilead for the Gadites; and Golan in Bashan for the Manassites.",
         "translation": "WEB",
         "illustrationId": "ill-deu-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gadites",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reubenites",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "DEU-4:44",
@@ -2515,6 +2907,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2535,6 +2931,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2559,6 +2959,18 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -2575,6 +2987,18 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Og",
+            "entityId": "char-og"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -2606,6 +3030,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Arabah",
+            "entityId": "place-arabah"
           }
         ]
       }
@@ -2639,6 +3067,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hear, Israel",
             "entityId": "term-shema"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2999,6 +3431,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "cloud",
+            "entityId": "term-pillar-fire"
           }
         ]
       },
@@ -3266,6 +3702,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3378,6 +3818,18 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Isaac",
+            "entityId": "char-isaac"
           }
         ]
       },
@@ -3692,6 +4144,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Amorite",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Canaanite",
+            "entityId": "char-canaanites"
           }
         ]
       },
@@ -3755,7 +4215,16 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "But you shall deal with them like this: you shall break down their altars, dash their pillars in pieces, cut down their Asherah poles, and burn their engraved images with fire.",
         "translation": "WEB",
         "illustrationId": "ill-deu-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altars",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "Asherah poles",
+            "entityId": "term-asherah"
+          }
+        ]
       },
       {
         "id": "DEU-7:6",
@@ -4556,7 +5025,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "a people great and tall, the sons of the Anakim, whom you know, and of whom you have heard say, “Who can stand before the sons of Anak?”",
         "translation": "WEB",
         "illustrationId": "ill-deu-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Anakim",
+            "entityId": "char-anakim"
+          }
+        ]
       },
       {
         "id": "DEU-9:3",
@@ -4615,6 +5089,18 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Isaac",
+            "entityId": "char-isaac"
           }
         ]
       },
@@ -5000,7 +5486,20 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Remember your servants, Abraham, Isaac, and Jacob. Don’t look at the stubbornness of this people, nor at their wickedness, nor at their sin,",
         "translation": "WEB",
         "illustrationId": "ill-deu-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Isaac",
+            "entityId": "char-isaac"
+          }
+        ]
       },
       {
         "id": "DEU-9:28",
@@ -5055,6 +5554,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -5067,7 +5570,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will write on the tablets the words that were on the first tablets which you broke, and you shall put them in the ark.”",
         "translation": "WEB",
         "illustrationId": "ill-deu-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
+          }
+        ]
       },
       {
         "id": "DEU-10:3",
@@ -5078,7 +5586,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "So I made an ark of acacia wood, and cut two stone tablets like the first, and went up onto the mountain, having the two tablets in my hand.",
         "translation": "WEB",
         "illustrationId": "ill-deu-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
+          }
+        ]
       },
       {
         "id": "DEU-10:4",
@@ -5113,6 +5626,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -5133,6 +5650,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eleazar",
             "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -5168,6 +5693,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "bless",
             "entityId": "term-blessing"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -5188,6 +5721,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
           }
         ]
       },
@@ -5244,6 +5781,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "with all your heart",
             "entityId": "term-shema"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5348,7 +5889,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "He executes justice for the fatherless and widow and loves the foreigner in giving him food and clothing.",
         "translation": "WEB",
         "illustrationId": "ill-deu-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fatherless",
+            "entityId": "term-sojourner-care"
+          }
+        ]
       },
       {
         "id": "DEU-10:19",
@@ -5363,6 +5909,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "love the foreigner",
+            "entityId": "term-sojourner-care"
           }
         ]
       },
@@ -5543,7 +6093,20 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "and what he did to Dathan and Abiram, the sons of Eliab, the son of Reuben—how the earth opened its mouth and swallowed them up, with their households, their tents, and every living thing that followed them, in the middle of all Israel;",
         "translation": "WEB",
         "illustrationId": "ill-deu-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Dathan and Abiram",
+            "entityId": "char-dathan-abiram"
+          }
+        ]
       },
       {
         "id": "DEU-11:7",
@@ -5941,6 +6504,18 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          },
+          {
+            "spanText": "Arabah",
+            "entityId": "place-arabah"
+          },
+          {
+            "spanText": "Gilgal",
+            "entityId": "place-gilgal"
           }
         ]
       },
@@ -6032,7 +6607,16 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall break down their altars, dash their pillars in pieces, and burn their Asherah poles with fire. You shall cut down the engraved images of their gods. You shall destroy their name out of that place.",
         "translation": "WEB",
         "illustrationId": "ill-deu-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altars",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "Asherah poles",
+            "entityId": "term-asherah"
+          }
+        ]
       },
       {
         "id": "DEU-12:4",
@@ -6083,7 +6667,16 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall bring your burnt offerings, your sacrifices, your tithes, the wave offering of your hand, your vows, your free will offerings, and the firstborn of your herd and of your flock there.",
         "translation": "WEB",
         "illustrationId": "ill-deu-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "tithes",
+            "entityId": "term-tithe"
+          }
+        ]
       },
       {
         "id": "DEU-12:7",
@@ -6177,6 +6770,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "tithes",
+            "entityId": "term-tithe"
           }
         ]
       },
@@ -6197,6 +6798,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -6209,7 +6814,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Be careful that you don’t offer your burnt offerings in every place that you see;",
         "translation": "WEB",
         "illustrationId": "ill-deu-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "DEU-12:14",
@@ -6224,6 +6834,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -6271,7 +6885,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "You may not eat within your gates the tithe of your grain, or of your new wine, or of your oil, or the firstborn of your herd or of your flock, nor any of your vows which you vow, nor your free will offerings, nor the wave offering of your hand;",
         "translation": "WEB",
         "illustrationId": "ill-deu-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "tithe",
+            "entityId": "term-tithe"
+          }
+        ]
       },
       {
         "id": "DEU-12:18",
@@ -6290,6 +6909,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -6302,7 +6925,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Be careful that you don’t forsake the Levite as long as you live in your land.",
         "translation": "WEB",
         "illustrationId": "ill-deu-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "DEU-12:20",
@@ -6426,6 +7054,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -6708,7 +7344,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "All Israel shall hear, and fear, and shall not do any more wickedness like this among you.",
         "translation": "WEB",
         "illustrationId": "ill-deu-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "DEU-13:12",
@@ -7103,7 +7744,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall surely tithe all the increase of your seed, that which comes out of the field year by year.",
         "translation": "WEB",
         "illustrationId": "ill-deu-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "tithe",
+            "entityId": "term-tithe"
+          }
+        ]
       },
       {
         "id": "DEU-14:23",
@@ -7122,6 +7768,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "tithe",
+            "entityId": "term-tithe"
           }
         ]
       },
@@ -7194,7 +7844,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall not forsake the Levite who is within your gates, for he has no portion nor inheritance with you.",
         "translation": "WEB",
         "illustrationId": "ill-deu-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "DEU-14:28",
@@ -7205,7 +7860,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "At the end of every three years you shall bring all the tithe of your increase in the same year, and shall store it within your gates.",
         "translation": "WEB",
         "illustrationId": "ill-deu-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "tithe",
+            "entityId": "term-tithe"
+          }
+        ]
       },
       {
         "id": "DEU-14:29",
@@ -7228,6 +7888,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "bless",
             "entityId": "term-blessing"
+          },
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "fatherless",
+            "entityId": "term-sojourner-care"
           }
         ]
       }
@@ -7664,6 +8332,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Abib",
+            "entityId": "term-abib"
           }
         ]
       },
@@ -7704,6 +8376,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "unleavened bread",
+            "entityId": "term-unleavened-bread"
           }
         ]
       },
@@ -7807,6 +8483,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "unleavened bread",
+            "entityId": "term-unleavened-bread"
           }
         ]
       },
@@ -7838,6 +8518,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "feast",
+            "entityId": "term-feasts"
           }
         ]
       },
@@ -7858,6 +8542,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "fatherless",
+            "entityId": "term-sojourner-care"
           }
         ]
       },
@@ -7886,7 +8578,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall keep the feast of booths seven days, after you have gathered in from your threshing floor and from your wine press.",
         "translation": "WEB",
         "illustrationId": "ill-deu-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "feast",
+            "entityId": "term-feasts"
+          }
+        ]
       },
       {
         "id": "DEU-16:14",
@@ -7897,7 +8594,20 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall rejoice in your feast, you, your son, your daughter, your male servant, your female servant, the Levite, the foreigner, the fatherless, and the widow who are within your gates.",
         "translation": "WEB",
         "illustrationId": "ill-deu-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "feast",
+            "entityId": "term-feasts"
+          },
+          {
+            "spanText": "fatherless",
+            "entityId": "term-sojourner-care"
+          }
+        ]
       },
       {
         "id": "DEU-16:15",
@@ -7920,6 +8630,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "bless",
             "entityId": "term-blessing"
+          },
+          {
+            "spanText": "feast",
+            "entityId": "term-feasts"
           }
         ]
       },
@@ -7940,6 +8654,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "unleavened bread",
+            "entityId": "term-unleavened-bread"
+          },
+          {
+            "spanText": "feast",
+            "entityId": "term-feasts"
           }
         ]
       },
@@ -8035,6 +8757,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "Asherah",
+            "entityId": "term-asherah"
           }
         ]
       },
@@ -8135,7 +8865,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "and you are told, and you have heard of it, then you shall inquire diligently. Behold, if it is true, and the thing certain, that such abomination is done in Israel,",
         "translation": "WEB",
         "illustrationId": "ill-deu-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "DEU-17:5",
@@ -8199,7 +8934,16 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall come to the priests who are Levites and to the judge who shall be in those days. You shall inquire, and they shall give you the verdict.",
         "translation": "WEB",
         "illustrationId": "ill-deu-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "DEU-17:10",
@@ -8245,6 +8989,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -8343,6 +9095,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "this law",
             "entityId": "term-torah-scroll"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -8379,7 +9135,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "that his heart not be lifted up above his brothers, and that he not turn away from the commandment to the right hand, or to the left, to the end that he may prolong his days in his kingdom, he and his children, in the middle of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-deu-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       }
     ]
   },
@@ -8407,6 +9168,22 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -8435,7 +9212,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "This shall be the priests’ due from the people, from those who offer a sacrifice, whether it be ox or sheep, that they shall give to the priest: the shoulder, the two cheeks, and the inner parts.",
         "translation": "WEB",
         "illustrationId": "ill-deu-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "DEU-18:4",
@@ -8481,6 +9263,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8501,6 +9291,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -8968,7 +9762,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your eye shall not pity him, but you shall purge the innocent blood from Israel that it may go well with you.",
         "translation": "WEB",
         "illustrationId": "ill-deu-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "DEU-19:14",
@@ -9025,6 +9824,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9118,7 +9921,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "It shall be, when you draw near to the battle, that the priest shall approach and speak to the people,",
         "translation": "WEB",
         "illustrationId": "ill-deu-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "DEU-20:3",
@@ -9332,6 +10140,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Amorite",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Canaanite",
+            "entityId": "char-canaanites"
           }
         ]
       },
@@ -9464,6 +10280,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "bless",
             "entityId": "term-blessing"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9502,6 +10326,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9660,7 +10488,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the men of his city shall stone him to death with stones. So you shall remove the evil from among you. All Israel shall hear, and fear.",
         "translation": "WEB",
         "illustrationId": "ill-deu-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "DEU-21:22",
@@ -9922,7 +10755,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "They shall fine him one hundred shekels of silver, and give them to the father of the young lady, because he has given a bad name to a virgin of Israel. She shall be his wife. He may not put her away all his days.",
         "translation": "WEB",
         "illustrationId": "ill-deu-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "DEU-22:20",
@@ -9944,7 +10782,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "then they shall bring out the young lady to the door of her father’s house, and the men of her city shall stone her to death with stones, because she has done folly in Israel, to play the prostitute in her father’s house. So you shall remove the evil from among you.",
         "translation": "WEB",
         "illustrationId": "ill-deu-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "DEU-22:22",
@@ -9955,7 +10798,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "If a man is found lying with a woman married to a husband, then they shall both die, the man who lay with the woman and the woman. So you shall remove the evil from Israel.",
         "translation": "WEB",
         "illustrationId": "ill-deu-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "DEU-22:23",
@@ -10103,6 +10951,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Ammonite",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -10119,6 +10971,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Balaam",
+            "entityId": "char-balaam"
           }
         ]
       },
@@ -10143,6 +10999,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "blessing",
             "entityId": "term-blessing"
+          },
+          {
+            "spanText": "Balaam",
+            "entityId": "char-balaam"
           }
         ]
       },
@@ -10166,7 +11026,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall not abhor an Edomite, for he is your brother. You shall not abhor an Egyptian, because you lived as a foreigner in his land.",
         "translation": "WEB",
         "illustrationId": "ill-deu-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Edomite",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "DEU-23:8",
@@ -10290,7 +11155,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "There shall be no prostitute of the daughters of Israel, neither shall there be a sodomite of the sons of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-deu-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "DEU-23:18",
@@ -10517,7 +11387,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "If a man is found stealing any of his brothers of the children of Israel, and he deals with him as a slave, or sells him, then that thief shall die. So you shall remove the evil from among you.",
         "translation": "WEB",
         "illustrationId": "ill-deu-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "DEU-24:8",
@@ -10528,7 +11403,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Be careful in the plague of leprosy, that you observe diligently and do according to all that the Levitical priests teach you. As I commanded them, so you shall observe to do.",
         "translation": "WEB",
         "illustrationId": "ill-deu-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "DEU-24:9",
@@ -10662,7 +11542,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall not deprive the foreigner or the fatherless of justice, nor take a widow’s clothing in pledge;",
         "translation": "WEB",
         "illustrationId": "ill-deu-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fatherless",
+            "entityId": "term-sojourner-care"
+          }
+        ]
       },
       {
         "id": "DEU-24:18",
@@ -10709,6 +11594,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "bless",
             "entityId": "term-blessing"
+          },
+          {
+            "spanText": "fatherless",
+            "entityId": "term-sojourner-care"
           }
         ]
       },
@@ -10721,7 +11610,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "When you beat your olive tree, you shall not go over the boughs again. It shall be for the foreigner, for the fatherless, and for the widow.",
         "translation": "WEB",
         "illustrationId": "ill-deu-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fatherless",
+            "entityId": "term-sojourner-care"
+          }
+        ]
       },
       {
         "id": "DEU-24:21",
@@ -10732,7 +11626,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "When you harvest your vineyard, you shall not glean it after yourselves. It shall be for the foreigner, for the fatherless, and for the widow.",
         "translation": "WEB",
         "illustrationId": "ill-deu-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fatherless",
+            "entityId": "term-sojourner-care"
+          }
+        ]
       },
       {
         "id": "DEU-24:22",
@@ -10827,7 +11726,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "It shall be that the firstborn whom she bears shall succeed in the name of his brother who is dead, that his name not be blotted out of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-deu-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "DEU-25:7",
@@ -10838,7 +11742,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "If the man doesn’t want to take his brother’s wife, then his brother’s wife shall go up to the gate to the elders, and say, “My husband’s brother refuses to raise up to his brother a name in Israel. He will not perform the duty of a husband’s brother to me.”",
         "translation": "WEB",
         "illustrationId": "ill-deu-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "DEU-25:8",
@@ -10871,7 +11780,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "His name shall be called in Israel, “The house of him who had his sandal removed.”",
         "translation": "WEB",
         "illustrationId": "ill-deu-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "DEU-25:11",
@@ -10970,6 +11884,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Amalek",
+            "entityId": "char-amalek"
           }
         ]
       },
@@ -11006,6 +11924,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Amalek",
+            "entityId": "char-amalek"
           }
         ]
       }
@@ -11079,6 +12001,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -11099,6 +12025,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -11225,6 +12159,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -11237,7 +12175,20 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "When you have finished tithing all the tithe of your increase in the third year, which is the year of tithing, then you shall give it to the Levite, to the foreigner, to the fatherless, and to the widow, that they may eat within your gates and be filled.",
         "translation": "WEB",
         "illustrationId": "ill-deu-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "tithe",
+            "entityId": "term-tithe"
+          },
+          {
+            "spanText": "fatherless",
+            "entityId": "term-sojourner-care"
+          }
+        ]
       },
       {
         "id": "DEU-26:13",
@@ -11260,6 +12211,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "commandments",
             "entityId": "term-commandments"
+          },
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "fatherless",
+            "entityId": "term-sojourner-care"
           }
         ]
       },
@@ -11296,6 +12255,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "bless",
             "entityId": "term-blessing"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11413,6 +12376,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11501,6 +12468,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -11521,6 +12492,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -11581,6 +12560,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -11645,6 +12632,30 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
           }
         ]
       },
@@ -11661,6 +12672,30 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ebal",
             "entityId": "place-ebal-gerizim"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          },
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          },
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          },
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
           }
         ]
       },
@@ -11673,7 +12708,16 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "With a loud voice, the Levites shall say to all the men of Israel,",
         "translation": "WEB",
         "illustrationId": "ill-deu-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "DEU-27:15",
@@ -11733,7 +12777,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "‘Cursed is he who withholds justice from the foreigner, fatherless, and widow.’ All the people shall say, ‘Amen.’",
         "translation": "WEB",
         "illustrationId": "ill-deu-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fatherless",
+            "entityId": "term-sojourner-care"
+          }
+        ]
       },
       {
         "id": "DEU-27:20",
@@ -12883,6 +13932,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12911,6 +13964,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12981,7 +14038,20 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "When you came to this place, Sihon the king of Heshbon and Og the king of Bashan came out against us to battle, and we struck them.",
         "translation": "WEB",
         "illustrationId": "ill-deu-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          },
+          {
+            "spanText": "Og",
+            "entityId": "char-og"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "DEU-29:8",
@@ -12992,7 +14062,16 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "We took their land, and gave it for an inheritance to the Reubenites, and to the Gadites, and to the half-tribe of the Manassites.",
         "translation": "WEB",
         "illustrationId": "ill-deu-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gadites",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reubenites",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "DEU-29:9",
@@ -13027,6 +14106,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13078,6 +14161,18 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Isaac",
+            "entityId": "char-isaac"
           }
         ]
       },
@@ -13213,6 +14308,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13743,6 +14842,18 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Isaac",
+            "entityId": "char-isaac"
           }
         ]
       }
@@ -13772,6 +14883,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13832,6 +14947,18 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          },
+          {
+            "spanText": "Og",
+            "entityId": "char-og"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -13892,6 +15019,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13936,6 +15067,22 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -13952,6 +15099,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "feast",
+            "entityId": "term-feasts"
           }
         ]
       },
@@ -13976,6 +15127,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "this law",
             "entityId": "term-torah-scroll"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -14048,6 +15203,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -14064,6 +15223,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Tent",
+            "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "pillar of cloud",
+            "entityId": "term-pillar-fire"
           }
         ]
       },
@@ -14127,7 +15294,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Now therefore write this song for yourselves, and teach it to the children of Israel. Put it in their mouths, that this song may be a witness for me against the children of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-deu-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "DEU-31:20",
@@ -14169,6 +15341,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -14185,6 +15361,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -14229,6 +15409,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -14253,6 +15441,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -14312,6 +15504,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -14383,6 +15579,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Rock",
+            "entityId": "term-rock-salvation"
           }
         ]
       },
@@ -14433,7 +15633,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the Most High gave to the nations their inheritance, when he separated the children of men, he set the bounds of the peoples according to the number of the children of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-deu-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "DEU-32:9",
@@ -14448,6 +15653,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -14509,7 +15718,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "butter from the herd, and milk from the flock, with fat of lambs, rams of the breed of Bashan, and goats, with the finest of the wheat. From the blood of the grape, you drank wine.",
         "translation": "WEB",
         "illustrationId": "ill-deu-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "DEU-32:15",
@@ -14524,6 +15738,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Rock of his salvation",
+            "entityId": "term-rock-salvation"
           }
         ]
       },
@@ -14567,6 +15785,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Rock",
+            "entityId": "term-rock-salvation"
           }
         ]
       },
@@ -14719,6 +15941,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Rock",
+            "entityId": "term-rock-salvation"
           }
         ]
       },
@@ -14731,7 +15957,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "For their rock is not as our Rock, even our enemies themselves concede.",
         "translation": "WEB",
         "illustrationId": "ill-deu-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Rock",
+            "entityId": "term-rock-salvation"
+          }
+        ]
       },
       {
         "id": "DEU-32:32",
@@ -14908,6 +16139,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -14984,6 +16219,14 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jericho",
+            "entityId": "place-jericho"
           }
         ]
       },
@@ -15016,6 +16259,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Kadesh",
             "entityId": "place-kadesh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15028,7 +16275,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "For you shall see the land from a distance; but you shall not go there into the land which I give the children of Israel.”",
         "translation": "WEB",
         "illustrationId": "ill-deu-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       }
     ]
   },
@@ -15064,6 +16316,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "blessing",
             "entityId": "term-blessing"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15084,6 +16340,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sinai",
             "entityId": "place-sinai"
+          },
+          {
+            "spanText": "Seir",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -15111,6 +16371,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -15123,7 +16387,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "He was king in Jeshurun, when the heads of the people were gathered, all the tribes of Israel together.",
         "translation": "WEB",
         "illustrationId": "ill-deu-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "DEU-33:6",
@@ -15134,7 +16403,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Let Reuben live, and not die; Nor let his men be few.”",
         "translation": "WEB",
         "illustrationId": "ill-deu-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "DEU-33:7",
@@ -15149,6 +16423,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -15161,7 +16439,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "About Levi he said, “Your Thummim and your Urim are with your godly one, whom you proved at Massah, with whom you contended at the waters of Meribah.",
         "translation": "WEB",
         "illustrationId": "ill-deu-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          }
+        ]
       },
       {
         "id": "DEU-33:9",
@@ -15188,7 +16471,28 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "They shall teach Jacob your ordinances, and Israel your law. They shall put incense before you, and whole burnt offering on your altar.",
         "translation": "WEB",
         "illustrationId": "ill-deu-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "DEU-33:11",
@@ -15223,6 +16527,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -15239,6 +16547,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
           }
         ]
       },
@@ -15273,7 +16585,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "for the precious things of the earth and its fullness, the good will of him who lived in the bush. Let this come on the head of Joseph, on the crown of the head of him who was separated from his brothers.",
         "translation": "WEB",
         "illustrationId": "ill-deu-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          }
+        ]
       },
       {
         "id": "DEU-33:17",
@@ -15284,7 +16601,16 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Majesty belongs to the firstborn of his herd. His horns are the horns of the wild ox. With them he will push all the peoples to the ends of the earth. They are the ten thousands of Ephraim. They are the thousands of Manasseh.”",
         "translation": "WEB",
         "illustrationId": "ill-deu-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "DEU-33:18",
@@ -15295,7 +16621,16 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "About Zebulun he said, “Rejoice, Zebulun, in your going out; and Issachar, in your tents.",
         "translation": "WEB",
         "illustrationId": "ill-deu-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          },
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "DEU-33:19",
@@ -15317,7 +16652,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "About Gad he said, “He who enlarges Gad is blessed. He dwells as a lioness, and tears the arm and the crown of the head.",
         "translation": "WEB",
         "illustrationId": "ill-deu-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          }
+        ]
       },
       {
         "id": "DEU-33:21",
@@ -15332,6 +16672,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15344,7 +16688,16 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "About Dan he said, “Dan is a lion’s cub that leaps out of Bashan.”",
         "translation": "WEB",
         "illustrationId": "ill-deu-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "DEU-33:23",
@@ -15363,6 +16716,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "blessing",
             "entityId": "term-blessing"
+          },
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
           }
         ]
       },
@@ -15375,7 +16732,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "About Asher he said, “Asher is blessed with children. Let him be acceptable to his brothers. Let him dip his foot in oil.",
         "translation": "WEB",
         "illustrationId": "ill-deu-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "DEU-33:25",
@@ -15429,7 +16791,16 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Israel dwells in safety, the fountain of Jacob alone, In a land of grain and new wine. Yes, his heavens drop down dew.",
         "translation": "WEB",
         "illustrationId": "ill-deu-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "DEU-33:29",
@@ -15444,6 +16815,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -15485,6 +16860,18 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          },
+          {
+            "spanText": "Jericho",
+            "entityId": "place-jericho"
           }
         ]
       },
@@ -15497,7 +16884,24 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "and all Naphtali, and the land of Ephraim and Manasseh, and all the land of Judah, to the Western Sea,",
         "translation": "WEB",
         "illustrationId": "ill-deu-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          }
+        ]
       },
       {
         "id": "DEU-34:3",
@@ -15508,7 +16912,12 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
         "text": "and the south, and the Plain of the valley of Jericho the city of palm trees, to Zoar.",
         "translation": "WEB",
         "illustrationId": "ill-deu-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jericho",
+            "entityId": "place-jericho"
+          }
+        ]
       },
       {
         "id": "DEU-34:4",
@@ -15523,6 +16932,18 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Isaac",
+            "entityId": "char-isaac"
           }
         ]
       },
@@ -15599,6 +17020,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15623,6 +17048,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15647,6 +17076,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "prophet",
             "entityId": "term-prophet-like-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15687,6 +17120,10 @@ export const DEUTERONOMY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }

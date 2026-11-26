@@ -59,7 +59,7 @@ export const ContextualBottomSheet: React.FC = () => {
       navigateToMapPin('loc-kadesh');
     } else if (region.includes('Edom') || region.includes('Seir')) {
       navigateToMapPin('loc-mount-hor');
-    } else if (region.includes('Transjordan') || region.includes('Jordan Valley') || region.includes('Gilead') || region.includes('Bashan') || region.includes('Heshbon')) {
+    } else if (region.includes('Transjordan') || region.includes('Jordan Valley') || region.includes('Gilead') || region.includes('Bashan') || region.includes('Heshbon') || region.includes('Ammon') || region.includes('Arabah')) {
       navigateToMapPin('loc-moab');
     } else if (region.includes('Nebo') || region.includes('Pisgah')) {
       navigateToMapPin('loc-mount-nebo');
