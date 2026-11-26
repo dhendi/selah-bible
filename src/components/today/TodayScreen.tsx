@@ -63,58 +63,70 @@ export const TodayScreen: React.FC = () => {
             </span>
             <span className="text-xs font-medium text-[#76746E]">
               {currentChapterId.startsWith('DAN-')
-                ? 'Lesson 25 of 25'
+                ? 'Lesson 28 of 28'
+                : currentChapterId.startsWith('EZK-')
+                ? 'Lesson 27 of 28'
+                : currentChapterId.startsWith('LAM-')
+                ? 'Lesson 26 of 28'
+                : currentChapterId.startsWith('JER-')
+                ? 'Lesson 25 of 28'
                 : currentChapterId.startsWith('ISA-')
-                ? 'Lesson 24 of 25'
+                ? 'Lesson 24 of 28'
                 : currentChapterId.startsWith('SNG-')
-                ? 'Lesson 23 of 25'
+                ? 'Lesson 23 of 28'
                 : currentChapterId.startsWith('ECC-')
-                ? 'Lesson 22 of 25'
+                ? 'Lesson 22 of 28'
                 : currentChapterId.startsWith('PRO-')
-                ? 'Lesson 21 of 25'
+                ? 'Lesson 21 of 28'
                 : currentChapterId.startsWith('PSA-')
-                ? 'Lesson 20 of 25'
+                ? 'Lesson 20 of 28'
                 : currentChapterId.startsWith('JOB-')
-                ? 'Lesson 19 of 25'
+                ? 'Lesson 19 of 28'
                 : currentChapterId.startsWith('EST-')
-                ? 'Lesson 18 of 25'
+                ? 'Lesson 18 of 28'
                 : currentChapterId.startsWith('NEH-')
-                ? 'Lesson 17 of 25'
+                ? 'Lesson 17 of 28'
                 : currentChapterId.startsWith('EZR-')
-                ? 'Lesson 16 of 25'
+                ? 'Lesson 16 of 28'
                 : currentChapterId.startsWith('2CH-')
-                ? 'Lesson 15 of 25'
+                ? 'Lesson 15 of 28'
                 : currentChapterId.startsWith('1CH-')
-                ? 'Lesson 14 of 25'
+                ? 'Lesson 14 of 28'
                 : currentChapterId.startsWith('2KI-')
-                ? 'Lesson 13 of 25'
+                ? 'Lesson 13 of 28'
                 : currentChapterId.startsWith('1KI-')
-                ? 'Lesson 12 of 25'
+                ? 'Lesson 12 of 28'
                 : currentChapterId.startsWith('2SA-')
-                ? 'Lesson 11 of 25'
+                ? 'Lesson 11 of 28'
                 : currentChapterId.startsWith('1SA-')
-                ? 'Lesson 10 of 25'
+                ? 'Lesson 10 of 28'
                 : currentChapterId.startsWith('RUT-')
-                ? 'Lesson 9 of 25'
+                ? 'Lesson 9 of 28'
                 : currentChapterId.startsWith('JDG-')
-                ? 'Lesson 8 of 25'
+                ? 'Lesson 8 of 28'
                 : currentChapterId.startsWith('JOS-')
-                ? 'Lesson 7 of 25'
+                ? 'Lesson 7 of 28'
                 : currentChapterId.startsWith('DEU-')
-                ? 'Lesson 6 of 25'
+                ? 'Lesson 6 of 28'
                 : currentChapterId.startsWith('NUM-')
-                ? 'Lesson 5 of 25'
+                ? 'Lesson 5 of 28'
                 : currentChapterId.startsWith('LEV-')
-                ? 'Lesson 4 of 25'
+                ? 'Lesson 4 of 28'
                 : currentChapterId.startsWith('EXO-')
-                ? 'Lesson 2 of 25'
-                : 'Lesson 1 of 25'}
+                ? 'Lesson 2 of 28'
+                : 'Lesson 1 of 28'}
             </span>
           </div>
 
           <h2 className="text-xl font-serif font-bold text-[#2C2C2A] leading-tight">
             {currentChapterId.startsWith('DAN-')
               ? 'Daniel: Fiery Furnace, Lions & Kingdom'
+              : currentChapterId.startsWith('EZK-')
+              ? 'Ezekiel: Dry Bones, Spirit & River'
+              : currentChapterId.startsWith('LAM-')
+              ? 'Lamentations: Morning Mercy in Ashes'
+              : currentChapterId.startsWith('JER-')
+              ? 'Jeremiah: Potter, Cistern & New Covenant'
               : currentChapterId.startsWith('ISA-')
               ? 'Isaiah: Holy One, Comfort & Servant'
               : currentChapterId.startsWith('SNG-')
@@ -166,6 +178,12 @@ export const TodayScreen: React.FC = () => {
           <p className="text-xs text-[#6B6862] mt-1.5 leading-relaxed">
             {currentChapterId.startsWith('DAN-')
               ? 'Stand with three friends inside the fiery furnace, kneel in prayer before the lions’ den, and behold the coming Son of Man.'
+              : currentChapterId.startsWith('EZK-')
+              ? 'Behold radiant sapphire glory wheels beside Kebar canal, watch dry bones stand breathing alive, and follow healing water to the Dead Sea.'
+              : currentChapterId.startsWith('LAM-')
+              ? 'Sit honestly among broken walls without hiding grief—discovering God’s compassions wake brand-new every morning.'
+              : currentChapterId.startsWith('JER-')
+              ? 'See wet clay reshaped on the potter’s wheel, soft rags rescue Jeremiah from mud, and God’s New Covenant written on hearts.'
               : currentChapterId.startsWith('ISA-')
               ? 'Behold heaven’s throne in Isaiah 6, mount up like eagles in chapter 40, and meet the Servant carrying our peace in Isaiah 53.'
               : currentChapterId.startsWith('SNG-')
@@ -308,6 +326,12 @@ export const TodayScreen: React.FC = () => {
                   ? 'sng-love-song'
                   : currentChapterId.startsWith('ISA-')
                   ? 'isa-throne-servant'
+                  : currentChapterId.startsWith('JER-')
+                  ? 'jer-covenant-cistern'
+                  : currentChapterId.startsWith('LAM-')
+                  ? 'lam-morning-mercy'
+                  : currentChapterId.startsWith('EZK-')
+                  ? 'ezk-bones-river'
                   : currentChapterId.startsWith('DAN-')
                   ? 'dan-exile-kingdom'
                   : currentChapterId === 'EXO-16'
@@ -634,6 +658,42 @@ export const TodayScreen: React.FC = () => {
           >
             <div className="text-xs font-bold font-serif text-[#2C2C2A]">Isaiah 1–66</div>
             <div className="text-[10px] text-[#76746E] mt-0.5">Throne, Comfort & Servant</div>
+          </button>
+
+          <button
+            onClick={() => handleSelectPath('JER-31')}
+            className={`p-3 rounded-2xl border text-left transition-all cursor-pointer ${
+              currentChapterId.startsWith('JER-')
+                ? 'bg-[#EBF2ED] border-[#7A9A82]'
+                : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+            }`}
+          >
+            <div className="text-xs font-bold font-serif text-[#2C2C2A]">Jeremiah 1–52</div>
+            <div className="text-[10px] text-[#76746E] mt-0.5">Potter, Rags & New Covenant</div>
+          </button>
+
+          <button
+            onClick={() => handleSelectPath('LAM-3')}
+            className={`p-3 rounded-2xl border text-left transition-all cursor-pointer ${
+              currentChapterId.startsWith('LAM-')
+                ? 'bg-[#EBF2ED] border-[#7A9A82]'
+                : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+            }`}
+          >
+            <div className="text-xs font-bold font-serif text-[#2C2C2A]">Lamentations 1–5</div>
+            <div className="text-[10px] text-[#76746E] mt-0.5">New Every Morning Mercy</div>
+          </button>
+
+          <button
+            onClick={() => handleSelectPath('EZK-37')}
+            className={`p-3 rounded-2xl border text-left transition-all cursor-pointer ${
+              currentChapterId.startsWith('EZK-')
+                ? 'bg-[#EBF2ED] border-[#7A9A82]'
+                : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+            }`}
+          >
+            <div className="text-xs font-bold font-serif text-[#2C2C2A]">Ezekiel 1–48</div>
+            <div className="text-[10px] text-[#76746E] mt-0.5">Dry Bones & Healing River</div>
           </button>
 
           <button

@@ -1305,6 +1305,156 @@ export const SEED_QUIZZES: Record<string, QuizQuestion[]> = {
       takeaway: 'God’s greatest victory comes through humble love taking our burdens on Himself.',
     },
   ],
+  'jer-covenant-cistern': [
+    {
+      id: 'q-jer-1',
+      passageId: 'JER-18',
+      passageRef: 'Jeremiah 18:1–8',
+      question: 'At the potter’s house in Jeremiah 18, what did the potter do when a clay vessel spoiled right inside his hands?',
+      options: [
+        'He buried it deep beside the Euphrates river',
+        'He lovingly reshaped that same clay into another useful vessel as seemed good to him',
+        'He ordered silver hammers from Babylon',
+        'He locked the workshop doors for seventy years',
+      ],
+      correctIndex: 1,
+      explanation:
+        'God isn’t eager to throw cracked lives away—when hearts turn honestly, our Maker patiently reshapes marred clay on the wheel.',
+      takeaway: 'Mistakes never disqualify you from being reshaped by patient grace.',
+    },
+    {
+      id: 'q-jer-2',
+      passageId: 'JER-31',
+      passageRef: 'Jeremiah 31:31–34',
+      question: 'In Jeremiah 31’s famous New Covenant promise, where does God say He will write His Torah law?',
+      options: [
+        'On copper scrolls sealed inside Anathoth cisterns',
+        'Directly inside inward parts and on human hearts',
+        'Along cedar gates facing Moab',
+        'Only on whitewashed stone altars at Mizpah',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Stone tablets can tell us what is right from outside; the New Covenant places love for God’s ways right inside willing hearts.',
+      takeaway: 'Real change grows from the inside out through God’s forgiving love.',
+    },
+    {
+      id: 'q-jer-3',
+      passageId: 'JER-38',
+      passageRef: 'Jeremiah 38:7–13',
+      question: 'When Jeremiah sank deep into a muddy cistern, what thoughtful detail did rescuer Ebed-melech pair with the ropes so pulling him up wouldn’t hurt?',
+      options: [
+        'Hot bronze rings heated in the furnace',
+        'Old worn soft rags and discarded cloths tucked gently under Jeremiah’s arms beneath the ropes',
+        'Baskets of summer figs from Tahpanhes',
+        'Long cedar ladders hauled from Mount Lebanon',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Even in an emergency, Ebed-melech’s compassionate forethought padded coarse ropes with worn cloth rags—and God remembered his kindness.',
+      takeaway: 'Gentle practical thoughtfulness shines brightly when helping hurting people.',
+    },
+  ],
+  'lam-morning-mercy': [
+    {
+      id: 'q-lam-1',
+      passageId: 'LAM-1',
+      passageRef: 'Lamentations 1 & 2',
+      question: 'What remarkable poetic structure do Lamentations chapters 1–4 use to walk honestly through grief?',
+      options: [
+        'Short military commands shouted before dusk',
+        'Hebrew alphabet acrostics—carrying raw sorrow carefully from Aleph to Tav (“A to Z”)',
+        'Lists of palace silver balances',
+        'Riddles spoken at harvest weddings',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Putting unbearable pain into ordered alphabetical verse gave grieving survivors a safe pathway to name every hurt before God without falling apart.',
+      takeaway: 'Scripture teaches us we can bring honest grief carefully and truthfully to God.',
+    },
+    {
+      id: 'q-lam-2',
+      passageId: 'LAM-3',
+      passageRef: 'Lamentations 3:22–23',
+      question: 'Right at the darkest middle hinge of Lamentations 3, what truth lifts the weeping poet’s head into hope?',
+      options: [
+        'Egypt’s chariots had just crossed Canaan',
+        'Yahweh’s compassions never fail—they are brand-new every morning; great is His faithfulness!',
+        'Gold coins had been uncovered in Zion walls',
+        'Babylon’s canal ran dry at noon',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Notice hope doesn’t wait for outside circumstances to become sunny first—it remembers God’s steady mercy never expires overnight.',
+      takeaway: 'Every single morning opens with fresh, unexhausted mercy from God.',
+    },
+    {
+      id: 'q-lam-3',
+      passageId: 'LAM-5',
+      passageRef: 'Lamentations 5:19–21',
+      question: 'How does Lamentations chapter 5 conclude Israel’s honest book of mourning?',
+      options: [
+        'By claiming everyone felt happy again already',
+        'Pleading candidly: “You remain forever, O Yahweh—restore us to yourself and renew our days as of old!”',
+        'Marching secretly toward coastal Tyre',
+        'Forgetting Jerusalem altogether',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Honest lament holds pain in one hand and God’s eternal throne in the other—turning ashes into persistent prayer.',
+      takeaway: 'Honest prayer keeps looking upward even before tears dry completely.',
+    },
+  ],
+  'ezk-bones-river': [
+    {
+      id: 'q-ezk-1',
+      passageId: 'EZK-1',
+      passageRef: 'Ezekiel 1:1–28',
+      question: 'When thirty-year-old Ezekiel beheld glowing sapphire wheels beside Babylon’s Kebar River, why was that location so comforting to captives?',
+      options: [
+        'It revealed gold mines hidden along Euphrates reed banks',
+        'It proved God’s glory wasn’t trapped inside fallen Jerusalem—He rode directly beside exiles in Babylon!',
+        'It showed fish leaping onto dry sandhills',
+        'It gave instructions to carve new sandstone gates immediately',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Ancient nations thought gods stayed glued to hometown temples; Ezekiel saw Heaven’s mobile throne meet broken captives right in exile.',
+      takeaway: 'No distance, failure, or loneliness puts you outside God’s loving presence.',
+    },
+    {
+      id: 'q-ezk-2',
+      passageId: 'EZK-37',
+      passageRef: 'Ezekiel 37:1–14',
+      question: 'In Ezekiel 37, what turned bleached dry bones across the empty valley back into a breathing, living people?',
+      options: [
+        'Royal gold trumpets sounded from Jerusalem walls',
+        'Ezekiel’s prophetic word combined with God’s rushing Spirit-breath (Ruach) entering them',
+        'Rainwater pouring off southern sandstone cliffs',
+        'Measuring reeds brought by Babylonian elders',
+      ],
+      correctIndex: 1,
+      explanation:
+        '“Can these bones live?” Humanly impossible—until God’s word and Spirit breathe life right back into dead hope.',
+      takeaway: 'Nothing looks too dry or hopeless for God’s Spirit to restore.',
+    },
+    {
+      id: 'q-ezk-3',
+      passageId: 'EZK-47',
+      passageRef: 'Ezekiel 47:1–12',
+      question: 'What happens as the deepening river in Ezekiel 47 flows east out of God’s dwelling all the way down into the salty Dead Sea?',
+      options: [
+        'Floodwaters wash cedar timber across Egypt',
+        'Dead salt waters turn fresh and heal, fruit trees flourish every month with healing leaves, and fish swarm with life!',
+        'Stones turn back into kiln clay bricks',
+        'Waves stop moving altogether at twilight',
+      ],
+      correctIndex: 1,
+      explanation:
+        'Instead of dead water spoiling fresh streams, God’s presence transforms stagnant despair wherever it flows—echoed directly in Revelation 22.',
+      takeaway: 'Everywhere God’s life flows brings healing, nourishment, and abundant peace.',
+    },
+  ],
 };
 
 // Quick onboarding mini-quiz check

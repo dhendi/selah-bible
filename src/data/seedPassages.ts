@@ -22,6 +22,9 @@ import { PROVERBS_CHAPTERS } from './books/proverbsChapters';
 import { ECCLESIASTES_CHAPTERS } from './books/ecclesiastesChapters';
 import { SONG_OF_SOLOMON_CHAPTERS } from './books/songOfSolomonChapters';
 import { ISAIAH_CHAPTERS } from './books/isaiahChapters';
+import { JEREMIAH_CHAPTERS } from './books/jeremiahChapters';
+import { LAMENTATIONS_CHAPTERS } from './books/lamentationsChapters';
+import { EZEKIEL_CHAPTERS } from './books/ezekielChapters';
 import { DANIEL_CHAPTERS } from './books/danielChapters';
 
 export const SEED_CHAPTERS: Record<string, ChapterData> = {
@@ -48,5 +51,8 @@ export const SEED_CHAPTERS: Record<string, ChapterData> = {
   ...ECCLESIASTES_CHAPTERS,
   ...SONG_OF_SOLOMON_CHAPTERS,
   ...ISAIAH_CHAPTERS,
+  ...JEREMIAH_CHAPTERS,
+  ...LAMENTATIONS_CHAPTERS,
+  ...EZEKIEL_CHAPTERS,
   ...DANIEL_CHAPTERS,
 };

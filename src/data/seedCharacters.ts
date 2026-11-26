@@ -4397,6 +4397,182 @@ export const SEED_CHARACTERS: Record<string, CharacterCard> = {
       },
     ],
   },
+  'char-profile-jeremiah': {
+    id: 'char-profile-jeremiah',
+    name: 'Jeremiah',
+    nameMeaning: 'Hebrew: יִרְמְיָהוּ / Yirmeyahu ("Yahweh Exalts / Sends")',
+    era: 'Fall of Jerusalem ~627–580 BC',
+    roleBadge: 'Prophets',
+    portraitIllustrationId: 'portrait-jeremiah',
+    quickBio:
+      'Tenderhearted priest-prophet from Anathoth called in his youth to weep over Jerusalem’s unfaithfulness—enduring public stocks, burned scrolls, and a muddy cistern while promising God’s New Covenant written right onto human hearts.',
+    familyTree: { parents: ['Hilkiah (Priest of Anathoth)'], siblings: [] },
+    locationsLived: [
+      {
+        placeName: 'Anathoth & Jerusalem',
+        roleInLife: 'Prophesied forty faithful years amid siege, prison, and forced flight',
+        coordinates: { lat: 31.81, lng: 35.26 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Gave Scripture both its deepest prayers of honest sorrow and its clearest promise of the New Covenant (Jeremiah 31:31–34).',
+    ],
+    keyChapters: [
+      {
+        reference: 'Jeremiah 31:31–34',
+        label: 'Promise of the New Covenant on Hearts',
+        storyModuleId: 'story-jer-potter-new-covenant',
+        chapterId: 'JER-31',
+        anchorVerseNumber: 33,
+      },
+      {
+        reference: 'Jeremiah 38:1–13',
+        label: 'Lifted Out of the Muddy Cistern',
+        storyModuleId: 'story-jer-potter-new-covenant',
+        chapterId: 'JER-38',
+        anchorVerseNumber: 11,
+      },
+    ],
+  },
+  'char-profile-baruch': {
+    id: 'char-profile-baruch',
+    name: 'Baruch son of Neriah',
+    nameMeaning: 'Hebrew: בָּרוּךְ / Baruch ("Blessed")',
+    era: 'Fall of Jerusalem ~605–580 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-baruch',
+    quickBio:
+      'Loyal scribe, public reader, and lifelong companion of Jeremiah who inked Jeremiah’s dictated prophecies twice after King Jehoiakim sliced the first scroll into winter brazier flames.',
+    familyTree: { parents: ['Neriah'], siblings: ['Seraiah (Quartermaster)'] },
+    locationsLived: [
+      {
+        placeName: 'Jerusalem & Tahpanhes',
+        roleInLife: 'Preserved Jeremiah’s scroll and guarded the Anathoth field deed',
+        coordinates: { lat: 31.77, lng: 35.23 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Demonstrates courageous behind-the-scenes faithfulness—honored personally in Jeremiah 45: “I will give your life to you everywhere you go.”',
+    ],
+    keyChapters: [
+      {
+        reference: 'Jeremiah 36:1–32',
+        label: 'Inking & Rewriting the Burned Scroll',
+        storyModuleId: 'story-jer-potter-new-covenant',
+        chapterId: 'JER-36',
+        anchorVerseNumber: 32,
+      },
+      {
+        reference: 'Jeremiah 45:1–5',
+        label: 'Personal Word of Preservation to Baruch',
+        storyModuleId: 'story-jer-potter-new-covenant',
+        chapterId: 'JER-45',
+        anchorVerseNumber: 5,
+      },
+    ],
+  },
+  'char-profile-ebed-melech': {
+    id: 'char-profile-ebed-melech',
+    name: 'Ebed-melech of Cush',
+    nameMeaning: 'Hebrew: עֶבֶד־מֶלֶךְ / Eved-Melekh ("Servant of the King")',
+    era: 'Siege of Jerusalem ~587 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-ebed-melech',
+    quickBio:
+      'Compassionate Cushite official inside Zedekiah’s court who confronted royal silence to lift starving Jeremiah gently out of a muddy cistern using soft worn rags beneath folded ropes.',
+    familyTree: { parents: [], siblings: [] },
+    locationsLived: [
+      {
+        placeName: 'Jerusalem Royal Court',
+        roleInLife: 'Spoke bravely to King Zedekiah and rescued Jeremiah',
+        coordinates: { lat: 31.77, lng: 35.23 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Remembered specifically by God in Jeremiah 39:15–18 for quiet empathy under pressure: “Because you have trusted in me.”',
+    ],
+    keyChapters: [
+      {
+        reference: 'Jeremiah 38:7–13',
+        label: 'Soft Rags & Ropes Rescue in the Cistern',
+        storyModuleId: 'story-jer-potter-new-covenant',
+        chapterId: 'JER-38',
+        anchorVerseNumber: 12,
+      },
+    ],
+  },
+  'char-profile-zedekiah': {
+    id: 'char-profile-zedekiah',
+    name: 'King Zedekiah',
+    nameMeaning: 'Hebrew: צִדְקִיָּהוּ / Tzidqiyahu ("Yahweh Is My Righteousness")',
+    era: 'Final Years of Judah ~597–586 BC',
+    roleBadge: 'Leaders',
+    portraitIllustrationId: 'portrait-zedekiah',
+    quickBio:
+      'Last king of Jerusalem before Babylonian exile—secretly respected Jeremiah enough to ask private counsel at night, yet feared mocking nobles too deeply to obey God’s saving warning.',
+    familyTree: { parents: ['char-profile-josiah', 'Hamutal'], siblings: ['Jehoahaz', 'Jehoiakim'] },
+    locationsLived: [
+      {
+        placeName: 'Jerusalem Palace & Courtyard Guard',
+        roleInLife: 'Wavered between prophetic truth and noble pressure',
+        coordinates: { lat: 31.77, lng: 35.23 },
+        mapPinId: 'loc-jerusalem',
+      },
+    ],
+    whyTheyMatter: [
+      'Shows soberingly how people-pleasing paralyzes leaders who already know what is right.',
+    ],
+    keyChapters: [
+      {
+        reference: 'Jeremiah 38:14–28',
+        label: 'Secret Night Conversation With Jeremiah',
+        storyModuleId: 'story-jer-potter-new-covenant',
+        chapterId: 'JER-38',
+        anchorVerseNumber: 19,
+      },
+    ],
+  },
+  'char-profile-ezekiel': {
+    id: 'char-profile-ezekiel',
+    name: 'Ezekiel',
+    nameMeaning: 'Hebrew: יְחֶזְקֵאל / Yechezqel ("God Strengthens")',
+    era: 'Babylonian Exile ~593–571 BC',
+    roleBadge: 'Prophets',
+    portraitIllustrationId: 'portrait-ezekiel',
+    quickBio:
+      'Exiled priest carried into Babylon beside the Kebar River—witnessing mobile sapphire chariot wheels, acting out street signs, and prophesying until dry bones breathed alive and healing water flowed from God’s house.',
+    familyTree: { parents: ['Buzi (Priest)'], siblings: [] },
+    locationsLived: [
+      {
+        placeName: 'Tel-abib Beside Kebar Canal (Babylon)',
+        roleInLife: 'Watchman preaching hope of new hearts and Spirit renewal to exiles',
+        coordinates: { lat: 32.54, lng: 44.42 },
+        mapPinId: 'loc-babylon',
+      },
+    ],
+    whyTheyMatter: [
+      'Unveiled both God’s Spirit inside human hearts (36:26) and dry bones rising alive (37:1–14).',
+    ],
+    keyChapters: [
+      {
+        reference: 'Ezekiel 37:1–14',
+        label: 'Prophesying Over the Valley of Dry Bones',
+        storyModuleId: 'story-ezk-dry-bones-river',
+        chapterId: 'EZK-37',
+        anchorVerseNumber: 5,
+      },
+      {
+        reference: 'Ezekiel 47:1–12',
+        label: 'Healing River Flowing to the Dead Sea',
+        storyModuleId: 'story-ezk-dry-bones-river',
+        chapterId: 'EZK-47',
+        anchorVerseNumber: 9,
+      },
+    ],
+  },
 };
 
 export const CHARACTER_DIRECTORY_LIST: CharacterCard[] = [
@@ -4503,5 +4679,10 @@ export const CHARACTER_DIRECTORY_LIST: CharacterCard[] = [
   SEED_CHARACTERS['char-profile-ahaz'],
   SEED_CHARACTERS['char-profile-eliakim'],
   SEED_CHARACTERS['char-profile-sennacherib'],
+  SEED_CHARACTERS['char-profile-jeremiah'],
+  SEED_CHARACTERS['char-profile-baruch'],
+  SEED_CHARACTERS['char-profile-ebed-melech'],
+  SEED_CHARACTERS['char-profile-zedekiah'],
+  SEED_CHARACTERS['char-profile-ezekiel'],
   SEED_CHARACTERS['char-profile-peter'],
 ];

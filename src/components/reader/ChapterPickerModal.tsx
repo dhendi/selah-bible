@@ -24,6 +24,9 @@ import { PROVERBS_CHAPTERS } from '../../data/books/proverbsChapters';
 import { ECCLESIASTES_CHAPTERS } from '../../data/books/ecclesiastesChapters';
 import { SONG_OF_SOLOMON_CHAPTERS } from '../../data/books/songOfSolomonChapters';
 import { ISAIAH_CHAPTERS } from '../../data/books/isaiahChapters';
+import { JEREMIAH_CHAPTERS } from '../../data/books/jeremiahChapters';
+import { LAMENTATIONS_CHAPTERS } from '../../data/books/lamentationsChapters';
+import { EZEKIEL_CHAPTERS } from '../../data/books/ezekielChapters';
 import { DANIEL_CHAPTERS } from '../../data/books/danielChapters';
 
 export const ChapterPickerModal: React.FC = () => {
@@ -37,10 +40,16 @@ export const ChapterPickerModal: React.FC = () => {
   } = useStudyStore();
 
   const [selectedBookTab, setSelectedBookTab] = useState<
-    'GEN' | 'EXO' | 'LEV' | 'NUM' | 'DEU' | 'JOS' | 'JDG' | 'RUT' | '1SA' | '2SA' | '1KI' | '2KI' | '1CH' | '2CH' | 'EZR' | 'NEH' | 'EST' | 'JOB' | 'PSA' | 'PRO' | 'ECC' | 'SNG' | 'ISA' | 'DAN' | 'FEATURED'
+    'GEN' | 'EXO' | 'LEV' | 'NUM' | 'DEU' | 'JOS' | 'JDG' | 'RUT' | '1SA' | '2SA' | '1KI' | '2KI' | '1CH' | '2CH' | 'EZR' | 'NEH' | 'EST' | 'JOB' | 'PSA' | 'PRO' | 'ECC' | 'SNG' | 'ISA' | 'JER' | 'LAM' | 'EZK' | 'DAN' | 'FEATURED'
   >(
     currentChapterId.startsWith('DAN-')
       ? 'DAN'
+      : currentChapterId.startsWith('EZK-')
+      ? 'EZK'
+      : currentChapterId.startsWith('LAM-')
+      ? 'LAM'
+      : currentChapterId.startsWith('JER-')
+      ? 'JER'
       : currentChapterId.startsWith('ISA-')
       ? 'ISA'
       : currentChapterId.startsWith('SNG-')
@@ -121,6 +130,9 @@ export const ChapterPickerModal: React.FC = () => {
   const eccChapterNumbers = Array.from({ length: 12 }, (_, i) => i + 1);
   const sngChapterNumbers = Array.from({ length: 8 }, (_, i) => i + 1);
   const isaiahChapterNumbers = Array.from({ length: 66 }, (_, i) => i + 1);
+  const jeremiahChapterNumbers = Array.from({ length: 52 }, (_, i) => i + 1);
+  const lamChapterNumbers = Array.from({ length: 5 }, (_, i) => i + 1);
+  const ezekielChapterNumbers = Array.from({ length: 48 }, (_, i) => i + 1);
   const danielChapterNumbers = Array.from({ length: 12 }, (_, i) => i + 1);
 
   return (
@@ -401,6 +413,39 @@ export const ChapterPickerModal: React.FC = () => {
             }`}
           >
             <span>Isa (66)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('JER')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'JER'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Jer (52)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('LAM')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'LAM'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Lam (5)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('EZK')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'EZK'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Ezk (48)</span>
           </button>
 
           <button
@@ -1849,6 +1894,187 @@ export const ChapterPickerModal: React.FC = () => {
             </div>
           )}
 
+          {selectedBookTab === 'JER' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>52 Chapters · Full WEB Text</span>
+                <span>1,364 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-6 gap-1.5 mb-4">
+                {jeremiahChapterNumbers.map((num) => {
+                  const id = `JER-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = JEREMIAH_CHAPTERS[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Jeremiah ${num}`}
+                      className={`py-2 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#7A9A82] text-white border-[#7A9A82] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#7A9A82]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+
+              <div className="pt-2 border-t border-[#E8E2D7] space-y-1.5">
+                <div className="text-[11px] font-bold uppercase tracking-wider text-[#76746E] px-1">
+                  Key Jeremiah Turning Points
+                </div>
+                {[
+                  { id: 'JER-1', label: 'Ch 1 · Almond Branch & “Before I Formed You”' },
+                  { id: 'JER-18', label: 'Ch 18 · Potter’s Wheel & Wet Clay' },
+                  { id: 'JER-29', label: 'Ch 29 · Seek Peace of City & Hopeful Plans (29:11)' },
+                  { id: 'JER-31', label: 'Ch 31 · Everlasting Love & New Covenant on Hearts' },
+                  { id: 'JER-36', label: 'Ch 36 · Burned Scroll Rewritten by Baruch' },
+                  { id: 'JER-38', label: 'Ch 38 · Soft Rags Rescue From Cistern' },
+                ].map((shortcut) => (
+                  <button
+                    key={shortcut.id}
+                    onClick={() => handleSelect(shortcut.id)}
+                    className={`w-full text-left px-3 py-2 rounded-xl text-xs font-medium flex items-center justify-between transition-colors cursor-pointer ${
+                      currentChapterId === shortcut.id
+                        ? 'bg-[#EBF2ED] text-[#4E6E56] font-semibold'
+                        : 'bg-[#F3EFE6] hover:bg-[#EBE5DA] text-[#2C2C2A]'
+                    }`}
+                  >
+                    <span>{shortcut.label}</span>
+                    {currentChapterId === shortcut.id && (
+                      <Check className="w-3.5 h-3.5 text-[#7A9A82]" />
+                    )}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {selectedBookTab === 'LAM' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>5 Chapters · Full WEB Text</span>
+                <span>154 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-5 gap-2 mb-4">
+                {lamChapterNumbers.map((num) => {
+                  const id = `LAM-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = LAMENTATIONS_CHAPTERS[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Lamentations ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#7A9A82] text-white border-[#7A9A82] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#7A9A82]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+
+              <div className="pt-2 border-t border-[#E8E2D7] space-y-1.5">
+                <div className="text-[11px] font-bold uppercase tracking-wider text-[#76746E] px-1">
+                  Key Lamentations Anchors
+                </div>
+                {[
+                  { id: 'LAM-1', label: 'Ch 1 · Solitary City Weeping Honestly' },
+                  { id: 'LAM-3', label: 'Ch 3 · “Great Is Your Faithfulness” Every Morning' },
+                  { id: 'LAM-5', label: 'Ch 5 · Renew Our Days as of Old' },
+                ].map((shortcut) => (
+                  <button
+                    key={shortcut.id}
+                    onClick={() => handleSelect(shortcut.id)}
+                    className={`w-full text-left px-3 py-2 rounded-xl text-xs font-medium flex items-center justify-between transition-colors cursor-pointer ${
+                      currentChapterId === shortcut.id
+                        ? 'bg-[#EBF2ED] text-[#4E6E56] font-semibold'
+                        : 'bg-[#F3EFE6] hover:bg-[#EBE5DA] text-[#2C2C2A]'
+                    }`}
+                  >
+                    <span>{shortcut.label}</span>
+                    {currentChapterId === shortcut.id && (
+                      <Check className="w-3.5 h-3.5 text-[#7A9A82]" />
+                    )}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {selectedBookTab === 'EZK' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>48 Chapters · Full WEB Text</span>
+                <span>1,273 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-6 gap-1.5 mb-4">
+                {ezekielChapterNumbers.map((num) => {
+                  const id = `EZK-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = EZEKIEL_CHAPTERS[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Ezekiel ${num}`}
+                      className={`py-2 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#7A9A82] text-white border-[#7A9A82] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#7A9A82]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+
+              <div className="pt-2 border-t border-[#E8E2D7] space-y-1.5">
+                <div className="text-[11px] font-bold uppercase tracking-wider text-[#76746E] px-1">
+                  Key Ezekiel Visions
+                </div>
+                {[
+                  { id: 'EZK-1', label: 'Ch 1 · Sapphire Whirlwind & Wheels at Kebar River' },
+                  { id: 'EZK-18', label: 'Ch 18 · “Why Will You Die? Turn and Live!”' },
+                  { id: 'EZK-34', label: 'Ch 34 · God Himself the Good Shepherd' },
+                  { id: 'EZK-36', label: 'Ch 36 · Heart of Stone Replaced With New Spirit' },
+                  { id: 'EZK-37', label: 'Ch 37 · Valley of Dry Bones Breathing Alive!' },
+                  { id: 'EZK-47', label: 'Ch 47 · Crystal Healing River to Dead Sea' },
+                  { id: 'EZK-48', label: 'Ch 48 · Yahweh Shammah (“The Lord Is There”)' },
+                ].map((shortcut) => (
+                  <button
+                    key={shortcut.id}
+                    onClick={() => handleSelect(shortcut.id)}
+                    className={`w-full text-left px-3 py-2 rounded-xl text-xs font-medium flex items-center justify-between transition-colors cursor-pointer ${
+                      currentChapterId === shortcut.id
+                        ? 'bg-[#EBF2ED] text-[#4E6E56] font-semibold'
+                        : 'bg-[#F3EFE6] hover:bg-[#EBE5DA] text-[#2C2C2A]'
+                    }`}
+                  >
+                    <span>{shortcut.label}</span>
+                    {currentChapterId === shortcut.id && (
+                      <Check className="w-3.5 h-3.5 text-[#7A9A82]" />
+                    )}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
           {selectedBookTab === 'DAN' && (
             <div>
               <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
@@ -2530,6 +2756,87 @@ export const ChapterPickerModal: React.FC = () => {
                   </p>
                 </div>
                 {currentChapterId.startsWith('ISA-') && (
+                  <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
+                )}
+              </button>
+
+              {/* Jeremiah 1–52 */}
+              <button
+                onClick={() => handleSelect('JER-31')}
+                className={`w-full text-left p-3.5 rounded-2xl border transition-all flex items-center justify-between cursor-pointer ${
+                  currentChapterId.startsWith('JER-')
+                    ? 'bg-[#EBF2ED] border-[#7A9A82] shadow-sm'
+                    : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+                }`}
+              >
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-serif font-bold text-[#2C2C2A] flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5 text-[#7A9A82]" /> Jeremiah 1–52
+                    </span>
+                    <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-[#EBF2ED] text-[#4E6E56]">
+                      Full Book
+                    </span>
+                  </div>
+                  <p className="text-xs text-[#6B6862] mt-0.5">
+                    Potter’s wheel, letter to exiles (29:11), muddy cistern rescue, and New Covenant on hearts.
+                  </p>
+                </div>
+                {currentChapterId.startsWith('JER-') && (
+                  <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
+                )}
+              </button>
+
+              {/* Lamentations 1–5 */}
+              <button
+                onClick={() => handleSelect('LAM-3')}
+                className={`w-full text-left p-3.5 rounded-2xl border transition-all flex items-center justify-between cursor-pointer ${
+                  currentChapterId.startsWith('LAM-')
+                    ? 'bg-[#EBF2ED] border-[#7A9A82] shadow-sm'
+                    : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+                }`}
+              >
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-serif font-bold text-[#2C2C2A] flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5 text-[#7A9A82]" /> Lamentations 1–5
+                    </span>
+                    <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-[#EBF2ED] text-[#4E6E56]">
+                      Full Book
+                    </span>
+                  </div>
+                  <p className="text-xs text-[#6B6862] mt-0.5">
+                    Honest acrostic poems of grief discovering compassions made brand-new every morning.
+                  </p>
+                </div>
+                {currentChapterId.startsWith('LAM-') && (
+                  <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
+                )}
+              </button>
+
+              {/* Ezekiel 1–48 */}
+              <button
+                onClick={() => handleSelect('EZK-37')}
+                className={`w-full text-left p-3.5 rounded-2xl border transition-all flex items-center justify-between cursor-pointer ${
+                  currentChapterId.startsWith('EZK-')
+                    ? 'bg-[#EBF2ED] border-[#7A9A82] shadow-sm'
+                    : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+                }`}
+              >
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-serif font-bold text-[#2C2C2A] flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5 text-[#7A9A82]" /> Ezekiel 1–48
+                    </span>
+                    <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-[#EBF2ED] text-[#4E6E56]">
+                      Full Book
+                    </span>
+                  </div>
+                  <p className="text-xs text-[#6B6862] mt-0.5">
+                    Sapphire chariot wheels, new heart of flesh, dry bones alive, and crystal healing river.
+                  </p>
+                </div>
+                {currentChapterId.startsWith('EZK-') && (
                   <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
                 )}
               </button>

@@ -259,6 +259,36 @@ function resolveChapterAsset(key: string): { src: string; alt: string } | undefi
       };
     }
   }
+  const jerMatch = /^ill-jer-(\d+)$/.exec(key);
+  if (jerMatch) {
+    const ch = Number(jerMatch[1]);
+    if (ch >= 1 && ch <= 52) {
+      return {
+        src: `/images/jer-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Jeremiah ${ch} illustration`,
+      };
+    }
+  }
+  const lamMatch = /^ill-lam-(\d+)$/.exec(key);
+  if (lamMatch) {
+    const ch = Number(lamMatch[1]);
+    if (ch >= 1 && ch <= 5) {
+      return {
+        src: `/images/lam-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Lamentations ${ch} illustration`,
+      };
+    }
+  }
+  const ezkMatch = /^ill-ezk-(\d+)$/.exec(key);
+  if (ezkMatch) {
+    const ch = Number(ezkMatch[1]);
+    if (ch >= 1 && ch <= 48) {
+      return {
+        src: `/images/ezk-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Ezekiel ${ch} illustration`,
+      };
+    }
+  }
   const danielMatch = /^ill-dan-(\d+)$/.exec(key);
   if (danielMatch) {
     const ch = Number(danielMatch[1]);

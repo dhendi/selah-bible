@@ -22,6 +22,9 @@ import { PROVERBS_CHAPTERS } from './books/proverbsChapters';
 import { ECCLESIASTES_CHAPTERS } from './books/ecclesiastesChapters';
 import { SONG_OF_SOLOMON_CHAPTERS } from './books/songOfSolomonChapters';
 import { ISAIAH_CHAPTERS } from './books/isaiahChapters';
+import { JEREMIAH_CHAPTERS } from './books/jeremiahChapters';
+import { LAMENTATIONS_CHAPTERS } from './books/lamentationsChapters';
+import { EZEKIEL_CHAPTERS } from './books/ezekielChapters';
 import { DANIEL_CHAPTERS } from './books/danielChapters';
 
 export const SEED_VERSE_EXPLANATIONS: Record<string, VerseExplanation> = {
@@ -1538,6 +1541,66 @@ export const SEED_VERSE_EXPLANATIONS: Record<string, VerseExplanation> = {
     tryThisAction: 'Release a lingering regret today trusting God’s abundant willingness to pardon.',
     kidFriendlySummary: 'God’s thoughts sit higher than the highest fluffy clouds—meaning His kindness reaches even further than we can dream!',
   },
+  'JER-18:6': {
+    verseId: 'JER-18:6',
+    verseRef: 'Jeremiah 18:6',
+    whatThisMeans:
+      'Rather than picturing clay passively crushed, Jeremiah watches the potter patiently fold spoiled wet clay back down onto the wheel and shape it cleanly anew.',
+    lessonForYou:
+      'God’s craftsmanship with you isn’t finished just because something cracked earlier in life.',
+    tryThisAction: 'Offer one area where you feel flawed gently back into the Potter’s patient hands today.',
+    kidFriendlySummary: 'Just like soft clay on a spinning wheel, God gently reshapes mistakes into something brand-new and wonderful!',
+  },
+  'JER-29:11': {
+    verseId: 'JER-29:11',
+    verseRef: 'Jeremiah 29:11',
+    whatThisMeans:
+      'Far from promising instant effortless comfort, Jeremiah writes to exiles facing a 70-year stay in Babylon: bloom patiently right where you stand, pray for neighbors, and trust God’s good future.',
+    lessonForYou:
+      'Even long waiting seasons are held inside God’s peaceful purpose.',
+    tryThisAction: 'Pray for someone’s flourishing right in your neighborhood or school today.',
+    kidFriendlySummary: 'Even when families had to wait far away from home, God wrote a warm letter promising safe hope and good plans!',
+  },
+  'JER-31:33': {
+    verseId: 'JER-31:33',
+    verseRef: 'Jeremiah 31:33',
+    whatThisMeans:
+      'Instead of merely chiseling rules onto cold external stone, the New Covenant places God’s own loving wisdom gently inside human hearts along with complete forgiveness.',
+    lessonForYou:
+      'Trust God to grow genuine desire for goodness from inside out, not frantic outward performance.',
+    tryThisAction: 'Thank God today for forgiving past mistakes completely and walking with you close at heart.',
+    kidFriendlySummary: 'God promised to write His love right inside our hearts so doing kind things grows from joy inside us!',
+  },
+  'LAM-3:22': {
+    verseId: 'LAM-3:22',
+    verseRef: 'Lamentations 3:22–23',
+    whatThisMeans:
+      'Written right after honest aching grief over ruined streets, the poet turns toward sunrise realizing God’s compassions don’t trickle out slowly until empty—they reset fresh every dawn.',
+    lessonForYou:
+      'Yesterday’s exhaustion cannot use up tomorrow’s grace; each morning carries fresh mercy.',
+    tryThisAction: 'Greet tomorrow’s first minute with one grateful line before checking notifications.',
+    kidFriendlySummary: 'Even when yesterday felt cloudy or sad, God pours out brand-new kindness every single morning like sunrise!',
+  },
+  'EZK-36:26': {
+    verseId: 'EZK-36:26',
+    verseRef: 'Ezekiel 36:26',
+    whatThisMeans:
+      'Diagnosing stubbornness honestly as a “heart of stone,” God doesn’t demand we soften granite ourselves—He performs spiritual heart transplant by placing His own Spirit within.',
+    lessonForYou:
+      'Ask for a tender, responsive heart whenever bitterness or numbness starts hardening inside.',
+    tryThisAction: 'Notice someone hurting around you today and respond with patient kindness instead of hurrying past.',
+    kidFriendlySummary: 'God takes away grumpy rock-hard feelings and plants a gentle, caring new heart filled with His Spirit!',
+  },
+  'EZK-37:5': {
+    verseId: 'EZK-37:5',
+    verseRef: 'Ezekiel 37:5',
+    whatThisMeans:
+      'In Hebrew, Ruach means wind, breath, and God’s Spirit all at once—showing that only Heaven’s living breath can revive exhausted, hopeless communities into standing life.',
+    lessonForYou:
+      'Never declare any dead situation or worn-out hope forever beyond renewal.',
+    tryThisAction: 'Pray Ezekiel 37’s simple prayer over something feeling barren today: “Breathe fresh life here, Lord.”',
+    kidFriendlySummary: 'When dry dusty bones looked totally hopeless, God blew gentle wind across the valley until everyone stood dancing alive!',
+  },
 };
 
 export function getExplanationForVerse(verseId: string): VerseExplanation {
@@ -1937,6 +2000,57 @@ export function getExplanationForVerse(verseId: string): VerseExplanation {
       };
     }
     return SEED_VERSE_EXPLANATIONS['ISA-40:31'];
+  }
+
+  if (verseId.startsWith('JER-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = JEREMIAH_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Jeremiah ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, Jeremiah proves honest weeping and courageous faith walk hand in hand toward God’s New Covenant.`,
+        tryThisAction: `Pause calmly over ${ref} today and entrust your path patiently into the Potter’s hands.`,
+        kidFriendlySummary: `${chapData.subtitle} God stays beside faithful helpers like Jeremiah and promises bright hope written right inside our hearts!`,
+      };
+    }
+    return SEED_VERSE_EXPLANATIONS['JER-29:11'];
+  }
+
+  if (verseId.startsWith('LAM-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = LAMENTATIONS_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Lamentations ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, Lamentations gives you sacred space to grieve honestly while trusting mercies made new every sunrise.`,
+        tryThisAction: `Bring one honest worry into prayer around ${ref}, remembering God’s compassion never fails.`,
+        kidFriendlySummary: `${chapData.subtitle} Even on sad days, God’s kindness wakes up fresh and new every single morning!`,
+      };
+    }
+    return SEED_VERSE_EXPLANATIONS['LAM-3:22'];
+  }
+
+  if (verseId.startsWith('EZK-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = EZEKIEL_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Ezekiel ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, Ezekiel lifts exiles’ eyes to God’s mobile glory, living Spirit renewal, and healing river waters.`,
+        tryThisAction: `Ask God through ${ref} to breathe fresh compassion and courage into your week.`,
+        kidFriendlySummary: `${chapData.subtitle} God brings dry lifeless things singing back to life beside a crystal healing river!`,
+      };
+    }
+    return SEED_VERSE_EXPLANATIONS['EZK-37:5'];
   }
 
   if (verseId.startsWith('DAN-')) {

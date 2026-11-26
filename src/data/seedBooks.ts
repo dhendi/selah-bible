@@ -1013,5 +1013,8 @@ export const BUILT_BOOK_START_CHAPTER: Record<string, string> = {
   ECC: 'ECC-1',
   SNG: 'SNG-1',
   ISA: 'ISA-1',
+  JER: 'JER-1',
+  LAM: 'LAM-1',
+  EZK: 'EZK-1',
   DAN: 'DAN-1',
 };

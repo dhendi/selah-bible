@@ -458,6 +458,26 @@ const PORTRAIT_URL_MAP: Record<string, { src: string; alt: string }> = {
     src: '/images/portrait-sennacherib.jpg',
     alt: 'Portrait of King Sennacherib of Assyria',
   },
+  'portrait-jeremiah': {
+    src: '/images/portrait-jeremiah.jpg',
+    alt: 'Portrait of Jeremiah the Prophet',
+  },
+  'portrait-baruch': {
+    src: '/images/portrait-baruch.jpg',
+    alt: 'Portrait of Baruch son of Neriah',
+  },
+  'portrait-ebed-melech': {
+    src: '/images/portrait-ebed-melech.jpg',
+    alt: 'Portrait of Ebed-melech of Cush',
+  },
+  'portrait-zedekiah': {
+    src: '/images/portrait-zedekiah.jpg',
+    alt: 'Portrait of King Zedekiah of Judah',
+  },
+  'portrait-ezekiel': {
+    src: '/images/portrait-ezekiel.jpg',
+    alt: 'Portrait of Ezekiel the Prophet',
+  },
   'portrait-boaz': {
     src: '/images/portrait-boaz.jpg',
     alt: 'Portrait of Boaz of Bethlehem',
