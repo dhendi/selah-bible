@@ -29,6 +29,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
           }
         ]
       },
@@ -49,6 +57,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "delivered",
             "entityId": "term-judge-deliverer"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -61,7 +73,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Judah said to Simeon his brother, “Come up with me into my lot, that we may fight against the Canaanites; and I likewise will go with you into your lot.” So Simeon went with him.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          }
+        ]
       },
       {
         "id": "JDG-1:4",
@@ -80,6 +105,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "delivered",
             "entityId": "term-judge-deliverer"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
           }
         ]
       },
@@ -92,7 +125,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They found Adoni-Bezek in Bezek, and they fought against him. They struck the Canaanites and the Perizzites.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          }
+        ]
       },
       {
         "id": "JDG-1:6",
@@ -118,6 +156,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
           }
         ]
       },
@@ -130,7 +172,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Judah fought against Jerusalem, took it, struck it with the edge of the sword, and set the city on fire.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
+          }
+        ]
       },
       {
         "id": "JDG-1:9",
@@ -141,7 +192,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "After that, the children of Judah went down to fight against the Canaanites who lived in the hill country, and in the South, and in the lowland.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          }
+        ]
       },
       {
         "id": "JDG-1:10",
@@ -156,6 +216,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
           }
         ]
       },
@@ -199,6 +267,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Caleb",
             "entityId": "char-caleb"
+          },
+          {
+            "spanText": "Othniel",
+            "entityId": "char-othniel"
           }
         ]
       },
@@ -247,6 +319,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -259,7 +335,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Judah went with Simeon his brother, and they struck the Canaanites who inhabited Zephath, and utterly destroyed it. The name of the city was called Hormah.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          }
+        ]
       },
       {
         "id": "JDG-1:18",
@@ -270,7 +359,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Also Judah took Gaza with its border, and Ashkelon with its border, and Ekron with its border.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JDG-1:19",
@@ -285,6 +379,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -321,7 +419,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Benjamin didn’t drive out the Jebusites who inhabited Jerusalem, but the Jebusites dwell with the children of Benjamin in Jerusalem to this day.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
+          }
+        ]
       },
       {
         "id": "JDG-1:22",
@@ -340,6 +447,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethel",
             "entityId": "place-bethel"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
           }
         ]
       },
@@ -356,6 +467,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethel",
             "entityId": "place-bethel"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
           }
         ]
       },
@@ -401,7 +516,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Manasseh didn’t drive out the inhabitants of Beth Shean and its towns, nor Taanach and its towns, nor the inhabitants of Dor and its towns, nor the inhabitants of Ibleam and its towns, nor the inhabitants of Megiddo and its towns; but the Canaanites would dwell in that land.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          }
+        ]
       },
       {
         "id": "JDG-1:28",
@@ -412,7 +536,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "When Israel had grown strong, they put the Canaanites to forced labor, and didn’t utterly drive them out.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          }
+        ]
       },
       {
         "id": "JDG-1:29",
@@ -423,7 +556,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Ephraim didn’t drive out the Canaanites who lived in Gezer, but the Canaanites lived in Gezer among them.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          }
+        ]
       },
       {
         "id": "JDG-1:30",
@@ -434,7 +576,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Zebulun didn’t drive out the inhabitants of Kitron, nor the inhabitants of Nahalol; but the Canaanites lived among them, and became subject to forced labor.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          }
+        ]
       },
       {
         "id": "JDG-1:31",
@@ -445,7 +596,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Asher didn’t drive out the inhabitants of Acco, nor the inhabitants of Sidon, nor of Ahlab, nor of Achzib, nor of Helbah, nor of Aphik, nor of Rehob;",
         "translation": "WEB",
         "illustrationId": "ill-jdg-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "JDG-1:32",
@@ -456,7 +612,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "but the Asherites lived among the Canaanites, the inhabitants of the land, for they didn’t drive them out.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asherites",
+            "entityId": "char-asher"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          }
+        ]
       },
       {
         "id": "JDG-1:33",
@@ -467,7 +632,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Naphtali didn’t drive out the inhabitants of Beth Shemesh, nor the inhabitants of Beth Anath; but he lived among the Canaanites, the inhabitants of the land. Nevertheless the inhabitants of Beth Shemesh and of Beth Anath became subject to forced labor.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          }
+        ]
       },
       {
         "id": "JDG-1:34",
@@ -478,7 +652,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Amorites forced the children of Dan into the hill country, for they would not allow them to come down to the valley;",
         "translation": "WEB",
         "illustrationId": "ill-jdg-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          }
+        ]
       },
       {
         "id": "JDG-1:35",
@@ -489,7 +672,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "but the Amorites would dwell in Mount Heres, in Aijalon, and in Shaalbim. Yet the hand of the house of Joseph prevailed, so that they became subject to forced labor.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          }
+        ]
       },
       {
         "id": "JDG-1:36",
@@ -500,7 +692,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The border of the Amorites was from the ascent of Akrabbim, from the rock, and upward.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          }
+        ]
       }
     ]
   },
@@ -556,6 +753,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "altars",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -583,6 +784,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -615,6 +820,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -635,6 +844,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -667,7 +880,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They buried him in the border of his inheritance in Timnath Heres, in the hill country of Ephraim, on the north of the mountain of Gaash.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "JDG-2:10",
@@ -682,6 +900,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -698,6 +920,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Baals",
+            "entityId": "term-baal"
           }
         ]
       },
@@ -738,6 +968,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
           }
         ]
       },
@@ -758,6 +992,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "delivered",
             "entityId": "term-judge-deliverer"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -870,6 +1108,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -902,6 +1144,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -955,6 +1201,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -967,7 +1217,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "only that the generations of the children of Israel might know, to teach them war, at least those who knew nothing of it before:",
         "translation": "WEB",
         "illustrationId": "ill-jdg-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-3:3",
@@ -978,7 +1233,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "the five lords of the Philistines, all the Canaanites, the Sidonians, and the Hivites who lived on Mount Lebanon, from Mount Baal Hermon to the entrance of Hamath.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          }
+        ]
       },
       {
         "id": "JDG-3:4",
@@ -997,6 +1265,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1009,7 +1281,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Israel lived among the Canaanites, the Hittites, the Amorites, the Perizzites, the Hivites, and the Jebusites.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          }
+        ]
       },
       {
         "id": "JDG-3:6",
@@ -1039,6 +1324,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Baals",
+            "entityId": "term-baal"
           }
         ]
       },
@@ -1055,6 +1348,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1075,6 +1372,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Caleb",
             "entityId": "char-caleb"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Othniel",
+            "entityId": "char-othniel"
           }
         ]
       },
@@ -1099,6 +1404,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1111,7 +1420,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The land had rest forty years, then Othniel the son of Kenaz died.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Othniel",
+            "entityId": "char-othniel"
+          }
+        ]
       },
       {
         "id": "JDG-3:12",
@@ -1126,6 +1440,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -1138,7 +1460,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "He gathered the children of Ammon and Amalek to himself; and he went and struck Israel, and they possessed the city of palm trees.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Amalek",
+            "entityId": "char-amalek"
+          }
+        ]
       },
       {
         "id": "JDG-3:14",
@@ -1149,7 +1484,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Israel served Eglon the king of Moab eighteen years.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JDG-3:15",
@@ -1164,6 +1508,22 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Benjamite",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Ehud",
+            "entityId": "char-ehud"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -1176,7 +1536,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Ehud made himself a sword which had two edges, a cubit in length; and he wore it under his clothing on his right thigh.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ehud",
+            "entityId": "char-ehud"
+          }
+        ]
       },
       {
         "id": "JDG-3:17",
@@ -1187,7 +1552,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "He offered the tribute to Eglon king of Moab. Now Eglon was a very fat man.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JDG-3:18",
@@ -1198,7 +1568,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "When Ehud had finished offering the tribute, he sent away the people who carried the tribute.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ehud",
+            "entityId": "char-ehud"
+          }
+        ]
       },
       {
         "id": "JDG-3:19",
@@ -1229,6 +1604,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Ehud",
+            "entityId": "char-ehud"
           }
         ]
       },
@@ -1241,7 +1620,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Ehud put out his left hand, and took the sword from his right thigh, and thrust it into his body.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ehud",
+            "entityId": "char-ehud"
+          }
+        ]
       },
       {
         "id": "JDG-3:22",
@@ -1263,7 +1647,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Ehud went out onto the porch, and shut the doors of the upper room on him, and locked them.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ehud",
+            "entityId": "char-ehud"
+          }
+        ]
       },
       {
         "id": "JDG-3:24",
@@ -1296,7 +1685,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Ehud escaped while they waited, passed beyond the stone idols, and escaped to Seirah.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ehud",
+            "entityId": "char-ehud"
+          }
+        ]
       },
       {
         "id": "JDG-3:27",
@@ -1307,7 +1701,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "When he had come, he blew a trumpet in the hill country of Ephraim; and the children of Israel went down with him from the hill country, and he led them.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-3:28",
@@ -1330,6 +1733,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Moabites",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -1342,7 +1749,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They struck at that time about ten thousand men of Moab, every strong man and every man of valor. No man escaped.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JDG-3:30",
@@ -1353,7 +1765,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "So Moab was subdued that day under the hand of Israel. Then the land had rest eighty years.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JDG-3:31",
@@ -1364,7 +1785,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "After him was Shamgar the son of Anath, who struck six hundred men of the Philistines with an ox goad. He also saved Israel.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       }
     ]
   },
@@ -1392,6 +1822,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Ehud",
+            "entityId": "char-ehud"
           }
         ]
       },
@@ -1412,6 +1850,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Sisera",
+            "entityId": "char-sisera"
+          },
+          {
+            "spanText": "Jabin",
+            "entityId": "place-hazor"
           }
         ]
       },
@@ -1428,6 +1874,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1444,6 +1894,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Deborah",
             "entityId": "char-deborah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1464,6 +1918,18 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethel",
             "entityId": "place-bethel"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Ramah",
+            "entityId": "place-ramah"
           }
         ]
       },
@@ -1492,6 +1958,18 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tabor",
             "entityId": "place-mount-tabor"
+          },
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          },
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1508,6 +1986,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Kishon",
             "entityId": "place-mount-tabor"
+          },
+          {
+            "spanText": "Sisera",
+            "entityId": "char-sisera"
+          },
+          {
+            "spanText": "Jabin",
+            "entityId": "place-hazor"
           }
         ]
       },
@@ -1548,6 +2034,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Barak",
             "entityId": "char-barak"
+          },
+          {
+            "spanText": "Sisera",
+            "entityId": "char-sisera"
           }
         ]
       },
@@ -1568,6 +2058,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Barak",
             "entityId": "char-barak"
+          },
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          },
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
           }
         ]
       },
@@ -1604,6 +2102,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tabor",
             "entityId": "place-mount-tabor"
+          },
+          {
+            "spanText": "Sisera",
+            "entityId": "char-sisera"
           }
         ]
       },
@@ -1620,6 +2122,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Kishon",
             "entityId": "place-mount-tabor"
+          },
+          {
+            "spanText": "Sisera",
+            "entityId": "char-sisera"
           }
         ]
       },
@@ -1652,6 +2158,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tabor",
             "entityId": "place-mount-tabor"
+          },
+          {
+            "spanText": "Sisera",
+            "entityId": "char-sisera"
           }
         ]
       },
@@ -1672,6 +2182,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Barak",
             "entityId": "char-barak"
+          },
+          {
+            "spanText": "Sisera",
+            "entityId": "char-sisera"
           }
         ]
       },
@@ -1688,6 +2202,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Barak",
             "entityId": "char-barak"
+          },
+          {
+            "spanText": "Sisera",
+            "entityId": "char-sisera"
           }
         ]
       },
@@ -1700,7 +2218,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "However Sisera fled away on his feet to the tent of Jael the wife of Heber the Kenite; for there was peace between Jabin the king of Hazor and the house of Heber the Kenite.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sisera",
+            "entityId": "char-sisera"
+          },
+          {
+            "spanText": "Jabin",
+            "entityId": "place-hazor"
+          },
+          {
+            "spanText": "Jael",
+            "entityId": "char-jael"
+          }
+        ]
       },
       {
         "id": "JDG-4:18",
@@ -1711,7 +2242,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jael went out to meet Sisera, and said to him, “Turn in, my lord, turn in to me; don’t be afraid.” He came in to her into the tent, and she covered him with a rug.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sisera",
+            "entityId": "char-sisera"
+          },
+          {
+            "spanText": "Jael",
+            "entityId": "char-jael"
+          }
+        ]
       },
       {
         "id": "JDG-4:19",
@@ -1744,7 +2284,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Jael Heber’s wife took a tent peg, and took a hammer in her hand, and went softly to him, and struck the pin into his temples, and it pierced through into the ground, for he was in a deep sleep; so he fainted and died.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jael",
+            "entityId": "char-jael"
+          }
+        ]
       },
       {
         "id": "JDG-4:22",
@@ -1759,6 +2304,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Barak",
             "entityId": "char-barak"
+          },
+          {
+            "spanText": "Sisera",
+            "entityId": "char-sisera"
+          },
+          {
+            "spanText": "Jael",
+            "entityId": "char-jael"
           }
         ]
       },
@@ -1779,6 +2332,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jabin",
+            "entityId": "place-hazor"
           }
         ]
       },
@@ -1795,6 +2356,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jabin",
+            "entityId": "place-hazor"
           }
         ]
       }
@@ -1848,6 +2417,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "blessed",
             "entityId": "term-blessing"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1868,6 +2441,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1904,6 +2481,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1916,7 +2497,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "“In the days of Shamgar the son of Anath, in the days of Jael, the highways were unoccupied. The travelers walked through byways.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jael",
+            "entityId": "char-jael"
+          }
+        ]
       },
       {
         "id": "JDG-5:7",
@@ -1931,6 +2517,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Deborah",
             "entityId": "char-deborah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1943,7 +2533,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They chose new gods. Then war was in the gates. Was there a shield or spear seen among forty thousand in Israel?",
         "translation": "WEB",
         "illustrationId": "ill-jdg-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-5:9",
@@ -1962,6 +2557,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bless",
             "entityId": "term-blessing"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1989,6 +2588,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2037,7 +2640,24 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Those whose root is in Amalek came out of Ephraim, after you, Benjamin, among your peoples. Governors come down out of Machir. Those who handle the marshal’s staff came out of Zebulun.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          },
+          {
+            "spanText": "Amalek",
+            "entityId": "char-amalek"
+          }
+        ]
       },
       {
         "id": "JDG-5:15",
@@ -2056,6 +2676,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Barak",
             "entityId": "char-barak"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
           }
         ]
       },
@@ -2068,7 +2696,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Why did you sit among the sheepfolds? To hear the whistling for the flocks? At the watercourses of Reuben, there were great searchings of heart.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "JDG-5:17",
@@ -2083,6 +2716,18 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          },
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -2095,7 +2740,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Zebulun was a people that jeopardized their lives to the death; Naphtali also, on the high places of the field.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          },
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "JDG-5:19",
@@ -2122,7 +2776,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "From the sky the stars fought. From their courses, they fought against Sisera.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sisera",
+            "entityId": "char-sisera"
+          }
+        ]
       },
       {
         "id": "JDG-5:21",
@@ -2180,6 +2839,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "blessed",
             "entityId": "term-blessing"
+          },
+          {
+            "spanText": "Jael",
+            "entityId": "char-jael"
           }
         ]
       },
@@ -2203,7 +2866,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "She put her hand to the tent peg, and her right hand to the workmen’s hammer. With the hammer she struck Sisera. She struck through his head. Yes, she pierced and struck through his temples.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sisera",
+            "entityId": "char-sisera"
+          }
+        ]
       },
       {
         "id": "JDG-5:27",
@@ -2225,7 +2893,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Through the window she looked out, and cried: Sisera’s mother looked through the lattice. ‘Why is his chariot so long in coming? Why do the wheels of his chariots wait?’",
         "translation": "WEB",
         "illustrationId": "ill-jdg-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sisera",
+            "entityId": "char-sisera"
+          }
+        ]
       },
       {
         "id": "JDG-5:29",
@@ -2247,7 +2920,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "‘Have they not found, have they not divided the plunder? A lady, two ladies to every man; to Sisera a plunder of dyed garments, a plunder of dyed garments embroidered, of dyed garments embroidered on both sides, on the necks of the plunder?’",
         "translation": "WEB",
         "illustrationId": "ill-jdg-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sisera",
+            "entityId": "char-sisera"
+          }
+        ]
       },
       {
         "id": "JDG-5:31",
@@ -2295,6 +2973,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "delivered",
             "entityId": "term-judge-deliverer"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -2307,7 +2993,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The hand of Midian prevailed against Israel; and because of Midian the children of Israel made themselves the dens which are in the mountains, the caves, and the strongholds.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
+          }
+        ]
       },
       {
         "id": "JDG-6:3",
@@ -2318,7 +3013,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "So it was, when Israel had sown, that the Midianites, the Amalekites, and the children of the east came up against them.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Midianites",
+            "entityId": "place-midian"
+          },
+          {
+            "spanText": "Amalekites",
+            "entityId": "char-amalek"
+          }
+        ]
       },
       {
         "id": "JDG-6:4",
@@ -2329,7 +3037,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They encamped against them, and destroyed the increase of the earth, until you come to Gaza. They left no sustenance in Israel, and no sheep, ox, or donkey.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-6:5",
@@ -2355,6 +3068,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -2371,6 +3092,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -2395,6 +3124,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2431,6 +3164,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -2451,6 +3188,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gideon",
             "entityId": "char-gideon"
+          },
+          {
+            "spanText": "Midianites",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -2495,6 +3236,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -2511,6 +3256,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -2523,7 +3276,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to him, “O Lord, how shall I save Israel? Behold, my family is the poorest in Manasseh, and I am the least in my father’s house.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-6:16",
@@ -2538,6 +3300,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Midianites",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -2664,6 +3430,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gideon",
             "entityId": "char-gideon"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -2680,6 +3450,18 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          },
+          {
+            "spanText": "Asherah",
+            "entityId": "term-asherah"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -2700,6 +3482,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Asherah",
+            "entityId": "term-asherah"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -2732,7 +3522,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the men of the city arose early in the morning, behold, the altar of Baal was broken down, and the Asherah was cut down that was by it, and the second bull was offered on the altar that was built.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          },
+          {
+            "spanText": "Asherah",
+            "entityId": "term-asherah"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "JDG-6:29",
@@ -2759,7 +3562,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the men of the city said to Joash, “Bring out your son, that he may die, because he has broken down the altar of Baal, and because he has cut down the Asherah that was by it.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          },
+          {
+            "spanText": "Asherah",
+            "entityId": "term-asherah"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "JDG-6:31",
@@ -2770,7 +3586,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Joash said to all who stood against him, “Will you contend for Baal? Or will you save him? He who will contend for him, let him be put to death by morning! If he is a god, let him contend for himself, because someone has broken down his altar!”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "JDG-6:32",
@@ -2781,7 +3606,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore on that day he named him Jerub-Baal, saying, “Let Baal contend against him, because he has broken down his altar.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "JDG-6:33",
@@ -2792,7 +3626,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then all the Midianites and the Amalekites and the children of the east assembled themselves together; and they passed over, and encamped in the valley of Jezreel.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Midianites",
+            "entityId": "place-midian"
+          },
+          {
+            "spanText": "Amalekites",
+            "entityId": "char-amalek"
+          }
+        ]
       },
       {
         "id": "JDG-6:34",
@@ -2827,7 +3670,24 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "He sent messengers throughout all Manasseh, and they also were gathered together to follow him. He sent messengers to Asher, and to Zebulun, and to Naphtali; and they came up to meet them.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          },
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          },
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "JDG-6:36",
@@ -2846,6 +3706,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gideon",
             "entityId": "char-gideon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2862,6 +3726,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "fleece",
             "entityId": "term-gideon-fleece"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2955,6 +3823,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Harod",
             "entityId": "place-spring-of-harod"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -2975,6 +3847,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gideon",
             "entityId": "char-gideon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Midianites",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -2987,7 +3867,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now therefore proclaim in the ears of the people, saying, ‘Whoever is fearful and trembling, let him return and depart from Mount Gilead.’ ” So twenty-two thousand of the people returned, and ten thousand remained.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JDG-7:4",
@@ -3057,6 +3942,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gideon",
             "entityId": "char-gideon"
+          },
+          {
+            "spanText": "Midianites",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -3069,7 +3958,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "So the people took food in their hand, and their trumpets; and he sent all the rest of the men of Israel to their own tents, but retained the three hundred men; and the camp of Midian was beneath him in the valley.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
+          }
+        ]
       },
       {
         "id": "JDG-7:9",
@@ -3122,7 +4020,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Midianites and the Amalekites and all the children of the east lay along in the valley like locusts for multitude; and their camels were without number, as the sand which is on the seashore for multitude.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Midianites",
+            "entityId": "place-midian"
+          },
+          {
+            "spanText": "Amalekites",
+            "entityId": "char-amalek"
+          }
+        ]
       },
       {
         "id": "JDG-7:13",
@@ -3137,6 +4044,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gideon",
             "entityId": "char-gideon"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -3161,6 +4072,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "delivered",
             "entityId": "term-judge-deliverer"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -3185,6 +4104,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "delivered",
             "entityId": "term-judge-deliverer"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -3302,7 +4229,28 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The men of Israel were gathered together out of Naphtali, out of Asher, and out of all Manasseh, and pursued Midian.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          },
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
+          }
+        ]
       },
       {
         "id": "JDG-7:24",
@@ -3321,6 +4269,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -3341,6 +4297,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
           }
         ]
       }
@@ -3366,7 +4326,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The men of Ephraim said to him, “Why have you treated us this way, that you didn’t call us when you went to fight with Midian?” They rebuked him sharply.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
+          }
+        ]
       },
       {
         "id": "JDG-8:2",
@@ -3377,7 +4346,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to them, “What have I now done in comparison with you? Isn’t the gleaning of the grapes of Ephraim better than the vintage of Abiezer?",
         "translation": "WEB",
         "illustrationId": "ill-jdg-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "JDG-8:3",
@@ -3396,6 +4370,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "delivered",
             "entityId": "term-judge-deliverer"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -3428,7 +4406,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to the men of Succoth, “Please give loaves of bread to the people who follow me; for they are faint, and I am pursuing after Zebah and Zalmunna, the kings of Midian.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
+          }
+        ]
       },
       {
         "id": "JDG-8:6",
@@ -3523,7 +4506,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Zebah and Zalmunna fled and he pursued them. He took the two kings of Midian, Zebah and Zalmunna, and confused all the army.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
+          }
+        ]
       },
       {
         "id": "JDG-8:13",
@@ -3657,6 +4645,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gideon",
             "entityId": "char-gideon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -3716,7 +4712,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The weight of the golden earrings that he requested was one thousand and seven hundred shekels of gold, in addition to the crescents, and the pendants, and the purple clothing that was on the kings of Midian, and in addition to the chains that were about their camels’ necks.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
+          }
+        ]
       },
       {
         "id": "JDG-8:27",
@@ -3731,6 +4732,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gideon",
             "entityId": "char-gideon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
           }
         ]
       },
@@ -3747,6 +4756,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gideon",
             "entityId": "char-gideon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -3795,6 +4812,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shechem",
             "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
           }
         ]
       },
@@ -3827,6 +4848,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gideon",
             "entityId": "char-gideon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Baals",
+            "entityId": "term-baal"
           }
         ]
       },
@@ -3851,6 +4880,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "delivered",
             "entityId": "term-judge-deliverer"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3867,6 +4900,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerubbaal",
             "entityId": "char-gideon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -3900,6 +4937,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shechem",
             "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
           }
         ]
       },
@@ -3936,6 +4977,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shechem",
             "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
           }
         ]
       },
@@ -3948,7 +4993,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They gave him seventy pieces of silver out of the house of Baal Berith, with which Abimelech hired vain and reckless fellows who followed him.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          }
+        ]
       },
       {
         "id": "JDG-9:5",
@@ -3979,6 +5033,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shechem",
             "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
           }
         ]
       },
@@ -4011,7 +5069,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The trees set out to anoint a king over themselves. They said to the olive tree, ‘Reign over us.’",
         "translation": "WEB",
         "illustrationId": "ill-jdg-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "anoint",
+            "entityId": "term-anointed"
+          }
+        ]
       },
       {
         "id": "JDG-9:9",
@@ -4098,7 +5161,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "“The bramble said to the trees, ‘If in truth you anoint me king over you, then come and take refuge in my shade; and if not, let fire come out of the bramble, and devour the cedars of Lebanon.’",
         "translation": "WEB",
         "illustrationId": "ill-jdg-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "anoint",
+            "entityId": "term-anointed"
+          }
+        ]
       },
       {
         "id": "JDG-9:16",
@@ -4113,6 +5181,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerubbaal",
             "entityId": "char-gideon"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
           }
         ]
       },
@@ -4129,6 +5201,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "delivered",
             "entityId": "term-judge-deliverer"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -4145,6 +5221,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shechem",
             "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
           }
         ]
       },
@@ -4161,6 +5241,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerubbaal",
             "entityId": "char-gideon"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
           }
         ]
       },
@@ -4177,6 +5261,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shechem",
             "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
           }
         ]
       },
@@ -4189,7 +5277,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jotham ran away and fled, and went to Beer and lived there, for fear of Abimelech his brother.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
+          }
+        ]
       },
       {
         "id": "JDG-9:22",
@@ -4200,7 +5293,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Abimelech was prince over Israel three years.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
+          }
+        ]
       },
       {
         "id": "JDG-9:23",
@@ -4219,6 +5321,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shechem",
             "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
           }
         ]
       },
@@ -4239,6 +5345,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shechem",
             "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
           }
         ]
       },
@@ -4255,6 +5365,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shechem",
             "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
           }
         ]
       },
@@ -4283,7 +5397,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They went out into the field, harvested their vineyards, trod the grapes, celebrated, and went into the house of their god and ate and drank, and cursed Abimelech.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
+          }
+        ]
       },
       {
         "id": "JDG-9:28",
@@ -4302,6 +5421,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shechem",
             "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
           }
         ]
       },
@@ -4314,7 +5437,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "I wish that this people were under my hand! Then I would remove Abimelech.” He said to Abimelech, “Increase your army and come out!”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
+          }
+        ]
       },
       {
         "id": "JDG-9:30",
@@ -4340,6 +5468,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shechem",
             "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
           }
         ]
       },
@@ -4378,6 +5510,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shechem",
             "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
           }
         ]
       },
@@ -4390,7 +5526,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Gaal the son of Ebed went out, and stood in the entrance of the gate of the city. Abimelech rose up, and the people who were with him, from the ambush.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
+          }
+        ]
       },
       {
         "id": "JDG-9:36",
@@ -4423,7 +5564,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Zebul said to him, “Now where is your mouth, that you said, ‘Who is Abimelech, that we should serve him?’ Isn’t this the people that you have despised? Please go out now and fight with them.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
+          }
+        ]
       },
       {
         "id": "JDG-9:39",
@@ -4438,6 +5584,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shechem",
             "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
           }
         ]
       },
@@ -4450,7 +5600,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Abimelech chased him, and he fled before him, and many fell wounded, even to the entrance of the gate.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
+          }
+        ]
       },
       {
         "id": "JDG-9:41",
@@ -4465,6 +5620,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shechem",
             "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
           }
         ]
       },
@@ -4477,7 +5636,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "On the next day, the people went out into the field; and they told Abimelech.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
+          }
+        ]
       },
       {
         "id": "JDG-9:43",
@@ -4499,7 +5663,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Abimelech and the companies that were with him rushed forward and stood in the entrance of the gate of the city; and the two companies rushed on all who were in the field and struck them.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
+          }
+        ]
       },
       {
         "id": "JDG-9:45",
@@ -4510,7 +5679,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Abimelech fought against the city all that day; and he took the city and killed the people in it. He beat down the city and sowed it with salt.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
+          }
+        ]
       },
       {
         "id": "JDG-9:46",
@@ -4541,6 +5715,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shechem",
             "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
           }
         ]
       },
@@ -4553,7 +5731,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Abimelech went up to Mount Zalmon, he and all the people who were with him; and Abimelech took an ax in his hand, and cut down a bough from the trees, and took it up, and laid it on his shoulder. Then he said to the people who were with him, “What you have seen me do, make haste, and do as I have done!”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
+          }
+        ]
       },
       {
         "id": "JDG-9:49",
@@ -4568,6 +5751,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shechem",
             "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
           }
         ]
       },
@@ -4580,7 +5767,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Abimelech went to Thebez and encamped against Thebez, and took it.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
+          }
+        ]
       },
       {
         "id": "JDG-9:51",
@@ -4602,7 +5794,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Abimelech came to the tower and fought against it, and came near to the door of the tower to burn it with fire.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
+          }
+        ]
       },
       {
         "id": "JDG-9:53",
@@ -4613,7 +5810,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "A certain woman cast an upper millstone on Abimelech’s head, and broke his skull.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
+          }
+        ]
       },
       {
         "id": "JDG-9:54",
@@ -4635,7 +5837,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the men of Israel saw that Abimelech was dead, they each departed to his place.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
+          }
+        ]
       },
       {
         "id": "JDG-9:56",
@@ -4650,6 +5861,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
           }
         ]
       },
@@ -4699,7 +5914,24 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "After Abimelech, Tola the son of Puah, the son of Dodo, a man of Issachar, arose to save Israel. He lived in Shamir in the hill country of Ephraim.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Abimelech",
+            "entityId": "char-abimelech-judges"
+          }
+        ]
       },
       {
         "id": "JDG-10:2",
@@ -4710,7 +5942,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "He judged Israel twenty-three years, and died, and was buried in Shamir.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-10:3",
@@ -4721,7 +5958,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "After him Jair, the Gileadite, arose. He judged Israel twenty-two years.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-10:4",
@@ -4732,7 +5974,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "He had thirty sons who rode on thirty donkey colts. They had thirty cities, which are called Havvoth Jair to this day, which are in the land of Gilead.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JDG-10:5",
@@ -4758,6 +6005,26 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          },
+          {
+            "spanText": "Baals",
+            "entityId": "term-baal"
           }
         ]
       },
@@ -4774,6 +6041,18 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -4790,6 +6069,18 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -4806,6 +6097,26 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -4826,6 +6137,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Baals",
+            "entityId": "term-baal"
           }
         ]
       },
@@ -4842,6 +6161,22 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -4854,7 +6189,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Sidonians also, and the Amalekites, and the Maonites, oppressed you; and you cried to me, and I saved you out of their hand.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Amalekites",
+            "entityId": "char-amalek"
+          }
+        ]
       },
       {
         "id": "JDG-10:13",
@@ -4891,6 +6231,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4907,6 +6251,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4919,7 +6267,24 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the children of Ammon were gathered together and encamped in Gilead. The children of Israel assembled themselves together and encamped in Mizpah.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
+          }
+        ]
       },
       {
         "id": "JDG-10:18",
@@ -4930,7 +6295,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The people, the princes of Gilead, said to one another, “Who is the man who will begin to fight against the children of Ammon? He shall be head over all the inhabitants of Gilead.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       }
     ]
   },
@@ -4954,7 +6328,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now Jephthah the Gileadite was a mighty man of valor. He was the son of a prostitute. Gilead became the father of Jephthah.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JDG-11:2",
@@ -4965,7 +6348,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Gilead’s wife bore him sons. When his wife’s sons grew up, they drove Jephthah out and said to him, “You will not inherit in our father’s house, for you are the son of another woman.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JDG-11:3",
@@ -4976,7 +6368,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Jephthah fled from his brothers and lived in the land of Tob. Outlaws joined up with Jephthah, and they went out with him.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          }
+        ]
       },
       {
         "id": "JDG-11:4",
@@ -4987,7 +6384,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "After a while, the children of Ammon made war against Israel.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          }
+        ]
       },
       {
         "id": "JDG-11:5",
@@ -4998,7 +6404,24 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the children of Ammon made war against Israel, the elders of Gilead went to get Jephthah out of the land of Tob.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JDG-11:6",
@@ -5009,7 +6432,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They said to Jephthah, “Come and be our chief, that we may fight with the children of Ammon.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          }
+        ]
       },
       {
         "id": "JDG-11:7",
@@ -5020,7 +6452,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jephthah said to the elders of Gilead, “Didn’t you hate me, and drive me out of my father’s house? Why have you come to me now when you are in distress?”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JDG-11:8",
@@ -5031,7 +6472,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The elders of Gilead said to Jephthah, “Therefore we have turned again to you now, that you may go with us and fight with the children of Ammon. You will be our head over all the inhabitants of Gilead.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JDG-11:9",
@@ -5046,6 +6500,18 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -5062,6 +6528,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -5078,6 +6552,18 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
           }
         ]
       },
@@ -5090,7 +6576,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jephthah sent messengers to the king of the children of Ammon, saying, “What do you have to do with me, that you have come to me to fight against my land?”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          }
+        ]
       },
       {
         "id": "JDG-11:13",
@@ -5109,6 +6604,18 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -5121,7 +6628,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jephthah sent messengers again to the king of the children of Ammon;",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          }
+        ]
       },
       {
         "id": "JDG-11:15",
@@ -5132,7 +6648,24 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "and he said to him, “Jephthah says: Israel didn’t take away the land of Moab, nor the land of the children of Ammon;",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JDG-11:16",
@@ -5147,6 +6680,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5159,7 +6696,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "then Israel sent messengers to the king of Edom, saying, ‘Please let me pass through your land;’ but the king of Edom didn’t listen. In the same way, he sent to the king of Moab, but he refused; so Israel stayed in Kadesh.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JDG-11:18",
@@ -5170,7 +6716,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then they went through the wilderness, and went around the land of Edom, and the land of Moab, and came by the east side of the land of Moab, and they encamped on the other side of the Arnon; but they didn’t come within the border of Moab, for the Arnon was the border of Moab.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JDG-11:19",
@@ -5181,7 +6732,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Israel sent messengers to Sihon king of the Amorites, the king of Heshbon; and Israel said to him, ‘Please let us pass through your land to my place.’",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          }
+        ]
       },
       {
         "id": "JDG-11:20",
@@ -5192,7 +6752,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "But Sihon didn’t trust Israel to pass through his border; but Sihon gathered all his people together, and encamped in Jahaz, and fought against Israel.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-11:21",
@@ -5215,6 +6780,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "delivered",
             "entityId": "term-judge-deliverer"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -5231,6 +6804,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -5251,6 +6828,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -5283,7 +6868,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now are you anything better than Balak the son of Zippor, king of Moab? Did he ever strive against Israel, or did he ever fight against them?",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JDG-11:26",
@@ -5294,7 +6888,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Israel lived in Heshbon and its towns, and in Aroer and its towns, and in all the cities that are along the side of the Arnon for three hundred years! Why didn’t you recover them within that time?",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-11:27",
@@ -5313,6 +6912,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Judge",
             "entityId": "term-judge-deliverer"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -5325,7 +6932,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "However, the king of the children of Ammon didn’t listen to the words of Jephthah which he sent him.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          }
+        ]
       },
       {
         "id": "JDG-11:29",
@@ -5344,6 +6960,26 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
           }
         ]
       },
@@ -5360,6 +6996,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -5376,6 +7020,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -5396,6 +7044,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "delivered",
             "entityId": "term-judge-deliverer"
+          },
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -5408,7 +7064,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "He struck them from Aroer until you come to Minnith, even twenty cities, and to Abelcheramim, with a very great slaughter. So the children of Ammon were subdued before the children of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          }
+        ]
       },
       {
         "id": "JDG-11:34",
@@ -5419,7 +7084,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jephthah came to Mizpah to his house; and behold, his daughter came out to meet him with tambourines and with dances. She was his only child. Besides her he had neither son nor daughter.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
+          }
+        ]
       },
       {
         "id": "JDG-11:35",
@@ -5450,6 +7124,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -5484,7 +7162,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "At the end of two months, she returned to her father, who did with her according to his vow which he had vowed. She was a virgin. It became a custom in Israel",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-11:40",
@@ -5495,7 +7178,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "that the daughters of Israel went yearly to celebrate the daughter of Jephthah the Gileadite four days in a year.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          }
+        ]
       }
     ]
   },
@@ -5519,7 +7211,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The men of Ephraim were gathered together, and passed northward; and they said to Jephthah, “Why did you pass over to fight against the children of Ammon, and didn’t call us to go with you? We will burn your house around you with fire!”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          }
+        ]
       },
       {
         "id": "JDG-12:2",
@@ -5530,7 +7235,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jephthah said to them, “I and my people were at great strife with the children of Ammon; and when I called you, you didn’t save me out of their hand.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          }
+        ]
       },
       {
         "id": "JDG-12:3",
@@ -5549,6 +7263,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "delivered",
             "entityId": "term-judge-deliverer"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -5561,7 +7279,24 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Jephthah gathered together all the men of Gilead, and fought with Ephraim. The men of Gilead struck Ephraim, because they said, “You are fugitives of Ephraim, you Gileadites, in the middle of Ephraim, and in the middle of Manasseh.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JDG-12:5",
@@ -5576,6 +7311,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Ephraimites",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -5592,6 +7335,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
           }
         ]
       },
@@ -5604,7 +7351,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jephthah judged Israel six years. Then Jephthah the Gileadite died, and was buried in the cities of Gilead.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JDG-12:8",
@@ -5619,6 +7379,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethlehem",
             "entityId": "place-bethlehem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5631,7 +7395,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "He had thirty sons. He sent his thirty daughters outside his clan, and he brought in thirty daughters from outside his clan for his sons. He judged Israel seven years.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-12:10",
@@ -5658,7 +7427,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "After him, Elon the Zebulunite judged Israel; and he judged Israel ten years.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-12:12",
@@ -5669,7 +7443,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Elon the Zebulunite died, and was buried in Aijalon in the land of Zebulun.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "JDG-12:13",
@@ -5680,7 +7459,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "After him, Abdon the son of Hillel the Pirathonite judged Israel.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-12:14",
@@ -5691,7 +7475,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "He had forty sons and thirty sons’ sons who rode on seventy donkey colts. He judged Israel eight years.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-12:15",
@@ -5702,7 +7491,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Abdon the son of Hillel the Pirathonite died, and was buried in Pirathon in the land of Ephraim, in the hill country of the Amalekites.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Amalekites",
+            "entityId": "char-amalek"
+          }
+        ]
       }
     ]
   },
@@ -5734,6 +7532,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "delivered",
             "entityId": "term-judge-deliverer"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -5746,7 +7552,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "There was a certain man of Zorah, of the family of the Danites, whose name was Manoah; and his wife was barren, and childless.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Danites",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "JDG-13:3",
@@ -5792,6 +7603,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Nazirite",
             "entityId": "term-nazirite"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -6020,6 +7839,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -6112,6 +7935,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
           }
         ]
       }
@@ -6141,6 +7968,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samson",
             "entityId": "char-samson"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -6153,7 +7984,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "He came up, and told his father and his mother, saying, “I have seen a woman in Timnah of the daughters of the Philistines. Now therefore get her for me as my wife.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "JDG-14:3",
@@ -6168,6 +8004,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samson",
             "entityId": "char-samson"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -6184,6 +8024,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -6469,6 +8317,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samson",
             "entityId": "char-samson"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -6497,7 +8349,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "When he had set the torches on fire, he let them go into the standing grain of the Philistines, and burned up both the shocks and the standing grain, and also the olive groves.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "JDG-15:6",
@@ -6512,6 +8369,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samson",
             "entityId": "char-samson"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -6551,7 +8412,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the Philistines went up, encamped in Judah, and spread themselves in Lehi.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "JDG-15:10",
@@ -6566,6 +8436,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samson",
             "entityId": "char-samson"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -6582,6 +8456,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samson",
             "entityId": "char-samson"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -6598,6 +8480,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samson",
             "entityId": "char-samson"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -6629,6 +8515,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -6711,7 +8601,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "He judged Israel twenty years in the days of the Philistines.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       }
     ]
   },
@@ -6807,7 +8706,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The lords of the Philistines came up to her and said to her, “Entice him, and see in which his great strength lies, and by what means we may prevail against him, that we may bind him to afflict him; and we will each give you eleven hundred pieces of silver.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "JDG-16:6",
@@ -6854,7 +8758,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the lords of the Philistines brought up to her seven green cords which had not been dried, and she bound him with them.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "JDG-16:9",
@@ -6869,6 +8778,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samson",
             "entityId": "char-samson"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -6920,6 +8833,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Delilah",
             "entityId": "char-delilah"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -6956,6 +8873,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samson",
             "entityId": "char-samson"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -7014,6 +8935,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Delilah",
             "entityId": "char-delilah"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -7045,6 +8970,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samson",
             "entityId": "char-samson"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -7057,7 +8986,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Philistines laid hold on him and put out his eyes; and they brought him down to Gaza and bound him with fetters of bronze; and he ground at the mill in the prison.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "JDG-16:22",
@@ -7087,6 +9021,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "delivered",
             "entityId": "term-judge-deliverer"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -7151,6 +9089,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samson",
             "entityId": "char-samson"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -7175,6 +9117,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samson",
             "entityId": "char-samson"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -7207,6 +9153,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samson",
             "entityId": "char-samson"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -7219,7 +9169,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then his brothers and all the house of his father came down and took him, and brought him up and buried him between Zorah and Eshtaol in the burial site of Manoah his father. He judged Israel twenty years.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       }
     ]
   },
@@ -7243,7 +9198,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "There was a man of the hill country of Ephraim, whose name was Micah.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "JDG-17:2",
@@ -7301,7 +9261,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The man Micah had a house of gods, and he made an ephod, and teraphim, and consecrated one of his sons, who became his priest.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JDG-17:6",
@@ -7332,6 +9301,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethlehem",
             "entityId": "place-bethlehem"
+          },
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -7348,6 +9325,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethlehem",
             "entityId": "place-bethlehem"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -7364,6 +9349,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethlehem",
             "entityId": "place-bethlehem"
+          },
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -7376,7 +9369,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Micah said to him, “Dwell with me, and be to me a father and a priest, and I will give you ten pieces of silver per year, a suit of clothing, and your food.” So the Levite went in.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JDG-17:11",
@@ -7387,7 +9389,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Levite was content to dwell with the man; and the young man was to him as one of his sons.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "JDG-17:12",
@@ -7398,7 +9405,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Micah consecrated the Levite, and the young man became his priest, and was in the house of Micah.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JDG-17:13",
@@ -7413,6 +9429,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       }
@@ -7442,6 +9466,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "no king in Israel",
             "entityId": "term-no-king-in-israel"
+          },
+          {
+            "spanText": "Danites",
+            "entityId": "char-dan"
           }
         ]
       },
@@ -7454,7 +9482,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Dan sent five men of their family from their whole number, men of valor, from Zorah and from Eshtaol, to spy out the land and to search it. They said to them, “Go, explore the land!” They came to the hill country of Ephraim, to the house of Micah, and lodged there.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "JDG-18:3",
@@ -7465,7 +9502,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "When they were by the house of Micah, they knew the voice of the young man the Levite; so they went over there and said to him, “Who brought you here? What do you do in this place? What do you have here?”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "JDG-18:4",
@@ -7476,7 +9518,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to them, “Thus and thus has Micah dealt with me, and he has hired me, and I have become his priest.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JDG-18:5",
@@ -7507,6 +9554,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -7568,7 +9619,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The family of the Danites set out from Zorah and Eshtaol with six hundred men armed with weapons of war.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Danites",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "JDG-18:12",
@@ -7579,7 +9635,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They went up and encamped in Kiriath Jearim in Judah. Therefore they call that place Mahaneh Dan to this day. Behold, it is behind Kiriath Jearim.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "JDG-18:13",
@@ -7590,7 +9655,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They passed from there to the hill country of Ephraim, and came to the house of Micah.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "JDG-18:14",
@@ -7601,7 +9671,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the five men who went to spy out the country of Laish answered and said to their brothers, “Do you know that there is in these houses an ephod, and teraphim, and a carved image, and a molten image? Now therefore consider what you have to do.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          }
+        ]
       },
       {
         "id": "JDG-18:15",
@@ -7612,7 +9687,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They went over there and came to the house of the young Levite man, even to the house of Micah, and asked him how he was doing.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "JDG-18:16",
@@ -7623,7 +9703,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The six hundred men armed with their weapons of war, who were of the children of Dan, stood by the entrance of the gate.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "JDG-18:17",
@@ -7634,7 +9719,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The five men who went to spy out the land went up, and came in there, and took the engraved image, the ephod, the teraphim, and the molten image; and the priest stood by the entrance of the gate with the six hundred men armed with weapons of war.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JDG-18:18",
@@ -7645,7 +9739,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "When these went into Micah’s house, and took the engraved image, the ephod, the teraphim, and the molten image, the priest said to them, “What are you doing?”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JDG-18:19",
@@ -7656,7 +9759,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They said to him, “Hold your peace, put your hand on your mouth, and go with us. Be a father and a priest to us. Is it better for you to be priest to the house of one man, or to be priest to a tribe and a family in Israel?”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JDG-18:20",
@@ -7667,7 +9779,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priest’s heart was glad, and he took the ephod, the teraphim, and the engraved image, and went with the people.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JDG-18:21",
@@ -7689,7 +9810,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "When they were a good way from the house of Micah, the men who were in the houses near Micah’s house gathered together and overtook the children of Dan.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "JDG-18:23",
@@ -7700,7 +9826,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "As they called to the children of Dan, they turned their faces, and said to Micah, “What ails you, that you come with such a company?”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "JDG-18:24",
@@ -7711,7 +9842,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said, “You have taken away my gods which I made, and the priest, and have gone away! What more do I have? How can you ask me, ‘What ails you?’ ”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JDG-18:25",
@@ -7722,7 +9858,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Dan said to him, “Don’t let your voice be heard among us, lest angry fellows fall on you, and you lose your life, with the lives of your household.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "JDG-18:26",
@@ -7733,7 +9874,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Dan went their way; and when Micah saw that they were too strong for him, he turned and went back to his house.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "JDG-18:27",
@@ -7744,7 +9890,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They took that which Micah had made, and the priest whom he had, and came to Laish, to a people quiet and unsuspecting, and struck them with the edge of the sword; then they burned the city with fire.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JDG-18:28",
@@ -7766,7 +9917,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They called the name of the city Dan, after the name of Dan their father, who was born to Israel; however the name of the city used to be Laish.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-18:30",
@@ -7781,6 +9941,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -7834,6 +10002,18 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethlehem",
             "entityId": "place-bethlehem"
+          },
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -7850,6 +10030,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethlehem",
             "entityId": "place-bethlehem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -7939,7 +10123,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "But the man wouldn’t stay that night, but he rose up and went near Jebus (also called Jerusalem). With him were a couple of saddled donkeys. His concubine also was with him.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
+          }
+        ]
       },
       {
         "id": "JDG-19:11",
@@ -7961,7 +10150,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "His master said to him, “We won’t enter into the city of a foreigner that is not of the children of Israel; but we will pass over to Gibeah.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-19:13",
@@ -7972,7 +10170,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to his servant, “Come and let’s draw near to one of these places; and we will lodge in Gibeah, or in Ramah.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ramah",
+            "entityId": "place-ramah"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-19:14",
@@ -7983,7 +10190,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "So they passed on and went their way; and the sun went down on them near Gibeah, which belongs to Benjamin.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-19:15",
@@ -7994,7 +10210,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They went over there, to go in to stay in Gibeah. He went in, and sat down in the street of the city; for there was no one who took them into his house to stay.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-19:16",
@@ -8005,7 +10226,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, an old man came from his work out of the field at evening. Now the man was from the hill country of Ephraim, and he lived in Gibeah; but the men of the place were Benjamites.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Benjamites",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-19:17",
@@ -8035,6 +10269,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethlehem",
             "entityId": "place-bethlehem"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -8157,7 +10399,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "When he had come into his house, he took a knife and cut up his concubine, and divided her, limb by limb, into twelve pieces, and sent her throughout all the borders of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-19:30",
@@ -8172,6 +10419,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -8201,6 +10452,22 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
           }
         ]
       },
@@ -8217,6 +10484,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8229,7 +10500,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "(Now the children of Benjamin heard that the children of Israel had gone up to Mizpah.) The children of Israel said, “Tell us, how did this wickedness happen?”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
+          }
+        ]
       },
       {
         "id": "JDG-20:4",
@@ -8240,7 +10524,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Levite, the husband of the woman who was murdered, answered, “I came into Gibeah that belongs to Benjamin, I and my concubine, to spend the night.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-20:5",
@@ -8251,7 +10548,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The men of Gibeah rose against me, and surrounded the house by night. They intended to kill me and they raped my concubine, and she is dead.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-20:6",
@@ -8262,7 +10564,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "I took my concubine and cut her in pieces, and sent her throughout all the country of the inheritance of Israel; for they have committed lewdness and folly in Israel.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-20:7",
@@ -8273,7 +10580,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, you children of Israel, all of you, give here your advice and counsel.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-20:8",
@@ -8295,7 +10607,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "But now this is the thing which we will do to Gibeah: we will go up against it by lot;",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-20:10",
@@ -8306,7 +10623,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "and we will take ten men of one hundred throughout all the tribes of Israel, and one hundred of one thousand, and a thousand out of ten thousand to get food for the people, that they may do, when they come to Gibeah of Benjamin, according to all the folly that the men of Gibeah have done in Israel.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-20:11",
@@ -8317,7 +10647,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "So all the men of Israel were gathered against the city, knit together as one man.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-20:12",
@@ -8328,7 +10663,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The tribes of Israel sent men through all the tribe of Benjamin, saying, “What wickedness is this that has happened among you?",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-20:13",
@@ -8339,7 +10683,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now therefore deliver up the men, the wicked fellows who are in Gibeah, that we may put them to death and put away evil from Israel.” But Benjamin would not listen to the voice of their brothers, the children of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-20:14",
@@ -8350,7 +10707,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Benjamin gathered themselves together out of the cities to Gibeah, to go out to battle against the children of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-20:15",
@@ -8361,7 +10731,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Benjamin were counted on that day out of the cities twenty-six thousand men who drew the sword, in addition to the inhabitants of Gibeah, who were counted seven hundred chosen men.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-20:16",
@@ -8383,7 +10762,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The men of Israel, besides Benjamin, were counted four hundred thousand men who drew sword. All these were men of war.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-20:18",
@@ -8406,6 +10794,18 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethel",
             "entityId": "place-bethel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8418,7 +10818,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Israel rose up in the morning and encamped against Gibeah.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-20:20",
@@ -8429,7 +10838,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The men of Israel went out to battle against Benjamin; and the men of Israel set the battle in array against them at Gibeah.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-20:21",
@@ -8440,7 +10862,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Benjamin came out of Gibeah, and on that day destroyed twenty-two thousand of the Israelite men down to the ground.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israelite",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-20:22",
@@ -8451,7 +10886,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The people, the men of Israel, encouraged themselves, and set the battle again in array in the place where they set themselves in array the first day.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-20:23",
@@ -8466,6 +10906,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8478,7 +10926,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Israel came near against the children of Benjamin the second day.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-20:25",
@@ -8489,7 +10946,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Benjamin went out against them out of Gibeah the second day, and destroyed down to the ground of the children of Israel again eighteen thousand men. All these drew the sword.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-20:26",
@@ -8508,6 +10978,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethel",
             "entityId": "place-bethel"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8532,6 +11006,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -8552,6 +11034,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Phinehas",
             "entityId": "char-phinehas"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -8564,7 +11050,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Israel set ambushes all around Gibeah.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-20:30",
@@ -8575,7 +11070,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Israel went up against the children of Benjamin on the third day, and set themselves in array against Gibeah, as at other times.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-20:31",
@@ -8590,6 +11098,18 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethel",
             "entityId": "place-bethel"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
           }
         ]
       },
@@ -8602,7 +11122,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Benjamin said, “They are struck down before us, as at the first.” But the children of Israel said, “Let’s flee, and draw them away from the city to the highways.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-20:33",
@@ -8613,7 +11142,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the men of Israel rose up out of their place and set themselves in array at Baal Tamar. Then the ambushers of Israel broke out of their place, even out of Maareh Geba.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          }
+        ]
       },
       {
         "id": "JDG-20:34",
@@ -8624,7 +11162,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Ten thousand chosen men out of all Israel came over against Gibeah, and the battle was severe; but they didn’t know that disaster was close to them.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-20:35",
@@ -8639,6 +11186,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8651,7 +11206,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "So the children of Benjamin saw that they were struck, for the men of Israel yielded to Benjamin because they trusted the ambushers whom they had set against Gibeah.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-20:37",
@@ -8662,7 +11230,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The ambushers hurried, and rushed on Gibeah; then the ambushers spread out, and struck all the city with the edge of the sword.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-20:38",
@@ -8673,7 +11246,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the appointed sign between the men of Israel and the ambushers was that they should make a great cloud of smoke rise up out of the city.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-20:39",
@@ -8684,7 +11262,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The men of Israel turned in the battle, and Benjamin began to strike and kill of the men of Israel about thirty persons; for they said, “Surely they are struck down before us, as in the first battle.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-20:40",
@@ -8695,7 +11282,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "But when the cloud began to arise up out of the city in a pillar of smoke, the Benjamites looked behind them; and behold, the whole city went up in smoke to the sky.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamites",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "JDG-20:41",
@@ -8706,7 +11298,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The men of Israel turned, and the men of Benjamin were dismayed; for they saw that disaster had come on them.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-20:42",
@@ -8717,7 +11318,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore they turned their backs before the men of Israel to the way of the wilderness, but the battle followed hard after them; and those who came out of the cities destroyed them in the middle of it.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-20:43",
@@ -8728,7 +11334,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They surrounded the Benjamites, chased them, and trod them down at their resting place, as far as near Gibeah toward the sunrise.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamites",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
+          }
+        ]
       },
       {
         "id": "JDG-20:44",
@@ -8739,7 +11354,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Eighteen thousand men of Benjamin fell; all these were men of valor.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "JDG-20:45",
@@ -8761,7 +11381,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "So that all who fell that day of Benjamin were twenty-five thousand men who drew the sword. All these were men of valor.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "JDG-20:47",
@@ -8783,7 +11408,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The men of Israel turned again on the children of Benjamin, and struck them with the edge of the sword—including the entire city, the livestock, and all that they found. Moreover they set all the cities which they found on fire.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       }
     ]
   },
@@ -8807,7 +11441,20 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the men of Israel had sworn in Mizpah, saying, “None of us will give his daughter to Benjamin as a wife.”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
+          }
+        ]
       },
       {
         "id": "JDG-21:2",
@@ -8846,6 +11493,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8858,7 +11509,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "On the next day, the people rose early and built an altar there, and offered burnt offerings and peace offerings.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "JDG-21:5",
@@ -8873,6 +11529,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
           }
         ]
       },
@@ -8885,7 +11549,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Israel grieved for Benjamin their brother, and said, “There is one tribe cut off from Israel today.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-21:7",
@@ -8916,6 +11589,18 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
           }
         ]
       },
@@ -8928,7 +11613,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "For when the people were counted, behold, there were none of the inhabitants of Jabesh Gilead there.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JDG-21:10",
@@ -8939,7 +11629,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The congregation sent twelve thousand of the most valiant men there, and commanded them, saying, “Go and strike the inhabitants of Jabesh Gilead with the edge of the sword, with the women and the little ones.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JDG-21:11",
@@ -8969,6 +11664,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -8981,7 +11680,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The whole congregation sent and spoke to the children of Benjamin who were in the rock of Rimmon, and proclaimed peace to them.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "JDG-21:14",
@@ -8992,7 +11696,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Benjamin returned at that time; and they gave them the women whom they had saved alive of the women of Jabesh Gilead. There still weren’t enough for them.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JDG-21:15",
@@ -9007,6 +11720,14 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9019,7 +11740,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the elders of the congregation said, “How shall we provide wives for those who remain, since the women are destroyed out of Benjamin?”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "JDG-21:17",
@@ -9030,7 +11756,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They said, “There must be an inheritance for those who are escaped of Benjamin, that a tribe not be blotted out from Israel.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-21:18",
@@ -9041,7 +11776,16 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "However, we may not give them wives of our daughters, for the children of Israel had sworn, saying, ‘Cursed is he who gives a wife to Benjamin.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-jdg-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-21:19",
@@ -9080,7 +11824,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They commanded the children of Benjamin, saying, “Go and lie in wait in the vineyards,",
         "translation": "WEB",
         "illustrationId": "ill-jdg-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "JDG-21:21",
@@ -9095,6 +11844,10 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shiloh",
             "entityId": "place-shiloh"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -9118,7 +11871,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Benjamin did so, and took wives for themselves according to their number, of those who danced, whom they carried off. They went and returned to their inheritance, built the cities, and lived in them.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "JDG-21:24",
@@ -9129,7 +11887,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Israel departed from there at that time, every man to his tribe and to his family, and they each went out from there to his own inheritance.",
         "translation": "WEB",
         "illustrationId": "ill-jdg-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JDG-21:25",
