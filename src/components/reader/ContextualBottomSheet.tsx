@@ -121,14 +121,13 @@ export const ContextualBottomSheet: React.FC = () => {
     }
   };
 
-  const getIllustrationForEntity = () => {
-    if (entity.id.includes('ruth') || entity.id.includes('naomi') || entity.id.includes('loyal') || entity.id.includes('bethlehem')) {
-      return 'ill-ruth-naomi';
-    }
-    if (entity.timelineEra.includes('Exodus') || entity.timelineEra.includes('Wilderness') || entity.id.includes('manna')) {
-      return 'ill-desert-manna';
-    }
-    return 'ill-creation';
+  const getIllustrationForEntity = () => `entity:${entity.id}`;
+
+  const getEntityTypeLabel = () => {
+    if (entity.type === 'person') return 'Person';
+    if (entity.type === 'place') return 'Sacred Place';
+    if (entity.type === 'artifact') return 'Sacred Object';
+    return 'Key Concept';
   };
 
   const handleReflect = () => {
@@ -160,9 +159,12 @@ export const ContextualBottomSheet: React.FC = () => {
 
   const handleShare = () => {
     openShareModal({
-      verseRef: entity.relatedVerseRefs[0] || entity.title,
-      verseText: `${entity.title} — ${entity.shortDefinition}`,
+      verseRef: entity.relatedVerseRefs[0] || entity.timelineEra || entity.title,
+      verseText: entity.shortDefinition,
       illustrationId: getIllustrationForEntity(),
+      cardTitle: entity.title,
+      cardCategory: `${getEntityTypeLabel()} • ${entity.timelineEra}`,
+      originalTerm: entity.originalLanguageTerm,
     });
   };
 

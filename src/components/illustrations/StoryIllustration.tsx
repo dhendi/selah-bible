@@ -1,5 +1,8 @@
 import React from 'react';
 import { assetUrl } from '../../utils/assetUrl';
+import { SEED_ENTITIES } from '../../data/seedEntities';
+import { resolveEntityAsset } from './EntityThumbnails';
+import { getPortraitAsset } from './CharacterPortrait';
 
 const ILLUSTRATION_URL_MAP: Record<string, { src: string; alt: string }> = {
   'ill-creation': {
@@ -302,36 +305,77 @@ function resolveChapterAsset(key: string): { src: string; alt: string } | undefi
   return undefined;
 }
 
+export function resolveStoryIllustrationAsset(
+  illustrationId?: string,
+  themeType?: string
+): { src: string; alt: string; isPortrait?: boolean } {
+  const key = illustrationId || themeType || 'ill-creation';
+
+  if (key.startsWith('entity:')) {
+    const entity = SEED_ENTITIES[key.slice('entity:'.length)];
+    if (entity) {
+      return resolveEntityAsset({
+        type: entity.type,
+        iconSlug: entity.iconSlug,
+        entityId: entity.id,
+        characterId: entity.characterId,
+        title: entity.title,
+      });
+    }
+  }
+
+  if (key.startsWith('portrait-')) {
+    const portrait = getPortraitAsset(key);
+    if (portrait) {
+      return { ...portrait, isPortrait: true };
+    }
+  }
+
+  if (key.startsWith('/images/')) {
+    return {
+      src: key,
+      alt: 'Biblical illustration',
+      isPortrait: key.includes('/portrait-'),
+    };
+  }
+
+  const resolved = ILLUSTRATION_URL_MAP[key] || resolveChapterAsset(key);
+  if (resolved) {
+    return resolved;
+  }
+
+  if (key.includes('manna') || key.includes('exodus')) {
+    return ILLUSTRATION_URL_MAP['ill-desert-manna'];
+  }
+  if (key.includes('ruth') || key.includes('naomi')) {
+    return ILLUSTRATION_URL_MAP['ill-ruth-naomi'];
+  }
+  if (key.includes('pasture') || key.includes('peace')) {
+    return ILLUSTRATION_URL_MAP['ill-peace-pastures'];
+  }
+  if (key.includes('scroll') || key.includes('wisdom')) {
+    return ILLUSTRATION_URL_MAP['ill-wisdom-scroll'];
+  }
+  if (key.includes('courage') || key.includes('light')) {
+    return ILLUSTRATION_URL_MAP['ill-courage-light'];
+  }
+
+  return ILLUSTRATION_URL_MAP['ill-creation'];
+}
+
 export const StoryIllustration: React.FC<{
   illustrationId?: string;
   themeType?: string;
   className?: string;
 }> = ({ illustrationId, themeType, className = 'w-full h-48' }) => {
-  const key = illustrationId || themeType || 'ill-creation';
-
-  let asset = ILLUSTRATION_URL_MAP[key] || resolveChapterAsset(key);
-  if (!asset) {
-    if (key.includes('manna') || key.includes('exodus')) {
-      asset = ILLUSTRATION_URL_MAP['ill-desert-manna'];
-    } else if (key.includes('ruth') || key.includes('naomi')) {
-      asset = ILLUSTRATION_URL_MAP['ill-ruth-naomi'];
-    } else if (key.includes('pasture') || key.includes('peace')) {
-      asset = ILLUSTRATION_URL_MAP['ill-peace-pastures'];
-    } else if (key.includes('scroll') || key.includes('wisdom')) {
-      asset = ILLUSTRATION_URL_MAP['ill-wisdom-scroll'];
-    } else if (key.includes('courage') || key.includes('light')) {
-      asset = ILLUSTRATION_URL_MAP['ill-courage-light'];
-    } else {
-      asset = ILLUSTRATION_URL_MAP['ill-creation'];
-    }
-  }
+  const asset = resolveStoryIllustrationAsset(illustrationId, themeType);
 
   return (
     <div className={`relative overflow-hidden rounded-2xl bg-[#EAE4D9] shadow-inner select-none ${className}`}>
       <img
         src={assetUrl(asset.src)}
         alt={asset.alt}
-        className="w-full h-full object-cover object-center transition-transform duration-500"
+        className={`w-full h-full object-cover ${asset.isPortrait ? 'object-top' : 'object-center'} transition-transform duration-500`}
         loading="lazy"
       />
     </div>

@@ -109,6 +109,9 @@ export interface ShareVerseTarget {
   verseRef: string;
   verseText: string;
   illustrationId: string;
+  cardTitle?: string;
+  cardCategory?: string;
+  originalTerm?: string;
 }
 
 class StudyStore {

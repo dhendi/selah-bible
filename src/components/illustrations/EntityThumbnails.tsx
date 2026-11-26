@@ -256,26 +256,44 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'char-god': '/images/gen-01.jpg',
 };
 
-export const EntityThumbnail: React.FC<{
+export interface ResolvedEntityAsset {
+  src: string;
+  alt: string;
+  isPortrait: boolean;
+}
+
+export function resolveEntityAsset({
+  type,
+  iconSlug,
+  entityId,
+  characterId,
+  title,
+}: {
   type: string;
   iconSlug?: string;
   entityId?: string;
   characterId?: string;
-  className?: string;
-}> = ({ type, iconSlug, entityId, characterId, className = 'w-12 h-12' }) => {
+  title?: string;
+}): ResolvedEntityAsset {
   let src = '/images/wisdom-scroll.jpg';
+  let isPortrait = false;
+  let alt = title ? `${title} illustration` : 'Biblical context artwork';
 
   if (characterId && SEED_CHARACTERS[characterId]) {
     const portrait = getPortraitAsset(SEED_CHARACTERS[characterId].portraitIllustrationId);
     if (portrait) {
       src = portrait.src;
+      alt = title ? `${title} portrait` : portrait.alt;
+      isPortrait = true;
     }
   } else if (entityId && ENTITY_SCENE_MAP[entityId]) {
     src = ENTITY_SCENE_MAP[entityId];
+    isPortrait = src.includes('/portrait-');
   } else if (iconSlug === 'manna-flakes' || iconSlug === 'dew-frost' || iconSlug === 'quail-bird' || iconSlug === 'bread-loaf') {
     src = '/images/exo-16.jpg';
   } else if (iconSlug === 'moses-staff') {
     src = '/images/portrait-moses.jpg';
+    isPortrait = true;
   } else if (iconSlug === 'wheat-grain') {
     src = '/images/gen-04.jpg';
   } else if (iconSlug === 'peace-dove') {
@@ -292,13 +310,26 @@ export const EntityThumbnail: React.FC<{
     src = '/images/ruth-naomi.jpg';
   } else if (type === 'person') {
     src = '/images/portrait-ruth.jpg';
+    isPortrait = true;
   }
+
+  return { src, alt, isPortrait };
+}
+
+export const EntityThumbnail: React.FC<{
+  type: string;
+  iconSlug?: string;
+  entityId?: string;
+  characterId?: string;
+  className?: string;
+}> = ({ type, iconSlug, entityId, characterId, className = 'w-12 h-12' }) => {
+  const { src, alt } = resolveEntityAsset({ type, iconSlug, entityId, characterId });
 
   return (
     <div className={`rounded-xl bg-[#F3EFE6] border border-[#E5DFD5] shadow-sm overflow-hidden flex-shrink-0 ${className}`}>
       <img
         src={assetUrl(src)}
-        alt="Biblical context artwork"
+        alt={alt}
         className="w-full h-full object-cover object-top"
         loading="lazy"
       />
