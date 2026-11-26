@@ -53,6 +53,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -215,6 +219,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gadites",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reubenites",
+            "entityId": "char-reuben"
           }
         ]
       },
@@ -391,6 +407,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jericho",
             "entityId": "place-jericho"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -511,6 +531,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          },
+          {
+            "spanText": "Og",
+            "entityId": "char-og"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -736,6 +768,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -775,6 +811,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -830,6 +870,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -854,6 +898,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -878,6 +926,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -902,6 +954,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -922,6 +978,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Amorite",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Canaanite",
+            "entityId": "char-canaanites"
+          },
+          {
+            "spanText": "Jebusite",
+            "entityId": "char-jebusites"
           }
         ]
       },
@@ -958,7 +1026,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now therefore take twelve men out of the tribes of Israel, for every tribe a man.",
         "translation": "WEB",
         "illustrationId": "ill-jos-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JOS-3:13",
@@ -981,6 +1054,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1005,6 +1082,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1025,6 +1106,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1041,6 +1126,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jericho",
             "entityId": "place-jericho"
+          },
+          {
+            "spanText": "Arabah",
+            "entityId": "place-arabah"
           }
         ]
       },
@@ -1069,6 +1158,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       }
@@ -1137,6 +1234,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1153,6 +1254,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1185,6 +1290,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1228,6 +1337,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1256,6 +1369,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1288,6 +1405,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1320,6 +1441,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1340,6 +1465,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1356,6 +1485,22 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1400,6 +1545,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1444,6 +1593,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1464,6 +1617,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1492,6 +1649,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1556,7 +1717,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "He spoke to the children of Israel, saying, “When your children ask their fathers in time to come, saying, ‘What do these stones mean?’",
         "translation": "WEB",
         "illustrationId": "ill-jos-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JOS-4:22",
@@ -1571,6 +1737,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1648,6 +1818,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
           }
         ]
       },
@@ -1668,6 +1850,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1684,6 +1870,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1740,6 +1930,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1819,6 +2013,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gilgal",
             "entityId": "place-gilgal"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1855,6 +2053,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1944,6 +2146,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jericho",
             "entityId": "place-jericho"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1995,6 +2201,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
           }
         ]
       },
@@ -2007,7 +2221,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "It shall be that when they make a long blast with the ram’s horn, and when you hear the sound of the trumpet, all the people shall shout with a great shout; and the city wall shall fall down flat, and the people shall go up, every man straight in front of him.”",
         "translation": "WEB",
         "illustrationId": "ill-jos-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "trumpet",
+            "entityId": "term-trumpets"
+          }
+        ]
       },
       {
         "id": "JOS-6:6",
@@ -2034,6 +2253,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
           }
         ]
       },
@@ -2082,6 +2309,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
           }
         ]
       },
@@ -2098,6 +2333,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
           }
         ]
       },
@@ -2158,6 +2401,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2178,6 +2425,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
           }
         ]
       },
@@ -2220,6 +2475,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
           }
         ]
       },
@@ -2252,7 +2515,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "But as for you, only keep yourselves from what is devoted to destruction, lest when you have devoted it, you take of the devoted thing; so you would make the camp of Israel accursed and trouble it.",
         "translation": "WEB",
         "illustrationId": "ill-jos-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JOS-6:19",
@@ -2279,7 +2547,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "So the people shouted and the priests blew the trumpets. When the people heard the sound of the trumpet, the people shouted with a great shout, and the wall fell down flat, so that the people went up into the city, every man straight in front of him, and they took the city.",
         "translation": "WEB",
         "illustrationId": "ill-jos-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
+          }
+        ]
       },
       {
         "id": "JOS-6:21",
@@ -2321,6 +2598,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Rahab",
             "entityId": "char-rahab"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2361,6 +2642,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jericho",
             "entityId": "place-jericho"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2438,6 +2723,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Achan",
             "entityId": "char-achan"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2458,6 +2751,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jericho",
             "entityId": "place-jericho"
+          },
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
+          },
+          {
+            "spanText": "Bethel",
+            "entityId": "place-bethel"
           }
         ]
       },
@@ -2474,6 +2775,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
           }
         ]
       },
@@ -2486,7 +2791,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "So about three thousand men of the people went up there, and they fled before the men of Ai.",
         "translation": "WEB",
         "illustrationId": "ill-jos-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
+          }
+        ]
       },
       {
         "id": "JOS-7:5",
@@ -2497,7 +2807,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The men of Ai struck about thirty-six men of them. They chased them from before the gate even to Shebarim, and struck them at the descent. The hearts of the people melted, and became like water.",
         "translation": "WEB",
         "illustrationId": "ill-jos-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
+          }
+        ]
       },
       {
         "id": "JOS-7:6",
@@ -2520,6 +2835,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2544,6 +2863,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -2556,7 +2879,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Oh, Lord, what shall I say, after Israel has turned their backs before their enemies?",
         "translation": "WEB",
         "illustrationId": "ill-jos-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JOS-7:9",
@@ -2567,7 +2895,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the Canaanites and all the inhabitants of the land will hear of it, and will surround us, and cut off our name from the earth. What will you do for your great name?”",
         "translation": "WEB",
         "illustrationId": "ill-jos-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          }
+        ]
       },
       {
         "id": "JOS-7:10",
@@ -2602,6 +2935,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2614,7 +2951,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore the children of Israel can’t stand before their enemies. They turn their backs before their enemies, because they have become devoted for destruction. I will not be with you any more, unless you destroy the devoted things from among you.",
         "translation": "WEB",
         "illustrationId": "ill-jos-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JOS-7:13",
@@ -2633,6 +2975,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2669,6 +3015,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2685,6 +3035,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2697,7 +3055,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "He brought near the family of Judah, and he selected the family of the Zerahites. He brought near the family of the Zerahites man by man, and Zabdi was selected.",
         "translation": "WEB",
         "illustrationId": "ill-jos-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JOS-7:18",
@@ -2712,6 +3075,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Achan",
             "entityId": "char-achan"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -2740,6 +3107,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Achan",
             "entityId": "char-achan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2768,6 +3139,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Achan",
             "entityId": "char-achan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2815,6 +3190,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2835,6 +3214,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Achan",
             "entityId": "char-achan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2855,6 +3238,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2904,6 +3291,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
           }
         ]
       },
@@ -2920,6 +3311,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jericho",
             "entityId": "place-jericho"
+          },
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
           }
         ]
       },
@@ -2936,6 +3331,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
           }
         ]
       },
@@ -3021,6 +3420,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
+          },
+          {
+            "spanText": "Bethel",
+            "entityId": "place-bethel"
           }
         ]
       },
@@ -3037,6 +3444,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
           }
         ]
       },
@@ -3049,7 +3464,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the people, even the men of war who were with him, went up and came near, and came before the city and encamped on the north side of Ai. Now there was a valley between him and Ai.",
         "translation": "WEB",
         "illustrationId": "ill-jos-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
+          }
+        ]
       },
       {
         "id": "JOS-8:12",
@@ -3060,7 +3480,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "He took about five thousand men, and set them in ambush between Bethel and Ai, on the west side of the city.",
         "translation": "WEB",
         "illustrationId": "ill-jos-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
+          },
+          {
+            "spanText": "Bethel",
+            "entityId": "place-bethel"
+          }
+        ]
       },
       {
         "id": "JOS-8:13",
@@ -3087,7 +3516,20 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the king of Ai saw it, they hurried and rose up early, and the men of the city went out against Israel to battle, he and all his people, at the time appointed, before the Arabah; but he didn’t know that there was an ambush against him behind the city.",
         "translation": "WEB",
         "illustrationId": "ill-jos-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Arabah",
+            "entityId": "place-arabah"
+          },
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
+          }
+        ]
       },
       {
         "id": "JOS-8:15",
@@ -3102,6 +3544,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3130,7 +3576,20 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "There was not a man left in Ai or Bethel who didn’t go out after Israel. They left the city open, and pursued Israel.",
         "translation": "WEB",
         "illustrationId": "ill-jos-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
+          },
+          {
+            "spanText": "Bethel",
+            "entityId": "place-bethel"
+          }
+        ]
       },
       {
         "id": "JOS-8:18",
@@ -3149,6 +3608,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
           }
         ]
       },
@@ -3172,7 +3635,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the men of Ai looked behind them, they saw, and behold, the smoke of the city ascended up to heaven, and they had no power to flee this way or that way. The people who fled to the wilderness turned back on the pursuers.",
         "translation": "WEB",
         "illustrationId": "ill-jos-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
+          }
+        ]
       },
       {
         "id": "JOS-8:21",
@@ -3187,6 +3655,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
           }
         ]
       },
@@ -3199,7 +3675,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The others came out of the city against them, so they were in the middle of Israel, some on this side, and some on that side. They struck them, so that they let none of them remain or escape.",
         "translation": "WEB",
         "illustrationId": "ill-jos-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JOS-8:23",
@@ -3214,6 +3695,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
           }
         ]
       },
@@ -3226,7 +3711,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "When Israel had finished killing all the inhabitants of Ai in the field, in the wilderness in which they pursued them, and they had all fallen by the edge of the sword until they were consumed, all Israel returned to Ai and struck it with the edge of the sword.",
         "translation": "WEB",
         "illustrationId": "ill-jos-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
+          }
+        ]
       },
       {
         "id": "JOS-8:25",
@@ -3237,7 +3731,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "All that fell that day, both of men and women, were twelve thousand, even all the people of Ai.",
         "translation": "WEB",
         "illustrationId": "ill-jos-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
+          }
+        ]
       },
       {
         "id": "JOS-8:26",
@@ -3252,6 +3751,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
           }
         ]
       },
@@ -3272,6 +3775,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3288,6 +3795,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
           }
         ]
       },
@@ -3304,6 +3815,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
           }
         ]
       },
@@ -3332,6 +3847,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ebal",
             "entityId": "place-ebal-gerizim"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -3356,6 +3879,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "book of the law",
             "entityId": "term-torah-scroll"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -3372,6 +3907,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3408,6 +3947,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gerizim",
             "entityId": "place-ebal-gerizim"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3448,6 +3995,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -3477,6 +4028,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Amorite",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Canaanite",
+            "entityId": "char-canaanites"
+          },
+          {
+            "spanText": "Jebusite",
+            "entityId": "char-jebusites"
           }
         ]
       },
@@ -3493,6 +4056,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3517,6 +4084,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jericho",
             "entityId": "place-jericho"
+          },
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
           }
         ]
       },
@@ -3563,6 +4134,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gilgal",
             "entityId": "place-gilgal"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3579,6 +4154,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3635,6 +4214,22 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          },
+          {
+            "spanText": "Og",
+            "entityId": "char-og"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -3741,6 +4336,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gibeon",
             "entityId": "char-gibeonites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3761,6 +4360,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3781,6 +4384,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3886,7 +4493,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "He did so to them, and delivered them out of the hand of the children of Israel, so that they didn’t kill them.",
         "translation": "WEB",
         "illustrationId": "ill-jos-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JOS-9:27",
@@ -3905,6 +4517,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       }
@@ -3942,6 +4558,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jericho",
             "entityId": "place-jericho"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
           }
         ]
       },
@@ -3958,6 +4586,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gibeon",
             "entityId": "char-gibeonites"
+          },
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
           }
         ]
       },
@@ -3974,6 +4606,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
           }
         ]
       },
@@ -3994,6 +4630,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gibeon",
             "entityId": "char-gibeonites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4014,6 +4654,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
           }
         ]
       },
@@ -4038,6 +4686,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gilgal",
             "entityId": "place-gilgal"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -4118,6 +4770,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gibeon",
             "entityId": "char-gibeonites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4134,6 +4790,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4158,6 +4818,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gibeon",
             "entityId": "char-gibeonites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Sun, stand still",
+            "entityId": "term-sun-stand-still"
           }
         ]
       },
@@ -4170,7 +4842,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sun stood still, and the moon stayed, until the nation had avenged themselves of their enemies. Isn’t this written in the book of Jashar? The sun stayed in the middle of the sky, and didn’t hurry to go down about a whole day.",
         "translation": "WEB",
         "illustrationId": "ill-jos-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sun stood still",
+            "entityId": "term-sun-stand-still"
+          }
+        ]
       },
       {
         "id": "JOS-10:14",
@@ -4185,6 +4862,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4205,6 +4886,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gilgal",
             "entityId": "place-gilgal"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4284,6 +4969,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4300,6 +4989,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4332,6 +5025,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
           }
         ]
       },
@@ -4348,6 +5045,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4436,6 +5137,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4456,6 +5161,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jericho",
             "entityId": "place-jericho"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4472,6 +5181,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4488,6 +5201,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4520,6 +5237,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4551,6 +5272,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4578,6 +5303,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4618,6 +5347,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4638,6 +5371,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gibeon",
             "entityId": "char-gibeonites"
+          },
+          {
+            "spanText": "Kadesh Barnea",
+            "entityId": "place-kadesh"
           }
         ]
       },
@@ -4662,6 +5399,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4682,6 +5423,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gilgal",
             "entityId": "place-gilgal"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -4707,7 +5452,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "When Jabin king of Hazor heard of it, he sent to Jobab king of Madon, to the king of Shimron, to the king of Achshaph,",
         "translation": "WEB",
         "illustrationId": "ill-jos-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hazor",
+            "entityId": "place-hazor"
+          }
+        ]
       },
       {
         "id": "JOS-11:2",
@@ -4718,7 +5468,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "and to the kings who were on the north, in the hill country, in the Arabah south of Chinneroth, in the lowland, and in the heights of Dor on the west,",
         "translation": "WEB",
         "illustrationId": "ill-jos-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Arabah",
+            "entityId": "place-arabah"
+          }
+        ]
       },
       {
         "id": "JOS-11:3",
@@ -4729,7 +5484,20 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "to the Canaanite on the east and on the west, the Amorite, the Hittite, the Perizzite, the Jebusite in the hill country, and the Hivite under Hermon in the land of Mizpah.",
         "translation": "WEB",
         "illustrationId": "ill-jos-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Amorite",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Canaanite",
+            "entityId": "char-canaanites"
+          },
+          {
+            "spanText": "Jebusite",
+            "entityId": "char-jebusites"
+          }
+        ]
       },
       {
         "id": "JOS-11:4",
@@ -4751,7 +5519,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "All these kings met together; and they came and encamped together at the waters of Merom, to fight with Israel.",
         "translation": "WEB",
         "illustrationId": "ill-jos-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JOS-11:6",
@@ -4770,6 +5543,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4802,6 +5579,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4838,6 +5619,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Hazor",
+            "entityId": "place-hazor"
           }
         ]
       },
@@ -4850,7 +5635,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "They struck all the souls who were in it with the edge of the sword, utterly destroying them. There was no one left who breathed. He burned Hazor with fire.",
         "translation": "WEB",
         "illustrationId": "ill-jos-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hazor",
+            "entityId": "place-hazor"
+          }
+        ]
       },
       {
         "id": "JOS-11:12",
@@ -4889,6 +5679,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Hazor",
+            "entityId": "place-hazor"
           }
         ]
       },
@@ -4901,7 +5699,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Israel took all the plunder of these cities, with the livestock, as plunder for themselves; but every man they struck with the edge of the sword, until they had destroyed them. They didn’t leave any who breathed.",
         "translation": "WEB",
         "illustrationId": "ill-jos-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JOS-11:15",
@@ -4940,6 +5743,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Arabah",
+            "entityId": "place-arabah"
           }
         ]
       },
@@ -4952,7 +5763,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "from Mount Halak, that goes up to Seir, even to Baal Gad in the valley of Lebanon under Mount Hermon. He took all their kings, struck them, and put them to death.",
         "translation": "WEB",
         "illustrationId": "ill-jos-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          }
+        ]
       },
       {
         "id": "JOS-11:18",
@@ -4983,6 +5803,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gibeon",
             "entityId": "char-gibeonites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5003,6 +5827,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5023,6 +5851,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Anakim",
+            "entityId": "char-anakim"
           }
         ]
       },
@@ -5035,7 +5875,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "There were none of the Anakim left in the land of the children of Israel. Only in Gaza, in Gath, and in Ashdod, did some remain.",
         "translation": "WEB",
         "illustrationId": "ill-jos-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Anakim",
+            "entityId": "char-anakim"
+          }
+        ]
       },
       {
         "id": "JOS-11:23",
@@ -5058,6 +5907,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -5087,6 +5940,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Arabah",
+            "entityId": "place-arabah"
           }
         ]
       },
@@ -5099,7 +5960,24 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Sihon king of the Amorites, who lived in Heshbon, and ruled from Aroer, which is on the edge of the valley of the Arnon, and the middle of the valley, and half Gilead, even to the river Jabbok, the border of the children of Ammon;",
         "translation": "WEB",
         "illustrationId": "ill-jos-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JOS-12:3",
@@ -5110,7 +5988,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "and the Arabah to the sea of Chinneroth, eastward, and to the sea of the Arabah, even the Salt Sea, eastward, the way to Beth Jeshimoth; and on the south, under the slopes of Pisgah:",
         "translation": "WEB",
         "illustrationId": "ill-jos-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Arabah",
+            "entityId": "place-arabah"
+          }
+        ]
       },
       {
         "id": "JOS-12:4",
@@ -5121,7 +6004,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "and the border of Og king of Bashan, of the remnant of the Rephaim, who lived at Ashtaroth and at Edrei,",
         "translation": "WEB",
         "illustrationId": "ill-jos-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Og",
+            "entityId": "char-og"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JOS-12:5",
@@ -5132,7 +6024,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "and ruled in Mount Hermon, and in Salecah, and in all Bashan, to the border of the Geshurites and the Maacathites, and half Gilead, the border of Sihon king of Heshbon.",
         "translation": "WEB",
         "illustrationId": "ill-jos-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JOS-12:6",
@@ -5151,6 +6052,22 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gadites",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reubenites",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5171,6 +6088,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
           }
         ]
       },
@@ -5183,7 +6112,24 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "in the hill country, and in the lowland, and in the Arabah, and in the slopes, and in the wilderness, and in the South; the Hittite, the Amorite, and the Canaanite, the Perizzite, the Hivite, and the Jebusite:",
         "translation": "WEB",
         "illustrationId": "ill-jos-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Amorite",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Canaanite",
+            "entityId": "char-canaanites"
+          },
+          {
+            "spanText": "Jebusite",
+            "entityId": "char-jebusites"
+          },
+          {
+            "spanText": "Arabah",
+            "entityId": "place-arabah"
+          }
+        ]
       },
       {
         "id": "JOS-12:9",
@@ -5198,6 +6144,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jericho",
             "entityId": "place-jericho"
+          },
+          {
+            "spanText": "Ai",
+            "entityId": "place-ai"
+          },
+          {
+            "spanText": "Bethel",
+            "entityId": "place-bethel"
           }
         ]
       },
@@ -5214,6 +6168,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
           }
         ]
       },
@@ -5281,7 +6239,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "the king of Makkedah, one; the king of Bethel, one;",
         "translation": "WEB",
         "illustrationId": "ill-jos-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Bethel",
+            "entityId": "place-bethel"
+          }
+        ]
       },
       {
         "id": "JOS-12:17",
@@ -5314,7 +6277,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "the king of Madon, one; the king of Hazor, one;",
         "translation": "WEB",
         "illustrationId": "ill-jos-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hazor",
+            "entityId": "place-hazor"
+          }
+        ]
       },
       {
         "id": "JOS-12:20",
@@ -5433,6 +6401,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Canaanite",
+            "entityId": "char-canaanites"
           }
         ]
       },
@@ -5445,7 +6417,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "on the south; all the land of the Canaanites, and Mearah that belongs to the Sidonians, to Aphek, to the border of the Amorites;",
         "translation": "WEB",
         "illustrationId": "ill-jos-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          }
+        ]
       },
       {
         "id": "JOS-13:5",
@@ -5456,7 +6437,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "and the land of the Gebalites, and all Lebanon, toward the sunrise, from Baal Gad under Mount Hermon to the entrance of Hamath;",
         "translation": "WEB",
         "illustrationId": "ill-jos-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          }
+        ]
       },
       {
         "id": "JOS-13:6",
@@ -5467,7 +6457,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "all the inhabitants of the hill country from Lebanon to Misrephoth Maim, even all the Sidonians. I will drive them out from before the children of Israel. Just allocate it to Israel for an inheritance, as I have commanded you.",
         "translation": "WEB",
         "illustrationId": "ill-jos-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JOS-13:7",
@@ -5478,7 +6473,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now therefore divide this land for an inheritance to the nine tribes and the half-tribe of Manasseh.”",
         "translation": "WEB",
         "illustrationId": "ill-jos-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          }
+        ]
       },
       {
         "id": "JOS-13:8",
@@ -5501,6 +6501,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Gadites",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reubenites",
+            "entityId": "char-reuben"
           }
         ]
       },
@@ -5524,7 +6532,20 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "and all the cities of Sihon king of the Amorites, who reigned in Heshbon, to the border of the children of Ammon;",
         "translation": "WEB",
         "illustrationId": "ill-jos-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          }
+        ]
       },
       {
         "id": "JOS-13:11",
@@ -5535,7 +6556,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "and Gilead, and the border of the Geshurites and Maacathites, and all Mount Hermon, and all Bashan to Salecah;",
         "translation": "WEB",
         "illustrationId": "ill-jos-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JOS-13:12",
@@ -5550,6 +6576,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Og",
+            "entityId": "char-og"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -5562,7 +6596,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Nevertheless the children of Israel didn’t drive out the Geshurites, nor the Maacathites: but Geshur and Maacath live within Israel to this day.",
         "translation": "WEB",
         "illustrationId": "ill-jos-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JOS-13:14",
@@ -5581,6 +6620,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5597,6 +6644,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
           }
         ]
       },
@@ -5620,7 +6671,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Heshbon, and all its cities that are in the plain; Dibon, Bamoth Baal, Beth Baal Meon,",
         "translation": "WEB",
         "illustrationId": "ill-jos-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          }
+        ]
       },
       {
         "id": "JOS-13:18",
@@ -5668,6 +6724,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Midian",
+            "entityId": "place-midian"
           }
         ]
       },
@@ -5680,7 +6748,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Israel also killed Balaam the son of Beor, the soothsayer, with the sword, among the rest of their slain.",
         "translation": "WEB",
         "illustrationId": "ill-jos-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Balaam",
+            "entityId": "char-balaam"
+          }
+        ]
       },
       {
         "id": "JOS-13:23",
@@ -5695,6 +6772,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
           }
         ]
       },
@@ -5711,6 +6792,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
           }
         ]
       },
@@ -5723,7 +6808,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Their border was Jazer, and all the cities of Gilead, and half the land of the children of Ammon, to Aroer that is near Rabbah;",
         "translation": "WEB",
         "illustrationId": "ill-jos-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JOS-13:26",
@@ -5749,6 +6843,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
           }
         ]
       },
@@ -5761,7 +6859,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "This is the inheritance of the children of Gad according to their families, the cities and its villages.",
         "translation": "WEB",
         "illustrationId": "ill-jos-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          }
+        ]
       },
       {
         "id": "JOS-13:29",
@@ -5776,6 +6879,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
           }
         ]
       },
@@ -5788,7 +6895,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Their border was from Mahanaim, all Bashan, all the kingdom of Og king of Bashan, and all the villages of Jair, which are in Bashan, sixty cities.",
         "translation": "WEB",
         "illustrationId": "ill-jos-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Og",
+            "entityId": "char-og"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JOS-13:31",
@@ -5799,7 +6915,20 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Half Gilead, Ashtaroth, and Edrei, the cities of the kingdom of Og in Bashan, were for the children of Machir the son of Manasseh, even for the half of the children of Machir according to their families.",
         "translation": "WEB",
         "illustrationId": "ill-jos-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Og",
+            "entityId": "char-og"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JOS-13:32",
@@ -5850,6 +6979,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -5887,6 +7024,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -5927,6 +7072,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -5939,7 +7088,24 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the children of Joseph were two tribes, Manasseh and Ephraim. They gave no portion to the Levites in the land, except cities to dwell in, with their pasture lands for their livestock and for their property.",
         "translation": "WEB",
         "illustrationId": "ill-jos-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          }
+        ]
       },
       {
         "id": "JOS-14:5",
@@ -5958,6 +7124,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5994,6 +7164,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gilgal",
             "entityId": "place-gilgal"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Kadesh Barnea",
+            "entityId": "place-kadesh"
           }
         ]
       },
@@ -6014,6 +7192,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Kadesh Barnea",
+            "entityId": "place-kadesh"
           }
         ]
       },
@@ -6078,6 +7260,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6110,6 +7296,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Anakim",
+            "entityId": "char-anakim"
           }
         ]
       },
@@ -6162,6 +7352,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6178,6 +7372,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Anakim",
+            "entityId": "char-anakim"
           }
         ]
       }
@@ -6203,7 +7401,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The lot for the tribe of the children of Judah according to their families was to the border of Edom, even to the wilderness of Zin southward, at the uttermost part of the south.",
         "translation": "WEB",
         "illustrationId": "ill-jos-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "JOS-15:2",
@@ -6225,7 +7432,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "and it went out southward of the ascent of Akrabbim, and passed along to Zin, and went up by the south of Kadesh Barnea, and passed along by Hezron, went up to Addar, and turned toward Karka;",
         "translation": "WEB",
         "illustrationId": "ill-jos-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Kadesh Barnea",
+            "entityId": "place-kadesh"
+          }
+        ]
       },
       {
         "id": "JOS-15:4",
@@ -6268,7 +7480,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The border went up to Beth Hoglah, and passed along by the north of Beth Arabah; and the border went up to the stone of Bohan the son of Reuben.",
         "translation": "WEB",
         "illustrationId": "ill-jos-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Arabah",
+            "entityId": "place-arabah"
+          }
+        ]
       },
       {
         "id": "JOS-15:7",
@@ -6295,7 +7516,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The border went up by the valley of the son of Hinnom to the side of the Jebusite (also called Jerusalem) southward; and the border went up to the top of the mountain that lies before the valley of Hinnom westward, which is at the farthest part of the valley of Rephaim northward.",
         "translation": "WEB",
         "illustrationId": "ill-jos-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jebusite",
+            "entityId": "char-jebusites"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
+          }
+        ]
       },
       {
         "id": "JOS-15:9",
@@ -6339,7 +7569,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The west border was to the shore of the great sea. This is the border of the children of Judah according to their families.",
         "translation": "WEB",
         "illustrationId": "ill-jos-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JOS-15:13",
@@ -6366,6 +7601,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -6469,7 +7708,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "This is the inheritance of the tribe of the children of Judah according to their families.",
         "translation": "WEB",
         "illustrationId": "ill-jos-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JOS-15:21",
@@ -6480,7 +7724,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The farthest cities of the tribe of the children of Judah toward the border of Edom in the South were Kabzeel, Eder, Jagur,",
         "translation": "WEB",
         "illustrationId": "ill-jos-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "JOS-15:22",
@@ -6502,7 +7755,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Kedesh, Hazor, Ithnan,",
         "translation": "WEB",
         "illustrationId": "ill-jos-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hazor",
+            "entityId": "place-hazor"
+          }
+        ]
       },
       {
         "id": "JOS-15:24",
@@ -6524,7 +7782,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Hazor Hadattah, Kerioth Hezron (also called Hazor),",
         "translation": "WEB",
         "illustrationId": "ill-jos-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hazor",
+            "entityId": "place-hazor"
+          }
+        ]
       },
       {
         "id": "JOS-15:26",
@@ -6656,7 +7919,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Zenan, Hadashah, Migdal Gad,",
         "translation": "WEB",
         "illustrationId": "ill-jos-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          }
+        ]
       },
       {
         "id": "JOS-15:38",
@@ -6919,7 +8187,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Kiriath Baal (also called Kiriath Jearim), and Rabbah; two cities with their villages.",
         "translation": "WEB",
         "illustrationId": "ill-jos-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          }
+        ]
       },
       {
         "id": "JOS-15:61",
@@ -6930,7 +8203,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "In the wilderness, Beth Arabah, Middin, Secacah,",
         "translation": "WEB",
         "illustrationId": "ill-jos-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Arabah",
+            "entityId": "place-arabah"
+          }
+        ]
       },
       {
         "id": "JOS-15:62",
@@ -6952,7 +8230,20 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "As for the Jebusites, the inhabitants of Jerusalem, the children of Judah couldn’t drive them out; but the Jebusites live with the children of Judah at Jerusalem to this day.",
         "translation": "WEB",
         "illustrationId": "ill-jos-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Jebusites",
+            "entityId": "char-jebusites"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
+          }
+        ]
       }
     ]
   },
@@ -6984,6 +8275,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Bethel",
+            "entityId": "place-bethel"
           }
         ]
       },
@@ -6996,7 +8295,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "It went out from Bethel to Luz, and passed along to the border of the Archites to Ataroth;",
         "translation": "WEB",
         "illustrationId": "ill-jos-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Bethel",
+            "entityId": "place-bethel"
+          }
+        ]
       },
       {
         "id": "JOS-16:3",
@@ -7018,7 +8322,20 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Joseph, Manasseh and Ephraim, took their inheritance.",
         "translation": "WEB",
         "illustrationId": "ill-jos-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          }
+        ]
       },
       {
         "id": "JOS-16:5",
@@ -7029,7 +8346,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "This was the border of the children of Ephraim according to their families. The border of their inheritance eastward was Ataroth Addar, to Beth Horon the upper.",
         "translation": "WEB",
         "illustrationId": "ill-jos-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "JOS-16:6",
@@ -7076,7 +8398,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "From Tappuah the border went along westward to the brook of Kanah; and ended at the sea. This is the inheritance of the tribe of the children of Ephraim according to their families;",
         "translation": "WEB",
         "illustrationId": "ill-jos-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "JOS-16:9",
@@ -7087,7 +8414,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "together with the cities which were set apart for the children of Ephraim in the middle of the inheritance of the children of Manasseh, all the cities with their villages.",
         "translation": "WEB",
         "illustrationId": "ill-jos-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "JOS-16:10",
@@ -7098,7 +8434,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "They didn’t drive out the Canaanites who lived in Gezer; but the Canaanites dwell in the territory of Ephraim to this day, and have become servants to do forced labor.",
         "translation": "WEB",
         "illustrationId": "ill-jos-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          }
+        ]
       }
     ]
   },
@@ -7122,7 +8467,20 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "This was the lot for the tribe of Manasseh, for he was the firstborn of Joseph. As for Machir the firstborn of Manasseh, the father of Gilead, because he was a man of war, therefore he had Gilead and Bashan.",
         "translation": "WEB",
         "illustrationId": "ill-jos-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JOS-17:2",
@@ -7137,6 +8495,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shechem",
             "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
           }
         ]
       },
@@ -7153,6 +8519,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zelophehad",
             "entityId": "char-zelophehad"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -7181,6 +8555,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eleazar",
             "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -7197,6 +8575,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -7209,7 +8595,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "because the daughters of Manasseh had an inheritance among his sons. The land of Gilead belonged to the rest of the sons of Manasseh.",
         "translation": "WEB",
         "illustrationId": "ill-jos-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JOS-17:7",
@@ -7224,6 +8619,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shechem",
             "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
           }
         ]
       },
@@ -7236,7 +8639,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The land of Tappuah belonged to Manasseh; but Tappuah on the border of Manasseh belonged to the children of Ephraim.",
         "translation": "WEB",
         "illustrationId": "ill-jos-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "JOS-17:9",
@@ -7247,7 +8659,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The border went down to the brook of Kanah, southward of the brook. These cities belonged to Ephraim among the cities of Manasseh. The border of Manasseh was on the north side of the brook, and ended at the sea.",
         "translation": "WEB",
         "illustrationId": "ill-jos-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "JOS-17:10",
@@ -7258,7 +8679,24 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Southward it was Ephraim’s, and northward it was Manasseh’s, and the sea was his border. They reached to Asher on the north, and to Issachar on the east.",
         "translation": "WEB",
         "illustrationId": "ill-jos-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          },
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          }
+        ]
       },
       {
         "id": "JOS-17:11",
@@ -7269,7 +8707,20 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Manasseh had three heights in Issachar, in Asher Beth Shean and its towns, and Ibleam and its towns, and the inhabitants of Dor and its towns, and the inhabitants of Endor and its towns, and the inhabitants of Taanach and its towns, and the inhabitants of Megiddo and its towns.",
         "translation": "WEB",
         "illustrationId": "ill-jos-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          },
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          }
+        ]
       },
       {
         "id": "JOS-17:12",
@@ -7280,7 +8731,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yet the children of Manasseh couldn’t drive out the inhabitants of those cities; but the Canaanites would dwell in that land.",
         "translation": "WEB",
         "illustrationId": "ill-jos-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          }
+        ]
       },
       {
         "id": "JOS-17:13",
@@ -7291,7 +8751,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the children of Israel had grown strong, they put the Canaanites to forced labor, and didn’t utterly drive them out.",
         "translation": "WEB",
         "illustrationId": "ill-jos-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          }
+        ]
       },
       {
         "id": "JOS-17:14",
@@ -7310,6 +8779,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
           }
         ]
       },
@@ -7326,6 +8799,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
           }
         ]
       },
@@ -7338,7 +8815,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Joseph said, “The hill country is not enough for us. All the Canaanites who dwell in the land of the valley have chariots of iron, both those who are in Beth Shean and its towns, and those who are in the valley of Jezreel.”",
         "translation": "WEB",
         "illustrationId": "ill-jos-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          }
+        ]
       },
       {
         "id": "JOS-17:17",
@@ -7353,6 +8839,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
           }
         ]
       },
@@ -7365,7 +8863,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "but the hill country shall be yours. Although it is a forest, you shall cut it down, and it’s farthest extent shall be yours; for you shall drive out the Canaanites, though they have chariots of iron, and though they are strong.”",
         "translation": "WEB",
         "illustrationId": "ill-jos-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Canaanites",
+            "entityId": "char-canaanites"
+          }
+        ]
       }
     ]
   },
@@ -7393,6 +8896,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shiloh",
             "entityId": "place-shiloh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -7405,7 +8916,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Seven tribes remained among the children of Israel, which had not yet divided their inheritance.",
         "translation": "WEB",
         "illustrationId": "ill-jos-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JOS-18:3",
@@ -7428,6 +8944,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7451,7 +8971,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "They shall divide it into seven portions. Judah shall live in his borders on the south, and the house of Joseph shall live in their borders on the north.",
         "translation": "WEB",
         "illustrationId": "ill-jos-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          }
+        ]
       },
       {
         "id": "JOS-18:6",
@@ -7494,6 +9023,22 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -7562,6 +9107,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shiloh",
             "entityId": "place-shiloh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7574,7 +9123,20 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The lot of the tribe of the children of Benjamin came up according to their families. The border of their lot went out between the children of Judah and the children of Joseph.",
         "translation": "WEB",
         "illustrationId": "ill-jos-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          }
+        ]
       },
       {
         "id": "JOS-18:12",
@@ -7605,7 +9167,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The border passed along from there to Luz, to the side of Luz (also called Bethel), southward. The border went down to Ataroth Addar, by the mountain that lies on the south of Beth Horon the lower.",
         "translation": "WEB",
         "illustrationId": "ill-jos-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Bethel",
+            "entityId": "place-bethel"
+          }
+        ]
       },
       {
         "id": "JOS-18:14",
@@ -7616,7 +9183,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The border extended, and turned around on the west quarter southward, from the mountain that lies before Beth Horon southward; and ended at Kiriath Baal (also called Kiriath Jearim), a city of the children of Judah. This was the west quarter.",
         "translation": "WEB",
         "illustrationId": "ill-jos-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          }
+        ]
       },
       {
         "id": "JOS-18:15",
@@ -7638,7 +9214,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The border went down to the farthest part of the mountain that lies before the valley of the son of Hinnom, which is in the valley of Rephaim northward. It went down to the valley of Hinnom, to the side of the Jebusite southward, and went down to En Rogel.",
         "translation": "WEB",
         "illustrationId": "ill-jos-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jebusite",
+            "entityId": "char-jebusites"
+          }
+        ]
       },
       {
         "id": "JOS-18:17",
@@ -7649,7 +9230,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "It extended northward, went out at En Shemesh, and went out to Geliloth, which is opposite the ascent of Adummim. It went down to the stone of Bohan the son of Reuben.",
         "translation": "WEB",
         "illustrationId": "ill-jos-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "JOS-18:18",
@@ -7660,7 +9246,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "It passed along to the side opposite the Arabah northward, and went down to the Arabah.",
         "translation": "WEB",
         "illustrationId": "ill-jos-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Arabah",
+            "entityId": "place-arabah"
+          }
+        ]
       },
       {
         "id": "JOS-18:19",
@@ -7691,6 +9282,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -7707,6 +9302,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jericho",
             "entityId": "place-jericho"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -7719,7 +9318,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Beth Arabah, Zemaraim, Bethel,",
         "translation": "WEB",
         "illustrationId": "ill-jos-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Arabah",
+            "entityId": "place-arabah"
+          },
+          {
+            "spanText": "Bethel",
+            "entityId": "place-bethel"
+          }
+        ]
       },
       {
         "id": "JOS-18:23",
@@ -7790,7 +9398,20 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Zelah, Eleph, the Jebusite (also called Jerusalem), Gibeath, and Kiriath; fourteen cities with their villages. This is the inheritance of the children of Benjamin according to their families.",
         "translation": "WEB",
         "illustrationId": "ill-jos-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Jebusite",
+            "entityId": "char-jebusites"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
+          }
+        ]
       }
     ]
   },
@@ -7814,7 +9435,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The second lot came out for Simeon, even for the tribe of the children of Simeon according to their families. Their inheritance was in the middle of the inheritance of the children of Judah.",
         "translation": "WEB",
         "illustrationId": "ill-jos-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "JOS-19:2",
@@ -7891,7 +9521,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "and all the villages that were around these cities to Baalath Beer, Ramah of the South. This is the inheritance of the tribe of the children of Simeon according to their families.",
         "translation": "WEB",
         "illustrationId": "ill-jos-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "JOS-19:9",
@@ -7902,7 +9537,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Out of the part of the children of Judah was the inheritance of the children of Simeon; for the portion of the children of Judah was too much for them. Therefore the children of Simeon had inheritance in the middle of their inheritance.",
         "translation": "WEB",
         "illustrationId": "ill-jos-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "JOS-19:10",
@@ -7913,7 +9557,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The third lot came up for the children of Zebulun according to their families. The border of their inheritance was to Sarid.",
         "translation": "WEB",
         "illustrationId": "ill-jos-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "JOS-19:11",
@@ -7979,7 +9628,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "This is the inheritance of the children of Zebulun according to their families, these cities with their villages.",
         "translation": "WEB",
         "illustrationId": "ill-jos-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "JOS-19:17",
@@ -7990,7 +9644,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The fourth lot came out for Issachar, even for the children of Issachar according to their families.",
         "translation": "WEB",
         "illustrationId": "ill-jos-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          }
+        ]
       },
       {
         "id": "JOS-19:18",
@@ -8061,7 +9720,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "This is the inheritance of the tribe of the children of Issachar according to their families, the cities with their villages.",
         "translation": "WEB",
         "illustrationId": "ill-jos-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          }
+        ]
       },
       {
         "id": "JOS-19:24",
@@ -8072,7 +9736,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The fifth lot came out for the tribe of the children of Asher according to their families.",
         "translation": "WEB",
         "illustrationId": "ill-jos-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "JOS-19:25",
@@ -8105,7 +9774,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "It turned toward the sunrise to Beth Dagon, and reached to Zebulun, and to the valley of Iphtah El northward to Beth Emek and Neiel. It went out to Cabul on the left hand,",
         "translation": "WEB",
         "illustrationId": "ill-jos-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "JOS-19:28",
@@ -8149,7 +9823,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "This is the inheritance of the tribe of the children of Asher according to their families, these cities with their villages.",
         "translation": "WEB",
         "illustrationId": "ill-jos-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "JOS-19:32",
@@ -8160,7 +9839,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sixth lot came out for the children of Naphtali, even for the children of Naphtali according to their families.",
         "translation": "WEB",
         "illustrationId": "ill-jos-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          }
+        ]
       },
       {
         "id": "JOS-19:33",
@@ -8191,6 +9875,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          },
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
           }
         ]
       },
@@ -8214,7 +9910,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Adamah, Ramah, Hazor,",
         "translation": "WEB",
         "illustrationId": "ill-jos-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hazor",
+            "entityId": "place-hazor"
+          }
+        ]
       },
       {
         "id": "JOS-19:37",
@@ -8225,7 +9926,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Kedesh, Edrei, En Hazor,",
         "translation": "WEB",
         "illustrationId": "ill-jos-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hazor",
+            "entityId": "place-hazor"
+          }
+        ]
       },
       {
         "id": "JOS-19:38",
@@ -8247,7 +9953,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "This is the inheritance of the tribe of the children of Naphtali according to their families, the cities with their villages.",
         "translation": "WEB",
         "illustrationId": "ill-jos-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          }
+        ]
       },
       {
         "id": "JOS-19:40",
@@ -8258,7 +9969,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The seventh lot came out for the tribe of the children of Dan according to their families.",
         "translation": "WEB",
         "illustrationId": "ill-jos-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "JOS-19:41",
@@ -8335,7 +10051,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The border of the children of Dan went out beyond them; for the children of Dan went up and fought against Leshem, and took it, and struck it with the edge of the sword, and possessed it, and lived therein, and called Leshem, Dan, after the name of Dan their forefather.",
         "translation": "WEB",
         "illustrationId": "ill-jos-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "JOS-19:48",
@@ -8346,7 +10067,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "This is the inheritance of the tribe of the children of Dan according to their families, these cities with their villages.",
         "translation": "WEB",
         "illustrationId": "ill-jos-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "JOS-19:49",
@@ -8361,6 +10087,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8377,6 +10107,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
           }
         ]
       },
@@ -8405,6 +10139,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shiloh",
             "entityId": "place-shiloh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       }
@@ -8458,6 +10204,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "refuge",
             "entityId": "term-cities-of-refuge"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8508,7 +10258,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "He shall dwell in that city until he stands before the congregation for judgment, until the death of the high priest that shall be in those days. Then the man slayer shall return, and come to his own city, and to his own house, to the city he fled from.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-jos-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JOS-20:7",
@@ -8527,6 +10282,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
           }
         ]
       },
@@ -8547,6 +10314,22 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -8559,7 +10342,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "These were the appointed cities for all the children of Israel, and for the alien who lives among them, that whoever kills any person unintentionally might flee there, and not die by the hand of the avenger of blood, until he stands trial before the congregation.",
         "translation": "WEB",
         "illustrationId": "ill-jos-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       }
     ]
   },
@@ -8591,6 +10379,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eleazar",
             "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -8635,6 +10435,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8647,7 +10455,32 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The lot came out for the families of the Kohathites. The children of Aaron the priest, who were of the Levites, had thirteen cities by lot out of the tribe of Judah, out of the tribe of the Simeonites, and out of the tribe of Benjamin.",
         "translation": "WEB",
         "illustrationId": "ill-jos-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Simeonites",
+            "entityId": "char-simeon"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JOS-21:5",
@@ -8658,7 +10491,20 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The rest of the children of Kohath had ten cities by lot out of the families of the tribe of Ephraim, out of the tribe of Dan, and out of the half-tribe of Manasseh.",
         "translation": "WEB",
         "illustrationId": "ill-jos-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "JOS-21:6",
@@ -8669,7 +10515,28 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Gershon had thirteen cities by lot out of the families of the tribe of Issachar, out of the tribe of Asher, out of the tribe of Naphtali, and out of the half-tribe of Manasseh in Bashan.",
         "translation": "WEB",
         "illustrationId": "ill-jos-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          },
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          },
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JOS-21:7",
@@ -8680,7 +10547,20 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Merari according to their families had twelve cities out of the tribe of Reuben, out of the tribe of Gad, and out of the tribe of Zebulun.",
         "translation": "WEB",
         "illustrationId": "ill-jos-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "JOS-21:8",
@@ -8699,6 +10579,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8711,7 +10599,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "They gave out of the tribe of the children of Judah, and out of the tribe of the children of Simeon, these cities which are mentioned by name:",
         "translation": "WEB",
         "illustrationId": "ill-jos-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "JOS-21:10",
@@ -8722,7 +10619,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "and they were for the children of Aaron, of the families of the Kohathites, who were of the children of Levi; for theirs was the first lot.",
         "translation": "WEB",
         "illustrationId": "ill-jos-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
+          }
+        ]
       },
       {
         "id": "JOS-21:11",
@@ -8737,6 +10643,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -8773,6 +10683,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -8822,6 +10740,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gibeon",
             "entityId": "char-gibeonites"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -8845,7 +10767,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the cities of the children of Aaron, the priests, were thirteen cities with their pasture lands.",
         "translation": "WEB",
         "illustrationId": "ill-jos-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JOS-21:20",
@@ -8856,7 +10787,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The families of the children of Kohath, the Levites, even the rest of the children of Kohath, had the cities of their lot out of the tribe of Ephraim.",
         "translation": "WEB",
         "illustrationId": "ill-jos-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "JOS-21:21",
@@ -8875,6 +10815,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shechem",
             "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
           }
         ]
       },
@@ -8898,7 +10842,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Out of the tribe of Dan, Elteke with its pasture lands, Gibbethon with its pasture lands,",
         "translation": "WEB",
         "illustrationId": "ill-jos-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "JOS-21:24",
@@ -8920,7 +10869,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Out of the half-tribe of Manasseh, Taanach with its pasture lands, and Gath Rimmon with its pasture lands: two cities.",
         "translation": "WEB",
         "illustrationId": "ill-jos-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          }
+        ]
       },
       {
         "id": "JOS-21:26",
@@ -8946,6 +10900,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "refuge",
             "entityId": "term-cities-of-refuge"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -8958,7 +10924,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Out of the tribe of Issachar, Kishion with its pasture lands, Daberath with its pasture lands,",
         "translation": "WEB",
         "illustrationId": "ill-jos-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          }
+        ]
       },
       {
         "id": "JOS-21:29",
@@ -8980,7 +10951,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Out of the tribe of Asher, Mishal with its pasture lands, Abdon with its pasture lands,",
         "translation": "WEB",
         "illustrationId": "ill-jos-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "JOS-21:31",
@@ -9006,6 +10982,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "refuge",
             "entityId": "term-cities-of-refuge"
+          },
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
           }
         ]
       },
@@ -9029,7 +11009,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "To the families of the children of Merari, the rest of the Levites, out of the tribe of Zebulun, Jokneam with its pasture lands, Kartah with its pasture lands,",
         "translation": "WEB",
         "illustrationId": "ill-jos-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "JOS-21:35",
@@ -9051,7 +11040,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Out of the tribe of Reuben, Bezer with its pasture lands, Jahaz with its pasture lands,",
         "translation": "WEB",
         "illustrationId": "ill-jos-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "JOS-21:37",
@@ -9077,6 +11071,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "refuge",
             "entityId": "term-cities-of-refuge"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -9100,7 +11102,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "All these were the cities of the children of Merari according to their families, even the rest of the families of the Levites. Their lot was twelve cities.",
         "translation": "WEB",
         "illustrationId": "ill-jos-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "JOS-21:41",
@@ -9111,7 +11118,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the cities of the Levites among the possessions of the children of Israel were forty-eight cities with their pasture lands.",
         "translation": "WEB",
         "illustrationId": "ill-jos-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JOS-21:42",
@@ -9137,6 +11153,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9169,6 +11189,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -9198,6 +11222,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gadites",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reubenites",
+            "entityId": "char-reuben"
           }
         ]
       },
@@ -9330,6 +11366,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -9369,6 +11413,26 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -9389,6 +11453,22 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar-of-witness"
           }
         ]
       },
@@ -9409,6 +11489,26 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar-of-witness"
           }
         ]
       },
@@ -9425,6 +11525,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shiloh",
             "entityId": "place-shiloh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9445,6 +11549,30 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Phinehas",
             "entityId": "char-phinehas"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9457,7 +11585,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "With him were ten princes, one prince of a fathers’ house for each of the tribes of Israel; and they were each head of their fathers’ houses among the thousands of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-jos-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JOS-22:15",
@@ -9468,7 +11601,24 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "They came to the children of Reuben, and to the children of Gad, and to the half-tribe of Manasseh, to the land of Gilead, and they spoke with them, saying,",
         "translation": "WEB",
         "illustrationId": "ill-jos-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JOS-22:16",
@@ -9487,6 +11637,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar-of-witness"
           }
         ]
       },
@@ -9519,6 +11677,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9539,6 +11701,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar-of-witness"
+          },
+          {
+            "spanText": "tabernacle",
+            "entityId": "term-tabernacle"
           }
         ]
       },
@@ -9555,6 +11725,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Achan",
             "entityId": "char-achan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9567,7 +11741,24 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the children of Reuben and the children of Gad and the half-tribe of Manasseh answered, and spoke to the heads of the thousands of Israel,",
         "translation": "WEB",
         "illustrationId": "ill-jos-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JOS-22:22",
@@ -9586,6 +11777,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9602,6 +11797,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar-of-witness"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -9622,6 +11825,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9642,6 +11849,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
           }
         ]
       },
@@ -9654,7 +11869,16 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Therefore we said, ‘Let’s now prepare to build ourselves an altar, not for burnt offering, nor for sacrifice;",
         "translation": "WEB",
         "illustrationId": "ill-jos-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar-of-witness"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "JOS-22:27",
@@ -9669,6 +11893,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "witness",
+            "entityId": "term-altar-of-witness"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -9685,6 +11917,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar-of-witness"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -9705,6 +11945,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar-of-witness"
+          },
+          {
+            "spanText": "tabernacle",
+            "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -9721,6 +11973,26 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Phinehas",
             "entityId": "char-phinehas"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9745,6 +12017,26 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Phinehas",
             "entityId": "char-phinehas"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9769,6 +12061,26 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9785,6 +12097,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9805,6 +12129,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar-of-witness"
           }
         ]
       }
@@ -9838,6 +12174,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9854,6 +12194,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10149,6 +12493,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shechem",
             "entityId": "place-shechem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10173,6 +12521,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10189,6 +12545,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Canaan",
             "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Isaac",
+            "entityId": "char-isaac"
           }
         ]
       },
@@ -10205,6 +12569,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Isaac",
+            "entityId": "char-isaac"
           }
         ]
       },
@@ -10225,6 +12597,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
           }
         ]
       },
@@ -10277,6 +12653,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -10293,6 +12673,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Balaam",
+            "entityId": "char-balaam"
+          },
+          {
+            "spanText": "Balak",
+            "entityId": "char-balak"
           }
         ]
       },
@@ -10305,7 +12697,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "but I would not listen to Balaam; therefore he blessed you still. So I delivered you out of his hand.",
         "translation": "WEB",
         "illustrationId": "ill-jos-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Balaam",
+            "entityId": "char-balaam"
+          }
+        ]
       },
       {
         "id": "JOS-24:11",
@@ -10324,6 +12721,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Amorite",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Canaanite",
+            "entityId": "char-canaanites"
+          },
+          {
+            "spanText": "Jebusite",
+            "entityId": "char-jebusites"
           }
         ]
       },
@@ -10336,7 +12745,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "I sent the hornet before you, which drove them out from before you, even the two kings of the Amorites; not with your sword, nor with your bow.",
         "translation": "WEB",
         "illustrationId": "ill-jos-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          }
+        ]
       },
       {
         "id": "JOS-24:13",
@@ -10390,6 +12804,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "serve Yahweh",
             "entityId": "term-choose-this-day"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -10454,6 +12872,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "serve Yahweh",
             "entityId": "term-choose-this-day"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
           }
         ]
       },
@@ -10562,6 +12984,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10714,7 +13140,12 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
         "text": "They buried him in the border of his inheritance in Timnathserah, which is in the hill country of Ephraim, on the north of the mountain of Gaash.",
         "translation": "WEB",
         "illustrationId": "ill-jos-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "JOS-24:31",
@@ -10733,6 +13164,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10753,6 +13188,18 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10773,6 +13220,14 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Phinehas",
             "entityId": "char-phinehas"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
           }
         ]
       }

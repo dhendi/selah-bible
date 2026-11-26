@@ -43,7 +43,7 @@ export const ContextualBottomSheet: React.FC = () => {
       navigateToMapPin('loc-ur');
     } else if (region.includes('Haran')) {
       navigateToMapPin('loc-haran');
-    } else if (region.includes('Bethel')) {
+    } else if (region.includes('Bethel') || region.includes('Ai')) {
       navigateToMapPin('loc-bethel');
     } else if (region.includes('Hebron') || region.includes('Machpelah') || region.includes('Beersheba') || region.includes('Dead Sea') || region.includes('Sodom')) {
       navigateToMapPin('loc-hebron');
@@ -51,7 +51,7 @@ export const ContextualBottomSheet: React.FC = () => {
       navigateToMapPin('loc-goshen');
     } else if (region.includes('Ararat')) {
       navigateToMapPin('loc-ararat');
-    } else if (region.includes('Jerusalem') || region.includes('Moriah')) {
+    } else if (region.includes('Jerusalem') || region.includes('Moriah') || region.includes('Jebus')) {
       navigateToMapPin('loc-jerusalem');
     } else if (region.includes('Midian')) {
       navigateToMapPin('loc-midian');
@@ -71,7 +71,7 @@ export const ContextualBottomSheet: React.FC = () => {
       navigateToMapPin('loc-gilgal');
     } else if (region.includes('Shiloh')) {
       navigateToMapPin('loc-shiloh');
-    } else if (region.includes('Tabor') || region.includes('Jezreel')) {
+    } else if (region.includes('Tabor') || region.includes('Jezreel') || region.includes('Hazor') || region.includes('Galilee')) {
       navigateToMapPin('loc-mount-tabor');
     } else if (region.includes('Harod')) {
       navigateToMapPin('loc-harod');
