@@ -25,6 +25,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -37,7 +45,24 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Reuben, Simeon, Levi, and Judah,",
         "translation": "WEB",
         "illustrationId": "ill-exo-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "EXO-1:3",
@@ -59,7 +84,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Dan and Naphtali, Gad and Asher.",
         "translation": "WEB",
         "illustrationId": "ill-exo-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "EXO-1:5",
@@ -74,6 +104,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
           }
         ]
       },
@@ -86,7 +124,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Joseph died, as did all his brothers, and all that generation.",
         "translation": "WEB",
         "illustrationId": "ill-exo-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          }
+        ]
       },
       {
         "id": "EXO-1:7",
@@ -97,7 +140,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Israel were fruitful, and increased abundantly, and multiplied, and grew exceedingly mighty; and the land was filled with them.",
         "translation": "WEB",
         "illustrationId": "ill-exo-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-1:8",
@@ -112,6 +160,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
           }
         ]
       },
@@ -124,7 +176,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to his people, “Behold, the people of the children of Israel are more and mightier than we.",
         "translation": "WEB",
         "illustrationId": "ill-exo-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-1:10",
@@ -162,7 +219,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But the more they afflicted them, the more they multiplied and the more they spread out. They started to dread the children of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-exo-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-1:13",
@@ -173,7 +235,16 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Egyptians ruthlessly made the children of Israel serve,",
         "translation": "WEB",
         "illustrationId": "ill-exo-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
+          }
+        ]
       },
       {
         "id": "EXO-1:14",
@@ -199,6 +270,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Hebrew",
+            "entityId": "char-hebrews"
           }
         ]
       },
@@ -211,7 +286,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and he said, “When you perform the duty of a midwife to the Hebrew women, and see them on the birth stool, if it is a son, then you shall kill him; but if it is a daughter, then she shall live.”",
         "translation": "WEB",
         "illustrationId": "ill-exo-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hebrew",
+            "entityId": "char-hebrews"
+          }
+        ]
       },
       {
         "id": "EXO-1:17",
@@ -262,6 +342,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Hebrew",
+            "entityId": "char-hebrews"
+          },
+          {
+            "spanText": "Egyptian",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -335,7 +423,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A man of the house of Levi went and took a daughter of Levi as his wife.",
         "translation": "WEB",
         "illustrationId": "ill-exo-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          }
+        ]
       },
       {
         "id": "EXO-2:2",
@@ -395,7 +488,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "She opened it, and saw the child, and behold, the baby cried. She had compassion on him, and said, “This is one of the Hebrews’ children.”",
         "translation": "WEB",
         "illustrationId": "ill-exo-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hebrews",
+            "entityId": "char-hebrews"
+          }
+        ]
       },
       {
         "id": "EXO-2:7",
@@ -410,6 +508,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Hebrew",
+            "entityId": "char-hebrews"
           }
         ]
       },
@@ -478,6 +580,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Hebrew",
+            "entityId": "char-hebrews"
+          },
+          {
+            "spanText": "Egyptian",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -490,7 +600,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He looked this way and that way, and when he saw that there was no one, he killed the Egyptian, and hid him in the sand.",
         "translation": "WEB",
         "illustrationId": "ill-exo-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egyptian",
+            "entityId": "char-egyptians"
+          }
+        ]
       },
       {
         "id": "EXO-2:13",
@@ -501,7 +616,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He went out the second day, and behold, two men of the Hebrews were fighting with each other. He said to him who did the wrong, “Why do you strike your fellow?”",
         "translation": "WEB",
         "illustrationId": "ill-exo-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hebrews",
+            "entityId": "char-hebrews"
+          }
+        ]
       },
       {
         "id": "EXO-2:14",
@@ -516,6 +636,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Egyptian",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -595,7 +719,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They said, “An Egyptian delivered us out of the hand of the shepherds, and moreover he drew water for us, and watered the flock.”",
         "translation": "WEB",
         "illustrationId": "ill-exo-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egyptian",
+            "entityId": "char-egyptians"
+          }
+        ]
       },
       {
         "id": "EXO-2:20",
@@ -661,6 +790,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -681,6 +814,18 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Isaac",
+            "entityId": "char-isaac"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -697,6 +842,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -829,6 +978,18 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Isaac",
+            "entityId": "char-isaac"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -861,7 +1022,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I have come down to deliver them out of the hand of the Egyptians, and to bring them up out of that land to a good and large land, to a land flowing with milk and honey; to the place of the Canaanite, the Hittite, the Amorite, the Perizzite, the Hivite, and the Jebusite.",
         "translation": "WEB",
         "illustrationId": "ill-exo-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
+          }
+        ]
       },
       {
         "id": "EXO-3:9",
@@ -872,7 +1038,16 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now, behold, the cry of the children of Israel has come to me. Moreover I have seen the oppression with which the Egyptians oppress them.",
         "translation": "WEB",
         "illustrationId": "ill-exo-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
+          }
+        ]
       },
       {
         "id": "EXO-3:10",
@@ -891,6 +1066,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -919,6 +1098,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -959,6 +1142,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -979,6 +1166,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1003,6 +1194,22 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Isaac",
+            "entityId": "char-isaac"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -1027,6 +1234,22 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Isaac",
+            "entityId": "char-isaac"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -1067,6 +1290,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Hebrews",
+            "entityId": "char-hebrews"
           }
         ]
       },
@@ -1111,7 +1342,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will give this people favor in the sight of the Egyptians, and it will happen that when you go, you shall not go empty-handed.",
         "translation": "WEB",
         "illustrationId": "ill-exo-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
+          }
+        ]
       },
       {
         "id": "EXO-3:22",
@@ -1122,7 +1358,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But every woman shall ask of her neighbor, and of her who visits her house, jewels of silver, jewels of gold, and clothing. You shall put them on your sons, and on your daughters. You shall plunder the Egyptians.”",
         "translation": "WEB",
         "illustrationId": "ill-exo-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
+          }
+        ]
       }
     ]
   },
@@ -1226,6 +1467,18 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Isaac",
+            "entityId": "char-isaac"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -1362,6 +1615,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Levite",
+            "entityId": "char-levi"
           }
         ]
       },
@@ -1524,6 +1781,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1654,6 +1915,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1694,6 +1959,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -1739,6 +2008,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1759,6 +2032,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1779,6 +2056,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Hebrews",
+            "entityId": "char-hebrews"
           }
         ]
       },
@@ -1943,6 +2224,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1959,6 +2244,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2013,7 +2302,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The officers of the children of Israel saw that they were in trouble when it was said, “You shall not diminish anything from your daily quota of bricks!”",
         "translation": "WEB",
         "illustrationId": "ill-exo-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-5:20",
@@ -2173,6 +2467,18 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Isaac",
+            "entityId": "char-isaac"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -2189,6 +2495,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Canaan",
+            "entityId": "place-canaan"
           }
         ]
       },
@@ -2205,6 +2515,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -2221,6 +2539,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -2241,6 +2567,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -2257,6 +2587,18 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Isaac",
+            "entityId": "char-isaac"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -2273,6 +2615,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2313,6 +2659,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2337,6 +2687,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2369,6 +2723,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2381,7 +2739,16 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the heads of their fathers’ houses. The sons of Reuben the firstborn of Israel: Hanoch, and Pallu, Hezron, and Carmi; these are the families of Reuben.",
         "translation": "WEB",
         "illustrationId": "ill-exo-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "EXO-6:15",
@@ -2392,7 +2759,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Simeon: Jemuel, and Jamin, and Ohad, and Jachin, and Zohar, and Shaul the son of a Canaanite woman; these are the families of Simeon.",
         "translation": "WEB",
         "illustrationId": "ill-exo-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "EXO-6:16",
@@ -2403,7 +2775,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the names of the sons of Levi according to their generations: Gershon, and Kohath, and Merari; and the years of the life of Levi were one hundred thirty-seven years.",
         "translation": "WEB",
         "illustrationId": "ill-exo-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          }
+        ]
       },
       {
         "id": "EXO-6:17",
@@ -2436,7 +2813,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Merari: Mahli and Mushi. These are the families of the Levites according to their generations.",
         "translation": "WEB",
         "illustrationId": "ill-exo-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "char-levi"
+          }
+        ]
       },
       {
         "id": "EXO-6:20",
@@ -2497,6 +2879,22 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Nadab",
+            "entityId": "char-nadab"
+          },
+          {
+            "spanText": "Abihu",
+            "entityId": "char-abihu"
+          },
+          {
+            "spanText": "Eleazar",
+            "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "Ithamar",
+            "entityId": "char-ithamar"
           }
         ]
       },
@@ -2524,6 +2922,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Eleazar",
+            "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "char-levi"
           }
         ]
       },
@@ -2552,6 +2958,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2580,6 +2990,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2721,6 +3135,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2761,6 +3179,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2781,6 +3203,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3017,6 +3443,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Hebrews",
+            "entityId": "char-hebrews"
           }
         ]
       },
@@ -3045,7 +3475,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The fish that are in the river will die and the river will become foul. The Egyptians will loathe to drink water from the river.” ’ ”",
         "translation": "WEB",
         "illustrationId": "ill-exo-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
+          }
+        ]
       },
       {
         "id": "EXO-7:19",
@@ -3168,7 +3603,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the Egyptians dug around the river for water to drink; for they couldn’t drink the river water.",
         "translation": "WEB",
         "illustrationId": "ill-exo-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
+          }
+        ]
       },
       {
         "id": "EXO-7:25",
@@ -3232,7 +3672,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If you refuse to let them go, behold, I will plague all your borders with frogs.",
         "translation": "WEB",
         "illustrationId": "ill-exo-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "plague",
+            "entityId": "term-plagues"
+          }
+        ]
       },
       {
         "id": "EXO-8:3",
@@ -3602,7 +4047,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Else, if you will not let my people go, behold, I will send swarms of flies on you, and on your servants, and on your people, and into your houses. The houses of the Egyptians shall be full of swarms of flies, and also the ground they are on.",
         "translation": "WEB",
         "illustrationId": "ill-exo-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
+          }
+        ]
       },
       {
         "id": "EXO-8:22",
@@ -3708,6 +4158,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -3881,6 +4335,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Hebrews",
+            "entityId": "char-hebrews"
           }
         ]
       },
@@ -3928,6 +4386,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3964,6 +4426,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3980,6 +4446,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Israelites",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4060,6 +4530,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -4112,6 +4586,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Hebrews",
+            "entityId": "char-hebrews"
           }
         ]
       },
@@ -4124,7 +4602,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For this time I will send all my plagues against your heart, against your officials, and against your people; that you may know that there is no one like me in all the earth.",
         "translation": "WEB",
         "illustrationId": "ill-exo-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "plagues",
+            "entityId": "term-plagues"
+          }
+        ]
       },
       {
         "id": "EXO-9:15",
@@ -4315,6 +4798,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Goshen",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4485,6 +4972,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -4574,6 +5065,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Hebrews",
+            "entityId": "char-hebrews"
           }
         ]
       },
@@ -4612,6 +5107,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -4928,6 +5427,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4984,7 +5487,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They didn’t see one another, and nobody rose from his place for three days; but all the children of Israel had light in their dwellings.",
         "translation": "WEB",
         "illustrationId": "ill-exo-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-10:24",
@@ -5144,6 +5652,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "plague",
+            "entityId": "term-plagues"
           }
         ]
       },
@@ -5259,6 +5771,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -5331,6 +5851,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -5395,7 +5919,16 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Speak to all the congregation of Israel, saying, ‘On the tenth day of this month, they shall take to them every man a lamb, according to their fathers’ houses, a lamb for a household;",
         "translation": "WEB",
         "illustrationId": "ill-exo-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "lamb",
+            "entityId": "term-passover-lamb"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-12:4",
@@ -5406,7 +5939,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and if the household is too little for a lamb, then he and his neighbor next to his house shall take one according to the number of the souls. You shall make your count for the lamb according to what everyone can eat.",
         "translation": "WEB",
         "illustrationId": "ill-exo-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "lamb",
+            "entityId": "term-passover-lamb"
+          }
+        ]
       },
       {
         "id": "EXO-12:5",
@@ -5417,7 +5955,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your lamb shall be without defect, a male a year old. You shall take it from the sheep, or from the goats.",
         "translation": "WEB",
         "illustrationId": "ill-exo-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "lamb",
+            "entityId": "term-passover-lamb"
+          }
+        ]
       },
       {
         "id": "EXO-12:6",
@@ -5428,7 +5971,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall keep it until the fourteenth day of the same month; and the whole assembly of the congregation of Israel shall kill it at evening.",
         "translation": "WEB",
         "illustrationId": "ill-exo-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-12:7",
@@ -5532,6 +6080,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "plague",
+            "entityId": "term-plagues"
           }
         ]
       },
@@ -5564,6 +6116,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "bread",
             "entityId": "term-bread"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5623,7 +6179,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "There shall be no yeast found in your houses for seven days, for whoever eats that which is leavened, that soul shall be cut off from the congregation of Israel, whether he is a foreigner, or one who is born in the land.",
         "translation": "WEB",
         "illustrationId": "ill-exo-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-12:20",
@@ -5658,6 +6219,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Passover",
             "entityId": "term-passover"
+          },
+          {
+            "spanText": "lambs",
+            "entityId": "term-passover-lamb"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5685,6 +6254,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -5747,6 +6320,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5771,6 +6348,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5839,6 +6420,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5862,7 +6447,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Egyptians were urgent with the people, to send them out of the land in haste, for they said, “We are all dead men.”",
         "translation": "WEB",
         "illustrationId": "ill-exo-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
+          }
+        ]
       },
       {
         "id": "EXO-12:34",
@@ -5888,6 +6478,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -5904,6 +6502,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -5916,7 +6518,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Israel traveled from Rameses to Succoth, about six hundred thousand on foot who were men, in addition to children.",
         "translation": "WEB",
         "illustrationId": "ill-exo-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-12:38",
@@ -5958,6 +6565,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5998,6 +6609,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6071,7 +6686,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the congregation of Israel shall keep it.",
         "translation": "WEB",
         "illustrationId": "ill-exo-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-12:48",
@@ -6125,6 +6745,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6145,6 +6769,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -6190,7 +6818,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Sanctify to me all the firstborn, whatever opens the womb among the children of Israel, both of man and of animal. It is mine.”",
         "translation": "WEB",
         "illustrationId": "ill-exo-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-13:3",
@@ -6229,7 +6862,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Today you go out in the month Abib.",
         "translation": "WEB",
         "illustrationId": "ill-exo-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abib",
+            "entityId": "term-abib"
+          }
+        ]
       },
       {
         "id": "EXO-13:5",
@@ -6375,7 +7013,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Every firstborn of a donkey you shall redeem with a lamb; and if you will not redeem it, then you shall break its neck; and you shall redeem all the firstborn of man among your sons.",
         "translation": "WEB",
         "illustrationId": "ill-exo-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "lamb",
+            "entityId": "term-passover-lamb"
+          }
+        ]
       },
       {
         "id": "EXO-13:14",
@@ -6486,6 +7129,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Red Sea",
             "entityId": "place-red-sea"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6506,6 +7153,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
           }
         ]
       },
@@ -6533,6 +7188,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "pillar",
+            "entityId": "term-pillar-fire"
           }
         ]
       },
@@ -6545,7 +7204,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "the pillar of cloud by day, and the pillar of fire by night, didn’t depart from before the people.",
         "translation": "WEB",
         "illustrationId": "ill-exo-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "pillar",
+            "entityId": "term-pillar-fire"
+          }
+        ]
       }
     ]
   },
@@ -6589,7 +7253,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Speak to the children of Israel, that they turn back and encamp before Pihahiroth, between Migdol and the sea, before Baal Zephon. You shall encamp opposite it by the sea.",
         "translation": "WEB",
         "illustrationId": "ill-exo-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-14:3",
@@ -6604,6 +7273,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6624,6 +7297,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -6644,6 +7321,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6695,6 +7376,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6711,6 +7396,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -6731,6 +7420,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -6787,6 +7484,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -6823,6 +7524,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6835,7 +7540,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Lift up your rod, and stretch out your hand over the sea and divide it. Then the children of Israel shall go into the middle of the sea on dry ground.",
         "translation": "WEB",
         "illustrationId": "ill-exo-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-14:17",
@@ -6850,6 +7560,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -6870,6 +7584,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -6886,6 +7604,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "pillar",
+            "entityId": "term-pillar-fire"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6902,6 +7628,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6934,7 +7664,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Israel went into the middle of the sea on the dry ground, and the waters were a wall to them on their right hand, and on their left.",
         "translation": "WEB",
         "illustrationId": "ill-exo-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-14:23",
@@ -6949,6 +7684,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -6965,6 +7704,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "pillar",
+            "entityId": "term-pillar-fire"
+          },
+          {
+            "spanText": "Egyptian",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -6981,6 +7728,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -7001,6 +7756,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -7021,6 +7780,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -7049,7 +7812,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But the children of Israel walked on dry land in the middle of the sea, and the waters were a wall to them on their right hand, and on their left.",
         "translation": "WEB",
         "illustrationId": "ill-exo-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-14:30",
@@ -7064,6 +7832,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -7084,6 +7860,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       }
@@ -7117,6 +7901,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7301,7 +8089,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the chiefs of Edom were dismayed. Trembling takes hold of the mighty men of Moab. All the inhabitants of Canaan have melted away.",
         "translation": "WEB",
         "illustrationId": "ill-exo-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Canaan",
+            "entityId": "place-canaan"
+          }
+        ]
       },
       {
         "id": "EXO-15:16",
@@ -7368,6 +8161,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7428,6 +8225,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Red Sea",
             "entityId": "place-red-sea"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7500,6 +8301,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "commandments",
             "entityId": "term-commandments"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -7557,6 +8362,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "wilderness of Sin",
             "entityId": "place-wilderness-of-sin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7577,6 +8386,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7601,6 +8414,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7664,6 +8481,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7728,6 +8549,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7748,6 +8573,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7792,6 +8621,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "bread",
             "entityId": "term-bread"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7848,6 +8681,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "bread",
             "entityId": "term-bread"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7876,7 +8713,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Israel did so, and some gathered more, some less.",
         "translation": "WEB",
         "illustrationId": "ill-exo-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-16:18",
@@ -8111,6 +8953,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Manna",
             "entityId": "term-manna"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8207,6 +9053,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "manna",
             "entityId": "term-manna"
+          },
+          {
+            "spanText": "Canaan",
+            "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8255,6 +9109,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "wilderness of Sin",
             "entityId": "place-wilderness-of-sin"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8339,6 +9197,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Nile",
             "entityId": "place-nile"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8359,6 +9221,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Horeb",
             "entityId": "place-sinai"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8375,6 +9241,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8391,6 +9261,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Rephidim",
             "entityId": "place-rephidim"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Amalek",
+            "entityId": "char-amalek"
           }
         ]
       },
@@ -8415,6 +9293,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Amalek",
+            "entityId": "char-amalek"
           }
         ]
       },
@@ -8443,6 +9325,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hur",
             "entityId": "char-hur"
+          },
+          {
+            "spanText": "Amalek",
+            "entityId": "char-amalek"
           }
         ]
       },
@@ -8459,6 +9345,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Amalek",
+            "entityId": "char-amalek"
           }
         ]
       },
@@ -8499,6 +9393,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Amalek",
+            "entityId": "char-amalek"
           }
         ]
       },
@@ -8523,6 +9421,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "Amalek",
+            "entityId": "char-amalek"
           }
         ]
       },
@@ -8543,6 +9445,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -8559,6 +9465,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Amalek",
+            "entityId": "char-amalek"
           }
         ]
       }
@@ -8608,6 +9518,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Midian",
             "entityId": "place-midian"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8752,6 +9666,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -8772,6 +9694,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jethro",
             "entityId": "char-jethro"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -8796,6 +9726,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jethro",
             "entityId": "char-jethro"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
           }
         ]
       },
@@ -8844,6 +9778,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "bread",
             "entityId": "term-bread"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9041,6 +9979,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9106,6 +10048,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sinai",
             "entityId": "place-sinai"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9126,6 +10072,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Rephidim",
             "entityId": "place-rephidim"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9150,6 +10100,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -9162,7 +10120,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "‘You have seen what I did to the Egyptians, and how I bore you on eagles’ wings, and brought you to myself.",
         "translation": "WEB",
         "illustrationId": "ill-exo-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
+          }
+        ]
       },
       {
         "id": "EXO-19:5",
@@ -9189,7 +10152,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and you shall be to me a kingdom of priests, and a holy nation.’ These are the words which you shall speak to the children of Israel.”",
         "translation": "WEB",
         "illustrationId": "ill-exo-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-19:7",
@@ -9896,6 +10864,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9919,7 +10891,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall make an altar of earth for me, and shall sacrifice on it your burnt offerings and your peace offerings, your sheep and your cattle. In every place where I record my name I will come to you and I will bless you.",
         "translation": "WEB",
         "illustrationId": "ill-exo-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-20:25",
@@ -9930,7 +10907,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If you make me an altar of stone, you shall not build it of cut stones; for if you lift up your tool on it, you have polluted it.",
         "translation": "WEB",
         "illustrationId": "ill-exo-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-20:26",
@@ -9941,7 +10923,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall not go up by steps to my altar, that your nakedness may not be exposed to it.’",
         "translation": "WEB",
         "illustrationId": "ill-exo-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       }
     ]
   },
@@ -9976,7 +10963,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“If you buy a Hebrew servant, he shall serve six years, and in the seventh he shall go out free without paying anything.",
         "translation": "WEB",
         "illustrationId": "ill-exo-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hebrew",
+            "entityId": "char-hebrews"
+          }
+        ]
       },
       {
         "id": "EXO-21:3",
@@ -10118,7 +11110,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If a man schemes and comes presumptuously on his neighbor to kill him, you shall take him from my altar, that he may die.",
         "translation": "WEB",
         "illustrationId": "ill-exo-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-21:15",
@@ -10935,6 +11932,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Abib",
+            "entityId": "term-abib"
           }
         ]
       },
@@ -11212,6 +12213,18 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Nadab",
+            "entityId": "char-nadab"
+          },
+          {
+            "spanText": "Abihu",
+            "entityId": "char-abihu"
           }
         ]
       },
@@ -11272,6 +12285,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11288,6 +12309,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11304,6 +12329,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -11368,6 +12397,18 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Nadab",
+            "entityId": "char-nadab"
+          },
+          {
+            "spanText": "Abihu",
+            "entityId": "char-abihu"
           }
         ]
       },
@@ -11384,6 +12425,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11400,6 +12445,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11520,6 +12569,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11581,7 +12634,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Speak to the children of Israel, that they take an offering for me. From everyone whose heart makes him willing you shall take my offering.",
         "translation": "WEB",
         "illustrationId": "ill-exo-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-25:3",
@@ -11625,7 +12683,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "oil for the light, spices for the anointing oil and for the sweet incense,",
         "translation": "WEB",
         "illustrationId": "ill-exo-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "EXO-25:7",
@@ -11636,7 +12699,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "onyx stones, and stones to be set for the ephod and for the breastplate.",
         "translation": "WEB",
         "illustrationId": "ill-exo-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          }
+        ]
       },
       {
         "id": "EXO-25:8",
@@ -11674,7 +12742,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“They shall make an ark of acacia wood. Its length shall be two and a half cubits, its width a cubit and a half, and a cubit and a half its height.",
         "translation": "WEB",
         "illustrationId": "ill-exo-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
+          }
+        ]
       },
       {
         "id": "EXO-25:11",
@@ -11718,7 +12791,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall put the poles into the rings on the sides of the ark to carry the ark.",
         "translation": "WEB",
         "illustrationId": "ill-exo-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
+          }
+        ]
       },
       {
         "id": "EXO-25:15",
@@ -11729,7 +12807,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The poles shall be in the rings of the ark. They shall not be taken from it.",
         "translation": "WEB",
         "illustrationId": "ill-exo-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
+          }
+        ]
       },
       {
         "id": "EXO-25:16",
@@ -11744,6 +12827,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -11776,6 +12863,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy seat",
             "entityId": "term-mercy-seat"
+          },
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
           }
         ]
       },
@@ -11792,6 +12883,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy seat",
             "entityId": "term-mercy-seat"
+          },
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
           }
         ]
       },
@@ -11808,6 +12903,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy seat",
             "entityId": "term-mercy-seat"
+          },
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
           }
         ]
       },
@@ -11828,6 +12927,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy seat",
             "entityId": "term-mercy-seat"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -11848,6 +12951,18 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy seat",
             "entityId": "term-mercy-seat"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12080,6 +13195,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
           }
         ]
       },
@@ -12476,7 +13595,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“You shall make a veil of blue, and purple, and scarlet, and fine twined linen, with cherubim. It shall be the work of a skillful workman.",
         "translation": "WEB",
         "illustrationId": "ill-exo-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
+          }
+        ]
       },
       {
         "id": "EXO-26:32",
@@ -12502,6 +13626,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -12522,6 +13650,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy seat",
             "entityId": "term-mercy-seat"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -12585,7 +13717,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“You shall make the altar of acacia wood, five cubits long, and five cubits wide. The altar shall be square. Its height shall be three cubits.",
         "translation": "WEB",
         "illustrationId": "ill-exo-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-27:2",
@@ -12629,7 +13766,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall put it under the ledge around the altar beneath, that the net may reach halfway up the altar.",
         "translation": "WEB",
         "illustrationId": "ill-exo-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-27:6",
@@ -12640,7 +13782,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall make poles for the altar, poles of acacia wood, and overlay them with bronze.",
         "translation": "WEB",
         "illustrationId": "ill-exo-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-27:7",
@@ -12651,7 +13798,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Its poles shall be put into the rings, and the poles shall be on the two sides of the altar when carrying it.",
         "translation": "WEB",
         "illustrationId": "ill-exo-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-27:8",
@@ -12804,7 +13956,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“You shall command the children of Israel, that they bring to you pure olive oil beaten for the light, to cause a lamp to burn continually.",
         "translation": "WEB",
         "illustrationId": "ill-exo-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-27:21",
@@ -12827,6 +13984,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -12856,6 +14021,26 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Nadab",
+            "entityId": "char-nadab"
+          },
+          {
+            "spanText": "Abihu",
+            "entityId": "char-abihu"
+          },
+          {
+            "spanText": "Eleazar",
+            "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "Ithamar",
+            "entityId": "char-ithamar"
           }
         ]
       },
@@ -12904,6 +14089,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
           }
         ]
       },
@@ -12927,7 +14116,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“They shall make the ephod of gold, blue, purple, scarlet, and fine twined linen, the work of the skillful workman.",
         "translation": "WEB",
         "illustrationId": "ill-exo-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          }
+        ]
       },
       {
         "id": "EXO-28:7",
@@ -12960,7 +14154,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall take two onyx stones, and engrave on them the names of the children of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-exo-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-28:10",
@@ -12982,7 +14181,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "With the work of an engraver in stone, like the engravings of a signet, you shall engrave the two stones, according to the names of the children of Israel. You shall make them to be enclosed in settings of gold.",
         "translation": "WEB",
         "illustrationId": "ill-exo-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-28:12",
@@ -13001,6 +14205,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13035,7 +14247,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“You shall make a breastplate of judgment, the work of the skillful workman; like the work of the ephod you shall make it; of gold, of blue, and purple, and scarlet, and fine twined linen, you shall make it.",
         "translation": "WEB",
         "illustrationId": "ill-exo-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          }
+        ]
       },
       {
         "id": "EXO-28:16",
@@ -13101,7 +14318,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The stones shall be according to the names of the children of Israel, twelve, according to their names; like the engravings of a signet, everyone according to his name, they shall be for the twelve tribes.",
         "translation": "WEB",
         "illustrationId": "ill-exo-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-28:22",
@@ -13145,7 +14367,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The other two ends of the two braided chains you shall put on the two settings, and put them on the shoulder straps of the ephod in its forepart.",
         "translation": "WEB",
         "illustrationId": "ill-exo-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          }
+        ]
       },
       {
         "id": "EXO-28:26",
@@ -13156,7 +14383,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall make two rings of gold, and you shall put them on the two ends of the breastplate, on its edge, which is toward the side of the ephod inward.",
         "translation": "WEB",
         "illustrationId": "ill-exo-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          }
+        ]
       },
       {
         "id": "EXO-28:27",
@@ -13167,7 +14399,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall make two rings of gold, and shall put them on the two shoulder straps of the ephod underneath, in its forepart, close by its coupling, above the skillfully woven band of the ephod.",
         "translation": "WEB",
         "illustrationId": "ill-exo-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          }
+        ]
       },
       {
         "id": "EXO-28:28",
@@ -13178,7 +14415,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They shall bind the breastplate by its rings to the rings of the ephod with a lace of blue, that it may be on the skillfully woven band of the ephod, and that the breastplate may not swing out from the ephod.",
         "translation": "WEB",
         "illustrationId": "ill-exo-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          }
+        ]
       },
       {
         "id": "EXO-28:29",
@@ -13197,6 +14439,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13217,6 +14463,18 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Urim",
+            "entityId": "term-urim-thummim"
+          },
+          {
+            "spanText": "Thummim",
+            "entityId": "term-urim-thummim"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13229,7 +14487,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“You shall make the robe of the ephod all of blue.",
         "translation": "WEB",
         "illustrationId": "ill-exo-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          }
+        ]
       },
       {
         "id": "EXO-28:32",
@@ -13323,6 +14586,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13393,6 +14660,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       }
@@ -13460,6 +14735,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -13476,6 +14755,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
           }
         ]
       },
@@ -13541,6 +14824,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -13557,6 +14844,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -13569,7 +14860,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall take of the blood of the bull, and put it on the horns of the altar with your finger; and you shall pour out all the blood at the base of the altar.",
         "translation": "WEB",
         "illustrationId": "ill-exo-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-29:13",
@@ -13580,7 +14876,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall take all the fat that covers the innards, the cover of the liver, the two kidneys, and the fat that is on them, and burn them on the altar.",
         "translation": "WEB",
         "illustrationId": "ill-exo-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-29:14",
@@ -13618,7 +14919,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall kill the ram, and you shall take its blood, and sprinkle it around on the altar.",
         "translation": "WEB",
         "illustrationId": "ill-exo-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-29:17",
@@ -13644,6 +14950,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -13676,6 +14986,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -13692,6 +15006,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -13759,6 +15077,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -13815,6 +15137,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13843,7 +15169,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Seven days shall the son who is priest in his place put them on, when he comes into the Tent of Meeting to minister in the holy place.",
         "translation": "WEB",
         "illustrationId": "ill-exo-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
+          }
+        ]
       },
       {
         "id": "EXO-29:31",
@@ -13873,6 +15204,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "bread",
             "entityId": "term-bread"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -13928,7 +15263,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Every day you shall offer the bull of sin offering for atonement. You shall cleanse the altar when you make atonement for it. You shall anoint it, to sanctify it.",
         "translation": "WEB",
         "illustrationId": "ill-exo-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-29:37",
@@ -13939,7 +15279,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Seven days you shall make atonement for the altar, and sanctify it; and the altar shall be most holy. Whatever touches the altar shall be holy.",
         "translation": "WEB",
         "illustrationId": "ill-exo-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-29:38",
@@ -13950,7 +15295,16 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Now this is that which you shall offer on the altar: two lambs a year old day by day continually.",
         "translation": "WEB",
         "illustrationId": "ill-exo-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "lambs",
+            "entityId": "term-passover-lamb"
+          }
+        ]
       },
       {
         "id": "EXO-29:39",
@@ -13961,7 +15315,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The one lamb you shall offer in the morning; and the other lamb you shall offer at evening;",
         "translation": "WEB",
         "illustrationId": "ill-exo-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "lamb",
+            "entityId": "term-passover-lamb"
+          }
+        ]
       },
       {
         "id": "EXO-29:40",
@@ -13972,7 +15331,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and with the one lamb a tenth part of an ephah of fine flour mixed with the fourth part of a hin of beaten oil, and the fourth part of a hin of wine for a drink offering.",
         "translation": "WEB",
         "illustrationId": "ill-exo-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "lamb",
+            "entityId": "term-passover-lamb"
+          }
+        ]
       },
       {
         "id": "EXO-29:41",
@@ -13987,6 +15351,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "lamb",
+            "entityId": "term-passover-lamb"
           }
         ]
       },
@@ -14003,6 +15371,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -14015,7 +15387,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "There I will meet with the children of Israel; and the place shall be sanctified by my glory.",
         "translation": "WEB",
         "illustrationId": "ill-exo-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-29:44",
@@ -14030,6 +15407,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -14046,6 +15431,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -14095,7 +15484,16 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“You shall make an altar to burn incense on. You shall make it of acacia wood.",
         "translation": "WEB",
         "illustrationId": "ill-exo-30",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-30:2",
@@ -14158,6 +15556,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy seat",
             "entityId": "term-mercy-seat"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -14174,6 +15576,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
           }
         ]
       },
@@ -14194,6 +15600,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
           }
         ]
       },
@@ -14206,7 +15616,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall offer no strange incense on it, nor burnt offering, nor meal offering; and you shall pour no drink offering on it.",
         "translation": "WEB",
         "illustrationId": "ill-exo-30",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "EXO-30:10",
@@ -14261,6 +15676,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "plague",
+            "entityId": "term-plagues"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -14325,6 +15748,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -14357,7 +15788,16 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“You shall also make a basin of bronze, and its base of bronze, in which to wash. You shall put it between the Tent of Meeting and the altar, and you shall put water in it.",
         "translation": "WEB",
         "illustrationId": "ill-exo-30",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-30:19",
@@ -14388,6 +15828,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -14468,6 +15916,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -14480,7 +15936,16 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "the table and all its articles, the lamp stand and its accessories, the altar of incense,",
         "translation": "WEB",
         "illustrationId": "ill-exo-30",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-30:28",
@@ -14491,7 +15956,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "the altar of burnt offering with all its utensils, and the basin with its base.",
         "translation": "WEB",
         "illustrationId": "ill-exo-30",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-30:29",
@@ -14529,7 +15999,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall speak to the children of Israel, saying, ‘This shall be a holy anointing oil to me throughout your generations.",
         "translation": "WEB",
         "illustrationId": "ill-exo-30",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-30:32",
@@ -14582,7 +16057,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall make incense of it, a perfume after the art of the perfumer, seasoned with salt, pure and holy.",
         "translation": "WEB",
         "illustrationId": "ill-exo-30",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "EXO-30:36",
@@ -14597,6 +16077,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -14613,6 +16097,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
           }
         ]
       },
@@ -14677,6 +16165,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hur",
             "entityId": "char-hur"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -14731,7 +16223,16 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, I myself have appointed with him Oholiab, the son of Ahisamach, of the tribe of Dan; and in the heart of all who are wise-hearted I have put wisdom, that they may make all that I have commanded you:",
         "translation": "WEB",
         "illustrationId": "ill-exo-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Oholiab",
+            "entityId": "char-oholiab"
+          },
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "EXO-31:7",
@@ -14750,6 +16251,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy seat",
             "entityId": "term-mercy-seat"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -14762,7 +16271,16 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "the table and its vessels, the pure lamp stand with all its vessels, the altar of incense,",
         "translation": "WEB",
         "illustrationId": "ill-exo-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-31:9",
@@ -14773,7 +16291,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "the altar of burnt offering with all its vessels, the basin and its base,",
         "translation": "WEB",
         "illustrationId": "ill-exo-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-31:10",
@@ -14800,7 +16323,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "the anointing oil, and the incense of sweet spices for the holy place: according to all that I have commanded you they shall do.”",
         "translation": "WEB",
         "illustrationId": "ill-exo-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "EXO-31:12",
@@ -14835,6 +16363,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -14891,6 +16427,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -14907,6 +16447,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15020,6 +16564,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "calf",
+            "entityId": "term-golden-calf"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15040,6 +16592,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -15091,6 +16647,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "calf",
+            "entityId": "term-golden-calf"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15162,7 +16726,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Why should the Egyptians talk, saying, ‘He brought them out for evil, to kill them in the mountains, and to consume them from the surface of the earth?’ Turn from your fierce wrath, and turn away from this evil against your people.",
         "translation": "WEB",
         "illustrationId": "ill-exo-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egyptians",
+            "entityId": "char-egyptians"
+          }
+        ]
       },
       {
         "id": "EXO-32:13",
@@ -15173,7 +16742,20 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Remember Abraham, Isaac, and Israel, your servants, to whom you swore by your own self, and said to them, ‘I will multiply your offspring as the stars of the sky, and all this land that I have spoken of I will give to your offspring, and they shall inherit it forever.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-exo-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Isaac",
+            "entityId": "char-isaac"
+          }
+        ]
       },
       {
         "id": "EXO-32:14",
@@ -15271,6 +16853,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "calf",
+            "entityId": "term-golden-calf"
           }
         ]
       },
@@ -15283,7 +16869,16 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He took the calf which they had made, and burned it with fire, ground it to powder, and scattered it on the water, and made the children of Israel drink it.",
         "translation": "WEB",
         "illustrationId": "ill-exo-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "calf",
+            "entityId": "term-golden-calf"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-32:21",
@@ -15350,7 +16945,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I said to them, ‘Whoever has any gold, let them take it off.’ So they gave it to me; and I threw it into the fire, and out came this calf.”",
         "translation": "WEB",
         "illustrationId": "ill-exo-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "calf",
+            "entityId": "term-golden-calf"
+          }
+        ]
       },
       {
         "id": "EXO-32:25",
@@ -15389,6 +16989,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
           }
         ]
       },
@@ -15409,6 +17013,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15425,6 +17033,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
           }
         ]
       },
@@ -15547,6 +17159,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "calf",
+            "entityId": "term-golden-calf"
           }
         ]
       }
@@ -15584,6 +17200,18 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Isaac",
+            "entityId": "char-isaac"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -15637,6 +17265,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15653,6 +17285,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Horeb",
             "entityId": "place-sinai"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15673,6 +17309,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -15709,6 +17349,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "pillar",
+            "entityId": "term-pillar-fire"
           }
         ]
       },
@@ -15721,7 +17365,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the people saw the pillar of cloud stand at the door of the Tent, and all the people rose up and worshiped, everyone at their tent door.",
         "translation": "WEB",
         "illustrationId": "ill-exo-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "pillar",
+            "entityId": "term-pillar-fire"
+          }
+        ]
       },
       {
         "id": "EXO-33:11",
@@ -16131,7 +17780,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "but you shall break down their altars, and dash in pieces their pillars, and you shall cut down their Asherah poles;",
         "translation": "WEB",
         "illustrationId": "ill-exo-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altars",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-34:14",
@@ -16208,6 +17862,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Abib",
+            "entityId": "term-abib"
           }
         ]
       },
@@ -16231,7 +17889,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall redeem the firstborn of a donkey with a lamb. If you will not redeem it, then you shall break its neck. You shall redeem all the firstborn of your sons. No one shall appear before me empty.",
         "translation": "WEB",
         "illustrationId": "ill-exo-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "lamb",
+            "entityId": "term-passover-lamb"
+          }
+        ]
       },
       {
         "id": "EXO-34:21",
@@ -16272,6 +17935,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -16356,6 +18023,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -16428,6 +18099,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -16472,6 +18147,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sinai",
             "entityId": "place-sinai"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -16508,6 +18187,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -16524,6 +18207,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -16557,6 +18244,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -16613,6 +18304,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -16663,7 +18358,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "oil for the light, spices for the anointing oil and for the sweet incense,",
         "translation": "WEB",
         "illustrationId": "ill-exo-35",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "EXO-35:9",
@@ -16674,7 +18374,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "onyx stones, and stones to be set for the ephod and for the breastplate.",
         "translation": "WEB",
         "illustrationId": "ill-exo-35",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          }
+        ]
       },
       {
         "id": "EXO-35:10",
@@ -16721,6 +18426,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy seat",
             "entityId": "term-mercy-seat"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -16764,6 +18473,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -16776,7 +18493,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "the altar of burnt offering, with its grating of bronze, its poles, and all its vessels, the basin and its base;",
         "translation": "WEB",
         "illustrationId": "ill-exo-35",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-35:17",
@@ -16834,6 +18556,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -16850,6 +18576,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -16927,7 +18657,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The rulers brought the onyx stones and the stones to be set for the ephod and for the breastplate;",
         "translation": "WEB",
         "illustrationId": "ill-exo-35",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          }
+        ]
       },
       {
         "id": "EXO-35:28",
@@ -16938,7 +18673,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "with the spice and the oil for the light, for the anointing oil, and for the sweet incense.",
         "translation": "WEB",
         "illustrationId": "ill-exo-35",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "EXO-35:29",
@@ -16957,6 +18697,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -16985,6 +18729,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hur",
             "entityId": "char-hur"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -17039,7 +18791,16 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He has put in his heart that he may teach, both he and Oholiab, the son of Ahisamach, of the tribe of Dan.",
         "translation": "WEB",
         "illustrationId": "ill-exo-35",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Oholiab",
+            "entityId": "char-oholiab"
+          },
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "EXO-35:35",
@@ -17082,6 +18843,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bezalel",
             "entityId": "char-bezalel"
+          },
+          {
+            "spanText": "Oholiab",
+            "entityId": "char-oholiab"
           }
         ]
       },
@@ -17106,6 +18871,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bezalel",
             "entityId": "char-bezalel"
+          },
+          {
+            "spanText": "Oholiab",
+            "entityId": "char-oholiab"
           }
         ]
       },
@@ -17122,6 +18891,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -17196,6 +18969,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
           }
         ]
       },
@@ -17544,7 +19321,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He made the veil of blue, purple, scarlet, and fine twined linen, with cherubim. He made it the work of a skillful workman.",
         "translation": "WEB",
         "illustrationId": "ill-exo-36",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
+          }
+        ]
       },
       {
         "id": "EXO-36:36",
@@ -17605,6 +19387,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bezalel",
             "entityId": "char-bezalel"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -17650,7 +19436,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He put the poles into the rings on the sides of the ark, to bear the ark.",
         "translation": "WEB",
         "illustrationId": "ill-exo-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
+          }
+        ]
       },
       {
         "id": "EXO-37:6",
@@ -17681,6 +19472,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy seat",
             "entityId": "term-mercy-seat"
+          },
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
           }
         ]
       },
@@ -17697,6 +19492,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy seat",
             "entityId": "term-mercy-seat"
+          },
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
           }
         ]
       },
@@ -17713,6 +19512,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy seat",
             "entityId": "term-mercy-seat"
+          },
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
           }
         ]
       },
@@ -17890,7 +19693,16 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He made the altar of incense of acacia wood. It was square: its length was a cubit, and its width a cubit. Its height was two cubits. Its horns were of one piece with it.",
         "translation": "WEB",
         "illustrationId": "ill-exo-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-37:26",
@@ -17934,7 +19746,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He made the holy anointing oil and the pure incense of sweet spices, after the art of the perfumer.",
         "translation": "WEB",
         "illustrationId": "ill-exo-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       }
     ]
   },
@@ -17958,7 +19775,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He made the altar of burnt offering of acacia wood. It was square. Its length was five cubits, its width was five cubits, and its height was three cubits.",
         "translation": "WEB",
         "illustrationId": "ill-exo-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-38:2",
@@ -17980,7 +19802,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He made all the vessels of the altar: the pots, the shovels, the basins, the forks, and the fire pans. He made all its vessels of bronze.",
         "translation": "WEB",
         "illustrationId": "ill-exo-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-38:4",
@@ -17991,7 +19818,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He made for the altar a grating of a network of bronze, under the ledge around it beneath, reaching halfway up.",
         "translation": "WEB",
         "illustrationId": "ill-exo-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-38:5",
@@ -18024,7 +19856,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He put the poles into the rings on the sides of the altar, with which to carry it. He made it hollow with planks.",
         "translation": "WEB",
         "illustrationId": "ill-exo-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-38:8",
@@ -18035,7 +19872,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He made the basin of bronze, and its base of bronze, out of the mirrors of the ministering women who ministered at the door of the Tent of Meeting.",
         "translation": "WEB",
         "illustrationId": "ill-exo-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
+          }
+        ]
       },
       {
         "id": "EXO-38:9",
@@ -18195,6 +20037,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Ithamar",
+            "entityId": "char-ithamar"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "char-levi"
           }
         ]
       },
@@ -18223,6 +20073,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hur",
             "entityId": "char-hur"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -18235,7 +20089,16 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "With him was Oholiab, the son of Ahisamach, of the tribe of Dan, an engraver, and a skillful workman, and an embroiderer in blue, in purple, in scarlet, and in fine linen.",
         "translation": "WEB",
         "illustrationId": "ill-exo-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Oholiab",
+            "entityId": "char-oholiab"
+          },
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "EXO-38:24",
@@ -18312,7 +20175,16 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "With this he made the sockets to the door of the Tent of Meeting, the bronze altar, the bronze grating for it, all the vessels of the altar,",
         "translation": "WEB",
         "illustrationId": "ill-exo-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-38:31",
@@ -18376,7 +20248,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He made the ephod of gold, blue, purple, scarlet, and fine twined linen.",
         "translation": "WEB",
         "illustrationId": "ill-exo-39",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          }
+        ]
       },
       {
         "id": "EXO-39:3",
@@ -18429,7 +20306,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They worked the onyx stones, enclosed in settings of gold, engraved with the engravings of a signet, according to the names of the children of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-exo-39",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-39:7",
@@ -18448,6 +20330,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -18460,7 +20350,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He made the breastplate, the work of a skillful workman, like the work of the ephod: of gold, of blue, purple, scarlet, and fine twined linen.",
         "translation": "WEB",
         "illustrationId": "ill-exo-39",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          }
+        ]
       },
       {
         "id": "EXO-39:9",
@@ -18526,7 +20421,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The stones were according to the names of the children of Israel, twelve, according to their names; like the engravings of a signet, everyone according to his name, for the twelve tribes.",
         "translation": "WEB",
         "illustrationId": "ill-exo-39",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EXO-39:15",
@@ -18570,7 +20470,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The other two ends of the two braided chains they put on the two settings, and put them on the shoulder straps of the ephod, in its front.",
         "translation": "WEB",
         "illustrationId": "ill-exo-39",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          }
+        ]
       },
       {
         "id": "EXO-39:19",
@@ -18581,7 +20486,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They made two rings of gold, and put them on the two ends of the breastplate, on its edge, which was toward the side of the ephod inward.",
         "translation": "WEB",
         "illustrationId": "ill-exo-39",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          }
+        ]
       },
       {
         "id": "EXO-39:20",
@@ -18592,7 +20502,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They made two more rings of gold, and put them on the two shoulder straps of the ephod underneath, in its front, close by its coupling, above the skillfully woven band of the ephod.",
         "translation": "WEB",
         "illustrationId": "ill-exo-39",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          }
+        ]
       },
       {
         "id": "EXO-39:21",
@@ -18611,6 +20526,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
           }
         ]
       },
@@ -18623,7 +20542,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He made the robe of the ephod of woven work, all of blue.",
         "translation": "WEB",
         "illustrationId": "ill-exo-39",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          }
+        ]
       },
       {
         "id": "EXO-39:23",
@@ -18777,6 +20701,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -18828,6 +20760,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy seat",
             "entityId": "term-mercy-seat"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -18867,7 +20803,16 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "the golden altar, the anointing oil, the sweet incense, the screen for the door of the Tent,",
         "translation": "WEB",
         "illustrationId": "ill-exo-39",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-39:39",
@@ -18878,7 +20823,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "the bronze altar, its grating of bronze, its poles, all of its vessels, the basin and its base,",
         "translation": "WEB",
         "illustrationId": "ill-exo-39",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-39:40",
@@ -18893,6 +20843,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -18929,6 +20883,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -18998,6 +20956,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -19014,6 +20976,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -19045,6 +21011,18 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -19061,6 +21039,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -19073,7 +21059,16 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall set the basin between the Tent of Meeting and the altar, and shall put water therein.",
         "translation": "WEB",
         "illustrationId": "ill-exo-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-40:8",
@@ -19111,7 +21106,12 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall anoint the altar of burnt offering, with all its vessels, and sanctify the altar, and the altar will be most holy.",
         "translation": "WEB",
         "illustrationId": "ill-exo-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-40:11",
@@ -19137,6 +21137,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -19275,6 +21279,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy seat",
             "entityId": "term-mercy-seat"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -19303,6 +21311,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
           }
         ]
       },
@@ -19319,6 +21331,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -19359,6 +21375,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -19391,7 +21411,16 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He put the golden altar in the Tent of Meeting before the veil;",
         "translation": "WEB",
         "illustrationId": "ill-exo-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-40:27",
@@ -19410,6 +21439,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
           }
         ]
       },
@@ -19450,6 +21483,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -19462,7 +21503,16 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He set the basin between the Tent of Meeting and the altar, and put water therein, with which to wash.",
         "translation": "WEB",
         "illustrationId": "ill-exo-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EXO-40:31",
@@ -19501,6 +21551,14 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -19521,6 +21579,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -19541,6 +21603,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -19565,6 +21631,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -19581,6 +21651,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -19612,6 +21686,10 @@ export const EXODUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
