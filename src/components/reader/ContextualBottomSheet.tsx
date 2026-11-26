@@ -75,10 +75,12 @@ export const ContextualBottomSheet: React.FC = () => {
       navigateToMapPin('loc-mount-tabor');
     } else if (region.includes('Harod')) {
       navigateToMapPin('loc-harod');
-    } else if (region.includes('Sorek') || region.includes('Philist') || region.includes('Gath') || region.includes('Ashdod') || region.includes('Ekron') || region.includes('Ziklag')) {
+    } else if (region.includes('Sorek') || region.includes('Philist') || region.includes('Gath') || region.includes('Ashdod') || region.includes('Ekron') || region.includes('Ziklag') || region.includes('Beth Shemesh')) {
       navigateToMapPin('loc-sorek');
     } else if (region.includes('Ramah') || region.includes('Gibeah')) {
       navigateToMapPin('loc-ramah');
+    } else if (region.includes('Endor')) {
+      navigateToMapPin('loc-mount-tabor');
     } else if (region.includes('Elah')) {
       navigateToMapPin('loc-elah');
     } else if (region.includes('En Gedi')) {
@@ -112,6 +114,8 @@ export const ContextualBottomSheet: React.FC = () => {
       navigateToTimelineEra('era-patriarchs');
     } else if (entity.timelineEra.includes('Judges') || entity.timelineEra.includes('Conquest') || entity.timelineEra.includes('Joshua')) {
       navigateToTimelineEra('era-judges');
+    } else if (entity.timelineEra.includes('Monarchy') || entity.timelineEra.includes('Kingdom')) {
+      navigateToTimelineEra('era-kingdom');
     } else {
       navigateToTimelineEra('era-creation');
     }

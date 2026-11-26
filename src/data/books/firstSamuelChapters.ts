@@ -21,7 +21,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now there was a certain man of Ramathaim Zophim, of the hill country of Ephraim, and his name was Elkanah, the son of Jeroham, the son of Elihu, the son of Tohu, the son of Zuph, an Ephraimite.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Elkanah",
+            "entityId": "char-elkanah"
+          }
+        ]
       },
       {
         "id": "1SA-1:2",
@@ -60,6 +69,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shiloh",
             "entityId": "place-shiloh"
+          },
+          {
+            "spanText": "Hophni",
+            "entityId": "char-hophni-phinehas"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -72,7 +89,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the day came that Elkanah sacrificed, he gave to Peninnah his wife, and to all her sons and her daughters, portions;",
         "translation": "WEB",
         "illustrationId": "ill-1sa-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Elkanah",
+            "entityId": "char-elkanah"
+          }
+        ]
       },
       {
         "id": "1SA-1:5",
@@ -139,6 +161,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hannah",
             "entityId": "char-hannah"
+          },
+          {
+            "spanText": "Elkanah",
+            "entityId": "char-elkanah"
           }
         ]
       },
@@ -167,6 +193,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shiloh",
             "entityId": "place-shiloh"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -306,6 +336,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eli",
             "entityId": "char-eli"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -341,6 +375,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ramah",
             "entityId": "place-ramah"
+          },
+          {
+            "spanText": "Elkanah",
+            "entityId": "char-elkanah"
           }
         ]
       },
@@ -381,6 +419,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Elkanah",
+            "entityId": "char-elkanah"
           }
         ]
       },
@@ -417,6 +459,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Elkanah",
+            "entityId": "char-elkanah"
           }
         ]
       },
@@ -699,6 +745,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ramah",
             "entityId": "place-ramah"
+          },
+          {
+            "spanText": "Elkanah",
+            "entityId": "char-elkanah"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -731,7 +785,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The custom of the priests with the people was that when anyone offered a sacrifice, the priest’s servant came while the meat was boiling, with a fork of three teeth in his hand;",
         "translation": "WEB",
         "illustrationId": "ill-1sa-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "1SA-2:14",
@@ -746,6 +805,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shiloh",
             "entityId": "place-shiloh"
+          },
+          {
+            "spanText": "Israelites",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -758,7 +825,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yes, before they burned the fat, the priest’s servant came, and said to the man who sacrificed, “Give meat to roast for the priest; for he will not accept boiled meat from you, but raw.”",
         "translation": "WEB",
         "illustrationId": "ill-1sa-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "1SA-2:16",
@@ -804,6 +876,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
           }
         ]
       },
@@ -839,6 +915,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "blessed",
             "entityId": "term-blessing"
+          },
+          {
+            "spanText": "Elkanah",
+            "entityId": "char-elkanah"
           }
         ]
       },
@@ -879,6 +959,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eli",
             "entityId": "char-eli"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Tent of Meeting",
+            "entityId": "place-tent-of-meeting"
           }
         ]
       },
@@ -986,7 +1074,24 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Didn’t I choose him out of all the tribes of Israel to be my priest, to go up to my altar, to burn incense, to wear an ephod before me? Didn’t I give to the house of your father all the offerings of the children of Israel made by fire?",
         "translation": "WEB",
         "illustrationId": "ill-1sa-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "1SA-2:29",
@@ -997,7 +1102,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Why do you kick at my sacrifice and at my offering, which I have commanded in my habitation, and honor your sons above me, to make yourselves fat with the best of all the offerings of Israel my people?’",
         "translation": "WEB",
         "illustrationId": "ill-1sa-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "1SA-2:30",
@@ -1016,6 +1126,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1039,7 +1153,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "You will see the affliction of my habitation, in all the wealth which I will give Israel. There shall not be an old man in your house forever.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "1SA-2:33",
@@ -1050,7 +1169,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The man of yours whom I don’t cut off from my altar will consume your eyes and grieve your heart. All the increase of your house will die in the flower of their age.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "1SA-2:34",
@@ -1061,7 +1185,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "This will be the sign to you that will come on your two sons, on Hophni and Phinehas: in one day they will both die.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hophni",
+            "entityId": "char-hophni-phinehas"
+          }
+        ]
       },
       {
         "id": "1SA-2:35",
@@ -1076,6 +1205,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "anointed",
             "entityId": "term-anointed"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1088,7 +1221,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "It will happen that everyone who is left in your house will come and bow down to him for a piece of silver and a loaf of bread, and will say, “Please put me into one of the priests’ offices, that I may eat a morsel of bread.” ’ ”",
         "translation": "WEB",
         "illustrationId": "ill-1sa-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       }
     ]
   },
@@ -1336,6 +1474,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1499,6 +1641,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
           }
         ]
       },
@@ -1556,6 +1706,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ebenezer",
             "entityId": "term-ebenezer"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -1568,7 +1726,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Philistines put themselves in array against Israel. When they joined battle, Israel was defeated by the Philistines, who killed about four thousand men of the army in the field.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-4:3",
@@ -1595,6 +1762,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shiloh",
             "entityId": "place-shiloh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -1631,6 +1806,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shiloh",
             "entityId": "place-shiloh"
+          },
+          {
+            "spanText": "Hophni",
+            "entityId": "char-hophni-phinehas"
           }
         ]
       },
@@ -1655,6 +1834,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1675,6 +1858,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Hebrews",
+            "entityId": "char-hebrews"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -1691,6 +1882,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -1714,7 +1909,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Be strong and behave like men, O you Philistines, that you not be servants to the Hebrews, as they have been to you. Strengthen yourselves like men, and fight!”",
         "translation": "WEB",
         "illustrationId": "ill-1sa-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hebrews",
+            "entityId": "char-hebrews"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-4:10",
@@ -1725,7 +1929,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Philistines fought, and Israel was defeated, and each man fled to his tent. There was a very great slaughter; for thirty thousand footmen of Israel fell.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-4:11",
@@ -1748,6 +1961,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Hophni",
+            "entityId": "char-hophni-phinehas"
           }
         ]
       },
@@ -1764,6 +1981,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shiloh",
             "entityId": "place-shiloh"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -1856,6 +2077,18 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Hophni",
+            "entityId": "char-hophni-phinehas"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -1880,6 +2113,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1900,6 +2137,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Phinehas",
+            "entityId": "char-hophni-phinehas"
           }
         ]
       },
@@ -1931,6 +2172,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1951,6 +2196,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -1988,6 +2237,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Ashdod",
+            "entityId": "place-ashdod-ekron"
           }
         ]
       },
@@ -2008,6 +2265,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Dagon",
+            "entityId": "term-dagon"
           }
         ]
       },
@@ -2028,6 +2293,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Dagon",
+            "entityId": "term-dagon"
+          },
+          {
+            "spanText": "Ashdod",
+            "entityId": "place-ashdod-ekron"
           }
         ]
       },
@@ -2048,6 +2321,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Dagon",
+            "entityId": "term-dagon"
           }
         ]
       },
@@ -2060,7 +2337,20 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore neither the priests of Dagon nor any who come into Dagon’s house step on the threshold of Dagon in Ashdod to this day.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Dagon",
+            "entityId": "term-dagon"
+          },
+          {
+            "spanText": "Ashdod",
+            "entityId": "place-ashdod-ekron"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "1SA-5:6",
@@ -2075,6 +2365,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Ashdod",
+            "entityId": "place-ashdod-ekron"
           }
         ]
       },
@@ -2095,6 +2389,18 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Dagon",
+            "entityId": "term-dagon"
+          },
+          {
+            "spanText": "Ashdod",
+            "entityId": "place-ashdod-ekron"
           }
         ]
       },
@@ -2115,6 +2421,18 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Gath",
+            "entityId": "place-gath"
           }
         ]
       },
@@ -2151,6 +2469,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Ekron",
+            "entityId": "place-ashdod-ekron"
           }
         ]
       },
@@ -2171,6 +2497,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -2215,6 +2549,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -2235,6 +2573,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2255,6 +2601,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2267,7 +2617,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then they said, “What should the trespass offering be which we shall return to him?” They said, “Five golden tumors and five golden mice, for the number of the lords of the Philistines; for one plague was on you all, and on your lords.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-6:5",
@@ -2282,6 +2637,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2336,7 +2695,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, if it goes up by the way of its own border to Beth Shemesh, then he has done us this great evil; but if not, then we shall know that it is not his hand that struck us. It was a chance that happened to us.”",
         "translation": "WEB",
         "illustrationId": "ill-1sa-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Beth Shemesh",
+            "entityId": "place-beth-shemesh"
+          }
+        ]
       },
       {
         "id": "1SA-6:10",
@@ -2378,7 +2742,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The cows took the straight way by the way to Beth Shemesh. They went along the highway, lowing as they went, and didn’t turn away to the right hand or to the left; and the lords of the Philistines went after them to the border of Beth Shemesh.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Beth Shemesh",
+            "entityId": "place-beth-shemesh"
+          }
+        ]
       },
       {
         "id": "1SA-6:13",
@@ -2393,6 +2766,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Beth Shemesh",
+            "entityId": "place-beth-shemesh"
           }
         ]
       },
@@ -2409,6 +2786,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Beth Shemesh",
+            "entityId": "place-beth-shemesh"
           }
         ]
       },
@@ -2429,6 +2810,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Beth Shemesh",
+            "entityId": "place-beth-shemesh"
           }
         ]
       },
@@ -2441,7 +2830,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the five lords of the Philistines had seen it, they returned to Ekron the same day.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Ekron",
+            "entityId": "place-ashdod-ekron"
+          }
+        ]
       },
       {
         "id": "1SA-6:17",
@@ -2456,6 +2854,18 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Gath",
+            "entityId": "place-gath"
+          },
+          {
+            "spanText": "Ashdod",
+            "entityId": "place-ashdod-ekron"
           }
         ]
       },
@@ -2476,6 +2886,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Beth Shemesh",
+            "entityId": "place-beth-shemesh"
           }
         ]
       },
@@ -2496,6 +2914,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Beth Shemesh",
+            "entityId": "place-beth-shemesh"
           }
         ]
       },
@@ -2516,6 +2938,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Beth Shemesh",
+            "entityId": "place-beth-shemesh"
           }
         ]
       },
@@ -2536,6 +2962,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       }
@@ -2589,6 +3019,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2609,6 +3043,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -2625,6 +3067,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2645,6 +3091,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
           }
         ]
       },
@@ -2665,6 +3119,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
           }
         ]
       },
@@ -2677,7 +3139,20 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the Philistines heard that the children of Israel were gathered together at Mizpah, the lords of the Philistines went up against Israel. When the children of Israel heard it, they were afraid of the Philistines.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
+          }
+        ]
       },
       {
         "id": "1SA-7:8",
@@ -2700,6 +3175,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -2720,6 +3203,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2740,6 +3227,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -2752,7 +3247,20 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The men of Israel went out of Mizpah, and pursued the Philistines, and struck them, until they came under Beth Kar.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
+          }
+        ]
       },
       {
         "id": "1SA-7:12",
@@ -2775,6 +3283,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ebenezer",
             "entityId": "term-ebenezer"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
           }
         ]
       },
@@ -2795,6 +3307,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -2807,7 +3327,24 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The cities which the Philistines had taken from Israel were restored to Israel, from Ekron even to Gath; and Israel recovered its border out of the hand of the Philistines. There was peace between Israel and the Amorites.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Gath",
+            "entityId": "place-gath"
+          },
+          {
+            "spanText": "Ekron",
+            "entityId": "place-ashdod-ekron"
+          }
+        ]
       },
       {
         "id": "1SA-7:15",
@@ -2822,6 +3359,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2842,6 +3383,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethel",
             "entityId": "place-bethel"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
           }
         ]
       },
@@ -2862,6 +3411,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ramah",
             "entityId": "place-ramah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       }
@@ -2891,6 +3448,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2933,6 +3494,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ramah",
             "entityId": "place-ramah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3191,6 +3756,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -3216,7 +3785,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now there was a man of Benjamin, whose name was Kish, the son of Abiel, the son of Zeror, the son of Becorath, the son of Aphiah, the son of a Benjamite, a mighty man of valor.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "1SA-9:2",
@@ -3231,6 +3805,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3259,7 +3837,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He passed through the hill country of Ephraim, and passed through the land of Shalishah, but they didn’t find them. Then they passed through the land of Shaalim, and they weren’t there. Then he passed through the land of the Benjamites, but they didn’t find them.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "1SA-9:5",
@@ -3346,6 +3929,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3455,6 +4042,18 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "anoint",
             "entityId": "term-anointed"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -3531,7 +4130,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "As for your donkeys who were lost three days ago, don’t set your mind on them; for they have been found. For whom is all that is desirable in Israel? Is it not for you, and for all your father’s house?”",
         "translation": "WEB",
         "illustrationId": "ill-1sa-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "1SA-9:21",
@@ -3546,6 +4150,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -3711,7 +4323,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "When you have departed from me today, then you will find two men by Rachel’s tomb, on the border of Benjamin at Zelzah. They will tell you, ‘The donkeys which you went to look for have been found; and behold, your father has stopped caring about the donkeys, and is anxious for you, saying, “What shall I do for my son?” ’",
         "translation": "WEB",
         "illustrationId": "ill-1sa-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "1SA-10:3",
@@ -3757,6 +4374,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -3972,6 +4593,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
           }
         ]
       },
@@ -3996,6 +4621,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4032,6 +4661,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -4048,6 +4685,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -4135,6 +4776,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
           }
         ]
       },
@@ -4175,6 +4820,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Jabesh Gilead",
+            "entityId": "place-jabesh"
+          },
+          {
+            "spanText": "Ammonite",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -4187,7 +4840,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Nahash the Ammonite said to them, “On this condition I will make it with you, that all your right eyes be gouged out. I will make this dishonor all Israel.”",
         "translation": "WEB",
         "illustrationId": "ill-1sa-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Ammonite",
+            "entityId": "place-ammon"
+          }
+        ]
       },
       {
         "id": "1SA-11:3",
@@ -4198,7 +4860,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The elders of Jabesh said to him, “Give us seven days, that we may send messengers to all the borders of Israel; and then, if there is no one to save us, we will come out to you.”",
         "translation": "WEB",
         "illustrationId": "ill-1sa-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jabesh",
+            "entityId": "place-jabesh"
+          }
+        ]
       },
       {
         "id": "1SA-11:4",
@@ -4213,6 +4884,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
           }
         ]
       },
@@ -4229,6 +4904,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Jabesh",
+            "entityId": "place-jabesh"
           }
         ]
       },
@@ -4277,6 +4956,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4289,7 +4972,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He counted them in Bezek; and the children of Israel were three hundred thousand, and the men of Judah thirty thousand.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "1SA-11:9",
@@ -4300,7 +4992,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "They said to the messengers who came, “Tell the men of Jabesh Gilead, ‘Tomorrow, by the time the sun is hot, you will be rescued.’ ” The messengers came and told the men of Jabesh; and they were glad.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jabesh Gilead",
+            "entityId": "place-jabesh"
+          }
+        ]
       },
       {
         "id": "1SA-11:10",
@@ -4311,7 +5008,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore the men of Jabesh said, “Tomorrow we will come out to you, and you shall do with us all that seems good to you.”",
         "translation": "WEB",
         "illustrationId": "ill-1sa-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jabesh",
+            "entityId": "place-jabesh"
+          }
+        ]
       },
       {
         "id": "1SA-11:11",
@@ -4326,6 +5028,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Ammonites",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -4366,6 +5072,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4410,6 +5120,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gilgal",
             "entityId": "place-gilgal"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -4439,6 +5153,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4581,6 +5299,18 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Sisera",
+            "entityId": "char-sisera"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -4617,6 +5347,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Jephthah",
+            "entityId": "char-jephthah"
           }
         ]
       },
@@ -4637,6 +5371,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -4884,6 +5622,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4908,6 +5650,18 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethel",
             "entityId": "place-bethel"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
           }
         ]
       },
@@ -4928,6 +5682,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jonathan",
             "entityId": "char-jonathan"
+          },
+          {
+            "spanText": "Hebrews",
+            "entityId": "char-hebrews"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -4948,6 +5710,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gilgal",
             "entityId": "place-gilgal"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -4960,7 +5730,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Philistines assembled themselves together to fight with Israel, thirty thousand chariots, and six thousand horsemen, and people as the sand which is on the seashore in multitude. They came up and encamped in Michmash, eastward of Beth Aven.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-13:6",
@@ -4971,7 +5750,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the men of Israel saw that they were in trouble (for the people were distressed), then the people hid themselves in caves, in thickets, in rocks, in tombs, and in pits.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "1SA-13:7",
@@ -4994,6 +5778,18 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Hebrews",
+            "entityId": "char-hebrews"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -5070,6 +5866,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -5090,6 +5890,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gilgal",
             "entityId": "place-gilgal"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -5118,6 +5922,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5158,6 +5966,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gilgal",
             "entityId": "place-gilgal"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
           }
         ]
       },
@@ -5178,6 +5994,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jonathan",
             "entityId": "char-jonathan"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -5190,7 +6014,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The raiders came out of the camp of the Philistines in three companies: one company turned to the way that leads to Ophrah, to the land of Shual;",
         "translation": "WEB",
         "illustrationId": "ill-1sa-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-13:18",
@@ -5212,7 +6041,20 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now there was no blacksmith found throughout all the land of Israel; for the Philistines said, “Lest the Hebrews make themselves swords or spears”;",
         "translation": "WEB",
         "illustrationId": "ill-1sa-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Hebrews",
+            "entityId": "char-hebrews"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-13:20",
@@ -5223,7 +6065,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "but all the Israelites went down to the Philistines, each man to sharpen his own plowshare, mattock, ax, and sickle.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israelites",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-13:21",
@@ -5265,7 +6116,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The garrison of the Philistines went out to the pass of Michmash.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       }
     ]
   },
@@ -5297,6 +6153,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jonathan",
             "entityId": "char-jonathan"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -5313,6 +6173,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
           }
         ]
       },
@@ -5341,6 +6205,18 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shiloh",
             "entityId": "place-shiloh"
+          },
+          {
+            "spanText": "Phinehas",
+            "entityId": "char-hophni-phinehas"
+          },
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -5357,6 +6233,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jonathan",
             "entityId": "char-jonathan"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -5454,7 +6334,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Both of them revealed themselves to the garrison of the Philistines: and the Philistines said, “Behold, the Hebrews are coming out of the holes where they had hidden themselves!”",
         "translation": "WEB",
         "illustrationId": "ill-1sa-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hebrews",
+            "entityId": "char-hebrews"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-14:12",
@@ -5473,6 +6362,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jonathan",
             "entityId": "char-jonathan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5532,6 +6425,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
           }
         ]
       },
@@ -5576,6 +6477,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5592,6 +6497,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -5628,6 +6541,18 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jonathan",
             "entityId": "char-jonathan"
+          },
+          {
+            "spanText": "Israelites",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Hebrews",
+            "entityId": "char-hebrews"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -5640,7 +6565,20 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Likewise all the men of Israel who had hidden themselves in the hill country of Ephraim, when they heard that the Philistines fled, even they also followed hard after them in the battle.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-14:23",
@@ -5655,6 +6593,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5671,6 +6613,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5748,7 +6694,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "How much more, if perhaps the people had eaten freely today of the plunder of their enemies which they found? For now there has been no great slaughter among the Philistines.”",
         "translation": "WEB",
         "illustrationId": "ill-1sa-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-14:31",
@@ -5759,7 +6710,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "They struck the Philistines that day from Michmash to Aijalon. The people were very faint;",
         "translation": "WEB",
         "illustrationId": "ill-1sa-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-14:32",
@@ -5829,6 +6785,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -5849,6 +6809,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -5869,6 +6837,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -5905,6 +6881,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jonathan",
             "entityId": "char-jonathan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5925,6 +6905,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jonathan",
             "entityId": "char-jonathan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5953,6 +6937,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jonathan",
             "entityId": "char-jonathan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6045,6 +7033,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jonathan",
             "entityId": "char-jonathan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6061,6 +7053,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -6077,6 +7073,22 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -6089,7 +7101,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He did valiantly, and struck the Amalekites, and delivered Israel out of the hands of those who plundered them.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Amalekites",
+            "entityId": "char-amalek"
+          }
+        ]
       },
       {
         "id": "1SA-14:49",
@@ -6108,6 +7129,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jonathan",
             "entityId": "char-jonathan"
+          },
+          {
+            "spanText": "Michal",
+            "entityId": "char-michal"
           }
         ]
       },
@@ -6124,6 +7149,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Abner",
+            "entityId": "char-abner"
           }
         ]
       },
@@ -6140,6 +7169,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Abner",
+            "entityId": "char-abner"
           }
         ]
       },
@@ -6156,6 +7189,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       }
@@ -6197,6 +7234,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "anoint",
             "entityId": "term-anointed"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6217,6 +7258,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Amalek",
+            "entityId": "char-amalek"
           }
         ]
       },
@@ -6229,7 +7278,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now go and strike Amalek, and utterly destroy all that they have, and don’t spare them; but kill both man and woman, infant and nursing baby, ox and sheep, camel and donkey.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-1sa-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Amalek",
+            "entityId": "char-amalek"
+          }
+        ]
       },
       {
         "id": "1SA-15:4",
@@ -6244,6 +7298,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -6260,6 +7318,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Amalek",
+            "entityId": "char-amalek"
           }
         ]
       },
@@ -6284,6 +7346,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Amalekites",
+            "entityId": "char-amalek"
           }
         ]
       },
@@ -6304,6 +7374,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Amalekites",
+            "entityId": "char-amalek"
           }
         ]
       },
@@ -6316,7 +7390,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He took Agag the king of the Amalekites alive, and utterly destroyed all the people with the edge of the sword.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Agag",
+            "entityId": "char-agag"
+          },
+          {
+            "spanText": "Amalekites",
+            "entityId": "char-amalek"
+          }
+        ]
       },
       {
         "id": "1SA-15:9",
@@ -6331,6 +7414,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Agag",
+            "entityId": "char-agag"
           }
         ]
       },
@@ -6467,6 +7554,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Amalekites",
+            "entityId": "char-amalek"
           }
         ]
       },
@@ -6515,6 +7606,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "anointed",
             "entityId": "term-anointed"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6531,6 +7626,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Amalekites",
+            "entityId": "char-amalek"
           }
         ]
       },
@@ -6571,6 +7670,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Agag",
+            "entityId": "char-agag"
+          },
+          {
+            "spanText": "Amalek",
+            "entityId": "char-amalek"
           }
         ]
       },
@@ -6695,6 +7802,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6735,6 +7846,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6747,7 +7862,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Also the Strength of Israel will not lie nor repent; for he is not a man, that he should repent.”",
         "translation": "WEB",
         "illustrationId": "ill-1sa-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "1SA-15:30",
@@ -6766,6 +7886,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6806,6 +7930,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Agag",
+            "entityId": "char-agag"
+          },
+          {
+            "spanText": "Amalekites",
+            "entityId": "char-amalek"
           }
         ]
       },
@@ -6830,6 +7962,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gilgal",
             "entityId": "place-gilgal"
+          },
+          {
+            "spanText": "Agag",
+            "entityId": "char-agag"
           }
         ]
       },
@@ -6854,6 +7990,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ramah",
             "entityId": "place-ramah"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
           }
         ]
       },
@@ -6878,6 +8018,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -6915,6 +8059,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
           }
         ]
       },
@@ -6955,6 +8107,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "anoint",
             "entityId": "term-anointed"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
           }
         ]
       },
@@ -6995,6 +8151,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
           }
         ]
       },
@@ -7055,6 +8215,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
           }
         ]
       },
@@ -7071,6 +8235,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
           }
         ]
       },
@@ -7091,6 +8259,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
           }
         ]
       },
@@ -7107,6 +8279,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
           }
         ]
       },
@@ -7255,6 +8431,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
           }
         ]
       },
@@ -7275,6 +8455,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
           }
         ]
       },
@@ -7295,6 +8479,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
           }
         ]
       },
@@ -7335,6 +8523,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
           }
         ]
       },
@@ -7384,7 +8576,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the Philistines gathered together their armies to battle; and they were gathered together at Socoh, which belongs to Judah, and encamped between Socoh and Azekah, in Ephesdammim.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-17:2",
@@ -7403,6 +8604,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elah",
             "entityId": "place-valley-of-elah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -7415,7 +8624,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Philistines stood on the mountain on the one side, and Israel stood on the mountain on the other side: and there was a valley between them.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-17:4",
@@ -7430,6 +8648,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Goliath",
             "entityId": "char-goliath"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Gath",
+            "entityId": "place-gath"
           }
         ]
       },
@@ -7479,6 +8705,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -7502,7 +8736,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Philistine said, “I defy the armies of Israel today! Give me a man, that we may fight together!”",
         "translation": "WEB",
         "illustrationId": "ill-1sa-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-17:11",
@@ -7517,6 +8760,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -7541,6 +8792,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethlehem",
             "entityId": "place-bethlehem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
           }
         ]
       },
@@ -7557,6 +8816,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
           }
         ]
       },
@@ -7613,7 +8876,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Philistine came near morning and evening, and presented himself forty days.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-17:17",
@@ -7628,6 +8896,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
           }
         ]
       },
@@ -7659,6 +8931,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elah",
             "entityId": "place-valley-of-elah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -7675,6 +8955,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
           }
         ]
       },
@@ -7687,7 +8971,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Israel and the Philistines put the battle in array, army against army.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-17:22",
@@ -7722,6 +9015,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Goliath",
             "entityId": "char-goliath"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Gath",
+            "entityId": "place-gath"
           }
         ]
       },
@@ -7734,7 +9035,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the men of Israel, when they saw the man, fled from him, and were terrified.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "1SA-17:25",
@@ -7745,7 +9051,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The men of Israel said, “Have you seen this man who has come up? He has surely come up to defy Israel. The king will give great riches to the man who kills him, and will give him his daughter, and make his father’s house free in Israel.”",
         "translation": "WEB",
         "illustrationId": "ill-1sa-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "1SA-17:26",
@@ -7764,6 +9075,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -7858,6 +9177,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -7878,6 +9201,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -7925,6 +9252,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -7949,6 +9280,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8001,7 +9336,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He took his staff in his hand, and chose for himself five smooth stones out of the brook, and put them in the pouch of his shepherd’s bag which he had. His sling was in his hand; and he came near to the Philistine.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-17:41",
@@ -8016,6 +9356,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8032,6 +9376,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8048,6 +9396,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8064,6 +9416,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8088,6 +9444,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8108,6 +9472,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8140,6 +9512,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8156,6 +9532,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8172,6 +9552,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8188,6 +9572,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8200,7 +9588,28 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The men of Israel and of Judah arose and shouted, and pursued the Philistines as far as Gai and to the gates of Ekron. The wounded of the Philistines fell down by the way to Shaaraim, even to Gath and to Ekron.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Gath",
+            "entityId": "place-gath"
+          },
+          {
+            "spanText": "Ekron",
+            "entityId": "place-ashdod-ekron"
+          }
+        ]
       },
       {
         "id": "1SA-17:53",
@@ -8211,7 +9620,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Israel returned from chasing after the Philistines and they plundered their camp.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-17:54",
@@ -8226,6 +9644,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8246,6 +9672,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Abner",
+            "entityId": "char-abner"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8277,6 +9711,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Abner",
+            "entityId": "char-abner"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8297,6 +9739,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
           }
         ]
       }
@@ -8434,6 +9880,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8630,6 +10084,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -8654,6 +10116,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8674,6 +10140,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8714,6 +10184,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Michal",
+            "entityId": "char-michal"
           }
         ]
       },
@@ -8734,6 +10208,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8814,6 +10292,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8850,6 +10332,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Michal",
+            "entityId": "char-michal"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8874,6 +10364,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Michal",
+            "entityId": "char-michal"
           }
         ]
       },
@@ -8914,6 +10408,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       }
@@ -9030,6 +10528,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -9094,6 +10600,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -9158,6 +10668,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Michal",
+            "entityId": "char-michal"
           }
         ]
       },
@@ -9174,6 +10688,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Michal",
+            "entityId": "char-michal"
           }
         ]
       },
@@ -9186,7 +10704,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Michal took the teraphim, and laid it in the bed, and put a pillow of goats’ hair at its head, and covered it with clothes.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Michal",
+            "entityId": "char-michal"
+          }
+        ]
       },
       {
         "id": "1SA-19:14",
@@ -9252,6 +10775,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Michal",
+            "entityId": "char-michal"
           }
         ]
       },
@@ -9667,6 +11194,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jonathan",
             "entityId": "char-jonathan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9905,6 +11436,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jonathan",
             "entityId": "char-jonathan"
+          },
+          {
+            "spanText": "Abner",
+            "entityId": "char-abner"
           }
         ]
       },
@@ -9945,6 +11480,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jonathan",
             "entityId": "char-jonathan"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
           }
         ]
       },
@@ -10004,6 +11543,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jonathan",
             "entityId": "char-jonathan"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
           }
         ]
       },
@@ -10016,7 +11559,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "For as long as the son of Jesse lives on the earth, you will not be established, nor will your kingdom. Therefore now send and bring him to me, for he shall surely die!”",
         "translation": "WEB",
         "illustrationId": "ill-1sa-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
+          }
+        ]
       },
       {
         "id": "1SA-20:32",
@@ -10247,6 +11795,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Ahimelech",
+            "entityId": "char-ahimelech-nob"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10263,6 +11819,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Ahimelech",
+            "entityId": "char-ahimelech-nob"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10290,6 +11854,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10306,6 +11874,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10322,6 +11894,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10342,6 +11918,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Doeg",
+            "entityId": "char-doeg"
           }
         ]
       },
@@ -10358,6 +11938,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Ahimelech",
+            "entityId": "char-ahimelech-nob"
           }
         ]
       },
@@ -10382,6 +11966,18 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elah",
             "entityId": "place-valley-of-elah"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10402,6 +11998,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Achish",
+            "entityId": "char-achish"
+          },
+          {
+            "spanText": "Gath",
+            "entityId": "place-gath"
           }
         ]
       },
@@ -10422,6 +12026,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Achish",
+            "entityId": "char-achish"
           }
         ]
       },
@@ -10438,6 +12046,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Achish",
+            "entityId": "char-achish"
+          },
+          {
+            "spanText": "Gath",
+            "entityId": "place-gath"
           }
         ]
       },
@@ -10461,7 +12077,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Achish said to his servants, “Look, you see the man is insane. Why then have you brought him to me?",
         "translation": "WEB",
         "illustrationId": "ill-1sa-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Achish",
+            "entityId": "char-achish"
+          }
+        ]
       },
       {
         "id": "1SA-21:15",
@@ -10531,6 +12152,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          },
+          {
+            "spanText": "Mizpeh",
+            "entityId": "place-mizpah"
           }
         ]
       },
@@ -10547,6 +12176,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -10563,6 +12196,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -10587,6 +12224,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ramah",
             "entityId": "place-ramah"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
           }
         ]
       },
@@ -10603,6 +12244,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
           }
         ]
       },
@@ -10615,7 +12260,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "that all of you have conspired against me, and there is no one who discloses to me when my son makes a treaty with the son of Jesse, and there is none of you who is sorry for me, or discloses to me that my son has stirred up my servant against me, to lie in wait, as it is today?”",
         "translation": "WEB",
         "illustrationId": "ill-1sa-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
+          }
+        ]
       },
       {
         "id": "1SA-22:9",
@@ -10630,6 +12280,18 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
+          },
+          {
+            "spanText": "Ahimelech",
+            "entityId": "char-ahimelech-nob"
+          },
+          {
+            "spanText": "Doeg",
+            "entityId": "char-doeg"
           }
         ]
       },
@@ -10650,6 +12312,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Goliath",
             "entityId": "char-goliath"
+          },
+          {
+            "spanText": "Philistine",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -10662,7 +12328,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the king sent to call Ahimelech the priest, the son of Ahitub, and all his father’s house, the priests who were in Nob; and they all came to the king.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ahimelech",
+            "entityId": "char-ahimelech-nob"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "1SA-22:12",
@@ -10697,6 +12372,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
           }
         ]
       },
@@ -10713,6 +12392,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Ahimelech",
+            "entityId": "char-ahimelech-nob"
           }
         ]
       },
@@ -10741,7 +12424,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The king said, “You shall surely die, Ahimelech, you, and all your father’s house.”",
         "translation": "WEB",
         "illustrationId": "ill-1sa-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ahimelech",
+            "entityId": "char-ahimelech-nob"
+          }
+        ]
       },
       {
         "id": "1SA-22:17",
@@ -10760,6 +12448,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10772,7 +12464,20 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The king said to Doeg, “Turn and attack the priests!” Doeg the Edomite turned, and he attacked the priests, and he killed on that day eighty-five people who wore a linen ephod.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Doeg",
+            "entityId": "char-doeg"
+          },
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "1SA-22:19",
@@ -10783,7 +12488,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He struck Nob, the city of the priests, with the edge of the sword, both men and women, children and nursing babies, and cattle and donkeys and sheep, with the edge of the sword.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "1SA-22:20",
@@ -10798,6 +12508,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Ahimelech",
+            "entityId": "char-ahimelech-nob"
           }
         ]
       },
@@ -10822,6 +12536,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Abiathar",
+            "entityId": "char-ahimelech-nob"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10842,6 +12564,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Abiathar",
+            "entityId": "char-ahimelech-nob"
+          },
+          {
+            "spanText": "Doeg",
+            "entityId": "char-doeg"
           }
         ]
       },
@@ -10882,6 +12612,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -10902,6 +12636,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -10918,6 +12656,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -10938,6 +12684,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -10954,6 +12704,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -10970,6 +12724,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Abiathar",
+            "entityId": "char-ahimelech-nob"
+          },
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
           }
         ]
       },
@@ -11034,6 +12796,18 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Abiathar",
+            "entityId": "char-ahimelech-nob"
+          },
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -11062,6 +12836,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11086,6 +12864,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11218,6 +13000,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11266,6 +13052,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
           }
         ]
       },
@@ -11324,7 +13114,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "See therefore, and take knowledge of all the lurking places where he hides himself, and come again to me with certainty, and I will go with you. It shall happen, if he is in the land, that I will search him out among all the thousands of Judah.”",
         "translation": "WEB",
         "illustrationId": "ill-1sa-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "1SA-23:24",
@@ -11399,6 +13194,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -11419,6 +13218,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -11476,6 +13279,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "En Gedi",
             "entityId": "place-en-gedi"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -11496,6 +13303,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11710,7 +13521,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Against whom has the king of Israel come out? Whom do you pursue? A dead dog? A flea?",
         "translation": "WEB",
         "illustrationId": "ill-1sa-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "1SA-24:15",
@@ -11805,7 +13621,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now, behold, I know that you will surely be king, and that the kingdom of Israel will be established in your hand.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "1SA-24:21",
@@ -11877,6 +13698,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ramah",
             "entityId": "place-ramah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11904,6 +13729,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abigail",
             "entityId": "char-abigail"
+          },
+          {
+            "spanText": "Nabal",
+            "entityId": "char-nabal"
           }
         ]
       },
@@ -11920,6 +13749,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Nabal",
+            "entityId": "char-nabal"
           }
         ]
       },
@@ -11936,6 +13769,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Nabal",
+            "entityId": "char-nabal"
           }
         ]
       },
@@ -11990,6 +13827,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Nabal",
+            "entityId": "char-nabal"
           }
         ]
       },
@@ -12006,6 +13847,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
+          },
+          {
+            "spanText": "Nabal",
+            "entityId": "char-nabal"
           }
         ]
       },
@@ -12069,6 +13918,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abigail",
             "entityId": "char-abigail"
+          },
+          {
+            "spanText": "Nabal",
+            "entityId": "char-nabal"
           }
         ]
       },
@@ -12130,7 +13983,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "She said to her young men, “Go on before me. Behold, I am coming after you.” But she didn’t tell her husband, Nabal.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Nabal",
+            "entityId": "char-nabal"
+          }
+        ]
       },
       {
         "id": "1SA-25:20",
@@ -12224,7 +14082,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Please don’t let my lord pay attention to this worthless fellow, Nabal; for as his name is, so is he. Nabal is his name, and folly is with him; but I, your servant, didn’t see my lord’s young men, whom you sent.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Nabal",
+            "entityId": "char-nabal"
+          }
+        ]
       },
       {
         "id": "1SA-25:26",
@@ -12239,6 +14102,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Nabal",
+            "entityId": "char-nabal"
           }
         ]
       },
@@ -12302,6 +14169,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12350,6 +14221,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Blessed",
             "entityId": "term-blessing"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12386,6 +14261,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Nabal",
+            "entityId": "char-nabal"
           }
         ]
       },
@@ -12418,6 +14301,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abigail",
             "entityId": "char-abigail"
+          },
+          {
+            "spanText": "Nabal",
+            "entityId": "char-nabal"
           }
         ]
       },
@@ -12430,7 +14317,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "In the morning, when the wine had gone out of Nabal, his wife told him these things, and his heart died within him, and he became as a stone.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Nabal",
+            "entityId": "char-nabal"
+          }
+        ]
       },
       {
         "id": "1SA-25:38",
@@ -12445,6 +14337,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Nabal",
+            "entityId": "char-nabal"
           }
         ]
       },
@@ -12473,6 +14369,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Blessed",
             "entityId": "term-blessing"
+          },
+          {
+            "spanText": "Nabal",
+            "entityId": "char-nabal"
           }
         ]
       },
@@ -12560,6 +14460,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Michal",
+            "entityId": "char-michal"
           }
         ]
       }
@@ -12593,6 +14497,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Gibeah",
+            "entityId": "place-gibeah"
           }
         ]
       },
@@ -12613,6 +14521,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12673,6 +14585,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Abner",
+            "entityId": "char-abner"
           }
         ]
       },
@@ -12693,6 +14609,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Ahimelech",
+            "entityId": "char-ahimelech-nob"
           }
         ]
       },
@@ -12713,6 +14633,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Abner",
+            "entityId": "char-abner"
           }
         ]
       },
@@ -12853,6 +14777,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Abner",
+            "entityId": "char-abner"
           }
         ]
       },
@@ -12869,6 +14797,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Abner",
+            "entityId": "char-abner"
           }
         ]
       },
@@ -12952,6 +14888,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13081,6 +15021,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -13097,6 +15045,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Achish",
+            "entityId": "char-achish"
+          },
+          {
+            "spanText": "Gath",
+            "entityId": "place-gath"
           }
         ]
       },
@@ -13117,6 +15073,18 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abigail",
             "entityId": "char-abigail"
+          },
+          {
+            "spanText": "Nabal",
+            "entityId": "char-nabal"
+          },
+          {
+            "spanText": "Achish",
+            "entityId": "char-achish"
+          },
+          {
+            "spanText": "Gath",
+            "entityId": "place-gath"
           }
         ]
       },
@@ -13137,6 +15105,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Gath",
+            "entityId": "place-gath"
           }
         ]
       },
@@ -13153,6 +15125,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Achish",
+            "entityId": "char-achish"
           }
         ]
       },
@@ -13165,7 +15141,20 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Achish gave him Ziklag that day: therefore Ziklag belongs to the kings of Judah to this day.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Achish",
+            "entityId": "char-achish"
+          },
+          {
+            "spanText": "Ziklag",
+            "entityId": "place-ziklag"
+          }
+        ]
       },
       {
         "id": "1SA-27:7",
@@ -13180,6 +15169,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -13200,6 +15193,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Amalekites",
+            "entityId": "char-amalek"
           }
         ]
       },
@@ -13216,6 +15213,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Achish",
+            "entityId": "char-achish"
           }
         ]
       },
@@ -13232,6 +15233,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Achish",
+            "entityId": "char-achish"
           }
         ]
       },
@@ -13248,6 +15257,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Gath",
+            "entityId": "place-gath"
           }
         ]
       },
@@ -13264,6 +15281,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Achish",
+            "entityId": "char-achish"
           }
         ]
       }
@@ -13293,6 +15318,18 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Achish",
+            "entityId": "char-achish"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -13309,6 +15346,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Achish",
+            "entityId": "char-achish"
           }
         ]
       },
@@ -13333,6 +15374,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ramah",
             "entityId": "place-ramah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13349,6 +15394,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -13365,6 +15418,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -13401,6 +15458,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Endor",
+            "entityId": "place-endor"
           }
         ]
       },
@@ -13549,6 +15610,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -13605,6 +15670,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Amalek",
+            "entityId": "char-amalek"
           }
         ]
       },
@@ -13621,6 +15690,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -13731,7 +15808,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the Philistines gathered together all their armies to Aphek; and the Israelites encamped by the spring which is in Jezreel.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israelites",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-29:2",
@@ -13746,6 +15832,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Achish",
+            "entityId": "char-achish"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -13766,6 +15860,22 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Hebrews",
+            "entityId": "char-hebrews"
+          },
+          {
+            "spanText": "Achish",
+            "entityId": "char-achish"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -13778,7 +15888,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "But the princes of the Philistines were angry with him; and the princes of the Philistines said to him, “Make the man return, that he may go back to his place where you have appointed him, and let him not go down with us to battle, lest in the battle he become an adversary to us. For with what should this fellow reconcile himself to his lord? Should it not be with the heads of these men?",
         "translation": "WEB",
         "illustrationId": "ill-1sa-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-29:5",
@@ -13817,6 +15932,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Achish",
+            "entityId": "char-achish"
           }
         ]
       },
@@ -13829,7 +15948,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore now return, and go in peace, that you not displease the lords of the Philistines.”",
         "translation": "WEB",
         "illustrationId": "ill-1sa-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-29:8",
@@ -13844,6 +15968,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Achish",
+            "entityId": "char-achish"
           }
         ]
       },
@@ -13864,6 +15992,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Achish",
+            "entityId": "char-achish"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -13891,6 +16027,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       }
@@ -13920,6 +16060,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Amalekites",
+            "entityId": "char-amalek"
+          },
+          {
+            "spanText": "Ziklag",
+            "entityId": "place-ziklag"
           }
         ]
       },
@@ -13983,6 +16131,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abigail",
             "entityId": "char-abigail"
+          },
+          {
+            "spanText": "Nabal",
+            "entityId": "char-nabal"
           }
         ]
       },
@@ -14023,6 +16175,18 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Abiathar",
+            "entityId": "char-ahimelech-nob"
+          },
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -14122,6 +16286,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Amalekite",
+            "entityId": "char-amalek"
           }
         ]
       },
@@ -14134,7 +16302,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "We made a raid on the South of the Cherethites, and on that which belongs to Judah, and on the South of Caleb; and we burned Ziklag with fire.”",
         "translation": "WEB",
         "illustrationId": "ill-1sa-30",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Ziklag",
+            "entityId": "place-ziklag"
+          }
+        ]
       },
       {
         "id": "1SA-30:15",
@@ -14165,7 +16342,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "When he had brought him down, behold, they were spread around over all the ground, eating, drinking, and dancing, because of all the great plunder that they had taken out of the land of the Philistines, and out of the land of Judah.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-30",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-30:17",
@@ -14196,6 +16382,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Amalekites",
+            "entityId": "char-amalek"
           }
         ]
       },
@@ -14303,7 +16493,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "It was so from that day forward, that he made it a statute and an ordinance for Israel to this day.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-30",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "1SA-30:26",
@@ -14322,6 +16517,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Ziklag",
+            "entityId": "place-ziklag"
           }
         ]
       },
@@ -14416,7 +16619,16 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the Philistines fought against Israel; and the men of Israel fled from before the Philistines, and fell down slain on Mount Gilboa.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-31:2",
@@ -14435,6 +16647,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jonathan",
             "entityId": "char-jonathan"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -14519,6 +16735,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -14535,6 +16759,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -14547,7 +16775,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "They cut off his head, stripped off his armor, and sent into the land of the Philistines all around, to carry the news to the house of their idols, and to the people.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1SA-31:10",
@@ -14573,6 +16806,14 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Jabesh Gilead",
+            "entityId": "place-jabesh"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -14589,6 +16830,10 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Jabesh",
+            "entityId": "place-jabesh"
           }
         ]
       },
@@ -14601,7 +16846,12 @@ export const FIRST_SAMUEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "They took their bones and buried them under the tamarisk tree in Jabesh, and fasted seven days.",
         "translation": "WEB",
         "illustrationId": "ill-1sa-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jabesh",
+            "entityId": "place-jabesh"
+          }
+        ]
       }
     ]
   }
