@@ -53,6 +53,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -77,6 +81,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -97,6 +105,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -121,6 +133,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -137,6 +161,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -153,6 +181,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -169,6 +205,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -189,6 +233,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -205,6 +261,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -225,6 +285,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -237,7 +309,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He shall cut it into its pieces, with its head and its fat. The priest shall lay them in order on the wood that is on the fire which is on the altar,",
         "translation": "WEB",
         "illustrationId": "ill-lev-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-1:13",
@@ -256,6 +337,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -276,6 +369,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -288,7 +385,20 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priest shall bring it to the altar, and wring off its head, and burn it on the altar; and its blood shall be drained out on the side of the altar;",
         "translation": "WEB",
         "illustrationId": "ill-lev-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-1:16",
@@ -299,7 +409,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and he shall take away its crop and its feathers, and cast it beside the altar on the east part, in the place of the ashes.",
         "translation": "WEB",
         "illustrationId": "ill-lev-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "LEV-1:17",
@@ -318,6 +433,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       }
@@ -351,6 +478,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -375,6 +506,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -403,6 +542,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -419,6 +562,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "anointed",
+            "entityId": "term-anointing"
           }
         ]
       },
@@ -435,6 +586,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -451,6 +606,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -467,6 +626,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -487,6 +650,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -507,6 +682,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -535,6 +722,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -555,6 +746,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -575,6 +770,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "first fruits",
+            "entityId": "term-firstfruits"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -599,6 +802,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -619,6 +826,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "first fruits",
+            "entityId": "term-firstfruits"
           }
         ]
       },
@@ -635,6 +850,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -655,6 +874,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       }
@@ -688,6 +911,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
           }
         ]
       },
@@ -712,6 +939,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -732,6 +971,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
           }
         ]
       },
@@ -767,6 +1010,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -787,6 +1038,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
           }
         ]
       },
@@ -831,6 +1086,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -851,6 +1114,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
           }
         ]
       },
@@ -882,6 +1149,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -922,6 +1197,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -973,6 +1256,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -985,7 +1276,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘It shall be a perpetual statute throughout your generations in all your dwellings, that you shall eat neither fat nor blood.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-lev-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          }
+        ]
       }
     ]
   },
@@ -1033,6 +1329,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1053,6 +1353,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "anointed",
+            "entityId": "term-anointing"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1089,6 +1401,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "anointed",
+            "entityId": "term-anointing"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1105,6 +1429,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "veil",
+            "entityId": "term-veil"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1129,6 +1465,26 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1145,6 +1501,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -1172,6 +1532,22 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1195,7 +1571,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "—all the rest of the bull—outside of the camp to a clean place where the ashes are poured out, and burn it on wood with fire. It shall be burned where the ashes are poured out.",
         "translation": "WEB",
         "illustrationId": "ill-lev-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          }
+        ]
       },
       {
         "id": "LEV-4:13",
@@ -1210,6 +1591,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1230,6 +1615,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -1262,6 +1651,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "anointed",
+            "entityId": "term-anointing"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1278,6 +1679,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "veil",
+            "entityId": "term-veil"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1302,6 +1715,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -1314,7 +1739,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "All its fat he shall take from it, and burn it on the altar.",
         "translation": "WEB",
         "illustrationId": "ill-lev-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "LEV-4:20",
@@ -1333,6 +1763,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1349,6 +1787,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -1405,6 +1847,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -1421,6 +1871,26 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1437,6 +1907,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1485,6 +1967,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -1501,6 +1991,22 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1521,6 +2027,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1537,6 +2055,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -1553,6 +2075,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -1569,6 +2099,26 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1589,6 +2139,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       }
@@ -1625,7 +2187,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘Or if anyone touches any unclean thing, whether it is the carcass of an unclean animal, or the carcass of unclean livestock, or the carcass of unclean creeping things, and it is hidden from him, and he is unclean, then he shall be guilty.",
         "translation": "WEB",
         "illustrationId": "ill-lev-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-5:3",
@@ -1636,7 +2203,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘Or if he touches the uncleanness of man, whatever his uncleanness is with which he is unclean, and it is hidden from him; when he knows of it, then he shall be guilty.",
         "translation": "WEB",
         "illustrationId": "ill-lev-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-5:4",
@@ -1681,6 +2253,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1701,6 +2285,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
           }
         ]
       },
@@ -1717,6 +2313,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1733,6 +2337,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -1753,6 +2369,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1769,6 +2393,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -1789,6 +2417,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1809,6 +2449,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1853,6 +2501,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
           }
         ]
       },
@@ -1877,6 +2529,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1913,6 +2573,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1933,6 +2601,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
           }
         ]
       }
@@ -2039,6 +2711,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2059,6 +2739,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2099,6 +2783,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -2115,6 +2807,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2127,7 +2831,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He shall take off his garments, and put on other garments, and carry the ashes outside the camp to a clean place.",
         "translation": "WEB",
         "illustrationId": "ill-lev-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          }
+        ]
       },
       {
         "id": "LEV-6:12",
@@ -2142,6 +2851,22 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2154,7 +2879,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Fire shall be kept burning on the altar continually; it shall not go out.",
         "translation": "WEB",
         "illustrationId": "ill-lev-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "LEV-6:14",
@@ -2177,6 +2907,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -2197,6 +2935,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -2241,6 +2987,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
           }
         ]
       },
@@ -2309,6 +3063,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "anointed",
+            "entityId": "term-anointing"
           }
         ]
       },
@@ -2329,6 +3091,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -2345,6 +3111,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "anointed",
+            "entityId": "term-anointing"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2361,6 +3135,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2409,6 +3191,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -2429,6 +3219,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2445,6 +3239,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -2472,6 +3270,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2500,6 +3302,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       }
@@ -2533,6 +3343,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
           }
         ]
       },
@@ -2549,6 +3363,22 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -2591,6 +3421,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2607,6 +3449,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2627,6 +3473,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2643,6 +3501,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2659,6 +3525,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2679,6 +3553,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -2695,6 +3573,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
           }
         ]
       },
@@ -2707,7 +3589,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If he offers it for a thanksgiving, then he shall offer with the sacrifice of thanksgiving unleavened cakes mixed with oil, and unleavened wafers anointed with oil, and cakes mixed with oil.",
         "translation": "WEB",
         "illustrationId": "ill-lev-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "anointed",
+            "entityId": "term-anointing"
+          }
+        ]
       },
       {
         "id": "LEV-7:13",
@@ -2722,6 +3609,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          },
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
           }
         ]
       },
@@ -2742,6 +3637,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2758,6 +3665,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
           }
         ]
       },
@@ -2797,7 +3708,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If any of the meat of the sacrifice of his peace offerings is eaten on the third day, it will not be accepted, and it shall not be credited to him who offers it. It will be an abomination, and the soul who eats any of it will bear his iniquity.",
         "translation": "WEB",
         "illustrationId": "ill-lev-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          }
+        ]
       },
       {
         "id": "LEV-7:19",
@@ -2808,7 +3724,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘The meat that touches any unclean thing shall not be eaten. It shall be burned with fire. As for the meat, everyone who is clean may eat it;",
         "translation": "WEB",
         "illustrationId": "ill-lev-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-7:20",
@@ -2823,6 +3744,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
           }
         ]
       },
@@ -2839,6 +3764,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          },
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
           }
         ]
       },
@@ -2871,7 +3804,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Speak to the children of Israel, saying, ‘You shall eat no fat, of bull, or sheep, or goat.",
         "translation": "WEB",
         "illustrationId": "ill-lev-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "LEV-7:24",
@@ -2913,7 +3851,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall not eat any blood, whether it is of bird or of animal, in any of your dwellings.",
         "translation": "WEB",
         "illustrationId": "ill-lev-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          }
+        ]
       },
       {
         "id": "LEV-7:27",
@@ -2924,7 +3867,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whoever it is who eats any blood, that soul shall be cut off from his people.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-lev-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          }
+        ]
       },
       {
         "id": "LEV-7:28",
@@ -2963,6 +3911,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2999,6 +3955,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3015,6 +3979,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3031,6 +4003,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -3047,6 +4027,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3067,6 +4059,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3083,6 +4079,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "anointed",
+            "entityId": "term-anointing"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3099,6 +4103,26 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
           }
         ]
       },
@@ -3123,6 +4147,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sinai",
             "entityId": "place-sinai"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -3176,6 +4204,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "anointing",
+            "entityId": "term-anointing"
+          },
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
           }
         ]
       },
@@ -3268,7 +4308,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He put the tunic on him, tied the sash on him, clothed him with the robe, put the ephod on him, and he tied the skillfully woven band of the ephod on him and fastened it to him with it.",
         "translation": "WEB",
         "illustrationId": "ill-lev-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ephod",
+            "entityId": "term-ephod"
+          }
+        ]
       },
       {
         "id": "LEV-8:8",
@@ -3279,7 +4324,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He placed the breastplate on him. He put the Urim and Thummim in the breastplate.",
         "translation": "WEB",
         "illustrationId": "ill-lev-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Urim",
+            "entityId": "term-urim-thummim"
+          },
+          {
+            "spanText": "Thummim",
+            "entityId": "term-urim-thummim"
+          }
+        ]
       },
       {
         "id": "LEV-8:9",
@@ -3322,6 +4376,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "anointing",
+            "entityId": "term-anointing"
           }
         ]
       },
@@ -3334,7 +4392,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He sprinkled it on the altar seven times, and anointed the altar and all its vessels, and the basin and its base, to sanctify them.",
         "translation": "WEB",
         "illustrationId": "ill-lev-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "anointed",
+            "entityId": "term-anointing"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "LEV-8:12",
@@ -3349,6 +4416,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "anointing",
+            "entityId": "term-anointing"
           }
         ]
       },
@@ -3393,6 +4464,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -3413,6 +4488,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -3429,6 +4512,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -3469,6 +4556,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -3485,6 +4576,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -3525,6 +4624,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -3561,6 +4668,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -3581,6 +4692,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -3608,6 +4727,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
           }
         ]
       },
@@ -3656,6 +4779,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -3700,6 +4831,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "anointing",
+            "entityId": "term-anointing"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -3724,6 +4867,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
           }
         ]
       },
@@ -3736,7 +4883,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "What remains of the meat and of the bread you shall burn with fire.",
         "translation": "WEB",
         "illustrationId": "ill-lev-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
+          }
+        ]
       },
       {
         "id": "LEV-8:33",
@@ -3848,6 +5000,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3872,6 +5028,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -3888,6 +5052,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3908,6 +5084,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
           }
         ]
       },
@@ -3984,6 +5168,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -4004,6 +5200,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -4020,6 +5224,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -4044,6 +5256,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -4075,6 +5295,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -4091,6 +5323,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -4107,6 +5347,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -4123,6 +5371,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -4139,6 +5391,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -4155,6 +5411,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -4171,6 +5439,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -4194,7 +5474,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and they put the fat upon the breasts, and he burned the fat on the altar.",
         "translation": "WEB",
         "illustrationId": "ill-lev-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "LEV-9:21",
@@ -4241,6 +5526,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -4289,6 +5586,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       }
@@ -4330,6 +5635,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abihu",
             "entityId": "char-abihu"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
           }
         ]
       },
@@ -4442,6 +5751,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ithamar",
             "entityId": "char-ithamar"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4466,6 +5779,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "anointing",
+            "entityId": "term-anointing"
           }
         ]
       },
@@ -4518,6 +5835,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
           }
         ]
       },
@@ -4538,6 +5859,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4578,6 +5903,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -4610,7 +5943,20 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The waved breast and the heaved thigh you shall eat in a clean place, you, and your sons, and your daughters with you: for they are given as your portion, and your sons’ portion, out of the sacrifices of the peace offerings of the children of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-lev-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          },
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "LEV-10:15",
@@ -4661,6 +6007,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -4689,6 +6039,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -4701,7 +6055,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, its blood was not brought into the inner part of the sanctuary. You certainly should have eaten it in the sanctuary, as I commanded.”",
         "translation": "WEB",
         "illustrationId": "ill-lev-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          }
+        ]
       },
       {
         "id": "LEV-10:19",
@@ -4728,6 +6087,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -4793,7 +6160,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Speak to the children of Israel, saying, ‘These are the living things which you may eat among all the animals that are on the earth.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "LEV-11:3",
@@ -4815,7 +6187,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘Nevertheless these you shall not eat of those that chew the cud, or of those who part the hoof: the camel, because it chews the cud but doesn’t have a parted hoof, is unclean to you.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-11:5",
@@ -4826,7 +6203,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The hyrax, because it chews the cud but doesn’t have a parted hoof, is unclean to you.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-11:6",
@@ -4837,7 +6219,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The hare, because it chews the cud but doesn’t have a parted hoof, is unclean to you.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-11:7",
@@ -4848,7 +6235,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The pig, because it has a split hoof, and is cloven-footed, but doesn’t chew the cud, is unclean to you.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-11:8",
@@ -4859,7 +6251,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall not eat their meat. You shall not touch their carcasses. They are unclean to you.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-11:9",
@@ -5035,7 +6432,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘By these you will become unclean: whoever touches their carcass shall be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-11:25",
@@ -5046,7 +6448,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whoever carries any part of their carcass shall wash his clothes, and be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-11:26",
@@ -5057,7 +6464,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘Every animal which has a split hoof that isn’t completely divided, or doesn’t chew the cud, is unclean to you. Everyone who touches them shall be unclean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-11:27",
@@ -5068,7 +6480,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whatever goes on its paws, among all animals that go on all fours, they are unclean to you. Whoever touches their carcass shall be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-11:28",
@@ -5079,7 +6496,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He who carries their carcass shall wash his clothes, and be unclean until the evening. They are unclean to you.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-11:29",
@@ -5090,7 +6512,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘These are they which are unclean to you among the creeping things that creep on the earth: the weasel, the rat, any kind of great lizard,",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-11:30",
@@ -5112,7 +6539,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are they which are unclean to you among all that creep. Whoever touches them when they are dead shall be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-11:32",
@@ -5123,7 +6555,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Anything they fall on when they are dead shall be unclean; whether it is any vessel of wood, or clothing, or skin, or sack, whatever vessel it is, with which any work is done, it must be put into water, and it shall be unclean until the evening. Then it will be clean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-11:33",
@@ -5134,7 +6571,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Every earthen vessel into which any of them falls and all that is in it shall be unclean. You shall break it.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-11:34",
@@ -5145,7 +6587,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "All food which may be eaten which is soaked in water shall be unclean. All drink that may be drunk in every such vessel shall be unclean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-11:35",
@@ -5156,7 +6603,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Everything whereupon part of their carcass falls shall be unclean; whether oven, or range for pots, it shall be broken in pieces. They are unclean, and shall be unclean to you.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-11:36",
@@ -5167,7 +6619,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Nevertheless a spring or a cistern in which water is gathered shall be clean, but that which touches their carcass shall be unclean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-11:37",
@@ -5178,7 +6635,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If part of their carcass falls on any sowing seed which is to be sown, it is clean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          }
+        ]
       },
       {
         "id": "LEV-11:38",
@@ -5189,7 +6651,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if water is put on the seed, and part of their carcass falls on it, it is unclean to you.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-11:39",
@@ -5200,7 +6667,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘If any animal of which you may eat dies, he who touches its carcass shall be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-11:40",
@@ -5211,7 +6683,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He who eats of its carcass shall wash his clothes, and be unclean until the evening. He also who carries its carcass shall wash his clothes, and be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-11:41",
@@ -5244,7 +6721,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall not make yourselves abominable with any creeping thing that creeps. You shall not make yourselves unclean with them, that you should be defiled by them.",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-11:44",
@@ -5318,7 +6800,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "to make a distinction between the unclean and the clean, and between the living thing that may be eaten and the living thing that may not be eaten.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-lev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       }
     ]
   },
@@ -5362,7 +6849,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Speak to the children of Israel, saying, ‘If a woman conceives, and bears a male child, then she shall be unclean seven days; as in the days of her monthly period she shall be unclean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "LEV-12:3",
@@ -5388,6 +6884,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -5400,7 +6900,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if she bears a female child, then she shall be unclean two weeks, as in her period; and she shall continue in the blood of purification sixty-six days.",
         "translation": "WEB",
         "illustrationId": "ill-lev-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          }
+        ]
       },
       {
         "id": "LEV-12:6",
@@ -5419,6 +6928,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -5439,6 +6960,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -5459,6 +6984,22 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       }
@@ -5512,6 +7053,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -5524,7 +7073,20 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priest shall examine the plague in the skin of the body. If the hair in the plague has turned white, and the appearance of the plague is deeper than the body’s skin, it is the plague of leprosy; so the priest shall examine him and pronounce him unclean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
+          },
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:4",
@@ -5535,7 +7097,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If the bright spot is white in the skin of his body, and its appearance isn’t deeper than the skin, and its hair hasn’t turned white, then the priest shall isolate the infected person for seven days.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:5",
@@ -5546,7 +7113,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priest shall examine him on the seventh day. Behold, if in his eyes the plague is arrested and the plague hasn’t spread in the skin, then the priest shall isolate him for seven more days.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:6",
@@ -5557,7 +7129,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priest shall examine him again on the seventh day. Behold, if the plague has faded and the plague hasn’t spread in the skin, then the priest shall pronounce him clean. It is a scab. He shall wash his clothes, and be clean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:7",
@@ -5568,7 +7149,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if the scab spreads on the skin after he has shown himself to the priest for his cleansing, he shall show himself to the priest again.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:8",
@@ -5579,7 +7165,20 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priest shall examine him; and behold, if the scab has spread on the skin, then the priest shall pronounce him unclean. It is leprosy.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
+          },
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:9",
@@ -5590,7 +7189,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“When the plague of leprosy is in a man, then he shall be brought to the priest;",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:10",
@@ -5601,7 +7209,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and the priest shall examine him. Behold, if there is a white swelling in the skin, and it has turned the hair white, and there is raw flesh in the swelling,",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:11",
@@ -5612,7 +7225,20 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "it is a chronic leprosy in the skin of his body, and the priest shall pronounce him unclean. He shall not isolate him, for he is already unclean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
+          },
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:12",
@@ -5623,7 +7249,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“If the leprosy breaks out all over the skin, and the leprosy covers all the skin of the infected person from his head even to his feet, as far as it appears to the priest,",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:13",
@@ -5634,7 +7269,20 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "then the priest shall examine him. Behold, if the leprosy has covered all his flesh, he shall pronounce him clean of the plague. It has all turned white: he is clean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
+          },
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:14",
@@ -5645,7 +7293,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But whenever raw flesh appears in him, he shall be unclean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-13:15",
@@ -5656,7 +7309,20 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priest shall examine the raw flesh, and pronounce him unclean: the raw flesh is unclean. It is leprosy.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
+          },
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:16",
@@ -5667,7 +7333,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Or if the raw flesh turns again, and is changed to white, then he shall come to the priest.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:17",
@@ -5678,7 +7349,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priest shall examine him. Behold, if the plague has turned white, then the priest shall pronounce him clean of the plague. He is clean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:18",
@@ -5700,7 +7380,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and in the place of the boil there is a white swelling, or a bright spot, reddish-white, then it shall be shown to the priest.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:20",
@@ -5711,7 +7396,20 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priest shall examine it. Behold, if its appearance is deeper than the skin, and its hair has turned white, then the priest shall pronounce him unclean. It is the plague of leprosy. It has broken out in the boil.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
+          },
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:21",
@@ -5722,7 +7420,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if the priest examines it, and behold, there are no white hairs in it, and it isn’t deeper than the skin, but is dim, then the priest shall isolate him seven days.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:22",
@@ -5733,7 +7436,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If it spreads in the skin, then the priest shall pronounce him unclean. It is a plague.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:23",
@@ -5744,7 +7456,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if the bright spot stays in its place, and hasn’t spread, it is the scar from the boil; and the priest shall pronounce him clean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:24",
@@ -5766,7 +7487,20 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "then the priest shall examine it; and behold, if the hair in the bright spot has turned white, and its appearance is deeper than the skin, it is leprosy. It has broken out in the burning, and the priest shall pronounce him unclean. It is the plague of leprosy.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
+          },
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:26",
@@ -5777,7 +7511,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if the priest examines it, and behold, there is no white hair in the bright spot, and it isn’t deeper than the skin, but has faded, then the priest shall isolate him seven days.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:27",
@@ -5788,7 +7527,20 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priest shall examine him on the seventh day. If it has spread in the skin, then the priest shall pronounce him unclean. It is the plague of leprosy.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
+          },
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:28",
@@ -5799,7 +7551,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If the bright spot stays in its place, and hasn’t spread in the skin, but is faded, it is the swelling from the burn, and the priest shall pronounce him clean, for it is the scar from the burn.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:29",
@@ -5821,7 +7582,20 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "then the priest shall examine the plague; and behold, if its appearance is deeper than the skin, and the hair in it is yellow and thin, then the priest shall pronounce him unclean. It is an itch. It is leprosy of the head or of the beard.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
+          },
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:31",
@@ -5832,7 +7606,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If the priest examines the plague of itching, and behold, its appearance isn’t deeper than the skin, and there is no black hair in it, then the priest shall isolate the person infected with itching seven days.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:32",
@@ -5843,7 +7622,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "On the seventh day the priest shall examine the plague; and behold, if the itch hasn’t spread, and there is no yellow hair in it, and the appearance of the itch isn’t deeper than the skin,",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:33",
@@ -5854,7 +7638,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "then he shall be shaved, but he shall not shave the itch. Then the priest shall isolate the one who has the itch seven more days.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:34",
@@ -5865,7 +7654,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "On the seventh day, the priest shall examine the itch; and behold, if the itch hasn’t spread in the skin, and its appearance isn’t deeper than the skin, then the priest shall pronounce him clean. He shall wash his clothes and be clean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:35",
@@ -5887,7 +7685,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "then the priest shall examine him; and behold, if the itch has spread in the skin, the priest shall not look for the yellow hair; he is unclean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:37",
@@ -5898,7 +7705,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if in his eyes the itch is arrested and black hair has grown in it, then the itch is healed. He is clean. The priest shall pronounce him clean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:38",
@@ -5920,7 +7736,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "then the priest shall examine them. Behold, if the bright spots on the skin of their body are a dull white, it is a harmless rash. It has broken out in the skin. He is clean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:40",
@@ -5931,7 +7756,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“If a man’s hair has fallen from his head, he is bald. He is clean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          }
+        ]
       },
       {
         "id": "LEV-13:41",
@@ -5942,7 +7772,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If his hair has fallen off from the front part of his head, he is forehead bald. He is clean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          }
+        ]
       },
       {
         "id": "LEV-13:42",
@@ -5953,7 +7788,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if a reddish-white plague is in the bald head or the bald forehead, it is leprosy breaking out in his bald head or his bald forehead.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
+          }
+        ]
       },
       {
         "id": "LEV-13:43",
@@ -5964,7 +7804,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the priest shall examine him. Behold, if the swelling of the plague is reddish-white in his bald head, or in his bald forehead, like the appearance of leprosy in the skin of the body,",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:44",
@@ -5975,7 +7824,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "he is a leprous man. He is unclean. The priest shall surely pronounce him unclean. His plague is on his head.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:45",
@@ -5986,7 +7844,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“The leper in whom the plague is shall wear torn clothes, and the hair of his head shall hang loose. He shall cover his upper lip, and shall cry, ‘Unclean! Unclean!’",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-13:46",
@@ -5997,7 +7860,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the days in which the plague is in him he shall be unclean. He is unclean. He shall dwell alone. His dwelling shall be outside of the camp.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-13:47",
@@ -6008,7 +7876,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“The garment also that the plague of leprosy is in, whether it is a woolen garment, or a linen garment;",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
+          }
+        ]
       },
       {
         "id": "LEV-13:48",
@@ -6030,7 +7903,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "if the plague is greenish or reddish in the garment, or in the leather, or in the warp, or in the woof, or in anything made of leather; it is the plague of leprosy, and shall be shown to the priest.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:50",
@@ -6041,7 +7923,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priest shall examine the plague, and isolate the plague seven days.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:51",
@@ -6052,7 +7939,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He shall examine the plague on the seventh day. If the plague has spread in the garment, either in the warp, or in the woof, or in the skin, whatever use the skin is used for, the plague is a destructive mildew. It is unclean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-13:52",
@@ -6074,7 +7966,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“If the priest examines it, and behold, the plague hasn’t spread in the garment, either in the warp, or in the woof, or in anything of skin;",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:54",
@@ -6085,7 +7982,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "then the priest shall command that they wash the thing that the plague is in, and he shall isolate it seven more days.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:55",
@@ -6096,7 +7998,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the priest shall examine it, after the plague is washed; and behold, if the plague hasn’t changed its color, and the plague hasn’t spread, it is unclean; you shall burn it in the fire. It is a mildewed spot, whether the bareness is inside or outside.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:56",
@@ -6107,7 +8018,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If the priest looks, and behold, the plague has faded after it is washed, then he shall tear it out of the garment, or out of the skin, or out of the warp, or out of the woof;",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-13:57",
@@ -6129,7 +8045,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The garment, either the warp, or the woof, or whatever thing of skin it is, which you shall wash, if the plague has departed from them, then it shall be washed the second time, and it will be clean.”",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          }
+        ]
       },
       {
         "id": "LEV-13:59",
@@ -6140,7 +8061,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "This is the law of the plague of mildew in a garment of wool or linen, either in the warp, or the woof, or in anything of skin, to pronounce it clean, or to pronounce it unclean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       }
     ]
   },
@@ -6184,7 +8110,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“This shall be the law of the leper in the day of his cleansing: He shall be brought to the priest,",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-14:3",
@@ -6195,7 +8126,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and the priest shall go out of the camp. The priest shall examine him. Behold, if the plague of leprosy is healed in the leper,",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-14:4",
@@ -6206,7 +8146,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "then the priest shall command them to take for him who is to be cleansed two living clean birds, cedar wood, scarlet, and hyssop.",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-14:5",
@@ -6217,7 +8166,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priest shall command them to kill one of the birds in an earthen vessel over running water.",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-14:6",
@@ -6228,7 +8182,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "As for the living bird, he shall take it, the cedar wood, the scarlet, and the hyssop, and shall dip them and the living bird in the blood of the bird that was killed over the running water.",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          }
+        ]
       },
       {
         "id": "LEV-14:7",
@@ -6239,7 +8198,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He shall sprinkle on him who is to be cleansed from the leprosy seven times, and shall pronounce him clean, and shall let the living bird go into the open field.",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
+          },
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          }
+        ]
       },
       {
         "id": "LEV-14:8",
@@ -6250,7 +8218,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“He who is to be cleansed shall wash his clothes, and shave off all his hair, and bathe himself in water; and he shall be clean. After that he shall come into the camp, but shall dwell outside his tent seven days.",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          }
+        ]
       },
       {
         "id": "LEV-14:9",
@@ -6261,7 +8234,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "It shall be on the seventh day, that he shall shave all his hair off his head and his beard and his eyebrows, even all his hair he shall shave off. He shall wash his clothes, and he shall bathe his body in water. Then he shall be clean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          }
+        ]
       },
       {
         "id": "LEV-14:10",
@@ -6276,6 +8254,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -6296,6 +8278,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -6316,6 +8302,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -6336,6 +8330,22 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -6352,6 +8362,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -6364,7 +8386,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priest shall take some of the log of oil, and pour it into the palm of his own left hand.",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-14:16",
@@ -6379,6 +8406,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -6395,6 +8426,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -6415,6 +8458,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -6435,6 +8482,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -6455,6 +8514,26 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -6475,6 +8554,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
           }
         ]
       },
@@ -6491,6 +8578,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -6511,6 +8606,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -6531,6 +8630,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -6547,6 +8654,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -6559,7 +8678,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priest shall pour some of the oil into the palm of his own left hand;",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-14:27",
@@ -6574,6 +8698,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -6590,6 +8718,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -6610,6 +8750,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -6645,6 +8789,22 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -6657,7 +8817,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "This is the law for him in whom is the plague of leprosy, who is not able to afford the sacrifice for his cleansing.",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
+          }
+        ]
       },
       {
         "id": "LEV-14:33",
@@ -6708,7 +8873,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "then he who owns the house shall come and tell the priest, saying, ‘There seems to me to be some sort of plague in the house.’",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-14:36",
@@ -6719,7 +8889,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priest shall command that they empty the house, before the priest goes in to examine the plague, that all that is in the house not be made unclean. Afterward the priest shall go in to inspect the house.",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-14:37",
@@ -6741,7 +8920,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "then the priest shall go out of the house to the door of the house, and shut up the house seven days.",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-14:39",
@@ -6752,7 +8936,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priest shall come again on the seventh day, and look. If the plague has spread in the walls of the house,",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-14:40",
@@ -6763,7 +8952,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "then the priest shall command that they take out the stones in which is the plague, and cast them into an unclean place outside of the city.",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-14:41",
@@ -6774,7 +8972,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He shall cause the inside of the house to be scraped all over. They shall pour out the mortar that they scraped off outside of the city into an unclean place.",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-14:42",
@@ -6807,7 +9010,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "then the priest shall come in and look; and behold, if the plague has spread in the house, it is a destructive mildew in the house. It is unclean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-14:45",
@@ -6818,7 +9030,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He shall break down the house, its stones, and its timber, and all the house’s mortar. He shall carry them out of the city into an unclean place.",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-14:46",
@@ -6829,7 +9046,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Moreover he who goes into the house while it is shut up shall be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-14:47",
@@ -6851,7 +9073,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“If the priest shall come in, and examine it, and behold, the plague hasn’t spread in the house, after the house was plastered, then the priest shall pronounce the house clean, because the plague is healed.",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-14:49",
@@ -6884,7 +9115,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He shall take the cedar wood, the hyssop, the scarlet, and the living bird, and dip them in the blood of the slain bird, and in the running water, and sprinkle the house seven times.",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          }
+        ]
       },
       {
         "id": "LEV-14:52",
@@ -6895,7 +9131,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He shall cleanse the house with the blood of the bird, and with the running water, with the living bird, with the cedar wood, with the hyssop, and with the scarlet;",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          }
+        ]
       },
       {
         "id": "LEV-14:53",
@@ -6910,6 +9151,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
           }
         ]
       },
@@ -6922,7 +9167,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "This is the law for any plague of leprosy, and for an itch,",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
+          }
+        ]
       },
       {
         "id": "LEV-14:55",
@@ -6955,7 +9205,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "to teach when it is unclean, and when it is clean. This is the law of leprosy.",
         "translation": "WEB",
         "illustrationId": "ill-lev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
+          },
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       }
     ]
   },
@@ -7003,7 +9262,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Speak to the children of Israel, and tell them, ‘When any man has a discharge from his body, because of his discharge he is unclean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "LEV-15:3",
@@ -7025,7 +9293,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘Every bed on which he who has the discharge lies shall be unclean; and everything he sits on shall be unclean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-15:5",
@@ -7036,7 +9309,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whoever touches his bed shall wash his clothes, and bathe himself in water, and be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-15:6",
@@ -7047,7 +9325,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He who sits on anything on which the man who has the discharge sat shall wash his clothes, and bathe himself in water, and be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-15:7",
@@ -7058,7 +9341,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘He who touches the body of him who has the discharge shall wash his clothes, and bathe himself in water, and be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-15:8",
@@ -7069,7 +9357,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘If he who has the discharge spits on him who is clean, then he shall wash his clothes, and bathe himself in water, and be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-15:9",
@@ -7080,7 +9373,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘Whatever saddle he who has the discharge rides on shall be unclean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-15:10",
@@ -7091,7 +9389,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whoever touches anything that was under him shall be unclean until the evening. He who carries those things shall wash his clothes, and bathe himself in water, and be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-15:11",
@@ -7102,7 +9405,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘Whomever he who has the discharge touches, without having rinsed his hands in water, he shall wash his clothes, and bathe himself in water, and be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-15:12",
@@ -7124,7 +9432,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘When he who has a discharge is cleansed of his discharge, then he shall count to himself seven days for his cleansing, and wash his clothes; and he shall bathe his flesh in running water, and shall be clean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          }
+        ]
       },
       {
         "id": "LEV-15:14",
@@ -7143,6 +9456,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -7167,6 +9484,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -7179,7 +9508,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘If any man has an emission of semen, then he shall bathe all his flesh in water, and be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-15:17",
@@ -7190,7 +9524,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Every garment and every skin which the semen is on shall be washed with water, and be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-15:18",
@@ -7201,7 +9540,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If a man lies with a woman and there is an emission of semen, they shall both bathe themselves in water, and be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-15:19",
@@ -7212,7 +9556,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘If a woman has a discharge, and her discharge in her flesh is blood, she shall be in her impurity seven days. Whoever touches her shall be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          }
+        ]
       },
       {
         "id": "LEV-15:20",
@@ -7223,7 +9576,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘Everything that she lies on in her impurity shall be unclean. Everything also that she sits on shall be unclean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-15:21",
@@ -7234,7 +9592,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whoever touches her bed shall wash his clothes, and bathe himself in water, and be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-15:22",
@@ -7245,7 +9608,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whoever touches anything that she sits on shall wash his clothes, and bathe himself in water, and be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-15:23",
@@ -7256,7 +9624,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If it is on the bed, or on anything she sits on, when he touches it, he shall be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-15:24",
@@ -7267,7 +9640,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘If any man lies with her, and her monthly flow is on him, he shall be unclean seven days; and every bed he lies on shall be unclean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-15:25",
@@ -7278,7 +9656,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘If a woman has a discharge of her blood many days not in the time of her period, or if she has a discharge beyond the time of her period, all the days of the discharge of her uncleanness shall be as in the days of her period. She is unclean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          }
+        ]
       },
       {
         "id": "LEV-15:26",
@@ -7289,7 +9676,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Every bed she lies on all the days of her discharge shall be to her as the bed of her period. Everything she sits on shall be unclean, as the uncleanness of her period.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-15:27",
@@ -7300,7 +9692,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whoever touches these things shall be unclean, and shall wash his clothes and bathe himself in water, and be unclean until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-15:28",
@@ -7311,7 +9708,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘But if she is cleansed of her discharge, then she shall count to herself seven days, and after that she shall be clean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          }
+        ]
       },
       {
         "id": "LEV-15:29",
@@ -7326,6 +9728,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -7350,6 +9756,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -7366,6 +9784,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7378,7 +9800,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "This is the law of him who has a discharge, and of him who has an emission of semen, so that he is unclean by it;",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-15:33",
@@ -7389,7 +9816,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and of her who has her period, and of a man or woman who has a discharge, and of him who lies with her who is unclean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       }
     ]
   },
@@ -7457,6 +9889,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy seat",
             "entityId": "term-mercy-seat"
+          },
+          {
+            "spanText": "ark",
+            "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "veil",
+            "entityId": "term-veil"
           }
         ]
       },
@@ -7477,6 +9917,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -7509,6 +9957,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7533,6 +9993,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -7601,6 +10065,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -7649,6 +10117,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -7665,6 +10137,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "veil",
+            "entityId": "term-veil"
           }
         ]
       },
@@ -7689,6 +10173,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy seat",
             "entityId": "term-mercy-seat"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
           }
         ]
       },
@@ -7705,6 +10193,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy seat",
             "entityId": "term-mercy-seat"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -7725,6 +10217,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy seat",
             "entityId": "term-mercy-seat"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "veil",
+            "entityId": "term-veil"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -7749,6 +10253,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7773,6 +10281,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7793,6 +10305,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -7809,6 +10329,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7829,6 +10357,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -7845,6 +10377,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7904,6 +10440,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -7920,6 +10460,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -7960,6 +10508,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -8002,6 +10558,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
           }
         ]
       },
@@ -8038,6 +10598,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "anointed",
+            "entityId": "term-anointing"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -8062,6 +10630,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -8086,6 +10662,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -8139,6 +10719,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8151,7 +10735,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whatever man there is of the house of Israel who kills a bull, or lamb, or goat in the camp, or who kills it outside the camp,",
         "translation": "WEB",
         "illustrationId": "ill-lev-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "LEV-17:4",
@@ -8178,6 +10767,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -8198,6 +10791,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -8218,6 +10823,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -8245,6 +10862,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8277,7 +10902,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘Any man of the house of Israel, or of the strangers who live as foreigners among them, who eats any kind of blood, I will set my face against that soul who eats blood, and will cut him off from among his people.",
         "translation": "WEB",
         "illustrationId": "ill-lev-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "LEV-17:11",
@@ -8292,6 +10926,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
           }
         ]
       },
@@ -8304,7 +10946,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore I have said to the children of Israel, “No person among you may eat blood, nor may any stranger who lives as a foreigner among you eat blood.”",
         "translation": "WEB",
         "illustrationId": "ill-lev-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "LEV-17:13",
@@ -8315,7 +10966,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘Whatever man there is of the children of Israel, or of the strangers who live as foreigners among them, who takes in hunting any animal or bird that may be eaten, he shall pour out its blood, and cover it with dust.",
         "translation": "WEB",
         "illustrationId": "ill-lev-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "LEV-17:14",
@@ -8326,7 +10986,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For as to the life of all flesh, its blood is with its life. Therefore I said to the children of Israel, “You shall not eat the blood of any kind of flesh; for the life of all flesh is its blood. Whoever eats it shall be cut off.”",
         "translation": "WEB",
         "illustrationId": "ill-lev-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "LEV-17:15",
@@ -8337,7 +11006,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘Every person that eats what dies of itself, or that which is torn by animals, whether he is native-born or a foreigner, shall wash his clothes, and bathe himself in water, and be unclean until the evening. Then he shall be clean.",
         "translation": "WEB",
         "illustrationId": "ill-lev-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-17:16",
@@ -8400,6 +11074,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8651,6 +11329,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Molech",
+            "entityId": "term-molech"
           }
         ]
       },
@@ -8816,6 +11498,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8836,6 +11522,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
           }
         ]
       },
@@ -8872,6 +11562,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
           }
         ]
       },
@@ -9130,6 +11824,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
           }
         ]
       },
@@ -9154,6 +11852,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "trespass offering",
+            "entityId": "term-trespass-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9217,7 +11923,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘You shall not eat any meat with the blood still in it. You shall not use enchantments, nor practice sorcery.",
         "translation": "WEB",
         "illustrationId": "ill-lev-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          }
+        ]
       },
       {
         "id": "LEV-19:27",
@@ -9270,6 +11981,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
           }
         ]
       },
@@ -9441,7 +12156,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Moreover, you shall tell the children of Israel, ‘Anyone of the children of Israel, or of the strangers who live as foreigners in Israel, who gives any of his offspring to Molech shall surely be put to death. The people of the land shall stone that person with stones.",
         "translation": "WEB",
         "illustrationId": "ill-lev-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Molech",
+            "entityId": "term-molech"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "LEV-20:3",
@@ -9456,6 +12180,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "Molech",
+            "entityId": "term-molech"
           }
         ]
       },
@@ -9468,7 +12196,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If the people of the land all hide their eyes from that person when he gives of his offspring to Molech, and don’t put him to death,",
         "translation": "WEB",
         "illustrationId": "ill-lev-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Molech",
+            "entityId": "term-molech"
+          }
+        ]
       },
       {
         "id": "LEV-20:5",
@@ -9479,7 +12212,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "then I will set my face against that man and against his family, and will cut him off, and all who play the prostitute after him to play the prostitute with Molech, from among their people.",
         "translation": "WEB",
         "illustrationId": "ill-lev-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Molech",
+            "entityId": "term-molech"
+          }
+        ]
       },
       {
         "id": "LEV-20:6",
@@ -9541,7 +12279,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘For everyone who curses his father or his mother shall surely be put to death. He has cursed his father or his mother. His blood shall be upon himself.",
         "translation": "WEB",
         "illustrationId": "ill-lev-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          }
+        ]
       },
       {
         "id": "LEV-20:10",
@@ -9568,7 +12311,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘The man who lies with his father’s wife has uncovered his father’s nakedness. Both of them shall surely be put to death. Their blood shall be upon themselves.",
         "translation": "WEB",
         "illustrationId": "ill-lev-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          }
+        ]
       },
       {
         "id": "LEV-20:12",
@@ -9579,7 +12327,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘If a man lies with his daughter-in-law, both of them shall surely be put to death. They have committed a perversion. Their blood shall be upon themselves.",
         "translation": "WEB",
         "illustrationId": "ill-lev-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          }
+        ]
       },
       {
         "id": "LEV-20:13",
@@ -9590,7 +12343,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘If a man lies with a male, as with a woman, both of them have committed an abomination. They shall surely be put to death. Their blood shall be upon themselves.",
         "translation": "WEB",
         "illustrationId": "ill-lev-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          }
+        ]
       },
       {
         "id": "LEV-20:14",
@@ -9623,7 +12381,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘If a woman approaches any animal and lies with it, you shall kill the woman and the animal. They shall surely be put to death. Their blood shall be upon them.",
         "translation": "WEB",
         "illustrationId": "ill-lev-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          }
+        ]
       },
       {
         "id": "LEV-20:17",
@@ -9645,7 +12408,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘If a man lies with a woman having her monthly period, and uncovers her nakedness, he has made her fountain naked, and she has uncovered the fountain of her blood. Both of them shall be cut off from among their people.",
         "translation": "WEB",
         "illustrationId": "ill-lev-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          }
+        ]
       },
       {
         "id": "LEV-20:19",
@@ -9731,7 +12499,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘You shall therefore make a distinction between the clean animal and the unclean, and between the unclean fowl and the clean. You shall not make yourselves abominable by animal, or by bird, or by anything with which the ground teems, which I have separated from you as unclean for you.",
         "translation": "WEB",
         "illustrationId": "ill-lev-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-20:26",
@@ -9762,7 +12535,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘A man or a woman that is a medium or is a wizard shall surely be put to death. They shall be stoned with stones. Their blood shall be upon themselves.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-lev-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blood",
+            "entityId": "term-blood-life"
+          }
+        ]
       }
     ]
   },
@@ -9798,6 +12576,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9866,6 +12648,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
           }
         ]
       },
@@ -9886,6 +12672,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9910,6 +12700,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
           }
         ]
       },
@@ -9922,7 +12716,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘The daughter of any priest, if she profanes herself by playing the prostitute, she profanes her father. She shall be burned with fire.",
         "translation": "WEB",
         "illustrationId": "ill-lev-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-21:10",
@@ -9933,7 +12732,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘He who is the high priest among his brothers, upon whose head the anointing oil is poured, and who is consecrated to put on the garments, shall not let the hair of his head hang loose, or tear his clothes.",
         "translation": "WEB",
         "illustrationId": "ill-lev-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "anointing",
+            "entityId": "term-anointing"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-21:11",
@@ -9963,6 +12771,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "anointing",
+            "entityId": "term-anointing"
           }
         ]
       },
@@ -10041,6 +12853,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
           }
         ]
       },
@@ -10098,6 +12914,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10118,6 +12942,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
           }
         ]
       },
@@ -10134,6 +12962,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "veil",
+            "entityId": "term-veil"
           }
         ]
       },
@@ -10154,6 +12990,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aaron",
             "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -10211,6 +13051,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10231,6 +13075,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10251,6 +13099,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
           }
         ]
       },
@@ -10263,7 +13115,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "or whoever touches any creeping thing whereby he may be made unclean, or a man from whom he may become unclean, whatever uncleanness he has—",
         "translation": "WEB",
         "illustrationId": "ill-lev-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-22:6",
@@ -10278,6 +13135,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
           }
         ]
       },
@@ -10294,6 +13155,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "clean",
+            "entityId": "term-clean"
+          },
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
           }
         ]
       },
@@ -10342,6 +13211,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10354,7 +13227,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if a priest buys a slave, purchased by his money, he shall eat of it; and those who are born in his house shall eat of his bread.",
         "translation": "WEB",
         "illustrationId": "ill-lev-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-22:12",
@@ -10373,6 +13255,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10385,7 +13271,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if a priest’s daughter is a widow, or divorced, and has no child, and has returned to her father’s house as in her youth, she may eat of her father’s bread; but no stranger shall eat any of it.",
         "translation": "WEB",
         "illustrationId": "ill-lev-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-22:14",
@@ -10400,6 +13295,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10420,6 +13319,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10484,6 +13391,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10526,6 +13441,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
           }
         ]
       },
@@ -10546,6 +13465,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -10594,6 +13517,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
           }
         ]
       },
@@ -10713,6 +13640,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10790,6 +13721,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10874,6 +13809,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "feast",
             "entityId": "term-feasts"
+          },
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
           }
         ]
       },
@@ -10946,7 +13885,20 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Speak to the children of Israel, and tell them, ‘When you have come into the land which I give to you, and shall reap its harvest, then you shall bring the sheaf of the first fruits of your harvest to the priest.",
         "translation": "WEB",
         "illustrationId": "ill-lev-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "first fruits",
+            "entityId": "term-firstfruits"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-23:11",
@@ -10965,6 +13917,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sabbath",
             "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10985,6 +13941,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -11005,6 +13965,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -11025,6 +13989,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
           }
         ]
       },
@@ -11069,6 +14037,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sabbath",
             "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -11089,6 +14061,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "first fruits",
+            "entityId": "term-firstfruits"
+          },
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
           }
         ]
       },
@@ -11109,6 +14089,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
+          },
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
           }
         ]
       },
@@ -11125,6 +14117,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "peace offerings",
+            "entityId": "term-peace-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -11149,6 +14149,18 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "first fruits",
+            "entityId": "term-firstfruits"
+          },
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -11221,6 +14233,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11402,6 +14422,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "feast",
             "entityId": "term-feasts"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11466,6 +14490,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "meal offering",
+            "entityId": "term-meal-offering"
           }
         ]
       },
@@ -11482,6 +14514,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
           }
         ]
       },
@@ -11554,7 +14590,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall dwell in temporary shelters for seven days. All who are native-born in Israel shall dwell in temporary shelters,",
         "translation": "WEB",
         "illustrationId": "ill-lev-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "LEV-23:43",
@@ -11577,6 +14618,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11597,6 +14642,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -11642,7 +14691,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Command the children of Israel, that they bring to you pure olive oil beaten for the light, to cause a lamp to burn continually.",
         "translation": "WEB",
         "illustrationId": "ill-lev-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "LEV-24:3",
@@ -11665,6 +14719,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tent of Meeting",
             "entityId": "place-tent-of-meeting"
+          },
+          {
+            "spanText": "veil",
+            "entityId": "term-veil"
           }
         ]
       },
@@ -11681,6 +14739,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "lamp stand",
+            "entityId": "term-lampstand"
           }
         ]
       },
@@ -11728,6 +14790,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
           }
         ]
       },
@@ -11752,6 +14818,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11788,7 +14858,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The son of an Israelite woman, whose father was an Egyptian, went out among the children of Israel; and the son of the Israelite woman and a man of Israel strove together in the camp.",
         "translation": "WEB",
         "illustrationId": "ill-lev-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israelite",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "LEV-24:11",
@@ -11803,6 +14878,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israelite",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11866,6 +14945,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11982,6 +15065,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -12039,6 +15126,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sabbath",
             "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12120,7 +15211,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘You shall count off seven Sabbaths of years, seven times seven years; and there shall be to you the days of seven Sabbaths of years, even forty-nine years.",
         "translation": "WEB",
         "illustrationId": "ill-lev-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
+          }
+        ]
       },
       {
         "id": "LEV-25:9",
@@ -12135,6 +15231,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Atonement",
             "entityId": "term-atonement"
+          },
+          {
+            "spanText": "trumpet",
+            "entityId": "term-trumpets"
           }
         ]
       },
@@ -12455,7 +15555,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘Nevertheless, in the cities of the Levites, the Levites may redeem the houses in the cities of their possession at any time.",
         "translation": "WEB",
         "illustrationId": "ill-lev-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "char-levi"
+          }
+        ]
       },
       {
         "id": "LEV-25:33",
@@ -12470,6 +15575,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jubilee",
             "entityId": "term-jubilee"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "char-levi"
           }
         ]
       },
@@ -12651,7 +15764,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You may make them an inheritance for your children after you, to hold for a possession. Of them you may take your slaves forever, but over your brothers the children of Israel you shall not rule, one over another, with harshness.",
         "translation": "WEB",
         "illustrationId": "ill-lev-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "LEV-25:47",
@@ -12777,6 +15895,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -12826,6 +15948,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
           }
         ]
       },
@@ -12860,7 +15986,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your threshing shall continue until the vintage, and the vintage shall continue until the sowing time. You shall eat your bread to the full, and dwell in your land safely.",
         "translation": "WEB",
         "illustrationId": "ill-lev-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
+          }
+        ]
       },
       {
         "id": "LEV-26:6",
@@ -13124,7 +16255,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When I break your staff of bread, ten women shall bake your bread in one oven, and they shall deliver your bread again by weight. You shall eat, and not be satisfied.",
         "translation": "WEB",
         "illustrationId": "ill-lev-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "bread",
+            "entityId": "term-bread"
+          }
+        ]
       },
       {
         "id": "LEV-26:27",
@@ -13168,7 +16304,16 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will destroy your high places, and cut down your incense altars, and cast your dead bodies upon the bodies of your idols; and my soul will abhor you.",
         "translation": "WEB",
         "illustrationId": "ill-lev-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          },
+          {
+            "spanText": "altars",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "LEV-26:31",
@@ -13212,7 +16357,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the land will enjoy its Sabbaths as long as it lies desolate and you are in your enemies’ land. Even then the land will rest and enjoy its Sabbaths.",
         "translation": "WEB",
         "illustrationId": "ill-lev-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
+          }
+        ]
       },
       {
         "id": "LEV-26:35",
@@ -13223,7 +16373,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "As long as it lies desolate it shall have rest, even the rest which it didn’t have in your Sabbaths when you lived on it.",
         "translation": "WEB",
         "illustrationId": "ill-lev-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
+          }
+        ]
       },
       {
         "id": "LEV-26:36",
@@ -13316,7 +16471,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The land also will be left by them, and will enjoy its Sabbaths while it lies desolate without them; and they will accept the punishment of their iniquity because they rejected my ordinances, and their soul abhorred my statutes.",
         "translation": "WEB",
         "illustrationId": "ill-lev-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
+          }
+        ]
       },
       {
         "id": "LEV-26:44",
@@ -13391,6 +16551,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sinai",
             "entityId": "place-sinai"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -13440,6 +16604,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13507,7 +16675,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if he is poorer than your valuation, then he shall be set before the priest, and the priest shall assign a value to him. The priest shall assign a value according to his ability to pay.",
         "translation": "WEB",
         "illustrationId": "ill-lev-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-27:9",
@@ -13566,6 +16739,14 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "offering",
             "entityId": "term-offering"
+          },
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -13578,7 +16759,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and the priest shall evaluate it, whether it is good or bad. As the priest evaluates it, so it shall be.",
         "translation": "WEB",
         "illustrationId": "ill-lev-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LEV-27:13",
@@ -13608,6 +16794,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "holy",
             "entityId": "term-holiness"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -13667,6 +16857,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jubilee",
             "entityId": "term-jubilee"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -13713,6 +16907,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jubilee",
             "entityId": "term-jubilee"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -13753,6 +16951,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jubilee",
             "entityId": "term-jubilee"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -13808,7 +17010,12 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If it is an unclean animal, then he shall buy it back according to your valuation, and shall add to it the fifth part of it; or if it isn’t redeemed, then it shall be sold according to your valuation.",
         "translation": "WEB",
         "illustrationId": "ill-lev-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean",
+            "entityId": "term-unclean"
+          }
+        ]
       },
       {
         "id": "LEV-27:28",
@@ -13929,6 +17136,10 @@ export const LEVITICUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sinai",
             "entityId": "place-sinai"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
