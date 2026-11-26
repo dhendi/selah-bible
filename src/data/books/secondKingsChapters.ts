@@ -25,6 +25,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahab",
             "entityId": "char-ahab"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -41,6 +49,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
           }
         ]
       },
@@ -69,6 +81,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
           }
         ]
       },
@@ -120,6 +140,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
           }
         ]
       },
@@ -290,6 +318,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
           }
         ]
       },
@@ -310,6 +346,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elijah",
             "entityId": "char-elijah"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -322,7 +362,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the rest of the acts of Ahaziah which he did, aren’t they written in the book of the chronicles of the kings of Israel?",
         "translation": "WEB",
         "illustrationId": "ill-2ki-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       }
     ]
   },
@@ -589,6 +634,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elisha",
             "entityId": "char-elisha"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -848,6 +897,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -864,6 +921,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
           }
         ]
       },
@@ -876,7 +937,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Nevertheless he held to the sins of Jeroboam the son of Nebat, with which he made Israel to sin. He didn’t depart from them.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "2KI-3:4",
@@ -887,7 +953,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now Mesha king of Moab was a sheep breeder; and he supplied the king of Israel with the wool of one hundred thousand lambs, and of one hundred thousand rams.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "2KI-3:5",
@@ -902,6 +977,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahab",
             "entityId": "char-ahab"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -918,6 +1001,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -930,7 +1017,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He went and sent to Jehoshaphat the king of Judah, saying, “The king of Moab has rebelled against me. Will you go with me against Moab to battle?” He said, “I will go up. I am as you are, my people as your people, my horses as your horses.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "2KI-3:8",
@@ -941,7 +1037,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said, “Which way shall we go up?” He answered, “The way of the wilderness of Edom.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "2KI-3:9",
@@ -952,7 +1053,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So the king of Israel went with the king of Judah and the king of Edom, and they marched for seven days along a circuitous route. There was no water for the army or for the animals that followed them.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "2KI-3:10",
@@ -967,6 +1081,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -991,6 +1113,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elisha",
             "entityId": "char-elisha"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1007,6 +1133,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -1027,6 +1161,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elisha",
             "entityId": "char-elisha"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -1047,6 +1189,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elisha",
             "entityId": "char-elisha"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -1111,6 +1257,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Moabites",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -1134,7 +1284,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "In the morning, about the time of offering the sacrifice, behold, water came by the way of Edom, and the country was filled with water.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "2KI-3:21",
@@ -1145,7 +1300,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now when all the Moabites heard that the kings had come up to fight against them, they gathered themselves together, all who were able to put on armor, young and old, and stood on the border.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moabites",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "2KI-3:22",
@@ -1156,7 +1316,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They rose up early in the morning, and the sun shone on the water, and the Moabites saw the water opposite them as red as blood.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moabites",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "2KI-3:23",
@@ -1167,7 +1332,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They said, “This is blood. The kings are surely destroyed, and they have struck each other. Now therefore, Moab, to the plunder!”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "2KI-3:24",
@@ -1178,7 +1348,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When they came to the camp of Israel, the Israelites rose up and struck the Moabites, so that they fled before them; and they went forward into the land attacking the Moabites.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Moabites",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "2KI-3:25",
@@ -1200,7 +1379,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the king of Moab saw that the battle was too severe for him, he took with him seven hundred men who drew a sword, to break through to the king of Edom; but they could not.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "2KI-3:27",
@@ -1211,7 +1399,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then he took his oldest son who would have reigned in his place, and offered him for a burnt offering on the wall. There was great wrath against Israel; and they departed from him, and returned to their own land.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       }
     ]
   },
@@ -1393,6 +1586,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shunammite",
             "entityId": "place-shunem"
+          },
+          {
+            "spanText": "Gehazi",
+            "entityId": "char-gehazi"
           }
         ]
       },
@@ -1416,7 +1613,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said, “What then is to be done for her?” Gehazi answered, “Most certainly she has no son, and her husband is old.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gehazi",
+            "entityId": "char-gehazi"
+          }
+        ]
       },
       {
         "id": "2KI-4:15",
@@ -1535,7 +1737,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said, “Why would you want go to him today? It is not a new moon or a Sabbath.” She said, “It’s all right.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
+          }
+        ]
       },
       {
         "id": "2KI-4:24",
@@ -1569,6 +1776,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mount Carmel",
             "entityId": "place-mount-carmel"
+          },
+          {
+            "spanText": "Gehazi",
+            "entityId": "char-gehazi"
           }
         ]
       },
@@ -1600,6 +1811,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Gehazi",
+            "entityId": "char-gehazi"
           }
         ]
       },
@@ -1623,7 +1838,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then he said to Gehazi, “Tuck your cloak into your belt, take my staff in your hand, and go your way. If you meet any man, don’t greet him; and if anyone greets you, don’t answer him again. Then lay my staff on the child’s face.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gehazi",
+            "entityId": "char-gehazi"
+          }
+        ]
       },
       {
         "id": "2KI-4:30",
@@ -1650,7 +1870,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Gehazi went ahead of them, and laid the staff on the child’s face; but there was no voice and no hearing. Therefore he returned to meet him, and told him, “The child has not awakened.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gehazi",
+            "entityId": "char-gehazi"
+          }
+        ]
       },
       {
         "id": "2KI-4:32",
@@ -1719,6 +1944,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shunammite",
             "entityId": "place-shunem"
+          },
+          {
+            "spanText": "Gehazi",
+            "entityId": "char-gehazi"
           }
         ]
       },
@@ -1804,6 +2033,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
           }
         ]
       },
@@ -1869,6 +2102,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Naaman",
             "entityId": "char-naaman"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "leper",
+            "entityId": "term-leprosy"
           }
         ]
       },
@@ -1885,6 +2126,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Naaman",
             "entityId": "char-naaman"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
           }
         ]
       },
@@ -1901,6 +2150,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
           }
         ]
       },
@@ -1913,7 +2166,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Someone went in, and told his lord, saying, “The maiden who is from the land of Israel said this.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "2KI-5:5",
@@ -1924,7 +2182,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The king of Syria said, “Go now, and I will send a letter to the king of Israel.” He departed, and took with him ten talents of silver, and six thousand pieces of gold, and ten changes of clothing.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
+          }
+        ]
       },
       {
         "id": "2KI-5:6",
@@ -1939,6 +2206,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Naaman",
             "entityId": "char-naaman"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
           }
         ]
       },
@@ -1955,6 +2230,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
           }
         ]
       },
@@ -1975,6 +2258,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elisha",
             "entityId": "char-elisha"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2039,6 +2326,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Naaman",
             "entityId": "char-naaman"
+          },
+          {
+            "spanText": "leper",
+            "entityId": "term-leprosy"
           }
         ]
       },
@@ -2051,7 +2342,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Aren’t Abanah and Pharpar, the rivers of Damascus, better than all the waters of Israel? Couldn’t I wash in them, and be clean?” So he turned and went away in a rage.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "2KI-5:13",
@@ -2097,6 +2393,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2188,6 +2488,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Naaman",
             "entityId": "char-naaman"
+          },
+          {
+            "spanText": "Syrian",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Gehazi",
+            "entityId": "char-gehazi"
           }
         ]
       },
@@ -2204,6 +2512,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Naaman",
             "entityId": "char-naaman"
+          },
+          {
+            "spanText": "Gehazi",
+            "entityId": "char-gehazi"
           }
         ]
       },
@@ -2216,7 +2528,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said, “All is well. My master has sent me, saying, ‘Behold, even now two young men of the sons of the prophets have come to me from the hill country of Ephraim. Please give them a talent of silver and two changes of clothing.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "2KI-5:23",
@@ -2258,6 +2575,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elisha",
             "entityId": "char-elisha"
+          },
+          {
+            "spanText": "Gehazi",
+            "entityId": "char-gehazi"
           }
         ]
       },
@@ -2285,6 +2606,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Naaman",
             "entityId": "char-naaman"
+          },
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy"
           }
         ]
       }
@@ -2407,7 +2732,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the king of Syria was at war against Israel; and he took counsel with his servants, saying, “My camp will be in such and such a place.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
+          }
+        ]
       },
       {
         "id": "2KI-6:9",
@@ -2422,6 +2756,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
           }
         ]
       },
@@ -2438,6 +2780,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2450,7 +2796,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The king of Syria’s heart was very troubled about this. He called his servants, and said to them, “Won’t you show me which of us is for the king of Israel?”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
+          }
+        ]
       },
       {
         "id": "2KI-6:12",
@@ -2465,6 +2820,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elisha",
             "entityId": "char-elisha"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2623,6 +2982,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elisha",
             "entityId": "char-elisha"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2646,7 +3009,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He prepared a great feast for them. When they had eaten and drunk, he sent them away, and they went to their master. So the bands of Syria stopped raiding the land of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
+          }
+        ]
       },
       {
         "id": "2KI-6:24",
@@ -2661,6 +3033,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
           }
         ]
       },
@@ -2689,7 +3065,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "As the king of Israel was passing by on the wall, a woman cried to him, saying, “Help, my lord, O king!”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "2KI-6:27",
@@ -2869,7 +3250,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If we say, ‘We will enter into the city,’ then the famine is in the city, and we will die there. If we sit still here, we also die. Now therefore come, and let’s surrender to the army of the Syrians. If they save us alive, we will live; and if they kill us, we will only die.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
+          }
+        ]
       },
       {
         "id": "2KI-7:5",
@@ -2880,7 +3266,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They rose up in the twilight, to go to the camp of the Syrians. When they had come to the outermost part of the camp of the Syrians, behold, no man was there.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
+          }
+        ]
       },
       {
         "id": "2KI-7:6",
@@ -2891,7 +3282,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the Lord had made the army of the Syrians to hear the sound of chariots, and the sound of horses, even the noise of a great army; and they said to one another, “Behold, the king of Israel has hired against us the kings of the Hittites and the kings of the Egyptians to attack us.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
+          }
+        ]
       },
       {
         "id": "2KI-7:7",
@@ -2935,7 +3339,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So they came and called to the city gatekeepers; and they told them, “We came to the camp of the Syrians, and, behold, there was no man there, not even a man’s voice, but the horses tied, and the donkeys tied, and the tents as they were.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
+          }
+        ]
       },
       {
         "id": "2KI-7:11",
@@ -2957,7 +3366,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The king arose in the night, and said to his servants, “I will now show you what the Syrians have done to us. They know that we are hungry. Therefore are they gone out of the camp to hide themselves in the field, saying, ‘When they come out of the city, we shall take them alive, and get into the city.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
+          }
+        ]
       },
       {
         "id": "2KI-7:13",
@@ -2968,7 +3382,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "One of his servants answered, “Please let some people take five of the horses that remain, which are left in the city. Behold, they are like all the multitude of Israel who are left in it. Behold, they are like all the multitude of Israel who are consumed. Let’s send and see.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "2KI-7:14",
@@ -2979,7 +3398,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore they took two chariots with horses; and the king sent them out to the Syrian army, saying, “Go and see.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Syrian",
+            "entityId": "place-syria"
+          }
+        ]
       },
       {
         "id": "2KI-7:15",
@@ -2994,6 +3418,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
           }
         ]
       },
@@ -3010,6 +3438,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
           }
         ]
       },
@@ -3126,6 +3558,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -3138,7 +3574,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "At the end of seven years, the woman returned from the land of the Philistines. Then she went out to beg the king for her house and for her land.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "2KI-8:4",
@@ -3157,6 +3598,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elisha",
             "entityId": "char-elisha"
+          },
+          {
+            "spanText": "Gehazi",
+            "entityId": "char-gehazi"
           }
         ]
       },
@@ -3173,6 +3618,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elisha",
             "entityId": "char-elisha"
+          },
+          {
+            "spanText": "Gehazi",
+            "entityId": "char-gehazi"
           }
         ]
       },
@@ -3204,6 +3653,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elisha",
             "entityId": "char-elisha"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
           }
         ]
       },
@@ -3224,6 +3677,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Hazael",
+            "entityId": "char-hazael"
           }
         ]
       },
@@ -3236,7 +3693,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So Hazael went to meet him, and took a present with him, even of every good thing of Damascus, forty camels’ burden, and came and stood before him, and said, “Your son Benhadad king of Syria has sent me to you, saying, ‘Will I recover from this sickness?’ ”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Hazael",
+            "entityId": "char-hazael"
+          }
+        ]
       },
       {
         "id": "2KI-8:10",
@@ -3283,7 +3749,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Hazael said, “Why do you weep, my lord?” He answered, “Because I know the evil that you will do to the children of Israel. You will set their strongholds on fire, and you will kill their young men with the sword, and will dash their little ones in pieces, and rip up their pregnant women.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Hazael",
+            "entityId": "char-hazael"
+          }
+        ]
       },
       {
         "id": "2KI-8:13",
@@ -3302,6 +3777,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elisha",
             "entityId": "char-elisha"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Hazael",
+            "entityId": "char-hazael"
           }
         ]
       },
@@ -3330,7 +3813,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "On the next day, he took a thick cloth, dipped it in water, and spread it on his face, so that he died. Then Hazael reigned in his place.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hazael",
+            "entityId": "char-hazael"
+          }
+        ]
       },
       {
         "id": "2KI-8:16",
@@ -3345,6 +3833,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahab",
             "entityId": "char-ahab"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -3381,6 +3877,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahab",
             "entityId": "char-ahab"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3401,6 +3901,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -3413,7 +3917,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "In his days Edom revolted from under the hand of Judah, and made a king over themselves.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "2KI-8:21",
@@ -3424,7 +3937,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Joram passed over to Zair, and all his chariots with him: and he rose up by night, and struck the Edomites who surrounded him, and the captains of the chariots; and the people fled to their tents.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Edomites",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "2KI-8:22",
@@ -3435,7 +3953,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So Edom revolted from under the hand of Judah to this day. Then Libnah revolted at the same time.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "2KI-8:23",
@@ -3446,7 +3973,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The rest of the acts of Joram, and all that he did, aren’t they written in the book of the chronicles of the kings of Judah?",
         "translation": "WEB",
         "illustrationId": "ill-2ki-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "2KI-8:24",
@@ -3477,6 +4009,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahab",
             "entityId": "char-ahab"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -3493,6 +4033,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Athaliah",
+            "entityId": "char-athaliah"
           }
         ]
       },
@@ -3529,6 +4077,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahab",
             "entityId": "char-ahab"
+          },
+          {
+            "spanText": "Ramoth Gilead",
+            "entityId": "place-ramoth-gilead"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Hazael",
+            "entityId": "char-hazael"
           }
         ]
       },
@@ -3545,6 +4105,22 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahab",
             "entityId": "char-ahab"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Jezreel",
+            "entityId": "place-jezreel"
+          },
+          {
+            "spanText": "Hazael",
+            "entityId": "char-hazael"
           }
         ]
       }
@@ -3574,6 +4150,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elisha",
             "entityId": "char-elisha"
+          },
+          {
+            "spanText": "Ramoth Gilead",
+            "entityId": "place-ramoth-gilead"
           }
         ]
       },
@@ -3586,7 +4166,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When you come there, find Jehu the son of Jehoshaphat the son of Nimshi, and go in, and make him rise up from among his brothers, and take him to an inner room.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          }
+        ]
       },
       {
         "id": "2KI-9:3",
@@ -3601,6 +4186,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3613,7 +4202,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So the young man, even the young man, the prophet, went to Ramoth Gilead.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ramoth Gilead",
+            "entityId": "place-ramoth-gilead"
+          }
+        ]
       },
       {
         "id": "2KI-9:5",
@@ -3624,7 +4218,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When he came, behold, the captains of the army were sitting. Then he said, “I have a message for you, captain.” Jehu said, “To which of us all?” He said, “To you, O captain.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          }
+        ]
       },
       {
         "id": "2KI-9:6",
@@ -3643,6 +4242,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3683,6 +4286,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahab",
             "entityId": "char-ahab"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3715,6 +4322,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jezebel",
             "entityId": "char-jezebel"
+          },
+          {
+            "spanText": "Jezreel",
+            "entityId": "place-jezreel"
           }
         ]
       },
@@ -3727,7 +4338,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When Jehu came out to the servants of his lord, and one said to him, “Is all well? Why did this mad fellow come to you?” He said to them, “You know the man and how he talks.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          }
+        ]
       },
       {
         "id": "2KI-9:12",
@@ -3742,6 +4358,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3754,7 +4374,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then they hurried, and each man took his cloak, and put it under him on the top of the stairs, and blew the trumpet, saying, “Jehu is king.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          }
+        ]
       },
       {
         "id": "2KI-9:14",
@@ -3765,7 +4390,28 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So Jehu the son of Jehoshaphat the son of Nimshi conspired against Joram. (Now Joram was keeping Ramoth Gilead, he and all Israel, because of Hazael king of Syria;",
         "translation": "WEB",
         "illustrationId": "ill-2ki-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ramoth Gilead",
+            "entityId": "place-ramoth-gilead"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Hazael",
+            "entityId": "char-hazael"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          }
+        ]
       },
       {
         "id": "2KI-9:15",
@@ -3776,7 +4422,24 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "but king Joram had returned to be healed in Jezreel of the wounds which the Syrians had given him, when he fought with Hazael king of Syria.) Jehu said, “If this is your thinking, then let no one escape and go out of the city, to go to tell it in Jezreel.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Jezreel",
+            "entityId": "place-jezreel"
+          },
+          {
+            "spanText": "Hazael",
+            "entityId": "char-hazael"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          }
+        ]
       },
       {
         "id": "2KI-9:16",
@@ -3787,7 +4450,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So Jehu rode in a chariot and went to Jezreel, for Joram lay there. Ahaziah king of Judah had come down to see Joram.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Jezreel",
+            "entityId": "place-jezreel"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          }
+        ]
       },
       {
         "id": "2KI-9:17",
@@ -3798,7 +4474,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the watchman was standing on the tower in Jezreel, and he spied the company of Jehu as he came, and said, “I see a company.” Joram said, “Take a horseman, and send to meet them, and let him say, ‘Is it peace?’ ”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jezreel",
+            "entityId": "place-jezreel"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          }
+        ]
       },
       {
         "id": "2KI-9:18",
@@ -3809,7 +4494,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So one went on horseback to meet him, and said, “the king says, ‘Is it peace?’ ” Jehu said, “What do you have to do with peace? Fall in behind me!” The watchman said, “The messenger came to them, but he isn’t coming back.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          }
+        ]
       },
       {
         "id": "2KI-9:19",
@@ -3820,7 +4510,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then he sent out a second on horseback, who came to them, and said, “The king says, ‘Is it peace?’ ” Jehu answered, “What do you have to do with peace? Fall in behind me!”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          }
+        ]
       },
       {
         "id": "2KI-9:20",
@@ -3831,7 +4526,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The watchman said, “He came to them, and isn’t coming back. The driving is like the driving of Jehu the son of Nimshi, for he drives furiously.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          }
+        ]
       },
       {
         "id": "2KI-9:21",
@@ -3842,7 +4542,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Joram said, “Get ready!” They got his chariot ready. Then Joram king of Israel and Ahaziah king of Judah went out, each in his chariot, and they went out to meet Jehu, and found him on Naboth the Jezreelite’s land.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          }
+        ]
       },
       {
         "id": "2KI-9:22",
@@ -3857,6 +4570,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jezebel",
             "entityId": "char-jezebel"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
           }
         ]
       },
@@ -3880,7 +4597,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jehu drew his bow with his full strength, and struck Joram between his arms; and the arrow went out at his heart, and he sunk down in his chariot.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          }
+        ]
       },
       {
         "id": "2KI-9:25",
@@ -3899,6 +4621,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahab",
             "entityId": "char-ahab"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
           }
         ]
       },
@@ -3927,7 +4653,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But when Ahaziah the king of Judah saw this, he fled by the way of the garden house. Jehu followed after him, and said, “Strike him also in the chariot!” They struck him at the ascent of Gur, which is by Ibleam. He fled to Megiddo, and died there.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          }
+        ]
       },
       {
         "id": "2KI-9:28",
@@ -3962,6 +4697,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahab",
             "entityId": "char-ahab"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -3978,6 +4717,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jezebel",
             "entityId": "char-jezebel"
+          },
+          {
+            "spanText": "Jezreel",
+            "entityId": "place-jezreel"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
           }
         ]
       },
@@ -3990,7 +4737,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "As Jehu entered in at the gate, she said, “Do you come in peace, Zimri, you murderer of your master?”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          }
+        ]
       },
       {
         "id": "2KI-9:32",
@@ -4057,6 +4809,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jezebel",
             "entityId": "char-jezebel"
+          },
+          {
+            "spanText": "Jezreel",
+            "entityId": "place-jezreel"
           }
         ]
       },
@@ -4073,6 +4829,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jezebel",
             "entityId": "char-jezebel"
+          },
+          {
+            "spanText": "Jezreel",
+            "entityId": "place-jezreel"
           }
         ]
       }
@@ -4106,6 +4866,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Jezreel",
+            "entityId": "place-jezreel"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
           }
         ]
       },
@@ -4151,7 +4919,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He who was over the household, and he who was over the city, the elders also, and those who raised the children, sent to Jehu, saying, “We are your servants, and will do all that you ask us. We will not make any man king. You do that which is good in your eyes.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          }
+        ]
       },
       {
         "id": "2KI-10:6",
@@ -4162,7 +4935,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then he wrote a letter the second time to them, saying, “If you are on my side, and if you will listen to my voice, take the heads of the men who are your master’s sons, and come to me to Jezreel by tomorrow this time.” Now the king’s sons, being seventy persons, were with the great men of the city, who brought them up.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jezreel",
+            "entityId": "place-jezreel"
+          }
+        ]
       },
       {
         "id": "2KI-10:7",
@@ -4173,7 +4951,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the letter came to them, they took the king’s sons and killed them, even seventy people, and put their heads in baskets, and sent them to him to Jezreel.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jezreel",
+            "entityId": "place-jezreel"
+          }
+        ]
       },
       {
         "id": "2KI-10:8",
@@ -4234,6 +5017,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahab",
             "entityId": "char-ahab"
+          },
+          {
+            "spanText": "Jezreel",
+            "entityId": "place-jezreel"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -4262,7 +5057,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jehu met with the brothers of Ahaziah king of Judah, and said, “Who are you?” They answered, “We are the brothers of Ahaziah. We are going down to greet the children of the king and the children of the queen.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          }
+        ]
       },
       {
         "id": "2KI-10:14",
@@ -4343,6 +5147,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahab",
             "entityId": "char-ahab"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
           }
         ]
       },
@@ -4355,7 +5167,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now therefore call to me all the prophets of Baal, all of his worshipers, and all of his priests. Let no one be absent; for I have a great sacrifice to Baal. Whoever is absent, he shall not live.” But Jehu did deceptively, intending to destroy the worshipers of Baal.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "2KI-10:20",
@@ -4366,7 +5191,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jehu said, “Sanctify a solemn assembly for Baal!” So they proclaimed it.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          }
+        ]
       },
       {
         "id": "2KI-10:21",
@@ -4377,7 +5211,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jehu sent through all Israel; and all the worshipers of Baal came, so that there was not a man left that didn’t come. They came into the house of Baal; and the house of Baal was filled from one end to another.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          }
+        ]
       },
       {
         "id": "2KI-10:22",
@@ -4388,7 +5235,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to him who kept the wardrobe, “Bring out robes for all the worshipers of Baal!” So he brought robes out to them.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          }
+        ]
       },
       {
         "id": "2KI-10:23",
@@ -4403,6 +5255,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
           }
         ]
       },
@@ -4415,7 +5275,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So they went in to offer sacrifices and burnt offerings. Now Jehu had appointed for himself eighty men outside, and said, “If any of the men whom I bring into your hands escape, he who lets him go, his life shall be for the life of him.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          }
+        ]
       },
       {
         "id": "2KI-10:25",
@@ -4426,7 +5291,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "As soon as he had finished offering the burnt offering, Jehu said to the guard and to the captains, “Go in and kill them! Let no one escape.” So they struck them with the edge of the sword. The guard and the captains threw the bodies out, and went to the inner shrine of the house of Baal.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          }
+        ]
       },
       {
         "id": "2KI-10:26",
@@ -4437,7 +5311,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They brought out the pillars that were in the house of Baal, and burned them.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          }
+        ]
       },
       {
         "id": "2KI-10:27",
@@ -4448,7 +5327,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They broke down the pillar of Baal, and broke down the house of Baal, and made it a latrine, to this day.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          }
+        ]
       },
       {
         "id": "2KI-10:28",
@@ -4459,7 +5343,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Thus Jehu destroyed Baal out of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          }
+        ]
       },
       {
         "id": "2KI-10:29",
@@ -4474,6 +5371,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethel",
             "entityId": "place-bethel"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          },
+          {
+            "spanText": "calves",
+            "entityId": "term-golden-calf"
           }
         ]
       },
@@ -4494,6 +5403,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahab",
             "entityId": "char-ahab"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
           }
         ]
       },
@@ -4514,6 +5431,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
           }
         ]
       },
@@ -4530,6 +5455,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Hazael",
+            "entityId": "char-hazael"
           }
         ]
       },
@@ -4546,6 +5479,22 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jordan",
             "entityId": "place-jordan"
+          },
+          {
+            "spanText": "Reubenites",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Gadites",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Manassites",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -4558,7 +5507,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the rest of the acts of Jehu, and all that he did, and all his might, aren’t they written in the book of the chronicles of the kings of Israel?",
         "translation": "WEB",
         "illustrationId": "ill-2ki-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          }
+        ]
       },
       {
         "id": "2KI-10:35",
@@ -4573,6 +5531,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
           }
         ]
       },
@@ -4589,6 +5551,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
           }
         ]
       }
@@ -4614,7 +5584,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now when Athaliah the mother of Ahaziah saw that her son was dead, she arose and destroyed all the royal offspring.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Athaliah",
+            "entityId": "char-athaliah"
+          }
+        ]
       },
       {
         "id": "2KI-11:2",
@@ -4625,7 +5600,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But Jehosheba, the daughter of king Joram, sister of Ahaziah, took Joash the son of Ahaziah, and stole him away from among the king’s sons who were slain, even him and his nurse, and put them in the bedroom; and they hid him from Athaliah, so that he was not slain.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Athaliah",
+            "entityId": "char-athaliah"
+          },
+          {
+            "spanText": "Joash",
+            "entityId": "char-joash"
+          }
+        ]
       },
       {
         "id": "2KI-11:3",
@@ -4640,6 +5624,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Athaliah",
+            "entityId": "char-athaliah"
           }
         ]
       },
@@ -4660,6 +5648,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Jehoiada",
+            "entityId": "char-jehoiada"
           }
         ]
       },
@@ -4672,7 +5664,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He commanded them, saying, “This is what you must do: a third of you, who come in on the Sabbath, shall be keepers of the watch of the king’s house;",
         "translation": "WEB",
         "illustrationId": "ill-2ki-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
+          }
+        ]
       },
       {
         "id": "2KI-11:6",
@@ -4698,6 +5695,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
           }
         ]
       },
@@ -4721,7 +5722,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The captains over hundreds did according to all that Jehoiada the priest commanded; and they each took his men, those who were to come in on the Sabbath, with those who were to go out on the Sabbath, and came to Jehoiada the priest.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehoiada",
+            "entityId": "char-jehoiada"
+          },
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "2KI-11:10",
@@ -4740,6 +5754,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -4752,7 +5770,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The guard stood, every man with his weapons in his hand, from the right side of the house to the left side of the house, along by the altar and the house, around the king.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "2KI-11:12",
@@ -4783,6 +5806,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Athaliah",
+            "entityId": "char-athaliah"
           }
         ]
       },
@@ -4795,7 +5822,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and she looked, and behold, the king stood by the pillar, as the tradition was, with the captains and the trumpets by the king; and all the people of the land rejoiced, and blew trumpets. Then Athaliah tore her clothes, and cried, “Treason! Treason!”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Athaliah",
+            "entityId": "char-athaliah"
+          }
+        ]
       },
       {
         "id": "2KI-11:15",
@@ -4810,6 +5842,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jehoiada",
+            "entityId": "char-jehoiada"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -4841,6 +5881,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Jehoiada",
+            "entityId": "char-jehoiada"
           }
         ]
       },
@@ -4857,6 +5901,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          },
+          {
+            "spanText": "altars",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -4885,7 +5941,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So all the people of the land rejoiced, and the city was quiet. They had slain Athaliah with the sword at the king’s house.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Athaliah",
+            "entityId": "char-athaliah"
+          }
+        ]
       },
       {
         "id": "2KI-11:21",
@@ -4896,7 +5957,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jehoash was seven years old when he began to reign.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehoash",
+            "entityId": "char-joash"
+          }
+        ]
       }
     ]
   },
@@ -4924,6 +5990,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          },
+          {
+            "spanText": "Jehoash",
+            "entityId": "char-joash"
           }
         ]
       },
@@ -4940,6 +6014,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jehoiada",
+            "entityId": "char-jehoiada"
+          },
+          {
+            "spanText": "Jehoash",
+            "entityId": "char-joash"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -4952,7 +6038,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "However the high places were not taken away. The people still sacrificed and burned incense in the high places.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "high places",
+            "entityId": "term-high-places"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "2KI-12:4",
@@ -4967,6 +6062,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jehoash",
+            "entityId": "char-joash"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -4979,7 +6082,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "let the priests take it to them, each man from his donor; and they shall repair the damage to the house, wherever any damage is found.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "2KI-12:6",
@@ -4990,7 +6098,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But it was so, that in the twenty-third year of king Jehoash the priests had not repaired the damage to the house.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehoash",
+            "entityId": "char-joash"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "2KI-12:7",
@@ -5001,7 +6118,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then king Jehoash called for Jehoiada the priest, and for the other priests, and said to them, “Why don’t you repair the damage to the house? Now therefore take no more money from your treasurers, but deliver it for repair of the damage to the house.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehoiada",
+            "entityId": "char-jehoiada"
+          },
+          {
+            "spanText": "Jehoash",
+            "entityId": "char-joash"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "2KI-12:8",
@@ -5012,7 +6142,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priests consented that they should take no more money from the people, and not repair the damage to the house.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "2KI-12:9",
@@ -5027,6 +6162,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jehoiada",
+            "entityId": "char-jehoiada"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -5043,6 +6190,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -5134,6 +6285,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -5150,6 +6305,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Hazael",
+            "entityId": "char-hazael"
           }
         ]
       },
@@ -5170,6 +6333,22 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Hazael",
+            "entityId": "char-hazael"
+          },
+          {
+            "spanText": "Jehoash",
+            "entityId": "char-joash"
           }
         ]
       },
@@ -5182,7 +6361,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the rest of the acts of Joash, and all that he did, aren’t they written in the book of the chronicles of the kings of Judah?",
         "translation": "WEB",
         "illustrationId": "ill-2ki-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Joash",
+            "entityId": "char-joash"
+          }
+        ]
       },
       {
         "id": "2KI-12:20",
@@ -5193,7 +6381,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "His servants arose, and made a conspiracy, and struck Joash at the house of Millo, on the way that goes down to Silla.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Joash",
+            "entityId": "char-joash"
+          }
+        ]
       },
       {
         "id": "2KI-12:21",
@@ -5237,6 +6430,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
           }
         ]
       },
@@ -5253,6 +6458,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5269,6 +6478,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Hazael",
+            "entityId": "char-hazael"
           }
         ]
       },
@@ -5285,6 +6506,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
           }
         ]
       },
@@ -5301,6 +6530,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
           }
         ]
       },
@@ -5317,6 +6554,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Asherah",
+            "entityId": "term-asherah"
           }
         ]
       },
@@ -5329,7 +6574,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For he didn’t leave to Jehoahaz of the people any more than fifty horsemen, and ten chariots, and ten thousand footmen; for the king of Syria destroyed them, and made them like the dust in threshing.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
+          }
+        ]
       },
       {
         "id": "2KI-13:8",
@@ -5340,7 +6590,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the rest of the acts of Jehoahaz, and all that he did, and his might, aren’t they written in the book of the chronicles of the kings of Israel?",
         "translation": "WEB",
         "illustrationId": "ill-2ki-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "2KI-13:9",
@@ -5371,6 +6626,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -5387,6 +6650,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5399,7 +6666,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the rest of the acts of Joash, and all that he did, and his might with which he fought against Amaziah king of Judah, aren’t they written in the book of the chronicles of the kings of Israel?",
         "translation": "WEB",
         "illustrationId": "ill-2ki-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "2KI-13:13",
@@ -5414,6 +6690,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5430,6 +6710,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elisha",
             "entityId": "char-elisha"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5462,6 +6746,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elisha",
             "entityId": "char-elisha"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5482,6 +6770,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elisha",
             "entityId": "char-elisha"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
           }
         ]
       },
@@ -5494,7 +6786,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said, “Take the arrows;” and he took them. He said to the king of Israel, “Strike the ground;” and he struck three times, and stopped.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "2KI-13:19",
@@ -5509,6 +6806,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
           }
         ]
       },
@@ -5525,6 +6826,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elisha",
             "entityId": "char-elisha"
+          },
+          {
+            "spanText": "Moabites",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -5553,7 +6858,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Hazael king of Syria oppressed Israel all the days of Jehoahaz.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Hazael",
+            "entityId": "char-hazael"
+          }
+        ]
       },
       {
         "id": "2KI-13:23",
@@ -5584,7 +6902,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Hazael king of Syria died; and Benhadad his son reigned in his place.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Hazael",
+            "entityId": "char-hazael"
+          }
+        ]
       },
       {
         "id": "2KI-13:25",
@@ -5595,7 +6922,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jehoash the son of Jehoahaz took again out of the hand of Benhadad the son of Hazael the cities which he had taken out of the hand of Jehoahaz his father by war. Joash struck him three times, and recovered the cities of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Hazael",
+            "entityId": "char-hazael"
+          }
+        ]
       }
     ]
   },
@@ -5619,7 +6955,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "In the second year of Joash son of Joahaz king of Israel Amaziah the son of Joash king of Judah began to reign.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "2KI-14:2",
@@ -5666,7 +7011,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "However the high places were not taken away. The people still sacrificed and burned incense in the high places.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "high places",
+            "entityId": "term-high-places"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "2KI-14:5",
@@ -5708,7 +7062,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He killed ten thousand Edomites in the Valley of Salt, and took Sela by war, and called its name Joktheel, to this day.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Edomites",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "2KI-14:8",
@@ -5719,7 +7078,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Amaziah sent messengers to Jehoash, the son of Jehoahaz son of Jehu, king of Israel, saying, “Come, let’s look one another in the face.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
+          }
+        ]
       },
       {
         "id": "2KI-14:9",
@@ -5730,7 +7098,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jehoash the king of Israel sent to Amaziah king of Judah, saying, “The thistle that was in Lebanon sent to the cedar that was in Lebanon, saying, ‘Give your daughter to my son as wife. Then a wild animal that was in Lebanon passed by, and trampled down the thistle.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "2KI-14:10",
@@ -5741,7 +7118,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You have indeed struck Edom, and your heart has lifted you up. Enjoy the glory of it, and stay at home; for why should you meddle to your harm, that you fall, even you, and Judah with you?’ ”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "2KI-14:11",
@@ -5752,7 +7138,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But Amaziah would not listen. So Jehoash king of Israel went up; and he and Amaziah king of Judah looked one another in the face at Beth Shemesh, which belongs to Judah.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "2KI-14:12",
@@ -5763,7 +7158,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Judah was defeated by Israel; and each man fled to his tent.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "2KI-14:13",
@@ -5778,6 +7182,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
           }
         ]
       },
@@ -5810,7 +7226,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the rest of the acts of Jehoash which he did, and his might, and how he fought with Amaziah king of Judah, aren’t they written in the book of the chronicles of the kings of Israel?",
         "translation": "WEB",
         "illustrationId": "ill-2ki-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "2KI-14:16",
@@ -5825,6 +7250,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5837,7 +7266,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Amaziah the son of Joash king of Judah lived after the death of Jehoash son of Jehoahaz king of Israel fifteen years.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "2KI-14:18",
@@ -5848,7 +7286,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the rest of the acts of Amaziah, aren’t they written in the book of the chronicles of the kings of Judah?",
         "translation": "WEB",
         "illustrationId": "ill-2ki-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "2KI-14:19",
@@ -5895,7 +7338,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the people of Judah took Azariah, who was sixteen years old, and made him king in the place of his father Amaziah.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "2KI-14:22",
@@ -5906,7 +7354,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He built Elath, and restored it to Judah. After that the king slept with his fathers.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "2KI-14:23",
@@ -5921,6 +7374,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -5937,6 +7398,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5957,6 +7422,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5973,6 +7442,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5989,6 +7462,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6001,7 +7478,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the rest of the acts of Jeroboam, and all that he did, and his might, how he fought, and how he recovered Damascus, and Hamath, which had belonged to Judah, for Israel, aren’t they written in the book of the chronicles of the kings of Israel?",
         "translation": "WEB",
         "illustrationId": "ill-2ki-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "2KI-14:29",
@@ -6012,7 +7498,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jeroboam slept with his fathers, even with the kings of Israel; and Zechariah his son reigned in his place.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       }
     ]
   },
@@ -6036,7 +7527,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "In the twenty-seventh year of Jeroboam king of Israel, Azariah son of Amaziah king of Judah began to reign.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "2KI-15:2",
@@ -6079,7 +7579,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "However the high places were not taken away. The people still sacrificed and burned incense in the high places.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "high places",
+            "entityId": "term-high-places"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "2KI-15:5",
@@ -6094,6 +7603,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "leper",
+            "entityId": "term-leprosy"
           }
         ]
       },
@@ -6106,7 +7619,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the rest of the acts of Azariah, and all that he did, aren’t they written in the book of the chronicles of the kings of Judah?",
         "translation": "WEB",
         "illustrationId": "ill-2ki-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "2KI-15:7",
@@ -6137,6 +7655,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -6153,6 +7679,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6176,7 +7706,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the rest of the acts of Zechariah, behold, they are written in the book of the chronicles of the kings of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "2KI-15:12",
@@ -6191,6 +7726,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jehu",
+            "entityId": "char-jehu"
           }
         ]
       },
@@ -6207,6 +7750,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -6235,7 +7782,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the rest of the acts of Shallum, and his conspiracy which he made, behold, they are written in the book of the chronicles of the kings of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "2KI-15:16",
@@ -6261,6 +7813,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -6277,6 +7837,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6289,7 +7853,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Pul the king of Assyria came against the land, and Menahem gave Pul one thousand talents of silver, that his hand might be with him to confirm the kingdom in his hand.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          }
+        ]
       },
       {
         "id": "2KI-15:20",
@@ -6300,7 +7869,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Menahem exacted the money from Israel, even from all the mighty men of wealth, from each man fifty shekels of silver, to give to the king of Assyria. So the king of Assyria turned back, and didn’t stay there in the land.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          }
+        ]
       },
       {
         "id": "2KI-15:21",
@@ -6311,7 +7889,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the rest of the acts of Menahem, and all that he did, aren’t they written in the book of the chronicles of the kings of Israel?",
         "translation": "WEB",
         "illustrationId": "ill-2ki-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "2KI-15:22",
@@ -6337,6 +7920,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -6353,6 +7944,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6381,7 +7976,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the rest of the acts of Pekahiah, and all that he did, behold, they are written in the book of the chronicles of the kings of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "2KI-15:27",
@@ -6396,6 +7996,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -6412,6 +8020,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6424,7 +8036,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "In the days of Pekah king of Israel, Tiglath Pileser king of Assyria came and took Ijon, Abel Beth Maacah, Janoah, Kedesh, Hazor, Gilead, and Galilee, all the land of Naphtali; and he carried them captive to Assyria.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          }
+        ]
       },
       {
         "id": "2KI-15:30",
@@ -6435,7 +8060,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Hoshea the son of Elah made a conspiracy against Pekah the son of Remaliah, attacked him, killed him, and reigned in his place, in the twentieth year of Jotham the son of Uzziah.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hoshea",
+            "entityId": "char-hoshea"
+          }
+        ]
       },
       {
         "id": "2KI-15:31",
@@ -6446,7 +8076,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the rest of the acts of Pekah, and all that he did, behold, they are written in the book of the chronicles of the kings of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "2KI-15:32",
@@ -6457,7 +8092,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "In the second year of Pekah the son of Remaliah king of Israel, Jotham the son of Uzziah king of Judah began to reign.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "2KI-15:33",
@@ -6504,6 +8148,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "high places",
+            "entityId": "term-high-places"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
           }
         ]
       },
@@ -6516,7 +8168,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the rest of the acts of Jotham, and all that he did, aren’t they written in the book of the chronicles of the kings of Judah?",
         "translation": "WEB",
         "illustrationId": "ill-2ki-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "2KI-15:37",
@@ -6531,6 +8188,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
           }
         ]
       },
@@ -6547,6 +8212,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Ahaz",
+            "entityId": "char-ahaz"
           }
         ]
       }
@@ -6572,7 +8241,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "In the seventeenth year of Pekah the son of Remaliah, Ahaz the son of Jotham king of Judah began to reign.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Ahaz",
+            "entityId": "char-ahaz"
+          }
+        ]
       },
       {
         "id": "2KI-16:2",
@@ -6599,6 +8277,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Ahaz",
+            "entityId": "char-ahaz"
           }
         ]
       },
@@ -6615,6 +8297,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6627,7 +8313,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He sacrificed and burned incense in the high places, on the hills, and under every green tree.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "high places",
+            "entityId": "term-high-places"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "2KI-16:5",
@@ -6642,6 +8337,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Ahaz",
+            "entityId": "char-ahaz"
           }
         ]
       },
@@ -6654,7 +8361,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "At that time Rezin king of Syria recovered Elath to Syria, and drove the Jews from Elath; and the Syrians came to Elath, and lived there, to this day.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
+          }
+        ]
       },
       {
         "id": "2KI-16:7",
@@ -6665,7 +8377,24 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So Ahaz sent messengers to Tiglath Pileser king of Assyria, saying, “I am your servant and your son. Come up and save me out of the hand of the king of Syria, and out of the hand of the king of Israel, who rise up against me.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Ahaz",
+            "entityId": "char-ahaz"
+          }
+        ]
       },
       {
         "id": "2KI-16:8",
@@ -6680,6 +8409,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Ahaz",
+            "entityId": "char-ahaz"
           }
         ]
       },
@@ -6692,7 +8429,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The king of Assyria listened to him; and the king of Assyria went up against Damascus, and took it, and carried its people captive to Kir, and killed Rezin.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          }
+        ]
       },
       {
         "id": "2KI-16:10",
@@ -6703,7 +8445,24 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "King Ahaz went to Damascus to meet Tiglath Pileser king of Assyria, and saw the altar that was at Damascus; and king Ahaz sent to Urijah the priest a drawing of the altar and plans to build it.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Ahaz",
+            "entityId": "char-ahaz"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "2KI-16:11",
@@ -6714,7 +8473,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Urijah the priest built an altar. According to all that king Ahaz had sent from Damascus, so Urijah the priest made it for the coming of king Ahaz from Damascus.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ahaz",
+            "entityId": "char-ahaz"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "2KI-16:12",
@@ -6725,7 +8497,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the king had come from Damascus, the king saw the altar; and the king came near to the altar, and offered on it.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "2KI-16:13",
@@ -6736,7 +8513,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He burned his burnt offering and his meal offering, poured his drink offering, and sprinkled the blood of his peace offerings on the altar.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "2KI-16:14",
@@ -6751,6 +8533,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -6763,7 +8549,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "King Ahaz commanded Urijah the priest, saying, “On the great altar burn the morning burnt offering, the evening meal offering, the king’s burnt offering, his meal offering, with the burnt offering of all the people of the land, their meal offering, and their drink offerings; and sprinkle on it all the blood of the burnt offering, and all the blood of the sacrifice; but the bronze altar will be for me to inquire by.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ahaz",
+            "entityId": "char-ahaz"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "2KI-16:16",
@@ -6774,7 +8573,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Urijah the priest did so, according to all that king Ahaz commanded.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ahaz",
+            "entityId": "char-ahaz"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "2KI-16:17",
@@ -6785,7 +8593,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "King Ahaz cut off the panels of the bases, and removed the basin from off them, and took down the sea from off the bronze oxen that were under it, and put it on a pavement of stone.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ahaz",
+            "entityId": "char-ahaz"
+          }
+        ]
       },
       {
         "id": "2KI-16:18",
@@ -6800,6 +8613,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
           }
         ]
       },
@@ -6812,7 +8633,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the rest of the acts of Ahaz which he did, aren’t they written in the book of the chronicles of the kings of Judah?",
         "translation": "WEB",
         "illustrationId": "ill-2ki-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Ahaz",
+            "entityId": "char-ahaz"
+          }
+        ]
       },
       {
         "id": "2KI-16:20",
@@ -6831,6 +8661,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Ahaz",
+            "entityId": "char-ahaz"
           }
         ]
       }
@@ -6860,6 +8694,22 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Hoshea",
+            "entityId": "char-hoshea"
+          },
+          {
+            "spanText": "Ahaz",
+            "entityId": "char-ahaz"
           }
         ]
       },
@@ -6876,6 +8726,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6888,7 +8742,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Shalmaneser king of Assyria came up against him, and Hoshea became his servant, and brought him tribute.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Hoshea",
+            "entityId": "char-hoshea"
+          },
+          {
+            "spanText": "Shalmaneser",
+            "entityId": "char-shalmaneser"
+          }
+        ]
       },
       {
         "id": "2KI-17:4",
@@ -6899,7 +8766,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The king of Assyria found conspiracy in Hoshea; for he had sent messengers to So king of Egypt, and offered no tribute to the king of Assyria, as he had done year by year. Therefore the king of Assyria seized him, and bound him in prison.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Hoshea",
+            "entityId": "char-hoshea"
+          }
+        ]
       },
       {
         "id": "2KI-17:5",
@@ -6914,6 +8794,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -6930,6 +8814,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Hoshea",
+            "entityId": "char-hoshea"
           }
         ]
       },
@@ -6950,6 +8846,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -6966,6 +8874,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6986,6 +8898,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "high places",
+            "entityId": "term-high-places"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6998,7 +8918,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and they set up for themselves pillars and Asherah poles on every high hill, and under every green tree;",
         "translation": "WEB",
         "illustrationId": "ill-2ki-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asherah",
+            "entityId": "term-asherah"
+          }
+        ]
       },
       {
         "id": "2KI-17:11",
@@ -7013,6 +8938,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "high places",
+            "entityId": "term-high-places"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
           }
         ]
       },
@@ -7045,6 +8978,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -7105,6 +9046,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          },
+          {
+            "spanText": "Asherah",
+            "entityId": "term-asherah"
+          },
+          {
+            "spanText": "calves",
+            "entityId": "term-golden-calf"
           }
         ]
       },
@@ -7137,6 +9090,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -7157,6 +9118,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -7173,6 +9142,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7193,6 +9166,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7205,7 +9182,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Israel walked in all the sins of Jeroboam which he did; they didn’t depart from them",
         "translation": "WEB",
         "illustrationId": "ill-2ki-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "2KI-17:23",
@@ -7220,6 +9202,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -7236,6 +9226,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
           }
         ]
       },
@@ -7268,6 +9270,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -7280,7 +9286,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the king of Assyria commanded, saying, “Carry there one of the priests whom you brought from there; and let them go and dwell there, and let him teach them the law of the god of the land.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "2KI-17:28",
@@ -7303,6 +9318,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethel",
             "entityId": "place-bethel"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -7315,7 +9334,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "However every nation made gods of their own, and put them in the houses of the high places which the Samaritans had made, every nation in their cities in which they lived.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "high places",
+            "entityId": "term-high-places"
+          }
+        ]
       },
       {
         "id": "2KI-17:30",
@@ -7326,7 +9350,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The men of Babylon made Succoth Benoth, and the men of Cuth made Nergal, and the men of Hamath made Ashima,",
         "translation": "WEB",
         "illustrationId": "ill-2ki-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          }
+        ]
       },
       {
         "id": "2KI-17:31",
@@ -7352,6 +9381,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "high places",
+            "entityId": "term-high-places"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -7384,6 +9421,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7420,6 +9461,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
           }
         ]
       },
@@ -7523,6 +9568,22 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hezekiah",
             "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Hoshea",
+            "entityId": "char-hoshea"
+          },
+          {
+            "spanText": "Ahaz",
+            "entityId": "char-ahaz"
           }
         ]
       },
@@ -7571,7 +9632,24 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He removed the high places, and broke the pillars, and cut down the Asherah. He also broke in pieces the bronze serpent that Moses had made, because in those days the children of Israel burned incense to it; and he called it Nehushtan.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "high places",
+            "entityId": "term-high-places"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Asherah",
+            "entityId": "term-asherah"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "2KI-18:5",
@@ -7590,6 +9668,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -7622,6 +9708,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -7634,7 +9724,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He struck the Philistines to Gaza and its borders, from the tower of the watchmen to the fortified city.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "2KI-18:9",
@@ -7653,6 +9748,22 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Hoshea",
+            "entityId": "char-hoshea"
+          },
+          {
+            "spanText": "Shalmaneser",
+            "entityId": "char-shalmaneser"
           }
         ]
       },
@@ -7673,6 +9784,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Hoshea",
+            "entityId": "char-hoshea"
           }
         ]
       },
@@ -7685,7 +9804,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The king of Assyria carried Israel away to Assyria, and put them in Halah, and on the Habor, the river of Gozan, and in the cities of the Medes,",
         "translation": "WEB",
         "illustrationId": "ill-2ki-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          }
+        ]
       },
       {
         "id": "2KI-18:12",
@@ -7724,6 +9852,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hezekiah",
             "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Sennacherib",
+            "entityId": "char-sennacherib"
           }
         ]
       },
@@ -7740,6 +9880,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hezekiah",
             "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -7780,6 +9928,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hezekiah",
             "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
           }
         ]
       },
@@ -7800,6 +9960,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Rabshakeh",
+            "entityId": "char-rabshakeh"
           }
         ]
       },
@@ -7812,7 +9980,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When they had called to the king, Eliakim the son of Hilkiah, who was over the household, and Shebnah the scribe, and Joah the son of Asaph the recorder came out to them.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Eliakim",
+            "entityId": "char-eliakim"
+          },
+          {
+            "spanText": "Hilkiah",
+            "entityId": "char-hilkiah"
+          }
+        ]
       },
       {
         "id": "2KI-18:19",
@@ -7827,6 +10004,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hezekiah",
             "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Rabshakeh",
+            "entityId": "char-rabshakeh"
           }
         ]
       },
@@ -7850,7 +10035,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now, behold, you trust in the staff of this bruised reed, even in Egypt. If a man leans on it, it will go into his hand, and pierce it. So is Pharaoh king of Egypt to all who trust on him.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "2KI-18:22",
@@ -7877,6 +10071,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "high places",
+            "entityId": "term-high-places"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "altars",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -7889,7 +10095,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now therefore, please give pledges to my master the king of Assyria, and I will give you two thousand horses, if you are able on your part to set riders on them.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          }
+        ]
       },
       {
         "id": "2KI-18:24",
@@ -7900,7 +10111,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "How then can you turn away the face of one captain of the least of my master’s servants, and put your trust on Egypt for chariots and for horsemen?",
         "translation": "WEB",
         "illustrationId": "ill-2ki-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "2KI-18:25",
@@ -7927,7 +10143,24 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Eliakim the son of Hilkiah, Shebnah, and Joah, said to Rabshakeh, “Please speak to your servants in the Syrian language, for we understand it. Don’t speak with us in the Jews’ language, in the hearing of the people who are on the wall.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Syrian",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Eliakim",
+            "entityId": "char-eliakim"
+          },
+          {
+            "spanText": "Rabshakeh",
+            "entityId": "char-rabshakeh"
+          },
+          {
+            "spanText": "Hilkiah",
+            "entityId": "char-hilkiah"
+          }
+        ]
       },
       {
         "id": "2KI-18:27",
@@ -7938,7 +10171,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But Rabshakeh said to them, “Has my master sent me to your master and to you, to speak these words? Hasn’t he sent me to the men who sit on the wall, to eat their own dung, and to drink their own urine with you?”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Rabshakeh",
+            "entityId": "char-rabshakeh"
+          }
+        ]
       },
       {
         "id": "2KI-18:28",
@@ -7949,7 +10187,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Rabshakeh stood, and cried with a loud voice in the Jews’ language, and spoke, saying, “Hear the word of the great king, the king of Assyria.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Rabshakeh",
+            "entityId": "char-rabshakeh"
+          }
+        ]
       },
       {
         "id": "2KI-18:29",
@@ -7984,6 +10231,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hezekiah",
             "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -8000,6 +10251,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hezekiah",
             "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -8032,7 +10287,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Has any of the gods of the nations ever delivered his land out of the hand of the king of Assyria?",
         "translation": "WEB",
         "illustrationId": "ill-2ki-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          }
+        ]
       },
       {
         "id": "2KI-18:34",
@@ -8094,6 +10354,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hezekiah",
             "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "Eliakim",
+            "entityId": "char-eliakim"
+          },
+          {
+            "spanText": "Rabshakeh",
+            "entityId": "char-rabshakeh"
+          },
+          {
+            "spanText": "Hilkiah",
+            "entityId": "char-hilkiah"
           }
         ]
       }
@@ -8143,6 +10415,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Isaiah",
             "entityId": "char-isaiah"
+          },
+          {
+            "spanText": "Eliakim",
+            "entityId": "char-eliakim"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -8179,6 +10459,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Rabshakeh",
+            "entityId": "char-rabshakeh"
           }
         ]
       },
@@ -8219,6 +10507,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Isaiah",
             "entityId": "char-isaiah"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -8242,7 +10534,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So Rabshakeh returned and found the king of Assyria warring against Libnah; for he had heard that he had departed from Lachish.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Rabshakeh",
+            "entityId": "char-rabshakeh"
+          }
+        ]
       },
       {
         "id": "2KI-19:9",
@@ -8281,6 +10582,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -8293,7 +10602,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, you have heard what the kings of Assyria have done to all lands, by destroying them utterly. Will you be delivered?",
         "translation": "WEB",
         "illustrationId": "ill-2ki-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          }
+        ]
       },
       {
         "id": "2KI-19:12",
@@ -8358,6 +10672,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hezekiah",
             "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8378,6 +10696,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Sennacherib",
+            "entityId": "char-sennacherib"
           }
         ]
       },
@@ -8394,6 +10716,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -8453,6 +10779,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Isaiah",
             "entityId": "char-isaiah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Sennacherib",
+            "entityId": "char-sennacherib"
           }
         ]
       },
@@ -8485,7 +10823,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whom have you defied and blasphemed? Against whom have you exalted your voice and lifted up your eyes on high? Against the Holy One of Israel!",
         "translation": "WEB",
         "illustrationId": "ill-2ki-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "2KI-19:23",
@@ -8507,7 +10850,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I have dug and drunk strange waters, and I will dry up all the rivers of Egypt with the sole of my feet.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "2KI-19:25",
@@ -8573,7 +10921,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The remnant that has escaped of the house of Judah will again take root downward, and bear fruit upward.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "2KI-19:31",
@@ -8608,6 +10961,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -8656,6 +11013,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Assyrians",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -8668,7 +11029,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So Sennacherib king of Assyria departed, and went and returned, and lived at Nineveh.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Nineveh",
+            "entityId": "place-nineveh"
+          },
+          {
+            "spanText": "Sennacherib",
+            "entityId": "char-sennacherib"
+          }
+        ]
       },
       {
         "id": "2KI-19:37",
@@ -8815,6 +11189,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -8911,6 +11289,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Isaiah",
             "entityId": "char-isaiah"
+          },
+          {
+            "spanText": "Ahaz",
+            "entityId": "char-ahaz"
           }
         ]
       },
@@ -8927,6 +11309,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hezekiah",
             "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
           }
         ]
       },
@@ -8963,6 +11349,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Isaiah",
             "entityId": "char-isaiah"
+          },
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
           }
         ]
       },
@@ -9019,6 +11409,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
           }
         ]
       },
@@ -9031,7 +11425,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "‘They will take away some of your sons who will issue from you, whom you will father; and they will be eunuchs in the palace of the king of Babylon.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          }
+        ]
       },
       {
         "id": "2KI-20:19",
@@ -9070,6 +11469,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hezekiah",
             "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -9086,6 +11489,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hezekiah",
             "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh"
           }
         ]
       }
@@ -9115,6 +11522,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh"
           }
         ]
       },
@@ -9131,6 +11542,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9151,6 +11566,26 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hezekiah",
             "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "high places",
+            "entityId": "term-high-places"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          },
+          {
+            "spanText": "Asherah",
+            "entityId": "term-asherah"
+          },
+          {
+            "spanText": "altars",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -9171,6 +11606,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "altars",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -9187,6 +11626,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "altars",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -9231,6 +11674,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Asherah",
+            "entityId": "term-asherah"
           }
         ]
       },
@@ -9243,7 +11694,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will not cause the feet of Israel to wander any more out of the land which I gave their fathers, if only they will observe to do according to all that I have commanded them, and according to all the law that my servant Moses commanded them.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "2KI-21:9",
@@ -9258,6 +11714,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh"
           }
         ]
       },
@@ -9286,7 +11750,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Because Manasseh king of Judah has done these abominations, and has done wickedly above all that the Amorites did, who were before him, and has also made Judah to sin with his idols;",
         "translation": "WEB",
         "illustrationId": "ill-2ki-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh"
+          }
+        ]
       },
       {
         "id": "2KI-21:12",
@@ -9309,6 +11782,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -9356,7 +11837,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "because they have done that which is evil in my sight, and have provoked me to anger, since the day their fathers came out of Egypt, even to this day.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "2KI-21:16",
@@ -9375,6 +11861,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh"
           }
         ]
       },
@@ -9387,7 +11881,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the rest of the acts of Manasseh, and all that he did, and his sin that he sinned, aren’t they written in the book of the chronicles of the kings of Judah?",
         "translation": "WEB",
         "illustrationId": "ill-2ki-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh"
+          }
+        ]
       },
       {
         "id": "2KI-21:18",
@@ -9398,7 +11901,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Manasseh slept with his fathers, and was buried in the garden of his own house, in the garden of Uzza; and Amon his son reigned in his place.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh"
+          }
+        ]
       },
       {
         "id": "2KI-21:19",
@@ -9429,6 +11937,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh"
           }
         ]
       },
@@ -9499,7 +12011,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the rest of the acts of Amon which he did, aren’t they written in the book of the chronicles of the kings of Judah?",
         "translation": "WEB",
         "illustrationId": "ill-2ki-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "2KI-21:26",
@@ -9587,6 +12104,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Josiah",
             "entityId": "char-josiah"
+          },
+          {
+            "spanText": "Shaphan",
+            "entityId": "char-shaphan"
           }
         ]
       },
@@ -9603,6 +12124,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Hilkiah",
+            "entityId": "char-hilkiah"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9661,6 +12190,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "book of the law",
             "entityId": "term-book-of-the-law"
+          },
+          {
+            "spanText": "Hilkiah",
+            "entityId": "char-hilkiah"
+          },
+          {
+            "spanText": "Shaphan",
+            "entityId": "char-shaphan"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9677,6 +12218,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Shaphan",
+            "entityId": "char-shaphan"
           }
         ]
       },
@@ -9689,7 +12234,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Shaphan the scribe told the king, saying, “Hilkiah the priest has delivered a book to me.” Then Shaphan read it before the king.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hilkiah",
+            "entityId": "char-hilkiah"
+          },
+          {
+            "spanText": "Shaphan",
+            "entityId": "char-shaphan"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "2KI-22:11",
@@ -9716,7 +12274,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The king commanded Hilkiah the priest, Ahikam the son of Shaphan, Achbor the son of Micaiah, Shaphan the scribe, and Asaiah the king’s servant, saying,",
         "translation": "WEB",
         "illustrationId": "ill-2ki-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hilkiah",
+            "entityId": "char-hilkiah"
+          },
+          {
+            "spanText": "Shaphan",
+            "entityId": "char-shaphan"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "2KI-22:13",
@@ -9731,6 +12302,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -9751,6 +12326,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Hilkiah",
+            "entityId": "char-hilkiah"
+          },
+          {
+            "spanText": "Shaphan",
+            "entityId": "char-shaphan"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9771,6 +12358,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9787,6 +12378,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -9799,7 +12394,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Because they have forsaken me, and have burned incense to other gods, that they might provoke me to anger with all the work of their hands, therefore my wrath shall be kindled against this place, and it will not be quenched.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "2KI-22:18",
@@ -9818,6 +12418,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -9874,6 +12482,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -9902,6 +12514,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9946,6 +12566,30 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethel",
             "entityId": "place-bethel"
+          },
+          {
+            "spanText": "Kidron",
+            "entityId": "place-kidron"
+          },
+          {
+            "spanText": "Hilkiah",
+            "entityId": "char-hilkiah"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          },
+          {
+            "spanText": "Asherah",
+            "entityId": "term-asherah"
+          },
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9962,6 +12606,26 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "high places",
+            "entityId": "term-high-places"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Baal",
+            "entityId": "term-baal"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9982,6 +12646,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Kidron",
+            "entityId": "place-kidron"
+          },
+          {
+            "spanText": "Asherah",
+            "entityId": "term-asherah"
           }
         ]
       },
@@ -9998,6 +12670,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Asherah",
+            "entityId": "term-asherah"
           }
         ]
       },
@@ -10010,7 +12686,24 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He brought all the priests out of the cities of Judah, and defiled the high places where the priests had burned incense, from Geba to Beersheba; and he broke down the high places of the gates that were at the entrance of the gate of Joshua the governor of the city, which were on a man’s left hand at the gate of the city.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "high places",
+            "entityId": "term-high-places"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "2KI-23:9",
@@ -10029,6 +12722,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "high places",
+            "entityId": "term-high-places"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10056,6 +12761,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -10072,6 +12781,26 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh"
+          },
+          {
+            "spanText": "Kidron",
+            "entityId": "place-kidron"
+          },
+          {
+            "spanText": "Ahaz",
+            "entityId": "char-ahaz"
+          },
+          {
+            "spanText": "altars",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -10092,6 +12821,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "high places",
+            "entityId": "term-high-places"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -10104,7 +12845,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He broke in pieces the pillars, cut down the Asherah poles, and filled their places with men’s bones.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asherah",
+            "entityId": "term-asherah"
+          }
+        ]
       },
       {
         "id": "2KI-23:15",
@@ -10119,6 +12865,22 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethel",
             "entityId": "place-bethel"
+          },
+          {
+            "spanText": "high place",
+            "entityId": "term-high-places"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Asherah",
+            "entityId": "term-asherah"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -10143,6 +12905,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Josiah",
             "entityId": "char-josiah"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -10163,6 +12929,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethel",
             "entityId": "place-bethel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -10207,6 +12981,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethel",
             "entityId": "place-bethel"
+          },
+          {
+            "spanText": "high places",
+            "entityId": "term-high-places"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10223,6 +13005,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "high places",
+            "entityId": "term-high-places"
+          },
+          {
+            "spanText": "altars",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10251,6 +13045,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Passover",
+            "entityId": "term-passover"
           }
         ]
       },
@@ -10263,7 +13061,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Surely there was not kept such a Passover from the days of the judges who judged Israel, nor in all the days of the kings of Israel, nor of the kings of Judah;",
         "translation": "WEB",
         "illustrationId": "ill-2ki-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Passover",
+            "entityId": "term-passover"
+          }
+        ]
       },
       {
         "id": "2KI-23:23",
@@ -10286,6 +13097,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Passover",
+            "entityId": "term-passover"
           }
         ]
       },
@@ -10310,6 +13125,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Hilkiah",
+            "entityId": "char-hilkiah"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10342,6 +13169,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh"
           }
         ]
       },
@@ -10362,6 +13197,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -10378,6 +13221,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Josiah",
             "entityId": "char-josiah"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -10394,6 +13241,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Josiah",
             "entityId": "char-josiah"
+          },
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -10462,6 +13321,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -10478,6 +13341,22 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Josiah",
             "entityId": "char-josiah"
+          },
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Eliakim",
+            "entityId": "char-eliakim"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
           }
         ]
       },
@@ -10490,7 +13369,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jehoiakim gave the silver and the gold to Pharaoh; but he taxed the land to give the money according to the commandment of Pharaoh. He exacted the silver and the gold of the people of the land, from everyone according to his assessment, to give it to Pharaoh Necoh.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          }
+        ]
       },
       {
         "id": "2KI-23:36",
@@ -10505,6 +13393,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
           }
         ]
       },
@@ -10546,7 +13438,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "In his days Nebuchadnezzar king of Babylon came up, and Jehoiakim became his servant three years. Then he turned and rebelled against him.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Nebuchadnezzar",
+            "entityId": "char-nebuchadnezzar"
+          }
+        ]
       },
       {
         "id": "2KI-24:2",
@@ -10561,6 +13466,22 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          },
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Moabites",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -10577,6 +13498,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh"
           }
         ]
       },
@@ -10609,7 +13538,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the rest of the acts of Jehoiakim, and all that he did, aren’t they written in the book of the chronicles of the kings of Judah?",
         "translation": "WEB",
         "illustrationId": "ill-2ki-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          }
+        ]
       },
       {
         "id": "2KI-24:6",
@@ -10620,7 +13558,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So Jehoiakim slept with his fathers, and Jehoiachin his son reigned in his place.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Jehoiachin",
+            "entityId": "char-jehoiachin"
+          }
+        ]
       },
       {
         "id": "2KI-24:7",
@@ -10631,7 +13578,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The king of Egypt didn’t come out of his land any more; for the king of Babylon had taken, from the brook of Egypt to the river Euphrates, all that belonged to the king of Egypt.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          }
+        ]
       },
       {
         "id": "2KI-24:8",
@@ -10646,6 +13602,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Jehoiachin",
+            "entityId": "char-jehoiachin"
           }
         ]
       },
@@ -10678,6 +13638,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Nebuchadnezzar",
+            "entityId": "char-nebuchadnezzar"
           }
         ]
       },
@@ -10690,7 +13658,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Nebuchadnezzar king of Babylon came to the city while his servants were besieging it,",
         "translation": "WEB",
         "illustrationId": "ill-2ki-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Nebuchadnezzar",
+            "entityId": "char-nebuchadnezzar"
+          }
+        ]
       },
       {
         "id": "2KI-24:12",
@@ -10701,7 +13678,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and Jehoiachin the king of Judah went out to the king of Babylon, he, and his mother, and his servants, and his princes, and his officers; and the king of Babylon captured him in the eighth year of his reign.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Jehoiachin",
+            "entityId": "char-jehoiachin"
+          }
+        ]
       },
       {
         "id": "2KI-24:13",
@@ -10720,6 +13710,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Solomon",
             "entityId": "char-solomon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
           }
         ]
       },
@@ -10752,6 +13750,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Jehoiachin",
+            "entityId": "char-jehoiachin"
           }
         ]
       },
@@ -10764,7 +13770,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the men of might, even seven thousand, and the craftsmen and the smiths one thousand, all of them strong and fit for war, even them the king of Babylon brought captive to Babylon.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          }
+        ]
       },
       {
         "id": "2KI-24:17",
@@ -10775,7 +13786,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The king of Babylon made Mattaniah, Jehoiachin’s father’s brother, king in his place, and changed his name to Zedekiah.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Jehoiachin",
+            "entityId": "char-jehoiachin"
+          },
+          {
+            "spanText": "Zedekiah",
+            "entityId": "char-zedekiah"
+          }
+        ]
       },
       {
         "id": "2KI-24:18",
@@ -10790,6 +13814,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Zedekiah",
+            "entityId": "char-zedekiah"
           }
         ]
       },
@@ -10806,6 +13834,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
           }
         ]
       },
@@ -10826,6 +13858,18 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Zedekiah",
+            "entityId": "char-zedekiah"
           }
         ]
       }
@@ -10855,6 +13899,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Nebuchadnezzar",
+            "entityId": "char-nebuchadnezzar"
           }
         ]
       },
@@ -10867,7 +13919,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So the city was besieged until the eleventh year of king Zedekiah.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zedekiah",
+            "entityId": "char-zedekiah"
+          }
+        ]
       },
       {
         "id": "2KI-25:3",
@@ -10889,7 +13946,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then a breach was made in the city, and all the men of war fled by night by the way of the gate between the two walls, which was by the king’s garden (now the Chaldeans were against the city around it); and the king went by the way of the Arabah.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "2KI-25:5",
@@ -10904,6 +13966,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jericho",
             "entityId": "place-jericho"
+          },
+          {
+            "spanText": "Chaldean",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -10916,7 +13982,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then they captured the king, and carried him up to the king of Babylon to Riblah; and they passed judgment on him.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          }
+        ]
       },
       {
         "id": "2KI-25:7",
@@ -10927,7 +13998,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They killed Zedekiah’s sons before his eyes, then put out Zedekiah’s eyes, bound him in fetters, and carried him to Babylon.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Zedekiah",
+            "entityId": "char-zedekiah"
+          }
+        ]
       },
       {
         "id": "2KI-25:8",
@@ -10942,6 +14022,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Nebuchadnezzar",
+            "entityId": "char-nebuchadnezzar"
           }
         ]
       },
@@ -10978,6 +14066,10 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -10990,7 +14082,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Nebuzaradan the captain of the guard carried away captive the residue of the people who were left in the city, and those who fell away, who fell to the king of Babylon, and the residue of the multitude.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          }
+        ]
       },
       {
         "id": "2KI-25:12",
@@ -11016,6 +14113,14 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -11081,7 +14186,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The captain of the guard took Seraiah the chief priest, Zephaniah the second priest, and the three keepers of the threshold;",
         "translation": "WEB",
         "illustrationId": "ill-2ki-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "2KI-25:19",
@@ -11103,7 +14213,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Nebuzaradan the captain of the guard took them, and brought them to the king of Babylon to Riblah.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          }
+        ]
       },
       {
         "id": "2KI-25:21",
@@ -11114,7 +14229,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The king of Babylon attacked them, and put them to death at Riblah in the land of Hamath. So Judah was carried away captive out of his land.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          }
+        ]
       },
       {
         "id": "2KI-25:22",
@@ -11125,7 +14249,24 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "As for the people who were left in the land of Judah, whom Nebuchadnezzar king of Babylon had left, even over them he made Gedaliah the son of Ahikam, the son of Shaphan, governor.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Shaphan",
+            "entityId": "char-shaphan"
+          },
+          {
+            "spanText": "Nebuchadnezzar",
+            "entityId": "char-nebuchadnezzar"
+          }
+        ]
       },
       {
         "id": "2KI-25:23",
@@ -11136,7 +14277,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now when all the captains of the forces, they and their men, heard that the king of Babylon had made Gedaliah governor, they came to Gedaliah to Mizpah, even Ishmael the son of Nethaniah, and Johanan the son of Kareah, and Seraiah the son of Tanhumeth the Netophathite, and Jaazaniah the son of the Maacathite, they and their men.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          }
+        ]
       },
       {
         "id": "2KI-25:24",
@@ -11147,7 +14293,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Gedaliah swore to them and to their men, and said to them, “Don’t be afraid because of the servants of the Chaldeans. Dwell in the land, and serve the king of Babylon, and it will be well with you.”",
         "translation": "WEB",
         "illustrationId": "ill-2ki-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "2KI-25:25",
@@ -11158,7 +14313,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But in the seventh month, Ishmael the son of Nethaniah, the son of Elishama, of the royal offspring came, and ten men with him, and struck Gedaliah, so that he died, with the Jews and the Chaldeans that were with him at Mizpah.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "2KI-25:26",
@@ -11169,7 +14329,16 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the people, both small and great, and the captains of the forces, arose, and came to Egypt; for they were afraid of the Chaldeans.",
         "translation": "WEB",
         "illustrationId": "ill-2ki-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "2KI-25:27",
@@ -11180,7 +14349,20 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "In the thirty-seventh year of the captivity of Jehoiachin king of Judah, in the twelfth month, on the twenty-seventh day of the month, Evilmerodach king of Babylon, in the year that he began to reign, lifted up the head of Jehoiachin king of Judah out of prison;",
         "translation": "WEB",
         "illustrationId": "ill-2ki-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Jehoiachin",
+            "entityId": "char-jehoiachin"
+          }
+        ]
       },
       {
         "id": "2KI-25:28",
@@ -11191,7 +14373,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and he spoke kindly to him, and set his throne above the throne of the kings who were with him in Babylon,",
         "translation": "WEB",
         "illustrationId": "ill-2ki-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          }
+        ]
       },
       {
         "id": "2KI-25:29",
@@ -11202,7 +14389,12 @@ export const SECOND_KINGS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and changed his prison garments. Jehoiachin ate bread before him continually all the days of his life;",
         "translation": "WEB",
         "illustrationId": "ill-2ki-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehoiachin",
+            "entityId": "char-jehoiachin"
+          }
+        ]
       },
       {
         "id": "2KI-25:30",
