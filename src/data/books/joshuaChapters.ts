@@ -2097,6 +2097,10 @@ export const JOSHUA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joshua",
             "entityId": "char-joshua"
+          },
+          {
+            "spanText": "commander",
+            "entityId": "term-commander-army"
           }
         ]
       },
