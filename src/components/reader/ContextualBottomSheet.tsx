@@ -81,6 +81,20 @@ export const ContextualBottomSheet: React.FC = () => {
       navigateToMapPin('loc-ramah');
     } else if (region.includes('Endor')) {
       navigateToMapPin('loc-mount-tabor');
+    } else if (region.includes('Carmel')) {
+      navigateToMapPin('loc-mount-carmel');
+    } else if (region.includes('Samaria') || region.includes('Jezreel')) {
+      navigateToMapPin('loc-samaria');
+    } else if (region.includes('Dothan')) {
+      navigateToMapPin('loc-dothan');
+    } else if (region.includes('Zarephath') || region.includes('Sidon') || region.includes('Tyre') || region.includes('Lebanon')) {
+      navigateToMapPin('loc-mount-carmel');
+    } else if (region.includes('Gibeon')) {
+      navigateToMapPin('loc-ramah');
+    } else if (region.includes('Syria') || region.includes('Damascus') || region.includes('Aram')) {
+      navigateToMapPin('loc-haran');
+    } else if (region.includes('Babylon') || region.includes('Nineveh') || region.includes('Assyria') || region.includes('Chaldea')) {
+      navigateToMapPin('loc-babylon');
     } else if (region.includes('Elah')) {
       navigateToMapPin('loc-elah');
     } else if (region.includes('En Gedi')) {
@@ -114,6 +128,8 @@ export const ContextualBottomSheet: React.FC = () => {
       navigateToTimelineEra('era-patriarchs');
     } else if (entity.timelineEra.includes('Judges') || entity.timelineEra.includes('Conquest') || entity.timelineEra.includes('Joshua')) {
       navigateToTimelineEra('era-judges');
+    } else if (entity.timelineEra.includes('Exile') || entity.timelineEra.includes('Captivity') || entity.timelineEra.includes('Babylon') || entity.timelineEra.includes('Assyria')) {
+      navigateToTimelineEra('era-exile');
     } else if (entity.timelineEra.includes('Monarchy') || entity.timelineEra.includes('Kingdom')) {
       navigateToTimelineEra('era-kingdom');
     } else {
@@ -132,23 +148,29 @@ export const ContextualBottomSheet: React.FC = () => {
 
   const handleReflect = () => {
     const ref = entity.relatedVerseRefs[0] || 'Genesis 1:1';
-    const bookId = ref.includes('1 Samuel')
-      ? '1SA'
-      : ref.includes('Ruth')
-        ? 'RUT'
-        : ref.includes('Judges')
-          ? 'JDG'
-          : ref.includes('Joshua')
-            ? 'JOS'
-            : ref.includes('Deuteronomy')
-              ? 'DEU'
-              : ref.includes('Numbers')
-                ? 'NUM'
-                : ref.includes('Leviticus')
-                  ? 'LEV'
-                  : ref.includes('Exodus')
-                    ? 'EXO'
-                    : 'GEN';
+    const bookId = ref.includes('2 Kings')
+      ? '2KI'
+      : ref.includes('1 Kings')
+        ? '1KI'
+        : ref.includes('2 Samuel')
+          ? '2SA'
+          : ref.includes('1 Samuel')
+            ? '1SA'
+            : ref.includes('Ruth')
+              ? 'RUT'
+              : ref.includes('Judges')
+                ? 'JDG'
+                : ref.includes('Joshua')
+                  ? 'JOS'
+                  : ref.includes('Deuteronomy')
+                    ? 'DEU'
+                    : ref.includes('Numbers')
+                      ? 'NUM'
+                      : ref.includes('Leviticus')
+                        ? 'LEV'
+                        : ref.includes('Exodus')
+                          ? 'EXO'
+                          : 'GEN';
     openJournalSheet({
       verseRef: ref,
       bookId,
