@@ -11595,12 +11595,12 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "term-israel"
           },
           {
-            "spanText": "Gilead",
-            "entityId": "place-gilead"
-          },
-          {
             "spanText": "Mizpah",
             "entityId": "place-mizpah"
+          },
+          {
+            "spanText": "Jabesh Gilead",
+            "entityId": "place-jabesh"
           }
         ]
       },
@@ -11615,8 +11615,8 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-jdg-21",
         "linkedEntities": [
           {
-            "spanText": "Gilead",
-            "entityId": "place-gilead"
+            "spanText": "Jabesh Gilead",
+            "entityId": "place-jabesh"
           }
         ]
       },
@@ -11631,8 +11631,8 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-jdg-21",
         "linkedEntities": [
           {
-            "spanText": "Gilead",
-            "entityId": "place-gilead"
+            "spanText": "Jabesh Gilead",
+            "entityId": "place-jabesh"
           }
         ]
       },
@@ -11666,8 +11666,8 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "place-canaan"
           },
           {
-            "spanText": "Gilead",
-            "entityId": "place-gilead"
+            "spanText": "Jabesh Gilead",
+            "entityId": "place-jabesh"
           }
         ]
       },
@@ -11702,8 +11702,8 @@ export const JUDGES_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-benjamin"
           },
           {
-            "spanText": "Gilead",
-            "entityId": "place-gilead"
+            "spanText": "Jabesh Gilead",
+            "entityId": "place-jabesh"
           }
         ]
       },

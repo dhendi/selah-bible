@@ -29,6 +29,10 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -53,6 +57,18 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Elimelech",
+            "entityId": "char-elimelech"
+          },
+          {
+            "spanText": "Mahlon",
+            "entityId": "char-mahlon-chilion"
           }
         ]
       },
@@ -69,6 +85,10 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Naomi",
             "entityId": "char-naomi"
+          },
+          {
+            "spanText": "Elimelech",
+            "entityId": "char-elimelech"
           }
         ]
       },
@@ -89,6 +109,10 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Orpah",
+            "entityId": "char-orpah"
           }
         ]
       },
@@ -101,7 +125,12 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Mahlon and Chilion both died, and the woman was bereaved of her two children and of her husband.",
         "translation": "WEB",
         "illustrationId": "ill-rut-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Mahlon",
+            "entityId": "char-mahlon-chilion"
+          }
+        ]
       },
       {
         "id": "RUT-1:6",
@@ -132,7 +161,12 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
         "text": "She went out of the place where she was, and her two daughters-in-law with her. They went on the way to return to the land of Judah.",
         "translation": "WEB",
         "illustrationId": "ill-rut-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "RUT-1:8",
@@ -237,6 +271,10 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ruth",
             "entityId": "char-ruth"
+          },
+          {
+            "spanText": "Orpah",
+            "entityId": "char-orpah"
           }
         ]
       },
@@ -384,6 +422,10 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "barley",
+            "entityId": "term-barley-harvest"
           }
         ]
       }
@@ -417,6 +459,10 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Boaz",
             "entityId": "char-boaz"
+          },
+          {
+            "spanText": "Elimelech",
+            "entityId": "char-elimelech"
           }
         ]
       },
@@ -441,6 +487,14 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "favor",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Moabitess",
+            "entityId": "place-moab"
+          },
+          {
+            "spanText": "glean",
+            "entityId": "term-gleaning"
           }
         ]
       },
@@ -457,6 +511,14 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Boaz",
             "entityId": "char-boaz"
+          },
+          {
+            "spanText": "Elimelech",
+            "entityId": "char-elimelech"
+          },
+          {
+            "spanText": "gleaned",
+            "entityId": "term-gleaning"
           }
         ]
       },
@@ -533,7 +595,12 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
         "text": "She said, ‘Please let me glean and gather after the reapers among the sheaves.’ So she came, and has continued even from the morning until now, except that she rested a little in the house.”",
         "translation": "WEB",
         "illustrationId": "ill-rut-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glean",
+            "entityId": "term-gleaning"
+          }
+        ]
       },
       {
         "id": "RUT-2:8",
@@ -552,6 +619,10 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Boaz",
             "entityId": "char-boaz"
+          },
+          {
+            "spanText": "glean",
+            "entityId": "term-gleaning"
           }
         ]
       },
@@ -615,6 +686,10 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -663,6 +738,10 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Boaz",
             "entityId": "char-boaz"
+          },
+          {
+            "spanText": "glean",
+            "entityId": "term-gleaning"
           }
         ]
       },
@@ -675,7 +754,12 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Also pull out some for her from the bundles, and leave it. Let her glean, and don’t rebuke her.”",
         "translation": "WEB",
         "illustrationId": "ill-rut-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glean",
+            "entityId": "term-gleaning"
+          }
+        ]
       },
       {
         "id": "RUT-2:17",
@@ -686,7 +770,16 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
         "text": "So she gleaned in the field until evening; and she beat out that which she had gleaned, and it was about an ephah of barley.",
         "translation": "WEB",
         "illustrationId": "ill-rut-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "gleaned",
+            "entityId": "term-gleaning"
+          },
+          {
+            "spanText": "barley",
+            "entityId": "term-barley-harvest"
+          }
+        ]
       },
       {
         "id": "RUT-2:18",
@@ -697,7 +790,12 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
         "text": "She took it up, and went into the city. Then her mother-in-law saw what she had gleaned; and she brought out and gave to her that which she had left after she had enough.",
         "translation": "WEB",
         "illustrationId": "ill-rut-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "gleaned",
+            "entityId": "term-gleaning"
+          }
+        ]
       },
       {
         "id": "RUT-2:19",
@@ -716,6 +814,10 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Blessed",
             "entityId": "term-blessing"
+          },
+          {
+            "spanText": "gleaned",
+            "entityId": "term-gleaning"
           }
         ]
       },
@@ -760,6 +862,10 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ruth",
             "entityId": "char-ruth"
+          },
+          {
+            "spanText": "Moabitess",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -796,6 +902,14 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Boaz",
             "entityId": "char-boaz"
+          },
+          {
+            "spanText": "glean",
+            "entityId": "term-gleaning"
+          },
+          {
+            "spanText": "barley",
+            "entityId": "term-barley-harvest"
           }
         ]
       }
@@ -841,6 +955,18 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Boaz",
             "entityId": "char-boaz"
+          },
+          {
+            "spanText": "kinsman",
+            "entityId": "term-kinsman-redeemer"
+          },
+          {
+            "spanText": "threshing floor",
+            "entityId": "term-threshing-floor"
+          },
+          {
+            "spanText": "barley",
+            "entityId": "term-barley-harvest"
           }
         ]
       },
@@ -853,7 +979,16 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore wash yourself, anoint yourself, get dressed, and go down to the threshing floor; but don’t make yourself known to the man until he has finished eating and drinking.",
         "translation": "WEB",
         "illustrationId": "ill-rut-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "threshing floor",
+            "entityId": "term-threshing-floor"
+          },
+          {
+            "spanText": "anoint",
+            "entityId": "term-anointed"
+          }
+        ]
       },
       {
         "id": "RUT-3:4",
@@ -886,7 +1021,12 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
         "text": "She went down to the threshing floor, and did everything that her mother-in-law told her.",
         "translation": "WEB",
         "illustrationId": "ill-rut-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "threshing floor",
+            "entityId": "term-threshing-floor"
+          }
+        ]
       },
       {
         "id": "RUT-3:7",
@@ -999,6 +1139,10 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "kinsman",
+            "entityId": "term-kinsman-redeemer"
           }
         ]
       },
@@ -1011,7 +1155,12 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
         "text": "She lay at his feet until the morning, then she rose up before one could discern another. For he said, “Let it not be known that the woman came to the threshing floor.”",
         "translation": "WEB",
         "illustrationId": "ill-rut-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "threshing floor",
+            "entityId": "term-threshing-floor"
+          }
+        ]
       },
       {
         "id": "RUT-3:15",
@@ -1022,7 +1171,12 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said, “Bring the mantle that is on you, and hold it.” She held it; and he measured six measures of barley, and laid it on her; then he went into the city.",
         "translation": "WEB",
         "illustrationId": "ill-rut-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "barley",
+            "entityId": "term-barley-harvest"
+          }
+        ]
       },
       {
         "id": "RUT-3:16",
@@ -1044,7 +1198,12 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
         "text": "She said, “He gave me these six measures of barley; for he said, ‘Don’t go empty to your mother-in-law.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-rut-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "barley",
+            "entityId": "term-barley-harvest"
+          }
+        ]
       },
       {
         "id": "RUT-3:18",
@@ -1127,6 +1286,10 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moab",
             "entityId": "place-moab"
+          },
+          {
+            "spanText": "Elimelech",
+            "entityId": "char-elimelech"
           }
         ]
       },
@@ -1167,6 +1330,10 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Boaz",
             "entityId": "char-boaz"
+          },
+          {
+            "spanText": "Moabitess",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -1195,7 +1362,16 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now this was the custom in former time in Israel concerning redeeming and concerning exchanging, to confirm all things: a man took off his sandal, and gave it to his neighbor; and this was the way of formalizing transactions in Israel.",
         "translation": "WEB",
         "illustrationId": "ill-rut-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "sandal",
+            "entityId": "term-sandal-redemption"
+          }
+        ]
       },
       {
         "id": "RUT-4:8",
@@ -1214,6 +1390,10 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "near kinsman",
             "entityId": "term-kinsman-redeemer"
+          },
+          {
+            "spanText": "sandal",
+            "entityId": "term-sandal-redemption"
           }
         ]
       },
@@ -1234,6 +1414,14 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Boaz",
             "entityId": "char-boaz"
+          },
+          {
+            "spanText": "Elimelech",
+            "entityId": "char-elimelech"
+          },
+          {
+            "spanText": "Chilion",
+            "entityId": "char-mahlon-chilion"
           }
         ]
       },
@@ -1250,6 +1438,14 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ruth",
             "entityId": "char-ruth"
+          },
+          {
+            "spanText": "Moabitess",
+            "entityId": "place-moab"
+          },
+          {
+            "spanText": "Mahlon",
+            "entityId": "char-mahlon-chilion"
           }
         ]
       },
@@ -1270,6 +1466,10 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethlehem",
             "entityId": "place-bethlehem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1286,6 +1486,10 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -1338,6 +1542,10 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Blessed",
             "entityId": "term-blessing"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1381,6 +1589,18 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Naomi",
             "entityId": "char-naomi"
+          },
+          {
+            "spanText": "Obed",
+            "entityId": "char-obed"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
+          },
+          {
+            "spanText": "David",
+            "entityId": "char-david"
           }
         ]
       },
@@ -1393,7 +1613,12 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now this is the history of the generations of Perez: Perez became the father of Hezron,",
         "translation": "WEB",
         "illustrationId": "ill-rut-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Perez",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "RUT-4:19",
@@ -1430,6 +1655,10 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Boaz",
             "entityId": "char-boaz"
+          },
+          {
+            "spanText": "Obed",
+            "entityId": "char-obed"
           }
         ]
       },
@@ -1442,7 +1671,20 @@ export const RUTH_CHAPTERS: Record<string, ChapterData> = {
         "text": "and Obed became the father of Jesse, and Jesse became the father of David.",
         "translation": "WEB",
         "illustrationId": "ill-rut-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Obed",
+            "entityId": "char-obed"
+          },
+          {
+            "spanText": "Jesse",
+            "entityId": "char-jesse"
+          },
+          {
+            "spanText": "David",
+            "entityId": "char-david"
+          }
+        ]
       }
     ]
   }
