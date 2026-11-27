@@ -537,6 +537,16 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'term-faith-pistis': '/images/rom-04.jpg',
   'term-hope': '/images/rom-08.jpg',
   'term-peace-eirene': '/images/rom-05.jpg',
+  'char-tychicus': '/images/portrait-tychicus.jpg',
+  'char-epaphroditus': '/images/portrait-epaphroditus.jpg',
+  'char-euodia-syntyche': '/images/php-04.jpg',
+  'term-redemption': '/images/eph-01.jpg',
+  'term-freedom-eleutheria': '/images/gal-05.jpg',
+  'term-fruit-of-spirit': '/images/gal-05.jpg',
+  'term-mystery-mysterion': '/images/eph-03.jpg',
+  'term-armor-of-god': '/images/eph-06.jpg',
+  'term-joy-chara': '/images/php-04.jpg',
+  'term-humility-kenosis': '/images/php-02.jpg',
 };
 
 export interface ResolvedEntityAsset {

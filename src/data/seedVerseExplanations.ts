@@ -1915,6 +1915,27 @@ const BOOK_EXPLANATION_TEMPLATES: Record<string, BookExplanationTemplate> = {
     action: (ref) => `Offer comforting encouragement to someone feeling weak or weary today alongside ${ref}.`,
     kid: (s) => `${s} Jesus makes His brightest light shine right through ordinary fragile clay jars like us!`,
   },
+  GAL: {
+    bookName: 'Galatians',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, Christ sets believers free from earning acceptance by rules so the Holy Spirit ripens love, joy, and gentleness from within.`,
+    action: (ref) => `Rest in Christ’s free grace rather than performance pressure today alongside ${ref}.`,
+    kid: (s) => `${s} Because Jesus adopted us as God’s children, His Spirit grows sweet fruit inside our hearts!`,
+  },
+  EPH: {
+    bookName: 'Ephesians',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, God’s lavish grace unites every believer cleanly into Christ’s living temple—strengthened daily in God’s protective armor.`,
+    action: (ref) => `Speak one kind, truthful word today that builds peace inside your community alongside ${ref}.`,
+    kid: (s) => `${s} Jesus knocks down walls between people and dresses His friends in armor made of truth and peace!`,
+  },
+  PHP: {
+    bookName: 'Philippians',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, rejoicing in Jesus guards anxious hearts with unshakeable peace modeled by Christ’s own humble servant path.`,
+    action: (ref) => `Rejoice in one concrete mercy today and lift someone else ahead of yourself alongside ${ref}.`,
+    kid: (s) => `${s} Even in tough spots, Jesus’ joy shines brightly inside hearts that trust Him!`,
+  },
 };
 
 export function getExplanationForVerse(

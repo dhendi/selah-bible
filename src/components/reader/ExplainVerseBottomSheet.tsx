@@ -69,7 +69,7 @@ export const ExplainVerseBottomSheet: React.FC = () => {
       navigateToMapPin('loc-mount-tabor');
     } else if (activeExplainVerseId.startsWith('ACT-')) {
       navigateToMapPin('loc-jerusalem');
-    } else if (/^(ROM|1CO|2CO)-/.test(activeExplainVerseId)) {
+    } else if (/^(ROM|1CO|2CO|GAL|EPH|PHP)-/.test(activeExplainVerseId)) {
       navigateToMapPin('loc-mount-carmel');
     } else {
       navigateToMapPin('loc-eden');
@@ -84,7 +84,7 @@ export const ExplainVerseBottomSheet: React.FC = () => {
       navigateToTimelineEra('era-judges');
     } else if (/^(MAT|MRK|LUK|JHN)-/.test(activeExplainVerseId)) {
       navigateToTimelineEra('era-jesus');
-    } else if (/^(ACT|ROM|1CO|2CO)-/.test(activeExplainVerseId)) {
+    } else if (/^(ACT|ROM|1CO|2CO|GAL|EPH|PHP)-/.test(activeExplainVerseId)) {
       navigateToTimelineEra('era-church');
     } else {
       navigateToTimelineEra('era-creation');

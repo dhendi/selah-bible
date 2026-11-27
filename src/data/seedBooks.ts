@@ -1037,4 +1037,7 @@ export const BUILT_BOOK_START_CHAPTER: Record<string, string> = {
   ROM: 'ROM-1',
   '1CO': '1CO-1',
   '2CO': '2CO-1',
+  GAL: 'GAL-1',
+  EPH: 'EPH-1',
+  PHP: 'PHP-1',
 };
