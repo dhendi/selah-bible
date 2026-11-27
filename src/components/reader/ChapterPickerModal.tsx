@@ -22,6 +22,7 @@ export const ChapterPickerModal: React.FC = () => {
     setCurrentChapterId,
     setShowVisualHookHeader,
     activeTab,
+    setActiveTab,
   } = useStudyStore();
 
   const currentBookId = useMemo(
@@ -84,6 +85,9 @@ export const ChapterPickerModal: React.FC = () => {
   const handleSelect = (chapId: string) => {
     setCurrentChapterId(chapId);
     setShowVisualHookHeader(activeTab !== 'bible');
+    if (activeTab !== 'read' && activeTab !== 'bible') {
+      setActiveTab('read');
+    }
     setShowChapterPicker(false);
   };
 

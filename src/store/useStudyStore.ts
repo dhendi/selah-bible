@@ -555,7 +555,7 @@ class StudyStore {
     this.currentChapterId = chapterId;
     this.highlightedVerseNumber = verseNumber ?? null;
     this.activeTab = 'read';
-    this.showVisualHookHeader = false;
+    this.showVisualHookHeader = true;
     this.saveToStorage(STORAGE_KEYS.CURRENT_CHAPTER, chapterId);
     this.notify();
   }
