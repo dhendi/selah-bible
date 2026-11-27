@@ -25,6 +25,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeremiah",
             "entityId": "char-jeremiah"
+          },
+          {
+            "spanText": "Anathoth",
+            "entityId": "place-anathoth"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -45,6 +57,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Josiah",
             "entityId": "char-josiah"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -69,6 +85,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -259,6 +283,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -293,7 +321,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For, behold, I have made you today a fortified city, an iron pillar, and bronze walls against the whole land, against the kings of Judah, against its princes, against its priests, and against the people of the land.",
         "translation": "WEB",
         "illustrationId": "ill-jer-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JER-1:19",
@@ -373,6 +410,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -389,6 +430,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -452,6 +501,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -529,7 +586,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Is Israel a slave? Is he born into slavery? Why has he become a captive?",
         "translation": "WEB",
         "illustrationId": "ill-jer-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JER-2:15",
@@ -582,6 +644,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -681,7 +747,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "As the thief is ashamed when he is found, so the house of Israel is ashamed: they, their kings, their princes, their priests, and their prophets,",
         "translation": "WEB",
         "illustrationId": "ill-jer-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JER-2:27",
@@ -703,7 +778,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“But where are your gods that you have made for yourselves? Let them arise, if they can save you in the time of your trouble; for you have as many gods as you have towns, O Judah.",
         "translation": "WEB",
         "illustrationId": "ill-jer-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JER-2:29",
@@ -745,6 +825,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -805,6 +889,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -914,6 +1002,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Josiah",
             "entityId": "char-josiah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -926,7 +1018,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I said after she had done all these things, ‘She will return to me;’ but she didn’t return, and her treacherous sister Judah saw it.",
         "translation": "WEB",
         "illustrationId": "ill-jer-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JER-3:8",
@@ -937,7 +1034,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I saw when, for this very cause, that backsliding Israel had committed adultery, I had put her away and given her a certificate of divorce, yet treacherous Judah, her sister, had no fear; but she also went and played the prostitute.",
         "translation": "WEB",
         "illustrationId": "ill-jer-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JER-3:9",
@@ -963,6 +1069,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -979,6 +1089,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -995,6 +1113,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1058,6 +1180,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           }
         ]
       },
@@ -1090,7 +1216,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "In those days the house of Judah will walk with the house of Israel, and they will come together out of the land of the north to the land that I gave for an inheritance to your fathers.",
         "translation": "WEB",
         "illustrationId": "ill-jer-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JER-3:19",
@@ -1116,6 +1251,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1132,6 +1271,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1164,6 +1307,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1220,6 +1367,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1236,6 +1387,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
           }
         ]
       },
@@ -1256,6 +1415,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -1276,6 +1439,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -1292,6 +1459,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -1351,6 +1522,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1437,7 +1612,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For a voice declares from Dan, and publishes evil from the hills of Ephraim:",
         "translation": "WEB",
         "illustrationId": "ill-jer-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "JER-4:16",
@@ -1452,6 +1632,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -1714,6 +1898,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -1730,6 +1918,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -1811,6 +2003,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -1870,6 +2070,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1936,7 +2140,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Declare this in the house of Jacob, and publish it in Judah, saying,",
         "translation": "WEB",
         "illustrationId": "ill-jer-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "JER-5:21",
@@ -2072,7 +2285,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The prophets prophesy falsely, and the priests rule by their own authority; and my people love to have it so. What will you do in the end of it?",
         "translation": "WEB",
         "illustrationId": "ill-jer-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       }
     ]
   },
@@ -2100,6 +2318,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -2212,6 +2434,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2272,7 +2502,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“For from their least even to their greatest, everyone is given to covetousness. From the prophet even to the priest, everyone deals falsely.",
         "translation": "WEB",
         "illustrationId": "ill-jer-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JER-6:14",
@@ -2348,7 +2583,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Hear, earth! Behold, I will bring evil on this people, even the fruit of their thoughts, because they have not listened to my words; and as for my law, they have rejected it.",
         "translation": "WEB",
         "illustrationId": "ill-jer-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "JER-6:20",
@@ -2537,6 +2777,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -2553,6 +2797,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2569,6 +2817,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
           }
         ]
       },
@@ -2581,7 +2833,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For if you thoroughly amend your ways and your doings, if you thoroughly execute justice between a man and his neighbor;",
         "translation": "WEB",
         "illustrationId": "ill-jer-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          }
+        ]
       },
       {
         "id": "JER-7:6",
@@ -2663,7 +2920,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“But go now to my place which was in Shiloh, where I caused my name to dwell at the first, and see what I did to it for the wickedness of my people Israel.",
         "translation": "WEB",
         "illustrationId": "ill-jer-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Shiloh",
+            "entityId": "place-shiloh"
+          }
+        ]
       },
       {
         "id": "JER-7:13",
@@ -2690,7 +2956,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "therefore I will do to the house which is called by my name, in which you trust, and to the place which I gave to you and to your fathers, as I did to Shiloh.",
         "translation": "WEB",
         "illustrationId": "ill-jer-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Shiloh",
+            "entityId": "place-shiloh"
+          }
+        ]
       },
       {
         "id": "JER-7:15",
@@ -2701,7 +2972,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will cast you out of my sight, as I have cast out all your brothers, even the whole offspring of Ephraim.",
         "translation": "WEB",
         "illustrationId": "ill-jer-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "JER-7:16",
@@ -2712,7 +2988,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Therefore don’t pray for this people. Don’t lift up a cry or prayer for them or make intercession to me; for I will not hear you.",
         "translation": "WEB",
         "illustrationId": "ill-jer-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          }
+        ]
       },
       {
         "id": "JER-7:17",
@@ -2727,6 +3008,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -2786,6 +3071,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2910,6 +3199,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -2964,6 +3257,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       }
@@ -2997,6 +3294,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -3083,6 +3388,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -3099,6 +3408,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -3127,7 +3440,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore I will give their wives to others and their fields to those who will possess them. For everyone from the least even to the greatest is given to covetousness; from the prophet even to the priest everyone deals falsely.",
         "translation": "WEB",
         "illustrationId": "ill-jer-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JER-8:11",
@@ -3288,7 +3606,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Is there no balm in Gilead? Is there no physician there? Why then isn’t the health of the daughter of my people recovered?",
         "translation": "WEB",
         "illustrationId": "ill-jer-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       }
     ]
   },
@@ -3446,6 +3769,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -3478,6 +3805,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -3505,6 +3836,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3634,6 +3969,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "loving kindness",
+            "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
           }
         ]
       },
@@ -3666,6 +4013,26 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       }
@@ -3695,6 +4062,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3880,6 +4251,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -3957,7 +4336,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The voice of news, behold, it comes, and a great commotion out of the north country, to make the cities of Judah a desolation, a dwelling place of jackals.",
         "translation": "WEB",
         "illustrationId": "ill-jer-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JER-10:23",
@@ -4000,7 +4384,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Pour out your wrath on the nations that don’t know you, and on the families that don’t call on your name; for they have devoured Jacob. Yes, they have devoured him, consumed him, and have laid waste his habitation.",
         "translation": "WEB",
         "illustrationId": "ill-jer-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       }
     ]
   },
@@ -4048,6 +4437,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -4064,6 +4461,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4116,6 +4521,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -4144,7 +4557,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yet they didn’t obey, nor turn their ear, but everyone walked in the stubbornness of their evil heart. Therefore I brought on them all the words of this covenant, which I commanded them to do, but they didn’t do them.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-jer-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "JER-11:9",
@@ -4163,6 +4581,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -4175,7 +4597,20 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "They have turned back to the iniquities of their forefathers, who refused to hear my words. They have gone after other gods to serve them. The house of Israel and the house of Judah have broken my covenant which I made with their fathers.",
         "translation": "WEB",
         "illustrationId": "ill-jer-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JER-11:11",
@@ -4206,6 +4641,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -4222,6 +4661,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -4234,7 +4677,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Therefore don’t pray for this people. Don’t lift up cry or prayer for them; for I will not hear them in the time that they cry to me because of their trouble.",
         "translation": "WEB",
         "illustrationId": "ill-jer-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          }
+        ]
       },
       {
         "id": "JER-11:15",
@@ -4276,6 +4724,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -4335,6 +4791,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Anathoth",
+            "entityId": "place-anathoth"
           }
         ]
       },
@@ -4363,7 +4823,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "There will be no remnant to them, for I will bring evil on the men of Anathoth, even the year of their visitation.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-jer-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Anathoth",
+            "entityId": "place-anathoth"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          }
+        ]
       }
     ]
   },
@@ -4496,7 +4965,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Many shepherds have destroyed my vineyard. They have trodden my portion under foot. They have made my pleasant portion a desolate wilderness.",
         "translation": "WEB",
         "illustrationId": "ill-jer-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "vineyard",
+            "entityId": "term-vineyard"
+          }
+        ]
       },
       {
         "id": "JER-12:11",
@@ -4554,6 +5028,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -4748,6 +5230,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -4775,6 +5261,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -4791,6 +5285,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4815,6 +5313,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -4902,7 +5404,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The cities of the South are shut up, and there is no one to open them. Judah is carried away captive: all of them. They are wholly carried away captive.",
         "translation": "WEB",
         "illustrationId": "ill-jer-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JER-13:20",
@@ -5048,6 +5555,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -5120,7 +5631,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "You hope of Israel, its Savior in the time of trouble, why should you be as a foreigner in the land, and as a wayfaring man who turns aside to stay for a night?",
         "translation": "WEB",
         "illustrationId": "ill-jer-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JER-14:9",
@@ -5179,7 +5695,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "When they fast, I will not hear their cry; and when they offer burnt offering and meal offering, I will not accept them; but I will consume them by the sword, by famine, and by pestilence.”",
         "translation": "WEB",
         "illustrationId": "ill-jer-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "JER-14:13",
@@ -5265,7 +5786,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "If I go out into the field, then, behold, the slain with the sword! If I enter into the city, then, behold, those who are sick with famine! For both the prophet and the priest go about in the land, and have no knowledge.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-jer-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JER-14:19",
@@ -5280,6 +5806,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -5308,7 +5838,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Do not abhor us, for your name’s sake. Do not disgrace the throne of your glory. Remember, and don’t break your covenant with us.",
         "translation": "WEB",
         "illustrationId": "ill-jer-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "JER-14:22",
@@ -5352,6 +5887,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Samuel",
+            "entityId": "char-samuel"
+          },
+          {
+            "spanText": "Moses",
+            "entityId": "char-moses"
           }
         ]
       },
@@ -5400,6 +5943,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Hezekiah",
+            "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -5710,6 +6265,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "loving kindness",
+            "entityId": "term-loyal-love"
           }
         ]
       },
@@ -5759,6 +6318,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5791,6 +6354,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -5833,6 +6400,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5849,6 +6420,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5955,7 +6530,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“The sin of Judah is written with a pen of iron, and with the point of a diamond. It is engraved on the tablet of their heart, and on the horns of your altars.",
         "translation": "WEB",
         "illustrationId": "ill-jer-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JER-17:2",
@@ -6106,6 +6686,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6191,6 +6775,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -6211,6 +6799,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -6231,6 +6823,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
           }
         ]
       },
@@ -6243,7 +6839,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t carry a burden out of your houses on the Sabbath day. Don’t do any work, but make the Sabbath day holy, as I commanded your fathers.",
         "translation": "WEB",
         "illustrationId": "ill-jer-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
+          }
+        ]
       },
       {
         "id": "JER-17:23",
@@ -6269,6 +6870,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
           }
         ]
       },
@@ -6289,6 +6894,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -6309,6 +6918,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -6325,6 +6942,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
           }
         ]
       }
@@ -6370,7 +6991,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Arise, and go down to the potter’s house, and there I will cause you to hear my words.”",
         "translation": "WEB",
         "illustrationId": "ill-jer-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "potter",
+            "entityId": "term-potter-clay"
+          }
+        ]
       },
       {
         "id": "JER-18:3",
@@ -6381,7 +7007,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then I went down to the potter’s house, and behold, he was making something on the wheels.",
         "translation": "WEB",
         "illustrationId": "ill-jer-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "potter",
+            "entityId": "term-potter-clay"
+          }
+        ]
       },
       {
         "id": "JER-18:4",
@@ -6392,7 +7023,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the vessel that he made of the clay was marred in the hand of the potter, he made it again another vessel, as seemed good to the potter to make it.",
         "translation": "WEB",
         "illustrationId": "ill-jer-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "potter",
+            "entityId": "term-potter-clay"
+          },
+          {
+            "spanText": "clay",
+            "entityId": "term-potter-clay"
+          }
+        ]
       },
       {
         "id": "JER-18:5",
@@ -6423,6 +7063,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "potter",
+            "entityId": "term-potter-clay"
+          },
+          {
+            "spanText": "clay",
+            "entityId": "term-potter-clay"
           }
         ]
       },
@@ -6487,6 +7139,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -6514,6 +7170,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6526,7 +7186,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Will the snow of Lebanon fail from the rock of the field? Will the cold waters that flow down from afar be dried up?",
         "translation": "WEB",
         "illustrationId": "ill-jer-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          }
+        ]
       },
       {
         "id": "JER-18:15",
@@ -6574,6 +7239,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeremiah",
             "entityId": "char-jeremiah"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -6668,6 +7341,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "potter",
+            "entityId": "term-potter-clay"
           }
         ]
       },
@@ -6699,6 +7380,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -6711,7 +7400,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Because they have forsaken me, and have defiled this place, and have burned incense in it to other gods that they didn’t know, they, their fathers, and the kings of Judah, and have filled this place with the blood of innocents,",
         "translation": "WEB",
         "illustrationId": "ill-jer-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JER-19:5",
@@ -6753,6 +7447,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -6802,6 +7500,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "potter",
+            "entityId": "term-potter-clay"
           }
         ]
       },
@@ -6834,6 +7536,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -6870,6 +7576,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -6903,6 +7613,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeremiah",
             "entityId": "char-jeremiah"
+          },
+          {
+            "spanText": "Pashhur",
+            "entityId": "char-pashhur"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -6923,6 +7641,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeremiah",
             "entityId": "char-jeremiah"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Pashhur",
+            "entityId": "char-pashhur"
           }
         ]
       },
@@ -6943,6 +7669,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeremiah",
             "entityId": "char-jeremiah"
+          },
+          {
+            "spanText": "Pashhur",
+            "entityId": "char-pashhur"
           }
         ]
       },
@@ -6963,6 +7693,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -6979,6 +7713,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -6995,6 +7733,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Pashhur",
+            "entityId": "char-pashhur"
           }
         ]
       },
@@ -7194,6 +7936,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zedekiah",
             "entityId": "char-zedekiah"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -7258,6 +8004,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7308,6 +8062,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -7336,7 +8094,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "He who remains in this city will die by the sword, by the famine, and by the pestilence; but he who goes out and passes over to the Chaldeans who besiege you, he will live, and he will escape with his life.",
         "translation": "WEB",
         "illustrationId": "ill-jer-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "JER-21:10",
@@ -7371,6 +8134,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -7391,6 +8158,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
           }
         ]
       },
@@ -7452,6 +8223,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -7472,6 +8247,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -7488,6 +8267,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
           }
         ]
       },
@@ -7536,6 +8323,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -7579,6 +8378,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           }
         ]
       },
@@ -7610,6 +8413,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Josiah",
             "entityId": "char-josiah"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -7655,7 +8462,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Should you reign, because you strive to excel in cedar? Didn’t your father eat and drink, and do justice and righteousness? Then it was well with him.",
         "translation": "WEB",
         "illustrationId": "ill-jer-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          }
+        ]
       },
       {
         "id": "JER-22:16",
@@ -7701,6 +8517,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Josiah",
             "entityId": "char-josiah"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -7729,7 +8553,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Go up to Lebanon, and cry. Lift up your voice in Bashan, and cry from Abarim; for all your lovers have been destroyed.",
         "translation": "WEB",
         "illustrationId": "ill-jer-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          }
+        ]
       },
       {
         "id": "JER-22:21",
@@ -7762,7 +8591,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Inhabitant of Lebanon, who makes your nest in the cedars, how greatly to be pitied you will be when pangs come on you, the pain as of a woman in travail!",
         "translation": "WEB",
         "illustrationId": "ill-jer-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          }
+        ]
       },
       {
         "id": "JER-22:24",
@@ -7777,6 +8611,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Coniah",
+            "entityId": "char-jehoiachin"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -7797,6 +8643,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -7831,7 +8681,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Is this man Coniah a despised broken vessel? Is he a vessel in which no one delights? Why are they cast out, he and his offspring, and cast into a land which they don’t know?",
         "translation": "WEB",
         "illustrationId": "ill-jer-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Coniah",
+            "entityId": "char-jehoiachin"
+          }
+        ]
       },
       {
         "id": "JER-22:29",
@@ -7866,6 +8721,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       }
@@ -7911,6 +8770,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7923,7 +8786,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“I will gather the remnant of my flock out of all the countries where I have driven them, and will bring them again to their folds; and they will be fruitful and multiply.",
         "translation": "WEB",
         "illustrationId": "ill-jer-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          }
+        ]
       },
       {
         "id": "JER-23:4",
@@ -7958,6 +8826,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
           }
         ]
       },
@@ -7974,6 +8850,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -7994,6 +8882,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8010,6 +8902,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8053,6 +8949,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -8081,7 +8981,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“I have seen folly in the prophets of Samaria. They prophesied by Baal, and caused my people Israel to err.",
         "translation": "WEB",
         "illustrationId": "ill-jer-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JER-23:14",
@@ -8096,6 +9001,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Gomorrah",
+            "entityId": "place-gomorrah"
+          },
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
           }
         ]
       },
@@ -8379,6 +9292,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -8395,6 +9312,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -8522,6 +9443,22 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Jeconiah",
+            "entityId": "char-jehoiachin"
+          },
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -8585,6 +9522,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -8640,6 +9589,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -8703,6 +9660,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -8723,6 +9688,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -8743,6 +9712,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Josiah",
             "entityId": "char-josiah"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -8889,6 +9862,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -8932,6 +9909,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8975,6 +9956,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -8991,6 +9976,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -9003,7 +9992,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "and all the mixed people, and all the kings of the land of Uz, all the kings of the Philistines, Ashkelon, Gaza, Ekron, and the remnant of Ashdod;",
         "translation": "WEB",
         "illustrationId": "ill-jer-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          }
+        ]
       },
       {
         "id": "JER-25:21",
@@ -9014,7 +10012,20 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Edom, Moab, and the children of Ammon;",
         "translation": "WEB",
         "illustrationId": "ill-jer-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "JER-25:22",
@@ -9025,7 +10036,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "and all the kings of Tyre, all the kings of Sidon, and the kings of the isle which is beyond the sea;",
         "translation": "WEB",
         "illustrationId": "ill-jer-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
+          }
+        ]
       },
       {
         "id": "JER-25:23",
@@ -9084,6 +10100,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9278,6 +10298,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Josiah",
             "entityId": "char-josiah"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -9294,6 +10322,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -9321,6 +10353,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -9344,7 +10380,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "then I will make this house like Shiloh, and will make this city a curse to all the nations of the earth.” ’ ”",
         "translation": "WEB",
         "illustrationId": "ill-jer-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Shiloh",
+            "entityId": "place-shiloh"
+          }
+        ]
       },
       {
         "id": "JER-26:7",
@@ -9363,6 +10404,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeremiah",
             "entityId": "char-jeremiah"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9383,6 +10428,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeremiah",
             "entityId": "char-jeremiah"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9403,6 +10452,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeremiah",
             "entityId": "char-jeremiah"
+          },
+          {
+            "spanText": "Shiloh",
+            "entityId": "place-shiloh"
           }
         ]
       },
@@ -9419,6 +10472,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -9431,7 +10488,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the priests and the prophets spoke to the princes and to all the people, saying, “This man is worthy of death; for he has prophesied against this city, as you have heard with your ears.”",
         "translation": "WEB",
         "illustrationId": "ill-jer-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JER-26:12",
@@ -9509,6 +10571,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9544,6 +10610,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "Hezekiah",
+            "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -9560,6 +10634,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Hezekiah",
+            "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -9596,6 +10678,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
           }
         ]
       },
@@ -9612,6 +10698,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
           }
         ]
       },
@@ -9628,6 +10718,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
           }
         ]
       },
@@ -9681,6 +10775,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Josiah",
             "entityId": "char-josiah"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -9717,6 +10819,26 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          },
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
           }
         ]
       },
@@ -9733,6 +10855,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9866,6 +10992,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -9938,6 +11068,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9978,6 +11112,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -10018,6 +11156,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Jeconiah",
+            "entityId": "char-jehoiachin"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -10038,6 +11188,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -10091,6 +11249,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zedekiah",
             "entityId": "char-zedekiah"
+          },
+          {
+            "spanText": "Hananiah",
+            "entityId": "char-hananiah-prophet"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -10111,6 +11281,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10155,6 +11329,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Jeconiah",
+            "entityId": "char-jehoiachin"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -10175,6 +11361,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeremiah",
             "entityId": "char-jeremiah"
+          },
+          {
+            "spanText": "Hananiah",
+            "entityId": "char-hananiah-prophet"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10253,6 +11447,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeremiah",
             "entityId": "char-jeremiah"
+          },
+          {
+            "spanText": "Hananiah",
+            "entityId": "char-hananiah-prophet"
           }
         ]
       },
@@ -10281,6 +11479,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Hananiah",
+            "entityId": "char-hananiah-prophet"
           }
         ]
       },
@@ -10301,6 +11503,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeremiah",
             "entityId": "char-jeremiah"
+          },
+          {
+            "spanText": "Hananiah",
+            "entityId": "char-hananiah-prophet"
           }
         ]
       },
@@ -10317,6 +11523,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Hananiah",
+            "entityId": "char-hananiah-prophet"
           }
         ]
       },
@@ -10341,6 +11551,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10361,6 +11575,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeremiah",
             "entityId": "char-jeremiah"
+          },
+          {
+            "spanText": "Hananiah",
+            "entityId": "char-hananiah-prophet"
           }
         ]
       },
@@ -10389,7 +11607,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "So Hananiah the prophet died the same year in the seventh month.",
         "translation": "WEB",
         "illustrationId": "ill-jer-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hananiah",
+            "entityId": "char-hananiah-prophet"
+          }
+        ]
       }
     ]
   },
@@ -10429,6 +11652,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10445,6 +11672,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Jeconiah",
+            "entityId": "char-jehoiachin"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -10469,6 +11704,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -10493,6 +11732,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10547,6 +11790,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10772,6 +12019,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10796,6 +12047,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -10812,6 +12067,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10843,6 +12102,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10859,6 +12130,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -10875,6 +12150,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeremiah",
             "entityId": "char-jeremiah"
+          },
+          {
+            "spanText": "Anathoth",
+            "entityId": "place-anathoth"
           }
         ]
       },
@@ -10907,6 +12186,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeremiah",
             "entityId": "char-jeremiah"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -11008,6 +12291,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11024,6 +12311,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -11040,6 +12335,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -11079,7 +12382,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Alas! for that day is great, so that none is like it. It is even the time of Jacob’s trouble; but he will be saved out of it.",
         "translation": "WEB",
         "illustrationId": "ill-jer-30",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "JER-30:8",
@@ -11130,6 +12438,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -11242,6 +12558,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -11352,6 +12672,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11368,6 +12692,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11384,6 +12712,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "loving kindness",
+            "entityId": "term-loyal-love"
           }
         ]
       },
@@ -11396,7 +12728,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will build you again, and you will be built, O virgin of Israel. You will again be adorned with your tambourines, and will go out in the dances of those who make merry.",
         "translation": "WEB",
         "illustrationId": "ill-jer-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JER-31:5",
@@ -11407,7 +12744,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Again you will plant vineyards on the mountains of Samaria. The planters will plant, and will enjoy its fruit.",
         "translation": "WEB",
         "illustrationId": "ill-jer-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "vineyards",
+            "entityId": "term-vineyard"
+          }
+        ]
       },
       {
         "id": "JER-31:6",
@@ -11426,6 +12768,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
           }
         ]
       },
@@ -11442,6 +12788,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -11465,7 +12823,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "They will come with weeping. I will lead them with petitions. I will cause them to walk by rivers of waters, in a straight way in which they won’t stumble; for I am a father to Israel. Ephraim is my firstborn.",
         "translation": "WEB",
         "illustrationId": "ill-jer-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JER-31:10",
@@ -11480,6 +12847,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11496,6 +12867,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -11543,6 +12918,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -11559,6 +12938,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Rachel",
+            "entityId": "char-rachel"
           }
         ]
       },
@@ -11607,6 +12990,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
           }
         ]
       },
@@ -11634,6 +13021,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
           }
         ]
       },
@@ -11646,7 +13037,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Set up road signs. Make guideposts. Set your heart toward the highway, even the way by which you went. Turn again, virgin of Israel. Turn again to these your cities.",
         "translation": "WEB",
         "illustrationId": "ill-jer-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JER-31:22",
@@ -11677,6 +13073,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -11689,7 +13097,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Judah and all its cities will dwell therein together, the farmers, and those who go about with flocks.",
         "translation": "WEB",
         "illustrationId": "ill-jer-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JER-31:25",
@@ -11726,6 +13139,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -11784,6 +13205,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -11804,6 +13233,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           }
         ]
       },
@@ -11820,6 +13253,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -11868,6 +13313,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11884,6 +13333,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11968,6 +13421,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Nebuchadnezzar",
             "entityId": "char-nebuchadnezzar"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -11992,6 +13449,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -12016,6 +13477,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -12036,6 +13501,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -12060,6 +13533,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -12092,7 +13569,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "‘Behold, Hanamel the son of Shallum your uncle will come to you, saying, “Buy my field that is in Anathoth; for the right of redemption is yours to buy it.” ’ ”",
         "translation": "WEB",
         "illustrationId": "ill-jer-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Anathoth",
+            "entityId": "place-anathoth"
+          }
+        ]
       },
       {
         "id": "JER-32:8",
@@ -12107,6 +13589,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Anathoth",
+            "entityId": "place-anathoth"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -12119,7 +13609,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I bought the field that was in Anathoth of Hanamel my uncle’s son, and weighed him the money, even seventeen shekels of silver.",
         "translation": "WEB",
         "illustrationId": "ill-jer-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Anathoth",
+            "entityId": "place-anathoth"
+          }
+        ]
       },
       {
         "id": "JER-32:10",
@@ -12156,6 +13651,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Baruch",
             "entityId": "char-baruch"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -12188,6 +13687,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12204,6 +13707,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "vineyards",
+            "entityId": "term-vineyard"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12256,6 +13767,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "loving kindness",
+            "entityId": "term-loyal-love"
           }
         ]
       },
@@ -12283,6 +13798,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12299,6 +13818,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12322,7 +13845,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "They came in and possessed it, but they didn’t obey your voice and didn’t walk in your law. They have done nothing of all that you commanded them to do. Therefore you have caused all this evil to come upon them.",
         "translation": "WEB",
         "illustrationId": "ill-jer-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "JER-32:24",
@@ -12333,7 +13861,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Behold, siege ramps have come to the city to take it. The city is given into the hand of the Chaldeans who fight against it, because of the sword, of the famine, and of the pestilence. What you have spoken has happened. Behold, you see it.",
         "translation": "WEB",
         "illustrationId": "ill-jer-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "JER-32:25",
@@ -12348,6 +13881,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -12408,6 +13945,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -12420,7 +13961,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Chaldeans, who fight against this city, will come and set this city on fire, and burn it with the houses on whose roofs they have offered incense to Baal, and poured out drink offerings to other gods, to provoke me to anger.",
         "translation": "WEB",
         "illustrationId": "ill-jer-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "JER-32:30",
@@ -12435,6 +13981,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -12462,6 +14016,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -12496,7 +14062,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "They built the high places of Baal, which are in the valley of the son of Hinnom, to cause their sons and their daughters to pass through fire to Molech, which I didn’t command them. It didn’t even come into my mind, that they should do this abomination, to cause Judah to sin.”",
         "translation": "WEB",
         "illustrationId": "ill-jer-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JER-32:36",
@@ -12515,6 +14086,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12560,7 +14135,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will make an everlasting covenant with them, that I will not turn away from following them, to do them good. I will put my fear in their hearts, that they may not depart from me.",
         "translation": "WEB",
         "illustrationId": "ill-jer-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "JER-32:41",
@@ -12598,7 +14178,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Fields will be bought in this land, about which you say, ‘It is desolate, without man or animal. It is given into the hand of the Chaldeans.’",
         "translation": "WEB",
         "illustrationId": "ill-jer-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "JER-32:44",
@@ -12617,6 +14202,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       }
@@ -12693,6 +14286,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -12705,7 +14306,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "while men come to fight with the Chaldeans, and to fill them with the dead bodies of men, whom I have killed in my anger and in my wrath, and for all whose wickedness I have hidden my face from this city:",
         "translation": "WEB",
         "illustrationId": "ill-jer-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "JER-33:6",
@@ -12727,7 +14333,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will cause the captivity of Judah and the captivity of Israel to return, and will build them, as at the first.",
         "translation": "WEB",
         "illustrationId": "ill-jer-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JER-33:8",
@@ -12768,6 +14383,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -12784,6 +14403,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "loving kindness",
+            "entityId": "term-loyal-love"
           }
         ]
       },
@@ -12820,6 +14443,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -12836,6 +14467,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -12852,6 +14491,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
           }
         ]
       },
@@ -12872,6 +14519,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -12892,6 +14547,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12904,7 +14563,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Levitical priests won’t lack a man before me to offer burnt offerings, to burn meal offerings, and to do sacrifice continually.”",
         "translation": "WEB",
         "illustrationId": "ill-jer-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JER-33:19",
@@ -12939,6 +14603,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           }
         ]
       },
@@ -12955,6 +14623,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -13023,6 +14699,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           }
         ]
       },
@@ -13039,6 +14719,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Isaac",
+            "entityId": "char-isaac"
           }
         ]
       }
@@ -13108,6 +14800,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -13144,6 +14844,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zedekiah",
             "entityId": "char-zedekiah"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -13184,6 +14888,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -13204,6 +14912,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -13232,6 +14944,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           }
         ]
       },
@@ -13255,7 +14971,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the princes and all the people obeyed who had entered into the covenant, that everyone should let his male servant, and everyone his female servant go free, that no one should make bondservants of them any more. They obeyed and let them go;",
         "translation": "WEB",
         "illustrationId": "ill-jer-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "JER-34:11",
@@ -13305,6 +15026,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13328,7 +15057,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "You had now turned, and had done that which is right in my eyes, in every man proclaiming liberty to his neighbor. You had made a covenant before me in the house which is called by my name;",
         "translation": "WEB",
         "illustrationId": "ill-jer-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "JER-34:16",
@@ -13366,7 +15100,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will give the men who have transgressed my covenant, who have not performed the words of the covenant which they made before me, when they cut the calf in two and passed between its parts:",
         "translation": "WEB",
         "illustrationId": "ill-jer-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "JER-34:19",
@@ -13381,6 +15120,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -13412,6 +15159,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -13428,6 +15179,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       }
@@ -13465,6 +15220,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Josiah",
             "entityId": "char-josiah"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -13547,7 +15310,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall not build a house, sow seed, plant a vineyard, or have any; but all your days you shall dwell in tents, that you may live many days in the land in which you live as nomads.’",
         "translation": "WEB",
         "illustrationId": "ill-jer-35",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "vineyard",
+            "entityId": "term-vineyard"
+          }
+        ]
       },
       {
         "id": "JER-35:8",
@@ -13569,7 +15337,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "and not to build houses for ourselves to dwell in. We have no vineyard, field, or seed;",
         "translation": "WEB",
         "illustrationId": "ill-jer-35",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "vineyard",
+            "entityId": "term-vineyard"
+          }
+        ]
       },
       {
         "id": "JER-35:10",
@@ -13603,6 +15376,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -13643,6 +15420,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -13696,6 +15481,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -13716,6 +15509,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeremiah",
             "entityId": "char-jeremiah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13732,6 +15529,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -13769,6 +15570,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Josiah",
             "entityId": "char-josiah"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -13785,6 +15594,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Josiah",
             "entityId": "char-josiah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -13797,7 +15614,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "It may be that the house of Judah will hear all the evil which I intend to do to them; that they may each return from his evil way; that I may forgive their iniquity and their sin.”",
         "translation": "WEB",
         "illustrationId": "ill-jer-36",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JER-36:4",
@@ -13860,6 +15682,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -13924,6 +15750,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -14222,7 +16056,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Take again another scroll, and write in it all the former words that were in the first scroll, which Jehoiakim the king of Judah has burned.",
         "translation": "WEB",
         "illustrationId": "ill-jer-36",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JER-36:29",
@@ -14241,6 +16084,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -14261,6 +16112,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -14277,6 +16136,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -14297,6 +16160,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Baruch",
             "entityId": "char-baruch"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       }
@@ -14338,6 +16209,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Coniah",
+            "entityId": "char-jehoiachin"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -14382,6 +16265,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zedekiah",
             "entityId": "char-zedekiah"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -14418,6 +16305,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -14458,6 +16353,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -14470,7 +16377,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Chaldeans will come again, and fight against this city. They will take it and burn it with fire.” ’",
         "translation": "WEB",
         "illustrationId": "ill-jer-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "JER-37:9",
@@ -14485,6 +16397,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -14497,7 +16413,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For though you had struck the whole army of the Chaldeans who fight against you, and only wounded men remained among them, they would each rise up in his tent and burn this city with fire.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-jer-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "JER-37:11",
@@ -14512,6 +16433,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -14532,6 +16461,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -14548,6 +16481,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeremiah",
             "entityId": "char-jeremiah"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -14564,6 +16505,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeremiah",
             "entityId": "char-jeremiah"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -14736,6 +16681,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -14819,6 +16768,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ebedmelech",
             "entityId": "char-ebed-melech"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -15023,6 +16976,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15039,6 +16996,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -15059,6 +17020,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zedekiah",
             "entityId": "char-zedekiah"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -15111,6 +17080,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -15127,6 +17100,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -15246,6 +17223,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -15294,6 +17275,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zedekiah",
             "entityId": "char-zedekiah"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -15318,6 +17303,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -15338,6 +17327,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -15374,6 +17367,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -15390,6 +17387,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Nebuzaradan",
+            "entityId": "char-nebuzaradan"
           }
         ]
       },
@@ -15402,7 +17403,20 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "But Nebuzaradan the captain of the guard left of the poor of the people, who had nothing, in the land of Judah, and gave them vineyards and fields at the same time.",
         "translation": "WEB",
         "illustrationId": "ill-jer-39",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Nebuzaradan",
+            "entityId": "char-nebuzaradan"
+          },
+          {
+            "spanText": "vineyards",
+            "entityId": "term-vineyard"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JER-39:11",
@@ -15425,6 +17439,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Nebuzaradan",
+            "entityId": "char-nebuzaradan"
           }
         ]
       },
@@ -15452,6 +17470,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Nebuzaradan",
+            "entityId": "char-nebuzaradan"
           }
         ]
       },
@@ -15468,6 +17490,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeremiah",
             "entityId": "char-jeremiah"
+          },
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
           }
         ]
       },
@@ -15508,6 +17534,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ebedmelech",
             "entityId": "char-ebed-melech"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15581,6 +17611,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Nebuzaradan",
+            "entityId": "char-nebuzaradan"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -15649,6 +17687,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -15665,6 +17711,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeremiah",
             "entityId": "char-jeremiah"
+          },
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
           }
         ]
       },
@@ -15681,6 +17735,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
           }
         ]
       },
@@ -15693,7 +17751,20 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "then Ishmael the son of Nethaniah, and Johanan and Jonathan the sons of Kareah, and Seraiah the son of Tanhumeth, and the sons of Ephai the Netophathite, and Jezaniah the son of the Maacathite, they and their men came to Gedaliah to Mizpah.",
         "translation": "WEB",
         "illustrationId": "ill-jer-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
+          },
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael-nethaniah"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
+          }
+        ]
       },
       {
         "id": "JER-40:9",
@@ -15708,6 +17779,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          },
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
           }
         ]
       },
@@ -15720,7 +17799,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "As for me, behold, I will dwell at Mizpah, to stand before the Chaldeans who will come to us; but you, gather wine and summer fruits and oil, and put them in your vessels, and dwell in your cities that you have taken.”",
         "translation": "WEB",
         "illustrationId": "ill-jer-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
+          }
+        ]
       },
       {
         "id": "JER-40:11",
@@ -15735,6 +17823,34 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -15747,7 +17863,24 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "then all the Jews returned out of all places where they were driven, and came to the land of Judah, to Gedaliah, to Mizpah, and gathered very much wine and summer fruits.",
         "translation": "WEB",
         "illustrationId": "ill-jer-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "JER-40:13",
@@ -15758,7 +17891,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Moreover Johanan the son of Kareah, and all the captains of the forces who were in the fields, came to Gedaliah to Mizpah,",
         "translation": "WEB",
         "illustrationId": "ill-jer-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
+          }
+        ]
       },
       {
         "id": "JER-40:14",
@@ -15769,7 +17911,20 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "and said to him, “Do you know that Baalis the king of the children of Ammon has sent Ishmael the son of Nethaniah to take your life?” But Gedaliah the son of Ahikam didn’t believe them.",
         "translation": "WEB",
         "illustrationId": "ill-jer-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
+          },
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael-nethaniah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          }
+        ]
       },
       {
         "id": "JER-40:15",
@@ -15780,7 +17935,32 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Johanan the son of Kareah spoke to Gedaliah in Mizpah secretly, saying, “Please let me go, and I will kill Ishmael the son of Nethaniah, and no man will know it. Why should he take your life, that all the Jews who are gathered to you should be scattered, and the remnant of Judah perish?”",
         "translation": "WEB",
         "illustrationId": "ill-jer-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
+          },
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael-nethaniah"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "JER-40:16",
@@ -15791,7 +17971,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "But Gedaliah the son of Ahikam said to Johanan the son of Kareah, “You shall not do this thing; for you speak falsely of Ishmael.”",
         "translation": "WEB",
         "illustrationId": "ill-jer-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
+          },
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael-nethaniah"
+          }
+        ]
       }
     ]
   },
@@ -15815,7 +18004,20 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now in the seventh month, Ishmael the son of Nethaniah, the son of Elishama, of the royal offspring and one of the chief officers of the king, and ten men with him, came to Gedaliah the son of Ahikam to Mizpah; and there they ate bread together in Mizpah.",
         "translation": "WEB",
         "illustrationId": "ill-jer-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
+          },
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael-nethaniah"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
+          }
+        ]
       },
       {
         "id": "JER-41:2",
@@ -15830,6 +18032,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
+          },
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael-nethaniah"
           }
         ]
       },
@@ -15842,7 +18052,28 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Ishmael also killed all the Jews who were with him, with Gedaliah, at Mizpah, and the Chaldeans who were found there, the men of war.",
         "translation": "WEB",
         "illustrationId": "ill-jer-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          },
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
+          },
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael-nethaniah"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "JER-41:4",
@@ -15853,7 +18084,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The second day after he had killed Gedaliah, and no man knew it,",
         "translation": "WEB",
         "illustrationId": "ill-jer-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
+          }
+        ]
       },
       {
         "id": "JER-41:5",
@@ -15868,6 +18104,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Shiloh",
+            "entityId": "place-shiloh"
           }
         ]
       },
@@ -15880,7 +18120,20 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Ishmael the son of Nethaniah went out from Mizpah to meet them, weeping all along as he went: and as he met them, he said to them, “Come to Gedaliah the son of Ahikam.”",
         "translation": "WEB",
         "illustrationId": "ill-jer-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
+          },
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael-nethaniah"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
+          }
+        ]
       },
       {
         "id": "JER-41:7",
@@ -15891,7 +18144,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "It was so, when they came into the middle of the city, that Ishmael the son of Nethaniah killed them, and cast them into the middle of the pit, he, and the men who were with him.",
         "translation": "WEB",
         "illustrationId": "ill-jer-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael-nethaniah"
+          }
+        ]
       },
       {
         "id": "JER-41:8",
@@ -15902,7 +18160,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "But ten men were found among those who said to Ishmael, “Don’t kill us; for we have stores hidden in the field, of wheat, and of barley, and of oil, and of honey.” So he stopped, and didn’t kill them among their brothers.",
         "translation": "WEB",
         "illustrationId": "ill-jer-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael-nethaniah"
+          }
+        ]
       },
       {
         "id": "JER-41:9",
@@ -15913,7 +18176,20 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the pit in which Ishmael cast all the dead bodies of the men whom he had killed, by the side of Gedaliah (this was that which Asa the king had made for fear of Baasha king of Israel), Ishmael the son of Nethaniah filled it with those who were killed.",
         "translation": "WEB",
         "illustrationId": "ill-jer-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
+          },
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael-nethaniah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JER-41:10",
@@ -15924,7 +18200,28 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Ishmael carried away captive all of the people who were left in Mizpah, even the king’s daughters, and all the people who remained in Mizpah, whom Nebuzaradan the captain of the guard had committed to Gedaliah the son of Ahikam. Ishmael the son of Nethaniah carried them away captive, and departed to go over to the children of Ammon.",
         "translation": "WEB",
         "illustrationId": "ill-jer-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Nebuzaradan",
+            "entityId": "char-nebuzaradan"
+          },
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
+          },
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael-nethaniah"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          }
+        ]
       },
       {
         "id": "JER-41:11",
@@ -15935,7 +18232,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "But when Johanan the son of Kareah, and all the captains of the forces who were with him, heard of all the evil that Ishmael the son of Nethaniah had done,",
         "translation": "WEB",
         "illustrationId": "ill-jer-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael-nethaniah"
+          }
+        ]
       },
       {
         "id": "JER-41:12",
@@ -15946,7 +18248,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "then they took all the men, and went to fight with Ishmael the son of Nethaniah, and found him by the great waters that are in Gibeon.",
         "translation": "WEB",
         "illustrationId": "ill-jer-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael-nethaniah"
+          }
+        ]
       },
       {
         "id": "JER-41:13",
@@ -15957,7 +18264,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now when all the people who were with Ishmael saw Johanan the son of Kareah, and all the captains of the forces who were with him, then they were glad.",
         "translation": "WEB",
         "illustrationId": "ill-jer-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael-nethaniah"
+          }
+        ]
       },
       {
         "id": "JER-41:14",
@@ -15968,7 +18280,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "So all the people who Ishmael had carried away captive from Mizpah turned about and came back, and went to Johanan the son of Kareah.",
         "translation": "WEB",
         "illustrationId": "ill-jer-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael-nethaniah"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
+          }
+        ]
       },
       {
         "id": "JER-41:15",
@@ -15979,7 +18300,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "But Ishmael the son of Nethaniah escaped from Johanan with eight men, and went to the children of Ammon.",
         "translation": "WEB",
         "illustrationId": "ill-jer-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael-nethaniah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          }
+        ]
       },
       {
         "id": "JER-41:16",
@@ -15990,7 +18320,24 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Johanan the son of Kareah and all the captains of the forces who were with him took all the remnant of the people whom he had recovered from Ishmael the son of Nethaniah, from Mizpah, after he had killed Gedaliah the son of Ahikam, the men of war, with the women, the children, and the eunuchs, whom he had brought back from Gibeon.",
         "translation": "WEB",
         "illustrationId": "ill-jer-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
+          },
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael-nethaniah"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
+          }
+        ]
       },
       {
         "id": "JER-41:17",
@@ -16021,6 +18368,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          },
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
+          },
+          {
+            "spanText": "Ishmael",
+            "entityId": "char-ishmael-nethaniah"
           }
         ]
       }
@@ -16065,6 +18424,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeremiah",
             "entityId": "char-jeremiah"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
           }
         ]
       },
@@ -16184,6 +18547,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -16278,6 +18645,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -16334,6 +18713,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -16354,6 +18737,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -16474,6 +18865,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -16490,6 +18885,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -16502,7 +18901,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "But Johanan the son of Kareah, and all the captains of the forces, took all the remnant of Judah, who had returned from all the nations where they had been driven, to live in the land of Judah;",
         "translation": "WEB",
         "illustrationId": "ill-jer-43",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JER-43:6",
@@ -16521,6 +18929,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Baruch",
             "entityId": "char-baruch"
+          },
+          {
+            "spanText": "Nebuzaradan",
+            "entityId": "char-nebuzaradan"
+          },
+          {
+            "spanText": "Gedaliah",
+            "entityId": "char-gedaliah"
           }
         ]
       },
@@ -16573,7 +18989,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Take great stones in your hand, and hide them in mortar in the brick work, which is at the entry of Pharaoh’s house in Tahpanhes, in the sight of the men of Judah;",
         "translation": "WEB",
         "illustrationId": "ill-jer-43",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "JER-43:10",
@@ -16596,6 +19021,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -16677,6 +19106,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -16697,6 +19130,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -16746,6 +19187,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -16762,6 +19207,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -16794,6 +19247,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -16806,7 +19263,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "They are not humbled even to this day, neither have they feared, nor walked in my law, nor in my statutes, that I set before you and before your fathers.’",
         "translation": "WEB",
         "illustrationId": "ill-jer-44",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "JER-44:11",
@@ -16821,6 +19283,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -16837,6 +19307,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -16873,6 +19351,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -16925,6 +19411,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -16983,6 +19473,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -17015,6 +19509,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -17039,6 +19537,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -17055,6 +19557,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -17075,6 +19581,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -17091,6 +19601,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -17107,6 +19621,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -17155,6 +19677,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       }
@@ -17192,6 +19722,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Josiah",
             "entityId": "char-josiah"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -17212,6 +19750,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Baruch",
             "entityId": "char-baruch"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -17321,6 +19863,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -17440,6 +19994,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -17542,6 +20100,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -17664,6 +20226,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -17700,7 +20270,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“But don’t you be afraid, Jacob my servant. Don’t be dismayed, Israel; for, behold, I will save you from afar, and your offspring from the land of their captivity. Jacob will return, and will be quiet and at ease. No one will make him afraid.",
         "translation": "WEB",
         "illustrationId": "ill-jer-46",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "JER-46:28",
@@ -17715,6 +20294,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       }
@@ -17748,6 +20331,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeremiah",
             "entityId": "char-jeremiah"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -17791,6 +20382,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
           }
         ]
       },
@@ -17803,7 +20406,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Baldness has come on Gaza; Ashkelon is brought to nothing, the remnant of their valley: how long will you cut yourself?",
         "translation": "WEB",
         "illustrationId": "ill-jer-47",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          }
+        ]
       },
       {
         "id": "JER-47:6",
@@ -17863,6 +20471,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -17875,7 +20491,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The praise of Moab is no more. In Heshbon they have devised evil against her: ‘Come! Let’s cut her off from being a nation.’ You also, Madmen, will be brought to silence. The sword will pursue you.",
         "translation": "WEB",
         "illustrationId": "ill-jer-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JER-48:3",
@@ -17897,7 +20518,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Moab is destroyed. Her little ones have caused a cry to be heard.",
         "translation": "WEB",
         "illustrationId": "ill-jer-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JER-48:5",
@@ -17930,7 +20556,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For, because you have trusted in your works and in your treasures, you also will be taken. Chemosh will go out into captivity, his priests and his princes together.",
         "translation": "WEB",
         "illustrationId": "ill-jer-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JER-48:8",
@@ -17957,7 +20588,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Give wings to Moab, that she may fly and get herself away: and her cities will become a desolation, without anyone to dwell in them.",
         "translation": "WEB",
         "illustrationId": "ill-jer-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JER-48:10",
@@ -17984,7 +20620,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Moab has been at ease from his youth, and he has settled on his lees, and has not been emptied from vessel to vessel, neither has he gone into captivity: therefore his taste remains in him, and his scent is not changed.",
         "translation": "WEB",
         "illustrationId": "ill-jer-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JER-48:12",
@@ -18011,7 +20652,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Moab will be ashamed of Chemosh, as the house of Israel was ashamed of Bethel, their confidence.",
         "translation": "WEB",
         "illustrationId": "ill-jer-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JER-48:14",
@@ -18037,6 +20687,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -18049,7 +20703,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“The calamity of Moab is near to come, and his affliction hurries fast.",
         "translation": "WEB",
         "illustrationId": "ill-jer-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JER-48:17",
@@ -18071,7 +20730,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“You daughter who dwells in Dibon, come down from your glory, and sit in thirst; for the destroyer of Moab has come up against you. He has destroyed your strongholds.",
         "translation": "WEB",
         "illustrationId": "ill-jer-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JER-48:19",
@@ -18093,7 +20757,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Moab is disappointed; for it is broken down. Wail and cry! Tell it by the Arnon, that Moab is laid waste.",
         "translation": "WEB",
         "illustrationId": "ill-jer-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JER-48:21",
@@ -18137,7 +20806,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "on Kerioth, on Bozrah, and on all the cities of the land of Moab, far or near.",
         "translation": "WEB",
         "illustrationId": "ill-jer-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JER-48:25",
@@ -18152,6 +20826,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -18168,6 +20846,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -18180,7 +20862,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For wasn’t Israel a derision to you? Was he found among thieves? For as often as you speak of him, you shake your head.",
         "translation": "WEB",
         "illustrationId": "ill-jer-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "JER-48:28",
@@ -18191,7 +20878,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "You inhabitants of Moab, leave the cities, and dwell in the rock. Be like the dove that makes her nest over the mouth of the abyss.",
         "translation": "WEB",
         "illustrationId": "ill-jer-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JER-48:29",
@@ -18202,7 +20894,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“We have heard of the pride of Moab. He is very proud in his loftiness, his pride, his arrogance, and the arrogance of his heart.",
         "translation": "WEB",
         "illustrationId": "ill-jer-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JER-48:30",
@@ -18229,7 +20926,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore I will wail for Moab. Yes, I will cry out for all Moab. They will mourn for the men of Kir Heres.",
         "translation": "WEB",
         "illustrationId": "ill-jer-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JER-48:32",
@@ -18251,7 +20953,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Gladness and joy is taken away from the fruitful field and from the land of Moab. I have caused wine to cease from the wine presses. No one will tread with shouting. The shouting will be no shouting.",
         "translation": "WEB",
         "illustrationId": "ill-jer-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JER-48:34",
@@ -18277,6 +20984,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -18289,7 +21000,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore my heart sounds for Moab like pipes, and my heart sounds like pipes for the men of Kir Heres. Therefore the abundance that he has gotten has perished.",
         "translation": "WEB",
         "illustrationId": "ill-jer-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JER-48:37",
@@ -18315,6 +21031,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -18327,7 +21047,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“How it is broken down! How they wail! How Moab has turned the back with shame! So will Moab become a derision and a terror to all who are around him.”",
         "translation": "WEB",
         "illustrationId": "ill-jer-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JER-48:40",
@@ -18342,6 +21067,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -18354,7 +21083,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Kerioth is taken, and the strongholds are seized. The heart of the mighty men of Moab at that day will be as the heart of a woman in her pangs.",
         "translation": "WEB",
         "illustrationId": "ill-jer-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JER-48:42",
@@ -18369,6 +21103,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -18385,6 +21123,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -18401,6 +21143,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -18413,7 +21159,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Those who fled stand without strength under the shadow of Heshbon; for a fire has gone out of Heshbon, and a flame from the middle of Sihon, and has devoured the corner of Moab, and the crown of the head of the tumultuous ones.",
         "translation": "WEB",
         "illustrationId": "ill-jer-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JER-48:46",
@@ -18424,7 +21175,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Woe to you, O Moab! The people of Chemosh are undone; for your sons are taken away captive, and your daughters into captivity.",
         "translation": "WEB",
         "illustrationId": "ill-jer-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "JER-48:47",
@@ -18439,6 +21195,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       }
@@ -18468,6 +21228,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -18484,6 +21252,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -18496,7 +21272,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Wail, Heshbon, for Ai is laid waste! Cry, you daughters of Rabbah! Clothe yourself in sackcloth. Lament, and run back and forth among the fences; for Malcam will go into captivity, his priests and his princes together.",
         "translation": "WEB",
         "illustrationId": "ill-jer-49",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JER-49:4",
@@ -18538,6 +21319,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -18554,6 +21339,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -18685,7 +21474,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Edom will become an astonishment. Everyone who passes by it will be astonished, and will hiss at all its plagues.",
         "translation": "WEB",
         "illustrationId": "ill-jer-49",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "JER-49:18",
@@ -18700,6 +21494,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Gomorrah",
+            "entityId": "place-gomorrah"
+          },
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
           }
         ]
       },
@@ -18727,6 +21529,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -18750,7 +21556,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, he will come up and fly as the eagle, and spread out his wings against Bozrah. The heart of the mighty men of Edom at that day will be as the heart of a woman in her pangs.",
         "translation": "WEB",
         "illustrationId": "ill-jer-49",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "JER-49:23",
@@ -18761,7 +21572,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of Damascus: “Hamath is confounded, and Arpad; for they have heard evil news. They have melted away. There is sorrow on the sea. It can’t be quiet.",
         "translation": "WEB",
         "illustrationId": "ill-jer-49",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Damascus",
+            "entityId": "place-syria"
+          }
+        ]
       },
       {
         "id": "JER-49:24",
@@ -18772,7 +21588,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Damascus has grown feeble, she turns herself to flee, and trembling has seized her. Anguish and sorrows have taken hold of her, as of a woman in travail.",
         "translation": "WEB",
         "illustrationId": "ill-jer-49",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Damascus",
+            "entityId": "place-syria"
+          }
+        ]
       },
       {
         "id": "JER-49:25",
@@ -18810,7 +21631,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“I will kindle a fire in the wall of Damascus, and it will devour the palaces of Ben Hadad.”",
         "translation": "WEB",
         "illustrationId": "ill-jer-49",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Damascus",
+            "entityId": "place-syria"
+          }
+        ]
       },
       {
         "id": "JER-49:28",
@@ -18935,6 +21761,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zedekiah",
             "entityId": "char-zedekiah"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -19047,6 +21877,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -19090,6 +21924,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -19110,6 +21952,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           }
         ]
       },
@@ -19137,6 +21983,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -19153,6 +22003,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -19299,6 +22153,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -19319,6 +22181,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -19331,7 +22201,20 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will bring Israel again to his pasture, and he will feed on Carmel and Bashan. His soul will be satisfied on the hills of Ephraim and in Gilead.",
         "translation": "WEB",
         "illustrationId": "ill-jer-50",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "JER-50:20",
@@ -19346,6 +22229,18 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -19425,6 +22320,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -19471,6 +22370,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
           }
         ]
       },
@@ -19491,6 +22394,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -19550,6 +22457,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -19570,6 +22485,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Redeemer",
+            "entityId": "term-redeemer-zion"
           }
         ]
       },
@@ -19590,6 +22509,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -19650,6 +22573,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Gomorrah",
+            "entityId": "place-gomorrah"
+          },
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
           }
         ]
       },
@@ -19724,6 +22655,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -19812,7 +22747,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "They will fall down slain in the land of the Chaldeans, and thrust through in her streets.",
         "translation": "WEB",
         "illustrationId": "ill-jer-51",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "JER-51:5",
@@ -19827,6 +22767,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -19919,6 +22867,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -19939,6 +22891,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
           }
         ]
       },
@@ -20046,6 +23002,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -20251,6 +23211,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -20503,6 +23467,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -20591,6 +23559,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -20691,6 +23663,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -20831,6 +23807,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
           }
         ]
       },
@@ -20859,6 +23839,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -20922,7 +23906,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then a breach was made in the city, and all the men of war fled, and went out of the city by night by the way of the gate between the two walls, which was by the king’s garden. Now the Chaldeans were against the city all around. The men of war went toward the Arabah,",
         "translation": "WEB",
         "illustrationId": "ill-jer-52",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "JER-52:8",
@@ -20937,6 +23926,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zedekiah",
             "entityId": "char-zedekiah"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -20973,6 +23966,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -21017,6 +24014,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Nebuzaradan",
+            "entityId": "char-nebuzaradan"
           }
         ]
       },
@@ -21053,6 +24054,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -21069,6 +24074,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Nebuzaradan",
+            "entityId": "char-nebuzaradan"
           }
         ]
       },
@@ -21081,7 +24090,16 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "But Nebuzaradan the captain of the guard left of the poorest of the land to be vineyard keepers and farmers.",
         "translation": "WEB",
         "illustrationId": "ill-jer-52",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Nebuzaradan",
+            "entityId": "char-nebuzaradan"
+          },
+          {
+            "spanText": "vineyard",
+            "entityId": "term-vineyard"
+          }
+        ]
       },
       {
         "id": "JER-52:17",
@@ -21100,6 +24118,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -21183,7 +24205,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The captain of the guard took Seraiah the chief priest, and Zephaniah the second priest, and the three keepers of the threshold:",
         "translation": "WEB",
         "illustrationId": "ill-jer-52",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JER-52:25",
@@ -21209,6 +24236,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Nebuzaradan",
+            "entityId": "char-nebuzaradan"
           }
         ]
       },
@@ -21225,6 +24256,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -21241,6 +24276,10 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Nebuchadnezzar",
             "entityId": "char-nebuchadnezzar"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -21277,6 +24316,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Nebuchadnezzar",
             "entityId": "char-nebuchadnezzar"
+          },
+          {
+            "spanText": "Nebuzaradan",
+            "entityId": "char-nebuzaradan"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -21293,6 +24340,14 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Jehoiachin",
+            "entityId": "char-jehoiachin"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -21321,7 +24376,12 @@ export const JEREMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "and changed his prison garments. Jehoiachin ate bread before him continually all the days of his life.",
         "translation": "WEB",
         "illustrationId": "ill-jer-52",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehoiachin",
+            "entityId": "char-jehoiachin"
+          }
+        ]
       },
       {
         "id": "JER-52:34",

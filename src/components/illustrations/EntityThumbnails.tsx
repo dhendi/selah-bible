@@ -382,6 +382,13 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'term-vineyard': '/images/word-vineyard-isaiah.jpg',
   'term-potter-clay': '/images/word-potter-clay.jpg',
   'term-redeemer-zion': '/images/isa-49.jpg',
+  'term-new-covenant': '/images/word-new-covenant.jpg',
+  'char-gedaliah': '/images/portrait-gedaliah.jpg',
+  'char-hananiah-prophet': '/images/portrait-hananiah-prophet.jpg',
+  'char-ishmael-nethaniah': '/images/portrait-ishmael-nethaniah.jpg',
+  'char-nebuzaradan': '/images/portrait-nebuzaradan.jpg',
+  'char-pashhur': '/images/portrait-pashhur.jpg',
+  'place-anathoth': '/images/word-anathoth.jpg',
 };
 
 export interface ResolvedEntityAsset {
