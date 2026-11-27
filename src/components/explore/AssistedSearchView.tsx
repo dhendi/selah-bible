@@ -338,12 +338,27 @@ export const AssistedSearchView: React.FC = () => {
                   {
                     id: 'all',
                     label: `All (${results.chapters.length + results.verses.length + results.entities.length})`,
+                    show: true,
                   },
-                  { id: 'chapters', label: `Chapters (${results.chapters.length})` },
-                  { id: 'verses', label: `Verses (${results.verses.length})` },
-                  { id: 'entities', label: `Words & People (${results.entities.length})` },
+                  {
+                    id: 'chapters',
+                    label: `Chapters (${results.chapters.length})`,
+                    show: results.chapters.length > 0,
+                  },
+                  {
+                    id: 'verses',
+                    label: `Verses (${results.verses.length})`,
+                    show: results.verses.length > 0,
+                  },
+                  {
+                    id: 'entities',
+                    label: `Words & People (${results.entities.length})`,
+                    show: results.entities.length > 0,
+                  },
                 ] as const
-              ).map((tab) => (
+              )
+                .filter((t) => t.show)
+                .map((tab) => (
                 <button
                   key={tab.id}
                   onClick={() => setActiveFilter(tab.id)}

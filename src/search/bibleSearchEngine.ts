@@ -392,7 +392,7 @@ function countTokenMatches(
       new RegExp(`\\b${escapeRegExp(stem)}(?:es|ed|ing)?\\b`, 'i').test(text)
     ) {
       matched.push(raw);
-      weightedScore += getTokenWeight(raw, stem) * 0.55;
+      weightedScore += getTokenWeight(raw, stem) * 0.35;
     }
   }
   return { count: matched.length, weightedScore, matched };
@@ -455,9 +455,12 @@ export async function searchBibleHybrid(rawQuery: string): Promise<HybridSearchO
         if (new RegExp(`\\b${escapeRegExp(raw)}\\b`).test(vt)) {
           matchedCount++;
           score += 3.0 * idf;
-        } else if (stem.length >= 3 && new RegExp(`\\b${escapeRegExp(stem)}(?:s|es|ed|ing)?\\b`).test(vt)) {
+        } else if (stem.length >= 3 && new RegExp(`\\b${escapeRegExp(stem)}s?\\b`).test(vt)) {
           matchedCount++;
-          score += 2.2 * idf;
+          score += 2.6 * idf;
+        } else if (stem.length >= 3 && new RegExp(`\\b${escapeRegExp(stem)}(?:es|ed|ing)?\\b`).test(vt)) {
+          matchedCount++;
+          score += 1.0 * idf;
         }
       }
 
@@ -549,26 +552,28 @@ export async function searchBibleHybrid(rawQuery: string): Promise<HybridSearchO
         if (phraseLower.length >= 3 && doc.titleLower.includes(phraseLower)) kwScore += 10;
       }
       const semRaw = queryVec ? entitySemScores[idx] : 0;
-      const sem = queryVec ? Math.max(0, semRaw - 0.36) * 44 : 0;
-      return { entity: ent, score: kwScore + sem, sem };
+      const sem = queryVec ? Math.max(0, semRaw - 0.50) * 90 : 0;
+      return { entity: ent, score: kwScore + sem, sem, semRaw };
     })
-    .filter((r) => r.score >= 2.2)
+    .filter((r) => r.score >= 4.0)
     .sort((a, b) => b.score - a.score)
     .slice(0, 8);
 
-  // Cross-boost chapters ONLY from high semantic entity similarity (prevents single-word keyword hijack)
+  // Cross-boost chapters ONLY from strong semantic concept/term/place matches (never generic people like Barabbas)
   entityRanked.slice(0, 3).forEach((er, rankIdx) => {
-    const semVal = (er as unknown as { sem: number }).sem;
-    const boost = Math.min(12, (semVal * 0.9) / (rankIdx + 1));
-    if (boost < 3.0) return;
+    if (er.entity.type === 'person') return;
+    const { sem, semRaw } = er as unknown as { sem: number; semRaw: number };
+    if (semRaw < 0.505 && rankIdx > 0) return;
+    const boost = Math.min(28, (Math.max(sem, er.score * 0.9) * 2.1) / (rankIdx + 1));
     entityBoostByTitle.set(er.entity.title, boost);
-    for (const ref of er.entity.relatedVerseRefs || []) {
+    (er.entity.relatedVerseRefs || []).forEach((ref, rIdx) => {
       const parsed = parseBibleReference(ref.split('-')[0].trim());
       if (parsed) {
+        const refMultiplier = rIdx === 0 ? 1.55 : 1.15;
         const prev = entityAnchorChapterBoost.get(parsed.chapterId) || 0;
-        entityAnchorChapterBoost.set(parsed.chapterId, Math.max(prev, boost * 1.15));
+        entityAnchorChapterBoost.set(parsed.chapterId, Math.max(prev, boost * refMultiplier));
       }
-    }
+    });
   });
 
   // 4. Rank Chapters (Hybrid: Chapter Keyword + Verse Evidence + Semantic Vector + Semantic Entity Boost)
@@ -583,9 +588,14 @@ export async function searchBibleHybrid(rawQuery: string): Promise<HybridSearchO
       if (rawTokens.length > 0) {
         const titleCov = 0.45 + 0.55 * (titleMatch.count / rawTokens.length);
         const bodyCov = 0.45 + 0.55 * (bodyMatch.count / rawTokens.length);
-        kwScore += titleMatch.weightedScore * 2.8 * titleCov;
+        kwScore += titleMatch.weightedScore * 2.5 * titleCov;
         kwScore += entMatch.weightedScore * 1.3 * bodyCov;
-        kwScore += bodyMatch.weightedScore * 1.2 * bodyCov;
+        kwScore += bodyMatch.weightedScore * 1.6 * bodyCov;
+        // Bonus when chapter matches a very rare anchor word in query (e.g. "prodigal", "manna", "goliath")
+        for (const mt of bodyMatch.matched) {
+          const w = getTokenWeight(mt, stemToken(mt));
+          if (w >= 3.3) kwScore += 9;
+        }
         if (rawTokens.length > 1 && bodyMatch.count >= Math.min(2, rawTokens.length)) {
           kwScore += bodyMatch.count * 3.0;
         }
@@ -604,11 +614,11 @@ export async function searchBibleHybrid(rawQuery: string): Promise<HybridSearchO
       }
 
       const semRaw = queryVec ? chapterSemScores[idx] : 0;
-      const semScore = queryVec ? Math.max(0, semRaw - 0.36) * 44 : 0;
+      const semScore = queryVec ? Math.max(0, semRaw - 0.51) * 90 : 0;
       const total = kwScore + verseBoost + semScore + entityCrossBoost;
 
       const hasKw = kwScore > 0 || verseBoost >= 3;
-      const hasSem = semScore >= 2.5 || entityCrossBoost >= 3;
+      const hasSem = semScore >= 4.0 || entityCrossBoost >= 4.0;
       const matchReason: 'keyword' | 'semantic' | 'hybrid' =
         hasKw && hasSem ? 'hybrid' : hasSem ? 'semantic' : 'keyword';
 
@@ -620,7 +630,7 @@ export async function searchBibleHybrid(rawQuery: string): Promise<HybridSearchO
         matchReason,
       };
     })
-    .filter((r) => r.score >= (queryVec ? 3.2 : 2.5))
+    .filter((r) => r.score >= 4.5)
     .sort((a, b) => b.score - a.score)
     .slice(0, 16);
 
