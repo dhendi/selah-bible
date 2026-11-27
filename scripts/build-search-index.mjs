@@ -15,9 +15,10 @@ async function loadTsModule(relPath) {
   return import(dataUrl);
 }
 
-console.log('1. Loading bookGroups, entities, and all 66 book modules...');
+console.log('1. Loading bookGroups, entities, story guide, and all 66 book modules...');
 const { PICKER_BOOKS, BIBLE_BOOK_GROUPS } = await loadTsModule('src/data/bookGroups.ts');
 const { SEED_ENTITIES } = await loadTsModule('src/data/seedEntities.ts');
+const { BIBLE_STORY_GUIDE } = await loadTsModule('src/search/bibleStoryGuide.ts');
 
 const bookLoaderSrc = fs.readFileSync(path.join(ROOT, 'src/data/bookLoader.ts'), 'utf8');
 const importerMatches = [
@@ -39,7 +40,6 @@ for (const [, , relBookImport, exportName] of importerMatches) {
   Object.assign(allChaptersMap, chapObj);
 }
 
-// Generic high-frequency entities to deprioritize when building distinctive chapter embeddings
 const GENERIC_ENTITIES = new Set([
   'char-god',
   'char-yahweh',
@@ -53,6 +53,8 @@ const GENERIC_ENTITIES = new Set([
 
 const chaptersIndex = [];
 const versesIndex = [];
+const passagesMeta = []; // [chapterIdx, startVerse, endVerse]
+const passageDocs = [];
 
 for (const book of PICKER_BOOKS) {
   const group = groupById[book.groupId];
@@ -64,8 +66,9 @@ for (const book of PICKER_BOOKS) {
     const chapIdx = chaptersIndex.length;
     const entityIds = [];
     const entitySet = new Set();
+    const chapVerses = c.verses || [];
 
-    for (const v of c.verses || []) {
+    for (const v of chapVerses) {
       const cleanText = (v.text || '').replace(/\s+/g, ' ').trim();
       versesIndex.push([chapIdx, v.verseNumber, cleanText]);
       for (const link of v.linkedEntities || []) {
@@ -77,7 +80,19 @@ for (const book of PICKER_BOOKS) {
       }
     }
 
-    // Select up to 5 distinctive entity notes to enrich this chapter's semantic meaning
+    // Build 6-verse chunks across the full chapter so every scene in all 31,103 verses gets a vector!
+    const CHUNK_SIZE = 6;
+    for (let i = 0; i < chapVerses.length; i += CHUNK_SIZE) {
+      const slice = chapVerses.slice(i, i + CHUNK_SIZE);
+      const startV = slice[0].verseNumber;
+      const endV = slice[slice.length - 1].verseNumber;
+      const chunkText = slice
+        .map((v) => (v.text || '').replace(/\s+/g, ' ').trim())
+        .join(' ');
+      passagesMeta.push([chapIdx, startV, endV]);
+      passageDocs.push(`${book.title} ${ch}:${startV}-${endV}. ${chunkText}`.slice(0, 1100));
+    }
+
     const distinctiveNotes = entityIds
       .filter((eid) => !GENERIC_ENTITIES.has(eid))
       .slice(0, 5)
@@ -87,7 +102,7 @@ for (const book of PICKER_BOOKS) {
         return `${cleanTitle}${ent.shortDefinition ? ' (' + ent.shortDefinition + ')' : ''}`;
       });
 
-    const openingVerse = c.verses?.[0];
+    const openingVerse = chapVerses[0];
     chaptersIndex.push({
       id: chapId,
       bookId: book.id,
@@ -100,7 +115,7 @@ for (const book of PICKER_BOOKS) {
       summaryHook: c.summaryHook || '',
       bigPictureText: c.bigPictureText || '',
       illustrationId: c.illustrationId || c.illustrationTheme || `ill-${book.id.toLowerCase()}-${ch}`,
-      versesCount: (c.verses || []).length,
+      versesCount: chapVerses.length,
       entityTitles: [...entitySet].slice(0, 14),
       openingRef: openingVerse ? `${book.title} ${ch}:${openingVerse.verseNumber}` : `${book.title} ${ch}`,
       openingText: openingVerse?.text?.replace(/\s+/g, ' ').trim() || '',
@@ -122,12 +137,16 @@ const entitiesIndex = entitiesList.map((e) => ({
   relatedVerseRefs: e.relatedVerseRefs || [],
 }));
 
-console.log(`Built ${chaptersIndex.length} chapters, ${versesIndex.length} verses, ${entitiesIndex.length} entities.`);
+console.log(
+  `Built ${chaptersIndex.length} chapters, ${versesIndex.length} verses, ${passagesMeta.length} passage chunks, ${entitiesIndex.length} entities, ${BIBLE_STORY_GUIDE.length} story guide entries.`
+);
 
 const publicChapters = chaptersIndex.map(({ _distinctiveNotes, ...rest }) => rest);
 fs.writeFileSync(path.join(OUT_DIR, 'chapters-index.json'), JSON.stringify(publicChapters));
 fs.writeFileSync(path.join(OUT_DIR, 'entities-index.json'), JSON.stringify(entitiesIndex));
 fs.writeFileSync(path.join(OUT_DIR, 'verses-index.json'), JSON.stringify(versesIndex));
+fs.writeFileSync(path.join(OUT_DIR, 'passages-index.json'), JSON.stringify(passagesMeta));
+fs.writeFileSync(path.join(OUT_DIR, 'guide-index.json'), JSON.stringify(BIBLE_STORY_GUIDE));
 
 console.log('2. Computing 384-d quantized int8 semantic vectors (Xenova/bge-small-en-v1.5)...');
 const MODEL_ID = 'Xenova/bge-small-en-v1.5';
@@ -147,7 +166,7 @@ async function embedTextsToInt8(texts, label) {
         out[rowOffset + d] = Math.max(-127, Math.min(127, Math.round(val * 127)));
       }
     }
-    if ((i + BATCH) % 160 === 0 || i + BATCH >= texts.length) {
+    if ((i + BATCH) % 320 === 0 || i + BATCH >= texts.length) {
       console.log(`   ${label}: ${Math.min(i + BATCH, texts.length)} / ${texts.length}`);
     }
   }
@@ -169,11 +188,19 @@ const entityDocs = entitiesIndex.map((e) =>
   [e.title, e.shortDefinition, e.historicalContext].filter(Boolean).join(' ')
 );
 
+const guideDocs = BIBLE_STORY_GUIDE.map((g) =>
+  `${g.answerHeadline}. ${g.modernSummary} Keywords: ${g.keywords.join(', ')}.`
+);
+
 const chapterVecs = await embedTextsToInt8(chapterDocs, 'Chapters');
 const entityVecs = await embedTextsToInt8(entityDocs, 'Entities');
+const guideVecs = await embedTextsToInt8(guideDocs, 'StoryGuide');
+const passageVecs = await embedTextsToInt8(passageDocs, 'PassageChunks');
 
 fs.writeFileSync(path.join(OUT_DIR, 'chapter-vectors.bin'), Buffer.from(chapterVecs.buffer));
 fs.writeFileSync(path.join(OUT_DIR, 'entity-vectors.bin'), Buffer.from(entityVecs.buffer));
+fs.writeFileSync(path.join(OUT_DIR, 'guide-vectors.bin'), Buffer.from(guideVecs.buffer));
+fs.writeFileSync(path.join(OUT_DIR, 'passage-vectors.bin'), Buffer.from(passageVecs.buffer));
 fs.writeFileSync(
   path.join(OUT_DIR, 'vectors-meta.json'),
   JSON.stringify({
@@ -182,47 +209,13 @@ fs.writeFileSync(
     queryPrefix: 'Represent this sentence for searching relevant passages: ',
     chaptersCount: chaptersIndex.length,
     entitiesCount: entitiesIndex.length,
+    passagesCount: passagesMeta.length,
+    guideCount: BIBLE_STORY_GUIDE.length,
   })
 );
 
-function stripQueryFiller(q) {
-  return (
-    q
-      .toLowerCase()
-      .replace(
-        /\b(what's|whats|what is|what was|who is|who was|tell me|give me|find|search|the story of|story about|a story about|bible story|chapter about|verse about|verses about|about|story|stories|the|that|when a|when)\b/g,
-        ' '
-      )
-      .replace(/\s+/g, ' ')
-      .trim() || q
-  );
+console.log('Done! Files in public/search/:');
+for (const f of fs.readdirSync(OUT_DIR)) {
+  const kb = (fs.statSync(path.join(OUT_DIR, f)).size / 1024).toFixed(1);
+  console.log(`  ${f}: ${kb} KB`);
 }
-
-console.log('3. Smoke testing semantic queries across all 1,189 chapters...');
-const testQueries = [
-  "what's the story about the flood",
-  "what's the story about the food that falls from heaven",
-  'guy who wore camel hair and ate locusts',
-  'when a donkey started talking',
-  'prodigal runaway son forgiven by father',
-  'swallowed by a big fish in the storm',
-];
-for (const tq of testQueries) {
-  const cleanQ = stripQueryFiller(tq);
-  const qRes = await extractor('Represent this sentence for searching relevant passages: ' + cleanQ, {
-    pooling: 'mean',
-    normalize: true,
-  });
-  const scores = chaptersIndex.map((c, idx) => {
-    let dot = 0;
-    const off = idx * 384;
-    for (let d = 0; d < 384; d++) dot += qRes.data[d] * (chapterVecs[off + d] / 127);
-    return { id: c.id, title: c.title, dot };
-  });
-  scores.sort((a, b) => b.dot - a.dot);
-  console.log(
-    `Query: "${tq}" (clean: "${cleanQ}") -> Top 3:`,
-    scores.slice(0, 3).map((s) => `${s.id} (${s.dot.toFixed(3)}: ${s.title})`)
-  );
-}
-console.log('Done! Files in public/search/:', fs.readdirSync(OUT_DIR));

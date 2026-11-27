@@ -182,6 +182,7 @@ export const AssistedSearchView: React.FC = () => {
   const hasAnyResults =
     results &&
     (Boolean(results.directReference) ||
+      Boolean(results.guideAnswer) ||
       results.chapters.length > 0 ||
       results.verses.length > 0 ||
       results.entities.length > 0);
@@ -327,6 +328,58 @@ export const AssistedSearchView: React.FC = () => {
                   “{results.directReference.verseText}”
                 </p>
               )}
+            </div>
+          )}
+
+          {/* Contextual Story / Person Answer Card */}
+          {!results.directReference && results.guideAnswer && (
+            <div className="bg-[#F4EFE4] border border-[#DDD3C1] border-l-4 border-l-[#8B3A2B] p-4 flex flex-col sm:flex-row gap-3.5">
+              <div className="sm:w-28 flex-shrink-0 border border-[#E2DACB] p-1 bg-[#FBF8F1]">
+                <StoryIllustration
+                  illustrationId={results.guideAnswer.illustrationId}
+                  className="w-full h-28 sm:h-24"
+                />
+              </div>
+
+              <div className="flex-1 space-y-1.5">
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <span className="text-[10px] font-bold uppercase tracking-[0.16em] text-[#8B3A2B]">
+                    You May Be Looking For · {results.guideAnswer.entry.referenceLabel}
+                  </span>
+                </div>
+
+                <h3 className="font-serif font-semibold text-base sm:text-lg text-[#24221E] leading-snug">
+                  {results.guideAnswer.entry.answerHeadline}
+                </h3>
+
+                <p className="text-xs text-[#4A463F] leading-relaxed">
+                  {results.guideAnswer.entry.modernSummary}
+                </p>
+
+                <div className="pt-1.5 flex flex-wrap items-center gap-2">
+                  <button
+                    onClick={() =>
+                      navigateToPassage(
+                        results.guideAnswer!.entry.chapterId,
+                        results.guideAnswer!.entry.verseNumber
+                      )
+                    }
+                    className="px-3.5 py-1.5 bg-[#24221E] hover:bg-[#3A3731] text-[#FBF8F1] text-xs font-medium rounded-sm inline-flex items-center gap-1.5 cursor-pointer"
+                  >
+                    <BookOpen className="w-3.5 h-3.5" />
+                    <span>Open Passage</span>
+                  </button>
+
+                  {results.guideAnswer.entry.entityId && (
+                    <button
+                      onClick={() => openEntitySheet(results.guideAnswer!.entry.entityId!)}
+                      className="px-3 py-1.5 bg-[#FBF8F1] hover:bg-[#ECE4D4] border border-[#DDD3C1] text-[#24221E] text-xs font-medium rounded-sm cursor-pointer"
+                    >
+                      Read Profile →
+                    </button>
+                  )}
+                </div>
+              </div>
             </div>
           )}
 
