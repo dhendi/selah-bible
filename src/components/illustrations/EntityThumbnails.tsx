@@ -360,6 +360,12 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'term-precepts': '/images/word-torah-precepts.jpg',
   'term-praise': '/images/word-praise-harp.jpg',
   'term-chochmah': '/images/pro-09.jpg',
+  'term-fear-of-yahweh': '/images/word-fear-of-yahweh.jpg',
+  'term-proverb-speech': '/images/word-proverb-speech.jpg',
+  'term-knowledge': '/images/word-knowledge-scroll.jpg',
+  'term-fool-path': '/images/word-fool-path.jpg',
+  'term-guard-heart': '/images/word-guard-heart.jpg',
+  'term-sluggard-ant': '/images/pro-06.jpg',
 };
 
 export interface ResolvedEntityAsset {

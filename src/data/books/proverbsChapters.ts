@@ -29,6 +29,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -61,7 +65,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "to receive instruction in wise dealing, in righteousness, justice, and equity;",
         "translation": "WEB",
         "illustrationId": "ill-pro-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-1:4",
@@ -72,7 +81,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "to give prudence to the simple, knowledge and discretion to the young man:",
         "translation": "WEB",
         "illustrationId": "ill-pro-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          }
+        ]
       },
       {
         "id": "PRO-1:5",
@@ -122,6 +136,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "fear of Yahweh",
             "entityId": "term-fear-of-yahweh"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
           }
         ]
       },
@@ -178,7 +196,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let’s swallow them up alive like Sheol, and whole, like those who go down into the pit.",
         "translation": "WEB",
         "illustrationId": "ill-pro-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "PRO-1:13",
@@ -293,7 +316,16 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“How long, you simple ones, will you love simplicity? How long will mockers delight themselves in mockery, and fools hate knowledge?",
         "translation": "WEB",
         "illustrationId": "ill-pro-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          },
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-1:23",
@@ -378,6 +410,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "fear of Yahweh",
             "entityId": "term-fear-of-yahweh"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
           }
         ]
       },
@@ -412,7 +448,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the backsliding of the simple will kill them. The careless ease of fools will destroy them.",
         "translation": "WEB",
         "illustrationId": "ill-pro-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-1:33",
@@ -466,6 +507,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
           }
         ]
       },
@@ -513,6 +558,14 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "fear of Yahweh",
             "entityId": "term-fear-of-yahweh"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
           }
         ]
       },
@@ -537,6 +590,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
           }
         ]
       },
@@ -553,6 +610,14 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "wisdom",
             "entityId": "char-lady-wisdom"
+          },
+          {
+            "spanText": "integrity",
+            "entityId": "term-integrity"
+          },
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
           }
         ]
       },
@@ -576,7 +641,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then you will understand righteousness and justice, equity and every good path.",
         "translation": "WEB",
         "illustrationId": "ill-pro-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-2:10",
@@ -591,6 +661,14 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "wisdom",
             "entityId": "char-lady-wisdom"
+          },
+          {
+            "spanText": "Knowledge",
+            "entityId": "term-knowledge"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
           }
         ]
       },
@@ -674,7 +752,16 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "who forsakes the friend of her youth, and forgets the covenant of her God;",
         "translation": "WEB",
         "illustrationId": "ill-pro-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "PRO-2:18",
@@ -707,7 +794,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So you may walk in the way of good men, and keep the paths of the righteous.",
         "translation": "WEB",
         "illustrationId": "ill-pro-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-2:21",
@@ -753,7 +845,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "My son, don’t forget my teaching; but let your heart keep my commandments:",
         "translation": "WEB",
         "illustrationId": "ill-pro-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-3:2",
@@ -775,7 +872,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t let kindness and truth forsake you. Bind them around your neck. Write them on the tablet of your heart.",
         "translation": "WEB",
         "illustrationId": "ill-pro-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-3:4",
@@ -790,6 +892,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
           }
         ]
       },
@@ -810,6 +916,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
           }
         ]
       },
@@ -1018,7 +1128,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "By his knowledge, the depths were broken up, and the skies drop down the dew.",
         "translation": "WEB",
         "illustrationId": "ill-pro-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          }
+        ]
       },
       {
         "id": "PRO-3:21",
@@ -1180,6 +1295,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -1203,7 +1322,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The wise will inherit glory, but shame will be the promotion of fools.",
         "translation": "WEB",
         "illustrationId": "ill-pro-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
+          }
+        ]
       }
     ]
   },
@@ -1243,7 +1367,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "for I give you sound learning. Don’t forsake my law.",
         "translation": "WEB",
         "illustrationId": "ill-pro-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PRO-4:3",
@@ -1265,7 +1394,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He taught me, and said to me: “Let your heart retain my words. Keep my commandments, and live.",
         "translation": "WEB",
         "illustrationId": "ill-pro-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-4:5",
@@ -1315,6 +1449,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "char-lady-wisdom"
           }
         ]
       },
@@ -1442,7 +1580,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But the path of the righteous is like the dawning light that shines more and more until the perfect day.",
         "translation": "WEB",
         "illustrationId": "ill-pro-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-4:19",
@@ -1475,7 +1618,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let them not depart from your eyes. Keep them in the center of your heart.",
         "translation": "WEB",
         "illustrationId": "ill-pro-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-4:22",
@@ -1497,7 +1645,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Keep your heart with all diligence, for out of it is the wellspring of life.",
         "translation": "WEB",
         "illustrationId": "ill-pro-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-4:24",
@@ -1585,7 +1738,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "that you may maintain discretion, that your lips may preserve knowledge.",
         "translation": "WEB",
         "illustrationId": "ill-pro-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          }
+        ]
       },
       {
         "id": "PRO-5:3",
@@ -1618,7 +1776,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Her feet go down to death. Her steps lead straight to Sheol.",
         "translation": "WEB",
         "illustrationId": "ill-pro-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "PRO-5:6",
@@ -1695,7 +1858,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and say, “How I have hated instruction, and my heart despised reproof;",
         "translation": "WEB",
         "illustrationId": "ill-pro-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-5:13",
@@ -1900,7 +2068,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Go to the ant, you sluggard. Consider her ways, and be wise;",
         "translation": "WEB",
         "illustrationId": "ill-pro-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sluggard",
+            "entityId": "term-sluggard-ant"
+          }
+        ]
       },
       {
         "id": "PRO-6:7",
@@ -1933,7 +2106,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "How long will you sleep, sluggard? When will you arise out of your sleep?",
         "translation": "WEB",
         "illustrationId": "ill-pro-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sluggard",
+            "entityId": "term-sluggard-ant"
+          }
+        ]
       },
       {
         "id": "PRO-6:10",
@@ -1988,7 +2166,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "in whose heart is perverseness, who devises evil continually, who always sows discord.",
         "translation": "WEB",
         "illustrationId": "ill-pro-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-6:15",
@@ -2042,7 +2225,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "a heart that devises wicked schemes, feet that are swift in running to mischief,",
         "translation": "WEB",
         "illustrationId": "ill-pro-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-6:19",
@@ -2075,7 +2263,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Bind them continually on your heart. Tie them around your neck.",
         "translation": "WEB",
         "illustrationId": "ill-pro-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-6:22",
@@ -2097,7 +2290,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the commandment is a lamp, and the law is light. Reproofs of instruction are the way of life,",
         "translation": "WEB",
         "illustrationId": "ill-pro-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PRO-6:24",
@@ -2124,7 +2322,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t lust after her beauty in your heart, neither let her captivate you with her eyelids.",
         "translation": "WEB",
         "illustrationId": "ill-pro-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-6:26",
@@ -2285,7 +2488,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Bind them on your fingers. Write them on the tablet of your heart.",
         "translation": "WEB",
         "illustrationId": "ill-pro-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-7:4",
@@ -2442,7 +2650,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I have spread my couch with carpets of tapestry, with striped cloths of the yarn of Egypt.",
         "translation": "WEB",
         "illustrationId": "ill-pro-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "PRO-7:17",
@@ -2508,7 +2721,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He followed her immediately, as an ox goes to the slaughter, as a fool stepping into a noose.",
         "translation": "WEB",
         "illustrationId": "ill-pro-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-7:23",
@@ -2541,7 +2759,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t let your heart turn to her ways. Don’t go astray in her paths,",
         "translation": "WEB",
         "illustrationId": "ill-pro-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-7:26",
@@ -2563,7 +2786,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Her house is the way to Sheol, going down to the rooms of death.",
         "translation": "WEB",
         "illustrationId": "ill-pro-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       }
     ]
   },
@@ -2644,6 +2872,14 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          },
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
           }
         ]
       },
@@ -2678,7 +2914,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the words of my mouth are in righteousness. There is nothing crooked or perverse in them.",
         "translation": "WEB",
         "illustrationId": "ill-pro-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-8:9",
@@ -2689,7 +2930,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They are all plain to him who understands, right to those who find knowledge.",
         "translation": "WEB",
         "illustrationId": "ill-pro-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          }
+        ]
       },
       {
         "id": "PRO-8:10",
@@ -2700,7 +2946,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Receive my instruction rather than silver, knowledge rather than choice gold.",
         "translation": "WEB",
         "illustrationId": "ill-pro-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          }
+        ]
       },
       {
         "id": "PRO-8:11",
@@ -2731,6 +2982,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "wisdom",
             "entityId": "char-lady-wisdom"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
           }
         ]
       },
@@ -2767,6 +3022,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
           }
         ]
       },
@@ -2790,7 +3049,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "By me princes rule, nobles, and all the righteous rulers of the earth.",
         "translation": "WEB",
         "illustrationId": "ill-pro-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-8:17",
@@ -2834,7 +3098,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I walk in the way of righteousness, in the middle of the paths of justice,",
         "translation": "WEB",
         "illustrationId": "ill-pro-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-8:21",
@@ -3147,7 +3416,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Instruct a wise person, and he will be still wiser. Teach a righteous person, and he will increase in learning.",
         "translation": "WEB",
         "illustrationId": "ill-pro-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-9:10",
@@ -3174,6 +3448,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
           }
         ]
       },
@@ -3268,7 +3546,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But he doesn’t know that the departed spirits are there, that her guests are in the depths of Sheol.",
         "translation": "WEB",
         "illustrationId": "ill-pro-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       }
     ]
   },
@@ -3308,7 +3591,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Treasures of wickedness profit nothing, but righteousness delivers from death.",
         "translation": "WEB",
         "illustrationId": "ill-pro-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-10:3",
@@ -3323,6 +3611,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -3357,7 +3649,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Blessings are on the head of the righteous, but violence covers the mouth of the wicked.",
         "translation": "WEB",
         "illustrationId": "ill-pro-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-10:7",
@@ -3368,7 +3665,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The memory of the righteous is blessed, but the name of the wicked will rot.",
         "translation": "WEB",
         "illustrationId": "ill-pro-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-10:8",
@@ -3379,7 +3681,16 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The wise in heart accept commandments, but a chattering fool will fall.",
         "translation": "WEB",
         "illustrationId": "ill-pro-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          },
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-10:9",
@@ -3401,7 +3712,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "One winking with the eye causes sorrow, but a chattering fool will fall.",
         "translation": "WEB",
         "illustrationId": "ill-pro-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-10:11",
@@ -3412,7 +3728,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The mouth of the righteous is a spring of life, but violence covers the mouth of the wicked.",
         "translation": "WEB",
         "illustrationId": "ill-pro-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-10:12",
@@ -3454,7 +3775,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Wise men lay up knowledge, but the mouth of the foolish is near ruin.",
         "translation": "WEB",
         "illustrationId": "ill-pro-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          }
+        ]
       },
       {
         "id": "PRO-10:15",
@@ -3476,7 +3802,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The labor of the righteous leads to life. The increase of the wicked leads to sin.",
         "translation": "WEB",
         "illustrationId": "ill-pro-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-10:17",
@@ -3498,7 +3829,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He who hides hatred has lying lips. He who utters a slander is a fool.",
         "translation": "WEB",
         "illustrationId": "ill-pro-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-10:19",
@@ -3524,6 +3860,14 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tongue",
             "entityId": "term-proverb-speech"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
           }
         ]
       },
@@ -3540,6 +3884,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -3576,6 +3924,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
           }
         ]
       },
@@ -3588,7 +3940,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "What the wicked fear, will overtake them, but the desire of the righteous will be granted.",
         "translation": "WEB",
         "illustrationId": "ill-pro-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-10:25",
@@ -3599,7 +3956,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the whirlwind passes, the wicked is no more; but the righteous stand firm forever.",
         "translation": "WEB",
         "illustrationId": "ill-pro-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-10:26",
@@ -3610,7 +3972,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "As vinegar to the teeth, and as smoke to the eyes, so is the sluggard to those who send him.",
         "translation": "WEB",
         "illustrationId": "ill-pro-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sluggard",
+            "entityId": "term-sluggard-ant"
+          }
+        ]
       },
       {
         "id": "PRO-10:27",
@@ -3641,7 +4008,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The prospect of the righteous is joy, but the hope of the wicked will perish.",
         "translation": "WEB",
         "illustrationId": "ill-pro-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-10:29",
@@ -3668,7 +4040,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The righteous will never be removed, but the wicked will not dwell in the land.",
         "translation": "WEB",
         "illustrationId": "ill-pro-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-10:31",
@@ -3687,6 +4064,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tongue",
             "entityId": "term-proverb-speech"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -3699,7 +4080,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The lips of the righteous know what is acceptable, but the mouth of the wicked is perverse.",
         "translation": "WEB",
         "illustrationId": "ill-pro-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       }
     ]
   },
@@ -3755,7 +4141,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The integrity of the upright shall guide them, but the perverseness of the treacherous shall destroy them.",
         "translation": "WEB",
         "illustrationId": "ill-pro-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "integrity",
+            "entityId": "term-integrity"
+          }
+        ]
       },
       {
         "id": "PRO-11:4",
@@ -3766,7 +4157,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Riches don’t profit in the day of wrath, but righteousness delivers from death.",
         "translation": "WEB",
         "illustrationId": "ill-pro-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-11:5",
@@ -3777,7 +4173,16 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The righteousness of the blameless will direct his way, but the wicked shall fall by his own wickedness.",
         "translation": "WEB",
         "illustrationId": "ill-pro-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "blameless",
+            "entityId": "term-integrity"
+          }
+        ]
       },
       {
         "id": "PRO-11:6",
@@ -3788,7 +4193,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The righteousness of the upright shall deliver them, but the unfaithful will be trapped by evil desires.",
         "translation": "WEB",
         "illustrationId": "ill-pro-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-11:7",
@@ -3810,7 +4220,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A righteous person is delivered out of trouble, and the wicked takes his place.",
         "translation": "WEB",
         "illustrationId": "ill-pro-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-11:9",
@@ -3821,7 +4236,16 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "With his mouth the godless man destroys his neighbor, but the righteous will be delivered through knowledge.",
         "translation": "WEB",
         "illustrationId": "ill-pro-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          }
+        ]
       },
       {
         "id": "PRO-11:10",
@@ -3832,7 +4256,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When it goes well with the righteous, the city rejoices. When the wicked perish, there is shouting.",
         "translation": "WEB",
         "illustrationId": "ill-pro-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-11:11",
@@ -3929,7 +4358,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Wicked people earn deceitful wages, but one who sows righteousness reaps a sure reward.",
         "translation": "WEB",
         "illustrationId": "ill-pro-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-11:19",
@@ -3940,7 +4374,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He who is truly righteous gets life. He who pursues evil gets death.",
         "translation": "WEB",
         "illustrationId": "ill-pro-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-11:20",
@@ -3955,6 +4394,14 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "blameless",
+            "entityId": "term-integrity"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
           }
         ]
       },
@@ -3967,7 +4414,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Most certainly, the evil man will not be unpunished, but the offspring of the righteous will be delivered.",
         "translation": "WEB",
         "illustrationId": "ill-pro-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-11:22",
@@ -3989,7 +4441,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The desire of the righteous is only good. The expectation of the wicked is wrath.",
         "translation": "WEB",
         "illustrationId": "ill-pro-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-11:24",
@@ -4044,7 +4501,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He who trusts in his riches will fall, but the righteous shall flourish as the green leaf.",
         "translation": "WEB",
         "illustrationId": "ill-pro-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-11:29",
@@ -4055,7 +4517,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He who troubles his own house shall inherit the wind. The foolish shall be servant to the wise of heart.",
         "translation": "WEB",
         "illustrationId": "ill-pro-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-11:30",
@@ -4066,7 +4533,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The fruit of the righteous is a tree of life. He who is wise wins souls.",
         "translation": "WEB",
         "illustrationId": "ill-pro-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-11:31",
@@ -4077,7 +4549,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, the righteous shall be repaid in the earth, how much more the wicked and the sinner!",
         "translation": "WEB",
         "illustrationId": "ill-pro-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       }
     ]
   },
@@ -4101,7 +4578,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whoever loves correction loves knowledge, but he who hates reproof is stupid.",
         "translation": "WEB",
         "illustrationId": "ill-pro-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          }
+        ]
       },
       {
         "id": "PRO-12:2",
@@ -4128,7 +4610,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A man shall not be established by wickedness, but the root of the righteous shall not be moved.",
         "translation": "WEB",
         "illustrationId": "ill-pro-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-12:4",
@@ -4150,7 +4637,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The thoughts of the righteous are just, but the advice of the wicked is deceitful.",
         "translation": "WEB",
         "illustrationId": "ill-pro-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-12:6",
@@ -4172,7 +4664,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The wicked are overthrown, and are no more, but the house of the righteous shall stand.",
         "translation": "WEB",
         "illustrationId": "ill-pro-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-12:8",
@@ -4210,7 +4707,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A righteous man respects the life of his animal, but the tender mercies of the wicked are cruel.",
         "translation": "WEB",
         "illustrationId": "ill-pro-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-12:11",
@@ -4237,7 +4739,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The wicked desires the plunder of evil men, but the root of the righteous flourishes.",
         "translation": "WEB",
         "illustrationId": "ill-pro-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-12:13",
@@ -4248,7 +4755,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "An evil man is trapped by sinfulness of lips, but the righteous shall come out of trouble.",
         "translation": "WEB",
         "illustrationId": "ill-pro-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-12:14",
@@ -4270,7 +4782,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The way of a fool is right in his own eyes, but he who is wise listens to counsel.",
         "translation": "WEB",
         "illustrationId": "ill-pro-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-12:16",
@@ -4281,7 +4798,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A fool shows his annoyance the same day, but one who overlooks an insult is prudent.",
         "translation": "WEB",
         "illustrationId": "ill-pro-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-12:17",
@@ -4335,7 +4857,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Deceit is in the heart of those who plot evil, but joy comes to the promoters of peace.",
         "translation": "WEB",
         "illustrationId": "ill-pro-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-12:21",
@@ -4346,7 +4873,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "No mischief shall happen to the righteous, but the wicked shall be filled with evil.",
         "translation": "WEB",
         "illustrationId": "ill-pro-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-12:22",
@@ -4373,7 +4905,16 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A prudent man keeps his knowledge, but the hearts of fools proclaim foolishness.",
         "translation": "WEB",
         "illustrationId": "ill-pro-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          },
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-12:24",
@@ -4395,7 +4936,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Anxiety in a man’s heart weighs it down, but a kind word makes it glad.",
         "translation": "WEB",
         "illustrationId": "ill-pro-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-12:26",
@@ -4406,7 +4952,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A righteous person is cautious in friendship, but the way of the wicked leads them astray.",
         "translation": "WEB",
         "illustrationId": "ill-pro-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-12:27",
@@ -4428,7 +4979,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "In the way of righteousness is life; in its path there is no death.",
         "translation": "WEB",
         "illustrationId": "ill-pro-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       }
     ]
   },
@@ -4485,7 +5041,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The soul of the sluggard desires, and has nothing, but the desire of the diligent shall be fully satisfied.",
         "translation": "WEB",
         "illustrationId": "ill-pro-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sluggard",
+            "entityId": "term-sluggard-ant"
+          }
+        ]
       },
       {
         "id": "PRO-13:5",
@@ -4496,7 +5057,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A righteous man hates lies, but a wicked man brings shame and disgrace.",
         "translation": "WEB",
         "illustrationId": "ill-pro-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-13:6",
@@ -4507,7 +5073,16 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Righteousness guards the way of integrity, but wickedness overthrows the sinner.",
         "translation": "WEB",
         "illustrationId": "ill-pro-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "integrity",
+            "entityId": "term-integrity"
+          }
+        ]
       },
       {
         "id": "PRO-13:7",
@@ -4540,7 +5115,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The light of the righteous shines brightly, but the lamp of the wicked is snuffed out.",
         "translation": "WEB",
         "illustrationId": "ill-pro-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-13:10",
@@ -4578,7 +5158,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Hope deferred makes the heart sick, but when longing is fulfilled, it is a tree of life.",
         "translation": "WEB",
         "illustrationId": "ill-pro-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-13:13",
@@ -4627,7 +5212,16 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Every prudent man acts from knowledge, but a fool exposes folly.",
         "translation": "WEB",
         "illustrationId": "ill-pro-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          },
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-13:17",
@@ -4660,7 +5254,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Longing fulfilled is sweet to the soul, but fools detest turning from evil.",
         "translation": "WEB",
         "illustrationId": "ill-pro-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-13:20",
@@ -4671,7 +5270,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "One who walks with wise men grows wise, but a companion of fools suffers harm.",
         "translation": "WEB",
         "illustrationId": "ill-pro-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-13:21",
@@ -4682,7 +5286,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Misfortune pursues sinners, but prosperity rewards the righteous.",
         "translation": "WEB",
         "illustrationId": "ill-pro-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-13:22",
@@ -4693,7 +5302,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A good man leaves an inheritance to his children’s children, but the wealth of the sinner is stored for the righteous.",
         "translation": "WEB",
         "illustrationId": "ill-pro-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-13:23",
@@ -4726,7 +5340,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The righteous one eats to the satisfying of his soul, but the belly of the wicked goes hungry.",
         "translation": "WEB",
         "illustrationId": "ill-pro-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       }
     ]
   },
@@ -4777,7 +5396,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The fool’s talk brings a rod to his back, but the lips of the wise protect them.",
         "translation": "WEB",
         "illustrationId": "ill-pro-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-14:4",
@@ -4814,6 +5438,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "wisdom",
             "entityId": "char-lady-wisdom"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
           }
         ]
       },
@@ -4826,7 +5454,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Stay away from a foolish man, for you won’t find knowledge on his lips.",
         "translation": "WEB",
         "illustrationId": "ill-pro-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          }
+        ]
       },
       {
         "id": "PRO-14:8",
@@ -4841,6 +5474,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "wisdom",
             "entityId": "char-lady-wisdom"
+          },
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
           }
         ]
       },
@@ -4853,7 +5490,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Fools mock at making atonement for sins, but among the upright there is good will.",
         "translation": "WEB",
         "illustrationId": "ill-pro-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Fools",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-14:10",
@@ -4864,7 +5506,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The heart knows its own bitterness and joy; he will not share these with a stranger.",
         "translation": "WEB",
         "illustrationId": "ill-pro-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-14:11",
@@ -4897,7 +5544,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Even in laughter the heart may be sorrowful, and mirth may end in heaviness.",
         "translation": "WEB",
         "illustrationId": "ill-pro-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-14:14",
@@ -4930,7 +5582,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A wise man fears and shuns evil, but the fool is hot headed and reckless.",
         "translation": "WEB",
         "illustrationId": "ill-pro-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-14:17",
@@ -4952,7 +5609,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The simple inherit folly, but the prudent are crowned with knowledge.",
         "translation": "WEB",
         "illustrationId": "ill-pro-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          }
+        ]
       },
       {
         "id": "PRO-14:19",
@@ -4963,7 +5625,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The evil bow down before the good, and the wicked at the gates of the righteous.",
         "translation": "WEB",
         "illustrationId": "ill-pro-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-14:20",
@@ -5018,7 +5685,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The crown of the wise is their riches, but the folly of fools crowns them with folly.",
         "translation": "WEB",
         "illustrationId": "ill-pro-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-14:25",
@@ -5048,6 +5720,14 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "fear of Yahweh",
             "entityId": "term-fear-of-yahweh"
+          },
+          {
+            "spanText": "fortress",
+            "entityId": "term-shield-fortress"
+          },
+          {
+            "spanText": "refuge",
+            "entityId": "term-refuge"
           }
         ]
       },
@@ -5107,7 +5787,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The life of the body is a heart at peace, but envy rots the bones.",
         "translation": "WEB",
         "illustrationId": "ill-pro-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-14:31",
@@ -5129,7 +5814,16 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The wicked is brought down in his calamity, but in death, the righteous has a refuge.",
         "translation": "WEB",
         "illustrationId": "ill-pro-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "refuge",
+            "entityId": "term-refuge"
+          }
+        ]
       },
       {
         "id": "PRO-14:33",
@@ -5148,6 +5842,14 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          },
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
           }
         ]
       },
@@ -5160,7 +5862,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Righteousness exalts a nation, but sin is a disgrace to any people.",
         "translation": "WEB",
         "illustrationId": "ill-pro-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-14:35",
@@ -5215,6 +5922,14 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tongue",
             "entityId": "term-proverb-speech"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          },
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
           }
         ]
       },
@@ -5259,7 +5974,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A fool despises his father’s correction, but he who heeds reproof shows prudence.",
         "translation": "WEB",
         "illustrationId": "ill-pro-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-15:6",
@@ -5270,7 +5990,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "In the house of the righteous is much treasure, but the income of the wicked brings trouble.",
         "translation": "WEB",
         "illustrationId": "ill-pro-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-15:7",
@@ -5281,7 +6006,20 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The lips of the wise spread knowledge; not so with the heart of fools.",
         "translation": "WEB",
         "illustrationId": "ill-pro-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          },
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-15:8",
@@ -5296,6 +6034,14 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -5312,6 +6058,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -5339,6 +6089,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
           }
         ]
       },
@@ -5362,7 +6116,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A glad heart makes a cheerful face, but an aching heart breaks the spirit.",
         "translation": "WEB",
         "illustrationId": "ill-pro-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-15:14",
@@ -5377,6 +6136,18 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          },
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
           }
         ]
       },
@@ -5389,7 +6160,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the days of the afflicted are wretched, but one who has a cheerful heart enjoys a continual feast.",
         "translation": "WEB",
         "illustrationId": "ill-pro-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-15:16",
@@ -5442,7 +6218,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The way of the sluggard is like a thorn patch, but the path of the upright is a highway.",
         "translation": "WEB",
         "illustrationId": "ill-pro-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sluggard",
+            "entityId": "term-sluggard-ant"
+          }
+        ]
       },
       {
         "id": "PRO-15:20",
@@ -5506,7 +6287,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The path of life leads upward for the wise, to keep him from going downward to Sheol.",
         "translation": "WEB",
         "illustrationId": "ill-pro-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "PRO-15:25",
@@ -5560,7 +6346,16 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The heart of the righteous weighs answers, but the mouth of the wicked gushes out evil.",
         "translation": "WEB",
         "illustrationId": "ill-pro-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-15:29",
@@ -5575,6 +6370,14 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -5587,7 +6390,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The light of the eyes rejoices the heart. Good news gives health to the bones.",
         "translation": "WEB",
         "illustrationId": "ill-pro-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-15:31",
@@ -5670,6 +6478,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tongue",
             "entityId": "term-proverb-speech"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
           }
         ]
       },
@@ -5734,6 +6546,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
           }
         ]
       },
@@ -5782,7 +6598,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Better is a little with righteousness, than great revenues with injustice.",
         "translation": "WEB",
         "illustrationId": "ill-pro-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-16:9",
@@ -5797,6 +6618,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
           }
         ]
       },
@@ -5836,7 +6661,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "It is an abomination for kings to do wrong, for the throne is established by righteousness.",
         "translation": "WEB",
         "illustrationId": "ill-pro-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-16:13",
@@ -5847,7 +6677,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Righteous lips are the delight of kings. They value one who speaks the truth.",
         "translation": "WEB",
         "illustrationId": "ill-pro-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-16:14",
@@ -5949,7 +6784,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The wise in heart shall be called prudent. Pleasantness of the lips promotes instruction.",
         "translation": "WEB",
         "illustrationId": "ill-pro-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-16:22",
@@ -5964,6 +6804,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
           }
         ]
       },
@@ -5976,7 +6820,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The heart of the wise instructs his mouth, and adds learning to his lips.",
         "translation": "WEB",
         "illustrationId": "ill-pro-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-16:24",
@@ -6064,7 +6913,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Gray hair is a crown of glory. It is attained by a life of righteousness.",
         "translation": "WEB",
         "illustrationId": "ill-pro-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-16:32",
@@ -6191,7 +7045,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Arrogant speech isn’t fitting for a fool, much less do lying lips fit a prince.",
         "translation": "WEB",
         "illustrationId": "ill-pro-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-17:8",
@@ -6228,6 +7087,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
           }
         ]
       },
@@ -6251,7 +7114,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let a bear robbed of her cubs meet a man, rather than a fool in his folly.",
         "translation": "WEB",
         "illustrationId": "ill-pro-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-17:13",
@@ -6288,6 +7156,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -6308,6 +7180,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
           }
         ]
       },
@@ -6362,6 +7238,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "tongue",
             "entityId": "term-proverb-speech"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
           }
         ]
       },
@@ -6374,7 +7254,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He who becomes the father of a fool grieves. The father of a fool has no joy.",
         "translation": "WEB",
         "illustrationId": "ill-pro-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-17:22",
@@ -6385,7 +7270,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A cheerful heart makes good medicine, but a crushed spirit dries up the bones.",
         "translation": "WEB",
         "illustrationId": "ill-pro-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-17:23",
@@ -6415,6 +7305,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
           }
         ]
       },
@@ -6438,7 +7332,16 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Also to punish the righteous is not good, nor to flog officials for their integrity.",
         "translation": "WEB",
         "illustrationId": "ill-pro-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "integrity",
+            "entityId": "term-integrity"
+          }
+        ]
       },
       {
         "id": "PRO-17:27",
@@ -6453,6 +7356,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
           }
         ]
       },
@@ -6465,7 +7372,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Even a fool, when he keeps silent, is counted wise. When he shuts his lips, he is thought to be discerning.",
         "translation": "WEB",
         "illustrationId": "ill-pro-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       }
     ]
   },
@@ -6504,6 +7416,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
           }
         ]
       },
@@ -6554,7 +7470,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A fool’s lips come into strife, and his mouth invites beatings.",
         "translation": "WEB",
         "illustrationId": "ill-pro-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-18:7",
@@ -6565,7 +7486,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A fool’s mouth is his destruction, and his lips are a snare to his soul.",
         "translation": "WEB",
         "illustrationId": "ill-pro-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-18:8",
@@ -6602,6 +7528,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -6625,7 +7555,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Before destruction the heart of man is proud, but before honor is humility.",
         "translation": "WEB",
         "illustrationId": "ill-pro-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-18:13",
@@ -6658,7 +7593,16 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The heart of the discerning gets knowledge. The ear of the wise seeks knowledge.",
         "translation": "WEB",
         "illustrationId": "ill-pro-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-18:16",
@@ -6791,7 +7735,16 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Better is the poor who walks in his integrity than he who is perverse in his lips and is a fool.",
         "translation": "WEB",
         "illustrationId": "ill-pro-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "integrity",
+            "entityId": "term-integrity"
+          },
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-19:2",
@@ -6802,7 +7755,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "It isn’t good to have zeal without knowledge, nor being hasty with one’s feet and missing the way.",
         "translation": "WEB",
         "illustrationId": "ill-pro-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          }
+        ]
       },
       {
         "id": "PRO-19:3",
@@ -6817,6 +7775,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
           }
         ]
       },
@@ -6904,7 +7866,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Delicate living is not appropriate for a fool, much less for a servant to have rule over princes.",
         "translation": "WEB",
         "illustrationId": "ill-pro-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-19:11",
@@ -7039,6 +8006,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
           }
         ]
       },
@@ -7082,7 +8053,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sluggard buries his hand in the dish; he will not so much as bring it to his mouth again.",
         "translation": "WEB",
         "illustrationId": "ill-pro-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sluggard",
+            "entityId": "term-sluggard-ant"
+          }
+        ]
       },
       {
         "id": "PRO-19:25",
@@ -7097,6 +8073,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
           }
         ]
       },
@@ -7120,7 +8100,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If you stop listening to instruction, my son, you will stray from the words of knowledge.",
         "translation": "WEB",
         "illustrationId": "ill-pro-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          }
+        ]
       },
       {
         "id": "PRO-19:28",
@@ -7142,7 +8127,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Penalties are prepared for scoffers, and beatings for the backs of fools.",
         "translation": "WEB",
         "illustrationId": "ill-pro-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
+          }
+        ]
       }
     ]
   },
@@ -7188,7 +8178,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "It is an honor for a man to keep aloof from strife, but every fool will be quarreling.",
         "translation": "WEB",
         "illustrationId": "ill-pro-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-20:4",
@@ -7199,7 +8194,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sluggard will not plow by reason of the winter; therefore he shall beg in harvest, and have nothing.",
         "translation": "WEB",
         "illustrationId": "ill-pro-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sluggard",
+            "entityId": "term-sluggard-ant"
+          }
+        ]
       },
       {
         "id": "PRO-20:5",
@@ -7214,6 +8214,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
           }
         ]
       },
@@ -7237,7 +8241,16 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A righteous man walks in integrity. Blessed are his children after him.",
         "translation": "WEB",
         "illustrationId": "ill-pro-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "integrity",
+            "entityId": "term-integrity"
+          }
+        ]
       },
       {
         "id": "PRO-20:8",
@@ -7259,7 +8272,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Who can say, “I have made my heart pure. I am clean and without sin?”",
         "translation": "WEB",
         "illustrationId": "ill-pro-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-20:10",
@@ -7335,7 +8353,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "There is gold and abundance of rubies, but the lips of knowledge are a rare jewel.",
         "translation": "WEB",
         "illustrationId": "ill-pro-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          }
+        ]
       },
       {
         "id": "PRO-20:16",
@@ -7548,6 +8571,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
           }
         ]
       },
@@ -7580,6 +8607,14 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
           }
         ]
       },
@@ -7592,7 +8627,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A high look and a proud heart, the lamp of the wicked, is sin.",
         "translation": "WEB",
         "illustrationId": "ill-pro-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-21:5",
@@ -7678,6 +8718,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "wisdom",
             "entityId": "char-lady-wisdom"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
           }
         ]
       },
@@ -7690,7 +8734,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Righteous One considers the house of the wicked, and brings the wicked to ruin.",
         "translation": "WEB",
         "illustrationId": "ill-pro-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-21:13",
@@ -7723,7 +8772,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "It is joy to the righteous to do justice; but it is a destruction to the workers of iniquity.",
         "translation": "WEB",
         "illustrationId": "ill-pro-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-21:16",
@@ -7761,7 +8815,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The wicked is a ransom for the righteous, the treacherous for the upright.",
         "translation": "WEB",
         "illustrationId": "ill-pro-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-21:19",
@@ -7794,7 +8853,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He who follows after righteousness and kindness finds life, righteousness, and honor.",
         "translation": "WEB",
         "illustrationId": "ill-pro-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-21:22",
@@ -7843,7 +8907,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The desire of the sluggard kills him, for his hands refuse to labor.",
         "translation": "WEB",
         "illustrationId": "ill-pro-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sluggard",
+            "entityId": "term-sluggard-ant"
+          }
+        ]
       },
       {
         "id": "PRO-21:26",
@@ -7854,7 +8923,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "There are those who covet greedily all day long; but the righteous give and don’t withhold.",
         "translation": "WEB",
         "illustrationId": "ill-pro-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-21:27",
@@ -7865,7 +8939,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sacrifice of the wicked is an abomination— how much more, when he brings it with a wicked mind!",
         "translation": "WEB",
         "illustrationId": "ill-pro-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
+          }
+        ]
       },
       {
         "id": "PRO-21:28",
@@ -8075,7 +9154,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He who loves purity of heart and speaks gracefully is the king’s friend.",
         "translation": "WEB",
         "illustrationId": "ill-pro-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-22:12",
@@ -8090,6 +9174,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
           }
         ]
       },
@@ -8102,7 +9190,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sluggard says, “There is a lion outside! I will be killed in the streets!”",
         "translation": "WEB",
         "illustrationId": "ill-pro-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sluggard",
+            "entityId": "term-sluggard-ant"
+          }
+        ]
       },
       {
         "id": "PRO-22:14",
@@ -8129,7 +9222,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Folly is bound up in the heart of a child: the rod of discipline drives it far from him.",
         "translation": "WEB",
         "illustrationId": "ill-pro-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-22:16",
@@ -8151,7 +9249,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Turn your ear, and listen to the words of the wise. Apply your heart to my teaching.",
         "translation": "WEB",
         "illustrationId": "ill-pro-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-22:18",
@@ -8189,7 +9292,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Haven’t I written to you thirty excellent things of counsel and knowledge,",
         "translation": "WEB",
         "illustrationId": "ill-pro-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          }
+        ]
       },
       {
         "id": "PRO-22:21",
@@ -8388,7 +9496,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "for as he thinks about the cost, so he is. “Eat and drink!” he says to you, but his heart is not with you.",
         "translation": "WEB",
         "illustrationId": "ill-pro-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-23:8",
@@ -8414,6 +9527,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "wisdom",
             "entityId": "char-lady-wisdom"
+          },
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
           }
         ]
       },
@@ -8448,7 +9565,16 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Apply your heart to instruction, and your ears to the words of knowledge.",
         "translation": "WEB",
         "illustrationId": "ill-pro-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-23:13",
@@ -8470,7 +9596,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Punish him with the rod, and save his soul from Sheol.",
         "translation": "WEB",
         "illustrationId": "ill-pro-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "PRO-23:15",
@@ -8481,7 +9612,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "My son, if your heart is wise, then my heart will be glad, even mine.",
         "translation": "WEB",
         "illustrationId": "ill-pro-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-23:16",
@@ -8492,7 +9628,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yes, my heart will rejoice when your lips speak what is right.",
         "translation": "WEB",
         "illustrationId": "ill-pro-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-23:17",
@@ -8507,6 +9648,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
           }
         ]
       },
@@ -8530,7 +9675,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Listen, my son, and be wise, and keep your heart on the right path!",
         "translation": "WEB",
         "illustrationId": "ill-pro-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-23:20",
@@ -8594,7 +9744,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The father of the righteous has great joy. Whoever fathers a wise child delights in him.",
         "translation": "WEB",
         "illustrationId": "ill-pro-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-23:25",
@@ -8616,7 +9771,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "My son, give me your heart; and let your eyes keep in my ways.",
         "translation": "WEB",
         "illustrationId": "ill-pro-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-23:27",
@@ -8781,7 +9941,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "by knowledge the rooms are filled with all rare and beautiful treasure.",
         "translation": "WEB",
         "illustrationId": "ill-pro-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          }
+        ]
       },
       {
         "id": "PRO-24:5",
@@ -8818,6 +9983,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Wisdom",
             "entityId": "char-lady-wisdom"
+          },
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
           }
         ]
       },
@@ -8912,7 +10081,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t lay in wait, wicked man, against the habitation of the righteous. Don’t destroy his resting place;",
         "translation": "WEB",
         "illustrationId": "ill-pro-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-24:16",
@@ -8923,7 +10097,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "for a righteous man falls seven times and rises up again; but the wicked are overthrown by calamity.",
         "translation": "WEB",
         "illustrationId": "ill-pro-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-24:17",
@@ -8934,7 +10113,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t rejoice when your enemy falls. Don’t let your heart be glad when he is overthrown,",
         "translation": "WEB",
         "illustrationId": "ill-pro-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-24:18",
@@ -9021,7 +10205,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He who says to the wicked, “You are righteous,” peoples will curse him, and nations will abhor him—",
         "translation": "WEB",
         "illustrationId": "ill-pro-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-24:25",
@@ -9091,6 +10280,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "sluggard",
+            "entityId": "term-sluggard-ant"
           }
         ]
       },
@@ -9168,6 +10361,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hezekiah",
             "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -9180,7 +10377,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "It is the glory of God to conceal a thing, but the glory of kings is to search out a matter.",
         "translation": "WEB",
         "illustrationId": "ill-pro-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "PRO-25:3",
@@ -9213,7 +10415,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Take away the wicked from the king’s presence, and his throne will be established in righteousness.",
         "translation": "WEB",
         "illustrationId": "ill-pro-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-25:6",
@@ -9383,7 +10590,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "As one who takes away a garment in cold weather, or vinegar on soda, so is one who sings songs to a heavy heart.",
         "translation": "WEB",
         "illustrationId": "ill-pro-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-25:21",
@@ -9459,7 +10671,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Like a muddied spring and a polluted well, so is a righteous man who gives way before the wicked.",
         "translation": "WEB",
         "illustrationId": "ill-pro-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-25:27",
@@ -9505,7 +10722,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Like snow in summer, and as rain in harvest, so honor is not fitting for a fool.",
         "translation": "WEB",
         "illustrationId": "ill-pro-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-26:2",
@@ -9527,7 +10749,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A whip is for the horse, a bridle for the donkey, and a rod for the back of fools!",
         "translation": "WEB",
         "illustrationId": "ill-pro-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-26:4",
@@ -9538,7 +10765,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t answer a fool according to his folly, lest you also be like him.",
         "translation": "WEB",
         "illustrationId": "ill-pro-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-26:5",
@@ -9549,7 +10781,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Answer a fool according to his folly, lest he be wise in his own eyes.",
         "translation": "WEB",
         "illustrationId": "ill-pro-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-26:6",
@@ -9560,7 +10797,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "One who sends a message by the hand of a fool is cutting off feet and drinking violence.",
         "translation": "WEB",
         "illustrationId": "ill-pro-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-26:7",
@@ -9571,7 +10813,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Like the legs of the lame that hang loose, so is a parable in the mouth of fools.",
         "translation": "WEB",
         "illustrationId": "ill-pro-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-26:8",
@@ -9582,7 +10829,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "As one who binds a stone in a sling, so is he who gives honor to a fool.",
         "translation": "WEB",
         "illustrationId": "ill-pro-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-26:9",
@@ -9593,7 +10845,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Like a thorn bush that goes into the hand of a drunkard, so is a parable in the mouth of fools.",
         "translation": "WEB",
         "illustrationId": "ill-pro-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-26:10",
@@ -9604,7 +10861,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "As an archer who wounds all, so is he who hires a fool or he who hires those who pass by.",
         "translation": "WEB",
         "illustrationId": "ill-pro-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-26:11",
@@ -9615,7 +10877,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "As a dog that returns to his vomit, so is a fool who repeats his folly.",
         "translation": "WEB",
         "illustrationId": "ill-pro-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-26:12",
@@ -9626,7 +10893,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Do you see a man wise in his own eyes? There is more hope for a fool than for him.",
         "translation": "WEB",
         "illustrationId": "ill-pro-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-26:13",
@@ -9637,7 +10909,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sluggard says, “There is a lion in the road! A fierce lion roams the streets!”",
         "translation": "WEB",
         "illustrationId": "ill-pro-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sluggard",
+            "entityId": "term-sluggard-ant"
+          }
+        ]
       },
       {
         "id": "PRO-26:14",
@@ -9648,7 +10925,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "As the door turns on its hinges, so does the sluggard on his bed.",
         "translation": "WEB",
         "illustrationId": "ill-pro-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sluggard",
+            "entityId": "term-sluggard-ant"
+          }
+        ]
       },
       {
         "id": "PRO-26:15",
@@ -9659,7 +10941,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sluggard buries his hand in the dish. He is too lazy to bring it back to his mouth.",
         "translation": "WEB",
         "illustrationId": "ill-pro-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sluggard",
+            "entityId": "term-sluggard-ant"
+          }
+        ]
       },
       {
         "id": "PRO-26:16",
@@ -9670,7 +10957,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sluggard is wiser in his own eyes than seven men who answer with discretion.",
         "translation": "WEB",
         "illustrationId": "ill-pro-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sluggard",
+            "entityId": "term-sluggard-ant"
+          }
+        ]
       },
       {
         "id": "PRO-26:17",
@@ -9747,7 +11039,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Like silver dross on an earthen vessel are the lips of a fervent one with an evil heart.",
         "translation": "WEB",
         "illustrationId": "ill-pro-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-26:24",
@@ -9758,7 +11055,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A malicious man disguises himself with his lips, but he harbors evil in his heart.",
         "translation": "WEB",
         "illustrationId": "ill-pro-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-26:25",
@@ -9769,7 +11071,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When his speech is charming, don’t believe him, for there are seven abominations in his heart.",
         "translation": "WEB",
         "illustrationId": "ill-pro-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-26:26",
@@ -9842,7 +11149,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let another man praise you, and not your own mouth; a stranger, and not your own lips.",
         "translation": "WEB",
         "illustrationId": "ill-pro-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PRO-27:3",
@@ -9853,7 +11165,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A stone is heavy, and sand is a burden; but a fool’s provocation is heavier than both.",
         "translation": "WEB",
         "illustrationId": "ill-pro-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-27:4",
@@ -9919,7 +11236,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Perfume and incense bring joy to the heart; so does earnest counsel from a man’s friend.",
         "translation": "WEB",
         "illustrationId": "ill-pro-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-27:10",
@@ -9941,7 +11263,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Be wise, my son, and bring joy to my heart, then I can answer my tormentor.",
         "translation": "WEB",
         "illustrationId": "ill-pro-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-27:12",
@@ -10034,7 +11361,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Like water reflects a face, so a man’s heart reflects the man.",
         "translation": "WEB",
         "illustrationId": "ill-pro-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-27:20",
@@ -10045,7 +11377,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Sheol and Abaddon are never satisfied; and a man’s eyes are never satisfied.",
         "translation": "WEB",
         "illustrationId": "ill-pro-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "PRO-27:21",
@@ -10056,7 +11393,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The crucible is for silver, and the furnace for gold; but man is refined by his praise.",
         "translation": "WEB",
         "illustrationId": "ill-pro-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PRO-27:22",
@@ -10067,7 +11409,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Though you grind a fool in a mortar with a pestle along with grain, yet his foolishness will not be removed from him.",
         "translation": "WEB",
         "illustrationId": "ill-pro-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-27:23",
@@ -10146,7 +11493,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The wicked flee when no one pursues; but the righteous are as bold as a lion.",
         "translation": "WEB",
         "illustrationId": "ill-pro-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-28:2",
@@ -10161,6 +11513,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "understanding",
             "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
           }
         ]
       },
@@ -10184,7 +11540,16 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Those who forsake the law praise the wicked; but those who keep the law contend with them.",
         "translation": "WEB",
         "illustrationId": "ill-pro-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PRO-28:5",
@@ -10211,7 +11576,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Better is the poor who walks in his integrity, than he who is perverse in his ways, and he is rich.",
         "translation": "WEB",
         "illustrationId": "ill-pro-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "integrity",
+            "entityId": "term-integrity"
+          }
+        ]
       },
       {
         "id": "PRO-28:7",
@@ -10222,7 +11592,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whoever keeps the law is a wise son; but he who is a companion of gluttons shames his father.",
         "translation": "WEB",
         "illustrationId": "ill-pro-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PRO-28:8",
@@ -10244,7 +11619,16 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He who turns away his ear from hearing the law, even his prayer is an abomination.",
         "translation": "WEB",
         "illustrationId": "ill-pro-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PRO-28:10",
@@ -10255,7 +11639,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whoever causes the upright to go astray in an evil way, he will fall into his own trap; but the blameless will inherit good.",
         "translation": "WEB",
         "illustrationId": "ill-pro-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blameless",
+            "entityId": "term-integrity"
+          }
+        ]
       },
       {
         "id": "PRO-28:11",
@@ -10282,7 +11671,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the righteous triumph, there is great glory; but when the wicked rise, men hide themselves.",
         "translation": "WEB",
         "illustrationId": "ill-pro-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-28:13",
@@ -10304,7 +11698,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Blessed is the man who always fears; but one who hardens his heart falls into trouble.",
         "translation": "WEB",
         "illustrationId": "ill-pro-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-28:15",
@@ -10450,6 +11849,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "wisdom",
             "entityId": "char-lady-wisdom"
+          },
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
           }
         ]
       },
@@ -10473,7 +11876,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the wicked rise, men hide themselves; but when they perish, the righteous thrive.",
         "translation": "WEB",
         "illustrationId": "ill-pro-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       }
     ]
   },
@@ -10508,7 +11916,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the righteous thrive, the people rejoice; but when the wicked rule, the people groan.",
         "translation": "WEB",
         "illustrationId": "ill-pro-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-29:3",
@@ -10557,7 +11970,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "An evil man is snared by his sin, but the righteous can sing and be glad.",
         "translation": "WEB",
         "illustrationId": "ill-pro-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-29:7",
@@ -10568,7 +11986,16 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The righteous care about justice for the poor. The wicked aren’t concerned about knowledge.",
         "translation": "WEB",
         "illustrationId": "ill-pro-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          }
+        ]
       },
       {
         "id": "PRO-29:8",
@@ -10590,7 +12017,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If a wise man goes to court with a foolish man, the fool rages or scoffs, and there is no peace.",
         "translation": "WEB",
         "illustrationId": "ill-pro-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-29:10",
@@ -10601,7 +12033,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The bloodthirsty hate a man of integrity; and they seek the life of the upright.",
         "translation": "WEB",
         "illustrationId": "ill-pro-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "integrity",
+            "entityId": "term-integrity"
+          }
+        ]
       },
       {
         "id": "PRO-29:11",
@@ -10612,7 +12049,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A fool vents all of his anger, but a wise man brings himself under control.",
         "translation": "WEB",
         "illustrationId": "ill-pro-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-29:12",
@@ -10677,7 +12119,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the wicked increase, sin increases; but the righteous will see their downfall.",
         "translation": "WEB",
         "illustrationId": "ill-pro-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PRO-29:17",
@@ -10699,7 +12146,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Where there is no revelation, the people cast off restraint; but one who keeps the law is blessed.",
         "translation": "WEB",
         "illustrationId": "ill-pro-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PRO-29:19",
@@ -10721,7 +12173,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Do you see a man who is hasty in his words? There is more hope for a fool than for him.",
         "translation": "WEB",
         "illustrationId": "ill-pro-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-29:21",
@@ -10808,7 +12265,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A dishonest man detests the righteous, and the upright in their ways detest the wicked.",
         "translation": "WEB",
         "illustrationId": "ill-pro-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       }
     ]
   },
@@ -10868,6 +12330,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "wisdom",
             "entityId": "char-lady-wisdom"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
           }
         ]
       },
@@ -10891,7 +12357,20 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Every word of God is flawless. He is a shield to those who take refuge in him.",
         "translation": "WEB",
         "illustrationId": "ill-pro-30",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
+          },
+          {
+            "spanText": "refuge",
+            "entityId": "term-refuge"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "PRO-30:6",
@@ -10939,6 +12418,10 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
           }
         ]
       },
@@ -11017,7 +12500,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Sheol, the barren womb; the earth that is not satisfied with water; and the fire that doesn’t say, ‘Enough.’",
         "translation": "WEB",
         "illustrationId": "ill-pro-30",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "PRO-30:17",
@@ -11083,7 +12571,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For a servant when he is king, a fool when he is filled with food,",
         "translation": "WEB",
         "illustrationId": "ill-pro-30",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "PRO-30:23",
@@ -11282,7 +12775,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "lest they drink, and forget the law, and pervert the justice due to anyone who is afflicted.",
         "translation": "WEB",
         "illustrationId": "ill-pro-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PRO-31:6",
@@ -11348,7 +12846,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The heart of her husband trusts in her. He shall have no lack of gain.",
         "translation": "WEB",
         "illustrationId": "ill-pro-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "PRO-31:12",
@@ -11587,7 +13090,12 @@ export const PROVERBS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Give her of the fruit of her hands! Let her works praise her in the gates!",
         "translation": "WEB",
         "illustrationId": "ill-pro-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       }
     ]
   }
