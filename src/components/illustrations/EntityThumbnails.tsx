@@ -366,6 +366,10 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'term-fool-path': '/images/word-fool-path.jpg',
   'term-guard-heart': '/images/word-guard-heart.jpg',
   'term-sluggard-ant': '/images/pro-06.jpg',
+  'term-hevel': '/images/ecc-01.jpg',
+  'term-appointed-season': '/images/ecc-03.jpg',
+  'term-threefold-cord': '/images/ecc-04.jpg',
+  'term-daily-gift': '/images/ecc-09.jpg',
 };
 
 export interface ResolvedEntityAsset {

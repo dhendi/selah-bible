@@ -53,6 +53,14 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Vanity",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "vanities",
+            "entityId": "term-hevel"
+          },
+          {
+            "spanText": "vanity",
+            "entityId": "term-hevel"
           }
         ]
       },
@@ -182,6 +190,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -194,7 +206,20 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "I applied my heart to seek and to search out by wisdom concerning all that is done under the sky. It is a heavy burden that God has given to the sons of men to be afflicted with.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-1:14",
@@ -208,6 +233,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "linkedEntities": [
           {
             "spanText": "under the sun",
+            "entityId": "term-hevel"
+          },
+          {
+            "spanText": "vanity",
             "entityId": "term-hevel"
           }
         ]
@@ -236,6 +265,18 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
           }
         ]
       },
@@ -248,7 +289,16 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "I applied my heart to know wisdom, and to know madness and folly. I perceived that this also was a chasing after wind.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "ECC-1:18",
@@ -259,7 +309,16 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "For in much wisdom is much grief; and he who increases knowledge increases sorrow.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          }
+        ]
       }
     ]
   },
@@ -287,6 +346,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "vanity",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
           }
         ]
       },
@@ -310,7 +373,16 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "I searched in my heart how to cheer my flesh with wine, my heart yet guiding me with wisdom, and how to lay hold of folly, until I might see what it was good for the sons of men that they should do under heaven all the days of their lives.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "ECC-2:4",
@@ -385,6 +457,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
           }
         ]
       },
@@ -397,7 +473,16 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whatever my eyes desired, I didn’t keep from them. I didn’t withhold my heart from any joy, for my heart rejoiced because of all my labor, and this was my portion from all my labor.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          },
+          {
+            "spanText": "joy",
+            "entityId": "term-daily-gift"
+          }
+        ]
       },
       {
         "id": "ECC-2:11",
@@ -412,6 +497,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "vanity",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "under the sun",
+            "entityId": "term-hevel"
           }
         ]
       },
@@ -424,7 +513,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "I turned myself to consider wisdom, madness, and folly; for what can the king’s successor do? Just that which has been done long ago.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          }
+        ]
       },
       {
         "id": "ECC-2:13",
@@ -435,7 +529,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then I saw that wisdom excels folly, as far as light excels darkness.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          }
+        ]
       },
       {
         "id": "ECC-2:14",
@@ -446,7 +545,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The wise man’s eyes are in his head, and the fool walks in darkness—and yet I perceived that one event happens to them all.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "ECC-2:15",
@@ -461,6 +565,14 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "vanity",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          },
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
           }
         ]
       },
@@ -473,7 +585,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "For of the wise man, even as of the fool, there is no memory forever, since in the days to come all will have been long forgotten. Indeed, the wise man must die just like the fool!",
         "translation": "WEB",
         "illustrationId": "ill-ecc-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "ECC-2:17",
@@ -487,6 +604,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "linkedEntities": [
           {
             "spanText": "under the sun",
+            "entityId": "term-hevel"
+          },
+          {
+            "spanText": "vanity",
             "entityId": "term-hevel"
           }
         ]
@@ -520,6 +641,14 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "under the sun",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "vanity",
+            "entityId": "term-hevel"
+          },
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
           }
         ]
       },
@@ -536,6 +665,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "under the sun",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
           }
         ]
       },
@@ -552,6 +685,14 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "vanity",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
           }
         ]
       },
@@ -568,6 +709,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "under the sun",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
           }
         ]
       },
@@ -584,6 +729,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "vanity",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
           }
         ]
       },
@@ -596,7 +745,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "There is nothing better for a man than that he should eat and drink, and make his soul enjoy good in his labor. This also I saw, that it is from the hand of God.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-2:25",
@@ -622,6 +776,22 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "vanity",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "joy",
+            "entityId": "term-daily-gift"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
           }
         ]
       }
@@ -751,7 +921,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "I have seen the burden which God has given to the sons of men to be afflicted with.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-3:11",
@@ -766,6 +941,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "eternity",
             "entityId": "term-appointed-season"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
           }
         ]
       },
@@ -778,7 +957,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "I know that there is nothing better for them than to rejoice, and to do good as long as they live.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "rejoice",
+            "entityId": "term-daily-gift"
+          }
+        ]
       },
       {
         "id": "ECC-3:13",
@@ -789,7 +973,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Also that every man should eat and drink, and enjoy good in all his labor, is the gift of God.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-3:14",
@@ -800,7 +989,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "I know that whatever God does, it shall be forever. Nothing can be added to it, nor anything taken from it; and God has done it, that men should fear before him.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-3:15",
@@ -811,7 +1005,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "That which is has been long ago, and that which is to be has been long ago. God seeks again that which is passed away.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-3:16",
@@ -826,6 +1025,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "under the sun",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -838,7 +1041,20 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "I said in my heart, “God will judge the righteous and the wicked; for there is a time there for every purpose and for every work.”",
         "translation": "WEB",
         "illustrationId": "ill-ecc-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-3:18",
@@ -849,7 +1065,16 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "I said in my heart, “As for the sons of men, God tests them, so that they may see that they themselves are like animals.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-3:19",
@@ -898,7 +1123,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore I saw that there is nothing better than that a man should rejoice in his works; for that is his portion: for who can bring him to see what will be after him?",
         "translation": "WEB",
         "illustrationId": "ill-ecc-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "rejoice",
+            "entityId": "term-daily-gift"
+          }
+        ]
       }
     ]
   },
@@ -981,7 +1211,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The fool folds his hands together and ruins himself.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "ECC-4:6",
@@ -1006,6 +1241,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "linkedEntities": [
           {
             "spanText": "vanity",
+            "entityId": "term-hevel"
+          },
+          {
+            "spanText": "under the sun",
             "entityId": "term-hevel"
           }
         ]
@@ -1068,7 +1307,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "If a man prevails against one who is alone, two shall withstand him; and a threefold cord is not quickly broken.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "threefold cord",
+            "entityId": "term-threefold-cord"
+          }
+        ]
       },
       {
         "id": "ECC-4:13",
@@ -1121,6 +1365,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "vanity",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "rejoice",
+            "entityId": "term-daily-gift"
           }
         ]
       }
@@ -1146,7 +1394,20 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Guard your steps when you go to God’s house; for to draw near to listen is better than to give the sacrifice of fools, for they don’t know that they do evil.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
+          },
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-5:2",
@@ -1157,7 +1418,16 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t be rash with your mouth, and don’t let your heart be hasty to utter anything before God; for God is in heaven, and you on earth. Therefore let your words be few.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-5:3",
@@ -1168,7 +1438,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "For as a dream comes with a multitude of cares, so a fool’s speech with a multitude of words.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "ECC-5:4",
@@ -1179,7 +1454,16 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "When you vow a vow to God, don’t defer to pay it; for he has no pleasure in fools. Pay that which you vow.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-5:5",
@@ -1201,7 +1485,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t allow your mouth to lead you into sin. Don’t protest before the messenger that this was a mistake. Why should God be angry at your voice, and destroy the work of your hands?",
         "translation": "WEB",
         "illustrationId": "ill-ecc-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-5:7",
@@ -1212,7 +1501,16 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "For in the multitude of dreams there are vanities, as well as in many words; but you must fear God.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "vanities",
+            "entityId": "term-hevel"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-5:8",
@@ -1223,7 +1521,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "If you see the oppression of the poor, and the violent taking away of justice and righteousness in a district, don’t marvel at the matter, for one official is eyed by a higher one, and there are officials over them.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ECC-5:9",
@@ -1347,6 +1650,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "under the sun",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
           }
         ]
       },
@@ -1359,7 +1666,16 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Every man also to whom God has given riches and wealth, and has given him power to eat of it, and to take his portion, and to rejoice in his labor—this is the gift of God.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "rejoice",
+            "entityId": "term-daily-gift"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-5:20",
@@ -1370,7 +1686,20 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "For he shall not often reflect on the days of his life; because God occupies him with the joy of his heart.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          },
+          {
+            "spanText": "joy",
+            "entityId": "term-daily-gift"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       }
     ]
   },
@@ -1414,6 +1743,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "vanity",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
           }
         ]
       },
@@ -1486,7 +1819,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "For what advantage has the wise more than the fool? What has the poor man, that knows how to walk before the living?",
         "translation": "WEB",
         "illustrationId": "ill-ecc-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "ECC-6:9",
@@ -1580,7 +1918,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "It is better to go to the house of mourning than to go to the house of feasting; for that is the end of all men, and the living should take this to heart.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "ECC-7:3",
@@ -1591,7 +1934,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Sorrow is better than laughter; for by the sadness of the face the heart is made good.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "ECC-7:4",
@@ -1602,7 +1950,16 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The heart of the wise is in the house of mourning; but the heart of fools is in the house of mirth.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "ECC-7:5",
@@ -1613,7 +1970,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "It is better to hear the rebuke of the wise than for a man to hear the song of fools.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "ECC-7:6",
@@ -1628,6 +1990,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "vanity",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
           }
         ]
       },
@@ -1640,7 +2006,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Surely extortion makes the wise man foolish; and a bribe destroys the understanding.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "understanding",
+            "entityId": "term-chochmah"
+          }
+        ]
       },
       {
         "id": "ECC-7:8",
@@ -1662,7 +2033,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t be hasty in your spirit to be angry, for anger rests in the bosom of fools.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "ECC-7:10",
@@ -1684,7 +2060,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Wisdom is as good as an inheritance. Yes, it is more excellent for those who see the sun.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Wisdom",
+            "entityId": "term-chochmah"
+          }
+        ]
       },
       {
         "id": "ECC-7:12",
@@ -1695,7 +2076,16 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "For wisdom is a defense, even as money is a defense; but the excellency of knowledge is that wisdom preserves the life of him who has it.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          }
+        ]
       },
       {
         "id": "ECC-7:13",
@@ -1706,7 +2096,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Consider the work of God, for who can make that straight, which he has made crooked?",
         "translation": "WEB",
         "illustrationId": "ill-ecc-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-7:14",
@@ -1717,7 +2112,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "In the day of prosperity be joyful, and in the day of adversity consider; yes, God has made the one side by side with the other, to the end that man should not find out anything after him.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-7:15",
@@ -1732,6 +2132,14 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "vanity",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -1744,7 +2152,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t be overly righteous, neither make yourself overly wise. Why should you destroy yourself?",
         "translation": "WEB",
         "illustrationId": "ill-ecc-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ECC-7:17",
@@ -1766,7 +2179,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "It is good that you should take hold of this. Yes, also don’t withdraw your hand from that; for he who fears God will come out of them all.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-7:19",
@@ -1777,7 +2195,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Wisdom is a strength to the wise man more than ten rulers who are in a city.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Wisdom",
+            "entityId": "term-chochmah"
+          }
+        ]
       },
       {
         "id": "ECC-7:20",
@@ -1788,7 +2211,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Surely there is not a righteous man on earth who does good and doesn’t sin.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ECC-7:21",
@@ -1810,7 +2238,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "for often your own heart knows that you yourself have likewise cursed others.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "ECC-7:23",
@@ -1821,7 +2254,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "All this I have proved in wisdom. I said, “I will be wise;” but it was far from me.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          }
+        ]
       },
       {
         "id": "ECC-7:24",
@@ -1843,7 +2281,16 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "I turned around, and my heart sought to know and to search out, and to seek wisdom and the scheme of things, and to know that wickedness is stupidity, and that foolishness is madness.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "ECC-7:26",
@@ -1854,7 +2301,16 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "I find more bitter than death the woman whose heart is snares and traps, whose hands are chains. Whoever pleases God shall escape from her; but the sinner will be ensnared by her.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-7:27",
@@ -1892,7 +2348,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, I have only found this: that God made man upright; but they search for many schemes.”",
         "translation": "WEB",
         "illustrationId": "ill-ecc-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       }
     ]
   },
@@ -1916,7 +2377,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Who is like the wise man? And who knows the interpretation of a thing? A man’s wisdom makes his face shine, and the hardness of his face is changed.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          }
+        ]
       },
       {
         "id": "ECC-8:2",
@@ -1927,7 +2393,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "I say, “Keep the king’s command!” because of the oath to God.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-8:3",
@@ -1960,7 +2431,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whoever keeps the commandment shall not come to harm, and his wise heart will know the time and procedure.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "ECC-8:6",
@@ -2036,7 +2512,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Because sentence against an evil work is not executed speedily, therefore the heart of the sons of men is fully set in them to do evil.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "ECC-8:12",
@@ -2047,7 +2528,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Though a sinner commits crimes a hundred times, and lives long, yet surely I know that it will be better with those who fear God, who are reverent before him.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-8:13",
@@ -2058,7 +2544,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "But it shall not be well with the wicked, neither shall he lengthen days like a shadow, because he doesn’t fear God.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-8:14",
@@ -2073,6 +2564,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "vanity",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -2089,6 +2584,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "under the sun",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
           }
         ]
       },
@@ -2101,7 +2600,16 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "When I applied my heart to know wisdom, and to see the business that is done on the earth (even though eyes see no sleep day or night),",
         "translation": "WEB",
         "illustrationId": "ill-ecc-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          }
+        ]
       },
       {
         "id": "ECC-8:17",
@@ -2116,6 +2624,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "under the sun",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
           }
         ]
       }
@@ -2141,7 +2653,20 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "For all this I laid to my heart, even to explore all this: that the righteous, and the wise, and their works, are in the hand of God; whether it is love or hatred, man doesn’t know it; all is before them.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-9:2",
@@ -2152,7 +2677,16 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "All things come alike to all. There is one event to the righteous and to the wicked; to the good, to the clean, to the unclean, to him who sacrifices, and to him who doesn’t sacrifice. As is the good, so is the sinner; he who takes an oath, as he who fears an oath.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
+          }
+        ]
       },
       {
         "id": "ECC-9:3",
@@ -2167,6 +2701,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "under the sun",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
           }
         ]
       },
@@ -2217,7 +2755,20 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Go your way—eat your bread with joy, and drink your wine with a merry heart; for God has already accepted your works.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          },
+          {
+            "spanText": "joy",
+            "entityId": "term-daily-gift"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-9:8",
@@ -2243,6 +2794,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "vanity",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "under the sun",
+            "entityId": "term-hevel"
           }
         ]
       },
@@ -2255,7 +2810,20 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whatever your hand finds to do, do it with your might; for there is no work, nor plan, nor knowledge, nor wisdom, in Sheol, where you are going.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "ECC-9:11",
@@ -2270,6 +2838,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "under the sun",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "understanding",
+            "entityId": "term-chochmah"
           }
         ]
       },
@@ -2297,6 +2869,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "under the sun",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
           }
         ]
       },
@@ -2320,7 +2896,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now a poor wise man was found in it, and he by his wisdom delivered the city; yet no man remembered that same poor man.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          }
+        ]
       },
       {
         "id": "ECC-9:16",
@@ -2331,7 +2912,16 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then I said, “Wisdom is better than strength.” Nevertheless the poor man’s wisdom is despised, and his words are not heard.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Wisdom",
+            "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          }
+        ]
       },
       {
         "id": "ECC-9:17",
@@ -2342,7 +2932,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The words of the wise heard in quiet are better than the cry of him who rules among fools.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "ECC-9:18",
@@ -2353,7 +2948,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Wisdom is better than weapons of war; but one sinner destroys much good.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Wisdom",
+            "entityId": "term-chochmah"
+          }
+        ]
       }
     ]
   },
@@ -2377,7 +2977,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Dead flies cause the oil of the perfumer to produce an evil odor; so does a little folly outweigh wisdom and honor.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          }
+        ]
       },
       {
         "id": "ECC-10:2",
@@ -2388,7 +2993,16 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "A wise man’s heart is at his right hand, but a fool’s heart at his left.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          },
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "ECC-10:3",
@@ -2399,7 +3013,16 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yes also when the fool walks by the way, his understanding fails him, and he says to everyone that he is a fool.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "understanding",
+            "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "ECC-10:4",
@@ -2492,7 +3115,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "If the snake bites before it is charmed, then is there no profit for the charmer’s tongue.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "tongue",
+            "entityId": "term-proverb-speech"
+          }
+        ]
       },
       {
         "id": "ECC-10:12",
@@ -2503,7 +3131,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The words of a wise man’s mouth are gracious; but a fool is swallowed by his own lips.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "ECC-10:13",
@@ -2525,7 +3158,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "A fool also multiplies words. Man doesn’t know what will be; and that which will be after him, who can tell him?",
         "translation": "WEB",
         "illustrationId": "ill-ecc-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fool",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "ECC-10:15",
@@ -2536,7 +3174,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The labor of fools wearies every one of them; for he doesn’t know how to go to the city.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fools",
+            "entityId": "term-fool-path"
+          }
+        ]
       },
       {
         "id": "ECC-10:16",
@@ -2664,7 +3307,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "As you don’t know what is the way of the wind, nor how the bones grow in the womb of her who is with child; even so you don’t know the work of God who does all.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-11:6",
@@ -2701,6 +3349,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "vanity",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "rejoice",
+            "entityId": "term-daily-gift"
           }
         ]
       },
@@ -2713,7 +3365,20 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Rejoice, young man, in your youth, and let your heart cheer you in the days of your youth, and walk in the ways of your heart, and in the sight of your eyes; but know that for all these things God will bring you into judgment.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Rejoice",
+            "entityId": "term-daily-gift"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
+          },
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-11:10",
@@ -2728,6 +3393,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "vanity",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "heart",
+            "entityId": "term-guard-heart"
           }
         ]
       }
@@ -2753,7 +3422,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Remember also your Creator in the days of your youth, before the evil days come, and the years draw near, when you will say, “I have no pleasure in them;”",
         "translation": "WEB",
         "illustrationId": "ill-ecc-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Creator",
+            "entityId": "term-created"
+          }
+        ]
       },
       {
         "id": "ECC-12:2",
@@ -2819,7 +3493,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "and the dust returns to the earth as it was, and the spirit returns to God who gave it.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-12:8",
@@ -2838,6 +3517,14 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Vanity",
             "entityId": "term-hevel"
+          },
+          {
+            "spanText": "vanities",
+            "entityId": "term-hevel"
+          },
+          {
+            "spanText": "vanity",
+            "entityId": "term-hevel"
           }
         ]
       },
@@ -2854,6 +3541,10 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Preacher",
             "entityId": "char-qohelet"
+          },
+          {
+            "spanText": "knowledge",
+            "entityId": "term-knowledge"
           }
         ]
       },
@@ -2909,7 +3600,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "This is the end of the matter. All has been heard. Fear God and keep his commandments; for this is the whole duty of man.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       },
       {
         "id": "ECC-12:14",
@@ -2920,7 +3616,12 @@ export const ECCLESIASTES_CHAPTERS: Record<string, ChapterData> = {
         "text": "For God will bring every work into judgment, with every hidden thing, whether it is good, or whether it is evil.",
         "translation": "WEB",
         "illustrationId": "ill-ecc-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "God",
+            "entityId": "char-god"
+          }
+        ]
       }
     ]
   }
