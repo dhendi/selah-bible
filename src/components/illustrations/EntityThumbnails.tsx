@@ -355,6 +355,11 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'term-wisdom': '/images/job-28.jpg',
   'term-integrity': '/images/job-34.jpg',
   'term-job-restoration': '/images/job-42.jpg',
+  'place-hermon': '/images/word-mount-hermon.jpg',
+  'term-shield-fortress': '/images/word-shield-fortress.jpg',
+  'term-precepts': '/images/word-torah-precepts.jpg',
+  'term-praise': '/images/word-praise-harp.jpg',
+  'term-chochmah': '/images/pro-09.jpg',
 };
 
 export interface ResolvedEntityAsset {

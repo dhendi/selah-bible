@@ -36,6 +36,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -70,7 +74,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore the wicked shall not stand in the judgment, nor sinners in the congregation of the righteous.",
         "translation": "WEB",
         "illustrationId": "ill-psa-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-1:6",
@@ -85,6 +94,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       }
@@ -320,6 +333,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
           }
         ]
       },
@@ -428,6 +445,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -482,6 +507,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "sacrifices",
+            "entityId": "term-offering"
           }
         ]
       },
@@ -665,6 +698,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -724,6 +761,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
           }
         ]
       }
@@ -817,7 +862,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For in death there is no memory of you. In Sheol, who shall give you thanks?",
         "translation": "WEB",
         "illustrationId": "ill-psa-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "PSA-6:6",
@@ -870,6 +920,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -1014,6 +1068,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -1030,6 +1088,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -1046,6 +1108,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
           }
         ]
       },
@@ -1062,6 +1128,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -1133,6 +1203,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       }
@@ -1296,7 +1374,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will be glad and rejoice in you. I will sing praise to your name, O Most High.",
         "translation": "WEB",
         "illustrationId": "ill-psa-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-9:3",
@@ -1367,7 +1450,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He will judge the world in righteousness. He will administer judgment to the peoples in uprightness.",
         "translation": "WEB",
         "illustrationId": "ill-psa-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-9:9",
@@ -1418,6 +1506,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -1461,6 +1553,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -1504,6 +1600,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
           }
         ]
       },
@@ -1858,7 +1958,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If the foundations are destroyed, what can the righteous do?",
         "translation": "WEB",
         "illustrationId": "ill-psa-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-11:4",
@@ -1893,6 +1998,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -1920,6 +2029,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       }
@@ -2241,6 +2358,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -2281,6 +2402,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       }
@@ -2516,7 +2645,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For you will not leave my soul in Sheol, neither will you allow your holy one to see corruption.",
         "translation": "WEB",
         "illustrationId": "ill-psa-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "PSA-16:11",
@@ -2555,6 +2689,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -2734,7 +2876,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "As for me, I shall see your face in righteousness. I shall be satisfied, when I awake, with seeing your form.",
         "translation": "WEB",
         "illustrationId": "ill-psa-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       }
     ]
   },
@@ -2790,6 +2937,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "rock",
             "entityId": "term-rock-salvation"
+          },
+          {
+            "spanText": "fortress",
+            "entityId": "term-shield-fortress"
+          },
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
           }
         ]
       },
@@ -2829,7 +2984,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The cords of Sheol were around me. The snares of death came on me.",
         "translation": "WEB",
         "illustrationId": "ill-psa-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "PSA-18:6",
@@ -3026,6 +3186,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -3084,6 +3248,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -3177,6 +3345,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "refuge",
             "entityId": "term-refuge"
+          },
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
           }
         ]
       },
@@ -3251,7 +3423,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You have also given me the shield of your salvation. Your right hand sustains me. Your gentleness has made me great.",
         "translation": "WEB",
         "illustrationId": "ill-psa-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
+          }
+        ]
       },
       {
         "id": "PSA-18:36",
@@ -3432,6 +3609,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -3560,6 +3741,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -3576,6 +3761,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
           }
         ]
       },
@@ -3592,6 +3781,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -3689,6 +3882,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -3721,7 +3918,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "remember all your offerings, and accept your burned sacrifice.",
         "translation": "WEB",
         "illustrationId": "ill-psa-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
+          }
+        ]
       },
       {
         "id": "PSA-20:4",
@@ -3998,6 +4200,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       }
@@ -4055,7 +4261,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But you are holy, you who inhabit the praises of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-psa-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "PSA-22:4",
@@ -4164,7 +4379,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Many bulls have surrounded me. Strong bulls of Bashan have encircled me.",
         "translation": "WEB",
         "illustrationId": "ill-psa-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "PSA-22:13",
@@ -4279,7 +4499,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will declare your name to my brothers. Among the assembly, I will praise you.",
         "translation": "WEB",
         "illustrationId": "ill-psa-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-22:23",
@@ -4294,6 +4519,18 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -4317,7 +4554,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "My praise of you comes in the great assembly. I will pay my vows before those who fear him.",
         "translation": "WEB",
         "illustrationId": "ill-psa-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-22:26",
@@ -4332,6 +4574,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -4398,7 +4644,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They shall come and shall declare his righteousness to a people that shall be born, for he has done it.",
         "translation": "WEB",
         "illustrationId": "ill-psa-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       }
     ]
   },
@@ -4453,7 +4704,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He restores my soul. He guides me in the paths of righteousness for his name’s sake.",
         "translation": "WEB",
         "illustrationId": "ill-psa-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-23:4",
@@ -4581,6 +4837,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -4593,7 +4853,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "This is the generation of those who seek Him, who seek your face—even Jacob.",
         "translation": "WEB",
         "illustrationId": "ill-psa-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "PSA-24:7",
@@ -4825,6 +5090,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "testimonies",
+            "entityId": "term-precepts"
           }
         ]
       },
@@ -4991,6 +5260,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -5090,6 +5363,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -5269,6 +5546,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "sacrifices",
+            "entityId": "term-offering"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -5506,6 +5791,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
           }
         ]
       },
@@ -5639,6 +5928,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
           }
         ]
       },
@@ -5651,7 +5944,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He makes them also to skip like a calf; Lebanon and Sirion like a young, wild ox.",
         "translation": "WEB",
         "illustrationId": "ill-psa-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          }
+        ]
       },
       {
         "id": "PSA-29:7",
@@ -5799,6 +6097,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
           }
         ]
       },
@@ -5815,6 +6117,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -5881,7 +6187,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“What profit is there in my destruction, if I go down to the pit? Shall the dust praise you? Shall it declare your truth?",
         "translation": "WEB",
         "illustrationId": "ill-psa-30",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-30:10",
@@ -5927,6 +6238,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       }
@@ -5960,6 +6275,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "refuge",
             "entityId": "term-refuge"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -5992,6 +6311,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "rock",
             "entityId": "term-rock-salvation"
+          },
+          {
+            "spanText": "fortress",
+            "entityId": "term-shield-fortress"
           }
         ]
       },
@@ -6189,6 +6512,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
           }
         ]
       },
@@ -6201,7 +6528,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let the lying lips be mute, which speak against the righteous insolently, with pride and contempt.",
         "translation": "WEB",
         "illustrationId": "ill-psa-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-31:19",
@@ -6247,6 +6579,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -6413,7 +6749,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t be like the horse, or like the mule, which have no understanding, who are controlled by bit and bridle, or else they will not come near to you.",
         "translation": "WEB",
         "illustrationId": "ill-psa-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "understanding",
+            "entityId": "term-chochmah"
+          }
+        ]
       },
       {
         "id": "PSA-32:10",
@@ -6448,6 +6789,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       }
@@ -6477,6 +6822,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -6493,6 +6846,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -6540,6 +6897,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -6753,6 +7114,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
           }
         ]
       },
@@ -6813,6 +7178,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -7021,6 +7390,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -7053,6 +7426,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -7085,6 +7462,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -7108,7 +7489,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Evil shall kill the wicked. Those who hate the righteous shall be condemned.",
         "translation": "WEB",
         "illustrationId": "ill-psa-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-34:22",
@@ -7168,7 +7554,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Take hold of shield and buckler, and stand up for my help.",
         "translation": "WEB",
         "illustrationId": "ill-psa-35",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
+          }
+        ]
       },
       {
         "id": "PSA-35:3",
@@ -7309,7 +7700,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But as for me, when they were sick, my clothing was sackcloth. I afflicted my soul with fasting. My prayer returned into my own bosom.",
         "translation": "WEB",
         "illustrationId": "ill-psa-35",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          }
+        ]
       },
       {
         "id": "PSA-35:14",
@@ -7364,7 +7760,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will give you thanks in the great assembly. I will praise you among many people.",
         "translation": "WEB",
         "illustrationId": "ill-psa-35",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-35:19",
@@ -7448,6 +7849,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -7486,6 +7891,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -7498,7 +7907,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "My tongue shall talk about your righteousness and about your praise all day long.",
         "translation": "WEB",
         "illustrationId": "ill-psa-35",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       }
     ]
   },
@@ -7599,6 +8017,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -7661,6 +8083,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -7778,7 +8204,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "he will make your righteousness shine out like light, and your justice as the noon day sun.",
         "translation": "WEB",
         "illustrationId": "ill-psa-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-37:7",
@@ -7898,7 +8329,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Better is a little that the righteous has, than the abundance of many wicked.",
         "translation": "WEB",
         "illustrationId": "ill-psa-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-37:17",
@@ -7913,6 +8349,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -7968,7 +8408,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The wicked borrow, and don’t pay back, but the righteous give generously.",
         "translation": "WEB",
         "illustrationId": "ill-psa-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-37:22",
@@ -8022,7 +8467,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I have been young, and now am old, yet I have not seen the righteous forsaken, nor his children begging for bread.",
         "translation": "WEB",
         "illustrationId": "ill-psa-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-37:26",
@@ -8071,7 +8521,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The righteous shall inherit the land, and live in it forever.",
         "translation": "WEB",
         "illustrationId": "ill-psa-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-37:30",
@@ -8082,7 +8537,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The mouth of the righteous talks of wisdom. His tongue speaks justice.",
         "translation": "WEB",
         "illustrationId": "ill-psa-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          }
+        ]
       },
       {
         "id": "PSA-37:31",
@@ -8097,6 +8561,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -8109,7 +8577,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The wicked watch the righteous, and seek to kill him.",
         "translation": "WEB",
         "illustrationId": "ill-psa-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-37:33",
@@ -8200,6 +8673,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -8653,6 +9130,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -8729,6 +9210,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -8777,7 +9262,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Sacrifice and offering you didn’t desire. You have opened my ears. You have not required burnt offering and sin offering.",
         "translation": "WEB",
         "illustrationId": "ill-psa-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "Sacrifice",
+            "entityId": "term-offering"
+          }
+        ]
       },
       {
         "id": "PSA-40:7",
@@ -8803,6 +9297,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -8819,6 +9317,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -8835,6 +9337,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -9126,6 +9632,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -9203,6 +9713,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -9219,6 +9733,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -9235,6 +9753,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Hermon",
+            "entityId": "place-hermon"
+          },
+          {
+            "spanText": "Jordan",
+            "entityId": "place-jordan"
           }
         ]
       },
@@ -9270,6 +9796,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -9322,6 +9852,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       }
@@ -9394,6 +9928,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -9410,6 +9952,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       }
@@ -9477,6 +10023,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -9811,7 +10361,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "In your majesty ride on victoriously on behalf of truth, humility, and righteousness. Let your right hand display awesome deeds.",
         "translation": "WEB",
         "illustrationId": "ill-psa-45",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-45:5",
@@ -9857,6 +10412,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "anointed",
             "entityId": "term-anointed"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -9913,7 +10472,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The daughter of Tyre comes with a gift. The rich among the people entreat your favor.",
         "translation": "WEB",
         "illustrationId": "ill-psa-45",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
+          }
+        ]
       },
       {
         "id": "PSA-45:13",
@@ -10089,6 +10653,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "refuge",
             "entityId": "term-refuge"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -10156,6 +10724,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "refuge",
             "entityId": "term-refuge"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       }
@@ -10224,7 +10796,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He chooses our inheritance for us, the glory of Jacob whom he loved.",
         "translation": "WEB",
         "illustrationId": "ill-psa-47",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "PSA-47:5",
@@ -10259,6 +10836,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -10275,6 +10856,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "understanding",
+            "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -10307,6 +10896,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
           }
         ]
       }
@@ -10480,6 +11073,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -10496,6 +11097,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -10586,7 +11191,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "My mouth will speak words of wisdom. My heart will utter understanding.",
         "translation": "WEB",
         "illustrationId": "ill-psa-49",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "understanding",
+            "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          }
+        ]
       },
       {
         "id": "PSA-49:4",
@@ -10716,6 +11330,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "shepherd",
             "entityId": "term-psalm-shepherd"
+          },
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
           }
         ]
       },
@@ -10732,6 +11350,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
           }
         ]
       },
@@ -10766,7 +11388,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Though while he lived he blessed his soul— and men praise you when you do well for yourself—",
         "translation": "WEB",
         "illustrationId": "ill-psa-49",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-49:19",
@@ -10788,7 +11415,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "A man who has riches without understanding, is like the animals that perish.",
         "translation": "WEB",
         "illustrationId": "ill-psa-49",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "understanding",
+            "entityId": "term-chochmah"
+          }
+        ]
       }
     ]
   },
@@ -10883,6 +11515,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
           }
         ]
       },
@@ -10899,6 +11535,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -10915,6 +11555,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10927,7 +11571,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I don’t rebuke you for your sacrifices. Your burnt offerings are continually before me.",
         "translation": "WEB",
         "illustrationId": "ill-psa-50",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sacrifices",
+            "entityId": "term-offering"
+          }
+        ]
       },
       {
         "id": "PSA-50:9",
@@ -10997,6 +11650,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
           }
         ]
       },
@@ -11115,6 +11772,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
           }
         ]
       }
@@ -11204,7 +11865,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, you desire truth in the inward parts. You teach me wisdom in the inmost place.",
         "translation": "WEB",
         "illustrationId": "ill-psa-51",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          }
+        ]
       },
       {
         "id": "PSA-51:7",
@@ -11264,7 +11930,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t throw me from your presence, and don’t take your Holy Spirit from me.",
         "translation": "WEB",
         "illustrationId": "ill-psa-51",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Holy Spirit",
+            "entityId": "term-ruach"
+          }
+        ]
       },
       {
         "id": "PSA-51:12",
@@ -11301,6 +11972,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -11313,7 +11988,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Lord, open my lips. My mouth will declare your praise.",
         "translation": "WEB",
         "illustrationId": "ill-psa-51",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-51:16",
@@ -11324,7 +12004,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For you don’t delight in sacrifice, or else I would give it. You have no pleasure in burnt offering.",
         "translation": "WEB",
         "illustrationId": "ill-psa-51",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
+          }
+        ]
       },
       {
         "id": "PSA-51:17",
@@ -11339,6 +12028,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "sacrifices",
+            "entityId": "term-offering"
           }
         ]
       },
@@ -11355,6 +12048,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
           }
         ]
       },
@@ -11367,7 +12064,24 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then you will delight in the sacrifices of righteousness, in burnt offerings and in whole burnt offerings. Then they will offer bulls on your altar.",
         "translation": "WEB",
         "illustrationId": "ill-psa-51",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "sacrifices",
+            "entityId": "term-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       }
     ]
   },
@@ -11460,7 +12174,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The righteous also will see it, and fear, and laugh at him, saying,",
         "translation": "WEB",
         "illustrationId": "ill-psa-52",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-52:7",
@@ -11614,6 +12333,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       }
@@ -11659,6 +12386,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -11718,6 +12449,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
           }
         ]
       },
@@ -11758,6 +12493,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -11918,7 +12657,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let death come suddenly on them. Let them go down alive into Sheol. For wickedness is among them, in their dwelling.",
         "translation": "WEB",
         "illustrationId": "ill-psa-55",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "PSA-55:16",
@@ -12018,6 +12762,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -12101,6 +12849,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -12186,6 +12938,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -12357,6 +13113,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -12380,7 +13140,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will give thanks to you, Lord, among the peoples. I will sing praises to you among the nations.",
         "translation": "WEB",
         "illustrationId": "ill-psa-57",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-57:10",
@@ -12436,7 +13201,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Do you indeed speak righteousness, silent ones? Do you judge blamelessly, you sons of men?",
         "translation": "WEB",
         "illustrationId": "ill-psa-58",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-58:2",
@@ -12544,7 +13314,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The righteous shall rejoice when he sees the vengeance. He shall wash his feet in the blood of the wicked,",
         "translation": "WEB",
         "illustrationId": "ill-psa-58",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-58:11",
@@ -12559,6 +13334,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       }
@@ -12646,6 +13425,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12732,7 +13515,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t kill them, or my people may forget. Scatter them by your power, and bring them down, Lord our shield.",
         "translation": "WEB",
         "illustrationId": "ill-psa-59",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
+          }
+        ]
       },
       {
         "id": "PSA-59:12",
@@ -12758,6 +13546,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -12816,6 +13608,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
           }
         ]
       }
@@ -12921,7 +13717,24 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Gilead is mine, and Manasseh is mine. Ephraim also is the defense of my head. Judah is my scepter.",
         "translation": "WEB",
         "illustrationId": "ill-psa-60",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "PSA-60:8",
@@ -12932,7 +13745,20 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Moab is my wash basin. I will throw my sandal on Edom. I shout in triumph over Philistia.”",
         "translation": "WEB",
         "illustrationId": "ill-psa-60",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistia",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "PSA-60:9",
@@ -12943,7 +13769,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Who will bring me into the strong city? Who has led me to Edom?",
         "translation": "WEB",
         "illustrationId": "ill-psa-60",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "PSA-60:10",
@@ -13014,6 +13845,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -13121,7 +13956,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So I will sing praise to your name forever, that I may fulfill my vows daily.",
         "translation": "WEB",
         "illustrationId": "ill-psa-61",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       }
     ]
   },
@@ -13165,6 +14005,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "rock",
             "entityId": "term-rock-salvation"
+          },
+          {
+            "spanText": "fortress",
+            "entityId": "term-shield-fortress"
           }
         ]
       },
@@ -13219,6 +14063,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "rock",
             "entityId": "term-rock-salvation"
+          },
+          {
+            "spanText": "fortress",
+            "entityId": "term-shield-fortress"
           }
         ]
       },
@@ -13378,6 +14226,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -13401,7 +14253,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "My soul shall be satisfied as with the richest food. My mouth shall praise you with joyful lips,",
         "translation": "WEB",
         "illustrationId": "ill-psa-63",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-63:6",
@@ -13471,6 +14328,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       }
@@ -13618,6 +14479,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "refuge",
             "entityId": "term-refuge"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       }
@@ -13651,6 +14520,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -13663,7 +14536,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You who hear prayer, all men will come to you.",
         "translation": "WEB",
         "illustrationId": "ill-psa-65",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          }
+        ]
       },
       {
         "id": "PSA-65:3",
@@ -13705,6 +14583,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -13839,7 +14721,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Sing to the glory of his name! Offer glory and praise!",
         "translation": "WEB",
         "illustrationId": "ill-psa-66",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-66:3",
@@ -13919,6 +14806,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -13984,6 +14879,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -14007,7 +14906,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will offer to you burnt offerings of fat animals, with the offering of rams, I will offer bulls with goats.",
         "translation": "WEB",
         "illustrationId": "ill-psa-66",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "PSA-66:16",
@@ -14060,6 +14964,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -14080,6 +14988,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       }
@@ -14136,6 +15048,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -14163,6 +15079,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -14256,6 +15176,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -14272,6 +15196,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -14336,6 +15264,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Sinai",
+            "entityId": "place-sinai"
           }
         ]
       },
@@ -14429,7 +15365,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The mountains of Bashan are majestic mountains. The mountains of Bashan are rugged.",
         "translation": "WEB",
         "illustrationId": "ill-psa-68",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "PSA-68:16",
@@ -14468,6 +15409,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "sanctuary",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "Sinai",
+            "entityId": "place-sinai"
           }
         ]
       },
@@ -14548,7 +15493,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Lord said, “I will bring you again from Bashan, I will bring you again from the depths of the sea,",
         "translation": "WEB",
         "illustrationId": "ill-psa-68",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "PSA-68:23",
@@ -14605,6 +15555,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -14617,7 +15571,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "There is little Benjamin, their ruler, the princes of Judah, their council, the princes of Zebulun, and the princes of Naphtali.",
         "translation": "WEB",
         "illustrationId": "ill-psa-68",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "PSA-68:28",
@@ -14679,6 +15642,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
           }
         ]
       },
@@ -14695,6 +15662,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -14722,6 +15693,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -14738,6 +15713,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
           }
         ]
       }
@@ -14841,6 +15824,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -14931,6 +15918,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -15095,7 +16086,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Charge them with crime upon crime. Don’t let them come into your righteousness.",
         "translation": "WEB",
         "illustrationId": "ill-psa-69",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-69:28",
@@ -15106,7 +16102,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let them be blotted out of the book of life, and not be written with the righteous.",
         "translation": "WEB",
         "illustrationId": "ill-psa-69",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-69:29",
@@ -15137,6 +16138,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -15197,7 +16202,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let heaven and earth praise him; the seas, and everything that moves therein!",
         "translation": "WEB",
         "illustrationId": "ill-psa-69",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-69:35",
@@ -15216,6 +16226,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -15363,7 +16377,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Deliver me in your righteousness, and rescue me. Turn your ear to me, and save me.",
         "translation": "WEB",
         "illustrationId": "ill-psa-71",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-71:3",
@@ -15382,6 +16401,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "rock",
             "entityId": "term-rock-salvation"
+          },
+          {
+            "spanText": "fortress",
+            "entityId": "term-shield-fortress"
           }
         ]
       },
@@ -15426,7 +16449,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I have relied on you from the womb. You are he who took me out of my mother’s womb. I will always praise you.",
         "translation": "WEB",
         "illustrationId": "ill-psa-71",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-71:7",
@@ -15453,7 +16481,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "My mouth shall be filled with your praise, with your honor all day long.",
         "translation": "WEB",
         "illustrationId": "ill-psa-71",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-71:9",
@@ -15529,7 +16562,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But I will always hope, and will add to all of your praise.",
         "translation": "WEB",
         "illustrationId": "ill-psa-71",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-71:15",
@@ -15540,7 +16578,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "My mouth will tell about your righteousness, and of your salvation all day, though I don’t know its full measure.",
         "translation": "WEB",
         "illustrationId": "ill-psa-71",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-71:16",
@@ -15555,6 +16598,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -15603,6 +16650,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -15641,6 +16692,18 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -15653,7 +16716,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "My lips shall shout for joy! My soul, which you have redeemed, sings praises to you!",
         "translation": "WEB",
         "illustrationId": "ill-psa-71",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-71:24",
@@ -15664,7 +16732,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "My tongue will also talk about your righteousness all day long, for they are disappointed, and they are confounded, who want to harm me.",
         "translation": "WEB",
         "illustrationId": "ill-psa-71",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       }
     ]
   },
@@ -15692,6 +16765,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -15704,7 +16781,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He will judge your people with righteousness, and your poor with justice.",
         "translation": "WEB",
         "illustrationId": "ill-psa-72",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-72:3",
@@ -15715,7 +16797,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The mountains shall bring prosperity to the people. The hills bring the fruit of righteousness.",
         "translation": "WEB",
         "illustrationId": "ill-psa-72",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-72:4",
@@ -15759,7 +16846,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "In his days, the righteous shall flourish, and abundance of peace, until the moon is no more.",
         "translation": "WEB",
         "illustrationId": "ill-psa-72",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-72:8",
@@ -15858,7 +16950,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Abundance of grain shall be throughout the land. Its fruit sways like Lebanon. Let it flourish, thriving like the grass of the field.",
         "translation": "WEB",
         "illustrationId": "ill-psa-72",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          }
+        ]
       },
       {
         "id": "PSA-72:17",
@@ -15888,6 +16985,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -15944,6 +17049,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -16563,7 +17672,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t let the oppressed return ashamed. Let the poor and needy praise your name.",
         "translation": "WEB",
         "illustrationId": "ill-psa-74",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-74:22",
@@ -16721,6 +17835,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -16733,7 +17855,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will cut off all the horns of the wicked, but the horns of the righteous shall be lifted up.",
         "translation": "WEB",
         "illustrationId": "ill-psa-75",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       }
     ]
   },
@@ -16761,6 +17888,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -16789,7 +17924,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "There he broke the flaming arrows of the bow, the shield, and the sword, and the weapons of war.",
         "translation": "WEB",
         "illustrationId": "ill-psa-76",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
+          }
+        ]
       },
       {
         "id": "PSA-76:4",
@@ -16826,6 +17966,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -16876,7 +18020,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Surely the wrath of man praises you. The survivors of your wrath are restrained.",
         "translation": "WEB",
         "illustrationId": "ill-psa-76",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-76:11",
@@ -17119,7 +18268,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You have redeemed your people with your arm, the sons of Jacob and Joseph.",
         "translation": "WEB",
         "illustrationId": "ill-psa-77",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          }
+        ]
       },
       {
         "id": "PSA-77:16",
@@ -17183,6 +18341,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
           }
         ]
       }
@@ -17245,6 +18407,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -17261,6 +18427,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -17316,7 +18490,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Ephraim, being armed and carrying bows, turned back in the day of battle.",
         "translation": "WEB",
         "illustrationId": "ill-psa-78",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "PSA-78:10",
@@ -17335,6 +18514,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -17358,7 +18541,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He did marvelous things in the sight of their fathers, in the land of Egypt, in the field of Zoan.",
         "translation": "WEB",
         "illustrationId": "ill-psa-78",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "PSA-78:13",
@@ -17481,6 +18669,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -17601,6 +18797,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -17735,6 +18935,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -17758,7 +18962,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "how he set his signs in Egypt, his wonders in the field of Zoan,",
         "translation": "WEB",
         "illustrationId": "ill-psa-78",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "PSA-78:44",
@@ -17846,7 +19055,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and struck all the firstborn in Egypt, the chief of their strength in the tents of Ham.",
         "translation": "WEB",
         "illustrationId": "ill-psa-78",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "PSA-78:52",
@@ -17895,7 +19109,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He also drove out the nations before them, allotted them for an inheritance by line, and made the tribes of Israel to dwell in their tents.",
         "translation": "WEB",
         "illustrationId": "ill-psa-78",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "PSA-78:56",
@@ -17910,6 +19129,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "testimonies",
+            "entityId": "term-precepts"
           }
         ]
       },
@@ -17948,6 +19171,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -18004,7 +19231,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Their priests fell by the sword, and their widows couldn’t weep.",
         "translation": "WEB",
         "illustrationId": "ill-psa-78",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "PSA-78:65",
@@ -18037,7 +19269,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Moreover he rejected the tent of Joseph, and didn’t choose the tribe of Ephraim,",
         "translation": "WEB",
         "illustrationId": "ill-psa-78",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          }
+        ]
       },
       {
         "id": "PSA-78:68",
@@ -18052,6 +19293,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -18100,6 +19345,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "shepherd",
             "entityId": "term-psalm-shepherd"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -18230,7 +19483,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "for they have devoured Jacob, and destroyed his homeland.",
         "translation": "WEB",
         "illustrationId": "ill-psa-79",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "PSA-79:8",
@@ -18306,7 +19564,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So we, your people and sheep of your pasture, will give you thanks forever. We will praise you forever, to all generations.",
         "translation": "WEB",
         "illustrationId": "ill-psa-79",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       }
     ]
   },
@@ -18334,6 +19597,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Shepherd",
             "entityId": "term-psalm-shepherd"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
           }
         ]
       },
@@ -18346,7 +19617,20 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Before Ephraim and Benjamin and Manasseh, stir up your might! Come to save us!",
         "translation": "WEB",
         "illustrationId": "ill-psa-80",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "PSA-80:3",
@@ -18381,6 +19665,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -18431,7 +19719,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You brought a vine out of Egypt. You drove out the nations, and planted it.",
         "translation": "WEB",
         "illustrationId": "ill-psa-80",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "PSA-80:9",
@@ -18599,6 +19892,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -18637,6 +19934,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -18653,6 +19958,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          },
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
           }
         ]
       },
@@ -18687,7 +20000,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Hear, my people, and I will testify to you, Israel, if you would listen to me!",
         "translation": "WEB",
         "illustrationId": "ill-psa-81",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "PSA-81:9",
@@ -18717,6 +20035,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
           }
         ]
       },
@@ -18729,7 +20051,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But my people didn’t listen to my voice. Israel desired none of me.",
         "translation": "WEB",
         "illustrationId": "ill-psa-81",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "PSA-81:12",
@@ -18751,7 +20078,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Oh that my people would listen to me, that Israel would walk in my ways!",
         "translation": "WEB",
         "illustrationId": "ill-psa-81",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "PSA-81:14",
@@ -18967,7 +20299,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Come,” they say, “let’s destroy them as a nation, that the name of Israel may be remembered no more.”",
         "translation": "WEB",
         "illustrationId": "ill-psa-83",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "PSA-83:5",
@@ -18989,7 +20326,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The tents of Edom and the Ishmaelites; Moab, and the Hagrites;",
         "translation": "WEB",
         "illustrationId": "ill-psa-83",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "PSA-83:7",
@@ -19000,7 +20346,24 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Gebal, Ammon, and Amalek; Philistia with the inhabitants of Tyre;",
         "translation": "WEB",
         "illustrationId": "ill-psa-83",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistia",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Amalek",
+            "entityId": "char-amalek"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
+          }
+        ]
       },
       {
         "id": "PSA-83:8",
@@ -19282,6 +20645,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -19302,6 +20673,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "anointed",
             "entityId": "term-anointed"
+          },
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
           }
         ]
       },
@@ -19338,6 +20713,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
           }
         ]
       },
@@ -19383,6 +20762,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -19506,7 +20889,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Mercy and truth meet together. Righteousness and peace have kissed each other.",
         "translation": "WEB",
         "illustrationId": "ill-psa-85",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-85:11",
@@ -19517,7 +20905,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Truth springs out of the earth. Righteousness has looked down from heaven.",
         "translation": "WEB",
         "illustrationId": "ill-psa-85",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-85:12",
@@ -19544,7 +20937,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Righteousness goes before him, And prepares the way for his steps.",
         "translation": "WEB",
         "illustrationId": "ill-psa-85",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       }
     ]
   },
@@ -19642,6 +21040,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -19723,6 +21125,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -19739,6 +21145,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
           }
         ]
       },
@@ -19846,6 +21256,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -19874,7 +21288,20 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will record Rahab and Babylon among those who acknowledge me. Behold, Philistia, Tyre, and also Ethiopia: “This one was born there.”",
         "translation": "WEB",
         "illustrationId": "ill-psa-87",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistia",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
+          }
+        ]
       },
       {
         "id": "PSA-87:5",
@@ -19961,7 +21388,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let my prayer enter into your presence. Turn your ear to my cry.",
         "translation": "WEB",
         "illustrationId": "ill-psa-88",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          }
+        ]
       },
       {
         "id": "PSA-88:3",
@@ -19972,7 +21404,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For my soul is full of troubles. My life draws near to Sheol.",
         "translation": "WEB",
         "illustrationId": "ill-psa-88",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "PSA-88:4",
@@ -20054,7 +21491,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Do you show wonders to the dead? Do the departed spirits rise up and praise you?",
         "translation": "WEB",
         "illustrationId": "ill-psa-88",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-88:11",
@@ -20081,7 +21523,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Are your wonders made known in the dark? Or your righteousness in the land of forgetfulness?",
         "translation": "WEB",
         "illustrationId": "ill-psa-88",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-88:13",
@@ -20096,6 +21543,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -20247,6 +21698,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -20344,7 +21799,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You have created the north and the south. Tabor and Hermon rejoice in your name.",
         "translation": "WEB",
         "illustrationId": "ill-psa-89",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hermon",
+            "entityId": "place-hermon"
+          },
+          {
+            "spanText": "Tabor",
+            "entityId": "place-mount-tabor"
+          }
+        ]
       },
       {
         "id": "PSA-89:13",
@@ -20370,6 +21834,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -20398,7 +21866,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "In your name they rejoice all day. In your righteousness, they are exalted.",
         "translation": "WEB",
         "illustrationId": "ill-psa-89",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-89:17",
@@ -20424,6 +21897,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
           }
         ]
       },
@@ -20589,7 +22070,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If his children forsake my law, and don’t walk in my ordinances;",
         "translation": "WEB",
         "illustrationId": "ill-psa-89",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-89:31",
@@ -20817,7 +22303,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "What man is he who shall live and not see death, who shall deliver his soul from the power of Sheol?",
         "translation": "WEB",
         "illustrationId": "ill-psa-89",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "PSA-89:49",
@@ -21030,7 +22521,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So teach us to count our days, that we may gain a heart of wisdom.",
         "translation": "WEB",
         "illustrationId": "ill-psa-90",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          }
+        ]
       },
       {
         "id": "PSA-90:13",
@@ -21152,6 +22648,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "refuge",
             "entityId": "term-refuge"
+          },
+          {
+            "spanText": "fortress",
+            "entityId": "term-shield-fortress"
           }
         ]
       },
@@ -21179,6 +22679,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "refuge",
             "entityId": "term-refuge"
+          },
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
           }
         ]
       },
@@ -21349,6 +22853,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -21501,7 +23009,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The righteous shall flourish like the palm tree. He will grow like a cedar in Lebanon.",
         "translation": "WEB",
         "illustrationId": "ill-psa-92",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          }
+        ]
       },
       {
         "id": "PSA-92:13",
@@ -21753,6 +23270,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -21814,7 +23335,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Blessed is the man whom you discipline, Yah, and teach out of your law,",
         "translation": "WEB",
         "illustrationId": "ill-psa-94",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-94:13",
@@ -21852,7 +23378,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For judgment will return to righteousness. All the upright in heart shall follow it.",
         "translation": "WEB",
         "illustrationId": "ill-psa-94",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-94:16",
@@ -21932,7 +23463,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They gather themselves together against the soul of the righteous, and condemn the innocent blood.",
         "translation": "WEB",
         "illustrationId": "ill-psa-94",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-94:22",
@@ -22347,6 +23883,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       }
@@ -22388,7 +23928,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Clouds and darkness are around him. Righteousness and justice are the foundation of his throne.",
         "translation": "WEB",
         "illustrationId": "ill-psa-97",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-97:3",
@@ -22437,7 +23982,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The heavens declare his righteousness. All the peoples have seen his glory.",
         "translation": "WEB",
         "illustrationId": "ill-psa-97",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-97:7",
@@ -22467,6 +24017,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -22511,7 +24065,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Light is sown for the righteous, and gladness for the upright in heart.",
         "translation": "WEB",
         "illustrationId": "ill-psa-97",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-97:12",
@@ -22526,6 +24085,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       }
@@ -22571,6 +24134,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -22591,6 +24158,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -22607,6 +24178,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -22623,6 +24198,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -22677,6 +24256,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       }
@@ -22738,7 +24321,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let them praise your great and awesome name. He is Holy!",
         "translation": "WEB",
         "illustrationId": "ill-psa-99",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-99:4",
@@ -22749,7 +24337,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The King’s strength also loves justice. You establish equity. You execute justice and righteousness in Jacob.",
         "translation": "WEB",
         "illustrationId": "ill-psa-99",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "PSA-99:5",
@@ -22788,6 +24385,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
           }
         ]
       },
@@ -22800,7 +24405,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He spoke to them in the pillar of cloud. They kept his testimonies, the statute that he gave them.",
         "translation": "WEB",
         "illustrationId": "ill-psa-99",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "testimonies",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-99:8",
@@ -22916,7 +24526,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Enter into his gates with thanksgiving, and into his courts with praise. Give thanks to him, and bless his name.",
         "translation": "WEB",
         "illustrationId": "ill-psa-100",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-100:5",
@@ -22968,6 +24583,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -23079,6 +24698,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -23280,7 +24903,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He has responded to the prayer of the destitute, and has not despised their prayer.",
         "translation": "WEB",
         "illustrationId": "ill-psa-102",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          }
+        ]
       },
       {
         "id": "PSA-102:18",
@@ -23346,6 +24974,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -23462,6 +25098,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -23478,6 +25122,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -23532,6 +25180,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -23548,6 +25200,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -23686,6 +25342,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -23702,6 +25362,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
           }
         ]
       },
@@ -23734,6 +25398,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -23750,6 +25418,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -23766,6 +25438,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
           }
         ]
       }
@@ -23969,6 +25645,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
           }
         ]
       },
@@ -24076,6 +25756,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
           }
         ]
       },
@@ -24143,7 +25827,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You send out your Spirit and they are created. You renew the face of the ground.",
         "translation": "WEB",
         "illustrationId": "ill-psa-104",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
+          }
+        ]
       },
       {
         "id": "PSA-104:31",
@@ -24189,6 +25878,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -24266,7 +25959,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Sing to him, sing praises to him! Tell of all his marvelous works.",
         "translation": "WEB",
         "illustrationId": "ill-psa-105",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-105:3",
@@ -24320,7 +26018,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "you offspring of Abraham, his servant, you children of Jacob, his chosen ones.",
         "translation": "WEB",
         "illustrationId": "ill-psa-105",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "PSA-105:7",
@@ -24371,6 +26078,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
           }
         ]
       },
@@ -24387,6 +26098,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -24399,7 +26118,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "saying, “To you I will give the land of Canaan, the lot of your inheritance,”",
         "translation": "WEB",
         "illustrationId": "ill-psa-105",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Canaan",
+            "entityId": "place-canaan"
+          }
+        ]
       },
       {
         "id": "PSA-105:12",
@@ -24470,7 +26194,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He sent a man before them. Joseph was sold for a slave.",
         "translation": "WEB",
         "illustrationId": "ill-psa-105",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
+          }
+        ]
       },
       {
         "id": "PSA-105:18",
@@ -24530,7 +26259,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "to discipline his princes at his pleasure, and to teach his elders wisdom.",
         "translation": "WEB",
         "illustrationId": "ill-psa-105",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          }
+        ]
       },
       {
         "id": "PSA-105:23",
@@ -24541,7 +26275,20 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Israel also came into Egypt. Jacob lived in the land of Ham.",
         "translation": "WEB",
         "illustrationId": "ill-psa-105",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "PSA-105:24",
@@ -24578,6 +26325,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
           }
         ]
       },
@@ -24711,7 +26462,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Egypt was glad when they departed, for the fear of them had fallen on them.",
         "translation": "WEB",
         "illustrationId": "ill-psa-105",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "PSA-105:39",
@@ -24760,7 +26516,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For he remembered his holy word, and Abraham, his servant.",
         "translation": "WEB",
         "illustrationId": "ill-psa-105",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          }
+        ]
       },
       {
         "id": "PSA-105:43",
@@ -24830,6 +26591,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -24846,6 +26611,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -24907,7 +26676,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Our fathers didn’t understand your wonders in Egypt. They didn’t remember the multitude of your loving kindnesses, but were rebellious at the sea, even at the Red Sea.",
         "translation": "WEB",
         "illustrationId": "ill-psa-106",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Red Sea",
+            "entityId": "place-red-sea"
+          },
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "PSA-106:8",
@@ -24929,7 +26707,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He rebuked the Red Sea also, and it was dried up; so he led them through the depths, as through a desert.",
         "translation": "WEB",
         "illustrationId": "ill-psa-106",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Red Sea",
+            "entityId": "place-red-sea"
+          }
+        ]
       },
       {
         "id": "PSA-106:10",
@@ -24962,7 +26745,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then they believed his words. They sang his praise.",
         "translation": "WEB",
         "illustrationId": "ill-psa-106",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-106:13",
@@ -25019,6 +26807,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
           }
         ]
       },
@@ -25079,6 +26871,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
           }
         ]
       },
@@ -25091,7 +26887,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "wondrous works in the land of Ham, and awesome things by the Red Sea.",
         "translation": "WEB",
         "illustrationId": "ill-psa-106",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Red Sea",
+            "entityId": "place-red-sea"
+          }
+        ]
       },
       {
         "id": "PSA-106:23",
@@ -25167,7 +26968,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They joined themselves also to Baal Peor, and ate the sacrifices of the dead.",
         "translation": "WEB",
         "illustrationId": "ill-psa-106",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sacrifices",
+            "entityId": "term-offering"
+          }
+        ]
       },
       {
         "id": "PSA-106:29",
@@ -25200,7 +27006,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "That was credited to him for righteousness, for all generations to come.",
         "translation": "WEB",
         "illustrationId": "ill-psa-106",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-106:32",
@@ -25287,7 +27098,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They shed innocent blood, even the blood of their sons and of their daughters, whom they sacrificed to the idols of Canaan. The land was polluted with blood.",
         "translation": "WEB",
         "illustrationId": "ill-psa-106",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Canaan",
+            "entityId": "place-canaan"
+          }
+        ]
       },
       {
         "id": "PSA-106:39",
@@ -25404,6 +27220,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -25428,6 +27248,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Praise Yah",
             "entityId": "term-hallelujah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -25557,6 +27381,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -25653,6 +27481,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -25733,6 +27565,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -25745,7 +27581,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let them offer the sacrifices of thanksgiving, and declare his deeds with singing.",
         "translation": "WEB",
         "illustrationId": "ill-psa-107",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sacrifices",
+            "entityId": "term-offering"
+          }
+        ]
       },
       {
         "id": "PSA-107:23",
@@ -25862,6 +27703,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -25874,7 +27719,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let them exalt him also in the assembly of the people, and praise him in the seat of the elders.",
         "translation": "WEB",
         "illustrationId": "ill-psa-107",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-107:33",
@@ -26055,6 +27905,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -26130,7 +27984,24 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Gilead is mine. Manasseh is mine. Ephraim also is my helmet. Judah is my scepter.",
         "translation": "WEB",
         "illustrationId": "ill-psa-108",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "PSA-108:9",
@@ -26141,7 +28012,20 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Moab is my wash pot. I will toss my sandal on Edom. I will shout over Philistia.”",
         "translation": "WEB",
         "illustrationId": "ill-psa-108",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistia",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "PSA-108:10",
@@ -26152,7 +28036,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Who will bring me into the fortified city? Who has led me to Edom?",
         "translation": "WEB",
         "illustrationId": "ill-psa-108",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "PSA-108:11",
@@ -26223,6 +28112,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -26257,7 +28150,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "In return for my love, they are my adversaries; but I am in prayer.",
         "translation": "WEB",
         "illustrationId": "ill-psa-109",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          }
+        ]
       },
       {
         "id": "PSA-109:5",
@@ -26290,7 +28188,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When he is judged, let him come out guilty. Let his prayer be turned into sin.",
         "translation": "WEB",
         "illustrationId": "ill-psa-109",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          }
+        ]
       },
       {
         "id": "PSA-109:8",
@@ -26589,6 +28492,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -26770,7 +28677,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "His work is honor and majesty. His righteousness endures forever.",
         "translation": "WEB",
         "illustrationId": "ill-psa-111",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-111:4",
@@ -26824,7 +28736,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The works of his hands are truth and justice. All his precepts are sure.",
         "translation": "WEB",
         "illustrationId": "ill-psa-111",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-111:8",
@@ -26866,6 +28783,18 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "understanding",
+            "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       }
@@ -26922,7 +28851,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Wealth and riches are in his house. His righteousness endures forever.",
         "translation": "WEB",
         "illustrationId": "ill-psa-112",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-112:4",
@@ -26933,7 +28867,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Light dawns in the darkness for the upright, gracious, merciful, and righteous.",
         "translation": "WEB",
         "illustrationId": "ill-psa-112",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-112:5",
@@ -26955,7 +28894,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For he will never be shaken. The righteous will be remembered forever.",
         "translation": "WEB",
         "illustrationId": "ill-psa-112",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-112:7",
@@ -26993,7 +28937,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He has dispersed, he has given to the poor. His righteousness endures forever. His horn will be exalted with honor.",
         "translation": "WEB",
         "illustrationId": "ill-psa-112",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-112:10",
@@ -27036,6 +28985,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Praise Yah",
             "entityId": "term-hallelujah"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -27178,7 +29135,20 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When Israel went out of Egypt, the house of Jacob from a people of foreign language,",
         "translation": "WEB",
         "illustrationId": "ill-psa-114",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "PSA-114:2",
@@ -27193,6 +29163,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "sanctuary",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -27205,7 +29183,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sea saw it, and fled. The Jordan was driven back.",
         "translation": "WEB",
         "illustrationId": "ill-psa-114",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jordan",
+            "entityId": "place-jordan"
+          }
+        ]
       },
       {
         "id": "PSA-114:4",
@@ -27227,7 +29210,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "What was it, you sea, that you fled? You Jordan, that you turned back?",
         "translation": "WEB",
         "illustrationId": "ill-psa-114",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jordan",
+            "entityId": "place-jordan"
+          }
+        ]
       },
       {
         "id": "PSA-114:6",
@@ -27253,6 +29241,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -27405,6 +29397,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
           }
         ]
       },
@@ -27421,6 +29421,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
           }
         ]
       },
@@ -27437,6 +29445,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
           }
         ]
       },
@@ -27453,6 +29465,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
           }
         ]
       },
@@ -27601,7 +29621,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The cords of death surrounded me, the pains of Sheol got a hold of me. I found trouble and sorrow.",
         "translation": "WEB",
         "illustrationId": "ill-psa-116",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "PSA-116:4",
@@ -27636,6 +29661,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -27813,6 +29842,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
           }
         ]
       },
@@ -27882,6 +29915,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -27955,6 +29992,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -27971,6 +30012,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
           }
         ]
       },
@@ -28165,6 +30210,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -28215,7 +30264,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Open to me the gates of righteousness. I will enter into them. I will give thanks to Yah.",
         "translation": "WEB",
         "illustrationId": "ill-psa-118",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-118:20",
@@ -28230,6 +30284,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -28336,6 +30394,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -28401,6 +30467,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -28435,7 +30505,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You have commanded your precepts, that we should fully obey them.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:5",
@@ -28468,7 +30543,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will give thanks to you with uprightness of heart, when I learn your righteous judgments.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-119:8",
@@ -28550,7 +30630,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I have rejoiced in the way of your testimonies, as much as in all riches.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "testimonies",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:15",
@@ -28561,7 +30646,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will meditate on your precepts, and consider your ways.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:16",
@@ -28594,7 +30684,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Open my eyes, that I may see wondrous things out of your law.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-119:19",
@@ -28693,7 +30788,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let me understand the teaching of your precepts! Then I will meditate on your wondrous works.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:28",
@@ -28715,7 +30815,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Keep me from the way of deceit. Grant me your law graciously!",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-119:30",
@@ -28780,7 +30885,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Give me understanding, and I will keep your law. Yes, I will obey it with my whole heart.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "understanding",
+            "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-119:35",
@@ -28846,7 +30960,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, I long for your precepts! Revive me in your righteousness.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:41",
@@ -28899,7 +31022,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So I will obey your law continually, forever and ever.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-119:45",
@@ -28910,7 +31038,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will walk in liberty, for I have sought your precepts.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:46",
@@ -28976,7 +31109,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The arrogant mock me excessively, but I don’t swerve from your law.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-119:52",
@@ -29003,7 +31141,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Indignation has taken hold on me, because of the wicked who forsake your law.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-119:54",
@@ -29029,6 +31172,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -29041,7 +31188,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "This is my way, that I keep your precepts.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:57",
@@ -29101,7 +31253,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The ropes of the wicked bind me, but I won’t forget your law.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-119:62",
@@ -29112,7 +31269,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "At midnight I will rise to give thanks to you, because of your righteous ordinances.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-119:63",
@@ -29123,7 +31285,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I am a friend of all those who fear you, of those who observe your precepts.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:64",
@@ -29203,7 +31370,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The proud have smeared a lie upon me. With my whole heart, I will keep your precepts.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:70",
@@ -29214,7 +31386,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Their heart is as callous as the fat, but I delight in your law.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-119:71",
@@ -29236,7 +31413,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The law of your mouth is better to me than thousands of pieces of gold and silver.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-119:73",
@@ -29247,7 +31429,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your hands have made me and formed me. Give me understanding, that I may learn your commandments.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "understanding",
+            "entityId": "term-chochmah"
+          }
+        ]
       },
       {
         "id": "PSA-119:74",
@@ -29273,6 +31460,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -29301,7 +31492,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let your tender mercies come to me, that I may live; for your law is my delight.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-119:78",
@@ -29312,7 +31508,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let the proud be disappointed, for they have overthrown me wrongfully. I will meditate on your precepts.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:79",
@@ -29389,7 +31590,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The proud have dug pits for me, contrary to your law.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-119:86",
@@ -29411,7 +31617,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They had almost wiped me from the earth, but I didn’t forsake your precepts.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:88",
@@ -29476,7 +31687,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Unless your law had been my delight, I would have perished in my affliction.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-119:93",
@@ -29487,7 +31703,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will never forget your precepts, for with them, you have revived me.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:94",
@@ -29498,7 +31719,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I am yours. Save me, for I have sought your precepts.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:95",
@@ -29531,7 +31757,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "How I love your law! It is my meditation all day.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-119:98",
@@ -29553,7 +31784,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I have more understanding than all my teachers, for your testimonies are my meditation.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "understanding",
+            "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "testimonies",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:100",
@@ -29564,7 +31804,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I understand more than the aged, because I have kept your precepts.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:101",
@@ -29608,7 +31853,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Through your precepts, I get understanding; therefore I hate every false way.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "understanding",
+            "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:105",
@@ -29630,7 +31884,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I have sworn, and have confirmed it, that I will obey your righteous ordinances.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-119:107",
@@ -29673,7 +31932,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "My soul is continually in my hand, yet I won’t forget your law.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-119:110",
@@ -29684,7 +31948,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The wicked have laid a snare for me, yet I haven’t gone astray from your precepts.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:111",
@@ -29695,7 +31964,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I have taken your testimonies as a heritage forever, for they are the joy of my heart.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "testimonies",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:112",
@@ -29717,7 +31991,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I hate double-minded men, but I love your law.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-119:114",
@@ -29728,7 +32007,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You are my hiding place and my shield. I hope in your word.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
+          }
+        ]
       },
       {
         "id": "PSA-119:115",
@@ -29788,7 +32072,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You put away all the wicked of the earth like dross. Therefore I love your testimonies.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "testimonies",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:120",
@@ -29810,7 +32099,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I have done what is just and righteous. Don’t leave me to my oppressors.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-119:122",
@@ -29832,7 +32126,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "My eyes fail looking for your salvation, for your righteous word.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-119:124",
@@ -29859,7 +32158,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I am your servant. Give me understanding, that I may know your testimonies.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "understanding",
+            "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "testimonies",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:126",
@@ -29874,6 +32182,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -29897,7 +32209,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore I consider all of your precepts to be right. I hate every false way.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:129",
@@ -29908,7 +32225,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your testimonies are wonderful, therefore my soul keeps them.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "testimonies",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:130",
@@ -29919,7 +32241,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The entrance of your words gives light. It gives understanding to the simple.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "understanding",
+            "entityId": "term-chochmah"
+          }
+        ]
       },
       {
         "id": "PSA-119:131",
@@ -29963,7 +32290,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Redeem me from the oppression of man, so I will observe your precepts.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:135",
@@ -29985,7 +32317,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Streams of tears run down my eyes, because they don’t observe your law.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-119:137",
@@ -30000,6 +32337,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -30012,7 +32353,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You have commanded your statutes in righteousness. They are fully trustworthy.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-119:139",
@@ -30045,7 +32391,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I am small and despised. I don’t forget your precepts.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:142",
@@ -30056,7 +32407,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your righteousness is an everlasting righteousness. Your law is truth.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-119:143",
@@ -30078,7 +32438,20 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your testimonies are righteous forever. Give me understanding, that I may live.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "understanding",
+            "entityId": "term-chochmah"
+          },
+          {
+            "spanText": "testimonies",
+            "entityId": "term-precepts"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-119:145",
@@ -30158,7 +32531,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They draw near who follow after wickedness. They are far from your law.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-119:151",
@@ -30185,7 +32563,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of old I have known from your testimonies, that you have founded them forever.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "testimonies",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:153",
@@ -30196,7 +32579,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Consider my affliction, and deliver me, for I don’t forget your law.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-119:154",
@@ -30245,7 +32633,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Many are my persecutors and my adversaries. I haven’t swerved from your testimonies.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "testimonies",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:158",
@@ -30275,6 +32668,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
           }
         ]
       },
@@ -30287,7 +32684,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "All of your words are truth. Every one of your righteous ordinances endures forever.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-119:161",
@@ -30320,7 +32722,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I hate and abhor falsehood. I love your law.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-119:164",
@@ -30331,7 +32738,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Seven times a day, I praise you, because of your righteous ordinances.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-119:165",
@@ -30342,7 +32758,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Those who love your law have great peace. Nothing causes them to stumble.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "PSA-119:166",
@@ -30369,7 +32790,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "My soul has observed your testimonies. I love them exceedingly.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "testimonies",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:168",
@@ -30380,7 +32806,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I have obeyed your precepts and your testimonies, for all my ways are before you.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "testimonies",
+            "entityId": "term-precepts"
+          },
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:169",
@@ -30395,6 +32830,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "understanding",
+            "entityId": "term-chochmah"
           }
         ]
       },
@@ -30418,7 +32857,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let my lips utter praise, for you teach me your statutes.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-119:172",
@@ -30429,7 +32873,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let my tongue sing of your word, for all your commandments are righteousness.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-119:173",
@@ -30440,7 +32889,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let your hand be ready to help me, for I have chosen your precepts.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "precepts",
+            "entityId": "term-precepts"
+          }
+        ]
       },
       {
         "id": "PSA-119:174",
@@ -30455,6 +32909,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -30467,7 +32925,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let my soul live, that I may praise you. Let your ordinances help me.",
         "translation": "WEB",
         "illustrationId": "ill-psa-119",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-119:176",
@@ -30640,7 +33103,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, he who keeps Israel will neither slumber nor sleep.",
         "translation": "WEB",
         "illustrationId": "ill-psa-121",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "PSA-121:5",
@@ -30775,6 +33243,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -30949,6 +33421,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -31106,7 +33582,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the scepter of wickedness won’t remain over the allotment of the righteous; so that the righteous won’t use their hands to do evil.",
         "translation": "WEB",
         "illustrationId": "ill-psa-125",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-125:4",
@@ -31137,6 +33618,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -31405,6 +33890,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
           }
         ]
       },
@@ -31417,7 +33906,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yes, may you see your children’s children. Peace be upon Israel.",
         "translation": "WEB",
         "illustrationId": "ill-psa-128",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       }
     ]
   },
@@ -31441,7 +33935,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Many times they have afflicted me from my youth up. Let Israel now say,",
         "translation": "WEB",
         "illustrationId": "ill-psa-129",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "PSA-129:2",
@@ -31478,6 +33977,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -31641,6 +34144,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -31653,7 +34160,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He will redeem Israel from all their sins.",
         "translation": "WEB",
         "illustrationId": "ill-psa-130",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       }
     ]
   },
@@ -31708,6 +34220,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -31757,6 +34273,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -31795,6 +34315,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -31845,7 +34369,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let your priests be clothed with righteousness. Let your saints shout for joy!”",
         "translation": "WEB",
         "illustrationId": "ill-psa-132",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "PSA-132:10",
@@ -31954,7 +34487,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will also clothe her priests with salvation. Her saints will shout aloud for joy.",
         "translation": "WEB",
         "illustrationId": "ill-psa-132",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "PSA-132:17",
@@ -32020,7 +34558,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "It is like the precious oil on the head, that ran down on the beard, even Aaron’s beard, that came down on the edge of his robes,",
         "translation": "WEB",
         "illustrationId": "ill-psa-133",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
+          }
+        ]
       },
       {
         "id": "PSA-133:3",
@@ -32039,6 +34582,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Hermon",
+            "entityId": "place-hermon"
           }
         ]
       }
@@ -32068,6 +34615,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -32088,6 +34639,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "sanctuary",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -32141,6 +34696,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Praise Yah",
             "entityId": "term-hallelujah"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -32181,6 +34740,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Praise Yah",
             "entityId": "term-hallelujah"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -32193,7 +34756,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For Yah has chosen Jacob for himself, Israel for his own possession.",
         "translation": "WEB",
         "illustrationId": "ill-psa-135",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "PSA-135:5",
@@ -32247,7 +34819,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He struck the firstborn of Egypt, both of man and animal.",
         "translation": "WEB",
         "illustrationId": "ill-psa-135",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "PSA-135:9",
@@ -32258,7 +34835,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He sent signs and wonders into the middle of you, Egypt, on Pharaoh, and on all his servants.",
         "translation": "WEB",
         "illustrationId": "ill-psa-135",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "PSA-135:10",
@@ -32280,7 +34862,28 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Sihon king of the Amorites, Og king of Bashan, and all the kingdoms of Canaan,",
         "translation": "WEB",
         "illustrationId": "ill-psa-135",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          },
+          {
+            "spanText": "Canaan",
+            "entityId": "place-canaan"
+          },
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
+          },
+          {
+            "spanText": "Og",
+            "entityId": "char-og"
+          }
+        ]
       },
       {
         "id": "PSA-135:12",
@@ -32291,7 +34894,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and gave their land for a heritage, a heritage to Israel, his people.",
         "translation": "WEB",
         "illustrationId": "ill-psa-135",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "PSA-135:13",
@@ -32382,6 +34990,18 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
           }
         ]
       },
@@ -32398,6 +35018,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
           }
         ]
       },
@@ -32422,6 +35050,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Praise Yah",
             "entityId": "term-hallelujah"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
           }
         ]
       }
@@ -32523,6 +35155,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "understanding",
+            "entityId": "term-chochmah"
           }
         ]
       },
@@ -32619,6 +35255,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -32651,6 +35291,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Red Sea",
+            "entityId": "place-red-sea"
           }
         ]
       },
@@ -32667,6 +35311,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -32683,6 +35331,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Red Sea",
+            "entityId": "place-red-sea"
           }
         ]
       },
@@ -32747,6 +35399,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Amorites",
+            "entityId": "char-amorites"
+          },
+          {
+            "spanText": "Sihon",
+            "entityId": "char-sihon"
           }
         ]
       },
@@ -32763,6 +35423,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          },
+          {
+            "spanText": "Og",
+            "entityId": "char-og"
           }
         ]
       },
@@ -32795,6 +35463,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "loving kindness",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -32892,6 +35564,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
           }
         ]
       },
@@ -32987,6 +35663,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -32999,7 +35679,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Daughter of Babylon, doomed to destruction, he will be happy who repays you, as you have done to us.",
         "translation": "WEB",
         "illustrationId": "ill-psa-137",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          }
+        ]
       },
       {
         "id": "PSA-137:9",
@@ -33039,7 +35724,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will give you thanks with my whole heart. Before the gods, I will sing praises to you.",
         "translation": "WEB",
         "illustrationId": "ill-psa-138",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-138:2",
@@ -33249,7 +35939,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Where could I go from your Spirit? Or where could I flee from your presence?",
         "translation": "WEB",
         "illustrationId": "ill-psa-139",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
+          }
+        ]
       },
       {
         "id": "PSA-139:8",
@@ -33260,7 +35955,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If I ascend up into heaven, you are there. If I make my bed in Sheol, behold, you are there!",
         "translation": "WEB",
         "illustrationId": "ill-psa-139",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "PSA-139:9",
@@ -33646,7 +36346,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Surely the righteous will give thanks to your name. The upright will dwell in your presence.",
         "translation": "WEB",
         "illustrationId": "ill-psa-140",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       }
     ]
   },
@@ -33686,7 +36391,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let my prayer be set before you like incense; the lifting up of my hands like the evening sacrifice.",
         "translation": "WEB",
         "illustrationId": "ill-psa-141",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          }
+        ]
       },
       {
         "id": "PSA-141:3",
@@ -33724,7 +36438,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let the righteous strike me, it is kindness; let him reprove me, it is like oil on the head; don’t let my head refuse it; Yet my prayer is always against evil deeds.",
         "translation": "WEB",
         "illustrationId": "ill-psa-141",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          }
+        ]
       },
       {
         "id": "PSA-141:6",
@@ -33751,7 +36474,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“As when one plows and breaks up the earth, our bones are scattered at the mouth of Sheol.”",
         "translation": "WEB",
         "illustrationId": "ill-psa-141",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "PSA-141:8",
@@ -33902,7 +36630,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Bring my soul out of prison, that I may give thanks to your name. The righteous will surround me, for you will be good to me.",
         "translation": "WEB",
         "illustrationId": "ill-psa-142",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       }
     ]
   },
@@ -33930,6 +36663,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -33942,7 +36683,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t enter into judgment with your servant, for in your sight no man living is righteous.",
         "translation": "WEB",
         "illustrationId": "ill-psa-143",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-143:3",
@@ -34049,6 +36795,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           }
         ]
       },
@@ -34065,6 +36815,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -34134,6 +36888,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "refuge",
             "entityId": "term-refuge"
+          },
+          {
+            "spanText": "fortress",
+            "entityId": "term-shield-fortress"
+          },
+          {
+            "spanText": "shield",
+            "entityId": "term-shield-fortress"
           }
         ]
       },
@@ -34226,6 +36988,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -34335,6 +37101,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -34347,7 +37117,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Every day I will praise you. I will extol your name forever and ever.",
         "translation": "WEB",
         "illustrationId": "ill-psa-145",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-145:3",
@@ -34407,7 +37182,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "They will utter the memory of your great goodness, and will sing of your righteousness.",
         "translation": "WEB",
         "illustrationId": "ill-psa-145",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "PSA-145:8",
@@ -34550,6 +37330,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -34609,6 +37393,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       }
@@ -34642,6 +37430,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Praise Yah",
             "entityId": "term-hallelujah"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -34662,6 +37454,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -34704,6 +37504,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -34747,6 +37551,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -34824,6 +37632,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Praise Yah",
             "entityId": "term-hallelujah"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -34844,6 +37660,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -34878,7 +37698,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Great is our Lord, and mighty in power. His understanding is infinite.",
         "translation": "WEB",
         "illustrationId": "ill-psa-147",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "understanding",
+            "entityId": "term-chochmah"
+          }
+        ]
       },
       {
         "id": "PSA-147:6",
@@ -34913,6 +37738,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -34989,6 +37818,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           },
           {
             "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
+          },
+          {
+            "spanText": "Zion",
             "entityId": "place-jerusalem"
           }
         ]
@@ -35068,7 +37905,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He shows his word to Jacob, his statutes and his ordinances to Israel.",
         "translation": "WEB",
         "illustrationId": "ill-psa-147",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "PSA-147:20",
@@ -35116,6 +37962,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Praise Yah",
             "entityId": "term-hallelujah"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -35128,7 +37978,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Praise him, all his angels! Praise him, all his army!",
         "translation": "WEB",
         "illustrationId": "ill-psa-148",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-148:3",
@@ -35139,7 +37994,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Praise him, sun and moon! Praise him, all you shining stars!",
         "translation": "WEB",
         "illustrationId": "ill-psa-148",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-148:4",
@@ -35150,7 +38010,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Praise him, you heavens of heavens, you waters that are above the heavens.",
         "translation": "WEB",
         "illustrationId": "ill-psa-148",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-148:5",
@@ -35165,6 +38030,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -35192,6 +38061,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -35263,6 +38136,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -35279,6 +38156,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Praise Yah",
             "entityId": "term-hallelujah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       }
@@ -35308,6 +38193,14 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -35324,6 +38217,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -35336,7 +38233,16 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let them praise his name in the dance! Let them sing praises to him with tambourine and harp!",
         "translation": "WEB",
         "illustrationId": "ill-psa-149",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
+          },
+          {
+            "spanText": "praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-149:4",
@@ -35378,6 +38284,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "praises",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -35453,6 +38363,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Praise Yah",
             "entityId": "term-hallelujah"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
           }
         ]
       },
@@ -35465,7 +38379,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Praise him for his mighty acts! Praise him according to his excellent greatness!",
         "translation": "WEB",
         "illustrationId": "ill-psa-150",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-150:3",
@@ -35476,7 +38395,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Praise him with the sounding of the trumpet! Praise him with harp and lyre!",
         "translation": "WEB",
         "illustrationId": "ill-psa-150",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-150:4",
@@ -35487,7 +38411,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Praise him with tambourine and dancing! Praise him with stringed instruments and flute!",
         "translation": "WEB",
         "illustrationId": "ill-psa-150",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-150:5",
@@ -35498,7 +38427,12 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Praise him with loud cymbals! Praise him with resounding cymbals!",
         "translation": "WEB",
         "illustrationId": "ill-psa-150",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
+          }
+        ]
       },
       {
         "id": "PSA-150:6",
@@ -35513,6 +38447,10 @@ export const PSALMS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "praise Yah",
             "entityId": "term-hallelujah"
+          },
+          {
+            "spanText": "Praise",
+            "entityId": "term-praise"
           }
         ]
       }

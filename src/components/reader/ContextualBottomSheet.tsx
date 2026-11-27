@@ -73,7 +73,7 @@ export const ContextualBottomSheet: React.FC = () => {
       navigateToMapPin('loc-gilgal');
     } else if (region.includes('Shiloh')) {
       navigateToMapPin('loc-shiloh');
-    } else if (region.includes('Tabor') || region.includes('Jezreel') || region.includes('Hazor') || region.includes('Galilee')) {
+    } else if (region.includes('Tabor') || region.includes('Jezreel') || region.includes('Hazor') || region.includes('Galilee') || region.includes('Hermon')) {
       navigateToMapPin('loc-mount-tabor');
     } else if (region.includes('Harod')) {
       navigateToMapPin('loc-harod');
@@ -132,9 +132,9 @@ export const ContextualBottomSheet: React.FC = () => {
       navigateToTimelineEra('era-patriarchs');
     } else if (entity.timelineEra.includes('Judges') || entity.timelineEra.includes('Conquest') || entity.timelineEra.includes('Joshua')) {
       navigateToTimelineEra('era-judges');
-    } else if (entity.timelineEra.includes('Exile') || entity.timelineEra.includes('Captivity') || entity.timelineEra.includes('Babylon') || entity.timelineEra.includes('Assyria')) {
+    } else if (entity.timelineEra.includes('Exile') || entity.timelineEra.includes('Captivity') || entity.timelineEra.includes('Babylon') || entity.timelineEra.includes('Assyria') || entity.timelineEra.includes('Restoration') || entity.timelineEra.includes('Return')) {
       navigateToTimelineEra('era-exile');
-    } else if (entity.timelineEra.includes('Monarchy') || entity.timelineEra.includes('Kingdom')) {
+    } else if (entity.timelineEra.includes('Monarchy') || entity.timelineEra.includes('Kingdom') || entity.timelineEra.includes('Poetry') || entity.timelineEra.includes('Wisdom')) {
       navigateToTimelineEra('era-kingdom');
     } else {
       navigateToTimelineEra('era-creation');
@@ -152,41 +152,47 @@ export const ContextualBottomSheet: React.FC = () => {
 
   const handleReflect = () => {
     const ref = entity.relatedVerseRefs[0] || 'Genesis 1:1';
-    const bookId = ref.includes('Job')
-      ? 'JOB'
-      : ref.includes('Esther')
-        ? 'EST'
-        : ref.includes('Nehemiah')
-          ? 'NEH'
-          : ref.includes('Ezra')
-            ? 'EZR'
-            : ref.includes('2 Chronicles')
-              ? '2CH'
-              : ref.includes('1 Chronicles')
-                ? '1CH'
-                : ref.includes('2 Kings')
-                  ? '2KI'
-                  : ref.includes('1 Kings')
-                    ? '1KI'
-                    : ref.includes('2 Samuel')
-                      ? '2SA'
-                      : ref.includes('1 Samuel')
-                        ? '1SA'
-                        : ref.includes('Ruth')
-                          ? 'RUT'
-                          : ref.includes('Judges')
-                            ? 'JDG'
-                            : ref.includes('Joshua')
-                              ? 'JOS'
-                              : ref.includes('Deuteronomy')
-                                ? 'DEU'
-                                : ref.includes('Numbers')
-                                  ? 'NUM'
-                                  : ref.includes('Leviticus')
-                                    ? 'LEV'
-                                    : ref.includes('Exodus')
-                                      ? 'EXO'
-                                      : 'GEN';
+    const bookId = ref.includes('Ecclesiastes')
+      ? 'ECC'
+      : ref.includes('Proverbs')
+        ? 'PRO'
+        : ref.includes('Psalm')
+          ? 'PSA'
+          : ref.includes('Job')
+            ? 'JOB'
+            : ref.includes('Esther')
+              ? 'EST'
+              : ref.includes('Nehemiah')
+                ? 'NEH'
+                : ref.includes('Ezra')
+                  ? 'EZR'
+                  : ref.includes('2 Chronicles')
+                    ? '2CH'
+                    : ref.includes('1 Chronicles')
+                      ? '1CH'
+                      : ref.includes('2 Kings')
+                        ? '2KI'
+                        : ref.includes('1 Kings')
+                          ? '1KI'
+                          : ref.includes('2 Samuel')
+                            ? '2SA'
+                            : ref.includes('1 Samuel')
+                              ? '1SA'
+                              : ref.includes('Ruth')
+                                ? 'RUT'
+                                : ref.includes('Judges')
+                                  ? 'JDG'
+                                  : ref.includes('Joshua')
+                                    ? 'JOS'
+                                    : ref.includes('Deuteronomy')
+                                      ? 'DEU'
+                                      : ref.includes('Numbers')
+                                        ? 'NUM'
+                                        : ref.includes('Leviticus')
+                                          ? 'LEV'
+                                          : ref.includes('Exodus')
+                                            ? 'EXO'
+                                            : 'GEN';
     openJournalSheet({
       verseRef: ref,
       bookId,
