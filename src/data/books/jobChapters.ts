@@ -33,6 +33,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Uz",
             "entityId": "place-uz"
+          },
+          {
+            "spanText": "blameless",
+            "entityId": "term-integrity"
           }
         ]
       },
@@ -86,6 +90,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Job",
             "entityId": "char-job"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -106,6 +114,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Satan",
+            "entityId": "char-satan"
           }
         ]
       },
@@ -122,6 +134,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Satan",
+            "entityId": "char-satan"
           }
         ]
       },
@@ -146,6 +162,14 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Job",
             "entityId": "char-job"
+          },
+          {
+            "spanText": "blameless",
+            "entityId": "term-integrity"
+          },
+          {
+            "spanText": "Satan",
+            "entityId": "char-satan"
           }
         ]
       },
@@ -170,6 +194,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Job",
             "entityId": "char-job"
+          },
+          {
+            "spanText": "Satan",
+            "entityId": "char-satan"
           }
         ]
       },
@@ -208,6 +236,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Satan",
+            "entityId": "char-satan"
           }
         ]
       },
@@ -247,7 +279,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "and the Sabeans attacked, and took them away. Yes, they have killed the servants with the edge of the sword, and I alone have escaped to tell you.”",
         "translation": "WEB",
         "illustrationId": "ill-job-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabeans",
+            "entityId": "char-sabeans"
+          }
+        ]
       },
       {
         "id": "JOB-1:16",
@@ -274,7 +311,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "While he was still speaking, there came also another, and said, “The Chaldeans made three bands, and swept down on the camels, and have taken them away, yes, and killed the servants with the edge of the sword; and I alone have escaped to tell you.”",
         "translation": "WEB",
         "illustrationId": "ill-job-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "JOB-1:18",
@@ -380,6 +422,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Satan",
+            "entityId": "char-satan"
           }
         ]
       },
@@ -396,6 +442,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Satan",
+            "entityId": "char-satan"
           }
         ]
       },
@@ -420,6 +470,18 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Job",
             "entityId": "char-job"
+          },
+          {
+            "spanText": "blameless",
+            "entityId": "term-integrity"
+          },
+          {
+            "spanText": "integrity",
+            "entityId": "term-integrity"
+          },
+          {
+            "spanText": "Satan",
+            "entityId": "char-satan"
           }
         ]
       },
@@ -436,6 +498,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Satan",
+            "entityId": "char-satan"
           }
         ]
       },
@@ -463,6 +529,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Satan",
+            "entityId": "char-satan"
           }
         ]
       },
@@ -483,6 +553,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Job",
             "entityId": "char-job"
+          },
+          {
+            "spanText": "Satan",
+            "entityId": "char-satan"
           }
         ]
       },
@@ -495,7 +569,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "He took for himself a potsherd to scrape himself with, and he sat among the ashes.",
         "translation": "WEB",
         "illustrationId": "ill-job-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ashes",
+            "entityId": "term-sackcloth-ashes"
+          }
+        ]
       },
       {
         "id": "JOB-2:9",
@@ -510,6 +589,14 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "integrity",
+            "entityId": "term-integrity"
+          },
+          {
+            "spanText": "wife",
+            "entityId": "char-jobs-wife"
           }
         ]
       },
@@ -548,15 +635,15 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-job"
           },
           {
-            "spanText": "Eliphaz",
+            "spanText": "Eliphaz the Temanite",
             "entityId": "char-eliphaz"
           },
           {
-            "spanText": "Bildad",
+            "spanText": "Bildad the Shuhite",
             "entityId": "char-bildad"
           },
           {
-            "spanText": "Zophar",
+            "spanText": "Zophar the Naamathite",
             "entityId": "char-zophar"
           }
         ]
@@ -697,7 +784,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let them curse it who curse the day, who are ready to rouse up leviathan.",
         "translation": "WEB",
         "illustrationId": "ill-job-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leviathan",
+            "entityId": "term-leviathan"
+          }
+        ]
       },
       {
         "id": "JOB-3:9",
@@ -926,7 +1018,7 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-job-4",
         "linkedEntities": [
           {
-            "spanText": "Eliphaz",
+            "spanText": "Eliphaz the Temanite",
             "entityId": "char-eliphaz"
           }
         ]
@@ -984,7 +1076,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "Isn’t your piety your confidence? Isn’t the integrity of your ways your hope?",
         "translation": "WEB",
         "illustrationId": "ill-job-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "integrity",
+            "entityId": "term-integrity"
+          }
+        ]
       },
       {
         "id": "JOB-4:7",
@@ -1159,7 +1256,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "Isn’t their tent cord plucked up within them? They die, and that without wisdom.’",
         "translation": "WEB",
         "illustrationId": "ill-job-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
+          }
+        ]
       }
     ]
   },
@@ -1663,7 +1765,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "Isn’t it that I have no help in me, That wisdom is driven quite from me?",
         "translation": "WEB",
         "illustrationId": "ill-job-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
+          }
+        ]
       },
       {
         "id": "JOB-6:14",
@@ -1734,7 +1841,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "The caravans of Tema looked. The companies of Sheba waited for them.",
         "translation": "WEB",
         "illustrationId": "ill-job-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheba",
+            "entityId": "char-sabeans"
+          }
+        ]
       },
       {
         "id": "JOB-6:20",
@@ -1844,7 +1956,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "Please return. Let there be no injustice. Yes, return again. My cause is righteous.",
         "translation": "WEB",
         "illustrationId": "ill-job-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "JOB-6:30",
@@ -1967,7 +2084,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "As the cloud is consumed and vanishes away, so he who goes down to Sheol will come up no more.",
         "translation": "WEB",
         "illustrationId": "ill-job-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "JOB-7:10",
@@ -2125,7 +2247,7 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-job-8",
         "linkedEntities": [
           {
-            "spanText": "Bildad",
+            "spanText": "Bildad the Shuhite",
             "entityId": "char-bildad"
           }
         ]
@@ -2364,6 +2486,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "blameless",
+            "entityId": "term-integrity"
           }
         ]
       },
@@ -2514,7 +2640,16 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "He makes the Bear, Orion, and the Pleiades, and the rooms of the south.",
         "translation": "WEB",
         "illustrationId": "ill-job-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pleiades",
+            "entityId": "term-constellations"
+          },
+          {
+            "spanText": "Orion",
+            "entityId": "term-constellations"
+          }
+        ]
       },
       {
         "id": "JOB-9:10",
@@ -2585,7 +2720,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "Though I were righteous, yet I wouldn’t answer him. I would make supplication to my judge.",
         "translation": "WEB",
         "illustrationId": "ill-job-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "JOB-9:16",
@@ -2640,7 +2780,16 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "Though I am righteous, my own mouth will condemn me. Though I am blameless, it will prove me perverse.",
         "translation": "WEB",
         "illustrationId": "ill-job-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blameless",
+            "entityId": "term-integrity"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "JOB-9:21",
@@ -2651,7 +2800,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "I am blameless. I don’t respect myself. I despise my life.",
         "translation": "WEB",
         "illustrationId": "ill-job-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blameless",
+            "entityId": "term-integrity"
+          }
+        ]
       },
       {
         "id": "JOB-9:22",
@@ -2662,7 +2816,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "“It is all the same. Therefore I say he destroys the blameless and the wicked.",
         "translation": "WEB",
         "illustrationId": "ill-job-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blameless",
+            "entityId": "term-integrity"
+          }
+        ]
       },
       {
         "id": "JOB-9:23",
@@ -2988,7 +3147,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "If I am wicked, woe to me. If I am righteous, I still will not lift up my head, being filled with disgrace, and conscious of my affliction.",
         "translation": "WEB",
         "illustrationId": "ill-job-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "JOB-10:16",
@@ -3158,6 +3322,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
           }
         ]
       },
@@ -3190,7 +3358,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "They are high as heaven. What can you do? They are deeper than Sheol. What can you know?",
         "translation": "WEB",
         "illustrationId": "ill-job-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "JOB-11:9",
@@ -3362,7 +3535,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "“No doubt, but you are the people, and wisdom will die with you.",
         "translation": "WEB",
         "illustrationId": "ill-job-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
+          }
+        ]
       },
       {
         "id": "JOB-12:3",
@@ -3388,6 +3566,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "blameless",
+            "entityId": "term-integrity"
           }
         ]
       },
@@ -3487,7 +3669,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "With aged men is wisdom, in length of days understanding.",
         "translation": "WEB",
         "illustrationId": "ill-job-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
+          }
+        ]
       },
       {
         "id": "JOB-12:13",
@@ -3502,6 +3689,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
           }
         ]
       },
@@ -3536,7 +3727,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "With him is strength and wisdom. The deceived and the deceiver are his.",
         "translation": "WEB",
         "illustrationId": "ill-job-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
+          }
+        ]
       },
       {
         "id": "JOB-12:17",
@@ -3569,7 +3765,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "He leads priests away stripped, and overthrows the mighty.",
         "translation": "WEB",
         "illustrationId": "ill-job-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "JOB-12:20",
@@ -3799,7 +4000,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your memorable sayings are proverbs of ashes. Your defenses are defenses of clay.",
         "translation": "WEB",
         "illustrationId": "ill-job-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ashes",
+            "entityId": "term-sackcloth-ashes"
+          }
+        ]
       },
       {
         "id": "JOB-13:13",
@@ -3865,7 +4071,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "See now, I have set my cause in order. I know that I am righteous.",
         "translation": "WEB",
         "illustrationId": "ill-job-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "JOB-13:19",
@@ -4131,7 +4342,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Oh that you would hide me in Sheol, that you would keep me secret until your wrath is past, that you would appoint me a set time and remember me!",
         "translation": "WEB",
         "illustrationId": "ill-job-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "JOB-14:14",
@@ -4256,7 +4472,7 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-job-15",
         "linkedEntities": [
           {
-            "spanText": "Eliphaz",
+            "spanText": "Eliphaz the Temanite",
             "entityId": "char-eliphaz"
           }
         ]
@@ -4345,6 +4561,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
           }
         ]
       },
@@ -4422,7 +4642,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "What is man, that he should be clean? What is he who is born of a woman, that he should be righteous?",
         "translation": "WEB",
         "illustrationId": "ill-job-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "JOB-15:15",
@@ -4860,7 +5085,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "I have sewed sackcloth on my skin, and have thrust my horn in the dust.",
         "translation": "WEB",
         "illustrationId": "ill-job-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sackcloth",
+            "entityId": "term-sackcloth-ashes"
+          }
+        ]
       },
       {
         "id": "JOB-16:16",
@@ -4882,7 +5112,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "Although there is no violence in my hands, and my prayer is pure.",
         "translation": "WEB",
         "illustrationId": "ill-job-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          }
+        ]
       },
       {
         "id": "JOB-16:18",
@@ -5059,7 +5294,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yet the righteous will hold to his way. He who has clean hands will grow stronger and stronger.",
         "translation": "WEB",
         "illustrationId": "ill-job-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "JOB-17:10",
@@ -5103,7 +5343,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "If I look for Sheol as my house, if I have spread my couch in the darkness,",
         "translation": "WEB",
         "illustrationId": "ill-job-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "JOB-17:14",
@@ -5136,7 +5381,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "Shall it go down with me to the gates of Sheol, or descend together into the dust?”",
         "translation": "WEB",
         "illustrationId": "ill-job-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       }
     ]
   },
@@ -5162,7 +5412,7 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-job-18",
         "linkedEntities": [
           {
-            "spanText": "Bildad",
+            "spanText": "Bildad the Shuhite",
             "entityId": "char-bildad"
           }
         ]
@@ -5600,7 +5850,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "My breath is offensive to my wife. I am loathsome to the children of my own mother.",
         "translation": "WEB",
         "illustrationId": "ill-job-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wife",
+            "entityId": "char-jobs-wife"
+          }
+        ]
       },
       {
         "id": "JOB-19:18",
@@ -5778,7 +6033,7 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-job-20",
         "linkedEntities": [
           {
-            "spanText": "Zophar",
+            "spanText": "Zophar the Naamathite",
             "entityId": "char-zophar"
           }
         ]
@@ -6270,7 +6525,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "They spend their days in prosperity. In an instant they go down to Sheol.",
         "translation": "WEB",
         "illustrationId": "ill-job-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "JOB-21:14",
@@ -6557,7 +6817,7 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-job-22",
         "linkedEntities": [
           {
-            "spanText": "Eliphaz",
+            "spanText": "Eliphaz the Temanite",
             "entityId": "char-eliphaz"
           }
         ]
@@ -6591,6 +6851,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Almighty",
             "entityId": "term-almighty"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -6787,7 +7051,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "The righteous see it, and are glad. The innocent ridicule them,",
         "translation": "WEB",
         "illustrationId": "ill-job-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "JOB-22:20",
@@ -6894,7 +7163,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "You will make your prayer to him, and he will hear you. You will pay your vows.",
         "translation": "WEB",
         "illustrationId": "ill-job-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          }
+        ]
       },
       {
         "id": "JOB-22:28",
@@ -7373,7 +7647,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "Drought and heat consume the snow waters, so does Sheol those who have sinned.",
         "translation": "WEB",
         "illustrationId": "ill-job-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "JOB-24:20",
@@ -7475,7 +7754,7 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-job-25",
         "linkedEntities": [
           {
-            "spanText": "Bildad",
+            "spanText": "Bildad the Shuhite",
             "entityId": "char-bildad"
           }
         ]
@@ -7589,7 +7868,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "How have you counseled him who has no wisdom, and plentifully declared sound knowledge!",
         "translation": "WEB",
         "illustrationId": "ill-job-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
+          }
+        ]
       },
       {
         "id": "JOB-26:4",
@@ -7626,6 +7910,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
           }
         ]
       },
@@ -7704,7 +7992,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "By his Spirit the heavens are garnished. His hand has pierced the swift serpent.",
         "translation": "WEB",
         "illustrationId": "ill-job-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
+          }
+        ]
       },
       {
         "id": "JOB-26:14",
@@ -7779,6 +8072,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "spirit",
+            "entityId": "term-ruach"
           }
         ]
       },
@@ -7802,7 +8099,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "Far be it from me that I should justify you. Until I die I will not put away my integrity from me.",
         "translation": "WEB",
         "illustrationId": "ill-job-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "integrity",
+            "entityId": "term-integrity"
+          }
+        ]
       },
       {
         "id": "JOB-27:6",
@@ -8182,7 +8484,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "“But where will wisdom be found? Where is the place of understanding?",
         "translation": "WEB",
         "illustrationId": "ill-job-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
+          }
+        ]
       },
       {
         "id": "JOB-28:13",
@@ -8248,7 +8555,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "No mention will be made of coral or of crystal. Yes, the price of wisdom is above rubies.",
         "translation": "WEB",
         "illustrationId": "ill-job-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
+          }
+        ]
       },
       {
         "id": "JOB-28:19",
@@ -8270,7 +8582,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "Where then does wisdom come from? Where is the place of understanding?",
         "translation": "WEB",
         "illustrationId": "ill-job-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
+          }
+        ]
       },
       {
         "id": "JOB-28:21",
@@ -8363,7 +8680,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "To man he said, ‘Behold, the fear of the Lord, that is wisdom. To depart from evil is understanding.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-job-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
+          }
+        ]
       }
     ]
   },
@@ -8893,7 +9215,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "He has cast me into the mire. I have become like dust and ashes.",
         "translation": "WEB",
         "illustrationId": "ill-job-30",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ashes",
+            "entityId": "term-sackcloth-ashes"
+          }
+        ]
       },
       {
         "id": "JOB-30:20",
@@ -9049,7 +9376,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "“I made a covenant with my eyes, how then should I look lustfully at a young woman?",
         "translation": "WEB",
         "illustrationId": "ill-job-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "JOB-31:2",
@@ -9117,6 +9449,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "integrity",
+            "entityId": "term-integrity"
           }
         ]
       },
@@ -9545,6 +9881,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Job",
             "entityId": "char-job"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -9649,7 +9989,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "I said, ‘Days should speak, and multitude of years should teach wisdom.’",
         "translation": "WEB",
         "illustrationId": "ill-job-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
+          }
+        ]
       },
       {
         "id": "JOB-32:8",
@@ -9664,6 +10009,14 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Almighty",
             "entityId": "term-almighty"
+          },
+          {
+            "spanText": "spirit",
+            "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           }
         ]
       },
@@ -9729,6 +10082,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
           }
         ]
       },
@@ -9899,6 +10256,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Almighty",
             "entityId": "term-almighty"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           }
         ]
       },
@@ -10254,7 +10615,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "If not, listen to me. Hold your peace, and I will teach you wisdom.”",
         "translation": "WEB",
         "illustrationId": "ill-job-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
+          }
+        ]
       }
     ]
   },
@@ -10335,6 +10701,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Job",
             "entityId": "char-job"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -10496,7 +10866,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "Should even one who hates justice govern? Will you condemn him who is righteous and mighty?—",
         "translation": "WEB",
         "illustrationId": "ill-job-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "JOB-34:18",
@@ -10708,6 +11083,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Job",
             "entityId": "char-job"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
           }
         ]
       },
@@ -10841,7 +11220,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "If you are righteous, what do you give him? Or what does he receive from your hand?",
         "translation": "WEB",
         "illustrationId": "ill-job-35",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "JOB-35:8",
@@ -11064,7 +11448,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "He doesn’t withdraw his eyes from the righteous, but with kings on the throne, he sets them forever, and they are exalted.",
         "translation": "WEB",
         "illustrationId": "ill-job-36",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "JOB-36:8",
@@ -12043,7 +12432,16 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Can you bind the cluster of the Pleiades, or loosen the cords of Orion?",
         "translation": "WEB",
         "illustrationId": "ill-job-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pleiades",
+            "entityId": "term-constellations"
+          },
+          {
+            "spanText": "Orion",
+            "entityId": "term-constellations"
+          }
+        ]
       },
       {
         "id": "JOB-38:32",
@@ -12098,7 +12496,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "Who has put wisdom in the inward parts? Or who has given understanding to the mind?",
         "translation": "WEB",
         "illustrationId": "ill-job-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
+          }
+        ]
       },
       {
         "id": "JOB-38:37",
@@ -12109,7 +12512,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "Who can count the clouds by wisdom? Or who can pour out the containers of the sky,",
         "translation": "WEB",
         "illustrationId": "ill-job-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
+          }
+        ]
       },
       {
         "id": "JOB-38:38",
@@ -12362,6 +12770,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
           }
         ]
       },
@@ -12462,7 +12874,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Is it by your wisdom that the hawk soars, and stretches her wings toward the south?",
         "translation": "WEB",
         "illustrationId": "ill-job-39",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
+          }
+        ]
       },
       {
         "id": "JOB-39:27",
@@ -12827,7 +13244,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, if a river overflows, he doesn’t tremble. He is confident, though the Jordan swells even to his mouth.",
         "translation": "WEB",
         "illustrationId": "ill-job-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jordan",
+            "entityId": "place-jordan"
+          }
+        ]
       },
       {
         "id": "JOB-40:24",
@@ -12900,7 +13322,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "Will he make a covenant with you, that you should take him for a servant forever?",
         "translation": "WEB",
         "illustrationId": "ill-job-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "JOB-41:5",
@@ -13318,7 +13745,12 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore I abhor myself, and repent in dust and ashes.”",
         "translation": "WEB",
         "illustrationId": "ill-job-42",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ashes",
+            "entityId": "term-sackcloth-ashes"
+          }
+        ]
       },
       {
         "id": "JOB-42:7",
@@ -13339,7 +13771,7 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-job"
           },
           {
-            "spanText": "Eliphaz",
+            "spanText": "Eliphaz the Temanite",
             "entityId": "char-eliphaz"
           }
         ]
@@ -13357,6 +13789,14 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Job",
             "entityId": "char-job"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "pray for you",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -13379,15 +13819,15 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-job"
           },
           {
-            "spanText": "Eliphaz",
+            "spanText": "Eliphaz the Temanite",
             "entityId": "char-eliphaz"
           },
           {
-            "spanText": "Bildad",
+            "spanText": "Bildad the Shuhite",
             "entityId": "char-bildad"
           },
           {
-            "spanText": "Zophar",
+            "spanText": "Zophar the Naamathite",
             "entityId": "char-zophar"
           }
         ]
@@ -13409,6 +13849,14 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Job",
             "entityId": "char-job"
+          },
+          {
+            "spanText": "turned the captivity",
+            "entityId": "term-job-restoration"
+          },
+          {
+            "spanText": "prayed",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -13445,6 +13893,10 @@ export const JOB_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Job",
             "entityId": "char-job"
+          },
+          {
+            "spanText": "latter end",
+            "entityId": "term-job-restoration"
           }
         ]
       },

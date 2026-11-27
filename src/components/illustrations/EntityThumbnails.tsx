@@ -310,7 +310,7 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'char-hoshea': '/images/portrait-hoshea.jpg',
   'char-shalmaneser': '/images/word-assyria.jpg',
   'char-chaldeans': '/images/word-chaldeans.jpg',
-  'term-almighty': '/images/job-38.jpg',
+  'term-almighty': '/images/word-almighty.jpg',
   'term-whirlwind': '/images/job-38.jpg',
   'term-job-redeemer': '/images/job-19.jpg',
   'term-behemoth': '/images/job-40.jpg',
@@ -347,6 +347,14 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'char-memucan': '/images/portrait-memucan.jpg',
   'place-media': '/images/word-media.jpg',
   'term-signet-decree': '/images/word-signet-decree.jpg',
+  'char-satan': '/images/word-satan-adversary.jpg',
+  'char-jobs-wife': '/images/portrait-jobs-wife.jpg',
+  'term-sheol': '/images/word-sheol.jpg',
+  'char-sabeans': '/images/word-sabeans.jpg',
+  'term-constellations': '/images/word-pleiades-orion.jpg',
+  'term-wisdom': '/images/job-28.jpg',
+  'term-integrity': '/images/job-34.jpg',
+  'term-job-restoration': '/images/job-42.jpg',
 };
 
 export interface ResolvedEntityAsset {
