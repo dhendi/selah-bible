@@ -43,7 +43,12 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Judah has gone into captivity because of affliction, and because of great servitude. She dwells among the nations. She finds no rest. All her persecutors overtook her within the straits.",
         "translation": "WEB",
         "illustrationId": "ill-lam-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "LAM-1:4",
@@ -58,6 +63,10 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -150,7 +159,12 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The adversary has spread out his hand on all her pleasant things; for she has seen that the nations have entered into her sanctuary, concerning whom you commanded that they should not enter into your assembly.",
         "translation": "WEB",
         "illustrationId": "ill-lam-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          }
+        ]
       },
       {
         "id": "LAM-1:11",
@@ -215,7 +229,12 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“The Lord has set at nothing all my mighty men within me. He has called a solemn assembly against me to crush my young men. The Lord has trodden the virgin daughter of Judah as in a wine press.",
         "translation": "WEB",
         "illustrationId": "ill-lam-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "LAM-1:16",
@@ -249,6 +268,10 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -277,7 +300,12 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“I called for my lovers, but they deceived me. My priests and my elders gave up the spirit in the city, while they sought food for themselves to refresh their souls.",
         "translation": "WEB",
         "illustrationId": "ill-lam-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LAM-1:20",
@@ -343,6 +371,10 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -355,7 +387,16 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Lord has swallowed up all the dwellings of Jacob without pity. He has thrown down in his wrath the strongholds of the daughter of Judah. He has brought them down to the ground. He has profaned the kingdom and its princes.",
         "translation": "WEB",
         "illustrationId": "ill-lam-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "LAM-2:3",
@@ -366,7 +407,16 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He has cut off all the horn of Israel in fierce anger. He has drawn back his right hand from before the enemy. He has burned up Jacob like a flaming fire, which devours all around.",
         "translation": "WEB",
         "illustrationId": "ill-lam-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "LAM-2:4",
@@ -393,7 +443,16 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Lord has become as an enemy. He has swallowed up Israel. He has swallowed up all her palaces. He has destroyed his strongholds. He has multiplied mourning and lamentation in the daughter of Judah.",
         "translation": "WEB",
         "illustrationId": "ill-lam-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "LAM-2:6",
@@ -412,6 +471,14 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "tabernacle",
+            "entityId": "term-tabernacle"
+          },
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
           }
         ]
       },
@@ -428,6 +495,14 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -464,6 +539,10 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -623,6 +702,10 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
           }
         ]
       },
@@ -752,7 +835,12 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yes, when I cry, and call for help, he shuts out my prayer.",
         "translation": "WEB",
         "illustrationId": "ill-lam-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          }
+        ]
       },
       {
         "id": "LAM-3:9",
@@ -1192,7 +1280,12 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You have covered yourself with a cloud, so that no prayer can pass through.",
         "translation": "WEB",
         "illustrationId": "ill-lam-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          }
+        ]
       },
       {
         "id": "LAM-3:45",
@@ -1488,7 +1581,12 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
         "text": "How the gold has become dim! The most pure gold has changed! The stones of the sanctuary are poured out at the head of every street.",
         "translation": "WEB",
         "illustrationId": "ill-lam-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          }
+        ]
       },
       {
         "id": "LAM-4:2",
@@ -1639,7 +1737,12 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
         "text": "It is because of the sins of her prophets and the iniquities of her priests, That have shed the blood of the just in the middle of her.",
         "translation": "WEB",
         "illustrationId": "ill-lam-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LAM-4:14",
@@ -1676,6 +1779,10 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1737,7 +1844,16 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Rejoice and be glad, daughter of Edom, that dwells in the land of Uz. The cup will pass through to you also. You will be drunken, and will make yourself naked.",
         "translation": "WEB",
         "illustrationId": "ill-lam-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          },
+          {
+            "spanText": "Uz",
+            "entityId": "place-uz"
+          }
+        ]
       },
       {
         "id": "LAM-4:22",
@@ -1752,6 +1868,10 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       }
@@ -1837,7 +1957,16 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
         "text": "We have given our hands to the Egyptians, and to the Assyrians, to be satisfied with bread.",
         "translation": "WEB",
         "illustrationId": "ill-lam-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Assyrians",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Egyptians",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "LAM-5:7",
@@ -1896,6 +2025,10 @@ export const LAMENTATIONS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },

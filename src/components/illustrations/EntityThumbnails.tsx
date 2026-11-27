@@ -389,6 +389,8 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'char-nebuzaradan': '/images/portrait-nebuzaradan.jpg',
   'char-pashhur': '/images/portrait-pashhur.jpg',
   'place-anathoth': '/images/word-anathoth.jpg',
+  'term-great-faithfulness': '/images/lam-03.jpg',
+  'term-sanctuary': '/images/word-sanctuary-miqdash.jpg',
 };
 
 export interface ResolvedEntityAsset {
