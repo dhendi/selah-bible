@@ -20,6 +20,7 @@ import type { Verse } from '../../types/bible';
 import { StoryIllustration } from '../illustrations/StoryIllustration';
 import { TypographyDrawer } from './TypographyDrawer';
 import { AddNoteModal } from './AddNoteModal';
+import { triggerLightHaptic } from '../../native/capacitorBridge';
 
 const POETRY_BOOKS = new Set(['JOB', 'PSA', 'PRO', 'ECC', 'SNG', 'LAM']);
 
@@ -130,6 +131,7 @@ export const ReaderScreen: React.FC = () => {
 
   const turnToChapter = (chapterId: string | null) => {
     if (!chapterId) return;
+    void triggerLightHaptic();
     setCurrentChapterId(chapterId);
     setSelectedVerseNum(null);
     const scrollParent = containerRef.current?.closest('.overflow-y-auto');
@@ -521,7 +523,10 @@ export const ReaderScreen: React.FC = () => {
               </button>
 
               <button
-                onClick={() => toggleBookmark(vRef)}
+                onClick={() => {
+                  void triggerLightHaptic();
+                  toggleBookmark(vRef);
+                }}
                 className={`p-1.5 rounded-md hover:bg-white/10 transition-colors cursor-pointer ${
                   bookmarked ? 'text-[#E59D8D]' : 'text-[#E2DACB] hover:text-white'
                 }`}

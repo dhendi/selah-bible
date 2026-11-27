@@ -61,8 +61,8 @@ export const App: React.FC = () => {
     <div
       className={`min-h-[100dvh] bg-[#FBF8F1] sm:bg-[#EAE3D4] text-[#24221E] flex flex-col items-center justify-start ${getGlobalFontClass()}`}
     >
-      {/* Subtle Top Book Spine Bar */}
-      <nav className="w-full bg-[#FBF8F1]/95 sm:bg-[#E4DCCB]/85 backdrop-blur-xs border-b border-[#DDD3C1] px-4 py-2 flex items-center justify-between text-xs text-[#666158] sticky top-0 z-40">
+      {/* Subtle Top Book Spine Bar (Safe-area aware for native iOS/Android) */}
+      <nav className="w-full bg-[#FBF8F1]/95 sm:bg-[#E4DCCB]/85 backdrop-blur-xs border-b border-[#DDD3C1] px-4 pt-[max(0.5rem,env(safe-area-inset-top))] pb-2 flex items-center justify-between text-xs text-[#666158] sticky top-0 z-40">
         <div className="max-w-3xl w-full mx-auto flex items-center justify-between">
           <span className="font-serif font-semibold text-[#24221E] text-sm flex items-center gap-2 tracking-wide">
             <span className="w-1.5 h-3.5 bg-[#8B3A2B] inline-block rounded-[1px]" />

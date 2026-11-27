@@ -12,6 +12,15 @@ dist
 dist-ssr
 *.local
 
+# Native Capacitor synced web bundles & build artifacts (regenerated via npm run cap:sync)
+android/app/src/main/assets/public/
+android/app/build/
+android/.gradle/
+android/local.properties
+ios/App/App/public/
+ios/App/Pods/
+ios/DerivedData/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
