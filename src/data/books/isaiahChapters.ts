@@ -41,6 +41,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -69,7 +73,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The ox knows his owner, and the donkey his master’s crib; but Israel doesn’t know. My people don’t consider.”",
         "translation": "WEB",
         "illustrationId": "ill-isa-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "ISA-1:4",
@@ -137,6 +146,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "vineyard",
+            "entityId": "term-vineyard"
           }
         ]
       },
@@ -153,6 +166,18 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Gomorrah",
+            "entityId": "place-gomorrah"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
           }
         ]
       },
@@ -169,6 +194,18 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Gomorrah",
+            "entityId": "place-gomorrah"
+          },
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -185,6 +222,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -208,7 +249,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Bring no more vain offerings. Incense is an abomination to me. New moons, Sabbaths, and convocations: I can’t stand evil assemblies.",
         "translation": "WEB",
         "illustrationId": "ill-isa-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
+          }
+        ]
       },
       {
         "id": "ISA-1:14",
@@ -252,7 +298,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Learn to do well. Seek justice. Relieve the oppressed. Defend the fatherless. Plead for the widow.”",
         "translation": "WEB",
         "illustrationId": "ill-isa-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          }
+        ]
       },
       {
         "id": "ISA-1:18",
@@ -306,7 +357,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "How the faithful city has become a prostitute! She was full of justice. Righteousness lodged in her, but now there are murderers.",
         "translation": "WEB",
         "illustrationId": "ill-isa-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          }
+        ]
       },
       {
         "id": "ISA-1:22",
@@ -343,6 +403,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -366,7 +430,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will restore your judges as at the first, and your counselors as at the beginning. Afterward you shall be called ‘The city of righteousness, a faithful town.’",
         "translation": "WEB",
         "illustrationId": "ill-isa-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-1:27",
@@ -381,6 +450,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
           }
         ]
       },
@@ -463,6 +540,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -503,6 +584,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -530,6 +619,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -542,7 +635,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For you have forsaken your people, the house of Jacob, because they are filled from the east, with those who practice divination like the Philistines, and they clasp hands with the children of foreigners.",
         "translation": "WEB",
         "illustrationId": "ill-isa-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "ISA-2:7",
@@ -634,7 +736,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "for all the cedars of Lebanon, that are high and lifted up, for all the oaks of Bashan,",
         "translation": "WEB",
         "illustrationId": "ill-isa-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "ISA-2:14",
@@ -780,6 +891,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -866,6 +981,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -878,7 +997,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The look of their faces testify against them. They parade their sin like Sodom. They don’t hide it. Woe to their soul! For they have brought disaster upon themselves.",
         "translation": "WEB",
         "illustrationId": "ill-isa-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
+          }
+        ]
       },
       {
         "id": "ISA-3:10",
@@ -889,7 +1013,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Tell the righteous “Good!” For they shall eat the fruit of their deeds.",
         "translation": "WEB",
         "illustrationId": "ill-isa-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-3:11",
@@ -942,6 +1071,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "vineyard",
+            "entityId": "term-vineyard"
           }
         ]
       },
@@ -1137,6 +1270,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1177,6 +1314,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
           }
         ]
       },
@@ -1233,7 +1374,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let me sing for my well beloved a song of my beloved about his vineyard. My beloved had a vineyard on a very fruitful hill.",
         "translation": "WEB",
         "illustrationId": "ill-isa-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "vineyard",
+            "entityId": "term-vineyard"
+          }
+        ]
       },
       {
         "id": "ISA-5:2",
@@ -1259,6 +1405,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "vineyard",
+            "entityId": "term-vineyard"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -1271,7 +1425,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "What could have been done more to my vineyard, that I have not done in it? Why, when I looked for it to yield grapes, did it yield wild grapes?",
         "translation": "WEB",
         "illustrationId": "ill-isa-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "vineyard",
+            "entityId": "term-vineyard"
+          }
+        ]
       },
       {
         "id": "ISA-5:5",
@@ -1282,7 +1441,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now I will tell you what I will do to my vineyard. I will take away its hedge, and it will be eaten up. I will break down its wall, and it will be trampled down.",
         "translation": "WEB",
         "illustrationId": "ill-isa-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "vineyard",
+            "entityId": "term-vineyard"
+          }
+        ]
       },
       {
         "id": "ISA-5:6",
@@ -1308,6 +1472,26 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "vineyard",
+            "entityId": "term-vineyard"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -1347,7 +1531,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For ten acres of vineyard shall yield one bath, and a homer of seed shall yield an ephah.”",
         "translation": "WEB",
         "illustrationId": "ill-isa-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "vineyard",
+            "entityId": "term-vineyard"
+          }
+        ]
       },
       {
         "id": "ISA-5:11",
@@ -1396,7 +1585,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore Sheol has enlarged its desire, and opened its mouth without measure; and their glory, their multitude, their pomp, and he who rejoices among them, descend into it.",
         "translation": "WEB",
         "illustrationId": "ill-isa-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "ISA-5:15",
@@ -1422,6 +1616,18 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Holy One",
+            "entityId": "term-holy-one"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
           }
         ]
       },
@@ -1505,7 +1711,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "who acquit the guilty for a bribe, but deny justice for the innocent!",
         "translation": "WEB",
         "illustrationId": "ill-isa-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          }
+        ]
       },
       {
         "id": "ISA-5:24",
@@ -1524,6 +1735,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -1624,6 +1839,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Uzziah",
             "entityId": "char-uzziah"
+          },
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
           }
         ]
       },
@@ -1699,6 +1918,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "seraphim",
             "entityId": "term-holy-one"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -1818,6 +2041,18 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
           }
         ]
       },
@@ -1834,6 +2069,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
           }
         ]
       },
@@ -1870,7 +2113,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Tell him, ‘Be careful, and keep calm. Don’t be afraid, neither let your heart be faint because of these two tails of smoking torches, for the fierce anger of Rezin and Syria, and of the son of Remaliah.",
         "translation": "WEB",
         "illustrationId": "ill-isa-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
+          }
+        ]
       },
       {
         "id": "ISA-7:5",
@@ -1881,7 +2129,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Because Syria, Ephraim, and the son of Remaliah, have plotted evil against you, saying,",
         "translation": "WEB",
         "illustrationId": "ill-isa-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
+          }
+        ]
       },
       {
         "id": "ISA-7:6",
@@ -1892,7 +2149,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Let’s go up against Judah, and tear it apart, and let’s divide it among ourselves, and set up a king within it, even the son of Tabeel.”",
         "translation": "WEB",
         "illustrationId": "ill-isa-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "ISA-7:7",
@@ -1919,7 +2181,20 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the head of Syria is Damascus, and the head of Damascus is Rezin. Within sixty-five years Ephraim shall be broken in pieces, so that it shall not be a people.",
         "translation": "WEB",
         "illustrationId": "ill-isa-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Damascus",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
+          }
+        ]
       },
       {
         "id": "ISA-7:9",
@@ -1930,7 +2205,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The head of Ephraim is Samaria, and the head of Samaria is Remaliah’s son. If you will not believe, surely you shall not be established.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-isa-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "ISA-7:10",
@@ -2055,6 +2335,18 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -2075,6 +2367,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -2098,7 +2394,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "In that day the Lord will shave with a razor that is hired in the parts beyond the River, even with the king of Assyria, the head and the hair of the feet; and it shall also consume the beard.",
         "translation": "WEB",
         "illustrationId": "ill-isa-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          }
+        ]
       },
       {
         "id": "ISA-7:21",
@@ -2193,7 +2494,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "and I will take for myself faithful witnesses to testify: Uriah the priest, and Zechariah the son of Jeberechiah.”",
         "translation": "WEB",
         "illustrationId": "ill-isa-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "ISA-8:3",
@@ -2220,7 +2526,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For before the child knows how to say, ‘My father,’ and, ‘My mother,’ the riches of Damascus and the plunder of Samaria will be carried away by the king of Assyria.”",
         "translation": "WEB",
         "illustrationId": "ill-isa-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Damascus",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          }
+        ]
       },
       {
         "id": "ISA-8:5",
@@ -2258,7 +2573,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "now therefore, behold, the Lord brings upon them the mighty flood waters of the River: the king of Assyria and all his glory. It will come up over all its channels, and go over all its banks.",
         "translation": "WEB",
         "illustrationId": "ill-isa-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          }
+        ]
       },
       {
         "id": "ISA-8:8",
@@ -2273,6 +2593,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Immanuel",
             "entityId": "term-immanuel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -2354,6 +2678,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2377,7 +2705,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Wrap up the covenant. Seal the law among my disciples.",
         "translation": "WEB",
         "illustrationId": "ill-isa-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "ISA-8:17",
@@ -2392,6 +2729,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -2412,6 +2753,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2435,7 +2780,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Turn to the law and to the covenant! If they don’t speak according to this word, surely there is no morning for them.",
         "translation": "WEB",
         "illustrationId": "ill-isa-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "ISA-8:21",
@@ -2555,6 +2909,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
           }
         ]
       },
@@ -2567,7 +2929,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Lord sent a word into Jacob, and it falls on Israel.",
         "translation": "WEB",
         "illustrationId": "ill-isa-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "ISA-9:9",
@@ -2578,7 +2949,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the people will know, including Ephraim and the inhabitants of Samaria, who say in pride and in arrogance of heart,",
         "translation": "WEB",
         "illustrationId": "ill-isa-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "ISA-9:10",
@@ -2616,7 +2992,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Syrians in front, and the Philistines behind; and they will devour Israel with open mouth. For all this, his anger is not turned away, but his hand is stretched out still.",
         "translation": "WEB",
         "illustrationId": "ill-isa-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "ISA-9:13",
@@ -2647,6 +3032,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2730,7 +3119,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Manasseh, Ephraim; and Ephraim, Manasseh; and they together shall be against Judah. For all this his anger is not turned away, but his hand is stretched out still.",
         "translation": "WEB",
         "illustrationId": "ill-isa-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       }
     ]
   },
@@ -2765,7 +3163,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "to deprive the needy from justice, and to rob the poor among my people of their rights, that widows may be their plunder, and that they may make the fatherless their prey!",
         "translation": "WEB",
         "illustrationId": "ill-isa-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          }
+        ]
       },
       {
         "id": "ISA-10:3",
@@ -2842,7 +3245,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Isn’t Calno like Carchemish? Isn’t Hamath like Arpad? Isn’t Samaria like Damascus?”",
         "translation": "WEB",
         "illustrationId": "ill-isa-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Damascus",
+            "entityId": "place-syria"
+          }
+        ]
       },
       {
         "id": "ISA-10:10",
@@ -2893,6 +3301,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -2954,7 +3366,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The light of Israel will be for a fire, and his Holy One for a flame; and it will burn and devour his thorns and his briers in one day.",
         "translation": "WEB",
         "illustrationId": "ill-isa-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Holy One",
+            "entityId": "term-holy-one"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "ISA-10:18",
@@ -2976,7 +3397,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The remnant of the trees of his forest shall be few, so that a child could write their number.",
         "translation": "WEB",
         "illustrationId": "ill-isa-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          }
+        ]
       },
       {
         "id": "ISA-10:20",
@@ -2995,6 +3421,18 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -3007,7 +3445,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "A remnant will return, even the remnant of Jacob, to the mighty God.",
         "translation": "WEB",
         "illustrationId": "ill-isa-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "ISA-10:22",
@@ -3018,7 +3465,20 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For though your people, Israel, are like the sand of the sea, only a remnant of them will return. A destruction is determined, overflowing with righteousness.",
         "translation": "WEB",
         "illustrationId": "ill-isa-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "ISA-10:23",
@@ -3191,7 +3651,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "He will cut down the thickets of the forest with iron, and Lebanon will fall by the Mighty One.",
         "translation": "WEB",
         "illustrationId": "ill-isa-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          }
+        ]
       }
     ]
   },
@@ -3230,6 +3695,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           }
         ]
       },
@@ -3258,7 +3727,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "but he will judge the poor with righteousness, and decide with equity for the humble of the earth. He will strike the earth with the rod of his mouth; and with the breath of his lips he will kill the wicked.",
         "translation": "WEB",
         "illustrationId": "ill-isa-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-11:5",
@@ -3269,7 +3743,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Righteousness will be the belt of his waist, and faithfulness the belt of his waist.",
         "translation": "WEB",
         "illustrationId": "ill-isa-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-11:6",
@@ -3344,6 +3823,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
           }
         ]
       },
@@ -3356,7 +3843,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "He will set up a banner for the nations, and will assemble the outcasts of Israel, and gather together the dispersed of Judah from the four corners of the earth.",
         "translation": "WEB",
         "illustrationId": "ill-isa-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "ISA-11:13",
@@ -3367,7 +3863,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The envy also of Ephraim will depart, and those who persecute Judah will be cut off. Ephraim won’t envy Judah, and Judah won’t persecute Ephraim.",
         "translation": "WEB",
         "illustrationId": "ill-isa-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "ISA-11:14",
@@ -3378,7 +3883,24 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "They will fly down on the shoulders of the Philistines on the west. Together they will plunder the children of the east. They will extend their power over Edom and Moab, and the children of Ammon will obey them.",
         "translation": "WEB",
         "illustrationId": "ill-isa-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "ISA-11:15",
@@ -3409,6 +3931,18 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -3778,6 +4312,18 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          },
+          {
+            "spanText": "Gomorrah",
+            "entityId": "place-gomorrah"
+          },
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
           }
         ]
       },
@@ -3840,6 +4386,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -3856,6 +4410,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3938,7 +4496,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yes, the cypress trees rejoice with you, with the cedars of Lebanon, saying, “Since you are humbled, no lumberjack has come up against us.”",
         "translation": "WEB",
         "illustrationId": "ill-isa-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          }
+        ]
       },
       {
         "id": "ISA-14:9",
@@ -3949,7 +4512,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Sheol from beneath has moved for you to meet you at your coming. It stirs up the departed spirits for you, even all the rulers of the earth. It has raised up from their thrones all the kings of the nations.",
         "translation": "WEB",
         "illustrationId": "ill-isa-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "ISA-14:10",
@@ -3971,7 +4539,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your pomp is brought down to Sheol, with the sound of your stringed instruments. Maggots are spread out under you, and worms cover you.",
         "translation": "WEB",
         "illustrationId": "ill-isa-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "ISA-14:12",
@@ -4015,7 +4588,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yet you shall be brought down to Sheol, to the depths of the pit.",
         "translation": "WEB",
         "illustrationId": "ill-isa-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "ISA-14:16",
@@ -4100,6 +4678,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
           }
         ]
       },
@@ -4198,7 +4780,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t rejoice, O Philistia, all of you, because the rod that struck you is broken; for out of the serpent’s root an adder will emerge, and his fruit will be a fiery flying serpent.",
         "translation": "WEB",
         "illustrationId": "ill-isa-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistia",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "ISA-14:30",
@@ -4209,7 +4796,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The firstborn of the poor will eat, and the needy will lie down in safety; and I will kill your root with famine, and your remnant will be killed.",
         "translation": "WEB",
         "illustrationId": "ill-isa-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          }
+        ]
       },
       {
         "id": "ISA-14:31",
@@ -4220,7 +4812,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Howl, gate! Cry, city! You are melted away, Philistia, all of you; for smoke comes out of the north, and there is no straggler in his ranks.",
         "translation": "WEB",
         "illustrationId": "ill-isa-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistia",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "ISA-14:32",
@@ -4264,7 +4861,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The burden of Moab. For in a night, Ar of Moab is laid waste, and brought to nothing. For in a night Kir of Moab is laid waste, and brought to nothing.",
         "translation": "WEB",
         "illustrationId": "ill-isa-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "ISA-15:2",
@@ -4275,7 +4877,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "They have gone up to Bayith, and to Dibon, to the high places, to weep. Moab wails over Nebo and over Medeba. Baldness is on all of their heads. Every beard is cut off.",
         "translation": "WEB",
         "illustrationId": "ill-isa-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "ISA-15:3",
@@ -4297,7 +4904,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Heshbon cries out with Elealeh. Their voice is heard even to Jahaz. Therefore the armed men of Moab cry aloud. Their souls tremble within them.",
         "translation": "WEB",
         "illustrationId": "ill-isa-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "ISA-15:5",
@@ -4308,7 +4920,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "My heart cries out for Moab! Her nobles flee to Zoar, to Eglath Shelishiyah; for they go up by the ascent of Luhith with weeping; for on the way to Horonaim, they raise up a cry of destruction.",
         "translation": "WEB",
         "illustrationId": "ill-isa-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "ISA-15:6",
@@ -4341,7 +4958,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the cry has gone around the borders of Moab, its wailing to Eglaim, and its wailing to Beer Elim.",
         "translation": "WEB",
         "illustrationId": "ill-isa-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "ISA-15:9",
@@ -4352,7 +4974,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the waters of Dimon are full of blood; for I will bring yet more on Dimon, a lion on those of Moab who escape, and on the remnant of the land.",
         "translation": "WEB",
         "illustrationId": "ill-isa-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       }
     ]
   },
@@ -4392,7 +5023,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For it will be that as wandering birds, as a scattered nest, so will the daughters of Moab be at the fords of the Arnon.",
         "translation": "WEB",
         "illustrationId": "ill-isa-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "ISA-16:3",
@@ -4403,7 +5039,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Give counsel! Execute justice! Make your shade like the night in the middle of the noonday! Hide the outcasts! Don’t betray the fugitive!",
         "translation": "WEB",
         "illustrationId": "ill-isa-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          }
+        ]
       },
       {
         "id": "ISA-16:4",
@@ -4414,7 +5055,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let my outcasts dwell with you! As for Moab, be a hiding place for him from the face of the destroyer. For the extortionist is brought to nothing. Destruction ceases. The oppressors are consumed out of the land.",
         "translation": "WEB",
         "illustrationId": "ill-isa-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "ISA-16:5",
@@ -4429,6 +5075,18 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "loving kindness",
+            "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
           }
         ]
       },
@@ -4441,7 +5099,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "We have heard of the pride of Moab, that he is very proud; even of his arrogance, his pride, and his wrath. His boastings are nothing.",
         "translation": "WEB",
         "illustrationId": "ill-isa-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "ISA-16:7",
@@ -4452,7 +5115,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore Moab will wail for Moab. Everyone will wail. You will mourn for the raisin cakes of Kir Hareseth, utterly stricken.",
         "translation": "WEB",
         "illustrationId": "ill-isa-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "ISA-16:8",
@@ -4485,7 +5153,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Gladness is taken away, and joy out of the fruitful field; and in the vineyards there will be no singing, neither joyful noise. Nobody will tread out wine in the presses. I have made the shouting stop.",
         "translation": "WEB",
         "illustrationId": "ill-isa-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "vineyards",
+            "entityId": "term-vineyard"
+          }
+        ]
       },
       {
         "id": "ISA-16:11",
@@ -4496,7 +5169,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore my heart sounds like a harp for Moab, and my inward parts for Kir Heres.",
         "translation": "WEB",
         "illustrationId": "ill-isa-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "ISA-16:12",
@@ -4507,7 +5185,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "It will happen that when Moab presents himself, when he wearies himself on the high place, and comes to his sanctuary to pray, that he will not prevail.",
         "translation": "WEB",
         "illustrationId": "ill-isa-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "ISA-16:13",
@@ -4522,6 +5205,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -4538,6 +5225,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       }
@@ -4563,7 +5258,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The burden of Damascus. “Behold, Damascus is taken away from being a city, and it will be a ruinous heap.",
         "translation": "WEB",
         "illustrationId": "ill-isa-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Damascus",
+            "entityId": "place-syria"
+          }
+        ]
       },
       {
         "id": "ISA-17:2",
@@ -4589,6 +5289,26 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Damascus",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
           }
         ]
       },
@@ -4601,7 +5321,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“It will happen in that day that the glory of Jacob will be made thin, and the fatness of his flesh will become lean.",
         "translation": "WEB",
         "illustrationId": "ill-isa-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "ISA-17:5",
@@ -4627,6 +5352,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4666,7 +5395,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "In that day, their strong cities will be like the forsaken places in the woods and on the mountain top, which were forsaken from before the children of Israel; and it will be a desolation.",
         "translation": "WEB",
         "illustrationId": "ill-isa-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "ISA-17:10",
@@ -4983,7 +5717,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The princes of Zoan are utterly foolish. The counsel of the wisest counselors of Pharaoh has become stupid. How do you say to Pharaoh, “I am the son of the wise, the son of ancient kings?”",
         "translation": "WEB",
         "illustrationId": "ill-isa-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "ISA-19:12",
@@ -5090,6 +5829,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -5130,6 +5873,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -5206,6 +5953,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -5222,6 +5973,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5242,6 +6001,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -5267,7 +6034,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "In the year that Tartan came to Ashdod, when Sargon the king of Assyria sent him, and he fought against Ashdod and took it;",
         "translation": "WEB",
         "illustrationId": "ill-isa-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          }
+        ]
       },
       {
         "id": "ISA-20:2",
@@ -5300,10 +6072,6 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-isa-20",
         "linkedEntities": [
           {
-            "spanText": "my servant",
-            "entityId": "term-suffering-servant"
-          },
-          {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
           },
@@ -5330,6 +6098,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -5358,7 +6130,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The inhabitants of this coast land will say in that day, ‘Behold, this is our expectation, where we fled for help to be delivered from the king of Assyria. And we, how will we escape?’ ”",
         "translation": "WEB",
         "illustrationId": "ill-isa-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          }
+        ]
       }
     ]
   },
@@ -5490,6 +6267,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5572,6 +6353,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -5679,7 +6464,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "He took away the covering of Judah; and you looked in that day to the armor in the house of the forest.",
         "translation": "WEB",
         "illustrationId": "ill-isa-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "ISA-22:9",
@@ -5843,10 +6633,6 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-isa-22",
         "linkedEntities": [
           {
-            "spanText": "my servant",
-            "entityId": "term-suffering-servant"
-          },
-          {
             "spanText": "Eliakim",
             "entityId": "char-eliakim"
           }
@@ -5865,6 +6651,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -5944,7 +6734,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The burden of Tyre. Howl, you ships of Tarshish! For it is laid waste, so that there is no house, no entering in. From the land of Kittim it is revealed to them.",
         "translation": "WEB",
         "illustrationId": "ill-isa-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
+          }
+        ]
       },
       {
         "id": "ISA-23:2",
@@ -5992,6 +6787,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
           }
         ]
       },
@@ -6026,7 +6825,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Who has planned this against Tyre, the giver of crowns, whose merchants are princes, whose traders are the honorable of the earth?",
         "translation": "WEB",
         "illustrationId": "ill-isa-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
+          }
+        ]
       },
       {
         "id": "ISA-23:9",
@@ -6091,7 +6895,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, the land of the Chaldeans. This people didn’t exist. The Assyrians founded it for those who dwell in the wilderness. They set up their towers. They overthrew its palaces. They made it a ruin.",
         "translation": "WEB",
         "illustrationId": "ill-isa-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "ISA-23:14",
@@ -6113,7 +6922,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "It will come to pass in that day that Tyre will be forgotten seventy years, according to the days of one king. After the end of seventy years it will be to Tyre like in the song of the prostitute.",
         "translation": "WEB",
         "illustrationId": "ill-isa-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
+          }
+        ]
       },
       {
         "id": "ISA-23:16",
@@ -6139,6 +6953,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
           }
         ]
       },
@@ -6196,7 +7014,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "It will be as with the people, so with the priest; as with the servant, so with his master; as with the maid, so with her mistress; as with the buyer, so with the seller; as with the creditor, so with the debtor; as with the taker of interest, so with the giver of interest.",
         "translation": "WEB",
         "illustrationId": "ill-isa-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "ISA-24:3",
@@ -6234,7 +7057,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The earth also is polluted under its inhabitants, because they have transgressed the laws, violated the statutes, and broken the everlasting covenant.",
         "translation": "WEB",
         "illustrationId": "ill-isa-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "ISA-24:6",
@@ -6353,6 +7181,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6365,7 +7197,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "From the uttermost part of the earth have we heard songs. Glory to the righteous! But I said, “I pine away! I pine away! woe is me!” The treacherous have dealt treacherously. Yes, the treacherous have dealt very treacherously.",
         "translation": "WEB",
         "illustrationId": "ill-isa-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-24:17",
@@ -6607,6 +7444,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -6654,7 +7495,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "In that day, this song will be sung in the land of Judah: “We have a strong city. God appoints salvation for walls and bulwarks.",
         "translation": "WEB",
         "illustrationId": "ill-isa-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "ISA-26:2",
@@ -6665,7 +7511,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Open the gates, that the righteous nation may enter: the one which keeps faith.",
         "translation": "WEB",
         "illustrationId": "ill-isa-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-26:3",
@@ -6725,7 +7576,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The way of the just is uprightness. You who are upright make the path of the righteous level.",
         "translation": "WEB",
         "illustrationId": "ill-isa-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-26:8",
@@ -6752,7 +7608,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "With my soul I have desired you in the night. Yes, with my spirit within me I will seek you earnestly; for when your judgments are in the earth, the inhabitants of the world learn righteousness.",
         "translation": "WEB",
         "illustrationId": "ill-isa-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-26:10",
@@ -6767,6 +7628,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -6858,6 +7723,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -6964,7 +7833,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "In that day, sing to her, “A pleasant vineyard!",
         "translation": "WEB",
         "illustrationId": "ill-isa-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "vineyard",
+            "entityId": "term-vineyard"
+          }
+        ]
       },
       {
         "id": "ISA-27:3",
@@ -7013,7 +7887,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "In days to come, Jacob will take root. Israel will blossom and bud. They will fill the surface of the world with fruit.",
         "translation": "WEB",
         "illustrationId": "ill-isa-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "ISA-27:7",
@@ -7046,7 +7929,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore by this the iniquity of Jacob will be forgiven, and this is all the fruit of taking away his sin: that he makes all the stones of the altar as chalk stones that are beaten in pieces, so that the Asherah poles and the incense altars shall rise no more.",
         "translation": "WEB",
         "illustrationId": "ill-isa-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "ISA-27:10",
@@ -7087,6 +7975,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7111,6 +8003,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       }
@@ -7136,7 +8032,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Woe to the crown of pride of the drunkards of Ephraim, and to the fading flower of his glorious beauty, which is on the head of the fertile valley of those who are overcome with wine!",
         "translation": "WEB",
         "illustrationId": "ill-isa-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "ISA-28:2",
@@ -7158,7 +8059,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The crown of pride of the drunkards of Ephraim will be trodden under foot.",
         "translation": "WEB",
         "illustrationId": "ill-isa-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "ISA-28:4",
@@ -7196,7 +8102,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "and a spirit of justice to him who sits in judgment, and strength to those who turn back the battle at the gate.",
         "translation": "WEB",
         "illustrationId": "ill-isa-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          }
+        ]
       },
       {
         "id": "ISA-28:7",
@@ -7207,7 +8118,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "They also reel with wine, and stagger with strong drink. The priest and the prophet reel with strong drink. They are swallowed up by wine. They stagger with strong drink. They err in vision. They stumble in judgment.",
         "translation": "WEB",
         "illustrationId": "ill-isa-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "ISA-28:8",
@@ -7309,7 +8225,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Because you have said, ‘We have made a covenant with death, and we are in agreement with Sheol. When the overflowing scourge passes through, it won’t come to us; for we have made lies our refuge, and we have hidden ourselves under falsehood.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-isa-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "ISA-28:16",
@@ -7340,7 +8265,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will make justice the measuring line, and righteousness the plumb line. The hail will sweep away the refuge of lies, and the waters will overflow the hiding place.",
         "translation": "WEB",
         "illustrationId": "ill-isa-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          }
+        ]
       },
       {
         "id": "ISA-28:18",
@@ -7351,7 +8285,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your covenant with death shall be annulled, and your agreement with Sheol shall not stand. When the overflowing scourge passes through, then you will be trampled down by it.",
         "translation": "WEB",
         "illustrationId": "ill-isa-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "ISA-28:19",
@@ -7701,7 +8644,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "You turn things upside down! Should the potter be thought to be like clay; that the thing made should say about him who made it, “He didn’t make me;” or the thing formed say of him who formed it, “He has no understanding?”",
         "translation": "WEB",
         "illustrationId": "ill-isa-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "potter",
+            "entityId": "term-potter-clay"
+          },
+          {
+            "spanText": "clay",
+            "entityId": "term-potter-clay"
+          }
+        ]
       },
       {
         "id": "ISA-29:17",
@@ -7712,7 +8664,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Isn’t it yet a very little while, and Lebanon will be turned into a fruitful field, and the fruitful field will be regarded as a forest?",
         "translation": "WEB",
         "illustrationId": "ill-isa-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          }
+        ]
       },
       {
         "id": "ISA-29:18",
@@ -7765,7 +8722,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "who cause a person to be indicted by a word, and lay a snare for the arbiter in the gate, and who deprive the innocent of justice with false testimony.",
         "translation": "WEB",
         "illustrationId": "ill-isa-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          }
+        ]
       },
       {
         "id": "ISA-29:22",
@@ -7780,6 +8742,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -7792,7 +8762,20 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "But when he sees his children, the work of my hands, in the middle of him, they will sanctify my name. Yes, they will sanctify the Holy One of Jacob, and will stand in awe of the God of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-isa-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Holy One",
+            "entityId": "term-holy-one"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "ISA-29:24",
@@ -7831,6 +8814,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           }
         ]
       },
@@ -7847,6 +8834,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -7863,6 +8854,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -7939,6 +8934,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -8005,7 +9004,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "He will break it as a potter’s vessel is broken, breaking it in pieces without sparing, so that there won’t be found among the broken pieces a piece good enough to take fire from the hearth, or to dip up water out of the cistern.”",
         "translation": "WEB",
         "illustrationId": "ill-isa-30",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "potter",
+            "entityId": "term-potter-clay"
+          }
+        ]
       },
       {
         "id": "ISA-30:15",
@@ -8062,6 +9066,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
           }
         ]
       },
@@ -8207,6 +9215,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8387,7 +9399,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Return to him from whom you have deeply revolted, children of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-isa-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "ISA-31:7",
@@ -8457,7 +9474,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, a king shall reign in righteousness, and princes shall rule in justice.",
         "translation": "WEB",
         "illustrationId": "ill-isa-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          }
+        ]
       },
       {
         "id": "ISA-32:2",
@@ -8616,7 +9642,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "until the Spirit is poured on us from on high, and the wilderness becomes a fruitful field, and the fruitful field is considered a forest.",
         "translation": "WEB",
         "illustrationId": "ill-isa-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
+          }
+        ]
       },
       {
         "id": "ISA-32:16",
@@ -8627,7 +9658,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then justice will dwell in the wilderness; and righteousness will remain in the fruitful field.",
         "translation": "WEB",
         "illustrationId": "ill-isa-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          }
+        ]
       },
       {
         "id": "ISA-32:17",
@@ -8638,7 +9678,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The work of righteousness will be peace, and the effect of righteousness, quietness and confidence forever.",
         "translation": "WEB",
         "illustrationId": "ill-isa-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-32:18",
@@ -8752,6 +9797,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
           }
         ]
       },
@@ -8791,7 +9844,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The highways are desolate. The traveling man ceases. The covenant is broken. He has despised the cities. He doesn’t respect man.",
         "translation": "WEB",
         "illustrationId": "ill-isa-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "ISA-33:9",
@@ -8802,7 +9860,20 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The land mourns and languishes. Lebanon is confounded and withers away. Sharon is like a desert, and Bashan and Carmel are stripped bare.",
         "translation": "WEB",
         "illustrationId": "ill-isa-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          },
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          },
+          {
+            "spanText": "Carmel",
+            "entityId": "place-mount-carmel"
+          }
+        ]
       },
       {
         "id": "ISA-33:10",
@@ -9069,7 +10140,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For my sword has drunk its fill in the sky. Behold, it will come down on Edom, and on the people of my curse, for judgment.",
         "translation": "WEB",
         "illustrationId": "ill-isa-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "ISA-34:6",
@@ -9084,6 +10160,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -9208,6 +10288,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           }
         ]
       },
@@ -9259,6 +10343,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          },
+          {
+            "spanText": "Carmel",
+            "entityId": "place-mount-carmel"
           }
         ]
       },
@@ -9389,6 +10481,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sennacherib",
             "entityId": "char-sennacherib"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -9409,6 +10509,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Rabshakeh",
+            "entityId": "char-rabshakeh"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -9441,6 +10549,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hezekiah",
             "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "Rabshakeh",
+            "entityId": "char-rabshakeh"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -9468,6 +10584,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -9492,6 +10612,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -9504,7 +10628,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now therefore, please make a pledge to my master the king of Assyria, and I will give you two thousand horses, if you are able on your part to set riders on them.",
         "translation": "WEB",
         "illustrationId": "ill-isa-36",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          }
+        ]
       },
       {
         "id": "ISA-36:9",
@@ -9551,6 +10680,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eliakim",
             "entityId": "char-eliakim"
+          },
+          {
+            "spanText": "Rabshakeh",
+            "entityId": "char-rabshakeh"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -9563,7 +10700,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "But Rabshakeh said, “Has my master sent me only to your master and to you, to speak these words, and not to the men who sit on the wall, who will eat their own dung and drink their own urine with you?”",
         "translation": "WEB",
         "illustrationId": "ill-isa-36",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Rabshakeh",
+            "entityId": "char-rabshakeh"
+          }
+        ]
       },
       {
         "id": "ISA-36:13",
@@ -9574,7 +10716,20 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Rabshakeh stood, and called out with a loud voice in the Jews’ language, and said, “Hear the words of the great king, the king of Assyria!",
         "translation": "WEB",
         "illustrationId": "ill-isa-36",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Rabshakeh",
+            "entityId": "char-rabshakeh"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "ISA-36:14",
@@ -9609,6 +10764,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hezekiah",
             "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -9625,6 +10784,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hezekiah",
             "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -9637,7 +10800,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "until I come and take you away to a land like your own land, a land of grain and new wine, a land of bread and vineyards.",
         "translation": "WEB",
         "illustrationId": "ill-isa-36",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "vineyards",
+            "entityId": "term-vineyard"
+          }
+        ]
       },
       {
         "id": "ISA-36:18",
@@ -9656,6 +10824,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hezekiah",
             "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -9718,6 +10890,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eliakim",
             "entityId": "char-eliakim"
+          },
+          {
+            "spanText": "Rabshakeh",
+            "entityId": "char-rabshakeh"
           }
         ]
       }
@@ -9771,6 +10947,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eliakim",
             "entityId": "char-eliakim"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9803,6 +10983,22 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Rabshakeh",
+            "entityId": "char-rabshakeh"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -9843,6 +11039,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Isaiah",
             "entityId": "char-isaiah"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -9866,7 +11066,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "So Rabshakeh returned, and found the king of Assyria warring against Libnah, for he had heard that he was departed from Lachish.",
         "translation": "WEB",
         "illustrationId": "ill-isa-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Rabshakeh",
+            "entityId": "char-rabshakeh"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          }
+        ]
       },
       {
         "id": "ISA-37:9",
@@ -9901,6 +11110,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -9913,7 +11130,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, you have heard what the kings of Assyria have done to all lands, by destroying them utterly. Shall you be delivered?",
         "translation": "WEB",
         "illustrationId": "ill-isa-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          }
+        ]
       },
       {
         "id": "ISA-37:12",
@@ -9990,6 +11212,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10026,6 +11252,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -10081,6 +11311,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sennacherib",
             "entityId": "char-sennacherib"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10133,7 +11371,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "By your servants, you have defied the Lord, and have said, “With the multitude of my chariots I have come up to the height of the mountains, to the innermost parts of Lebanon. I will cut down its tall cedars and its choice cypress trees. I will enter into its farthest height, the forest of its fruitful field.",
         "translation": "WEB",
         "illustrationId": "ill-isa-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          }
+        ]
       },
       {
         "id": "ISA-37:25",
@@ -10204,7 +11447,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘This shall be the sign to you. You will eat this year that which grows of itself, and in the second year that which springs from it; and in the third year sow and reap and plant vineyards, and eat their fruit.",
         "translation": "WEB",
         "illustrationId": "ill-isa-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "vineyards",
+            "entityId": "term-vineyard"
+          }
+        ]
       },
       {
         "id": "ISA-37:31",
@@ -10215,7 +11463,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The remnant that is escaped of the house of Judah will again take root downward, and bear fruit upward.",
         "translation": "WEB",
         "illustrationId": "ill-isa-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "ISA-37:32",
@@ -10238,6 +11495,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
           }
         ]
       },
@@ -10254,6 +11515,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -10283,10 +11548,6 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-isa-37",
         "linkedEntities": [
-          {
-            "spanText": "my servant",
-            "entityId": "term-suffering-servant"
-          },
           {
             "spanText": "David",
             "entityId": "char-david"
@@ -10322,6 +11583,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sennacherib",
             "entityId": "char-sennacherib"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "Nineveh",
+            "entityId": "place-nineveh"
           }
         ]
       },
@@ -10454,6 +11723,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -10466,7 +11739,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will deliver you and this city out of the hand of the king of Assyria, and I will defend this city.",
         "translation": "WEB",
         "illustrationId": "ill-isa-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          }
+        ]
       },
       {
         "id": "ISA-38:7",
@@ -10513,6 +11791,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hezekiah",
             "entityId": "char-hezekiah"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -10525,7 +11807,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I said, “In the middle of my life I go into the gates of Sheol. I am deprived of the residue of my years.”",
         "translation": "WEB",
         "illustrationId": "ill-isa-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "ISA-38:11",
@@ -10613,7 +11900,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For Sheol can’t praise you. Death can’t celebrate you. Those who go down into the pit can’t hope for your truth.",
         "translation": "WEB",
         "illustrationId": "ill-isa-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "ISA-38:19",
@@ -10993,6 +12285,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -11047,6 +12343,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           }
         ]
       },
@@ -11059,7 +12359,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Who did he take counsel with, and who instructed him, and taught him in the path of justice, and taught him knowledge, and showed him the way of understanding?",
         "translation": "WEB",
         "illustrationId": "ill-isa-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          }
+        ]
       },
       {
         "id": "ISA-40:15",
@@ -11081,7 +12386,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Lebanon is not sufficient to burn, nor its animals sufficient for a burnt offering.",
         "translation": "WEB",
         "illustrationId": "ill-isa-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          }
+        ]
       },
       {
         "id": "ISA-40:17",
@@ -11180,7 +12494,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“To whom then will you liken me? Who is my equal?” says the Holy One.",
         "translation": "WEB",
         "illustrationId": "ill-isa-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Holy One",
+            "entityId": "term-holy-one"
+          }
+        ]
       },
       {
         "id": "ISA-40:26",
@@ -11206,6 +12525,18 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -11296,7 +12627,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Who has raised up one from the east? Who called him to his foot in righteousness? He hands over nations to him and makes him rule over kings. He gives them like the dust to his sword, like the driven stubble to his bow.",
         "translation": "WEB",
         "illustrationId": "ill-isa-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-41:3",
@@ -11371,6 +12707,18 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "my servant",
             "entityId": "term-suffering-servant"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -11399,7 +12747,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t you be afraid, for I am with you. Don’t be dismayed, for I am your God. I will strengthen you. Yes, I will help you. Yes, I will uphold you with the right hand of my righteousness.",
         "translation": "WEB",
         "illustrationId": "ill-isa-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-41:11",
@@ -11456,6 +12809,18 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Redeemer",
+            "entityId": "term-redeemer-zion"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -11503,6 +12868,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11561,6 +12930,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -11606,7 +12979,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“I have raised up one from the north, and he has come, from the rising of the sun, one who calls on my name, and he shall come on rulers as on mortar, and as the potter treads clay.",
         "translation": "WEB",
         "illustrationId": "ill-isa-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "potter",
+            "entityId": "term-potter-clay"
+          },
+          {
+            "spanText": "clay",
+            "entityId": "term-potter-clay"
+          }
+        ]
       },
       {
         "id": "ISA-41:26",
@@ -11687,6 +13069,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "my servant",
             "entityId": "term-suffering-servant"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           }
         ]
       },
@@ -11710,7 +13100,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "He won’t break a bruised reed. He won’t quench a dimly burning wick. He will faithfully bring justice.",
         "translation": "WEB",
         "illustrationId": "ill-isa-42",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          }
+        ]
       },
       {
         "id": "ISA-42:4",
@@ -11721,7 +13116,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "He will not fail nor be discouraged, until he has set justice in the earth, and the islands wait for his law.”",
         "translation": "WEB",
         "illustrationId": "ill-isa-42",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "ISA-42:5",
@@ -11752,6 +13156,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           }
         ]
       },
@@ -11951,6 +13363,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -11989,6 +13409,18 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -12029,6 +13461,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -12217,6 +13657,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          },
+          {
+            "spanText": "Redeemer",
+            "entityId": "term-redeemer-zion"
           }
         ]
       },
@@ -12233,6 +13681,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Holy One",
+            "entityId": "term-holy-one"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12316,7 +13772,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yet you have not called on me, Jacob; but you have been weary of me, Israel.",
         "translation": "WEB",
         "illustrationId": "ill-isa-43",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "ISA-43:23",
@@ -12327,7 +13792,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "You have not brought me any of your sheep for burnt offerings, neither have you honored me with your sacrifices. I have not burdened you with offerings, nor wearied you with frankincense.",
         "translation": "WEB",
         "illustrationId": "ill-isa-43",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "ISA-43:24",
@@ -12382,7 +13852,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore I will profane the princes of the sanctuary; and I will make Jacob a curse, and Israel an insult.”",
         "translation": "WEB",
         "illustrationId": "ill-isa-43",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       }
     ]
   },
@@ -12410,6 +13889,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "my servant",
             "entityId": "term-suffering-servant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -12430,6 +13917,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -12442,7 +13933,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For I will pour water on him who is thirsty, and streams on the dry ground. I will pour my Spirit on your descendants, and my blessing on your offspring:",
         "translation": "WEB",
         "illustrationId": "ill-isa-44",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
+          }
+        ]
       },
       {
         "id": "ISA-44:4",
@@ -12468,6 +13964,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -12484,6 +13988,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Redeemer",
+            "entityId": "term-redeemer-zion"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12654,6 +14166,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "my servant",
             "entityId": "term-suffering-servant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -12681,6 +14201,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -12697,6 +14225,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Redeemer",
+            "entityId": "term-redeemer-zion"
           }
         ]
       },
@@ -12724,6 +14256,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -12755,6 +14291,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
           }
         ]
       }
@@ -12815,6 +14355,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12831,6 +14375,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "my servant",
             "entityId": "term-suffering-servant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -12895,6 +14447,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -12907,7 +14463,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Woe to him who strives with his Maker— a clay pot among the clay pots of the earth! Shall the clay ask him who fashions it, ‘What are you making?’ or your work, ‘He has no hands?’",
         "translation": "WEB",
         "illustrationId": "ill-isa-45",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "clay",
+            "entityId": "term-potter-clay"
+          }
+        ]
       },
       {
         "id": "ISA-45:10",
@@ -12964,6 +14525,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -12996,7 +14561,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Most certainly you are a God who has hidden yourself, God of Israel, the Savior.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-isa-45",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "ISA-45:16",
@@ -13022,6 +14592,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13054,6 +14628,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -13104,7 +14686,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I have sworn by myself. The word has gone out of my mouth in righteousness, and will not be revoked, that to me every knee shall bow, every tongue shall take an oath.",
         "translation": "WEB",
         "illustrationId": "ill-isa-45",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-45:24",
@@ -13119,6 +14706,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -13135,6 +14726,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -13182,7 +14777,20 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Listen to me, house of Jacob, and all the remnant of the house of Israel, that have been carried from their birth, that have been carried from the womb.",
         "translation": "WEB",
         "illustrationId": "ill-isa-46",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "remnant",
+            "entityId": "term-remnant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "ISA-46:4",
@@ -13281,7 +14889,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Listen to me, you stubborn-hearted, who are far from righteousness!",
         "translation": "WEB",
         "illustrationId": "ill-isa-46",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-46:13",
@@ -13296,6 +14909,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -13325,6 +14946,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -13367,6 +14992,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Redeemer",
+            "entityId": "term-redeemer-zion"
           }
         ]
       },
@@ -13379,7 +15008,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Sit in silence, and go into darkness, daughter of the Chaldeans. For you shall no longer be called the mistress of kingdoms.",
         "translation": "WEB",
         "illustrationId": "ill-isa-47",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "ISA-47:6",
@@ -13517,6 +15151,22 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -13533,6 +15183,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13644,7 +15298,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Listen to me, O Jacob, and Israel my called: I am he. I am the first. I am also the last.",
         "translation": "WEB",
         "illustrationId": "ill-isa-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "ISA-48:13",
@@ -13674,6 +15337,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -13701,6 +15368,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           }
         ]
       },
@@ -13721,6 +15392,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Redeemer",
+            "entityId": "term-redeemer-zion"
           }
         ]
       },
@@ -13733,7 +15408,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Oh that you had listened to my commandments! Then your peace would have been like a river and your righteousness like the waves of the sea.",
         "translation": "WEB",
         "illustrationId": "ill-isa-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-48:19",
@@ -13763,6 +15443,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -13846,6 +15534,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "my servant",
             "entityId": "term-suffering-servant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13862,6 +15554,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
           }
         ]
       },
@@ -13878,6 +15574,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -13894,6 +15598,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "my servant",
             "entityId": "term-suffering-servant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -13914,6 +15626,18 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Holy One",
+            "entityId": "term-holy-one"
+          },
+          {
+            "spanText": "Redeemer",
+            "entityId": "term-redeemer-zion"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13930,6 +15654,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           }
         ]
       },
@@ -14167,6 +15895,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Redeemer",
+            "entityId": "term-redeemer-zion"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       }
@@ -14360,6 +16096,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -14372,7 +16112,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Look to Abraham your father, and to Sarah who bore you; for when he was but one I called him, I blessed him, and made him many.",
         "translation": "WEB",
         "illustrationId": "ill-isa-51",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          }
+        ]
       },
       {
         "id": "ISA-51:3",
@@ -14403,7 +16148,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Listen to me, my people; and hear me, my nation, for a law will go out from me, and I will establish my justice for a light to the peoples.",
         "translation": "WEB",
         "illustrationId": "ill-isa-51",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "ISA-51:5",
@@ -14414,7 +16168,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "My righteousness is near. My salvation has gone out, and my arms will judge the peoples. The islands will wait for me, and they will trust my arm.",
         "translation": "WEB",
         "illustrationId": "ill-isa-51",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-51:6",
@@ -14425,7 +16184,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Lift up your eyes to the heavens, and look at the earth beneath; for the heavens will vanish away like smoke, and the earth will wear out like a garment. Its inhabitants will die in the same way, but my salvation will be forever, and my righteousness will not be abolished.",
         "translation": "WEB",
         "illustrationId": "ill-isa-51",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-51:7",
@@ -14436,7 +16200,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Listen to me, you who know righteousness, the people in whose heart is my law. Don’t fear the reproach of men, and don’t be dismayed at their insults.",
         "translation": "WEB",
         "illustrationId": "ill-isa-51",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "ISA-51:8",
@@ -14447,7 +16220,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the moth will eat them up like a garment, and the worm will eat them like wool; but my righteousness will be forever, and my salvation to all generations.”",
         "translation": "WEB",
         "illustrationId": "ill-isa-51",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-51:9",
@@ -14879,6 +16657,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15067,7 +16849,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "After the suffering of his soul, he will see the light and be satisfied. My righteous servant will justify many by the knowledge of himself; and he will bear their iniquities.",
         "translation": "WEB",
         "illustrationId": "ill-isa-53",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "My righteous servant",
+            "entityId": "term-suffering-servant"
+          }
+        ]
       },
       {
         "id": "ISA-53:12",
@@ -15159,6 +16946,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Redeemer",
+            "entityId": "term-redeemer-zion"
           }
         ]
       },
@@ -15202,6 +16993,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "loving kindness",
+            "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Redeemer",
+            "entityId": "term-redeemer-zion"
           }
         ]
       },
@@ -15229,6 +17028,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "loving kindness",
+            "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           }
         ]
       },
@@ -15279,7 +17086,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "You will be established in righteousness. You will be far from oppression, for you will not be afraid, and far from terror, for it shall not come near you.",
         "translation": "WEB",
         "illustrationId": "ill-isa-54",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-54:15",
@@ -15316,6 +17128,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       }
@@ -15367,6 +17183,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           }
         ]
       },
@@ -15535,6 +17355,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
           }
         ]
       },
@@ -15547,7 +17375,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Blessed is the man who does this, and the son of man who holds it fast; who keeps the Sabbath without profaning it and keeps his hand from doing any evil.”",
         "translation": "WEB",
         "illustrationId": "ill-isa-56",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
+          }
+        ]
       },
       {
         "id": "ISA-56:3",
@@ -15578,6 +17411,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           }
         ]
       },
@@ -15605,6 +17446,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
           }
         ]
       },
@@ -15617,7 +17466,20 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will bring these to my holy mountain, and make them joyful in my house of prayer. Their burnt offerings and their sacrifices will be accepted on my altar; for my house will be called a house of prayer for all peoples.”",
         "translation": "WEB",
         "illustrationId": "ill-isa-56",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "ISA-56:8",
@@ -15632,6 +17494,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15701,7 +17567,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The righteous perish, and no one lays it to heart. Merciful men are taken away, and no one considers that the righteous is taken away from the evil.",
         "translation": "WEB",
         "illustrationId": "ill-isa-57",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-57:2",
@@ -15778,7 +17649,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "You have set up your memorial behind the doors and the posts, for you have exposed yourself to someone besides me, and have gone up. You have enlarged your bed and made you a covenant with them. You loved what you saw on their bed.",
         "translation": "WEB",
         "illustrationId": "ill-isa-57",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "ISA-57:9",
@@ -15789,7 +17665,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "You went to the king with oil, increased your perfumes, sent your ambassadors far off, and degraded yourself even to Sheol.",
         "translation": "WEB",
         "illustrationId": "ill-isa-57",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
+          }
+        ]
       },
       {
         "id": "ISA-57:10",
@@ -15822,7 +17703,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will declare your righteousness; and as for your works, they will not benefit you.",
         "translation": "WEB",
         "illustrationId": "ill-isa-57",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-57:13",
@@ -15950,7 +17836,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Cry aloud! Don’t spare! Lift up your voice like a trumpet! Declare to my people their disobedience, and to the house of Jacob their sins.",
         "translation": "WEB",
         "illustrationId": "ill-isa-58",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "ISA-58:2",
@@ -15961,7 +17852,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yet they seek me daily, and delight to know my ways. As a nation that did righteousness, and didn’t forsake the ordinance of their God, they ask of me righteous judgments. They delight to draw near to God.",
         "translation": "WEB",
         "illustrationId": "ill-isa-58",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-58:3",
@@ -16036,6 +17936,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -16106,6 +18010,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
           }
         ]
       },
@@ -16122,6 +18030,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       }
@@ -16185,7 +18097,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "No one sues in righteousness, and no one pleads in truth. They trust in vanity, and speak lies. They conceive mischief, and give birth to iniquity.",
         "translation": "WEB",
         "illustrationId": "ill-isa-59",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-59:5",
@@ -16229,7 +18146,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "They don’t know the way of peace; and there is no justice in their ways. They have made crooked paths for themselves; whoever goes in them doesn’t know peace.",
         "translation": "WEB",
         "illustrationId": "ill-isa-59",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          }
+        ]
       },
       {
         "id": "ISA-59:9",
@@ -16240,7 +18162,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore justice is far from us, and righteousness doesn’t overtake us. We look for light, but see darkness; for brightness, but we walk in obscurity.",
         "translation": "WEB",
         "illustrationId": "ill-isa-59",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          }
+        ]
       },
       {
         "id": "ISA-59:10",
@@ -16262,7 +18193,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "We all roar like bears and moan bitterly like doves. We look for justice, but there is none, for salvation, but it is far off from us.",
         "translation": "WEB",
         "illustrationId": "ill-isa-59",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
+          }
+        ]
       },
       {
         "id": "ISA-59:12",
@@ -16300,7 +18236,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Justice is turned away backward, and righteousness stands far away; for truth has fallen in the street, and uprightness can’t enter.",
         "translation": "WEB",
         "illustrationId": "ill-isa-59",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "Justice",
+            "entityId": "term-justice"
+          }
+        ]
       },
       {
         "id": "ISA-59:15",
@@ -16315,6 +18260,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
           }
         ]
       },
@@ -16327,7 +18276,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "He saw that there was no man, and wondered that there was no intercessor. Therefore his own arm brought salvation to him; and his righteousness sustained him.",
         "translation": "WEB",
         "illustrationId": "ill-isa-59",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-59:17",
@@ -16338,7 +18292,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "He put on righteousness as a breastplate, and a helmet of salvation on his head. He put on garments of vengeance for clothing, and was clad with zeal as a mantle.",
         "translation": "WEB",
         "illustrationId": "ill-isa-59",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-59:18",
@@ -16384,6 +18343,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "Redeemer",
+            "entityId": "term-redeemer-zion"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -16400,6 +18367,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           }
         ]
       }
@@ -16506,7 +18481,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the flocks of Kedar will be gathered together to you. The rams of Nebaioth will serve you. They will be accepted as offerings on my altar; and I will beautify my glorious house.",
         "translation": "WEB",
         "illustrationId": "ill-isa-60",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "ISA-60:8",
@@ -16581,7 +18561,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“The glory of Lebanon shall come to you, the cypress tree, the pine, and the box tree together, to beautify the place of my sanctuary; and I will make the place of my feet glorious.",
         "translation": "WEB",
         "illustrationId": "ill-isa-60",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          }
+        ]
       },
       {
         "id": "ISA-60:14",
@@ -16631,6 +18616,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Redeemer",
+            "entityId": "term-redeemer-zion"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -16643,7 +18636,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For bronze I will bring gold; for iron I will bring silver; for wood, bronze, and for stones, iron. I will also make peace your governor, and righteousness your ruler.",
         "translation": "WEB",
         "illustrationId": "ill-isa-60",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-60:18",
@@ -16697,7 +18695,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then your people will all be righteous. They will inherit the land forever, the branch of my planting, the work of my hands, that I may be glorified.",
         "translation": "WEB",
         "illustrationId": "ill-isa-60",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-60:22",
@@ -16741,6 +18744,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           }
         ]
       },
@@ -16777,6 +18784,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -16800,7 +18811,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Strangers will stand and feed your flocks. Foreigners will work your fields and your vineyards.",
         "translation": "WEB",
         "illustrationId": "ill-isa-61",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "vineyards",
+            "entityId": "term-vineyard"
+          }
+        ]
       },
       {
         "id": "ISA-61:6",
@@ -16815,6 +18831,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -16842,6 +18862,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          },
+          {
+            "spanText": "justice",
+            "entityId": "term-justice"
           }
         ]
       },
@@ -16874,6 +18902,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -16890,6 +18922,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       }
@@ -16923,6 +18959,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zion",
             "entityId": "place-zion"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -16939,6 +18979,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -17122,7 +19166,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Who is this who comes from Edom, with dyed garments from Bozrah? Who is this who is glorious in his clothing, marching in the greatness of his strength? “It is I who speak in righteousness, mighty to save.”",
         "translation": "WEB",
         "illustrationId": "ill-isa-63",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "ISA-63:2",
@@ -17192,6 +19245,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -17226,7 +19283,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "But they rebelled and grieved his Holy Spirit. Therefore he turned and became their enemy, and he himself fought against them.",
         "translation": "WEB",
         "illustrationId": "ill-isa-63",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Holy Spirit",
+            "entityId": "term-ruach"
+          }
+        ]
       },
       {
         "id": "ISA-63:11",
@@ -17237,7 +19299,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then he remembered the days of old, Moses and his people, saying, “Where is he who brought them up out of the sea with the shepherds of his flock? Where is he who put his Holy Spirit among them?”",
         "translation": "WEB",
         "illustrationId": "ill-isa-63",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Holy Spirit",
+            "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Moses",
+            "entityId": "char-moses"
+          }
+        ]
       },
       {
         "id": "ISA-63:12",
@@ -17248,7 +19319,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Who caused his glorious arm to be at Moses’ right hand? Who divided the waters before them, to make himself an everlasting name?",
         "translation": "WEB",
         "illustrationId": "ill-isa-63",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moses",
+            "entityId": "char-moses"
+          }
+        ]
       },
       {
         "id": "ISA-63:13",
@@ -17274,6 +19350,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           }
         ]
       },
@@ -17301,6 +19381,18 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Redeemer",
+            "entityId": "term-redeemer-zion"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -17408,7 +19500,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "You meet him who rejoices and does righteousness, those who remember you in your ways. Behold, you were angry, and we sinned. We have been in sin for a long time. Shall we be saved?",
         "translation": "WEB",
         "illustrationId": "ill-isa-64",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-64:6",
@@ -17419,7 +19516,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For we have all become like one who is unclean, and all our righteousness is like a polluted garment. We all fade like a leaf; and our iniquities, like the wind, take us away.",
         "translation": "WEB",
         "illustrationId": "ill-isa-64",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ISA-64:7",
@@ -17445,6 +19547,14 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "potter",
+            "entityId": "term-potter-clay"
+          },
+          {
+            "spanText": "clay",
+            "entityId": "term-potter-clay"
           }
         ]
       },
@@ -17631,7 +19741,16 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will bring offspring out of Jacob, and out of Judah an inheritor of my mountains. My chosen will inherit it, and my servants will dwell there.",
         "translation": "WEB",
         "illustrationId": "ill-isa-65",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "ISA-65:10",
@@ -17788,7 +19907,12 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "They will build houses and inhabit them. They will plant vineyards and eat their fruit.",
         "translation": "WEB",
         "illustrationId": "ill-isa-65",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "vineyards",
+            "entityId": "term-vineyard"
+          }
+        ]
       },
       {
         "id": "ISA-65:22",
@@ -17940,6 +20064,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
           }
         ]
       },
@@ -18148,6 +20276,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -18164,6 +20296,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -18196,6 +20332,10 @@ export const ISAIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
           }
         ]
       },

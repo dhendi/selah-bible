@@ -374,6 +374,14 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'term-garden-vineyard': '/images/sng-07.jpg',
   'term-lilies-blossom': '/images/sng-02.jpg',
   'term-myrrh-spices': '/images/word-myrrh-spices.jpg',
+  'term-holy-one': '/images/word-holy-one.jpg',
+  'term-immanuel': '/images/word-immanuel.jpg',
+  'term-suffering-servant': '/images/word-suffering-servant.jpg',
+  'term-remnant': '/images/word-remnant.jpg',
+  'term-justice': '/images/word-justice-mishpat.jpg',
+  'term-vineyard': '/images/word-vineyard-isaiah.jpg',
+  'term-potter-clay': '/images/word-potter-clay.jpg',
+  'term-redeemer-zion': '/images/isa-49.jpg',
 };
 
 export interface ResolvedEntityAsset {
