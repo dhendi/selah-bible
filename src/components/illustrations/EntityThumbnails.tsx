@@ -325,6 +325,16 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'term-ancient-of-days': '/images/dan-07.jpg',
   'term-son-of-man': '/images/dan-07.jpg',
   'char-god': '/images/gen-01.jpg',
+  'place-susa': '/images/word-susa-citadel.jpg',
+  'term-joy-strength': '/images/word-joy-strength.jpg',
+  'term-jews': '/images/word-jews-remnant.jpg',
+  'term-rebuild-wall': '/images/neh-06.jpg',
+  'term-prayer': '/images/neh-01.jpg',
+  'char-sanballat': '/images/portrait-sanballat.jpg',
+  'char-tobiah': '/images/portrait-tobiah.jpg',
+  'char-geshem': '/images/portrait-geshem.jpg',
+  'char-eliashib': '/images/portrait-eliashib.jpg',
+  'char-hanani': '/images/portrait-hanani.jpg',
 };
 
 export interface ResolvedEntityAsset {

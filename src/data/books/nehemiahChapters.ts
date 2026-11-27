@@ -25,6 +25,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Nehemiah",
             "entityId": "char-nehemiah"
+          },
+          {
+            "spanText": "Susa",
+            "entityId": "place-susa"
           }
         ]
       },
@@ -41,6 +45,18 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Hanani",
+            "entityId": "char-hanani"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -57,6 +73,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
           }
         ]
       },
@@ -88,6 +108,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "loving kindness",
+            "entityId": "term-steadfast-love"
           }
         ]
       },
@@ -100,7 +124,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let your ear now be attentive, and your eyes open, that you may listen to the prayer of your servant, which I pray before you at this time, day and night, for the children of Israel your servants, while I confess the sins of the children of Israel, which we have sinned against you. Yes, I and my father’s house have sinned.",
         "translation": "WEB",
         "illustrationId": "ill-neh-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          }
+        ]
       },
       {
         "id": "NEH-1:7",
@@ -165,7 +198,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Lord, I beg you, let your ear be attentive now to the prayer of your servant, and to the prayer of your servants, who delight to fear your name; and please prosper your servant today, and grant him mercy in the sight of this man.” Now I was cup bearer to the king.",
         "translation": "WEB",
         "illustrationId": "ill-neh-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          }
+        ]
       }
     ]
   },
@@ -238,7 +276,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I said to the king, “If it pleases the king, and if your servant has found favor in your sight, that you would send me to Judah, to the city of my fathers’ tombs, that I may build it.”",
         "translation": "WEB",
         "illustrationId": "ill-neh-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "NEH-2:6",
@@ -260,7 +303,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Moreover I said to the king, “If it pleases the king, let letters be given me to the governors beyond the River, that they may let me pass through until I come to Judah;",
         "translation": "WEB",
         "illustrationId": "ill-neh-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "NEH-2:8",
@@ -275,6 +323,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
           }
         ]
       },
@@ -298,7 +350,24 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "When Sanballat the Horonite, and Tobiah the servant, the Ammonite, heard of it, it grieved them exceedingly, because a man had come to seek the welfare of the children of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-neh-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sanballat",
+            "entityId": "char-sanballat"
+          },
+          {
+            "spanText": "Ammonite",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Tobiah",
+            "entityId": "char-tobiah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NEH-2:11",
@@ -345,6 +414,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "walls",
+            "entityId": "term-rebuild-wall"
           }
         ]
       },
@@ -368,7 +441,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then I went up in the night by the brook, and inspected the wall; and I turned back, and entered by the valley gate, and so returned.",
         "translation": "WEB",
         "illustrationId": "ill-neh-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-2:16",
@@ -379,7 +457,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The rulers didn’t know where I went, or what I did. I had not as yet told it to the Jews, nor to the priests, nor to the nobles, nor to the rulers, nor to the rest who did the work.",
         "translation": "WEB",
         "illustrationId": "ill-neh-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "NEH-2:17",
@@ -394,6 +481,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
           }
         ]
       },
@@ -417,7 +508,24 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "But when Sanballat the Horonite, Tobiah the Ammonite servant, and Geshem the Arabian, heard it, they ridiculed us, and despised us, and said, “What is this thing that you are doing? Will you rebel against the king?”",
         "translation": "WEB",
         "illustrationId": "ill-neh-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sanballat",
+            "entityId": "char-sanballat"
+          },
+          {
+            "spanText": "Ammonite",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Tobiah",
+            "entityId": "char-tobiah"
+          },
+          {
+            "spanText": "Geshem",
+            "entityId": "char-geshem"
+          }
+        ]
       },
       {
         "id": "NEH-2:20",
@@ -457,7 +565,20 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Eliashib the high priest rose up with his brothers the priests, and they built the sheep gate. They sanctified it, and set up its doors. They sanctified it even to the tower of Hammeah, to the tower of Hananel.",
         "translation": "WEB",
         "illustrationId": "ill-neh-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Eliashib",
+            "entityId": "char-eliashib"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NEH-3:2",
@@ -468,7 +589,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Next to him the men of Jericho built. Next to them Zaccur the son of Imri built.",
         "translation": "WEB",
         "illustrationId": "ill-neh-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jericho",
+            "entityId": "place-jericho"
+          }
+        ]
       },
       {
         "id": "NEH-3:3",
@@ -523,7 +649,20 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Next to them, Melatiah the Gibeonite, and Jadon the Meronothite, the men of Gibeon and of Mizpah, repaired the residence of the governor beyond the River.",
         "translation": "WEB",
         "illustrationId": "ill-neh-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gibeonite",
+            "entityId": "place-gibeon"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
+          },
+          {
+            "spanText": "Gibeon",
+            "entityId": "place-gibeon"
+          }
+        ]
       },
       {
         "id": "NEH-3:8",
@@ -538,6 +677,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
           }
         ]
       },
@@ -604,7 +747,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Hanun and the inhabitants of Zanoah repaired the valley gate. They built it, and set up its doors, its bolts, and its bars, and one thousand cubits of the wall to the dung gate.",
         "translation": "WEB",
         "illustrationId": "ill-neh-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-3:14",
@@ -630,6 +778,14 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
+          },
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
           }
         ]
       },
@@ -662,7 +818,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "After him, the Levites, Rehum the son of Bani made repairs. Next to him, Hashabiah, the ruler of half the district of Keilah, made repairs for his district.",
         "translation": "WEB",
         "illustrationId": "ill-neh-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NEH-3:18",
@@ -688,6 +849,14 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeshua",
             "entityId": "char-jeshua"
+          },
+          {
+            "spanText": "Mizpah",
+            "entityId": "place-mizpah"
+          },
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
           }
         ]
       },
@@ -700,7 +869,20 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "After him, Baruch the son of Zabbai earnestly repaired another portion, from the turning of the wall to the door of the house of Eliashib the high priest.",
         "translation": "WEB",
         "illustrationId": "ill-neh-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Eliashib",
+            "entityId": "char-eliashib"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-3:21",
@@ -711,7 +893,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "After him, Meremoth the son of Uriah the son of Hakkoz repaired another portion, from the door of the house of Eliashib even to the end of the house of Eliashib.",
         "translation": "WEB",
         "illustrationId": "ill-neh-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Eliashib",
+            "entityId": "char-eliashib"
+          }
+        ]
       },
       {
         "id": "NEH-3:22",
@@ -722,7 +909,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "After him, the priests, the men of the Plain made repairs.",
         "translation": "WEB",
         "illustrationId": "ill-neh-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NEH-3:23",
@@ -744,7 +936,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "After him, Binnui the son of Henadad repaired another portion, from the house of Azariah to the turning of the wall, and to the corner.",
         "translation": "WEB",
         "illustrationId": "ill-neh-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-3:25",
@@ -755,7 +952,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Palal the son of Uzai made repairs opposite the turning of the wall, and the tower that stands out from the upper house of the king, which is by the court of the guard. After him Pedaiah the son of Parosh made repairs.",
         "translation": "WEB",
         "illustrationId": "ill-neh-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-3:26",
@@ -782,7 +984,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "After him the Tekoites repaired another portion, opposite the great tower that stands out, and to the wall of Ophel.",
         "translation": "WEB",
         "illustrationId": "ill-neh-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-3:28",
@@ -793,7 +1000,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Above the horse gate, the priests made repairs, everyone across from his own house.",
         "translation": "WEB",
         "illustrationId": "ill-neh-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NEH-3:29",
@@ -866,7 +1078,20 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "But when Sanballat heard that we were building the wall, he was angry, and was very indignant, and mocked the Jews.",
         "translation": "WEB",
         "illustrationId": "ill-neh-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sanballat",
+            "entityId": "char-sanballat"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          },
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-4:2",
@@ -877,7 +1102,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "He spoke before his brothers and the army of Samaria, and said, “What are these feeble Jews doing? Will they fortify themselves? Will they sacrifice? Will they finish in a day? Will they revive the stones out of the heaps of rubbish, since they are burned?”",
         "translation": "WEB",
         "illustrationId": "ill-neh-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Samaria",
+            "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "NEH-4:3",
@@ -888,7 +1122,20 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now Tobiah the Ammonite was by him, and he said, “What they are building, if a fox climbed up it, he would break down their stone wall.”",
         "translation": "WEB",
         "illustrationId": "ill-neh-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ammonite",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Tobiah",
+            "entityId": "char-tobiah"
+          },
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-4:4",
@@ -921,7 +1168,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "So we built the wall; and all the wall was joined together to half its height: for the people had a mind to work.",
         "translation": "WEB",
         "illustrationId": "ill-neh-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-4:7",
@@ -936,6 +1188,22 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Sanballat",
+            "entityId": "char-sanballat"
+          },
+          {
+            "spanText": "Ammonites",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Tobiah",
+            "entityId": "char-tobiah"
+          },
+          {
+            "spanText": "walls",
+            "entityId": "term-rebuild-wall"
           }
         ]
       },
@@ -964,7 +1232,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "But we made our prayer to our God, and set a watch against them day and night because of them.",
         "translation": "WEB",
         "illustrationId": "ill-neh-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          }
+        ]
       },
       {
         "id": "NEH-4:10",
@@ -975,7 +1248,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Judah said, “The strength of the bearers of burdens is fading, and there is much rubble; so that we are not able to build the wall.”",
         "translation": "WEB",
         "illustrationId": "ill-neh-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-4:11",
@@ -997,7 +1279,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the Jews who lived by them came, they said to us ten times from all places, “Wherever you turn, they will attack us.”",
         "translation": "WEB",
         "illustrationId": "ill-neh-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "NEH-4:13",
@@ -1008,7 +1295,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore I set guards in the lowest parts of the space behind the wall, in the open places. I set the people by family groups with their swords, their spears, and their bows.",
         "translation": "WEB",
         "illustrationId": "ill-neh-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-4:14",
@@ -1030,7 +1322,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "When our enemies heard that it was known to us, and God had brought their counsel to nothing, all of us returned to the wall, everyone to his work.",
         "translation": "WEB",
         "illustrationId": "ill-neh-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-4:16",
@@ -1041,7 +1338,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "From that time forth, half of my servants did the work, and half of them held the spears, the shields, the bows, and the coats of mail; and the rulers were behind all the house of Judah.",
         "translation": "WEB",
         "illustrationId": "ill-neh-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "NEH-4:17",
@@ -1052,7 +1354,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Those who built the wall, and those who bore burdens loaded themselves; everyone with one of his hands did the work, and with the other held his weapon.",
         "translation": "WEB",
         "illustrationId": "ill-neh-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-4:18",
@@ -1063,7 +1370,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Among the builders, everyone wore his sword at his side, and so built. He who sounded the trumpet was by me.",
         "translation": "WEB",
         "illustrationId": "ill-neh-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "trumpet",
+            "entityId": "term-trumpets"
+          }
+        ]
       },
       {
         "id": "NEH-4:19",
@@ -1074,7 +1386,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I said to the nobles, and to the rulers and to the rest of the people, “The work is great and large, and we are separated on the wall, far from one another.",
         "translation": "WEB",
         "illustrationId": "ill-neh-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-4:20",
@@ -1085,7 +1402,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Wherever you hear the sound of the trumpet, rally there to us. Our God will fight for us.”",
         "translation": "WEB",
         "illustrationId": "ill-neh-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "trumpet",
+            "entityId": "term-trumpets"
+          }
+        ]
       },
       {
         "id": "NEH-4:21",
@@ -1147,7 +1469,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then there arose a great cry of the people and of their wives against their brothers the Jews.",
         "translation": "WEB",
         "illustrationId": "ill-neh-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "NEH-5:2",
@@ -1224,7 +1551,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I said to them, “We, after our ability, have redeemed our brothers the Jews that were sold to the nations; and would you even sell your brothers, and should they be sold to us?” Then they held their peace, and found not a word to say.",
         "translation": "WEB",
         "illustrationId": "ill-neh-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "NEH-5:9",
@@ -1268,7 +1600,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then they said, “We will restore them, and will require nothing of them. We will do so, even as you say.” Then I called the priests, and took an oath of them, that they would do according to this promise.",
         "translation": "WEB",
         "illustrationId": "ill-neh-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NEH-5:13",
@@ -1299,6 +1636,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Artaxerxes",
             "entityId": "char-artaxerxes"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -1322,7 +1663,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yes, I also continued in the work of this wall. We didn’t buy any land. All my servants were gathered there to the work.",
         "translation": "WEB",
         "illustrationId": "ill-neh-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-5:17",
@@ -1333,7 +1679,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Moreover there were at my table, of the Jews and the rulers, one hundred fifty men, in addition to those who came to us from among the nations that were around us.",
         "translation": "WEB",
         "illustrationId": "ill-neh-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "NEH-5:18",
@@ -1379,7 +1730,24 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now when it was reported to Sanballat, Tobiah, and to Geshem the Arabian, and to the rest of our enemies, that I had built the wall, and that there was no breach left in it (though even to that time I had not set up the doors in the gates)",
         "translation": "WEB",
         "illustrationId": "ill-neh-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sanballat",
+            "entityId": "char-sanballat"
+          },
+          {
+            "spanText": "Tobiah",
+            "entityId": "char-tobiah"
+          },
+          {
+            "spanText": "Geshem",
+            "entityId": "char-geshem"
+          },
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-6:2",
@@ -1390,7 +1758,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Sanballat and Geshem sent to me, saying, “Come! Let’s meet together in the villages in the plain of Ono.” But they intended to harm me.",
         "translation": "WEB",
         "illustrationId": "ill-neh-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sanballat",
+            "entityId": "char-sanballat"
+          },
+          {
+            "spanText": "Geshem",
+            "entityId": "char-geshem"
+          }
+        ]
       },
       {
         "id": "NEH-6:3",
@@ -1423,7 +1800,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Sanballat sent his servant to me the same way the fifth time with an open letter in his hand,",
         "translation": "WEB",
         "illustrationId": "ill-neh-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sanballat",
+            "entityId": "char-sanballat"
+          }
+        ]
       },
       {
         "id": "NEH-6:6",
@@ -1434,7 +1816,20 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "in which was written, “It is reported among the nations, and Gashmu says it, that you and the Jews intend to rebel. Because of that, you are building the wall. You would be their king, according to these words.",
         "translation": "WEB",
         "illustrationId": "ill-neh-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gashmu",
+            "entityId": "char-geshem"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          },
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-6:7",
@@ -1449,6 +1844,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -1515,7 +1914,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I discerned, and behold, God had not sent him; but he pronounced this prophecy against me. Tobiah and Sanballat had hired him.",
         "translation": "WEB",
         "illustrationId": "ill-neh-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sanballat",
+            "entityId": "char-sanballat"
+          },
+          {
+            "spanText": "Tobiah",
+            "entityId": "char-tobiah"
+          }
+        ]
       },
       {
         "id": "NEH-6:13",
@@ -1537,7 +1945,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Remember, my God, Tobiah and Sanballat according to these their works, and also the prophetess Noadiah, and the rest of the prophets, that would have put me in fear.”",
         "translation": "WEB",
         "illustrationId": "ill-neh-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sanballat",
+            "entityId": "char-sanballat"
+          },
+          {
+            "spanText": "Tobiah",
+            "entityId": "char-tobiah"
+          }
+        ]
       },
       {
         "id": "NEH-6:15",
@@ -1548,7 +1965,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "So the wall was finished in the twenty-fifth day of Elul, in fifty-two days.",
         "translation": "WEB",
         "illustrationId": "ill-neh-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-6:16",
@@ -1570,7 +1992,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Moreover in those days the nobles of Judah sent many letters to Tobiah, and Tobiah’s letters came to them.",
         "translation": "WEB",
         "illustrationId": "ill-neh-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tobiah",
+            "entityId": "char-tobiah"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "NEH-6:18",
@@ -1581,7 +2012,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For there were many in Judah sworn to him, because he was the son-in-law of Shecaniah the son of Arah; and his son Jehohanan had taken the daughter of Meshullam the son of Berechiah as wife.",
         "translation": "WEB",
         "illustrationId": "ill-neh-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "NEH-6:19",
@@ -1592,7 +2028,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Also they spoke of his good deeds before me, and reported my words to him. Tobiah sent letters to put me in fear.",
         "translation": "WEB",
         "illustrationId": "ill-neh-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tobiah",
+            "entityId": "char-tobiah"
+          }
+        ]
       }
     ]
   },
@@ -1616,7 +2057,24 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now when the wall was built, and I had set up the doors, and the gatekeepers and the singers and the Levites were appointed,",
         "translation": "WEB",
         "illustrationId": "ill-neh-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "gatekeepers",
+            "entityId": "term-temple-guilds"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
+          },
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-7:2",
@@ -1631,6 +2089,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Hanani",
+            "entityId": "char-hanani"
           }
         ]
       },
@@ -1689,6 +2151,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -1713,6 +2179,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Nehemiah",
             "entityId": "char-nehemiah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1917,7 +2387,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Gibeon: ninety-five.",
         "translation": "WEB",
         "illustrationId": "ill-neh-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gibeon",
+            "entityId": "place-gibeon"
+          }
+        ]
       },
       {
         "id": "NEH-7:26",
@@ -1994,7 +2469,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The men of Bethel and Ai: one hundred twenty-three.",
         "translation": "WEB",
         "illustrationId": "ill-neh-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Bethel",
+            "entityId": "place-bethel"
+          }
+        ]
       },
       {
         "id": "NEH-7:33",
@@ -2038,7 +2518,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Jericho: three hundred forty-five.",
         "translation": "WEB",
         "illustrationId": "ill-neh-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jericho",
+            "entityId": "place-jericho"
+          }
+        ]
       },
       {
         "id": "NEH-7:37",
@@ -2075,6 +2560,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeshua",
             "entityId": "char-jeshua"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2124,6 +2613,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeshua",
             "entityId": "char-jeshua"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -2136,7 +2629,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The singers: the children of Asaph: one hundred forty-eight.",
         "translation": "WEB",
         "illustrationId": "ill-neh-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
+          },
+          {
+            "spanText": "Asaph",
+            "entityId": "char-asaph"
+          }
+        ]
       },
       {
         "id": "NEH-7:45",
@@ -2147,7 +2649,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The gatekeepers: the children of Shallum, the children of Ater, the children of Talmon, the children of Akkub, the children of Hatita, the children of Shobai: one hundred thirty-eight.",
         "translation": "WEB",
         "illustrationId": "ill-neh-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "gatekeepers",
+            "entityId": "term-temple-guilds"
+          }
+        ]
       },
       {
         "id": "NEH-7:46",
@@ -2342,7 +2849,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "These were those who went up from Tel Melah, Tel Harsha, Cherub, Addon, and Immer; but they could not show their fathers’ houses, nor their offspring, whether they were of Israel:",
         "translation": "WEB",
         "illustrationId": "ill-neh-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NEH-7:62",
@@ -2364,7 +2876,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the priests: the children of Hobaiah, the children of Hakkoz, the children of Barzillai, who took a wife of the daughters of Barzillai the Gileadite, and was called after their name.",
         "translation": "WEB",
         "illustrationId": "ill-neh-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NEH-7:64",
@@ -2386,7 +2903,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The governor told that they should not eat of the most holy things until a priest stood up to minister with Urim and Thummim.",
         "translation": "WEB",
         "illustrationId": "ill-neh-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Urim and Thummim",
+            "entityId": "term-urim-thummim"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NEH-7:66",
@@ -2441,7 +2967,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Some from among the heads of fathers’ households gave to the work. The governor gave to the treasury one thousand darics of gold, fifty basins, and five hundred thirty priests’ garments.",
         "translation": "WEB",
         "illustrationId": "ill-neh-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NEH-7:71",
@@ -2463,7 +2994,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "That which the rest of the people gave was twenty thousand darics of gold, plus two thousand minas of silver, and sixty-seven priests’ garments.",
         "translation": "WEB",
         "illustrationId": "ill-neh-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NEH-7:73",
@@ -2478,6 +3014,26 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "gatekeepers",
+            "entityId": "term-temple-guilds"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -2519,6 +3075,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "book of the law",
             "entityId": "term-torah-scroll"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2535,6 +3095,14 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ezra",
             "entityId": "char-ezra"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -2619,6 +3187,14 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeshua",
             "entityId": "char-jeshua"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -2631,7 +3207,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "They read in the book, in the law of God, distinctly; and they gave the sense, so that they understood the reading.",
         "translation": "WEB",
         "illustrationId": "ill-neh-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "NEH-8:9",
@@ -2654,6 +3235,18 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Nehemiah",
             "entityId": "char-nehemiah"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -2686,7 +3279,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "So the Levites calmed all the people, saying, “Hold your peace, for the day is holy. Don’t be grieved.”",
         "translation": "WEB",
         "illustrationId": "ill-neh-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NEH-8:12",
@@ -2712,6 +3310,18 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ezra",
             "entityId": "char-ezra"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -2732,6 +3342,22 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "booths",
+            "entityId": "term-feasts"
+          },
+          {
+            "spanText": "feast",
+            "entityId": "term-feasts"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -2775,6 +3401,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeshua",
             "entityId": "char-jeshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2791,6 +3421,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "book of the law",
             "entityId": "term-torah-scroll"
+          },
+          {
+            "spanText": "feast",
+            "entityId": "term-feasts"
           }
         ]
       }
@@ -2816,7 +3450,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now in the twenty-fourth day of this month the children of Israel were assembled with fasting, with sackcloth, and dirt on them.",
         "translation": "WEB",
         "illustrationId": "ill-neh-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NEH-9:2",
@@ -2827,7 +3466,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The offspring of Israel separated themselves from all foreigners and stood and confessed their sins and the iniquities of their fathers.",
         "translation": "WEB",
         "illustrationId": "ill-neh-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NEH-9:3",
@@ -2866,6 +3510,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeshua",
             "entityId": "char-jeshua"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -2886,6 +3534,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeshua",
             "entityId": "char-jeshua"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -2918,6 +3570,18 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Chaldees",
+            "entityId": "char-chaldeans"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Abram",
+            "entityId": "char-abraham"
           }
         ]
       },
@@ -2946,7 +3610,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“You saw the affliction of our fathers in Egypt, and heard their cry by the Red Sea,",
         "translation": "WEB",
         "illustrationId": "ill-neh-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "NEH-9:10",
@@ -2990,7 +3659,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“You also came down on Mount Sinai, and spoke with them from heaven, and gave them right ordinances and true laws, good statutes and commandments,",
         "translation": "WEB",
         "illustrationId": "ill-neh-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sinai",
+            "entityId": "place-sinai"
+          }
+        ]
       },
       {
         "id": "NEH-9:14",
@@ -3005,6 +3679,14 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -3039,7 +3721,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "and refused to obey. They weren’t mindful of your wonders that you did among them, but hardened their neck, and in their rebellion appointed a captain to return to their bondage. But you are a God ready to pardon, gracious and merciful, slow to anger, and abundant in loving kindness, and didn’t forsake them.",
         "translation": "WEB",
         "illustrationId": "ill-neh-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "loving kindness",
+            "entityId": "term-steadfast-love"
+          }
+        ]
       },
       {
         "id": "NEH-9:18",
@@ -3050,7 +3737,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yes, when they had made themselves a molded calf, and said, ‘This is your God who brought you up out of Egypt,’ and had committed awful blasphemies;",
         "translation": "WEB",
         "illustrationId": "ill-neh-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "NEH-9:19",
@@ -3138,7 +3830,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Nevertheless they were disobedient, and rebelled against you, cast your law behind their back, killed your prophets that testified against them to turn them again to you, and they committed awful blasphemies.",
         "translation": "WEB",
         "illustrationId": "ill-neh-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "NEH-9:27",
@@ -3171,7 +3868,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "and testified against them, that you might bring them again to your law. Yet they were arrogant, and didn’t listen to your commandments, but sinned against your ordinances (which if a man does, he shall live in them), turned their backs, stiffened their neck, and would not hear.",
         "translation": "WEB",
         "illustrationId": "ill-neh-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "NEH-9:30",
@@ -3208,6 +3910,18 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "loving kindness",
+            "entityId": "term-steadfast-love"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3231,7 +3945,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Also our kings, our princes, our priests, and our fathers have not kept your law, nor listened to your commandments and your testimonies with which you testified against them.",
         "translation": "WEB",
         "illustrationId": "ill-neh-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "NEH-9:35",
@@ -3279,6 +4002,14 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       }
@@ -3386,7 +4117,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Maaziah, Bilgai, and Shemaiah. These were the priests.",
         "translation": "WEB",
         "illustrationId": "ill-neh-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NEH-10:9",
@@ -3401,6 +4137,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeshua",
             "entityId": "char-jeshua"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -3615,6 +4355,26 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "gatekeepers",
+            "entityId": "term-temple-guilds"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -3635,6 +4395,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -3658,7 +4422,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "and if the peoples of the land bring wares or any grain on the Sabbath day to sell, that we would not buy from them on the Sabbath, or on a holy day; and that we would forego the seventh year, and the exaction of every debt.",
         "translation": "WEB",
         "illustrationId": "ill-neh-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
+          }
+        ]
       },
       {
         "id": "NEH-10:32",
@@ -3680,7 +4449,20 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "for the show bread, for the continual meal offering, for the continual burnt offering, for the Sabbaths, for the new moons, for the set feasts, and for the holy things, and for the sin offerings to make atonement for Israel, and for all the work of the house of our God.",
         "translation": "WEB",
         "illustrationId": "ill-neh-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "feasts",
+            "entityId": "term-feasts"
+          }
+        ]
       },
       {
         "id": "NEH-10:34",
@@ -3695,6 +4477,22 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -3723,7 +4521,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "also the firstborn of our sons, and of our livestock, as it is written in the law, and the firstborn of our herds and of our flocks, to bring to the house of our God, to the priests who minister in the house of our God;",
         "translation": "WEB",
         "illustrationId": "ill-neh-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "NEH-10:37",
@@ -3734,7 +4541,20 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "and that we should bring the first fruits of our dough, our wave offerings, the fruit of all kinds of trees, and the new wine and the oil, to the priests, to the rooms of the house of our God; and the tithes of our ground to the Levites; for they, the Levites, take the tithes in all the cities of our tillage.",
         "translation": "WEB",
         "illustrationId": "ill-neh-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "tithes",
+            "entityId": "term-tithe"
+          }
+        ]
       },
       {
         "id": "NEH-10:38",
@@ -3745,7 +4565,28 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priest the son of Aaron shall be with the Levites, when the Levites take tithes. The Levites shall bring up the tithe of the tithes to the house of our God, to the rooms, into the treasure house.",
         "translation": "WEB",
         "illustrationId": "ill-neh-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "tithes",
+            "entityId": "term-tithe"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
+          },
+          {
+            "spanText": "tithe",
+            "entityId": "term-tithe"
+          }
+        ]
       },
       {
         "id": "NEH-10:39",
@@ -3756,7 +4597,28 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the children of Israel and the children of Levi shall bring the wave offering of the grain, of the new wine, and of the oil, to the rooms, where the vessels of the sanctuary are, and the priests who minister, with the gatekeepers and the singers. We will not forsake the house of our God.",
         "translation": "WEB",
         "illustrationId": "ill-neh-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "gatekeepers",
+            "entityId": "term-temple-guilds"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          }
+        ]
       }
     ]
   },
@@ -3824,6 +4686,22 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -3840,6 +4718,14 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -3879,7 +4765,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the sons of Benjamin: Sallu the son of Meshullam, the son of Joed, the son of Pedaiah, the son of Kolaiah, the son of Maaseiah, the son of Ithiel, the son of Jeshaiah.",
         "translation": "WEB",
         "illustrationId": "ill-neh-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "NEH-11:8",
@@ -3901,7 +4792,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Joel the son of Zichri was their overseer; and Judah the son of Hassenuah was second over the city.",
         "translation": "WEB",
         "illustrationId": "ill-neh-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "NEH-11:10",
@@ -3912,7 +4808,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the priests: Jedaiah the son of Joiarib, Jachin,",
         "translation": "WEB",
         "illustrationId": "ill-neh-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NEH-11:11",
@@ -3923,7 +4824,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Seraiah the son of Hilkiah, the son of Meshullam, the son of Zadok, the son of Meraioth, the son of Ahitub, the ruler of God’s house,",
         "translation": "WEB",
         "illustrationId": "ill-neh-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zadok",
+            "entityId": "char-zadok"
+          }
+        ]
       },
       {
         "id": "NEH-11:12",
@@ -3967,7 +4873,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the Levites: Shemaiah the son of Hasshub, the son of Azrikam, the son of Hashabiah, the son of Bunni;",
         "translation": "WEB",
         "illustrationId": "ill-neh-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NEH-11:16",
@@ -3978,7 +4889,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "and Shabbethai and Jozabad, of the chiefs of the Levites, who had the oversight of the outward business of God’s house;",
         "translation": "WEB",
         "illustrationId": "ill-neh-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NEH-11:17",
@@ -3989,7 +4905,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "and Mattaniah the son of Mica, the son of Zabdi, the son of Asaph, who was the chief to begin the thanksgiving in prayer, and Bakbukiah, the second among his brothers; and Abda the son of Shammua, the son of Galal, the son of Jeduthun.",
         "translation": "WEB",
         "illustrationId": "ill-neh-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          },
+          {
+            "spanText": "Asaph",
+            "entityId": "char-asaph"
+          }
+        ]
       },
       {
         "id": "NEH-11:18",
@@ -4000,7 +4925,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the Levites in the holy city were two hundred eighty-four.",
         "translation": "WEB",
         "illustrationId": "ill-neh-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NEH-11:19",
@@ -4011,7 +4941,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Moreover the gatekeepers, Akkub, Talmon, and their brothers, who kept watch at the gates, were one hundred seventy-two.",
         "translation": "WEB",
         "illustrationId": "ill-neh-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "gatekeepers",
+            "entityId": "term-temple-guilds"
+          }
+        ]
       },
       {
         "id": "NEH-11:20",
@@ -4022,7 +4957,24 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The residue of Israel, of the priests, the Levites, were in all the cities of Judah, everyone in his inheritance.",
         "translation": "WEB",
         "illustrationId": "ill-neh-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "NEH-11:21",
@@ -4037,6 +4989,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "temple servants",
+            "entityId": "term-temple-guilds"
           }
         ]
       },
@@ -4053,6 +5009,18 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
+          },
+          {
+            "spanText": "Asaph",
+            "entityId": "char-asaph"
           }
         ]
       },
@@ -4065,7 +5033,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "For there was a commandment from the king concerning them, and a settled provision for the singers, as every day required.",
         "translation": "WEB",
         "illustrationId": "ill-neh-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
+          }
+        ]
       },
       {
         "id": "NEH-11:24",
@@ -4076,7 +5049,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Pethahiah the son of Meshezabel, of the children of Zerah the son of Judah, was at the king’s hand in all matters concerning the people.",
         "translation": "WEB",
         "illustrationId": "ill-neh-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "NEH-11:25",
@@ -4087,7 +5065,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "As for the villages, with their fields, some of the children of Judah lived in Kiriath Arba and its towns, in Dibon and its towns, in Jekabzeel and its villages,",
         "translation": "WEB",
         "illustrationId": "ill-neh-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "NEH-11:26",
@@ -4158,7 +5141,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Benjamin also lived from Geba onward, at Michmash and Aija, and at Bethel and its towns,",
         "translation": "WEB",
         "illustrationId": "ill-neh-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Bethel",
+            "entityId": "place-bethel"
+          }
+        ]
       },
       {
         "id": "NEH-11:32",
@@ -4213,7 +5205,20 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the Levites, certain divisions in Judah settled in Benjamin’s territory.",
         "translation": "WEB",
         "illustrationId": "ill-neh-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       }
     ]
   },
@@ -4249,6 +5254,14 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ezra",
             "entityId": "char-ezra"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -4320,6 +5333,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeshua",
             "entityId": "char-jeshua"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -4336,6 +5353,14 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeshua",
             "entityId": "char-jeshua"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -4363,6 +5388,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeshua",
             "entityId": "char-jeshua"
+          },
+          {
+            "spanText": "Eliashib",
+            "entityId": "char-eliashib"
           }
         ]
       },
@@ -4386,7 +5415,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "In the days of Joiakim were priests, heads of fathers’ households: of Seraiah, Meraiah; of Jeremiah, Hananiah;",
         "translation": "WEB",
         "illustrationId": "ill-neh-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NEH-12:13",
@@ -4504,7 +5538,23 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "linkedEntities": [
           {
             "spanText": "Darius",
-            "entityId": "char-darius"
+            "entityId": "char-darius-persia"
+          },
+          {
+            "spanText": "Eliashib",
+            "entityId": "char-eliashib"
+          },
+          {
+            "spanText": "Persian",
+            "entityId": "place-persia"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -4517,7 +5567,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Levi, heads of fathers’ households, were written in the book of the chronicles, even until the days of Johanan the son of Eliashib.",
         "translation": "WEB",
         "illustrationId": "ill-neh-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Eliashib",
+            "entityId": "char-eliashib"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "char-levi"
+          }
+        ]
       },
       {
         "id": "NEH-12:24",
@@ -4536,6 +5595,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -4548,7 +5611,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Mattaniah, and Bakbukiah, Obadiah, Meshullam, Talmon, Akkub, were gatekeepers keeping the watch at the storehouses of the gates.",
         "translation": "WEB",
         "illustrationId": "ill-neh-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "gatekeepers",
+            "entityId": "term-temple-guilds"
+          }
+        ]
       },
       {
         "id": "NEH-12:26",
@@ -4571,6 +5639,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Nehemiah",
             "entityId": "char-nehemiah"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -4587,6 +5659,14 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
           }
         ]
       },
@@ -4603,6 +5683,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
           }
         ]
       },
@@ -4619,6 +5703,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
           }
         ]
       },
@@ -4631,7 +5719,20 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priests and the Levites purified themselves; and they purified the people, and the gates, and the wall.",
         "translation": "WEB",
         "illustrationId": "ill-neh-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-12:31",
@@ -4642,7 +5743,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then I brought up the princes of Judah on the wall, and appointed two great companies who gave thanks and went in procession. One went on the right hand on the wall toward the dung gate;",
         "translation": "WEB",
         "illustrationId": "ill-neh-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-12:32",
@@ -4653,7 +5763,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "and after them went Hoshaiah, with half of the princes of Judah,",
         "translation": "WEB",
         "illustrationId": "ill-neh-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "NEH-12:33",
@@ -4691,7 +5806,20 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "and some of the priests’ sons with trumpets: Zechariah the son of Jonathan, the son of Shemaiah, the son of Mattaniah, the son of Micaiah, the son of Zaccur, the son of Asaph;",
         "translation": "WEB",
         "illustrationId": "ill-neh-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Asaph",
+            "entityId": "char-asaph"
+          }
+        ]
       },
       {
         "id": "NEH-12:36",
@@ -4726,6 +5854,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
           }
         ]
       },
@@ -4738,7 +5870,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "The other company of those who gave thanks went to meet them, and I after them, with the half of the people, on the wall, above the tower of the furnaces, even to the wide wall,",
         "translation": "WEB",
         "illustrationId": "ill-neh-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-12:39",
@@ -4771,7 +5908,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "and the priests, Eliakim, Maaseiah, Miniamin, Micaiah, Elioenai, Zechariah, and Hananiah, with trumpets;",
         "translation": "WEB",
         "illustrationId": "ill-neh-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NEH-12:42",
@@ -4782,7 +5928,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "and Maaseiah, Shemaiah, Eleazar, Uzzi, Jehohanan, Malchijah, Elam, and Ezer. The singers sang loud, with Jezrahiah their overseer.",
         "translation": "WEB",
         "illustrationId": "ill-neh-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
+          }
+        ]
       },
       {
         "id": "NEH-12:43",
@@ -4809,7 +5960,28 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "On that day, men were appointed over the rooms for the treasures, for the wave offerings, for the first fruits, and for the tithes, to gather into them, according to the fields of the cities, the portions appointed by the law for the priests and Levites; for Judah rejoiced for the priests and for the Levites who waited.",
         "translation": "WEB",
         "illustrationId": "ill-neh-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "tithes",
+            "entityId": "term-tithe"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "NEH-12:45",
@@ -4828,6 +6000,14 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Solomon",
             "entityId": "char-solomon"
+          },
+          {
+            "spanText": "gatekeepers",
+            "entityId": "term-temple-guilds"
+          },
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
           }
         ]
       },
@@ -4844,6 +6024,14 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
+          },
+          {
+            "spanText": "Asaph",
+            "entityId": "char-asaph"
           }
         ]
       },
@@ -4864,6 +6052,26 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Nehemiah",
             "entityId": "char-nehemiah"
+          },
+          {
+            "spanText": "gatekeepers",
+            "entityId": "term-temple-guilds"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
           }
         ]
       }
@@ -4893,6 +6101,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Ammonite",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -4905,7 +6117,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "because they didn’t meet the children of Israel with bread and with water, but hired Balaam against them, to curse them; however our God turned the curse into a blessing.",
         "translation": "WEB",
         "illustrationId": "ill-neh-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NEH-13:3",
@@ -4916,7 +6133,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "It came to pass, when they had heard the law, that they separated all the mixed multitude from Israel.",
         "translation": "WEB",
         "illustrationId": "ill-neh-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "NEH-13:4",
@@ -4927,7 +6153,20 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now before this, Eliashib the priest, who was appointed over the rooms of the house of our God, being allied to Tobiah,",
         "translation": "WEB",
         "illustrationId": "ill-neh-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Eliashib",
+            "entityId": "char-eliashib"
+          },
+          {
+            "spanText": "Tobiah",
+            "entityId": "char-tobiah"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NEH-13:5",
@@ -4938,7 +6177,28 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "had prepared for him a great room, where before they laid the meal offerings, the frankincense, the vessels, and the tithes of the grain, the new wine, and the oil, which were given by commandment to the Levites, the singers, and the gatekeepers; and the wave offerings for the priests.",
         "translation": "WEB",
         "illustrationId": "ill-neh-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "gatekeepers",
+            "entityId": "term-temple-guilds"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
+          },
+          {
+            "spanText": "tithes",
+            "entityId": "term-tithe"
+          }
+        ]
       },
       {
         "id": "NEH-13:6",
@@ -4977,6 +6237,14 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Eliashib",
+            "entityId": "char-eliashib"
+          },
+          {
+            "spanText": "Tobiah",
+            "entityId": "char-tobiah"
           }
         ]
       },
@@ -4989,7 +6257,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "It grieved me severely. Therefore I threw all Tobiah’s household stuff out of the room.",
         "translation": "WEB",
         "illustrationId": "ill-neh-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tobiah",
+            "entityId": "char-tobiah"
+          }
+        ]
       },
       {
         "id": "NEH-13:9",
@@ -5011,7 +6284,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I perceived that the portions of the Levites had not been given them; so that the Levites and the singers, who did the work, had each fled to his field.",
         "translation": "WEB",
         "illustrationId": "ill-neh-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
+          }
+        ]
       },
       {
         "id": "NEH-13:11",
@@ -5033,7 +6315,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then all Judah brought the tithe of the grain, the new wine, and the oil to the treasuries.",
         "translation": "WEB",
         "illustrationId": "ill-neh-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "tithe",
+            "entityId": "term-tithe"
+          }
+        ]
       },
       {
         "id": "NEH-13:13",
@@ -5044,7 +6335,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I made treasurers over the treasuries, Shelemiah the priest, and Zadok the scribe, and of the Levites, Pedaiah: and next to them was Hanan the son of Zaccur, the son of Mattaniah; for they were counted faithful, and their business was to distribute to their brothers.",
         "translation": "WEB",
         "illustrationId": "ill-neh-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NEH-13:14",
@@ -5070,6 +6370,14 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -5086,6 +6394,18 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
           }
         ]
       },
@@ -5098,7 +6418,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then I contended with the nobles of Judah, and said to them, “What evil thing is this that you do, and profane the Sabbath day?",
         "translation": "WEB",
         "illustrationId": "ill-neh-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "NEH-13:18",
@@ -5109,7 +6438,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Didn’t your fathers do this, and didn’t our God bring all this evil on us, and on this city? Yet you bring more wrath on Israel by profaning the Sabbath.”",
         "translation": "WEB",
         "illustrationId": "ill-neh-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "NEH-13:19",
@@ -5124,6 +6462,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
           }
         ]
       },
@@ -5152,7 +6494,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then I testified against them, and said to them, “Why do you stay around the wall? If you do so again, I will lay hands on you.” From that time on, they didn’t come on the Sabbath.",
         "translation": "WEB",
         "illustrationId": "ill-neh-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "wall",
+            "entityId": "term-rebuild-wall"
+          }
+        ]
       },
       {
         "id": "NEH-13:22",
@@ -5163,7 +6514,20 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "I commanded the Levites that they should purify themselves, and that they should come and keep the gates, to sanctify the Sabbath day. Remember to me, my God, this also, and spare me according to the greatness of your loving kindness.",
         "translation": "WEB",
         "illustrationId": "ill-neh-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "loving kindness",
+            "entityId": "term-steadfast-love"
+          },
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "NEH-13:23",
@@ -5174,7 +6538,20 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "In those days I also saw the Jews who had married women of Ashdod, of Ammon, and of Moab;",
         "translation": "WEB",
         "illustrationId": "ill-neh-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "NEH-13:24",
@@ -5185,7 +6562,12 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "and their children spoke half in the speech of Ashdod, and could not speak in the Jews’ language, but according to the language of each people.",
         "translation": "WEB",
         "illustrationId": "ill-neh-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "NEH-13:25",
@@ -5211,6 +6593,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Solomon",
             "entityId": "char-solomon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5234,7 +6620,20 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "One of the sons of Joiada, the son of Eliashib the high priest, was son-in-law to Sanballat the Horonite; therefore I chased him from me.",
         "translation": "WEB",
         "illustrationId": "ill-neh-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sanballat",
+            "entityId": "char-sanballat"
+          },
+          {
+            "spanText": "Eliashib",
+            "entityId": "char-eliashib"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NEH-13:29",
@@ -5249,6 +6648,10 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -5261,7 +6664,16 @@ export const NEHEMIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "Thus I cleansed them from all foreigners, and appointed duties for the priests and for the Levites, everyone in his work;",
         "translation": "WEB",
         "illustrationId": "ill-neh-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "NEH-13:31",
