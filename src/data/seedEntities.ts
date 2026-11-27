@@ -7323,6 +7323,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     mapCoordinates: { lat: 32.702, lng: 35.297, regionName: 'Galilee & Jerusalem', routeDescription: 'Bethlehem birth, Nazareth childhood, Capernaum base, Jerusalem cross & empty tomb', modernCountry: 'Israel' },
     relatedVerseRefs: ['Matthew 1:21', 'Matthew 16:16', 'Matthew 28:18-20', 'John 1:14'],
     iconSlug: 'divine-light',
+    characterId: 'char-profile-jesus',
   },
   'char-mary-jesus': {
     id: 'char-mary-jesus',
@@ -7337,6 +7338,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     mapCoordinates: { lat: 32.702, lng: 35.297, regionName: 'Nazareth, Lower Galilee', routeDescription: 'Nazareth home and Bethlehem/Egypt sanctuary', modernCountry: 'Israel' },
     relatedVerseRefs: ['Matthew 1:18', 'Matthew 2:11', 'Luke 1:38', 'Acts 1:14'],
     iconSlug: 'olive-branch',
+    characterId: 'char-profile-mary-jesus',
   },
   'char-joseph-nazareth': {
     id: 'char-joseph-nazareth',
@@ -7351,6 +7353,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     mapCoordinates: { lat: 32.702, lng: 35.297, regionName: 'Nazareth Workshop, Galilee', routeDescription: 'Bethlehem census, Egypt exile, Nazareth return', modernCountry: 'Israel' },
     relatedVerseRefs: ['Matthew 1:19-24', 'Matthew 2:13', 'Matthew 2:23', 'Matthew 13:55'],
     iconSlug: 'olive-branch',
+    characterId: 'char-profile-joseph-nazareth',
   },
   'char-john-baptist': {
     id: 'char-john-baptist',
@@ -7365,6 +7368,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     mapCoordinates: { lat: 31.837, lng: 35.546, regionName: 'Lower Jordan / Bethany Beyond Jordan', routeDescription: 'Wilderness of Judea preaching & Jordan baptismal ford', modernCountry: 'Jordan / Israel' },
     relatedVerseRefs: ['Matthew 3:1-15', 'Matthew 11:11', 'Matthew 14:10', 'Malachi 4:5'],
     iconSlug: 'water-spring',
+    characterId: 'char-profile-john-baptist',
   },
   'char-peter': {
     id: 'char-peter',
@@ -7379,6 +7383,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     mapCoordinates: { lat: 32.881, lng: 35.575, regionName: 'Capernaum, Sea of Galilee', routeDescription: 'Galilean fishing boat to Jerusalem & Rome', modernCountry: 'Israel' },
     relatedVerseRefs: ['Matthew 4:18', 'Matthew 14:29', 'Matthew 16:16-18', 'Matthew 26:75'],
     iconSlug: 'anchor',
+    characterId: 'char-profile-peter',
   },
   'char-matthew': {
     id: 'char-matthew',
@@ -7393,6 +7398,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     mapCoordinates: { lat: 32.881, lng: 35.575, regionName: 'Capernaum Tax Station, Galilee', routeDescription: 'Border toll post on northern Sea of Galilee trade road', modernCountry: 'Israel' },
     relatedVerseRefs: ['Matthew 9:9-13', 'Matthew 10:3', 'Luke 5:27'],
     iconSlug: 'scroll-law',
+    characterId: 'char-profile-matthew',
   },
   'char-john-apostle': {
     id: 'char-john-apostle',
@@ -7407,6 +7413,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     mapCoordinates: { lat: 32.881, lng: 35.575, regionName: 'Sea of Galilee Shore', routeDescription: 'Zebedee family fishery along northwestern Galilee', modernCountry: 'Israel' },
     relatedVerseRefs: ['Matthew 4:21', 'Matthew 10:2', 'Matthew 17:1'],
     iconSlug: 'anchor',
+    characterId: 'char-profile-john-apostle',
   },
   'char-james-zebedee': {
     id: 'char-james-zebedee',
@@ -7421,6 +7428,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     mapCoordinates: { lat: 32.881, lng: 35.575, regionName: 'Capernaum / Jerusalem', routeDescription: 'Left Zebedee’s fishing boat at the Sea of Galilee', modernCountry: 'Israel' },
     relatedVerseRefs: ['Matthew 4:21', 'Matthew 17:1', 'Matthew 20:23', 'Acts 12:2'],
     iconSlug: 'anchor',
+    characterId: 'char-profile-james-zebedee',
   },
   'char-andrew': {
     id: 'char-andrew',
@@ -7435,6 +7443,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     mapCoordinates: { lat: 32.881, lng: 35.575, regionName: 'Capernaum Shoreline', routeDescription: 'Casting nets along northern Sea of Galilee', modernCountry: 'Israel' },
     relatedVerseRefs: ['Matthew 4:18', 'Matthew 10:2', 'John 1:40-42'],
     iconSlug: 'anchor',
+    characterId: 'char-profile-andrew',
   },
   'char-mary-magdalene': {
     id: 'char-mary-magdalene',
@@ -7449,6 +7458,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     mapCoordinates: { lat: 32.825, lng: 35.515, regionName: 'Magdala, Galilee -> Jerusalem', routeDescription: 'Western shore of Galilee to Joseph’s garden tomb', modernCountry: 'Israel' },
     relatedVerseRefs: ['Matthew 27:56', 'Matthew 27:61', 'Matthew 28:1-9', 'Luke 8:2'],
     iconSlug: 'olive-branch',
+    characterId: 'char-profile-mary-magdalene',
   },
   'char-pilate': {
     id: 'char-pilate',
@@ -7463,6 +7473,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     mapCoordinates: { lat: 31.778, lng: 35.229, regionName: 'Jerusalem Praetorium / Herod’s Palace', routeDescription: 'Roman governor headquarters in western Jerusalem', modernCountry: 'Israel' },
     relatedVerseRefs: ['Matthew 27:2', 'Matthew 27:19', 'Matthew 27:24'],
     iconSlug: 'royal-scepter',
+    characterId: 'char-profile-pilate',
   },
   'char-herod-great': {
     id: 'char-herod-great',
@@ -7477,6 +7488,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     mapCoordinates: { lat: 31.776, lng: 35.229, regionName: 'Jerusalem Palace & Herodium', routeDescription: 'Royal citadel overlooking Bethlehem road', modernCountry: 'Israel / West Bank' },
     relatedVerseRefs: ['Matthew 2:1-19', 'Luke 1:5'],
     iconSlug: 'royal-scepter',
+    characterId: 'char-profile-herod-great',
   },
   'char-herod-antipas': {
     id: 'char-herod-antipas',
@@ -7491,6 +7503,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     mapCoordinates: { lat: 32.792, lng: 35.531, regionName: 'Galilee & Machaerus', routeDescription: 'Tetrarch domain across Galilee and east Dead Sea', modernCountry: 'Israel / Jordan' },
     relatedVerseRefs: ['Matthew 14:1-10', 'Luke 23:7'],
     iconSlug: 'royal-scepter',
+    characterId: 'char-profile-herod-antipas',
   },
   'char-caiaphas': {
     id: 'char-caiaphas',
@@ -7505,6 +7518,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     mapCoordinates: { lat: 31.771, lng: 35.229, regionName: 'High Priest Courtyard, Mount Zion', routeDescription: 'Upper City residence south of Temple Mount', modernCountry: 'Israel' },
     relatedVerseRefs: ['Matthew 26:3', 'Matthew 26:57-65', 'John 11:49'],
     iconSlug: 'sacred-altar',
+    characterId: 'char-profile-caiaphas',
   },
   'char-judas-iscariot': {
     id: 'char-judas-iscariot',
@@ -7519,6 +7533,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     mapCoordinates: { lat: 31.774, lng: 35.236, regionName: 'Kidron / Potter’s Field (Akeldama)', routeDescription: 'Betrayal in Gethsemane & Temple courtyard', modernCountry: 'Israel' },
     relatedVerseRefs: ['Matthew 10:4', 'Matthew 26:14-49', 'Matthew 27:3-5', 'Zechariah 11:12'],
     iconSlug: 'scroll-law',
+    characterId: 'char-profile-judas-iscariot',
   },
   'char-joseph-arimathaea': {
     id: 'char-joseph-arimathaea',
@@ -7533,6 +7548,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     mapCoordinates: { lat: 31.778, lng: 35.229, regionName: 'Garden Tomb near Golgotha', routeDescription: 'New rock-hewn family tomb just outside city wall', modernCountry: 'Israel' },
     relatedVerseRefs: ['Matthew 27:57-60', 'Isaiah 53:9', 'Mark 15:43'],
     iconSlug: 'olive-branch',
+    characterId: 'char-profile-joseph-arimathaea',
   },
   'place-nazareth': {
     id: 'place-nazareth',
@@ -7803,6 +7819,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'Life & Ministry of Jesus',
     relatedVerseRefs: ['Mark 10:46-52'],
     iconSlug: 'divine-light',
+    characterId: 'char-profile-bartimaeus',
   },
   'char-jairus': {
     id: 'char-jairus',
@@ -7816,6 +7833,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'Life & Ministry of Jesus',
     relatedVerseRefs: ['Mark 5:22-24', 'Mark 5:35-43'],
     iconSlug: 'peace-dove',
+    characterId: 'char-profile-jairus',
   },
   'char-herodias': {
     id: 'char-herodias',
@@ -7829,6 +7847,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'Life & Ministry of Jesus',
     relatedVerseRefs: ['Mark 6:17-28'],
     iconSlug: 'crown-royal',
+    characterId: 'char-profile-herodias',
   },
   'char-barabbas': {
     id: 'char-barabbas',
@@ -7842,6 +7861,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'Life & Ministry of Jesus',
     relatedVerseRefs: ['Mark 15:6-15', 'Matthew 27:16-26'],
     iconSlug: 'sacred-altar',
+    characterId: 'char-profile-barabbas',
   },
   'char-salome': {
     id: 'char-salome',
@@ -7855,6 +7875,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'Life & Ministry of Jesus',
     relatedVerseRefs: ['Mark 15:40', 'Mark 16:1'],
     iconSlug: 'peace-dove',
+    characterId: 'char-profile-salome',
   },
   'place-decapolis': {
     id: 'place-decapolis',
@@ -7896,6 +7917,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'Life & Ministry of Jesus',
     relatedVerseRefs: ['Luke 1:1-4', 'Colossians 4:14', '2 Timothy 4:11'],
     iconSlug: 'scroll-law',
+    characterId: 'char-profile-luke',
   },
   'char-zacharias-luke': {
     id: 'char-zacharias-luke',
@@ -7909,6 +7931,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'Life & Ministry of Jesus',
     relatedVerseRefs: ['Luke 1:5-23', 'Luke 1:64-79'],
     iconSlug: 'sacred-altar',
+    characterId: 'char-profile-zacharias-luke',
   },
   'char-elizabeth': {
     id: 'char-elizabeth',
@@ -7922,6 +7945,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'Life & Ministry of Jesus',
     relatedVerseRefs: ['Luke 1:5-7', 'Luke 1:39-45', 'Luke 1:57-60'],
     iconSlug: 'peace-dove',
+    characterId: 'char-profile-elizabeth',
   },
   'char-simeon-temple': {
     id: 'char-simeon-temple',
@@ -7935,6 +7959,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'Life & Ministry of Jesus',
     relatedVerseRefs: ['Luke 2:25-35'],
     iconSlug: 'divine-light',
+    characterId: 'char-profile-simeon-temple',
   },
   'char-anna-prophetess': {
     id: 'char-anna-prophetess',
@@ -7948,6 +7973,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'Life & Ministry of Jesus',
     relatedVerseRefs: ['Luke 2:36-38'],
     iconSlug: 'prayer',
+    characterId: 'char-profile-anna-prophetess',
   },
   'char-zacchaeus': {
     id: 'char-zacchaeus',
@@ -7961,6 +7987,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'Life & Ministry of Jesus',
     relatedVerseRefs: ['Luke 19:1-10'],
     iconSlug: 'olive-tree',
+    characterId: 'char-profile-zacchaeus',
   },
   'char-martha': {
     id: 'char-martha',
@@ -7974,6 +8001,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'Life & Ministry of Jesus',
     relatedVerseRefs: ['Luke 10:38-42', 'John 11:1-40', 'John 12:2'],
     iconSlug: 'bread-loaf',
+    characterId: 'char-profile-martha',
   },
   'char-mary-bethany': {
     id: 'char-mary-bethany',
@@ -7987,6 +8015,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'Life & Ministry of Jesus',
     relatedVerseRefs: ['Luke 10:39-42', 'John 11:2', 'John 12:3'],
     iconSlug: 'sacred-altar',
+    characterId: 'char-profile-mary-bethany',
   },
   'char-lazarus-bethany': {
     id: 'char-lazarus-bethany',
@@ -8000,6 +8029,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'Life & Ministry of Jesus',
     relatedVerseRefs: ['John 11:1-44', 'John 12:1-11'],
     iconSlug: 'divine-light',
+    characterId: 'char-profile-lazarus-bethany',
   },
   'char-lazarus-parable': {
     id: 'char-lazarus-parable',
@@ -8013,6 +8043,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'Life & Ministry of Jesus',
     relatedVerseRefs: ['Luke 16:19-31'],
     iconSlug: 'peace-dove',
+    characterId: 'char-profile-lazarus-parable',
   },
   'char-cleopas': {
     id: 'char-cleopas',
@@ -8026,6 +8057,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'Life & Ministry of Jesus',
     relatedVerseRefs: ['Luke 24:13-35'],
     iconSlug: 'bread-loaf',
+    characterId: 'char-profile-cleopas',
   },
   'char-nicodemus': {
     id: 'char-nicodemus',
@@ -8039,6 +8071,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'Life & Ministry of Jesus',
     relatedVerseRefs: ['John 3:1-21', 'John 7:50-52', 'John 19:39-42'],
     iconSlug: 'covenant-fire',
+    characterId: 'char-profile-nicodemus',
   },
   'char-thomas': {
     id: 'char-thomas',
@@ -8052,6 +8085,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'Life & Ministry of Jesus',
     relatedVerseRefs: ['John 11:16', 'John 14:5', 'John 20:24-29'],
     iconSlug: 'divine-light',
+    characterId: 'char-profile-thomas',
   },
   'char-nathanael': {
     id: 'char-nathanael',
@@ -8065,6 +8099,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'Life & Ministry of Jesus',
     relatedVerseRefs: ['John 1:45-51', 'John 21:2'],
     iconSlug: 'olive-tree',
+    characterId: 'char-profile-nathanael',
   },
   'char-philip-apostle': {
     id: 'char-philip-apostle',
@@ -8078,6 +8113,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'Life & Ministry of Jesus',
     relatedVerseRefs: ['Matthew 10:3', 'John 1:43-48', 'John 6:5-7', 'John 14:8-9'],
     iconSlug: 'water-spring',
+    characterId: 'char-profile-philip-apostle',
   },
   'char-annas': {
     id: 'char-annas',
@@ -8091,6 +8127,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'Life & Ministry of Jesus',
     relatedVerseRefs: ['Luke 3:2', 'John 18:13-24', 'Acts 4:6'],
     iconSlug: 'temple-pillar',
+    characterId: 'char-profile-annas',
   },
   'place-emmaus': {
     id: 'place-emmaus',
@@ -8240,6 +8277,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Acts 9:1-22', 'Acts 13:9', 'Acts 26:19-29'],
     iconSlug: 'covenant-fire',
+    characterId: 'char-profile-paul',
   },
   'char-barnabas': {
     id: 'char-barnabas',
@@ -8253,6 +8291,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Acts 4:36-37', 'Acts 9:27', 'Acts 11:22-26', 'Acts 15:39'],
     iconSlug: 'loyal-love',
+    characterId: 'char-profile-barnabas',
   },
   'char-stephen': {
     id: 'char-stephen',
@@ -8266,6 +8305,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Acts 6:5-15', 'Acts 7:54-60', 'Acts 22:20'],
     iconSlug: 'crown-royal',
+    characterId: 'char-profile-stephen',
   },
   'char-philip-evangelist': {
     id: 'char-philip-evangelist',
@@ -8279,6 +8319,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Acts 6:5', 'Acts 8:5-40', 'Acts 21:8'],
     iconSlug: 'water-spring',
+    characterId: 'char-profile-philip-evangelist',
   },
   'char-cornelius': {
     id: 'char-cornelius',
@@ -8292,6 +8333,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Acts 10:1-48', 'Acts 11:13-18'],
     iconSlug: 'peace-dove',
+    characterId: 'char-profile-cornelius',
   },
   'char-lydia': {
     id: 'char-lydia',
@@ -8305,6 +8347,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Acts 16:13-15', 'Acts 16:40'],
     iconSlug: 'loyal-love',
+    characterId: 'char-profile-lydia',
   },
   'char-silas': {
     id: 'char-silas',
@@ -8318,6 +8361,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Acts 15:22-34', 'Acts 16:19-40', 'Acts 18:5'],
     iconSlug: 'harp-praise',
+    characterId: 'char-profile-silas',
   },
   'char-timothy': {
     id: 'char-timothy',
@@ -8331,6 +8375,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Acts 16:1-3', 'Acts 17:14', 'Acts 19:22', '2 Timothy 1:5'],
     iconSlug: 'wisdom-scroll',
+    characterId: 'char-profile-timothy',
   },
   'char-priscilla-aquila': {
     id: 'char-priscilla-aquila',
@@ -8344,6 +8389,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Acts 18:2-3', 'Acts 18:18-26', 'Romans 16:3-5'],
     iconSlug: 'bread-loaf',
+    characterId: 'char-profile-priscilla-aquila',
   },
   'char-apollos': {
     id: 'char-apollos',
@@ -8357,6 +8403,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Acts 18:24-28', 'Acts 19:1', '1 Corinthians 3:6'],
     iconSlug: 'wisdom-scroll',
+    characterId: 'char-profile-apollos',
   },
   'char-ananias-damascus': {
     id: 'char-ananias-damascus',
@@ -8370,6 +8417,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Acts 9:10-18', 'Acts 22:12-16'],
     iconSlug: 'peace-dove',
+    characterId: 'char-profile-ananias-damascus',
   },
   'char-gamaliel': {
     id: 'char-gamaliel',
@@ -8383,6 +8431,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Acts 5:34-40', 'Acts 22:3'],
     iconSlug: 'scroll-law',
+    characterId: 'char-profile-gamaliel',
   },
   'char-james-jerusalem': {
     id: 'char-james-jerusalem',
@@ -8396,6 +8445,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Acts 12:17', 'Acts 15:13-21', 'Acts 21:18', 'Galatians 1:19'],
     iconSlug: 'temple-pillar',
+    characterId: 'char-profile-james-jerusalem',
   },
   'char-herod-agrippa': {
     id: 'char-herod-agrippa',
@@ -8409,6 +8459,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Acts 12:1-24'],
     iconSlug: 'crown-royal',
+    characterId: 'char-profile-herod-agrippa',
   },
   'char-felix': {
     id: 'char-felix',
@@ -8422,6 +8473,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Acts 23:24-35', 'Acts 24:1-27'],
     iconSlug: 'crown-royal',
+    characterId: 'char-profile-felix',
   },
   'char-festus': {
     id: 'char-festus',
@@ -8435,6 +8487,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Acts 24:27', 'Acts 25:1-27', 'Acts 26:24-32'],
     iconSlug: 'crown-royal',
+    characterId: 'char-profile-festus',
   },
   'char-agrippa': {
     id: 'char-agrippa',
@@ -8448,6 +8501,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Acts 25:13-26', 'Acts 26:1-32'],
     iconSlug: 'crown-royal',
+    characterId: 'char-profile-agrippa',
   },
   'place-antioch': {
     id: 'place-antioch',
@@ -8612,6 +8666,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Romans 16:1-2'],
     iconSlug: 'scroll-law',
+    characterId: 'char-profile-phoebe',
   },
   'char-titus': {
     id: 'char-titus',
@@ -8625,6 +8680,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['2 Corinthians 2:13', '2 Corinthians 7:6-14', '2 Corinthians 8:16-23', 'Galatians 2:1-3'],
     iconSlug: 'peace-dove',
+    characterId: 'char-profile-titus',
   },
   'term-grace': {
     id: 'term-grace',
@@ -8755,6 +8811,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Ephesians 6:21-22', 'Acts 20:4', 'Colossians 4:7'],
     iconSlug: 'messenger-dove',
+    characterId: 'char-profile-tychicus',
   },
   'char-epaphroditus': {
     id: 'char-epaphroditus',
@@ -8768,6 +8825,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Philippians 2:25-30', 'Philippians 4:18'],
     iconSlug: 'loyal-love',
+    characterId: 'char-profile-epaphroditus',
   },
   'char-euodia-syntyche': {
     id: 'char-euodia-syntyche',
@@ -8781,6 +8839,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Philippians 4:2-3', 'Acts 16:13-15'],
     iconSlug: 'peace-dove',
+    characterId: 'char-profile-euodia-syntyche',
   },
   'term-redemption': {
     id: 'term-redemption',
@@ -8885,6 +8944,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Colossians 1:7-8', 'Colossians 4:12-13', 'Philemon 1:23'],
     iconSlug: 'prayer-hands',
+    characterId: 'char-profile-epaphras',
   },
   'char-onesimus': {
     id: 'char-onesimus',
@@ -8898,6 +8958,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Colossians 4:9', 'Philemon 1:10-16'],
     iconSlug: 'loyal-love',
+    characterId: 'char-profile-onesimus',
   },
   'char-mark': {
     id: 'char-mark',
@@ -8911,6 +8972,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Colossians 4:10', 'Acts 12:12', '2 Timothy 4:11'],
     iconSlug: 'wisdom-scroll',
+    characterId: 'char-profile-mark',
   },
   'term-preeminence-supremacy': {
     id: 'term-preeminence-supremacy',
@@ -8963,6 +9025,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Philemon 1:1-21', 'Colossians 4:9'],
     iconSlug: 'loyal-love',
+    characterId: 'char-profile-philemon',
   },
   'char-lois-eunice': {
     id: 'char-lois-eunice',
@@ -8976,6 +9039,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['2 Timothy 1:5', '2 Timothy 3:14-15', 'Acts 16:1-2'],
     iconSlug: 'family-home',
+    characterId: 'char-profile-lois-eunice',
   },
   'char-onesiphorus': {
     id: 'char-onesiphorus',
@@ -8989,6 +9053,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['2 Timothy 1:16-18', '2 Timothy 4:19'],
     iconSlug: 'loyal-love',
+    characterId: 'char-profile-onesiphorus',
   },
   'term-high-priest-christ': {
     id: 'term-high-priest-christ',
@@ -9080,6 +9145,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['Jude 1:1-3', 'Jude 1:24-25', 'Matthew 13:55'],
     iconSlug: 'tablet-scroll',
+    characterId: 'char-profile-jude',
   },
   'char-gaius-elder': {
     id: 'char-gaius-elder',
@@ -9093,6 +9159,7 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['3 John 1:1-8'],
     iconSlug: 'loyal-love',
+    characterId: 'char-profile-gaius-elder',
   },
   'place-patmos': {
     id: 'place-patmos',
@@ -9171,5 +9238,1523 @@ export const SEED_ENTITIES: Record<string, EntityCard> = {
     timelineEra: 'The Early Church & Paul',
     relatedVerseRefs: ['1 John 5:4-5', 'Revelation 2:7', 'Revelation 3:21', 'Revelation 12:11', 'Revelation 21:7'],
     iconSlug: 'peace-dove',
+  },
+  'char-dorcas': {
+    "id": "char-dorcas",
+    "type": "person",
+    "title": "Dorcas / Tabitha (Disciple of Joppa)",
+    "originalLanguageTerm": "Aramaic/Greek: טְבִיתָא / Δορκάς · Gazelle",
+    "transliteration": "Tabitha / Dorkas",
+    "shortDefinition": "Beloved Joppa believer famous for stitching clothing for poor widows—raised alive by God through Peter.",
+    "historicalContext": "Acts 9 honors Tabitha as the only woman explicitly titled “disciple” (mathetria). Weeping widows stood around Peter displaying handmade robes she made.",
+    "theologicalInsight": "God values practical, handmade everyday kindness so highly that Luke records Dorcas’s garments beside apostles’ sermons.",
+    "timelineYear": "c. 36–40 AD",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Acts 9:36-42"
+    ],
+    "iconSlug": "peace-dove",
+    "characterId": "char-profile-dorcas"
+  },
+  'char-simon-cyrene': {
+    "id": "char-simon-cyrene",
+    "type": "person",
+    "title": "Simon of Cyrene (Cross-Bearer)",
+    "originalLanguageTerm": "Hebrew/Greek: שִׁמְעוֹן / Κύρηναῖος · North African Pilgrim",
+    "shortDefinition": "Passover traveler from Libya compelled by Roman soldiers to carry Jesus’ heavy crossbeam up toward Golgotha.",
+    "historicalContext": "Mark 15:21 identifies Simon specifically as “father of Alexander and Rufus”—suggesting his family later became well-known Christians (Romans 16:13).",
+    "theologicalInsight": "Carrying Jesus’ cross against his plans led Simon’s household straight into the heart of Christ’s church.",
+    "timelineYear": "c. 30 AD",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 27:32",
+      "Mark 15:21",
+      "Luke 23:26"
+    ],
+    "iconSlug": "courage-light",
+    "characterId": "char-profile-simon-cyrene"
+  },
+  'char-matthias': {
+    "id": "char-matthias",
+    "type": "person",
+    "title": "Matthias (Twelfth Apostle)",
+    "originalLanguageTerm": "Hebrew/Greek: מַתִּתְיָהוּ / Ματθίας · Gift of God",
+    "transliteration": "Matthias",
+    "strongsNumber": "G3159",
+    "shortDefinition": "Steadfast disciple who walked with Jesus from the Jordan baptism upward—chosen to restore the Twelve after Judas.",
+    "historicalContext": "After praying together in the Upper Room, early believers cast lots between Joseph Barsabbas and Matthias, trusting God’s choice.",
+    "theologicalInsight": "Quiet years of unheralded faithfulness beside Jesus qualify someone best for public responsibility.",
+    "timelineYear": "c. 30 AD",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Acts 1:21-26"
+    ],
+    "iconSlug": "divine-light",
+    "characterId": "char-profile-matthias"
+  },
+  'char-ethiopian-eunuch': {
+    "id": "char-ethiopian-eunuch",
+    "type": "person",
+    "title": "Ethiopian Royal Official",
+    "originalLanguageTerm": "Greek: Αἰθίοψ εὐνοῦχος · Treasurer of Queen Candace",
+    "shortDefinition": "African treasury official baptized by Philip after encountering Jesus inside Isaiah 53 along the Gaza desert road.",
+    "historicalContext": "Excluded from Temple inner courts under Deuteronomy 23:1, this African pilgrim read Isaiah’s Suffering Servant aloud before asking for baptism.",
+    "theologicalInsight": "Fulfills Isaiah 56 directly—showing Jesus welcomes previously barred outsiders joyfully home.",
+    "timelineYear": "c. 34 AD",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Acts 8:26-39",
+      "Isaiah 53:7-8"
+    ],
+    "iconSlug": "water-spring",
+    "characterId": "char-profile-ethiopian-eunuch"
+  },
+  'char-ananias-sapphira': {
+    "id": "char-ananias-sapphira",
+    "type": "person",
+    "title": "Ananias & Sapphira",
+    "originalLanguageTerm": "Hebrew/Aramaic: חֲנַנְיָה & שַׁפִּירָא",
+    "shortDefinition": "Couple in Jerusalem who pretended total generosity while secretly keeping back part of their land sale.",
+    "historicalContext": "Peter stressed they didn’t owe any gift at all—their sin wasn’t keeping money, rather lying to the Holy Spirit to impress people.",
+    "theologicalInsight": "Honest imperfection heals inside Christ’s church; staged religious pretending poisons trust.",
+    "timelineYear": "c. 32 AD",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Acts 5:1-11"
+    ],
+    "iconSlug": "wisdom-scroll",
+    "characterId": "char-profile-ananias-sapphira"
+  },
+  'term-repentance': {
+    "id": "term-repentance",
+    "type": "term",
+    "title": "Repent / Repentance (Metanoia)",
+    "originalLanguageTerm": "Greek: μετανοέω / μετάνοια (Metanoia) · Change of Mind & Direction",
+    "transliteration": "Metanoia",
+    "strongsNumber": "G3340",
+    "shortDefinition": "Far deeper than merely feeling sorry—turning your whole mind, loyalty, and direction around away from self-rule back toward God.",
+    "historicalContext": "Both John the Baptist and Jesus opened their public preaching with one call: “Repent, for the Kingdom of Heaven is at hand!”",
+    "theologicalInsight": "In Scripture, repentance is glad homecoming: dropping empty illusions to trust a forgiving Father.",
+    "timelineYear": "NT Ministry",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 3:2",
+      "Matthew 4:17",
+      "Luke 15:7",
+      "Acts 2:38",
+      "Romans 2:4"
+    ],
+    "iconSlug": "peace-dove"
+  },
+  'term-disciple': {
+    "id": "term-disciple",
+    "type": "term",
+    "title": "Disciple (Apprentice Follower · Mathetēs)",
+    "originalLanguageTerm": "Greek: μαθητής (Mathetes) · Learner / Apprentice",
+    "transliteration": "Mathetes",
+    "strongsNumber": "G3101",
+    "shortDefinition": "Not just a classroom student taking notes, rather a life-apprentice following closely behind a Rabbi to live like Him.",
+    "historicalContext": "In first-century Judea, students normally begged famous rabbis for admission. Uniquely, Jesus walked straight up to fishermen and tax collectors saying, “Follow me.”",
+    "theologicalInsight": "Before Christians were called “Christians” in Antioch (Acts 11:26), believers were called disciples—ordinary apprentices learning Jesus’ way daily.",
+    "timelineYear": "NT Era",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 28:19",
+      "John 8:31",
+      "John 13:35",
+      "Acts 11:26"
+    ],
+    "iconSlug": "divine-light"
+  },
+  'term-apostle': {
+    "id": "term-apostle",
+    "type": "term",
+    "title": "Apostle (Commissioned Envoy · Apostolos)",
+    "originalLanguageTerm": "Greek: ἀπόστολος (Apostolos) · Sent-Out Messenger",
+    "transliteration": "Apostolos",
+    "strongsNumber": "G652",
+    "shortDefinition": "An official ambassador personally commissioned by Jesus with authority to proclaim His Gospel and establish churches.",
+    "historicalContext": "In Greek commerce and royal courts, an apostolos carried the full legal backing of the sender—especially used for the Twelve eyewitnesses plus Paul.",
+    "theologicalInsight": "Every Christian is sent in witness, while Jesus’ foundational apostles anchored the church’s eyewitness teaching forever (Ephesians 2:20).",
+    "timelineYear": "NT Era",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Matthew 10:2",
+      "Acts 1:26",
+      "Romans 1:1",
+      "Ephesians 2:20"
+    ],
+    "iconSlug": "wisdom-scroll"
+  },
+  'term-scribes': {
+    "id": "term-scribes",
+    "type": "term",
+    "title": "Scribes (Teachers & Copyists of the Law)",
+    "originalLanguageTerm": "Greek: γραμματεύς (Grammateus) · Expert in Scripture",
+    "transliteration": "Grammateus",
+    "strongsNumber": "G1122",
+    "shortDefinition": "Highly educated Jewish scholars who copied Scripture scrolls accurately and ruled on legal questions from Moses’ Law.",
+    "historicalContext": "After the Babylonian exile, scribes preserved God’s Hebrew text carefully—yet many in Jesus’ day elevated oral loopholes over mercy and justice.",
+    "theologicalInsight": "Jesus wasn’t against careful Bible study; He praised “every scribe instructed in the kingdom” (Matthew 13:52) while rebuking cold legalism.",
+    "timelineYear": "1st Century Judea",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 5:20",
+      "Matthew 13:52",
+      "Matthew 23:2",
+      "Mark 1:22"
+    ],
+    "iconSlug": "wisdom-scroll"
+  },
+  'term-tax-collector': {
+    "id": "term-tax-collector",
+    "type": "term",
+    "title": "Tax Collector (Telōnēs / “Publican”)",
+    "originalLanguageTerm": "Greek: τελώνης (Telones) · Toll & Revenue Collector",
+    "transliteration": "Telones",
+    "strongsNumber": "G5057",
+    "shortDefinition": "Local Jewish contractor hired by occupying Roman authorities to collect tolls—often overcharging neighbors for profit.",
+    "historicalContext": "Despised as traitors and ritually unclean collaborators, tax collectors were banned from synagogue courts—which horrified Pharisees whenever Jesus shared dinner with them.",
+    "theologicalInsight": "By calling Matthew and befriending Zacchaeus, Jesus proved grace reaches society’s most despised outsiders first.",
+    "timelineYear": "1st Century Judea",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 9:9-11",
+      "Luke 18:10-14",
+      "Luke 19:2-10"
+    ],
+    "iconSlug": "courage-light"
+  },
+  'term-centurion': {
+    "id": "term-centurion",
+    "type": "term",
+    "title": "Centurion (Roman Officer Over ~100 Soldiers)",
+    "originalLanguageTerm": "Greek/Latin: ἑκατοντάρχης / Centurio · Backbone of Rome’s Army",
+    "transliteration": "Hekatontarches",
+    "strongsNumber": "G1543",
+    "shortDefinition": "Battle-tested Roman infantry commander leading roughly eighty to a hundred soldiers—prized for discipline and integrity.",
+    "historicalContext": "Remarkably, every centurion named in the New Testament appears honorably: one trusted Jesus’ word from afar (Luke 7), one confessed Christ at the cross, and Cornelius opened the Gentile door.",
+    "theologicalInsight": "Power didn’t blind them—military authority actually helped a Capernaum centurion grasp Jesus’ command over sickness.",
+    "timelineYear": "1st Century AD",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 8:5-13",
+      "Mark 15:39",
+      "Acts 10:1-2"
+    ],
+    "iconSlug": "courage-light"
+  },
+  'term-sanhedrin': {
+    "id": "term-sanhedrin",
+    "type": "term",
+    "title": "The Council / Sanhedrin (Israel’s High Court)",
+    "originalLanguageTerm": "Greek: συνέδριον (Synedrion) · Sitting Together in Council",
+    "transliteration": "Synedrion",
+    "strongsNumber": "G4892",
+    "shortDefinition": "Jerusalem’s supreme seventy-one-member Jewish ruling court—combining Sadducee priests, Pharisee scholars, and elders.",
+    "historicalContext": "Rome allowed the Sanhedrin wide authority over Jewish religious and civil disputes, though only Roman governors could normally execute criminals.",
+    "theologicalInsight": "Even on this hostile council sat secret admirers like Nicodemus, Joseph of Arimathea, and wise Gamaliel.",
+    "timelineYear": "1st Century Jerusalem",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 26:59",
+      "John 11:47",
+      "Acts 4:15",
+      "Acts 5:34"
+    ],
+    "iconSlug": "wisdom-scroll"
+  },
+  'term-hypocrite': {
+    "id": "term-hypocrite",
+    "type": "term",
+    "title": "Hypocrite (Stage-Actor · Hypokritēs)",
+    "originalLanguageTerm": "Greek: ὑποκριτής (Hypokrites) · Masked Theater Performer",
+    "transliteration": "Hypokrites",
+    "strongsNumber": "G5273",
+    "shortDefinition": "Originally a Greek actor wearing a painted stage mask—used by Jesus for people performing pious devotion only for human applause.",
+    "historicalContext": "Jesus didn’t reserve “hypocrite” for struggling sinners; He aimed it at spiritual performers praying on street corners or judging tiny specks while hiding wooden beams.",
+    "theologicalInsight": "The cure for hypocrisy is private sincerity before a Father who “sees in secret.”",
+    "timelineYear": "NT Gospels",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 6:2-5",
+      "Matthew 7:5",
+      "Matthew 23:13",
+      "Luke 12:1"
+    ],
+    "iconSlug": "courage-light"
+  },
+  'term-mercy-eleos': {
+    "id": "term-mercy-eleos",
+    "type": "term",
+    "title": "Mercy (Compassion in Action · Eleos)",
+    "originalLanguageTerm": "Greek: ἔλεος (Eleos) · Steadfast Pity & Relief",
+    "transliteration": "Eleos",
+    "strongsNumber": "G1656",
+    "shortDefinition": "Withholding deserved punishment while stepping actively into someone’s pain to relieve it—not merely feeling sorry.",
+    "historicalContext": "Translates the Old Testament’s rich hesed (“lovingkindness”) into Greek—seen whenever blind beggars cried “Son of David, have mercy on me!” or in the Good Samaritan.",
+    "theologicalInsight": "Mercy triumphs over judgment (James 2:13): those forgiven huge debts learn to forgive small debts gently.",
+    "timelineYear": "All Scripture",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 5:7",
+      "Luke 10:37",
+      "Romans 9:15",
+      "James 2:13"
+    ],
+    "iconSlug": "peace-dove"
+  },
+  'term-salvation': {
+    "id": "term-salvation",
+    "type": "term",
+    "title": "Salvation (Rescued & Made Whole · Sōtēria / Sōzō)",
+    "originalLanguageTerm": "Greek: σωτηρία / σῴζω (Soteria / Sozo) · Rescue, Healing & Wholeness",
+    "transliteration": "Soteria",
+    "strongsNumber": "G4991",
+    "shortDefinition": "Comprehensive rescue from sin, death, and brokenness—bringing forgiveness now and whole eternal restoration in Christ.",
+    "historicalContext": "In Greek, sozo covers physical healing, storm-rescue, and eternal deliverance—which is why Jesus told healed sufferers, “Your faith has saved you.”",
+    "theologicalInsight": "Salvation isn’t merely an escape ticket after death; it begins the moment Christ rescues a human heart today.",
+    "timelineYear": "NT Salvation",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Luke 19:9",
+      "Acts 4:12",
+      "Romans 1:16",
+      "Ephesians 2:8"
+    ],
+    "iconSlug": "divine-light"
+  },
+  'term-circumcision': {
+    "id": "term-circumcision",
+    "type": "term",
+    "title": "Circumcision (Sign of Abraham’s Covenant)",
+    "originalLanguageTerm": "Greek: περιτομή (Peritome) · Cutting Around",
+    "transliteration": "Peritome",
+    "strongsNumber": "G4061",
+    "shortDefinition": "Physical covenant sign commanded to Abraham’s male descendants—sparking the Early Church’s defining question on Gentile inclusion.",
+    "historicalContext": "When thousands of non-Jews believed in Jesus, some insisted Gentiles undergo circumcision and keep kosher laws first. Acts 15 settled it: grace through faith unites Jew and Gentile alike.",
+    "theologicalInsight": "Paul echoes Moses and Jeremiah: God’s true goal was always “circumcision of the heart, by the Spirit” (Romans 2:29).",
+    "timelineYear": "Abrahamic to Apostolic Era",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Genesis 17:10",
+      "Acts 15:1-11",
+      "Romans 2:28-29",
+      "Galatians 5:6"
+    ],
+    "iconSlug": "wisdom-scroll"
+  },
+  'term-denarius': {
+    "id": "term-denarius",
+    "type": "term",
+    "title": "Denarius (One Day’s Fair Wage in Silver)",
+    "originalLanguageTerm": "Greek/Latin: δηνάριον / Denarius · ~3.9g Silver Coin",
+    "transliteration": "Denarion",
+    "strongsNumber": "G1220",
+    "shortDefinition": "Standard Roman silver coin stamped with Caesar’s portrait—worth an ordinary full day’s labor for a farmhand or soldier.",
+    "historicalContext": "Understanding a denarius transforms Jesus’ parables: the unmerciful servant was forgiven 10,000 talents (~160,000 years’ wages!) yet choked someone over 100 denarii (~3 months’ pay).",
+    "theologicalInsight": "When Jesus held up a denarius asking whose portrait lay upon it, He taught humans stamped with God’s image belong wholly to God.",
+    "timelineYear": "1st Century Roman Judea",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 18:28",
+      "Matthew 20:2",
+      "Matthew 22:19-21",
+      "Mark 12:15"
+    ],
+    "iconSlug": "wisdom-scroll"
+  },
+  'term-talent-coin': {
+    "id": "term-talent-coin",
+    "type": "term",
+    "title": "Talent (Massive Weight of Silver/Gold)",
+    "originalLanguageTerm": "Greek: τάλαντον (Talanton) · ~75 Pounds / 6,000 Denarii",
+    "transliteration": "Talanton",
+    "strongsNumber": "G5007",
+    "shortDefinition": "A staggering fortune in silver (nearly 20 years of daily wages!)—never a small hobby, though our word “talent” came from Jesus’ parable.",
+    "historicalContext": "Realizing even “just one talent” meant an enormous sum highlights the master’s shock when the fearful servant buried it untouched in dirt.",
+    "theologicalInsight": "Everything entrusted to us—time, resources, gifts—is valuable capital meant for courageous, fruitful love.",
+    "timelineYear": "1st Century Judea",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 18:24",
+      "Matthew 25:14-30"
+    ],
+    "iconSlug": "wisdom-scroll"
+  },
+  'term-leaven': {
+    "id": "term-leaven",
+    "type": "term",
+    "title": "Leaven / Yeast (Hidden Pervasive Influence)",
+    "originalLanguageTerm": "Greek: ζύμη (Zyme) · Fermenting Dough Starter",
+    "transliteration": "Zyme",
+    "strongsNumber": "G2219",
+    "shortDefinition": "Pinch of fermented dough kneaded into fresh flour so its silent influence spreads through every bite of bread.",
+    "historicalContext": "Israel swept leaven completely out each Passover—so “leaven” often pictured secret hypocrisy or false teaching creeping invisibly, though Jesus also pictured the Kingdom spreading quietly like leaven in flour!",
+    "theologicalInsight": "What looks tiny and hidden inside a community never stays neutral—character quietly shapes the whole loaf.",
+    "timelineYear": "NT Gospels & Epistles",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 13:33",
+      "Matthew 16:6",
+      "1 Corinthians 5:6-8",
+      "Galatians 5:9"
+    ],
+    "iconSlug": "manna-flakes"
+  },
+  'term-blasphemy': {
+    "id": "term-blasphemy",
+    "type": "term",
+    "title": "Blasphemy (Defaming or Slandering the Sacred)",
+    "originalLanguageTerm": "Greek: βλασφημία (Blasphemia) · Slanderous Speech",
+    "transliteration": "Blasphemia",
+    "strongsNumber": "G988",
+    "shortDefinition": "Speaking contemptuously against God’s name or majesty—or falsely claiming divine status (as priests wrongly accused Jesus).",
+    "historicalContext": "Religious leaders shouted “blasphemy!” when Jesus forgave a paralyzed man’s sins and when He claimed Daniel 7’s Son of Man throne at His trial.",
+    "theologicalInsight": "Blasphemy against the Spirit isn’t an accidental slip of the tongue; it’s persistently calling God’s clear goodness demonic until a heart locks itself shut.",
+    "timelineYear": "1st Century AD",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 9:3",
+      "Matthew 12:31",
+      "Matthew 26:65",
+      "Mark 3:28-29"
+    ],
+    "iconSlug": "courage-light"
+  },
+  'term-gehenna': {
+    "id": "term-gehenna",
+    "type": "term",
+    "title": "Gehenna / Hell (Valley of Hinnom)",
+    "originalLanguageTerm": "Greek/Hebrew: Γέεννα / גֵּיא הִנֹּם (Ge Hinnom)",
+    "transliteration": "Gehenna",
+    "strongsNumber": "G1067",
+    "shortDefinition": "A real ravine south of Jerusalem’s walls where wicked kings once burned child sacrifices—turning the name into an emblem of final divine judgment.",
+    "historicalContext": "Unlike Greek Hades (the temporary waiting realm of the dead), Jesus reserved Gehenna specifically for sober warnings about final rejection of God’s mercy.",
+    "theologicalInsight": "Jesus spoke plainly about judgment out of fierce love—calling people away from self-destruction toward life.",
+    "timelineYear": "1st Century Jerusalem",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 5:22",
+      "Matthew 10:28",
+      "Mark 9:43-47",
+      "James 3:6"
+    ],
+    "iconSlug": "covenant-fire"
+  },
+  'term-hades': {
+    "id": "term-hades",
+    "type": "term",
+    "title": "Hades (Realm of the Departed)",
+    "originalLanguageTerm": "Greek: ᾅδης (Hades) · Equivalent to Hebrew Sheol",
+    "transliteration": "Hades",
+    "strongsNumber": "G86",
+    "shortDefinition": "The unseen realm of the dead—not the final place of judgment (“Gehenna”), rather death’s dark hold which Jesus defeated.",
+    "historicalContext": "When Greek-speaking Jews translated Hebrew “Sheol,” they chose “Hades.” Jesus promised even “the gates of Hades” cannot lock out or overpower His church!",
+    "theologicalInsight": "In Revelation 1:18, the risen Jesus announces joyfully: “I hold the keys of Death and of Hades!”",
+    "timelineYear": "NT Era",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 16:18",
+      "Acts 2:27",
+      "Revelation 1:18",
+      "Revelation 20:13-14"
+    ],
+    "iconSlug": "courage-light"
+  },
+  'term-abyss': {
+    "id": "term-abyss",
+    "type": "term",
+    "title": "The Abyss (Bottomless Deep)",
+    "originalLanguageTerm": "Greek: ἄβυσσος (Abyssos) · Unfathomable Depth",
+    "transliteration": "Abyssos",
+    "strongsNumber": "G12",
+    "shortDefinition": "Cosmic deep or prison-realm confining rebellious spiritual forces—always strictly subordinate to Christ’s authority.",
+    "historicalContext": "When tormented demons at Gerasa begged Jesus not to command them into “the abyss” (Luke 8:31), they recognized His immediate jurisdiction over spiritual prisons.",
+    "theologicalInsight": "No spiritual chaos in Scripture escapes Jesus’ authority: in Revelation 20, one angel cleanly locks the dragon inside.",
+    "timelineYear": "NT Apocalyptic & Gospels",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Luke 8:31",
+      "Romans 10:7",
+      "Revelation 9:1-2",
+      "Revelation 20:1-3"
+    ],
+    "iconSlug": "courage-light"
+  },
+  'term-high-priest-nt': {
+    "id": "term-high-priest-nt",
+    "type": "term",
+    "title": "Chief Priests & High Priest",
+    "originalLanguageTerm": "Greek: ἀρχιερεύς (Archiereus) · Ruling Temple Priesthood",
+    "transliteration": "Archiereus",
+    "strongsNumber": "G749",
+    "shortDefinition": "Wealthy Sadducee aristocratic families (led by Annas and Caiaphas) overseeing Jerusalem’s massive Temple sacrifices and treasury.",
+    "historicalContext": "Although Moses intended one lifelong high priest, Roman governors rotated appointees politically—creating a powerful clique of “chief priests” including former high priests.",
+    "theologicalInsight": "Hebrews explains why Jesus replaces this fragile succession forever as our compassionate, sinless High Priest in heaven.",
+    "timelineYear": "1st Century Jerusalem",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 26:3",
+      "John 18:13",
+      "Hebrews 4:14-15"
+    ],
+    "iconSlug": "wisdom-scroll"
+  },
+  'term-elder-presbyter': {
+    "id": "term-elder-presbyter",
+    "type": "term",
+    "title": "Elder (Presbyteros · Mature Church Shepherd)",
+    "originalLanguageTerm": "Greek: πρεσβύτερος (Presbyteros) · Older / Mature Leader",
+    "transliteration": "Presbyteros",
+    "strongsNumber": "G4245",
+    "shortDefinition": "Refers either to respected Jewish civic/synagogue elders or to spiritually mature shepherds guiding local Christian churches.",
+    "historicalContext": "In Acts 14:23 and Titus 1:5, Paul appointed teams (always plural!) of elders—also called overseers—to teach gently, pray for the sick, and guard the flock.",
+    "theologicalInsight": "True New Testament elders aren’t power-bosses; Peter urges them to shepherd willingly as fellow examples to Jesus’ flock.",
+    "timelineYear": "NT Era",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Acts 14:23",
+      "Acts 20:17",
+      "Titus 1:5",
+      "1 Peter 5:1-4"
+    ],
+    "iconSlug": "peace-dove"
+  },
+  'term-deacon': {
+    "id": "term-deacon",
+    "type": "term",
+    "title": "Deacon (Diakonos · Servant-Minister)",
+    "originalLanguageTerm": "Greek: διάκονος (Diakonos) · Table-Waiter / Servant",
+    "transliteration": "Diakonos",
+    "strongsNumber": "G1249",
+    "shortDefinition": "Literally “servant” or “minister”—recognized church leaders (like Phoebe and the Acts 6 Seven) caring practically for the needy so community love stays tangible.",
+    "historicalContext": "In Acts 6, neglected Greek-speaking widows sparked the church to appoint Spirit-filled servants to handle food distribution fairly and transparently.",
+    "theologicalInsight": "Jesus used this very root word for His own mission: He came not to be served, rather to serve (diakonesai).",
+    "timelineYear": "Early Church",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Mark 10:45",
+      "Acts 6:1-6",
+      "Romans 16:1",
+      "1 Timothy 3:8-13"
+    ],
+    "iconSlug": "peace-dove"
+  },
+  'term-overseer': {
+    "id": "term-overseer",
+    "type": "term",
+    "title": "Overseer / Bishop (Episkopos)",
+    "originalLanguageTerm": "Greek: ἐπίσκοπος (Episkopos) · Guardian / Watchful Shepherd",
+    "transliteration": "Episkopos",
+    "strongsNumber": "G1985",
+    "shortDefinition": "A faithful pastor-elder tasked with watching lovingly over the spiritual health and doctrine of a local congregation.",
+    "historicalContext": "In the New Testament, “overseer” (episkopos) and “elder” (presbyteros) describe the very same local church shepherds (Acts 20:17 & 28; Titus 1:5 & 7).",
+    "theologicalInsight": "Called first to hospitality, gentleness, self-control, and loving integrity in their own home.",
+    "timelineYear": "Early Church",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Acts 20:28",
+      "Philippians 1:1",
+      "1 Timothy 3:1-7",
+      "Titus 1:7"
+    ],
+    "iconSlug": "peace-dove"
+  },
+  'term-bondservant': {
+    "id": "term-bondservant",
+    "type": "term",
+    "title": "Servant / Bondservant (Doulos)",
+    "originalLanguageTerm": "Greek: δοῦλος (Doulos) · Devoted Servant Owned by Love",
+    "transliteration": "Doulos",
+    "strongsNumber": "G1401",
+    "shortDefinition": "Paul, James, Peter, and Jude joyfully opened their letters calling themselves “bondservants of Jesus Christ”—belonging completely to a gracious Master.",
+    "historicalContext": "While Greco-Roman slavery was harsh and involuntary, Scripture reshaped the image around Jesus Himself—who took the form of a doulos to wash dusty feet.",
+    "theologicalInsight": "Being a servant of Christ sets believers permanently free from pleasing people, fear, or cultural idols.",
+    "timelineYear": "1st Century AD",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Romans 1:1",
+      "Philippians 2:7",
+      "James 1:1",
+      "Jude 1:1"
+    ],
+    "iconSlug": "peace-dove"
+  },
+  'term-samaritan': {
+    "id": "term-samaritan",
+    "type": "term",
+    "title": "Samaritan (Northern Neighbors Split From Judea)",
+    "originalLanguageTerm": "Greek: Σαμαρείτης (Samareites) · People of Samaria",
+    "transliteration": "Samareites",
+    "strongsNumber": "G4541",
+    "shortDefinition": "Mixed-heritage inhabitants of central Israel who revered only the first five books of Moses and worshiped on Mount Gerizim—despised fiercely by Judeans.",
+    "historicalContext": "Centuries of bitter ethnic and temple rivalry meant devout Jews walked long detours to avoid Samaria. Jesus intentionally walked straight through—and made a Samaritan the hero of loving one’s neighbor!",
+    "theologicalInsight": "A Samaritan leper was the only one of ten to turn back shouting gratitude to Jesus (Luke 17:16).",
+    "timelineYear": "1st Century AD",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Luke 10:33",
+      "Luke 17:16",
+      "John 4:9",
+      "Acts 8:5"
+    ],
+    "iconSlug": "water-spring"
+  },
+  'term-rabbi': {
+    "id": "term-rabbi",
+    "type": "term",
+    "title": "Rabbi (“My Great One / Teacher”)",
+    "originalLanguageTerm": "Hebrew/Aramaic: רַבִּי (Rabbi) · Honored Teacher",
+    "transliteration": "Rabbi",
+    "strongsNumber": "G4461",
+    "shortDefinition": "Title of deep respect spoken to recognized Jewish Scripture masters—frequently given to Jesus even by Nicodemus and His disciples.",
+    "historicalContext": "Uniquely, Jesus broke standard rabbinic protocol: refusing fees, welcoming women and sinners beside Him, and teaching on His own authority (“But I tell you…”).",
+    "theologicalInsight": "Jesus warns followers never to chase titles like “Rabbi” to feel superior; “all of you are brothers and sisters” (Matthew 23:8).",
+    "timelineYear": "1st Century Judea",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 23:7-8",
+      "John 1:38",
+      "John 3:2",
+      "John 20:16"
+    ],
+    "iconSlug": "wisdom-scroll"
+  },
+  'term-amen': {
+    "id": "term-amen",
+    "type": "term",
+    "title": "Amen (“So Be It / Most Certainly!”)",
+    "originalLanguageTerm": "Hebrew/Greek: אָמֵן / Ἀμήν · Firm, Trustworthy, True",
+    "transliteration": "Amen",
+    "strongsNumber": "G281",
+    "shortDefinition": "Rooted in Hebrew emeth (“firm faithfulness”)—used either at prayer’s end (“Let it be!”) or by Jesus at the start (“Truly, truly, I say to you”).",
+    "historicalContext": "Other rabbis quoted older scholars to justify points. Placing “Amen!” BEFORE His own teaching showed Jesus’ direct divine authority.",
+    "theologicalInsight": "In Revelation 3:14, Jesus Himself takes the title “the Amen, the faithful and true Witness.”",
+    "timelineYear": "All Scripture",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 5:18",
+      "John 3:3",
+      "2 Corinthians 1:20",
+      "Revelation 3:14"
+    ],
+    "iconSlug": "divine-light"
+  },
+  'term-beatitudes-blessed': {
+    "id": "term-beatitudes-blessed",
+    "type": "term",
+    "title": "Blessed (Makarios · Deep Spiritual Flourishing)",
+    "originalLanguageTerm": "Greek: μακάριος (Makarios) · Deeply Fortunate Under God",
+    "transliteration": "Makarios",
+    "strongsNumber": "G3107",
+    "shortDefinition": "Not fleeting lucky cheerfulness—deep, unshakeable joy belonging to people upheld by God’s loving favor even inside poverty or tears.",
+    "historicalContext": "Jesus stunned Sermon on the Mount crowds by calling “blessed” the poor in spirit, mourners, meek, and persecuted—flipping worldly pride completely upside down.",
+    "theologicalInsight": "In Jesus, blessing rests not on wealth or applause, rather on living open-handed near the King.",
+    "timelineYear": "Sermon on the Mount",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 5:3-11",
+      "Luke 6:20-22",
+      "Revelation 1:3"
+    ],
+    "iconSlug": "divine-light"
+  },
+  'term-mammon': {
+    "id": "term-mammon",
+    "type": "term",
+    "title": "Mammon / Wealth Rivaling God",
+    "originalLanguageTerm": "Aramaic/Greek: מָמוֹנָא / Μαμωνᾶς · Riches & Material Trust",
+    "transliteration": "Mamonas",
+    "strongsNumber": "G3126",
+    "shortDefinition": "Aramaic word for money and possessions personified by Jesus as a rival master trying to claim the heart’s trust.",
+    "historicalContext": "Unlike neutral coins, mammon represents money turned into security and status—“You cannot serve both God and Mammon.”",
+    "theologicalInsight": "Generous giving breaks money’s invisible grip and puts material resources right back into service as a tool, not an idol.",
+    "timelineYear": "NT Gospels",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 6:24",
+      "Luke 16:9-13",
+      "1 Timothy 6:10"
+    ],
+    "iconSlug": "courage-light"
+  },
+  'term-tetrarch': {
+    "id": "term-tetrarch",
+    "type": "term",
+    "title": "Tetrarch (Regional Quarter-Ruler Under Rome)",
+    "originalLanguageTerm": "Greek: τετράρχης (Tetrarches) · Ruler of One-Fourth Territory",
+    "transliteration": "Tetrarches",
+    "strongsNumber": "G5076",
+    "shortDefinition": "Roman client-prince ruling a divided portion of a kingdom—such as Herod Antipas over Galilee and Perea after Herod the Great died.",
+    "historicalContext": "Though subjects informally called Antipas “king,” Rome officially limited him to “tetrarch”—showing how fragile his borrowed crown really was.",
+    "theologicalInsight": "Luke frames Jesus’ arrival alongside real Roman emperors and tetrarchs (Luke 3:1), grounding faith inside verifiable world history.",
+    "timelineYear": "1st Century AD",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 14:1",
+      "Luke 3:1",
+      "Luke 9:7",
+      "Acts 13:1"
+    ],
+    "iconSlug": "wisdom-scroll"
+  },
+  'term-conscience': {
+    "id": "term-conscience",
+    "type": "term",
+    "title": "Conscience (Syneidēsis · Shared Moral Awareness)",
+    "originalLanguageTerm": "Greek: συνείδησις (Syneidesis) · Knowing Together Within",
+    "transliteration": "Syneidesis",
+    "strongsNumber": "G4893",
+    "shortDefinition": "God-given inner moral witness assessing right and wrong—needing Scripture’s truth and Christ’s cleansing blood to stay healthy.",
+    "historicalContext": "Paul speaks thirty times of a “clear conscience” before God and gently teaches mature believers not to crush weaker Christians’ sensitive consciences over disputable habits.",
+    "theologicalInsight": "Guilt can sear or accuse an unwashed conscience—only Jesus’ cross sets a guilty conscience clean and free (Hebrews 9:14).",
+    "timelineYear": "Epistles & Acts",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Acts 24:16",
+      "Romans 2:15",
+      "1 Corinthians 8:7-12",
+      "Hebrews 9:14"
+    ],
+    "iconSlug": "peace-dove"
+  },
+  'term-fellowship-koinonia': {
+    "id": "term-fellowship-koinonia",
+    "type": "term",
+    "title": "Fellowship / Partnership (Koinōnia)",
+    "originalLanguageTerm": "Greek: κοινωνία (Koinonia) · Shared Life, Cost & Joy",
+    "transliteration": "Koinonia",
+    "strongsNumber": "G2842",
+    "shortDefinition": "Far deeper than coffee and small talk—a shared life where believers share Spirit, resources, suffering, and mission together.",
+    "historicalContext": "Koinonia originally described business partners sharing one boat or mutual rescue—the word Acts 2:42 uses for the Jerusalem church sharing meals and caring for needs.",
+    "theologicalInsight": "Because believers share union with Christ, dividing churches along wealth, status, or race contradicts communion itself.",
+    "timelineYear": "Early Church",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Acts 2:42",
+      "2 Corinthians 13:14",
+      "Philippians 1:5",
+      "1 John 1:3-7"
+    ],
+    "iconSlug": "peace-dove"
+  },
+  'term-tribulation': {
+    "id": "term-tribulation",
+    "type": "term",
+    "title": "Tribulation & Persecution (Thlipsis · Pressing Pressure)",
+    "originalLanguageTerm": "Greek: θλῖψις (Thlipsis) · Crushing Weight / Hardship",
+    "transliteration": "Thlipsis",
+    "strongsNumber": "G2347",
+    "shortDefinition": "Severe outward pressure, squeeze, or hostility endured for faithfulness—which Jesus promises will produce deep endurance and joy.",
+    "historicalContext": "Used literally for pressing grapes or squeezing olives, thlipsis didn’t shock early believers—Jesus warned frankly: “In the world you have tribulation; take courage, I have overcome the world!”",
+    "theologicalInsight": "Suffering never means God abandoned His children; Romans 5 shows pressing pressure trains stubborn hope.",
+    "timelineYear": "NT Era",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "John 16:33",
+      "Romans 5:3",
+      "2 Corinthians 1:4",
+      "Revelation 7:14"
+    ],
+    "iconSlug": "courage-light"
+  },
+  'term-wrath-orge': {
+    "id": "term-wrath-orge",
+    "type": "term",
+    "title": "Wrath of God (Orgē · Settled Moral Opposition to Evil)",
+    "originalLanguageTerm": "Greek: ὀργή (Orge) · Holy Justice Against Sin",
+    "transliteration": "Orge",
+    "strongsNumber": "G3709",
+    "shortDefinition": "Not petty human temper or spite—God’s settled, righteous indignation against every cruelty, deceit, and rebellion harming His creation.",
+    "historicalContext": "Paul opens Romans declaring God’s wrath burns against injustice suppressing truth—making Calvary astonishing, where Christ stepped into judgment to rescue us.",
+    "theologicalInsight": "A loving God MUST hate abuse, lies, and cruelty; the marvel of the Gospel is that Jesus absorbed judgment so mercy meets justice.",
+    "timelineYear": "NT Epistles & Gospels",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "John 3:36",
+      "Romans 1:18",
+      "Romans 5:9",
+      "1 Thessalonians 1:10"
+    ],
+    "iconSlug": "covenant-fire"
+  },
+  'term-condemnation': {
+    "id": "term-condemnation",
+    "type": "term",
+    "title": "Condemnation (Katakrima · Guilty Sentence)",
+    "originalLanguageTerm": "Greek: κατάκριμα (Katakrima) · Final Judicial Verdict Against",
+    "transliteration": "Katakrima",
+    "strongsNumber": "G2631",
+    "shortDefinition": "The legal penalty hanging over wrongdoing—completely lifted off everyone trusting Christ: “There is therefore now NO condemnation!”",
+    "historicalContext": "In Roman law courts, katakrima meant both guilty verdict and execution sentence. Jesus paid that sentence fully at the cross.",
+    "theologicalInsight": "Romans 8:1 is pure oxygen for shame-burdened believers: condemnation never waits around the corner for those in Christ Jesus.",
+    "timelineYear": "NT Epistles",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "John 3:17-18",
+      "John 5:24",
+      "Romans 5:18",
+      "Romans 8:1"
+    ],
+    "iconSlug": "divine-light"
+  },
+  'term-inheritance': {
+    "id": "term-inheritance",
+    "type": "term",
+    "title": "Inheritance & Co-Heirs (Klēronomia)",
+    "originalLanguageTerm": "Greek: κληρονομία (Kleronomia) · Guaranteed Family Allotment",
+    "transliteration": "Kleronomia",
+    "strongsNumber": "G2817",
+    "shortDefinition": "Just as Israel inherited Canaan by covenant promise, Christians—Jew and Gentile alike—become God’s adopted sons and heirs of a renewed creation.",
+    "historicalContext": "Firstborn sons normally took the main Roman or Jewish estate. Shockingly, Paul tells every slave and woman in Christ: “you are an heir through God!”",
+    "theologicalInsight": "The Holy Spirit given right now is called the down-payment (“pledge”) guaranteeing our full coming home.",
+    "timelineYear": "NT Epistles",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Romans 8:17",
+      "Galatians 3:29",
+      "Ephesians 1:11-14",
+      "1 Peter 1:4"
+    ],
+    "iconSlug": "divine-light"
+  },
+  'term-covetousness': {
+    "id": "term-covetousness",
+    "type": "term",
+    "title": "Covetousness / Greed (Pleonexia · Craving More)",
+    "originalLanguageTerm": "Greek: πλεονεξία (Pleonexia) · Greedy Appetite for More",
+    "transliteration": "Pleonexia",
+    "strongsNumber": "G4124",
+    "shortDefinition": "An endless inner hunger demanding more wealth, praise, or possessions than our neighbors—which Paul explicitly calls idolatry.",
+    "historicalContext": "Breaking the Tenth Commandment rarely looks criminal outwardly, yet Jesus warned: “Watch out! Guard against all greed—life does not consist in abundance.”",
+    "theologicalInsight": "True gratitude and contentment dismantle greed before it turns blessings into cages.",
+    "timelineYear": "NT Ethics",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Luke 12:15",
+      "Romans 1:29",
+      "Ephesians 5:3",
+      "Colossians 3:5"
+    ],
+    "iconSlug": "courage-light"
+  },
+  'term-idolatry': {
+    "id": "term-idolatry",
+    "type": "term",
+    "title": "Idolatry & Idols (Eidōlolatria)",
+    "originalLanguageTerm": "Greek: εἰδωλολατρία (Eidololatria) · Worship of Created Images",
+    "transliteration": "Eidololatria",
+    "strongsNumber": "G1495",
+    "shortDefinition": "Giving supreme trust, loyalty, or worship—whether toward carved Roman statues or modern money, status, and desires—instead of the living Creator.",
+    "historicalContext": "Corinth, Ephesus, and Philippi bristled with pagan guild temples serving meat sacrificed to idols—challenging new Christians daily on how to honor Christ faithfully among neighbors.",
+    "theologicalInsight": "1 John closes tenderly: “Little children, keep yourselves from idols.” Whatever steals our deepest joy in God becomes an idol.",
+    "timelineYear": "Early Church World",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Acts 17:16",
+      "1 Corinthians 10:14",
+      "Colossians 3:5",
+      "1 John 5:21"
+    ],
+    "iconSlug": "covenant-fire"
+  },
+  'term-humble-meekness': {
+    "id": "term-humble-meekness",
+    "type": "term",
+    "title": "Meekness & Humility (Prautēs · Gentle Strength)",
+    "originalLanguageTerm": "Greek: πραΰτης / ταπεινοφροσύνη · Strength Under Control",
+    "transliteration": "Prautes",
+    "strongsNumber": "G4240",
+    "shortDefinition": "Never spineless weakness! In Greek, prautes described a powerful warhorse tamed to trust its rider’s hand—mighty strength moving in gentleness.",
+    "historicalContext": "Greco-Roman elites mocked humility (tapeinophrosyne) as slavish weakness. Christianity rescued it as royalty because Jesus Himself said, “I am gentle and humble in heart.”",
+    "theologicalInsight": "“Blessed are the meek, for they shall inherit the earth”—gentle strength outlasts loud domination.",
+    "timelineYear": "NT Teaching",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 5:5",
+      "Matthew 11:29",
+      "Galatians 5:23",
+      "1 Peter 3:4"
+    ],
+    "iconSlug": "peace-dove"
+  },
+  'term-fasting': {
+    "id": "term-fasting",
+    "type": "term",
+    "title": "Fasting (Voluntary Hunger for Prayerful Focus)",
+    "originalLanguageTerm": "Greek: νηστεύω / νηστεία (Nesteia) · Abstaining From Food",
+    "transliteration": "Nesteia",
+    "strongsNumber": "G3521",
+    "shortDefinition": "Setting aside meals for a focused window to sharpen prayer, grieve sin honestly, and seek God’s guidance without noisy display.",
+    "historicalContext": "While some Pharisees paraded pale, messy faces twice weekly to look holy, Jesus instructed secret fasting washed clean for God’s eyes alone.",
+    "theologicalInsight": "Antioch’s church heard the Spirit call Barnabas and Saul specifically while worshiping and fasting together (Acts 13:2).",
+    "timelineYear": "NT Devotion",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 6:16-18",
+      "Matthew 9:15",
+      "Acts 13:2-3"
+    ],
+    "iconSlug": "wisdom-scroll"
+  },
+  'term-oath': {
+    "id": "term-oath",
+    "type": "term",
+    "title": "Oath / Swearing Truthfully (Horkos)",
+    "originalLanguageTerm": "Greek: ὅρκος (Horkos) · Binding Solemn Vow",
+    "transliteration": "Horkos",
+    "strongsNumber": "G3727",
+    "shortDefinition": "Swearing by heaven or the Temple altar as an excuse to wiggle out of ordinary promises—condemned by Jesus: simply let your “Yes” mean Yes.",
+    "historicalContext": "First-century casuistry ranked vows by whether you swore toward Jerusalem or toward gold! Jesus called believers back to complete everyday truthfulness needing zero dramatic oaths.",
+    "theologicalInsight": "When someone’s plain word can always be trusted, fancy vows become unnecessary.",
+    "timelineYear": "Sermon on the Mount",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 5:33-37",
+      "Matthew 23:16-22",
+      "James 5:12"
+    ],
+    "iconSlug": "wisdom-scroll"
+  },
+  'term-yoke': {
+    "id": "term-yoke",
+    "type": "term",
+    "title": "Yoke of a Rabbi (Zygos · Shared Harness)",
+    "originalLanguageTerm": "Greek: ζυγός (Zygos) · Wooden Oxen Harness",
+    "transliteration": "Zygos",
+    "strongsNumber": "G2218",
+    "shortDefinition": "A rabbi’s demanding “yoke” was his rulebook of commandments; Jesus offers His own easy yoke—walking strapped right beside Him so He carries the weight.",
+    "historicalContext": "Often an experienced ox walked yoked beside a young ox to train its step and bear most of the plow’s load—the exact image behind Matthew 11:29–30!",
+    "theologicalInsight": "“Take my yoke upon you and learn from me… you will find rest for your souls.”",
+    "timelineYear": "NT Gospels & Acts",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 11:29-30",
+      "Acts 15:10",
+      "Galatians 5:1"
+    ],
+    "iconSlug": "peace-dove"
+  },
+  'term-cornerstone': {
+    "id": "term-cornerstone",
+    "type": "term",
+    "title": "Chief Cornerstone (Akrogōniaios)",
+    "originalLanguageTerm": "Greek: ἀκρογωνιαῖος / κεφαλὴ γωνίας · Keystone Setting Every Wall Straight",
+    "transliteration": "Akrogoniaios",
+    "strongsNumber": "G204",
+    "shortDefinition": "The massive, precision-cut foundation stone setting the angle and strength of an entire building—fulfilled by rejected-then-risen Jesus.",
+    "historicalContext": "Quoted repeatedly across Matthew, Acts, Ephesians, and 1 Peter from Psalm 118:22: builders threw Jesus aside as unsuitable, yet God crowned Him the cornerstone of a living spiritual temple.",
+    "theologicalInsight": "Whether we stumble over Jesus or build our lives upon Him changes every wall’s alignment.",
+    "timelineYear": "NT Fulfillment",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Psalm 118:22",
+      "Matthew 21:42",
+      "Acts 4:11",
+      "Ephesians 2:20",
+      "1 Peter 2:6-7"
+    ],
+    "iconSlug": "courage-light"
+  },
+  'term-stumbling-block': {
+    "id": "term-stumbling-block",
+    "type": "term",
+    "title": "Stumbling Block / Offense (Skandalon)",
+    "originalLanguageTerm": "Greek: σκάνδαλον (Skandalon) · Trap-Stick / Rock Causing a Fall",
+    "transliteration": "Skandalon",
+    "strongsNumber": "G4625",
+    "shortDefinition": "Literally the bait-trigger in a trap or a stone tripping runners—pointing either to the scandal of a crucified Messiah or actions tripping fellow believers into sin.",
+    "historicalContext": "Rome saw a crucified carpenter as foolish failure (“skandalon”), while Paul urged Christians never to place selfish freedoms as tripping stones in a weaker neighbor’s path.",
+    "theologicalInsight": "Love happily gives up harmless privileges if doing so keeps a vulnerable friend from stumbling.",
+    "timelineYear": "NT Era",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Matthew 18:7",
+      "Romans 14:13",
+      "1 Corinthians 1:23",
+      "1 Peter 2:8"
+    ],
+    "iconSlug": "courage-light"
+  },
+  'term-confession': {
+    "id": "term-confession",
+    "type": "term",
+    "title": "Confess / Agree Publicly (Homologeō)",
+    "originalLanguageTerm": "Greek: ὁμολογέω (Homologeo) · Say the Same Thing Openly",
+    "transliteration": "Homologeo",
+    "strongsNumber": "G3670",
+    "shortDefinition": "Agreeing openly with God’s truth—used equally for confessing Jesus as Lord in public loyalty and agreeing honestly about our sins to find cleansing.",
+    "historicalContext": "Under Roman emperors demanding “Caesar is Lord,” Christians risked prison to confess “Jesus is Lord!”—while 1 John 1:9 applies the same verb to transparent honesty over sin.",
+    "theologicalInsight": "Hiding sin breeds isolation; agreeing honestly with God’s light brings instant cleansing forgiveness.",
+    "timelineYear": "Early Church",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Matthew 10:32",
+      "Romans 10:9-10",
+      "1 Timothy 6:12",
+      "1 John 1:9"
+    ],
+    "iconSlug": "divine-light"
+  },
+  'term-prophecy-nt': {
+    "id": "term-prophecy-nt",
+    "type": "term",
+    "title": "Prophecy / Prophesy (Prophēteia · Speaking God’s Word)",
+    "originalLanguageTerm": "Greek: προφητεία (Propheteia) · Speaking Forth Under the Spirit",
+    "transliteration": "Propheteia",
+    "strongsNumber": "G4394",
+    "shortDefinition": "Delivering God-given truth to “strengthen, encourage, and comfort” the church (1 Cor 14:3)—not merely predicting distant future dates.",
+    "historicalContext": "Rooted in Old Testament prophets, New Testament congregations tested prophetic words carefully against apostolic teaching and Scripture.",
+    "theologicalInsight": "Paul elevates intelligible encouragement in church far above flashy spectacles because love aims to build people up.",
+    "timelineYear": "NT Church",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Acts 2:17",
+      "1 Corinthians 14:1-5",
+      "1 Thessalonians 5:20-21",
+      "2 Peter 1:20-21"
+    ],
+    "iconSlug": "divine-light"
+  },
+  'term-speaking-tongues': {
+    "id": "term-speaking-tongues",
+    "type": "term",
+    "title": "Speaking in Tongues / Languages (Glōssais)",
+    "originalLanguageTerm": "Greek: γλώσσαις λαλεῖν · Spirit-Given Languages / Prayer Utterance",
+    "transliteration": "Glossai",
+    "strongsNumber": "G1100",
+    "shortDefinition": "In Acts 2, Galilean believers praised God in real human languages understood by pilgrims worldwide; in 1 Corinthians, a Spirit-led prayer gift requiring translation in public worship.",
+    "historicalContext": "Corinthians treated ecstatic speech as a status trophy—so Paul gently anchored all gifts under love: better five clear words to help others than ten thousand unintelligible ones.",
+    "theologicalInsight": "Pentecost reversed Babel’s confusion so every nation on earth can hear God’s mighty deeds cleanly.",
+    "timelineYear": "Apostolic Era",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Acts 2:4-11",
+      "Acts 10:46",
+      "1 Corinthians 12:10",
+      "1 Corinthians 14:18-28"
+    ],
+    "iconSlug": "covenant-fire"
+  },
+  'term-demons-evil-spirits': {
+    "id": "term-demons-evil-spirits",
+    "type": "term",
+    "title": "Demons / Unclean Spirits (Daimonia)",
+    "originalLanguageTerm": "Greek: δαιμόνιον / πνεῦμα ἀκάθαρτον · Dark Spiritual Parasites",
+    "transliteration": "Daimonion",
+    "strongsNumber": "G1140",
+    "shortDefinition": "Hostile spiritual beings aligned with Satan that torment, blind, or enslave people—completely powerless against a single command from Jesus.",
+    "historicalContext": "While ancient magicians muttered exhausting rituals and potions, Jesus spoke one calm word—“Be quiet and come out!”—instantly restoring people’s sanity and dignity.",
+    "theologicalInsight": "Deliverances prove God’s Kingdom had truly invaded earth to set captives free (Luke 11:20).",
+    "timelineYear": "NT Gospels & Acts",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 8:16",
+      "Mark 1:25-27",
+      "Mark 5:1-15",
+      "Luke 10:17",
+      "James 2:19"
+    ],
+    "iconSlug": "courage-light"
+  },
+  'term-satan-adversary': {
+    "id": "term-satan-adversary",
+    "type": "term",
+    "title": "Satan / The Devil (Adversary & Slanderer)",
+    "originalLanguageTerm": "Hebrew/Greek: שָׂטָן / Διάβολος (Diabolos) · Accuser / Divider",
+    "transliteration": "Satanas / Diabolos",
+    "strongsNumber": "G4567",
+    "shortDefinition": "Created spiritual rebel opposing God’s Kingdom as tempter, deceiver, and “accuser of our brothers”—already disarmed legally by Christ’s cross.",
+    "historicalContext": "Never God’s equal rival! In Job, the Gospels, and Revelation alike, Satan cannot touch a believer without God’s sovereign boundary and flees when resisted by faith.",
+    "theologicalInsight": "At Calvary Jesus “disarmed the rulers and authorities” so our adversary’s accusations lose every legal hold.",
+    "timelineYear": "All Scripture",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 4:1-11",
+      "Luke 10:18",
+      "Ephesians 6:11",
+      "1 Peter 5:8",
+      "Revelation 12:10"
+    ],
+    "iconSlug": "courage-light"
+  },
+  'term-angel-messenger': {
+    "id": "term-angel-messenger",
+    "type": "term",
+    "title": "Angel / Messenger of God (Angelos)",
+    "originalLanguageTerm": "Greek: ἄγγελος (Angelos) · Heaven’s Sent Messenger",
+    "transliteration": "Angelos",
+    "strongsNumber": "G32",
+    "shortDefinition": "Created spiritual beings serving God as worshipers, messengers (like Gabriel announcing Jesus’ birth), and protectors of believers.",
+    "historicalContext": "Always distinct from humans! Angels consistently refuse human worship (Revelation 22:8–9), pointing awe directly back to Jesus, “much superior to angels” (Hebrews 1:4).",
+    "theologicalInsight": "Hebrews 1:14 describes angels joyfully as “ministering spirits sent out to serve for the sake of those who inherit salvation.”",
+    "timelineYear": "All Scripture",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Luke 1:26",
+      "Luke 2:13",
+      "Acts 12:7",
+      "Hebrews 1:14",
+      "Revelation 22:8-9"
+    ],
+    "iconSlug": "divine-light"
+  },
+  'term-lords-supper': {
+    "id": "term-lords-supper",
+    "type": "term",
+    "title": "The Lord’s Supper / Breaking of Bread",
+    "originalLanguageTerm": "Greek: κυριακὸν δεῖπνον · Passover-Rooted Communion Meal",
+    "transliteration": "Kyriakon Deipnon",
+    "strongsNumber": "G2960",
+    "shortDefinition": "Shared meal instituted by Jesus on Passover night—remembering His broken body (bread) and New Covenant blood (cup) in unity until He returns.",
+    "historicalContext": "In 1 Corinthians 11, wealthy believers gorged early while poor slaves went hungry—prompting Paul to warn that dividing the table contradicts Christ’s body.",
+    "theologicalInsight": "Every cup proclaims both backward gratitude for Calvary and forward hope of the Marriage Supper.",
+    "timelineYear": "Last Supper onward",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 26:26-28",
+      "Luke 22:19-20",
+      "Acts 2:42",
+      "1 Corinthians 11:23-26"
+    ],
+    "iconSlug": "manna-flakes"
+  },
+  'term-ransom-redemption': {
+    "id": "term-ransom-redemption",
+    "type": "term",
+    "title": "Ransom (Lytron · Freedom Price Paid)",
+    "originalLanguageTerm": "Greek: λύτρον (Lytron / Antilytron) · Price Releasing Captives",
+    "transliteration": "Lytron",
+    "strongsNumber": "G3083",
+    "shortDefinition": "Money paid to buy a kidnapped prisoner or enslaved worker permanently out of bondage—how Jesus described giving His own life on the cross.",
+    "historicalContext": "Echoing Exodus and Isaiah 53, Mark 10:45 captures Jesus’ mission in one crystal line: “The Son of Man came… to give his life as a ransom for many.”",
+    "theologicalInsight": "Forgiveness wasn’t cheap or casual—it cost Christ Himself to bring captives permanently home.",
+    "timelineYear": "NT Gospels & Epistles",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 20:28",
+      "Mark 10:45",
+      "1 Timothy 2:6",
+      "1 Peter 1:18-19"
+    ],
+    "iconSlug": "courage-light"
+  },
+  'term-propitiation': {
+    "id": "term-propitiation",
+    "type": "term",
+    "title": "Atoning Sacrifice / Mercy Seat (Hilastērion)",
+    "originalLanguageTerm": "Greek: ἱλαστήριον / ἱλασμός · Mercy-Seat Sacrifice Turning Away Judgment",
+    "transliteration": "Hilasterion",
+    "strongsNumber": "G2435",
+    "shortDefinition": "Greek term for the golden Ark lid (Mercy Seat) where blood was sprinkled on Yom Kippur—showing Jesus Himself is where God’s holiness and mercy meet.",
+    "historicalContext": "In pagan religion, terrified worshippers bribed angry gods; in Romans 3:25, GOD Himself lovingly puts forward Jesus so He stays both completely just and merciful!",
+    "theologicalInsight": "God doesn’t love us because Jesus died; Jesus died because God so loved us.",
+    "timelineYear": "NT Epistles",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Romans 3:25",
+      "Hebrews 2:17",
+      "1 John 2:2",
+      "1 John 4:10"
+    ],
+    "iconSlug": "covenant-fire"
+  },
+  'term-sanctification': {
+    "id": "term-sanctification",
+    "type": "term",
+    "title": "Sanctify / Holiness (Hagios · Set Apart for God)",
+    "originalLanguageTerm": "Greek: ἁγιάζω / ἁγιωσύνη (Hagiazo) · Dedicated & Transformed",
+    "transliteration": "Hagiazo",
+    "strongsNumber": "G37",
+    "shortDefinition": "Being set apart from ordinary clutter to belong joyfully to God—and gradually shaped by the Spirit into Christ’s own pure love.",
+    "historicalContext": "Even messy believers in Corinth are greeted first as “saints” (hagioi — “holy ones”) because Jesus makes us God’s own before finishing our growth!",
+    "theologicalInsight": "Holiness isn’t prickly gloom; it’s whole-hearted health freed from sin’s slow decay.",
+    "timelineYear": "NT Epistles",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "John 17:17",
+      "1 Corinthians 1:2",
+      "1 Thessalonians 4:3",
+      "Hebrews 12:14"
+    ],
+    "iconSlug": "divine-light"
+  },
+  'term-forgiveness': {
+    "id": "term-forgiveness",
+    "type": "term",
+    "title": "Forgiveness (Aphesis · Released Debt & Pardon)",
+    "originalLanguageTerm": "Greek: ἄφεσις (Aphesis) · Sending Away / Cancelled Debt",
+    "transliteration": "Aphesis",
+    "strongsNumber": "G859",
+    "shortDefinition": "Canceling an unpayable moral debt completely—sending guilt far away so relationship stands clear, reconciled, and unafraid.",
+    "historicalContext": "Same Greek word used in Luke 4:18 for setting prisoners free! Because God cancels our mountain of debt freely, the Lord’s Prayer trains us to cancel others’ wrongs.",
+    "theologicalInsight": "Forgiveness cancels revenge, though wise boundaries and healing still grow over time.",
+    "timelineYear": "All Scripture",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 6:12-15",
+      "Matthew 18:21-35",
+      "Luke 4:18",
+      "Ephesians 1:7",
+      "Colossians 3:13"
+    ],
+    "iconSlug": "peace-dove"
+  },
+  'term-steward': {
+    "id": "term-steward",
+    "type": "term",
+    "title": "Steward / Manager (Oikonomos · Household Trustee)",
+    "originalLanguageTerm": "Greek: οἰκονόμος (Oikonomos) · Master’s Estate Manager",
+    "transliteration": "Oikonomos",
+    "strongsNumber": "G3623",
+    "shortDefinition": "Someone entrusted with managing property, money, or truth belonging to another Owner—always faithful, wise, and accountable.",
+    "historicalContext": "In wealthy Greco-Roman villas, a trusted oikonomos ran kitchens, budgets, and staff while the master traveled—inspiring Jesus’ parables and Paul’s calling as “stewards of God’s mysteries.”",
+    "theologicalInsight": "We own nothing ultimately; we manage God’s gifts faithfully to bless neighbors.",
+    "timelineYear": "NT Era",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Luke 12:42",
+      "1 Corinthians 4:1-2",
+      "Titus 1:7",
+      "1 Peter 4:10"
+    ],
+    "iconSlug": "wisdom-scroll"
+  },
+  'term-witness-martyr': {
+    "id": "term-witness-martyr",
+    "type": "term",
+    "title": "Testimony / Witness (Martyria · Firsthand Truth)",
+    "originalLanguageTerm": "Greek: μαρτυρία / μάρτυς (Martys) · Eyewitness Who Tells What They Saw",
+    "transliteration": "Martyria",
+    "strongsNumber": "G3141",
+    "shortDefinition": "Testifying honestly in court or daily life to what you truly saw and experienced with Jesus—the root behind our English word “martyr.”",
+    "historicalContext": "Because faithful Roman-era witnesses like Antipas (Revelation 2:13) refused to deny Christ even under execution, martys eventually meant dying for faith.",
+    "theologicalInsight": "You aren’t asked to argue philosophy you don’t know—only to tell honestly what Jesus did in your life.",
+    "timelineYear": "Acts & Revelation",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "John 1:7",
+      "Acts 1:8",
+      "1 John 5:9-11",
+      "Revelation 12:11"
+    ],
+    "iconSlug": "wisdom-scroll"
+  },
+  'term-preach-proclaim': {
+    "id": "term-preach-proclaim",
+    "type": "term",
+    "title": "Preach / Proclaim Good News (Kēryssō · Town Herald)",
+    "originalLanguageTerm": "Greek: κηρύσσω / εὐαγγελίζω · Royal Town-Crier",
+    "transliteration": "Kerysso",
+    "strongsNumber": "G2784",
+    "shortDefinition": "Like a royal herald stepping into a city square announcing a victory already won—proclaiming God’s saving Kingdom openly.",
+    "historicalContext": "Heralds didn’t invent clever opinions; they delivered the King’s exact announcement clearly so everyone from slaves to senators could respond.",
+    "theologicalInsight": "Christian preaching isn’t scolding—it announces glorious rescue news about what Christ finished.",
+    "timelineYear": "NT Era",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 4:17",
+      "Luke 4:18",
+      "Romans 10:14-15",
+      "2 Timothy 4:2"
+    ],
+    "iconSlug": "divine-light"
+  },
+  'term-heaven-throne': {
+    "id": "term-heaven-throne",
+    "type": "term",
+    "title": "Throne of God & the Lamb (Thronos)",
+    "originalLanguageTerm": "Greek: θρόνος (Thronos) · Sovereign Seat of Universe",
+    "transliteration": "Thronos",
+    "strongsNumber": "G2362",
+    "shortDefinition": "Appearing 47 times in Revelation alone, God’s unshaken throne reminds threatened Christians that heaven—not Nero or Babylon—holds final control.",
+    "historicalContext": "Even while emperors demanded worship in temples across Asia Minor, Revelation opens a door straight into heaven’s emerald-rainbowed throne room first.",
+    "theologicalInsight": "Amazingly, Hebrews 4:16 calls that awesome throne a “throne of grace” inviting needy believers boldly inside.",
+    "timelineYear": "NT Apocalyptic & Hebrews",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Matthew 5:34",
+      "Hebrews 4:16",
+      "Revelation 4:2",
+      "Revelation 22:1-3"
+    ],
+    "iconSlug": "divine-light"
+  },
+  'term-scroll-seals': {
+    "id": "term-scroll-seals",
+    "type": "term",
+    "title": "Seven-Sealed Scroll (Biblion · Title-Deed of History)",
+    "originalLanguageTerm": "Greek: βιβλίον κατεσφραγισμένον · Sealed Papyrus Roll",
+    "transliteration": "Biblion",
+    "strongsNumber": "G975",
+    "shortDefinition": "In Revelation 5, the sealed scroll holds God’s final redemptive plan for justice and restoration—which only the slain Lamb stands worthy to open.",
+    "historicalContext": "Roman wills and imperial decrees required seven intact wax seals broken only by the lawful heir or executor.",
+    "theologicalInsight": "John wept until an elder pointed: the Lion of Judah conquered specifically as a slain, loving Lamb.",
+    "timelineYear": "Revelation (~95 AD)",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Revelation 5:1-9",
+      "Revelation 6:1",
+      "Revelation 8:1"
+    ],
+    "iconSlug": "wisdom-scroll"
+  },
+  'term-beast-dragon': {
+    "id": "term-beast-dragon",
+    "type": "term",
+    "title": "The Dragon & the Beast (Symbolic Oppressive Powers)",
+    "originalLanguageTerm": "Greek: δράκων / θηρίον (Drakon / Therion)",
+    "transliteration": "Therion",
+    "strongsNumber": "G2342",
+    "shortDefinition": "Daniel 7’s vivid prophetic imagery adapted in Revelation: Satan pictured as the ancient serpent-dragon empowering idolatrous empires that persecute saints.",
+    "historicalContext": "First-century Asian believers instantly recognized imperial Rome’s emperor-worship demanded on penalty of economic boycott or execution.",
+    "theologicalInsight": "Beasts roar loudly yet last only a brief measured hour; the gentle Lamb shares an everlasting Kingdom.",
+    "timelineYear": "Revelation (~95 AD)",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Daniel 7:3-7",
+      "Revelation 12:9",
+      "Revelation 13:1-18",
+      "Revelation 19:20"
+    ],
+    "iconSlug": "courage-light"
+  },
+  'term-babylon-great': {
+    "id": "term-babylon-great",
+    "type": "term",
+    "title": "Babylon the Great (Fallen World-System of Pride)",
+    "originalLanguageTerm": "Greek: Βαβυλὼν ἡ μεγάλη · Code Name for Proud Rome & Every Corrupt Empire",
+    "transliteration": "Babylon",
+    "strongsNumber": "G897",
+    "shortDefinition": "Symbolic name (used discreetly by both 1 Peter 5:13 and Revelation 17–18) for seductive, brutal imperial power built on luxury and exploitation.",
+    "historicalContext": "Ancient Babylon once shattered Jerusalem; six centuries later, Rome played the exact same role—intoxicated by blood, wealth, and self-glorification.",
+    "theologicalInsight": "Heaven warns God’s people: “Come out of her, my people!”—choose the humble Bride-City New Jerusalem over flashy empires.",
+    "timelineYear": "Revelation & 1 Peter",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "1 Peter 5:13",
+      "Revelation 14:8",
+      "Revelation 17:5",
+      "Revelation 18:2-4"
+    ],
+    "iconSlug": "covenant-fire"
+  },
+  'term-leprosy-unclean': {
+    "id": "term-leprosy-unclean",
+    "type": "term",
+    "title": "Lepers & Touching the Excluded (Lepra)",
+    "originalLanguageTerm": "Greek: λεπρός (Lepros) · Skin-Condition Carrying Social Exile",
+    "transliteration": "Lepros",
+    "strongsNumber": "G3015",
+    "shortDefinition": "Broad term covering contagious or scaling skin conditions requiring quarantine outside town—leaving sufferers isolated socially, financially, and religiously.",
+    "historicalContext": "Touching an unclean leper ordinarily defiled a rabbi cleanly—yet when Jesus reached out and touched begging lepers, purity flowed OUTWARD from Jesus to heal them!",
+    "theologicalInsight": "Jesus proves love doesn’t catch contamination from broken people; His wholeness heals us.",
+    "timelineYear": "NT Gospels",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Leviticus 13:45",
+      "Matthew 8:2-3",
+      "Luke 17:12-19"
+    ],
+    "iconSlug": "peace-dove"
+  },
+  'term-immorality-porneia': {
+    "id": "term-immorality-porneia",
+    "type": "term",
+    "title": "Sexual Immorality (Porneia · Sacred Body Stewardship)",
+    "originalLanguageTerm": "Greek: πορνεία (Porneia) · Unfaithfulness Outside Covenant Marriage",
+    "transliteration": "Porneia",
+    "strongsNumber": "G4202",
+    "shortDefinition": "Refers broadly to sexual expression outside lifelong covenant marriage—challenging pagan cities that treated temple prostitution as normal.",
+    "historicalContext": "First-century Corinth and Rome normalized casual exploitation of slaves and mistresses. The Gospel radically honored human bodies as “temples of the Holy Spirit.”",
+    "theologicalInsight": "Paul doesn’t shame bodies as bad; he lifts our bodies as deeply sacred dwellings bought at priceless cost.",
+    "timelineYear": "NT Ethics",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Acts 15:20",
+      "1 Corinthians 6:18-20",
+      "1 Thessalonians 4:3-5",
+      "Hebrews 13:4"
+    ],
+    "iconSlug": "divine-light"
+  },
+  'term-holy-spirit-nt': {
+    "id": "term-holy-spirit-nt",
+    "type": "term",
+    "title": "Holy Spirit (Advocate & Comforter · Paraklētos)",
+    "originalLanguageTerm": "Greek: Πνεῦμα Ἅγιον / Παράκλητος (Parakletos) · Helper Called Alongside",
+    "transliteration": "Parakletos",
+    "strongsNumber": "G3875",
+    "shortDefinition": "Not an impersonal force, rather God’s own living presence indwelling believers to comfort, teach, convict, empower, and seal us until eternity.",
+    "historicalContext": "Jesus promised in John 14–16 not to leave disciples orphans: the Parakletos (Advocate, Counselor, Helper) arrived permanently at Pentecost.",
+    "theologicalInsight": "Everything Jesus worked externally beside twelve Galileans, the Holy Spirit now works tenderly inside believers everywhere.",
+    "timelineYear": "Pentecost Onward",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "John 14:16-26",
+      "Acts 1:8",
+      "Romans 8:9-16",
+      "Galatians 5:22-25"
+    ],
+    "iconSlug": "covenant-fire"
+  },
+  'term-widows-care': {
+    "id": "term-widows-care",
+    "type": "term",
+    "title": "Widows & True Religion (Chēra · Vulnerable Care)",
+    "originalLanguageTerm": "Greek: χήρα (Chera) · Bereaved Without Legal Protection",
+    "transliteration": "Chera",
+    "strongsNumber": "G5503",
+    "shortDefinition": "In an era without pensions or social safety nets, bereaved women faced severe poverty—making widow-care a frontline test of real Christianity.",
+    "historicalContext": "Jesus praised a poor widow dropping two tiny copper lepta; Acts 6 reorganized church leadership over widow care; 1 Timothy 5 outlines early benevolence rosters.",
+    "theologicalInsight": "James 1:27 sums it up clearly: “Pure and undefiled religion before God… is to visit orphans and widows in their distress.”",
+    "timelineYear": "NT Church",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Mark 12:42-44",
+      "Luke 18:3",
+      "Acts 6:1",
+      "1 Timothy 5:3-10",
+      "James 1:27"
+    ],
+    "iconSlug": "peace-dove"
+  },
+  'term-paralytic': {
+    "id": "term-paralytic",
+    "type": "term",
+    "title": "Paralytic / Palsy (Moved Through the Roof for Jesus)",
+    "originalLanguageTerm": "Greek: παραλυτικός (Paralytikos) · Weakened / Immobility",
+    "transliteration": "Paralytikos",
+    "strongsNumber": "G3885",
+    "shortDefinition": "Someone completely unable to move on their own—most famously carried by four creative friends who dug through a Capernaum mud roof to lower him before Jesus.",
+    "historicalContext": "Roof beams in Galilean stone houses supported packed branches and clay tiles easily uncovered and repaired—showing stubborn, resourceful friendship.",
+    "theologicalInsight": "Jesus answered the friends’ faith first by forgiving sin, then proving His invisible power by making the man walk home carrying his mat!",
+    "timelineYear": "NT Gospels",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 9:2-6",
+      "Mark 2:3-12",
+      "Luke 5:18-26"
+    ],
+    "iconSlug": "peace-dove"
+  },
+  'term-christ-messiah': {
+    "id": "term-christ-messiah",
+    "type": "term",
+    "title": "Christ / Messiah (The Anointed Rescuer-King)",
+    "originalLanguageTerm": "Hebrew/Greek: מָשִׁיחַ / Χριστός (Christos) · Not Jesus’ Last Name!",
+    "transliteration": "Christos",
+    "strongsNumber": "G5547",
+    "shortDefinition": "Never Jesus’ surname—rather His royal title translating Hebrew “Messiah” (“Anointed One”), honoring Him as long-promised King, Priest, and Deliverer.",
+    "historicalContext": "Israel poured olive oil over prophets, priests, and Davidic kings to set them apart. Jesus fulfills all three anointed offices permanently by the Spirit.",
+    "theologicalInsight": "To say “Jesus is the Christ” means the rightful rescuing King of heaven and earth has arrived.",
+    "timelineYear": "All Scripture",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 16:16",
+      "Luke 4:18",
+      "John 1:41",
+      "Acts 2:36"
+    ],
+    "iconSlug": "divine-light"
+  },
+  'term-glory-doxa': {
+    "id": "term-glory-doxa",
+    "type": "term",
+    "title": "Glory (Doxa · Radiant Weight & Worth of God)",
+    "originalLanguageTerm": "Greek: δόξα (Doxa) · Shining Splendor & True Weight",
+    "transliteration": "Doxa",
+    "strongsNumber": "G1391",
+    "shortDefinition": "Translates Hebrew kavod (“heavy weight / majesty”)—pointing to God’s dazzling goodness shining visibly through creation, Jesus’ face, and renewed believers.",
+    "historicalContext": "Remarkably, John’s Gospel locates Jesus’ supreme hour of “glory” right on the cross—where selfless, self-giving love blazed brightest.",
+    "theologicalInsight": "We don’t add power to God when we “glorify” Him; like mirrors, we simply reflect His goodness clearly to others.",
+    "timelineYear": "All Scripture",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Luke 2:14",
+      "John 1:14",
+      "Romans 3:23",
+      "2 Corinthians 3:18"
+    ],
+    "iconSlug": "divine-light"
+  },
+  'term-eternal-life': {
+    "id": "term-eternal-life",
+    "type": "term",
+    "title": "Eternal Life (Zōē Aiōnios · Life of God’s Age Starting Now)",
+    "originalLanguageTerm": "Greek: ζωὴ αἰώνιος · Qualitative & Unending Life",
+    "transliteration": "Zoe Aionios",
+    "strongsNumber": "G2222",
+    "shortDefinition": "Never just endless calendar time—it means sharing the vibrant, unbreakable life of God’s coming age already starting the moment we know Jesus.",
+    "historicalContext": "John 17:3 defines it plainly: “This is eternal life, that they should know you, the only true God, and him whom you sent, Jesus Christ.”",
+    "theologicalInsight": "Eternal life isn’t stuck waiting after funerals; it breathes hope into ordinary Tuesdays right now.",
+    "timelineYear": "NT Gospels & Epistles",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "John 3:16",
+      "John 10:10",
+      "John 17:3",
+      "1 John 5:11-13"
+    ],
+    "iconSlug": "divine-light"
+  },
+  'term-flesh-sarx': {
+    "id": "term-flesh-sarx",
+    "type": "term",
+    "title": "Flesh (Sarx · Weak Human Nature vs. Spirit)",
+    "originalLanguageTerm": "Greek: σάρξ (Sarx) · Fragile Mortal Humanity / Self-Reliance",
+    "transliteration": "Sarx",
+    "strongsNumber": "G4561",
+    "shortDefinition": "Depending on context, means either real physical humanity (“The Word became flesh”) OR Paul’s term for human pride trying to live independently from God.",
+    "historicalContext": "Biblically, human bodies are good creations—which is why Jesus entered real sarx! Problems start only when self-centered impulses try running the house without the Spirit.",
+    "theologicalInsight": "Victory over “works of the flesh” comes by walking daily with the Spirit, never by hateful self-punishment.",
+    "timelineYear": "NT Theology",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "John 1:14",
+      "Romans 8:3-9",
+      "Galatians 5:16-24"
+    ],
+    "iconSlug": "courage-light"
+  },
+  'term-boasting-kauchēma': {
+    "id": "term-boasting-kauchēma",
+    "type": "term",
+    "title": "Boasting / Confidence (Kauchaomai · What You Lean On)",
+    "originalLanguageTerm": "Greek: καυχάομαι (Kauchaomai) · Exulting / Placing Proud Trust In",
+    "transliteration": "Kauchaomai",
+    "strongsNumber": "G2744",
+    "shortDefinition": "Putting all your pride and security in something—whether your own moral resume (excluded by grace!) or boasting solely in Christ’s cross.",
+    "historicalContext": "Paul echoed Jeremiah 9:23–24 twice across Corinth: if anyone boasts, let them boast only in knowing the Lord who saves helpless people freely.",
+    "theologicalInsight": "Grace leaves zero room for looking down on others—we all stand level at the foot of the cross.",
+    "timelineYear": "NT Epistles",
+    "timelineEra": "The Early Church & Paul",
+    "relatedVerseRefs": [
+      "Romans 3:27",
+      "1 Corinthians 1:29-31",
+      "Galatians 6:14",
+      "Ephesians 2:9"
+    ],
+    "iconSlug": "wisdom-scroll"
+  },
+  'term-new-wine-wineskins': {
+    "id": "term-new-wine-wineskins",
+    "type": "term",
+    "title": "Bride, Vineyard & Harvest Parable Symbols",
+    "originalLanguageTerm": "Greek: νυμφίος / ἀμπελών / θερισμός · Kingdom Life Pictures",
+    "shortDefinition": "Everyday Galilean village sights—weddings, pruned vineyards, autumn grain harvests—woven by Jesus to reveal how alive and generous God’s reign truly is.",
+    "historicalContext": "In Israel’s prophets, Yahweh was Israel’s Husband and Israel was His vineyard. Jesus stepped quietly into those beloved images as the Bridegroom and True Vine.",
+    "theologicalInsight": "Scripture ends not with abstract lectures, rather with a joyful wedding supper uniting heaven and earth.",
+    "timelineYear": "NT Gospels & Revelation",
+    "timelineEra": "Gospels & Ministry of Jesus",
+    "relatedVerseRefs": [
+      "Matthew 9:37",
+      "Matthew 21:33",
+      "John 3:29",
+      "Revelation 19:7",
+      "Revelation 21:2"
+    ],
+    "iconSlug": "peace-dove"
   },
 };

@@ -67,20 +67,24 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-1",
         "linkedEntities": [
           {
-            "spanText": "Zacharias",
-            "entityId": "char-zacharias-luke"
-          },
-          {
-            "spanText": "Elizabeth",
-            "entityId": "char-elizabeth"
+            "spanText": "Herod",
+            "entityId": "char-herod-great"
           },
           {
             "spanText": "Judea",
             "entityId": "place-judea"
           },
           {
-            "spanText": "Herod",
-            "entityId": "char-herod-great"
+            "spanText": "priest",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Zacharias",
+            "entityId": "char-zacharias-luke"
+          },
+          {
+            "spanText": "Elizabeth",
+            "entityId": "char-elizabeth"
           }
         ]
       },
@@ -93,7 +97,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "They were both righteous before God, walking blamelessly in all the commandments and ordinances of the Lord.",
         "translation": "WEB",
         "illustrationId": "ill-luk-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "commandments",
+            "entityId": "term-commandments"
+          }
+        ]
       },
       {
         "id": "LUK-1:7",
@@ -120,7 +133,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now while he executed the priest’s office before God in the order of his division",
         "translation": "WEB",
         "illustrationId": "ill-luk-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LUK-1:9",
@@ -135,6 +153,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
           }
         ]
       },
@@ -147,7 +169,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "The whole multitude of the people were praying outside at the hour of incense.",
         "translation": "WEB",
         "illustrationId": "ill-luk-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "LUK-1:11",
@@ -158,7 +185,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "An angel of the Lord appeared to him, standing on the right side of the altar of incense.",
         "translation": "WEB",
         "illustrationId": "ill-luk-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "LUK-1:12",
@@ -187,6 +223,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-1",
         "linkedEntities": [
           {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          },
+          {
             "spanText": "Zacharias",
             "entityId": "char-zacharias-luke"
           },
@@ -209,7 +249,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "You will have joy and gladness, and many will rejoice at his birth.",
         "translation": "WEB",
         "illustrationId": "ill-luk-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "joy",
+            "entityId": "term-joy-chara"
+          }
+        ]
       },
       {
         "id": "LUK-1:15",
@@ -382,12 +427,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-1",
         "linkedEntities": [
           {
-            "spanText": "Nazareth",
-            "entityId": "place-nazareth"
-          },
-          {
             "spanText": "Galilee",
             "entityId": "place-galilee"
+          },
+          {
+            "spanText": "Nazareth",
+            "entityId": "place-nazareth"
           }
         ]
       },
@@ -402,12 +447,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-1",
         "linkedEntities": [
           {
-            "spanText": "David",
-            "entityId": "char-david"
-          },
-          {
             "spanText": "Joseph",
             "entityId": "char-joseph-nazareth"
+          },
+          {
+            "spanText": "David",
+            "entityId": "char-david"
           },
           {
             "spanText": "Mary",
@@ -627,12 +672,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-elizabeth"
           },
           {
-            "spanText": "Spirit",
-            "entityId": "term-ruach"
-          },
-          {
             "spanText": "Mary",
             "entityId": "char-mary-jesus"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           }
         ]
       },
@@ -667,7 +712,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "For behold, when the voice of your greeting came into my ears, the baby leaped in my womb for joy!",
         "translation": "WEB",
         "illustrationId": "ill-luk-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "joy",
+            "entityId": "term-joy-chara"
+          }
+        ]
       },
       {
         "id": "LUK-1:45",
@@ -716,7 +766,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "for he has looked at the humble state of his servant. For behold, from now on, all generations will call me blessed.",
         "translation": "WEB",
         "illustrationId": "ill-luk-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "humble",
+            "entityId": "term-humble-meekness"
+          }
+        ]
       },
       {
         "id": "LUK-1:49",
@@ -869,6 +924,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-1",
         "linkedEntities": [
           {
+            "spanText": "circumcise",
+            "entityId": "term-circumcision"
+          },
+          {
             "spanText": "Zacharias",
             "entityId": "char-zacharias-luke"
           }
@@ -983,6 +1042,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "prophesied",
+            "entityId": "term-prophecy-nt"
           }
         ]
       },
@@ -995,7 +1058,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Blessed be the Lord, the God of Israel, for he has visited and redeemed his people;",
         "translation": "WEB",
         "illustrationId": "ill-luk-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "redeemed",
+            "entityId": "term-redemption"
+          }
+        ]
       },
       {
         "id": "LUK-1:69",
@@ -1007,6 +1075,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-1",
         "linkedEntities": [
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          },
           {
             "spanText": "David",
             "entityId": "char-david"
@@ -1022,7 +1094,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "(as he spoke by the mouth of his holy prophets who have been from of old),",
         "translation": "WEB",
         "illustrationId": "ill-luk-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "LUK-1:71",
@@ -1033,7 +1110,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "salvation from our enemies and from the hand of all who hate us;",
         "translation": "WEB",
         "illustrationId": "ill-luk-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          }
+        ]
       },
       {
         "id": "LUK-1:72",
@@ -1046,12 +1128,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-1",
         "linkedEntities": [
           {
-            "spanText": "covenant",
-            "entityId": "term-covenant"
-          },
-          {
             "spanText": "mercy",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           }
         ]
       },
@@ -1065,6 +1147,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-1",
         "linkedEntities": [
+          {
+            "spanText": "oath",
+            "entityId": "term-oath"
+          },
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
@@ -1091,7 +1177,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "in holiness and righteousness before him all the days of our life.",
         "translation": "WEB",
         "illustrationId": "ill-luk-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "holiness",
+            "entityId": "term-sanctification"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "LUK-1:76",
@@ -1140,7 +1235,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "to shine on those who sit in darkness and the shadow of death; to guide our feet into the way of peace.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "peace",
+            "entityId": "term-peace-eirene"
+          }
+        ]
       },
       {
         "id": "LUK-1:80",
@@ -1210,28 +1310,28 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-2",
         "linkedEntities": [
           {
-            "spanText": "Bethlehem",
-            "entityId": "place-bethlehem"
-          },
-          {
-            "spanText": "Nazareth",
-            "entityId": "place-nazareth"
+            "spanText": "Joseph",
+            "entityId": "char-joseph-nazareth"
           },
           {
             "spanText": "Galilee",
             "entityId": "place-galilee"
           },
           {
-            "spanText": "David",
-            "entityId": "char-david"
+            "spanText": "Nazareth",
+            "entityId": "place-nazareth"
           },
           {
             "spanText": "Judea",
             "entityId": "place-judea"
           },
           {
-            "spanText": "Joseph",
-            "entityId": "char-joseph-nazareth"
+            "spanText": "David",
+            "entityId": "char-david"
+          },
+          {
+            "spanText": "Bethlehem",
+            "entityId": "place-bethlehem"
           }
         ]
       },
@@ -1282,7 +1382,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "There were shepherds in the same country staying in the field, and keeping watch by night over their flock.",
         "translation": "WEB",
         "illustrationId": "ill-luk-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "shepherds",
+            "entityId": "term-good-shepherd"
+          }
+        ]
       },
       {
         "id": "LUK-2:9",
@@ -1293,7 +1398,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, an angel of the Lord stood by them, and the glory of the Lord shone around them, and they were terrified.",
         "translation": "WEB",
         "illustrationId": "ill-luk-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "LUK-2:10",
@@ -1306,8 +1420,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-2",
         "linkedEntities": [
           {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          },
+          {
             "spanText": "good news",
             "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "joy",
+            "entityId": "term-joy-chara"
           }
         ]
       },
@@ -1324,6 +1446,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -1358,7 +1484,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Glory to God in the highest, on earth peace, good will toward men.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "peace",
+            "entityId": "term-peace-eirene"
+          }
+        ]
       },
       {
         "id": "LUK-2:15",
@@ -1370,6 +1505,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-2",
         "linkedEntities": [
+          {
+            "spanText": "shepherds",
+            "entityId": "term-good-shepherd"
+          },
           {
             "spanText": "Bethlehem",
             "entityId": "place-bethlehem"
@@ -1387,12 +1526,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-2",
         "linkedEntities": [
           {
-            "spanText": "Joseph",
-            "entityId": "char-joseph-nazareth"
-          },
-          {
             "spanText": "Mary",
             "entityId": "char-mary-jesus"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph-nazareth"
           }
         ]
       },
@@ -1456,6 +1595,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-2",
         "linkedEntities": [
           {
+            "spanText": "circumcision",
+            "entityId": "term-circumcision"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           }
@@ -1472,12 +1615,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-2",
         "linkedEntities": [
           {
-            "spanText": "Jerusalem",
-            "entityId": "place-jerusalem"
-          },
-          {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
           }
         ]
       },
@@ -1501,7 +1644,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "and to offer a sacrifice according to that which is said in the law of the Lord, “A pair of turtledoves, or two young pigeons.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
+          }
+        ]
       },
       {
         "id": "LUK-2:25",
@@ -1518,12 +1666,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "place-jerusalem"
           },
           {
-            "spanText": "Spirit",
-            "entityId": "term-ruach"
-          },
-          {
             "spanText": "Simeon",
             "entityId": "char-simeon-temple"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           }
         ]
       },
@@ -1540,6 +1692,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -1554,12 +1710,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-2",
         "linkedEntities": [
           {
-            "spanText": "temple",
-            "entityId": "term-solomon-temple"
-          },
-          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
           },
           {
             "spanText": "Jesus",
@@ -1587,7 +1743,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Now you are releasing your servant, Master, according to your word, in peace;",
         "translation": "WEB",
         "illustrationId": "ill-luk-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "peace",
+            "entityId": "term-peace-eirene"
+          }
+        ]
       },
       {
         "id": "LUK-2:30",
@@ -1598,7 +1759,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "for my eyes have seen your salvation,",
         "translation": "WEB",
         "illustrationId": "ill-luk-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          }
+        ]
       },
       {
         "id": "LUK-2:31",
@@ -1696,6 +1862,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-2",
         "linkedEntities": [
           {
+            "spanText": "widow",
+            "entityId": "term-widows-care"
+          },
+          {
             "spanText": "temple",
             "entityId": "term-solomon-temple"
           }
@@ -1711,6 +1881,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-2",
         "linkedEntities": [
+          {
+            "spanText": "redemption",
+            "entityId": "term-redemption"
+          },
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
@@ -1728,12 +1902,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-2",
         "linkedEntities": [
           {
-            "spanText": "Nazareth",
-            "entityId": "place-nazareth"
-          },
-          {
             "spanText": "Galilee",
             "entityId": "place-galilee"
+          },
+          {
+            "spanText": "Nazareth",
+            "entityId": "place-nazareth"
           }
         ]
       },
@@ -1746,7 +1920,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "The child was growing, and was becoming strong in spirit, being filled with wisdom, and the grace of God was upon him.",
         "translation": "WEB",
         "illustrationId": "ill-luk-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "grace",
+            "entityId": "term-grace"
+          }
+        ]
       },
       {
         "id": "LUK-2:41",
@@ -1795,12 +1974,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-2",
         "linkedEntities": [
           {
-            "spanText": "Jerusalem",
-            "entityId": "place-jerusalem"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
           },
           {
             "spanText": "Joseph",
@@ -1951,10 +2130,6 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-3",
         "linkedEntities": [
           {
-            "spanText": "Galilee",
-            "entityId": "place-galilee"
-          },
-          {
             "spanText": "Pilate",
             "entityId": "char-pilate"
           },
@@ -1965,6 +2140,22 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Herod",
             "entityId": "char-herod-antipas"
+          },
+          {
+            "spanText": "tetrarch",
+            "entityId": "term-tetrarch"
+          },
+          {
+            "spanText": "tetrarch",
+            "entityId": "term-tetrarch"
+          },
+          {
+            "spanText": "Galilee",
+            "entityId": "place-galilee"
+          },
+          {
+            "spanText": "Philip",
+            "entityId": "char-philip-apostle"
           }
         ]
       },
@@ -1979,10 +2170,6 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-3",
         "linkedEntities": [
           {
-            "spanText": "Zacharias",
-            "entityId": "char-zacharias-luke"
-          },
-          {
             "spanText": "Annas",
             "entityId": "char-annas"
           },
@@ -1993,6 +2180,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "John",
             "entityId": "char-john-baptist"
+          },
+          {
+            "spanText": "Zacharias",
+            "entityId": "char-zacharias-luke"
           }
         ]
       },
@@ -2007,12 +2198,20 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-3",
         "linkedEntities": [
           {
+            "spanText": "Jordan",
+            "entityId": "place-jordan"
+          },
+          {
+            "spanText": "preaching",
+            "entityId": "term-preach-proclaim"
+          },
+          {
             "spanText": "baptism",
             "entityId": "term-baptism"
           },
           {
-            "spanText": "Jordan",
-            "entityId": "place-jordan"
+            "spanText": "repentance",
+            "entityId": "term-repentance"
           }
         ]
       },
@@ -2029,6 +2228,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Isaiah",
             "entityId": "char-isaiah"
+          },
+          {
+            "spanText": "prophet",
+            "entityId": "term-prophecy-nt"
           }
         ]
       },
@@ -2052,7 +2255,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "All flesh will see God’s salvation.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-luk-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          }
+        ]
       },
       {
         "id": "LUK-3:7",
@@ -2067,6 +2275,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "baptized",
             "entityId": "term-baptism"
+          },
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
           }
         ]
       },
@@ -2080,6 +2292,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-3",
         "linkedEntities": [
+          {
+            "spanText": "repentance",
+            "entityId": "term-repentance"
+          },
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
@@ -2130,6 +2346,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-3",
         "linkedEntities": [
           {
+            "spanText": "Tax collectors",
+            "entityId": "term-tax-collector"
+          },
+          {
             "spanText": "baptized",
             "entityId": "term-baptism"
           }
@@ -2170,6 +2390,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "John",
             "entityId": "char-john-baptist"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -2184,16 +2408,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-3",
         "linkedEntities": [
           {
+            "spanText": "John",
+            "entityId": "char-john-baptist"
+          },
+          {
             "spanText": "baptize",
             "entityId": "term-baptism"
           },
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
-          },
-          {
-            "spanText": "John",
-            "entityId": "char-john-baptist"
           }
         ]
       },
@@ -2219,6 +2443,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-3",
         "linkedEntities": [
           {
+            "spanText": "preached",
+            "entityId": "term-preach-proclaim"
+          },
+          {
             "spanText": "good news",
             "entityId": "term-gospel-euangelion"
           }
@@ -2235,12 +2463,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-3",
         "linkedEntities": [
           {
-            "spanText": "Herodias",
-            "entityId": "char-herodias"
-          },
-          {
             "spanText": "Herod",
             "entityId": "char-herod-antipas"
+          },
+          {
+            "spanText": "tetrarch",
+            "entityId": "term-tetrarch"
+          },
+          {
+            "spanText": "Herodias",
+            "entityId": "char-herodias"
           }
         ]
       },
@@ -2391,7 +2623,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "the son of Simeon, the son of Judah, the son of Joseph, the son of Jonan, the son of Eliakim,",
         "translation": "WEB",
         "illustrationId": "ill-luk-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon-temple"
+          }
+        ]
       },
       {
         "id": "LUK-3:31",
@@ -2442,16 +2679,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-3",
         "linkedEntities": [
           {
-            "spanText": "Abraham",
-            "entityId": "char-abraham"
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           },
           {
             "spanText": "Isaac",
             "entityId": "char-isaac"
           },
           {
-            "spanText": "Jacob",
-            "entityId": "char-jacob"
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
           }
         ]
       },
@@ -2523,16 +2760,20 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-4",
         "linkedEntities": [
           {
-            "spanText": "Jordan",
-            "entityId": "place-jordan"
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           },
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
           },
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
+            "spanText": "Spirit",
+            "entityId": "term-holy-spirit-nt"
+          },
+          {
+            "spanText": "Jordan",
+            "entityId": "place-jordan"
           }
         ]
       },
@@ -2545,7 +2786,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "for forty days, being tempted by the devil. He ate nothing in those days. Afterward, when they were completed, he was hungry.",
         "translation": "WEB",
         "illustrationId": "ill-luk-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "devil",
+            "entityId": "term-satan-adversary"
+          }
+        ]
       },
       {
         "id": "LUK-4:3",
@@ -2556,7 +2802,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "The devil said to him, “If you are the Son of God, command this stone to become bread.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "devil",
+            "entityId": "term-satan-adversary"
+          }
+        ]
       },
       {
         "id": "LUK-4:4",
@@ -2594,7 +2845,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "The devil said to him, “I will give you all this authority, and their glory, for it has been delivered to me; and I give it to whomever I want.",
         "translation": "WEB",
         "illustrationId": "ill-luk-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "LUK-4:7",
@@ -2652,7 +2908,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "for it is written, ‘He will put his angels in charge of you, to guard you;’",
         "translation": "WEB",
         "illustrationId": "ill-luk-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "LUK-4:11",
@@ -2703,16 +2964,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-4",
         "linkedEntities": [
           {
-            "spanText": "Galilee",
-            "entityId": "place-galilee"
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           },
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
           },
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
+            "spanText": "Galilee",
+            "entityId": "place-galilee"
           }
         ]
       },
@@ -2729,6 +2990,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "synagogues",
             "entityId": "term-synagogue"
+          },
+          {
+            "spanText": "glorified",
+            "entityId": "term-glory-doxa"
           }
         ]
       },
@@ -2743,12 +3008,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-4",
         "linkedEntities": [
           {
-            "spanText": "synagogue",
-            "entityId": "term-synagogue"
-          },
-          {
             "spanText": "Nazareth",
             "entityId": "place-nazareth"
+          },
+          {
+            "spanText": "synagogue",
+            "entityId": "term-synagogue"
           },
           {
             "spanText": "Sabbath",
@@ -2767,6 +3032,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-4",
         "linkedEntities": [
           {
+            "spanText": "prophet",
+            "entityId": "term-prophecy-nt"
+          },
+          {
             "spanText": "Isaiah",
             "entityId": "char-isaiah"
           }
@@ -2783,12 +3052,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-4",
         "linkedEntities": [
           {
-            "spanText": "good news",
-            "entityId": "term-gospel-euangelion"
-          },
-          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "preach",
+            "entityId": "term-preach-proclaim"
+          },
+          {
+            "spanText": "good news",
+            "entityId": "term-gospel-euangelion"
           }
         ]
       },
@@ -2857,12 +3130,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-4",
         "linkedEntities": [
           {
-            "spanText": "Capernaum",
-            "entityId": "place-capernaum"
-          },
-          {
             "spanText": "parable",
             "entityId": "term-parable"
+          },
+          {
+            "spanText": "Capernaum",
+            "entityId": "place-capernaum"
           }
         ]
       },
@@ -2875,7 +3148,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said, “Most certainly I tell you, no prophet is acceptable in his hometown.",
         "translation": "WEB",
         "illustrationId": "ill-luk-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophet",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "LUK-4:25",
@@ -2887,6 +3165,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-4",
         "linkedEntities": [
+          {
+            "spanText": "widows",
+            "entityId": "term-widows-care"
+          },
           {
             "spanText": "Elijah",
             "entityId": "char-elijah"
@@ -2910,6 +3192,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sidon",
             "entityId": "place-sidon"
+          },
+          {
+            "spanText": "widow",
+            "entityId": "term-widows-care"
           }
         ]
       },
@@ -2922,7 +3208,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "There were many lepers in Israel in the time of Elisha the prophet, yet not one of them was cleansed, except Naaman, the Syrian.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "lepers",
+            "entityId": "term-leprosy-unclean"
+          }
+        ]
       },
       {
         "id": "LUK-4:28",
@@ -2934,6 +3225,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-4",
         "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          },
           {
             "spanText": "synagogue",
             "entityId": "term-synagogue"
@@ -3010,6 +3305,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "synagogue",
             "entityId": "term-synagogue"
+          },
+          {
+            "spanText": "demon",
+            "entityId": "term-demons-evil-spirits"
           }
         ]
       },
@@ -3024,12 +3323,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-4",
         "linkedEntities": [
           {
-            "spanText": "Nazareth",
-            "entityId": "place-nazareth"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Nazareth",
+            "entityId": "place-nazareth"
           }
         ]
       },
@@ -3046,6 +3345,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "demon",
+            "entityId": "term-demons-evil-spirits"
           }
         ]
       },
@@ -3058,7 +3361,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Amazement came on all, and they spoke together, one with another, saying, “What is this word? For with authority and power he commands the unclean spirits, and they come out!”",
         "translation": "WEB",
         "illustrationId": "ill-luk-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean spirits",
+            "entityId": "term-demons-evil-spirits"
+          }
+        ]
       },
       {
         "id": "LUK-4:37",
@@ -3122,7 +3430,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Demons also came out of many, crying out, and saying, “You are the Christ, the Son of God!” Rebuking them, he didn’t allow them to speak, because they knew that he was the Christ.",
         "translation": "WEB",
         "illustrationId": "ill-luk-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "LUK-4:42",
@@ -3146,12 +3463,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-4",
         "linkedEntities": [
           {
-            "spanText": "God’s Kingdom",
-            "entityId": "term-kingdom-of-heaven"
+            "spanText": "preach",
+            "entityId": "term-preach-proclaim"
           },
           {
             "spanText": "good news",
             "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "God’s Kingdom",
+            "entityId": "term-kingdom-of-heaven"
           }
         ]
       },
@@ -3322,20 +3643,20 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-5",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
+            "spanText": "James",
+            "entityId": "char-james-zebedee"
           },
           {
             "spanText": "John",
             "entityId": "char-john-apostle"
           },
           {
-            "spanText": "James",
-            "entityId": "char-james-zebedee"
-          },
-          {
             "spanText": "Simon",
             "entityId": "char-peter"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -3361,6 +3682,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-5",
         "linkedEntities": [
           {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy-unclean"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           }
@@ -3375,7 +3700,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He stretched out his hand, and touched him, saying, “I want to. Be made clean.” Immediately the leprosy left him.",
         "translation": "WEB",
         "illustrationId": "ill-luk-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "leprosy",
+            "entityId": "term-leprosy-unclean"
+          }
+        ]
       },
       {
         "id": "LUK-5:14",
@@ -3388,8 +3718,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-5",
         "linkedEntities": [
           {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          },
+          {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
           }
         ]
       },
@@ -3426,10 +3764,6 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-5",
         "linkedEntities": [
           {
-            "spanText": "Jerusalem",
-            "entityId": "place-jerusalem"
-          },
-          {
             "spanText": "Pharisees",
             "entityId": "term-pharisees"
           },
@@ -3440,6 +3774,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Judea",
             "entityId": "place-judea"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
           }
         ]
       },
@@ -3484,7 +3822,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Seeing their faith, he said to him, “Man, your sins are forgiven you.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "forgiven",
+            "entityId": "term-forgiveness"
+          }
+        ]
       },
       {
         "id": "LUK-5:21",
@@ -3497,8 +3844,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-5",
         "linkedEntities": [
           {
+            "spanText": "scribes",
+            "entityId": "term-scribes"
+          },
+          {
             "spanText": "Pharisees",
             "entityId": "term-pharisees"
+          },
+          {
+            "spanText": "forgive",
+            "entityId": "term-forgiveness"
           }
         ]
       },
@@ -3538,7 +3893,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "But that you may know that the Son of Man has authority on earth to forgive sins” (he said to the paralyzed man), “I tell you, arise, take up your cot, and go to your house.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Son of Man",
+            "entityId": "term-son-of-man"
+          }
+        ]
       },
       {
         "id": "LUK-5:25",
@@ -3560,7 +3920,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Amazement took hold on all, and they glorified God. They were filled with fear, saying, “We have seen strange things today.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glorified",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "LUK-5:27",
@@ -3572,6 +3937,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-5",
         "linkedEntities": [
+          {
+            "spanText": "tax collector",
+            "entityId": "term-tax-collector"
+          },
           {
             "spanText": "Levi",
             "entityId": "char-matthew"
@@ -3602,6 +3971,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Levi",
             "entityId": "char-matthew"
+          },
+          {
+            "spanText": "tax collectors",
+            "entityId": "term-tax-collector"
           }
         ]
       },
@@ -3616,8 +3989,20 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-5",
         "linkedEntities": [
           {
+            "spanText": "scribes",
+            "entityId": "term-scribes"
+          },
+          {
             "spanText": "Pharisees",
             "entityId": "term-pharisees"
+          },
+          {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
+          },
+          {
+            "spanText": "tax collectors",
+            "entityId": "term-tax-collector"
           }
         ]
       },
@@ -3646,7 +4031,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "I have not come to call the righteous, but sinners to repentance.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "repentance",
+            "entityId": "term-repentance"
+          }
+        ]
       },
       {
         "id": "LUK-5:33",
@@ -3659,12 +4053,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-5",
         "linkedEntities": [
           {
-            "spanText": "Pharisees",
-            "entityId": "term-pharisees"
-          },
-          {
             "spanText": "John",
             "entityId": "char-john-baptist"
+          },
+          {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
+          },
+          {
+            "spanText": "Pharisees",
+            "entityId": "term-pharisees"
           }
         ]
       },
@@ -3765,6 +4163,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sabbath",
             "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
           }
         ]
       },
@@ -3817,7 +4219,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "how he entered into God’s house, and took and ate the show bread, and gave also to those who were with him, which is not lawful to eat except for the priests alone?”",
         "translation": "WEB",
         "illustrationId": "ill-luk-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LUK-6:5",
@@ -3829,6 +4236,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-6",
         "linkedEntities": [
+          {
+            "spanText": "Son of Man",
+            "entityId": "term-son-of-man"
+          },
           {
             "spanText": "Sabbath",
             "entityId": "term-sabbath"
@@ -3846,12 +4257,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-6",
         "linkedEntities": [
           {
-            "spanText": "synagogue",
-            "entityId": "term-synagogue"
-          },
-          {
             "spanText": "Sabbath",
             "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "synagogue",
+            "entityId": "term-synagogue"
           }
         ]
       },
@@ -3865,6 +4276,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-6",
         "linkedEntities": [
+          {
+            "spanText": "scribes",
+            "entityId": "term-scribes"
+          },
           {
             "spanText": "Pharisees",
             "entityId": "term-pharisees"
@@ -3897,12 +4312,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-6",
         "linkedEntities": [
           {
-            "spanText": "Sabbath",
-            "entityId": "term-sabbath"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
           }
         ]
       },
@@ -3958,7 +4373,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "When it was day, he called his disciples, and from them he chose twelve, whom he also named apostles:",
         "translation": "WEB",
         "illustrationId": "ill-luk-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
+          },
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          }
+        ]
       },
       {
         "id": "LUK-6:14",
@@ -3971,28 +4395,28 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-6",
         "linkedEntities": [
           {
-            "spanText": "Andrew",
-            "entityId": "char-andrew"
+            "spanText": "Simon",
+            "entityId": "char-peter"
           },
           {
             "spanText": "Peter",
             "entityId": "char-peter"
           },
           {
-            "spanText": "Philip",
-            "entityId": "char-philip-apostle"
-          },
-          {
-            "spanText": "John",
-            "entityId": "char-john-apostle"
+            "spanText": "Andrew",
+            "entityId": "char-andrew"
           },
           {
             "spanText": "James",
             "entityId": "char-james-zebedee"
           },
           {
-            "spanText": "Simon",
-            "entityId": "char-peter"
+            "spanText": "John",
+            "entityId": "char-john-apostle"
+          },
+          {
+            "spanText": "Philip",
+            "entityId": "char-philip-apostle"
           }
         ]
       },
@@ -4013,6 +4437,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Thomas",
             "entityId": "char-thomas"
+          },
+          {
+            "spanText": "James",
+            "entityId": "char-james-zebedee"
           }
         ]
       },
@@ -4043,20 +4471,20 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-6",
         "linkedEntities": [
           {
-            "spanText": "Jerusalem",
-            "entityId": "place-jerusalem"
-          },
-          {
             "spanText": "Judea",
             "entityId": "place-judea"
           },
           {
-            "spanText": "Sidon",
-            "entityId": "place-sidon"
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
           },
           {
             "spanText": "Tyre",
             "entityId": "place-tyre"
+          },
+          {
+            "spanText": "Sidon",
+            "entityId": "place-sidon"
           }
         ]
       },
@@ -4069,7 +4497,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "as well as those who were troubled by unclean spirits, and they were being healed.",
         "translation": "WEB",
         "illustrationId": "ill-luk-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean spirits",
+            "entityId": "term-demons-evil-spirits"
+          }
+        ]
       },
       {
         "id": "LUK-6:19",
@@ -4093,6 +4526,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-6",
         "linkedEntities": [
           {
+            "spanText": "Blessed",
+            "entityId": "term-beatitudes-blessed"
+          },
+          {
             "spanText": "God’s Kingdom",
             "entityId": "term-kingdom-of-heaven"
           }
@@ -4107,7 +4544,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Blessed are you who hunger now, for you will be filled. Blessed are you who weep now, for you will laugh.",
         "translation": "WEB",
         "illustrationId": "ill-luk-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Blessed",
+            "entityId": "term-beatitudes-blessed"
+          },
+          {
+            "spanText": "Blessed",
+            "entityId": "term-beatitudes-blessed"
+          }
+        ]
       },
       {
         "id": "LUK-6:22",
@@ -4118,7 +4564,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Blessed are you when men hate you, and when they exclude and mock you, and throw out your name as evil, for the Son of Man’s sake.",
         "translation": "WEB",
         "illustrationId": "ill-luk-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Blessed",
+            "entityId": "term-beatitudes-blessed"
+          },
+          {
+            "spanText": "Son of Man",
+            "entityId": "term-son-of-man"
+          }
+        ]
       },
       {
         "id": "LUK-6:23",
@@ -4129,7 +4584,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Rejoice in that day, and leap for joy, for behold, your reward is great in heaven, for their fathers did the same thing to the prophets.",
         "translation": "WEB",
         "illustrationId": "ill-luk-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "joy",
+            "entityId": "term-joy-chara"
+          },
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "LUK-6:24",
@@ -4162,7 +4626,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Woe, when men speak well of you, for their fathers did the same thing to the false prophets.",
         "translation": "WEB",
         "illustrationId": "ill-luk-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "LUK-6:27",
@@ -4250,7 +4719,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "If you lend to those from whom you hope to receive, what credit is that to you? Even sinners lend to sinners, to receive back as much.",
         "translation": "WEB",
         "illustrationId": "ill-luk-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "hope",
+            "entityId": "term-hope"
+          }
+        ]
       },
       {
         "id": "LUK-6:35",
@@ -4272,7 +4746,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Therefore be merciful, even as your Father is also merciful.",
         "translation": "WEB",
         "illustrationId": "ill-luk-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "merciful",
+            "entityId": "term-mercy-eleos"
+          },
+          {
+            "spanText": "merciful",
+            "entityId": "term-mercy-eleos"
+          }
+        ]
       },
       {
         "id": "LUK-6:37",
@@ -4343,7 +4826,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Or how can you tell your brother, ‘Brother, let me remove the speck of chaff that is in your eye,’ when you yourself don’t see the beam that is in your own eye? You hypocrite! First remove the beam from your own eye, and then you can see clearly to remove the speck of chaff that is in your brother’s eye.",
         "translation": "WEB",
         "illustrationId": "ill-luk-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "hypocrite",
+            "entityId": "term-hypocrite"
+          }
+        ]
       },
       {
         "id": "LUK-6:43",
@@ -4460,7 +4948,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "A certain centurion’s servant, who was dear to him, was sick and at the point of death.",
         "translation": "WEB",
         "illustrationId": "ill-luk-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "centurion",
+            "entityId": "term-centurion"
+          }
+        ]
       },
       {
         "id": "LUK-7:3",
@@ -4523,6 +5016,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "centurion",
+            "entityId": "term-centurion"
           }
         ]
       },
@@ -4561,6 +5058,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -4588,6 +5089,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Nain",
             "entityId": "place-nain"
+          },
+          {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
           }
         ]
       },
@@ -4600,7 +5105,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now when he came near to the gate of the city, behold, one who was dead was carried out, the only son of his mother, and she was a widow. Many people of the city were with her.",
         "translation": "WEB",
         "illustrationId": "ill-luk-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "widow",
+            "entityId": "term-widows-care"
+          }
+        ]
       },
       {
         "id": "LUK-7:13",
@@ -4644,7 +5154,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Fear took hold of all, and they glorified God, saying, “A great prophet has arisen among us!” and, “God has visited his people!”",
         "translation": "WEB",
         "illustrationId": "ill-luk-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glorified",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "prophet",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "LUK-7:17",
@@ -4673,6 +5192,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-7",
         "linkedEntities": [
           {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
+          },
+          {
             "spanText": "John",
             "entityId": "char-john-baptist"
           }
@@ -4689,12 +5212,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-7",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "John",
             "entityId": "char-john-baptist"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -4723,7 +5246,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "In that hour he cured many of diseases and plagues and evil spirits; and to many who were blind he gave sight.",
         "translation": "WEB",
         "illustrationId": "ill-luk-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "plagues",
+            "entityId": "term-plagues"
+          },
+          {
+            "spanText": "evil spirits",
+            "entityId": "term-demons-evil-spirits"
+          }
+        ]
       },
       {
         "id": "LUK-7:22",
@@ -4736,16 +5268,24 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-7",
         "linkedEntities": [
           {
-            "spanText": "good news",
-            "entityId": "term-gospel-euangelion"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           },
           {
             "spanText": "John",
             "entityId": "char-john-baptist"
+          },
+          {
+            "spanText": "lepers",
+            "entityId": "term-leprosy-unclean"
+          },
+          {
+            "spanText": "good news",
+            "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "preached",
+            "entityId": "term-preach-proclaim"
           }
         ]
       },
@@ -4796,7 +5336,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "But what did you go out to see? A prophet? Yes, I tell you, and much more than a prophet.",
         "translation": "WEB",
         "illustrationId": "ill-luk-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophet",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "LUK-7:27",
@@ -4820,12 +5365,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-7",
         "linkedEntities": [
           {
-            "spanText": "God’s Kingdom",
-            "entityId": "term-kingdom-of-heaven"
-          },
-          {
             "spanText": "John",
             "entityId": "char-john-baptist"
+          },
+          {
+            "spanText": "God’s Kingdom",
+            "entityId": "term-kingdom-of-heaven"
           }
         ]
       },
@@ -4840,8 +5385,8 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-7",
         "linkedEntities": [
           {
-            "spanText": "baptism",
-            "entityId": "term-baptism"
+            "spanText": "tax collectors",
+            "entityId": "term-tax-collector"
           },
           {
             "spanText": "baptized",
@@ -4850,6 +5395,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "John",
             "entityId": "char-john-baptist"
+          },
+          {
+            "spanText": "baptism",
+            "entityId": "term-baptism"
           }
         ]
       },
@@ -4908,6 +5457,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "John",
             "entityId": "char-john-baptist"
+          },
+          {
+            "spanText": "demon",
+            "entityId": "term-demons-evil-spirits"
           }
         ]
       },
@@ -4920,7 +5473,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Son of Man has come eating and drinking, and you say, ‘Behold, a gluttonous man, and a drunkard; a friend of tax collectors and sinners!’",
         "translation": "WEB",
         "illustrationId": "ill-luk-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Son of Man",
+            "entityId": "term-son-of-man"
+          },
+          {
+            "spanText": "tax collectors",
+            "entityId": "term-tax-collector"
+          }
+        ]
       },
       {
         "id": "LUK-7:35",
@@ -4931,7 +5493,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Wisdom is justified by all her children.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "justified",
+            "entityId": "term-justification"
+          }
+        ]
       },
       {
         "id": "LUK-7:36",
@@ -4945,6 +5512,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "linkedEntities": [
           {
             "spanText": "Pharisees",
+            "entityId": "term-pharisees"
+          },
+          {
+            "spanText": "Pharisee",
             "entityId": "term-pharisees"
           }
         ]
@@ -5007,7 +5578,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "“A certain lender had two debtors. The one owed five hundred denarii, and the other fifty.",
         "translation": "WEB",
         "illustrationId": "ill-luk-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "denarii",
+            "entityId": "term-denarius"
+          }
+        ]
       },
       {
         "id": "LUK-7:42",
@@ -5073,7 +5649,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore I tell you, her sins, which are many, are forgiven, for she loved much. But one to whom little is forgiven, loves little.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "forgiven",
+            "entityId": "term-forgiveness"
+          }
+        ]
       },
       {
         "id": "LUK-7:48",
@@ -5084,7 +5665,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to her, “Your sins are forgiven.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "forgiven",
+            "entityId": "term-forgiveness"
+          }
+        ]
       },
       {
         "id": "LUK-7:49",
@@ -5106,7 +5692,20 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to the woman, “Your faith has saved you. Go in peace.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
+          },
+          {
+            "spanText": "peace",
+            "entityId": "term-peace-eirene"
+          }
+        ]
       }
     ]
   },
@@ -5132,12 +5731,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-8",
         "linkedEntities": [
           {
-            "spanText": "God’s Kingdom",
-            "entityId": "term-kingdom-of-heaven"
+            "spanText": "preaching",
+            "entityId": "term-preach-proclaim"
           },
           {
             "spanText": "good news",
             "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "God’s Kingdom",
+            "entityId": "term-kingdom-of-heaven"
           }
         ]
       },
@@ -5152,8 +5755,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-8",
         "linkedEntities": [
           {
+            "spanText": "evil spirits",
+            "entityId": "term-demons-evil-spirits"
+          },
+          {
             "spanText": "Mary",
             "entityId": "char-mary-magdalene"
+          },
+          {
+            "spanText": "demons",
+            "entityId": "term-demons-evil-spirits"
           }
         ]
       },
@@ -5170,6 +5781,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Herod",
             "entityId": "char-herod-antipas"
+          },
+          {
+            "spanText": "steward",
+            "entityId": "term-steward"
           }
         ]
       },
@@ -5244,6 +5859,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-8",
         "linkedEntities": [
           {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
+          },
+          {
             "spanText": "parable",
             "entityId": "term-parable"
           }
@@ -5294,7 +5913,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Those along the road are those who hear, then the devil comes, and takes away the word from their heart, that they may not believe and be saved.",
         "translation": "WEB",
         "illustrationId": "ill-luk-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "devil",
+            "entityId": "term-satan-adversary"
+          },
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
+          }
+        ]
       },
       {
         "id": "LUK-8:13",
@@ -5305,7 +5933,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Those on the rock are they who, when they hear, receive the word with joy; but these have no root, who believe for a while, then fall away in time of temptation.",
         "translation": "WEB",
         "illustrationId": "ill-luk-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "joy",
+            "entityId": "term-joy-chara"
+          }
+        ]
       },
       {
         "id": "LUK-8:14",
@@ -5404,7 +6037,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now on one of those days, he entered into a boat, himself and his disciples, and he said to them, “Let’s go over to the other side of the lake.” So they launched out.",
         "translation": "WEB",
         "illustrationId": "ill-luk-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
+          }
+        ]
       },
       {
         "id": "LUK-8:23",
@@ -5437,7 +6075,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to them, “Where is your faith?” Being afraid they marveled, saying to one another, “Who is this then, that he commands even the winds and the water, and they obey him?”",
         "translation": "WEB",
         "illustrationId": "ill-luk-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          }
+        ]
       },
       {
         "id": "LUK-8:26",
@@ -5500,6 +6143,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "unclean spirit",
+            "entityId": "term-demons-evil-spirits"
           }
         ]
       },
@@ -5528,7 +6175,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "They begged him that he would not command them to go into the abyss.",
         "translation": "WEB",
         "illustrationId": "ill-luk-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "abyss",
+            "entityId": "term-abyss"
+          }
+        ]
       },
       {
         "id": "LUK-8:32",
@@ -5762,7 +6414,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to her, “Daughter, cheer up. Your faith has made you well. Go in peace.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "peace",
+            "entityId": "term-peace-eirene"
+          }
+        ]
       },
       {
         "id": "LUK-8:49",
@@ -5897,7 +6558,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He called the twelve together, and gave them power and authority over all demons, and to cure diseases.",
         "translation": "WEB",
         "illustrationId": "ill-luk-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "demons",
+            "entityId": "term-demons-evil-spirits"
+          }
+        ]
       },
       {
         "id": "LUK-9:2",
@@ -5909,6 +6575,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-9",
         "linkedEntities": [
+          {
+            "spanText": "preach",
+            "entityId": "term-preach-proclaim"
+          },
           {
             "spanText": "God’s Kingdom",
             "entityId": "term-kingdom-of-heaven"
@@ -5946,7 +6616,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "As many as don’t receive you, when you depart from that city, shake off even the dust from your feet for a testimony against them.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
+          }
+        ]
       },
       {
         "id": "LUK-9:6",
@@ -5958,6 +6633,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-9",
         "linkedEntities": [
+          {
+            "spanText": "preaching",
+            "entityId": "term-preach-proclaim"
+          },
           {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
@@ -5979,6 +6658,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-herod-antipas"
           },
           {
+            "spanText": "tetrarch",
+            "entityId": "term-tetrarch"
+          },
+          {
             "spanText": "John",
             "entityId": "char-john-baptist"
           }
@@ -5997,6 +6680,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Elijah",
             "entityId": "char-elijah"
+          },
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
           }
         ]
       },
@@ -6030,6 +6717,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-9",
         "linkedEntities": [
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          },
           {
             "spanText": "Bethsaida",
             "entityId": "place-bethsaida"
@@ -6083,7 +6774,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "For they were about five thousand men. He said to his disciples, “Make them sit down in groups of about fifty each.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
+          }
+        ]
       },
       {
         "id": "LUK-9:15",
@@ -6105,7 +6801,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He took the five loaves and the two fish, and looking up to the sky, he blessed them, broke them, and gave them to the disciples to set before the multitude.",
         "translation": "WEB",
         "illustrationId": "ill-luk-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
+          }
+        ]
       },
       {
         "id": "LUK-9:17",
@@ -6140,12 +6841,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-9",
         "linkedEntities": [
           {
+            "spanText": "John",
+            "entityId": "char-john-baptist"
+          },
+          {
             "spanText": "Elijah",
             "entityId": "char-elijah"
           },
           {
-            "spanText": "John",
-            "entityId": "char-john-baptist"
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
           }
         ]
       },
@@ -6162,6 +6867,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Peter",
             "entityId": "char-peter"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -6185,7 +6894,20 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "saying, “The Son of Man must suffer many things, and be rejected by the elders, chief priests, and scribes, and be killed, and the third day be raised up.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Son of Man",
+            "entityId": "term-son-of-man"
+          },
+          {
+            "spanText": "chief priests",
+            "entityId": "term-high-priest-nt"
+          },
+          {
+            "spanText": "scribes",
+            "entityId": "term-scribes"
+          }
+        ]
       },
       {
         "id": "LUK-9:23",
@@ -6196,7 +6918,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to all, “If anyone desires to come after me, let him deny himself, take up his cross, and follow me.",
         "translation": "WEB",
         "illustrationId": "ill-luk-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cross",
+            "entityId": "term-crucifixion"
+          }
+        ]
       },
       {
         "id": "LUK-9:24",
@@ -6229,7 +6956,20 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "For whoever will be ashamed of me and of my words, of him will the Son of Man be ashamed, when he comes in his glory, and the glory of the Father, and of the holy angels.",
         "translation": "WEB",
         "illustrationId": "ill-luk-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Son of Man",
+            "entityId": "term-son-of-man"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "LUK-9:27",
@@ -6293,12 +7033,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-9",
         "linkedEntities": [
           {
-            "spanText": "Elijah",
-            "entityId": "char-elijah"
-          },
-          {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Elijah",
+            "entityId": "char-elijah"
           }
         ]
       },
@@ -6312,6 +7052,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-9",
         "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
@@ -6345,8 +7089,8 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-9",
         "linkedEntities": [
           {
-            "spanText": "Elijah",
-            "entityId": "char-elijah"
+            "spanText": "Peter",
+            "entityId": "char-peter"
           },
           {
             "spanText": "Jesus",
@@ -6357,8 +7101,8 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-moses"
           },
           {
-            "spanText": "Peter",
-            "entityId": "char-peter"
+            "spanText": "Elijah",
+            "entityId": "char-elijah"
           }
         ]
       },
@@ -6473,6 +7217,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "unclean spirit",
+            "entityId": "term-demons-evil-spirits"
           }
         ]
       },
@@ -6609,7 +7357,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "and sent messengers before his face. They went and entered into a village of the Samaritans, so as to prepare for him.",
         "translation": "WEB",
         "illustrationId": "ill-luk-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Samaritans",
+            "entityId": "term-samaritan"
+          }
+        ]
       },
       {
         "id": "LUK-9:53",
@@ -6638,16 +7391,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-9",
         "linkedEntities": [
           {
-            "spanText": "Elijah",
-            "entityId": "char-elijah"
+            "spanText": "James",
+            "entityId": "char-james-zebedee"
           },
           {
             "spanText": "John",
             "entityId": "char-john-apostle"
           },
           {
-            "spanText": "James",
-            "entityId": "char-james-zebedee"
+            "spanText": "Elijah",
+            "entityId": "char-elijah"
           }
         ]
       },
@@ -6722,12 +7475,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-9",
         "linkedEntities": [
           {
-            "spanText": "God’s Kingdom",
-            "entityId": "term-kingdom-of-heaven"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "God’s Kingdom",
+            "entityId": "term-kingdom-of-heaven"
           }
         ]
       },
@@ -6753,12 +7506,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-9",
         "linkedEntities": [
           {
-            "spanText": "God’s Kingdom",
-            "entityId": "term-kingdom-of-heaven"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "God’s Kingdom",
+            "entityId": "term-kingdom-of-heaven"
           }
         ]
       }
@@ -6828,7 +7581,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Into whatever house you enter, first say, ‘Peace be to this house.’",
         "translation": "WEB",
         "illustrationId": "ill-luk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Peace",
+            "entityId": "term-peace-eirene"
+          }
+        ]
       },
       {
         "id": "LUK-10:6",
@@ -6839,7 +7597,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "If a son of peace is there, your peace will rest on him; but if not, it will return to you.",
         "translation": "WEB",
         "illustrationId": "ill-luk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "peace",
+            "entityId": "term-peace-eirene"
+          }
+        ]
       },
       {
         "id": "LUK-10:7",
@@ -6937,12 +7700,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "place-bethsaida"
           },
           {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
+          },
+          {
             "spanText": "Sidon",
             "entityId": "place-sidon"
           },
           {
-            "spanText": "Tyre",
-            "entityId": "place-tyre"
+            "spanText": "repented",
+            "entityId": "term-repentance"
           }
         ]
       },
@@ -6957,12 +7724,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-10",
         "linkedEntities": [
           {
-            "spanText": "Sidon",
-            "entityId": "place-sidon"
-          },
-          {
             "spanText": "Tyre",
             "entityId": "place-tyre"
+          },
+          {
+            "spanText": "Sidon",
+            "entityId": "place-sidon"
           }
         ]
       },
@@ -6979,6 +7746,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Capernaum",
             "entityId": "place-capernaum"
+          },
+          {
+            "spanText": "Hades",
+            "entityId": "term-hades"
           }
         ]
       },
@@ -7002,7 +7773,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "The seventy returned with joy, saying, “Lord, even the demons are subject to us in your name!”",
         "translation": "WEB",
         "illustrationId": "ill-luk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "joy",
+            "entityId": "term-joy-chara"
+          },
+          {
+            "spanText": "demons",
+            "entityId": "term-demons-evil-spirits"
+          }
+        ]
       },
       {
         "id": "LUK-10:18",
@@ -7013,7 +7793,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to them, “I saw Satan having fallen like lightning from heaven.",
         "translation": "WEB",
         "illustrationId": "ill-luk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Satan",
+            "entityId": "term-satan-adversary"
+          }
+        ]
       },
       {
         "id": "LUK-10:19",
@@ -7048,12 +7833,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-10",
         "linkedEntities": [
           {
-            "spanText": "Spirit",
-            "entityId": "term-ruach"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           }
         ]
       },
@@ -7066,7 +7851,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Turning to the disciples, he said, “All things have been delivered to me by my Father. No one knows who the Son is, except the Father, and who the Father is, except the Son, and he to whomever the Son desires to reveal him.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
+          }
+        ]
       },
       {
         "id": "LUK-10:23",
@@ -7077,7 +7867,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Turning to the disciples, he said privately, “Blessed are the eyes which see the things that you see,",
         "translation": "WEB",
         "illustrationId": "ill-luk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
+          }
+        ]
       },
       {
         "id": "LUK-10:24",
@@ -7088,7 +7883,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "for I tell you that many prophets and kings desired to see the things which you see, and didn’t see them, and to hear the things which you hear, and didn’t hear them.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "LUK-10:25",
@@ -7099,7 +7899,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, a certain lawyer stood up and tested him, saying, “Teacher, what shall I do to inherit eternal life?”",
         "translation": "WEB",
         "illustrationId": "ill-luk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "eternal life",
+            "entityId": "term-eternal-life"
+          }
+        ]
       },
       {
         "id": "LUK-10:26",
@@ -7145,6 +7950,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-10",
         "linkedEntities": [
           {
+            "spanText": "justify",
+            "entityId": "term-justification"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           }
@@ -7161,16 +7970,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-10",
         "linkedEntities": [
           {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
+          },
+          {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
           },
           {
             "spanText": "Jericho",
             "entityId": "place-jericho"
-          },
-          {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
           }
         ]
       },
@@ -7183,7 +7992,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "By chance a certain priest was going down that way. When he saw him, he passed by on the other side.",
         "translation": "WEB",
         "illustrationId": "ill-luk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LUK-10:32",
@@ -7205,7 +8019,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "But a certain Samaritan, as he traveled, came where he was. When he saw him, he was moved with compassion,",
         "translation": "WEB",
         "illustrationId": "ill-luk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Samaritan",
+            "entityId": "term-samaritan"
+          }
+        ]
       },
       {
         "id": "LUK-10:34",
@@ -7227,7 +8046,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "On the next day, when he departed, he took out two denarii, gave them to the host, and said to him, ‘Take care of him. Whatever you spend beyond that, I will repay you when I return.’",
         "translation": "WEB",
         "illustrationId": "ill-luk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "denarii",
+            "entityId": "term-denarius"
+          }
+        ]
       },
       {
         "id": "LUK-10:36",
@@ -7251,12 +8075,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-10",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "mercy",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -7287,12 +8111,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-10",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Mary",
             "entityId": "char-mary-bethany"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -7323,12 +8147,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-10",
         "linkedEntities": [
           {
-            "spanText": "Martha",
-            "entityId": "char-martha"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Martha",
+            "entityId": "char-martha"
           }
         ]
       },
@@ -7372,6 +8196,14 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-11",
         "linkedEntities": [
           {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
+          },
+          {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
+          },
+          {
             "spanText": "John",
             "entityId": "char-john-baptist"
           }
@@ -7408,7 +8240,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Forgive us our sins, for we ourselves also forgive everyone who is indebted to us. Bring us not into temptation, but deliver us from the evil one.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-luk-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Forgive",
+            "entityId": "term-forgiveness"
+          },
+          {
+            "spanText": "forgive",
+            "entityId": "term-forgiveness"
+          }
+        ]
       },
       {
         "id": "LUK-11:5",
@@ -7523,7 +8364,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He was casting out a demon, and it was mute. When the demon had gone out, the mute man spoke; and the multitudes marveled.",
         "translation": "WEB",
         "illustrationId": "ill-luk-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "demon",
+            "entityId": "term-demons-evil-spirits"
+          }
+        ]
       },
       {
         "id": "LUK-11:15",
@@ -7534,7 +8380,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "But some of them said, “He casts out demons by Beelzebul, the prince of the demons.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "demons",
+            "entityId": "term-demons-evil-spirits"
+          }
+        ]
       },
       {
         "id": "LUK-11:16",
@@ -7567,7 +8418,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "If Satan also is divided against himself, how will his kingdom stand? For you say that I cast out demons by Beelzebul.",
         "translation": "WEB",
         "illustrationId": "ill-luk-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Satan",
+            "entityId": "term-satan-adversary"
+          }
+        ]
       },
       {
         "id": "LUK-11:19",
@@ -7638,7 +8494,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "The unclean spirit, when he has gone out of the man, passes through dry places, seeking rest, and finding none, he says, ‘I will turn back to my house from which I came out.’",
         "translation": "WEB",
         "illustrationId": "ill-luk-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "unclean spirit",
+            "entityId": "term-demons-evil-spirits"
+          }
+        ]
       },
       {
         "id": "LUK-11:25",
@@ -7697,6 +8558,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jonah",
             "entityId": "char-jonah"
+          },
+          {
+            "spanText": "prophet",
+            "entityId": "term-prophecy-nt"
           }
         ]
       },
@@ -7713,6 +8578,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jonah",
             "entityId": "char-jonah"
+          },
+          {
+            "spanText": "Son of Man",
+            "entityId": "term-son-of-man"
           }
         ]
       },
@@ -7745,6 +8614,14 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Nineveh",
             "entityId": "place-nineveh"
+          },
+          {
+            "spanText": "repented",
+            "entityId": "term-repentance"
+          },
+          {
+            "spanText": "preaching",
+            "entityId": "term-preach-proclaim"
           },
           {
             "spanText": "Jonah",
@@ -7903,8 +8780,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-11",
         "linkedEntities": [
           {
+            "spanText": "scribes",
+            "entityId": "term-scribes"
+          },
+          {
             "spanText": "Pharisees",
             "entityId": "term-pharisees"
+          },
+          {
+            "spanText": "hypocrites",
+            "entityId": "term-hypocrite"
           }
         ]
       },
@@ -7939,7 +8824,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Woe to you! For you build the tombs of the prophets, and your fathers killed them.",
         "translation": "WEB",
         "illustrationId": "ill-luk-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "LUK-11:48",
@@ -7961,7 +8851,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore also the wisdom of God said, ‘I will send to them prophets and apostles; and some of them they will kill and persecute,",
         "translation": "WEB",
         "illustrationId": "ill-luk-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "persecute",
+            "entityId": "term-tribulation"
+          }
+        ]
       },
       {
         "id": "LUK-11:50",
@@ -7983,7 +8882,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "from the blood of Abel to the blood of Zachariah, who perished between the altar and the sanctuary.’ Yes, I tell you, it will be required of this generation.",
         "translation": "WEB",
         "illustrationId": "ill-luk-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-solomon-temple"
+          }
+        ]
       },
       {
         "id": "LUK-11:52",
@@ -8006,6 +8914,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-11",
         "linkedEntities": [
+          {
+            "spanText": "scribes",
+            "entityId": "term-scribes"
+          },
           {
             "spanText": "Pharisees",
             "entityId": "term-pharisees"
@@ -8047,8 +8959,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-12",
         "linkedEntities": [
           {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
+          },
+          {
             "spanText": "Pharisees",
             "entityId": "term-pharisees"
+          },
+          {
+            "spanText": "hypocrisy",
+            "entityId": "term-hypocrite"
           }
         ]
       },
@@ -8094,7 +9014,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "But I will warn you whom you should fear. Fear him who after he has killed, has power to cast into Gehenna. Yes, I tell you, fear him.",
         "translation": "WEB",
         "illustrationId": "ill-luk-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gehenna",
+            "entityId": "term-gehenna"
+          }
+        ]
       },
       {
         "id": "LUK-12:6",
@@ -8127,7 +9052,24 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "“I tell you, everyone who confesses me before men, the Son of Man will also confess before the angels of God;",
         "translation": "WEB",
         "illustrationId": "ill-luk-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "confesses",
+            "entityId": "term-confession"
+          },
+          {
+            "spanText": "Son of Man",
+            "entityId": "term-son-of-man"
+          },
+          {
+            "spanText": "confess",
+            "entityId": "term-confession"
+          },
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "LUK-12:9",
@@ -8138,7 +9080,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "but he who denies me in the presence of men will be denied in the presence of God’s angels.",
         "translation": "WEB",
         "illustrationId": "ill-luk-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "LUK-12:10",
@@ -8150,6 +9097,22 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-12",
         "linkedEntities": [
+          {
+            "spanText": "Son of Man",
+            "entityId": "term-son-of-man"
+          },
+          {
+            "spanText": "forgiven",
+            "entityId": "term-forgiveness"
+          },
+          {
+            "spanText": "forgiven",
+            "entityId": "term-forgiveness"
+          },
+          {
+            "spanText": "blaspheme",
+            "entityId": "term-blasphemy"
+          },
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
@@ -8197,7 +9160,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "One of the multitude said to him, “Teacher, tell my brother to divide the inheritance with me.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "inheritance",
+            "entityId": "term-inheritance"
+          }
+        ]
       },
       {
         "id": "LUK-12:14",
@@ -8219,7 +9187,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to them, “Beware! Keep yourselves from covetousness, for a man’s life doesn’t consist of the abundance of the things which he possesses.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covetousness",
+            "entityId": "term-covetousness"
+          }
+        ]
       },
       {
         "id": "LUK-12:16",
@@ -8301,7 +9274,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to his disciples, “Therefore I tell you, don’t be anxious for your life, what you will eat, nor yet for your body, what you will wear.",
         "translation": "WEB",
         "illustrationId": "ill-luk-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
+          }
+        ]
       },
       {
         "id": "LUK-12:23",
@@ -8360,6 +9338,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Solomon",
             "entityId": "char-solomon"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
           }
         ]
       },
@@ -8372,7 +9354,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if this is how God clothes the grass in the field, which today exists, and tomorrow is cast into the oven, how much more will he clothe you, O you of little faith?",
         "translation": "WEB",
         "illustrationId": "ill-luk-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          }
+        ]
       },
       {
         "id": "LUK-12:29",
@@ -8522,12 +9509,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-12",
         "linkedEntities": [
           {
-            "spanText": "parable",
-            "entityId": "term-parable"
-          },
-          {
             "spanText": "Peter",
             "entityId": "char-peter"
+          },
+          {
+            "spanText": "parable",
+            "entityId": "term-parable"
           }
         ]
       },
@@ -8540,7 +9527,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Lord said, “Who then is the faithful and wise steward, whom his lord will set over his household, to give them their portion of food at the right times?",
         "translation": "WEB",
         "illustrationId": "ill-luk-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "steward",
+            "entityId": "term-steward"
+          }
+        ]
       },
       {
         "id": "LUK-12:43",
@@ -8648,7 +9644,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Do you think that I have come to give peace in the earth? I tell you, no, but rather division.",
         "translation": "WEB",
         "illustrationId": "ill-luk-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "peace",
+            "entityId": "term-peace-eirene"
+          }
+        ]
       },
       {
         "id": "LUK-12:52",
@@ -8703,7 +9704,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "You hypocrites! You know how to interpret the appearance of the earth and the sky, but how is it that you don’t interpret this time?",
         "translation": "WEB",
         "illustrationId": "ill-luk-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "hypocrites",
+            "entityId": "term-hypocrite"
+          }
+        ]
       },
       {
         "id": "LUK-12:57",
@@ -8764,6 +9770,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pilate",
             "entityId": "char-pilate"
+          },
+          {
+            "spanText": "sacrifices",
+            "entityId": "term-offering"
           }
         ]
       },
@@ -8792,7 +9802,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "I tell you, no, but unless you repent, you will all perish in the same way.",
         "translation": "WEB",
         "illustrationId": "ill-luk-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "repent",
+            "entityId": "term-repentance"
+          }
+        ]
       },
       {
         "id": "LUK-13:4",
@@ -8823,7 +9838,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "I tell you, no, but, unless you repent, you will all perish in the same way.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "repent",
+            "entityId": "term-repentance"
+          }
+        ]
       },
       {
         "id": "LUK-13:6",
@@ -8838,6 +9858,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "parable",
             "entityId": "term-parable"
+          },
+          {
+            "spanText": "vineyard",
+            "entityId": "term-vineyard"
           }
         ]
       },
@@ -8930,7 +9954,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He laid his hands on her, and immediately she stood up straight and glorified God.",
         "translation": "WEB",
         "illustrationId": "ill-luk-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glorified",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "LUK-13:14",
@@ -8947,12 +9976,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "term-synagogue"
           },
           {
-            "spanText": "Sabbath",
-            "entityId": "term-sabbath"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
           }
         ]
       },
@@ -8966,6 +9995,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-13",
         "linkedEntities": [
+          {
+            "spanText": "hypocrites",
+            "entityId": "term-hypocrite"
+          },
           {
             "spanText": "Sabbath",
             "entityId": "term-sabbath"
@@ -8985,6 +10018,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "Satan",
+            "entityId": "term-satan-adversary"
           },
           {
             "spanText": "Sabbath",
@@ -9082,7 +10119,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "One said to him, “Lord, are they few who are saved?” He said to them,",
         "translation": "WEB",
         "illustrationId": "ill-luk-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
+          }
+        ]
       },
       {
         "id": "LUK-13:24",
@@ -9139,10 +10181,6 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-13",
         "linkedEntities": [
           {
-            "spanText": "God’s Kingdom",
-            "entityId": "term-kingdom-of-heaven"
-          },
-          {
             "spanText": "Abraham",
             "entityId": "char-abraham"
           },
@@ -9153,6 +10191,14 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
+          },
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          },
+          {
+            "spanText": "God’s Kingdom",
+            "entityId": "term-kingdom-of-heaven"
           }
         ]
       },
@@ -9212,7 +10258,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to them, “Go and tell that fox, ‘Behold, I cast out demons and perform cures today and tomorrow, and the third day I complete my mission.",
         "translation": "WEB",
         "illustrationId": "ill-luk-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "demons",
+            "entityId": "term-demons-evil-spirits"
+          }
+        ]
       },
       {
         "id": "LUK-13:33",
@@ -9224,6 +10275,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-13",
         "linkedEntities": [
+          {
+            "spanText": "prophet",
+            "entityId": "term-prophecy-nt"
+          },
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
@@ -9312,16 +10367,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-14",
         "linkedEntities": [
           {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
+          },
+          {
             "spanText": "Pharisees",
             "entityId": "term-pharisees"
           },
           {
             "spanText": "Sabbath",
             "entityId": "term-sabbath"
-          },
-          {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
           }
         ]
       },
@@ -9458,6 +10513,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "resurrection",
             "entityId": "term-resurrection"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -9519,7 +10578,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Another said, ‘I have bought five yoke of oxen, and I must go try them out. Please have me excused.’",
         "translation": "WEB",
         "illustrationId": "ill-luk-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "yoke",
+            "entityId": "term-yoke"
+          }
+        ]
       },
       {
         "id": "LUK-14:20",
@@ -9596,7 +10660,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "“If anyone comes to me, and doesn’t disregard his own father, mother, wife, children, brothers, and sisters, yes, and his own life also, he can’t be my disciple.",
         "translation": "WEB",
         "illustrationId": "ill-luk-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "disciple",
+            "entityId": "term-disciple"
+          }
+        ]
       },
       {
         "id": "LUK-14:27",
@@ -9607,7 +10676,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whoever doesn’t bear his own cross, and come after me, can’t be my disciple.",
         "translation": "WEB",
         "illustrationId": "ill-luk-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cross",
+            "entityId": "term-crucifixion"
+          },
+          {
+            "spanText": "disciple",
+            "entityId": "term-disciple"
+          }
+        ]
       },
       {
         "id": "LUK-14:28",
@@ -9662,7 +10740,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Or else, while the other is yet a great way off, he sends an envoy, and asks for conditions of peace.",
         "translation": "WEB",
         "illustrationId": "ill-luk-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "peace",
+            "entityId": "term-peace-eirene"
+          }
+        ]
       },
       {
         "id": "LUK-14:33",
@@ -9719,7 +10802,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now all the tax collectors and sinners were coming close to him to hear him.",
         "translation": "WEB",
         "illustrationId": "ill-luk-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "tax collectors",
+            "entityId": "term-tax-collector"
+          }
+        ]
       },
       {
         "id": "LUK-15:2",
@@ -9734,6 +10822,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pharisees",
             "entityId": "term-pharisees"
+          },
+          {
+            "spanText": "scribes",
+            "entityId": "term-scribes"
           }
         ]
       },
@@ -9795,7 +10887,24 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "I tell you that even so there will be more joy in heaven over one sinner who repents, than over ninety-nine righteous people who need no repentance.",
         "translation": "WEB",
         "illustrationId": "ill-luk-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "joy",
+            "entityId": "term-joy-chara"
+          },
+          {
+            "spanText": "repents",
+            "entityId": "term-repentance"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "repentance",
+            "entityId": "term-repentance"
+          }
+        ]
       },
       {
         "id": "LUK-15:8",
@@ -9828,7 +10937,20 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Even so, I tell you, there is joy in the presence of the angels of God over one sinner repenting.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "joy",
+            "entityId": "term-joy-chara"
+          },
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "repenting",
+            "entityId": "term-repentance"
+          }
+        ]
       },
       {
         "id": "LUK-15:11",
@@ -10037,7 +11159,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "But he answered his father, ‘Behold, these many years I have served you, and I never disobeyed a commandment of yours, but you never gave me a goat, that I might celebrate with my friends.",
         "translation": "WEB",
         "illustrationId": "ill-luk-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "commandment",
+            "entityId": "term-commandments"
+          }
+        ]
       },
       {
         "id": "LUK-15:30",
@@ -10094,7 +11221,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He also said to his disciples, “There was a certain rich man who had a manager. An accusation was made to him that this man was wasting his possessions.",
         "translation": "WEB",
         "illustrationId": "ill-luk-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
+          }
+        ]
       },
       {
         "id": "LUK-16:2",
@@ -10182,7 +11314,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "I tell you, make for yourselves friends by means of unrighteous mammon, so that when you fail, they may receive you into the eternal tents.",
         "translation": "WEB",
         "illustrationId": "ill-luk-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "mammon",
+            "entityId": "term-mammon"
+          }
+        ]
       },
       {
         "id": "LUK-16:10",
@@ -10193,7 +11330,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He who is faithful in a very little is faithful also in much. He who is dishonest in a very little is also dishonest in much.",
         "translation": "WEB",
         "illustrationId": "ill-luk-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
+          }
+        ]
       },
       {
         "id": "LUK-16:11",
@@ -10204,7 +11346,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "If therefore you have not been faithful in the unrighteous mammon, who will commit to your trust the true riches?",
         "translation": "WEB",
         "illustrationId": "ill-luk-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "mammon",
+            "entityId": "term-mammon"
+          }
+        ]
       },
       {
         "id": "LUK-16:12",
@@ -10226,7 +11377,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "No servant can serve two masters, for either he will hate the one, and love the other; or else he will hold to one, and despise the other. You aren’t able to serve God and Mammon.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Mammon",
+            "entityId": "term-mammon"
+          }
+        ]
       },
       {
         "id": "LUK-16:14",
@@ -10253,7 +11409,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to them, “You are those who justify yourselves in the sight of men, but God knows your hearts. For that which is exalted among men is an abomination in the sight of God.",
         "translation": "WEB",
         "illustrationId": "ill-luk-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "justify",
+            "entityId": "term-justification"
+          }
+        ]
       },
       {
         "id": "LUK-16:16",
@@ -10266,16 +11427,24 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-16",
         "linkedEntities": [
           {
-            "spanText": "God’s Kingdom",
-            "entityId": "term-kingdom-of-heaven"
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          },
+          {
+            "spanText": "John",
+            "entityId": "char-john-baptist"
           },
           {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
           },
           {
-            "spanText": "John",
-            "entityId": "char-john-baptist"
+            "spanText": "God’s Kingdom",
+            "entityId": "term-kingdom-of-heaven"
+          },
+          {
+            "spanText": "preached",
+            "entityId": "term-preach-proclaim"
           }
         ]
       },
@@ -10350,6 +11519,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-16",
         "linkedEntities": [
           {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          },
+          {
             "spanText": "Abraham",
             "entityId": "char-abraham"
           }
@@ -10365,6 +11538,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-16",
         "linkedEntities": [
+          {
+            "spanText": "Hades",
+            "entityId": "term-hades"
+          },
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
@@ -10428,7 +11605,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Besides all this, between us and you there is a great gulf fixed, that those who want to pass from here to you are not able, and that no one may cross over from there to us.’",
         "translation": "WEB",
         "illustrationId": "ill-luk-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cross",
+            "entityId": "term-crucifixion"
+          }
+        ]
       },
       {
         "id": "LUK-16:27",
@@ -10469,6 +11651,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
           }
         ]
       },
@@ -10485,6 +11671,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "repent",
+            "entityId": "term-repentance"
           }
         ]
       },
@@ -10526,7 +11716,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to the disciples, “It is impossible that no occasions of stumbling should come, but woe to him through whom they come!",
         "translation": "WEB",
         "illustrationId": "ill-luk-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
+          }
+        ]
       },
       {
         "id": "LUK-17:2",
@@ -10548,7 +11743,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Be careful. If your brother sins against you, rebuke him. If he repents, forgive him.",
         "translation": "WEB",
         "illustrationId": "ill-luk-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "repents",
+            "entityId": "term-repentance"
+          },
+          {
+            "spanText": "forgive",
+            "entityId": "term-forgiveness"
+          }
+        ]
       },
       {
         "id": "LUK-17:4",
@@ -10559,7 +11763,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "If he sins against you seven times in the day, and seven times returns, saying, ‘I repent,’ you shall forgive him.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "repent",
+            "entityId": "term-repentance"
+          },
+          {
+            "spanText": "forgive",
+            "entityId": "term-forgiveness"
+          }
+        ]
       },
       {
         "id": "LUK-17:5",
@@ -10570,7 +11783,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "The apostles said to the Lord, “Increase our faith.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          }
+        ]
       },
       {
         "id": "LUK-17:6",
@@ -10581,7 +11803,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Lord said, “If you had faith like a grain of mustard seed, you would tell this sycamore tree, ‘Be uprooted, and be planted in the sea,’ and it would obey you.",
         "translation": "WEB",
         "illustrationId": "ill-luk-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          }
+        ]
       },
       {
         "id": "LUK-17:7",
@@ -10642,12 +11869,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "place-jerusalem"
           },
           {
-            "spanText": "Galilee",
-            "entityId": "place-galilee"
-          },
-          {
             "spanText": "Samaria",
             "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Galilee",
+            "entityId": "place-galilee"
           }
         ]
       },
@@ -10660,7 +11887,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "As he entered into a certain village, ten men who were lepers met him, who stood at a distance.",
         "translation": "WEB",
         "illustrationId": "ill-luk-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "lepers",
+            "entityId": "term-leprosy-unclean"
+          }
+        ]
       },
       {
         "id": "LUK-17:13",
@@ -10691,7 +11923,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "When he saw them, he said to them, “Go and show yourselves to the priests.” As they went, they were cleansed.",
         "translation": "WEB",
         "illustrationId": "ill-luk-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "LUK-17:15",
@@ -10717,6 +11954,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Samaritan",
+            "entityId": "term-samaritan"
           }
         ]
       },
@@ -10745,7 +11986,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Were there none found who returned to give glory to God, except this foreigner?”",
         "translation": "WEB",
         "illustrationId": "ill-luk-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "LUK-17:19",
@@ -10769,12 +12015,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-17",
         "linkedEntities": [
           {
-            "spanText": "God’s Kingdom",
-            "entityId": "term-kingdom-of-heaven"
-          },
-          {
             "spanText": "Pharisees",
             "entityId": "term-pharisees"
+          },
+          {
+            "spanText": "God’s Kingdom",
+            "entityId": "term-kingdom-of-heaven"
           }
         ]
       },
@@ -10803,7 +12049,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to the disciples, “The days will come when you will desire to see one of the days of the Son of Man, and you will not see it.",
         "translation": "WEB",
         "illustrationId": "ill-luk-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
+          },
+          {
+            "spanText": "Son of Man",
+            "entityId": "term-son-of-man"
+          }
+        ]
       },
       {
         "id": "LUK-17:23",
@@ -10825,7 +12080,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "for as the lightning, when it flashes out of one part under the sky, shines to another part under the sky; so will the Son of Man be in his day.",
         "translation": "WEB",
         "illustrationId": "ill-luk-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Son of Man",
+            "entityId": "term-son-of-man"
+          }
+        ]
       },
       {
         "id": "LUK-17:25",
@@ -11024,7 +12284,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "A widow was in that city, and she often came to him, saying, ‘Defend me from my adversary!’",
         "translation": "WEB",
         "illustrationId": "ill-luk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "widow",
+            "entityId": "term-widows-care"
+          }
+        ]
       },
       {
         "id": "LUK-18:4",
@@ -11046,7 +12311,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "yet because this widow bothers me, I will defend her, or else she will wear me out by her continual coming.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-luk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "widow",
+            "entityId": "term-widows-care"
+          }
+        ]
       },
       {
         "id": "LUK-18:6",
@@ -11079,7 +12349,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "I tell you that he will avenge them quickly. Nevertheless, when the Son of Man comes, will he find faith on the earth?”",
         "translation": "WEB",
         "illustrationId": "ill-luk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Son of Man",
+            "entityId": "term-son-of-man"
+          },
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          }
+        ]
       },
       {
         "id": "LUK-18:9",
@@ -11094,6 +12373,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "parable",
             "entityId": "term-parable"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -11110,6 +12393,14 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "Pharisee",
+            "entityId": "term-pharisees"
+          },
+          {
+            "spanText": "tax collector",
+            "entityId": "term-tax-collector"
           }
         ]
       },
@@ -11122,7 +12413,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Pharisee stood and prayed to himself like this: ‘God, I thank you that I am not like the rest of men, extortionists, unrighteous, adulterers, or even like this tax collector.",
         "translation": "WEB",
         "illustrationId": "ill-luk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharisee",
+            "entityId": "term-pharisees"
+          },
+          {
+            "spanText": "tax collector",
+            "entityId": "term-tax-collector"
+          }
+        ]
       },
       {
         "id": "LUK-18:12",
@@ -11144,7 +12444,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "But the tax collector, standing far away, wouldn’t even lift up his eyes to heaven, but beat his breast, saying, ‘God, be merciful to me, a sinner!’",
         "translation": "WEB",
         "illustrationId": "ill-luk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "tax collector",
+            "entityId": "term-tax-collector"
+          },
+          {
+            "spanText": "merciful",
+            "entityId": "term-mercy-eleos"
+          }
+        ]
       },
       {
         "id": "LUK-18:14",
@@ -11155,7 +12464,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "I tell you, this man went down to his house justified rather than the other; for everyone who exalts himself will be humbled, but he who humbles himself will be exalted.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "justified",
+            "entityId": "term-justification"
+          }
+        ]
       },
       {
         "id": "LUK-18:15",
@@ -11166,7 +12480,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "They were also bringing their babies to him, that he might touch them. But when the disciples saw it, they rebuked them.",
         "translation": "WEB",
         "illustrationId": "ill-luk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
+          }
+        ]
       },
       {
         "id": "LUK-18:16",
@@ -11179,12 +12498,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-18",
         "linkedEntities": [
           {
-            "spanText": "God’s Kingdom",
-            "entityId": "term-kingdom-of-heaven"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "God’s Kingdom",
+            "entityId": "term-kingdom-of-heaven"
           }
         ]
       },
@@ -11213,7 +12532,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "A certain ruler asked him, saying, “Good Teacher, what shall I do to inherit eternal life?”",
         "translation": "WEB",
         "illustrationId": "ill-luk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "eternal life",
+            "entityId": "term-eternal-life"
+          }
+        ]
       },
       {
         "id": "LUK-18:19",
@@ -11240,7 +12564,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "You know the commandments: ‘Don’t commit adultery,’ ‘Don’t murder,’ ‘Don’t steal,’ ‘Don’t give false testimony,’ ‘Honor your father and your mother.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-luk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "commandments",
+            "entityId": "term-commandments"
+          },
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
+          }
+        ]
       },
       {
         "id": "LUK-18:21",
@@ -11291,12 +12624,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-18",
         "linkedEntities": [
           {
-            "spanText": "God’s Kingdom",
-            "entityId": "term-kingdom-of-heaven"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "God’s Kingdom",
+            "entityId": "term-kingdom-of-heaven"
           }
         ]
       },
@@ -11325,7 +12658,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Those who heard it said, “Then who can be saved?”",
         "translation": "WEB",
         "illustrationId": "ill-luk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
+          }
+        ]
       },
       {
         "id": "LUK-18:27",
@@ -11379,7 +12717,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "who will not receive many times more in this time, and in the world to come, eternal life.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "eternal life",
+            "entityId": "term-eternal-life"
+          }
+        ]
       },
       {
         "id": "LUK-18:31",
@@ -11394,6 +12737,14 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          },
+          {
+            "spanText": "Son of Man",
+            "entityId": "term-son-of-man"
           }
         ]
       },
@@ -11406,7 +12757,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "For he will be delivered up to the Gentiles, will be mocked, treated shamefully, and spit on.",
         "translation": "WEB",
         "illustrationId": "ill-luk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gentiles",
+            "entityId": "term-gentiles"
+          }
+        ]
       },
       {
         "id": "LUK-18:33",
@@ -11468,12 +12824,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-18",
         "linkedEntities": [
           {
-            "spanText": "Nazareth",
-            "entityId": "place-nazareth"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Nazareth",
+            "entityId": "place-nazareth"
           }
         ]
       },
@@ -11561,6 +12917,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -11617,6 +12977,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zacchaeus",
             "entityId": "char-zacchaeus"
+          },
+          {
+            "spanText": "tax collector",
+            "entityId": "term-tax-collector"
           }
         ]
       },
@@ -11658,12 +13022,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-19",
         "linkedEntities": [
           {
-            "spanText": "Zacchaeus",
-            "entityId": "char-zacchaeus"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Zacchaeus",
+            "entityId": "char-zacchaeus"
           }
         ]
       },
@@ -11716,12 +13080,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-19",
         "linkedEntities": [
           {
-            "spanText": "Abraham",
-            "entityId": "char-abraham"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
           }
         ]
       },
@@ -11734,7 +13102,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the Son of Man came to seek and to save that which was lost.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Son of Man",
+            "entityId": "term-son-of-man"
+          }
+        ]
       },
       {
         "id": "LUK-19:11",
@@ -11747,16 +13120,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-19",
         "linkedEntities": [
           {
-            "spanText": "God’s Kingdom",
-            "entityId": "term-kingdom-of-heaven"
+            "spanText": "parable",
+            "entityId": "term-parable"
           },
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
           },
           {
-            "spanText": "parable",
-            "entityId": "term-parable"
+            "spanText": "God’s Kingdom",
+            "entityId": "term-kingdom-of-heaven"
           }
         ]
       },
@@ -11824,7 +13197,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "“He said to him, ‘Well done, you good servant! Because you were found faithful with very little, you shall have authority over ten cities.’",
         "translation": "WEB",
         "illustrationId": "ill-luk-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
+          }
+        ]
       },
       {
         "id": "LUK-19:18",
@@ -11965,6 +13343,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethany",
             "entityId": "place-bethany"
+          },
+          {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
           }
         ]
       },
@@ -12063,6 +13445,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mount of Olives",
             "entityId": "place-mount-of-olives"
+          },
+          {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
           }
         ]
       },
@@ -12075,7 +13461,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "saying, “Blessed is the King who comes in the name of the Lord! Peace in heaven, and glory in the highest!”",
         "translation": "WEB",
         "illustrationId": "ill-luk-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Peace",
+            "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "LUK-19:39",
@@ -12124,7 +13519,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "saying, “If you, even you, had known today the things which belong to your peace! But now, they are hidden from your eyes.",
         "translation": "WEB",
         "illustrationId": "ill-luk-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "peace",
+            "entityId": "term-peace-eirene"
+          }
+        ]
       },
       {
         "id": "LUK-19:43",
@@ -12193,6 +13593,14 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "chief priests",
+            "entityId": "term-high-priest-nt"
+          },
+          {
+            "spanText": "scribes",
+            "entityId": "term-scribes"
           }
         ]
       },
@@ -12231,12 +13639,24 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-20",
         "linkedEntities": [
           {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "preaching",
+            "entityId": "term-preach-proclaim"
+          },
+          {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
           },
           {
-            "spanText": "temple",
-            "entityId": "term-solomon-temple"
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "scribes",
+            "entityId": "term-scribes"
           }
         ]
       },
@@ -12306,6 +13726,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "John",
             "entityId": "char-john-baptist"
+          },
+          {
+            "spanText": "prophet",
+            "entityId": "term-prophecy-nt"
           }
         ]
       },
@@ -12349,6 +13773,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "parable",
             "entityId": "term-parable"
+          },
+          {
+            "spanText": "vineyard",
+            "entityId": "term-vineyard"
           }
         ]
       },
@@ -12361,7 +13789,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "At the proper season, he sent a servant to the farmers to collect his share of the fruit of the vineyard. But the farmers beat him, and sent him away empty.",
         "translation": "WEB",
         "illustrationId": "ill-luk-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "vineyard",
+            "entityId": "term-vineyard"
+          }
+        ]
       },
       {
         "id": "LUK-20:11",
@@ -12405,7 +13838,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "“But when the farmers saw him, they reasoned among themselves, saying, ‘This is the heir. Come, let’s kill him, that the inheritance may be ours.’",
         "translation": "WEB",
         "illustrationId": "ill-luk-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heir",
+            "entityId": "term-inheritance"
+          },
+          {
+            "spanText": "inheritance",
+            "entityId": "term-inheritance"
+          }
+        ]
       },
       {
         "id": "LUK-20:15",
@@ -12438,7 +13880,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "But he looked at them and said, “Then what is this that is written, ‘The stone which the builders rejected was made the chief cornerstone?’",
         "translation": "WEB",
         "illustrationId": "ill-luk-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "chief cornerstone",
+            "entityId": "term-cornerstone"
+          }
+        ]
       },
       {
         "id": "LUK-20:18",
@@ -12462,6 +13909,14 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-20",
         "linkedEntities": [
           {
+            "spanText": "chief priests",
+            "entityId": "term-high-priest-nt"
+          },
+          {
+            "spanText": "scribes",
+            "entityId": "term-scribes"
+          },
+          {
             "spanText": "parable",
             "entityId": "term-parable"
           }
@@ -12476,7 +13931,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "They watched him and sent out spies, who pretended to be righteous, that they might trap him in something he said, so as to deliver him up to the power and authority of the governor.",
         "translation": "WEB",
         "illustrationId": "ill-luk-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "LUK-20:21",
@@ -12520,7 +13980,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Show me a denarius. Whose image and inscription are on it?” They answered, “Caesar’s.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "denarius",
+            "entityId": "term-denarius"
+          }
+        ]
       },
       {
         "id": "LUK-20:25",
@@ -12555,12 +14020,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-20",
         "linkedEntities": [
           {
-            "spanText": "resurrection",
-            "entityId": "term-resurrection"
-          },
-          {
             "spanText": "Sadducees",
             "entityId": "term-sadducees"
+          },
+          {
+            "spanText": "resurrection",
+            "entityId": "term-resurrection"
           }
         ]
       },
@@ -12683,6 +14148,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-20",
         "linkedEntities": [
           {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          },
+          {
             "spanText": "resurrection",
             "entityId": "term-resurrection"
           }
@@ -12699,12 +14168,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-20",
         "linkedEntities": [
           {
-            "spanText": "Abraham",
-            "entityId": "char-abraham"
-          },
-          {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
           },
           {
             "spanText": "Isaac",
@@ -12736,7 +14205,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Some of the scribes answered, “Teacher, you speak well.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "scribes",
+            "entityId": "term-scribes"
+          }
+        ]
       },
       {
         "id": "LUK-20:40",
@@ -12759,6 +14233,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-20",
         "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
           {
             "spanText": "David",
             "entityId": "char-david"
@@ -12817,7 +14295,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "In the hearing of all the people, he said to his disciples,",
         "translation": "WEB",
         "illustrationId": "ill-luk-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
+          }
+        ]
       },
       {
         "id": "LUK-20:46",
@@ -12844,7 +14327,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "who devour widows’ houses, and for a pretense make long prayers: these will receive greater condemnation.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "widows",
+            "entityId": "term-widows-care"
+          },
+          {
+            "spanText": "condemnation",
+            "entityId": "term-condemnation"
+          }
+        ]
       }
     ]
   },
@@ -12879,7 +14371,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He saw a certain poor widow casting in two small brass coins.",
         "translation": "WEB",
         "illustrationId": "ill-luk-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "widow",
+            "entityId": "term-widows-care"
+          }
+        ]
       },
       {
         "id": "LUK-21:3",
@@ -12890,7 +14387,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said, “Truly I tell you, this poor widow put in more than all of them,",
         "translation": "WEB",
         "illustrationId": "ill-luk-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "widow",
+            "entityId": "term-widows-care"
+          }
+        ]
       },
       {
         "id": "LUK-21:4",
@@ -12983,7 +14485,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "There will be great earthquakes, famines, and plagues in various places. There will be terrors and great signs from heaven.",
         "translation": "WEB",
         "illustrationId": "ill-luk-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "plagues",
+            "entityId": "term-plagues"
+          }
+        ]
       },
       {
         "id": "LUK-21:12",
@@ -12995,6 +14502,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-21",
         "linkedEntities": [
+          {
+            "spanText": "persecute",
+            "entityId": "term-tribulation"
+          },
           {
             "spanText": "synagogues",
             "entityId": "term-synagogue"
@@ -13010,7 +14521,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "It will turn out as a testimony for you.",
         "translation": "WEB",
         "illustrationId": "ill-luk-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
+          }
+        ]
       },
       {
         "id": "LUK-21:14",
@@ -13130,7 +14646,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Woe to those who are pregnant and to those who nurse infants in those days! For there will be great distress in the land, and wrath to this people.",
         "translation": "WEB",
         "illustrationId": "ill-luk-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          }
+        ]
       },
       {
         "id": "LUK-21:24",
@@ -13145,6 +14666,14 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Gentiles",
+            "entityId": "term-gentiles"
+          },
+          {
+            "spanText": "Gentiles",
+            "entityId": "term-gentiles"
           }
         ]
       },
@@ -13179,7 +14708,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then they will see the Son of Man coming in a cloud with power and great glory.",
         "translation": "WEB",
         "illustrationId": "ill-luk-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Son of Man",
+            "entityId": "term-son-of-man"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "LUK-21:28",
@@ -13190,7 +14728,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "But when these things begin to happen, look up and lift up your heads, because your redemption is near.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "redemption",
+            "entityId": "term-redemption"
+          }
+        ]
       },
       {
         "id": "LUK-21:29",
@@ -13288,7 +14831,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore be watchful all the time, praying that you may be counted worthy to escape all these things that will happen, and to stand before the Son of Man.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Son of Man",
+            "entityId": "term-son-of-man"
+          }
+        ]
       },
       {
         "id": "LUK-21:37",
@@ -13301,12 +14849,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-21",
         "linkedEntities": [
           {
-            "spanText": "temple",
-            "entityId": "term-solomon-temple"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
           }
         ]
       },
@@ -13364,7 +14912,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "The chief priests and the scribes sought how they might put him to death, for they feared the people.",
         "translation": "WEB",
         "illustrationId": "ill-luk-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "chief priests",
+            "entityId": "term-high-priest-nt"
+          },
+          {
+            "spanText": "scribes",
+            "entityId": "term-scribes"
+          }
+        ]
       },
       {
         "id": "LUK-22:3",
@@ -13376,6 +14933,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-22",
         "linkedEntities": [
+          {
+            "spanText": "Satan",
+            "entityId": "term-satan-adversary"
+          },
           {
             "spanText": "Judas",
             "entityId": "char-judas-iscariot"
@@ -13391,7 +14952,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He went away, and talked with the chief priests and captains about how he might deliver him to them.",
         "translation": "WEB",
         "illustrationId": "ill-luk-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "chief priests",
+            "entityId": "term-high-priest-nt"
+          }
+        ]
       },
       {
         "id": "LUK-22:5",
@@ -13442,10 +15008,6 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-22",
         "linkedEntities": [
           {
-            "spanText": "Passover",
-            "entityId": "term-passover"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           },
@@ -13456,6 +15018,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "John",
             "entityId": "char-john-apostle"
+          },
+          {
+            "spanText": "Passover",
+            "entityId": "term-passover"
           }
         ]
       },
@@ -13494,6 +15060,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Passover",
             "entityId": "term-passover"
+          },
+          {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
           }
         ]
       },
@@ -13519,12 +15089,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-22",
         "linkedEntities": [
           {
-            "spanText": "Passover",
-            "entityId": "term-passover"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Passover",
+            "entityId": "term-passover"
           }
         ]
       },
@@ -13537,7 +15107,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the hour had come, he sat down with the twelve apostles.",
         "translation": "WEB",
         "illustrationId": "ill-luk-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          }
+        ]
       },
       {
         "id": "LUK-22:15",
@@ -13645,7 +15220,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Son of Man indeed goes, as it has been determined, but woe to that man through whom he is betrayed!”",
         "translation": "WEB",
         "illustrationId": "ill-luk-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Son of Man",
+            "entityId": "term-son-of-man"
+          }
+        ]
       },
       {
         "id": "LUK-22:23",
@@ -13748,6 +15328,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Simon",
             "entityId": "char-peter"
+          },
+          {
+            "spanText": "Satan",
+            "entityId": "term-satan-adversary"
           }
         ]
       },
@@ -13760,7 +15344,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "but I prayed for you, that your faith wouldn’t fail. You, when once you have turned again, establish your brothers.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          }
+        ]
       },
       {
         "id": "LUK-22:33",
@@ -13846,6 +15435,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mount of Olives",
             "entityId": "place-mount-of-olives"
+          },
+          {
+            "spanText": "disciples",
+            "entityId": "term-disciple"
           }
         ]
       },
@@ -13891,7 +15484,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "An angel from heaven appeared to him, strengthening him.",
         "translation": "WEB",
         "illustrationId": "ill-luk-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "LUK-22:44",
@@ -13942,12 +15540,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-22",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Judas",
             "entityId": "char-judas-iscariot"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -13968,6 +15566,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Judas",
             "entityId": "char-judas-iscariot"
+          },
+          {
+            "spanText": "Son of Man",
+            "entityId": "term-son-of-man"
           }
         ]
       },
@@ -13991,7 +15593,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "A certain one of them struck the servant of the high priest, and cut off his right ear.",
         "translation": "WEB",
         "illustrationId": "ill-luk-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "high priest",
+            "entityId": "term-high-priest-nt"
+          }
+        ]
       },
       {
         "id": "LUK-22:51",
@@ -14020,12 +15627,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-22",
         "linkedEntities": [
           {
-            "spanText": "temple",
-            "entityId": "term-solomon-temple"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
           }
         ]
       },
@@ -14055,6 +15666,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-22",
         "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          },
           {
             "spanText": "Peter",
             "entityId": "char-peter"
@@ -14199,7 +15814,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Having blindfolded him, they struck him on the face and asked him, “Prophesy! Who is the one who struck you?”",
         "translation": "WEB",
         "illustrationId": "ill-luk-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Prophesy",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "LUK-22:65",
@@ -14221,7 +15841,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "As soon as it was day, the assembly of the elders of the people were gathered together, both chief priests and scribes, and they led him away into their council, saying,",
         "translation": "WEB",
         "illustrationId": "ill-luk-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "scribes",
+            "entityId": "term-scribes"
+          }
+        ]
       },
       {
         "id": "LUK-22:67",
@@ -14232,7 +15857,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "“If you are the Christ, tell us.” But he said to them, “If I tell you, you won’t believe,",
         "translation": "WEB",
         "illustrationId": "ill-luk-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "LUK-22:68",
@@ -14276,7 +15906,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "They said, “Why do we need any more witness? For we ourselves have heard from his own mouth!”",
         "translation": "WEB",
         "illustrationId": "ill-luk-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "witness",
+            "entityId": "term-witness-martyr"
+          }
+        ]
       }
     ]
   },
@@ -14316,7 +15951,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "They began to accuse him, saying, “We found this man perverting the nation, forbidding paying taxes to Caesar, and saying that he himself is Christ, a king.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "LUK-23:3",
@@ -14347,6 +15987,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pilate",
             "entityId": "char-pilate"
+          },
+          {
+            "spanText": "chief priests",
+            "entityId": "term-high-priest-nt"
           }
         ]
       },
@@ -14361,12 +16005,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-23",
         "linkedEntities": [
           {
-            "spanText": "Galilee",
-            "entityId": "place-galilee"
-          },
-          {
             "spanText": "Judea",
             "entityId": "place-judea"
+          },
+          {
+            "spanText": "Galilee",
+            "entityId": "place-galilee"
           }
         ]
       },
@@ -14381,12 +16025,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-23",
         "linkedEntities": [
           {
-            "spanText": "Galilee",
-            "entityId": "place-galilee"
-          },
-          {
             "spanText": "Pilate",
             "entityId": "char-pilate"
+          },
+          {
+            "spanText": "Galilee",
+            "entityId": "place-galilee"
           }
         ]
       },
@@ -14401,12 +16045,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-23",
         "linkedEntities": [
           {
-            "spanText": "Jerusalem",
-            "entityId": "place-jerusalem"
-          },
-          {
             "spanText": "Herod",
             "entityId": "char-herod-antipas"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
           }
         ]
       },
@@ -14421,12 +16065,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-23",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Herod",
             "entityId": "char-herod-antipas"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -14450,7 +16094,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "The chief priests and the scribes stood, vehemently accusing him.",
         "translation": "WEB",
         "illustrationId": "ill-luk-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "chief priests",
+            "entityId": "term-high-priest-nt"
+          },
+          {
+            "spanText": "scribes",
+            "entityId": "term-scribes"
+          }
+        ]
       },
       {
         "id": "LUK-23:11",
@@ -14463,12 +16116,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-23",
         "linkedEntities": [
           {
-            "spanText": "Pilate",
-            "entityId": "char-pilate"
-          },
-          {
             "spanText": "Herod",
             "entityId": "char-herod-antipas"
+          },
+          {
+            "spanText": "Pilate",
+            "entityId": "char-pilate"
           }
         ]
       },
@@ -14483,12 +16136,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-23",
         "linkedEntities": [
           {
-            "spanText": "Pilate",
-            "entityId": "char-pilate"
-          },
-          {
             "spanText": "Herod",
             "entityId": "char-herod-antipas"
+          },
+          {
+            "spanText": "Pilate",
+            "entityId": "char-pilate"
           }
         ]
       },
@@ -14505,6 +16158,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pilate",
             "entityId": "char-pilate"
+          },
+          {
+            "spanText": "chief priests",
+            "entityId": "term-high-priest-nt"
           }
         ]
       },
@@ -14644,6 +16301,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "crucified",
             "entityId": "term-crucifixion"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -14690,6 +16351,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-23",
         "linkedEntities": [
           {
+            "spanText": "Simon of Cyrene",
+            "entityId": "char-simon-cyrene"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           }
@@ -14717,12 +16382,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-23",
         "linkedEntities": [
           {
-            "spanText": "Jerusalem",
-            "entityId": "place-jerusalem"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
           }
         ]
       },
@@ -14799,6 +16464,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "forgive",
+            "entityId": "term-forgiveness"
           }
         ]
       },
@@ -14811,7 +16480,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "The people stood watching. The rulers with them also scoffed at him, saying, “He saved others. Let him save himself, if this is the Christ of God, his chosen one!”",
         "translation": "WEB",
         "illustrationId": "ill-luk-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "LUK-23:36",
@@ -14866,7 +16544,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "But the other answered, and rebuking him said, “Don’t you even fear God, seeing you are under the same condemnation?",
         "translation": "WEB",
         "illustrationId": "ill-luk-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "condemnation",
+            "entityId": "term-condemnation"
+          }
+        ]
       },
       {
         "id": "LUK-23:41",
@@ -14963,7 +16646,20 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the centurion saw what was done, he glorified God, saying, “Certainly this was a righteous man.”",
         "translation": "WEB",
         "illustrationId": "ill-luk-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "centurion",
+            "entityId": "term-centurion"
+          },
+          {
+            "spanText": "glorified",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "LUK-23:48",
@@ -15005,6 +16701,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joseph",
             "entityId": "char-joseph-arimathaea"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -15100,6 +16800,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sabbath",
             "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "commandment",
+            "entityId": "term-commandments"
           }
         ]
       }
@@ -15203,6 +16907,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-luk-24",
         "linkedEntities": [
           {
+            "spanText": "Son of Man",
+            "entityId": "term-son-of-man"
+          },
+          {
             "spanText": "crucified",
             "entityId": "term-crucifixion"
           }
@@ -15243,6 +16951,14 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mary Magdalene",
             "entityId": "char-mary-magdalene"
+          },
+          {
+            "spanText": "James",
+            "entityId": "char-james-zebedee"
+          },
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
           }
         ]
       },
@@ -15375,6 +17091,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "prophet",
+            "entityId": "term-prophecy-nt"
           }
         ]
       },
@@ -15388,6 +17108,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-24",
         "linkedEntities": [
+          {
+            "spanText": "chief priests",
+            "entityId": "term-high-priest-nt"
+          },
           {
             "spanText": "crucified",
             "entityId": "term-crucifixion"
@@ -15403,7 +17127,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "But we were hoping that it was he who would redeem Israel. Yes, and besides all this, it is now the third day since these things happened.",
         "translation": "WEB",
         "illustrationId": "ill-luk-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "redeem",
+            "entityId": "term-redemption"
+          }
+        ]
       },
       {
         "id": "LUK-24:22",
@@ -15425,7 +17154,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "and when they didn’t find his body, they came saying that they had also seen a vision of angels, who said that he was alive.",
         "translation": "WEB",
         "illustrationId": "ill-luk-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "LUK-24:24",
@@ -15447,7 +17181,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to them, “Foolish men, and slow of heart to believe in all that the prophets have spoken!",
         "translation": "WEB",
         "illustrationId": "ill-luk-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "LUK-24:26",
@@ -15458,7 +17197,16 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Didn’t the Christ have to suffer these things and to enter into his glory?”",
         "translation": "WEB",
         "illustrationId": "ill-luk-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "LUK-24:27",
@@ -15587,6 +17335,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Peace",
+            "entityId": "term-peace-eirene"
           }
         ]
       },
@@ -15643,7 +17395,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "While they still didn’t believe for joy, and wondered, he said to them, “Do you have anything here to eat?”",
         "translation": "WEB",
         "illustrationId": "ill-luk-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "joy",
+            "entityId": "term-joy-chara"
+          }
+        ]
       },
       {
         "id": "LUK-24:42",
@@ -15703,7 +17460,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to them, “Thus it is written, and thus it was necessary for the Christ to suffer and to rise from the dead the third day,",
         "translation": "WEB",
         "illustrationId": "ill-luk-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "LUK-24:47",
@@ -15715,6 +17477,14 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-luk-24",
         "linkedEntities": [
+          {
+            "spanText": "repentance",
+            "entityId": "term-repentance"
+          },
+          {
+            "spanText": "preached",
+            "entityId": "term-preach-proclaim"
+          },
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
@@ -15730,7 +17500,12 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
         "text": "You are witnesses of these things.",
         "translation": "WEB",
         "illustrationId": "ill-luk-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "witnesses",
+            "entityId": "term-witness-martyr"
+          }
+        ]
       },
       {
         "id": "LUK-24:49",
@@ -15788,6 +17563,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "joy",
+            "entityId": "term-joy-chara"
           }
         ]
       },
@@ -15804,6 +17583,10 @@ export const LUKE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       }

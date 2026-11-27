@@ -23,16 +23,20 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-1",
         "linkedEntities": [
           {
+            "spanText": "Paul",
+            "entityId": "char-paul"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           },
           {
-            "spanText": "Good News",
-            "entityId": "term-gospel-euangelion"
+            "spanText": "apostle",
+            "entityId": "term-apostle"
           },
           {
-            "spanText": "Paul",
-            "entityId": "char-paul"
+            "spanText": "Good News",
+            "entityId": "term-gospel-euangelion"
           }
         ]
       },
@@ -45,7 +49,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "which he promised before through his prophets in the holy Scriptures,",
         "translation": "WEB",
         "illustrationId": "ill-rom-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "ROM-1:3",
@@ -60,6 +69,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
           }
         ]
       },
@@ -74,16 +87,20 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
+          },
+          {
+            "spanText": "holiness",
+            "entityId": "term-sanctification"
           },
           {
             "spanText": "resurrection",
             "entityId": "term-resurrection"
           },
           {
-            "spanText": "Spirit",
-            "entityId": "term-ruach"
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -134,12 +151,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Rome",
             "entityId": "place-rome"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
           },
           {
             "spanText": "Grace",
@@ -148,6 +165,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -181,6 +202,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rom-1",
         "linkedEntities": [
+          {
+            "spanText": "witness",
+            "entityId": "term-witness-martyr"
+          },
           {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
@@ -263,6 +288,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-1",
         "linkedEntities": [
           {
+            "spanText": "preach",
+            "entityId": "term-preach-proclaim"
+          },
+          {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
           },
@@ -285,6 +314,14 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
           }
         ]
       },
@@ -305,6 +342,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -317,7 +358,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men who suppress the truth in unrighteousness,",
         "translation": "WEB",
         "illustrationId": "ill-rom-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          }
+        ]
       },
       {
         "id": "ROM-1:19",
@@ -350,7 +396,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Because knowing God, they didn’t glorify him as God, and didn’t give thanks, but became vain in their reasoning, and their senseless heart was darkened.",
         "translation": "WEB",
         "illustrationId": "ill-rom-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glorify",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "ROM-1:22",
@@ -372,7 +423,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and traded the glory of the incorruptible God for the likeness of an image of corruptible man, and of birds, four-footed animals, and creeping things.",
         "translation": "WEB",
         "illustrationId": "ill-rom-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "ROM-1:24",
@@ -394,7 +450,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "who exchanged the truth of God for a lie, and worshiped and served the creature rather than the Creator, who is blessed forever. Amen.",
         "translation": "WEB",
         "illustrationId": "ill-rom-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
+          }
+        ]
       },
       {
         "id": "ROM-1:26",
@@ -438,7 +499,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "being filled with all unrighteousness, sexual immorality, wickedness, covetousness, malice; full of envy, murder, strife, deceit, evil habits, secret slanderers,",
         "translation": "WEB",
         "illustrationId": "ill-rom-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
+          },
+          {
+            "spanText": "covetousness",
+            "entityId": "term-covetousness"
+          }
+        ]
       },
       {
         "id": "ROM-1:30",
@@ -533,7 +603,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Or do you despise the riches of his goodness, forbearance, and patience, not knowing that the goodness of God leads you to repentance?",
         "translation": "WEB",
         "illustrationId": "ill-rom-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "repentance",
+            "entityId": "term-repentance"
+          }
+        ]
       },
       {
         "id": "ROM-2:5",
@@ -544,7 +619,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But according to your hardness and unrepentant heart you are treasuring up for yourself wrath in the day of wrath, revelation, and of the righteous judgment of God;",
         "translation": "WEB",
         "illustrationId": "ill-rom-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ROM-2:6",
@@ -566,7 +650,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "to those who by perseverance in well-doing seek for glory, honor, and incorruptibility, eternal life;",
         "translation": "WEB",
         "illustrationId": "ill-rom-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "eternal life",
+            "entityId": "term-eternal-life"
+          }
+        ]
       },
       {
         "id": "ROM-2:8",
@@ -577,7 +670,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "but to those who are self-seeking, and don’t obey the truth, but obey unrighteousness, will be wrath, indignation,",
         "translation": "WEB",
         "illustrationId": "ill-rom-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          }
+        ]
       },
       {
         "id": "ROM-2:9",
@@ -600,6 +698,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rom-2",
         "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
@@ -639,6 +741,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-2",
         "linkedEntities": [
           {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
             "spanText": "justified",
             "entityId": "term-justification"
           }
@@ -669,7 +775,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "in that they show the work of the law written in their hearts, their conscience testifying with them, and their thoughts among themselves accusing or else excusing them)",
         "translation": "WEB",
         "illustrationId": "ill-rom-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
+          }
+        ]
       },
       {
         "id": "ROM-2:16",
@@ -682,12 +793,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-2",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -744,7 +855,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You therefore who teach another, don’t you teach yourself? You who preach that a man shouldn’t steal, do you steal?",
         "translation": "WEB",
         "illustrationId": "ill-rom-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "preach",
+            "entityId": "term-preach-proclaim"
+          }
+        ]
       },
       {
         "id": "ROM-2:22",
@@ -755,7 +871,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You who say a man shouldn’t commit adultery, do you commit adultery? You who abhor idols, do you rob temples?",
         "translation": "WEB",
         "illustrationId": "ill-rom-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "idols",
+            "entityId": "term-idolatry"
+          }
+        ]
       },
       {
         "id": "ROM-2:23",
@@ -779,6 +900,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-2",
         "linkedEntities": [
           {
+            "spanText": "blasphemed",
+            "entityId": "term-blasphemy"
+          },
+          {
             "spanText": "Gentiles",
             "entityId": "term-gentiles"
           }
@@ -793,7 +918,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For circumcision indeed profits, if you are a doer of the law, but if you are a transgressor of the law, your circumcision has become uncircumcision.",
         "translation": "WEB",
         "illustrationId": "ill-rom-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "circumcision",
+            "entityId": "term-circumcision"
+          }
+        ]
       },
       {
         "id": "ROM-2:26",
@@ -804,7 +934,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If therefore the uncircumcised keep the ordinances of the law, won’t his uncircumcision be accounted as circumcision?",
         "translation": "WEB",
         "illustrationId": "ill-rom-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "uncircumcised",
+            "entityId": "term-circumcision"
+          }
+        ]
       },
       {
         "id": "ROM-2:27",
@@ -815,7 +950,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Won’t the uncircumcision which is by nature, if it fulfills the law, judge you, who with the letter and circumcision are a transgressor of the law?",
         "translation": "WEB",
         "illustrationId": "ill-rom-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "uncircumcision",
+            "entityId": "term-circumcision"
+          }
+        ]
       },
       {
         "id": "ROM-2:28",
@@ -826,7 +966,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For he is not a Jew who is one outwardly, neither is that circumcision which is outward in the flesh;",
         "translation": "WEB",
         "illustrationId": "ill-rom-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "ROM-2:29",
@@ -861,7 +1006,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then what advantage does the Jew have? Or what is the profit of circumcision?",
         "translation": "WEB",
         "illustrationId": "ill-rom-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "circumcision",
+            "entityId": "term-circumcision"
+          }
+        ]
       },
       {
         "id": "ROM-3:2",
@@ -919,6 +1069,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
           }
         ]
       },
@@ -942,7 +1096,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For if the truth of God through my lie abounded to his glory, why am I also still judged as a sinner?",
         "translation": "WEB",
         "illustrationId": "ill-rom-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "ROM-3:8",
@@ -1092,6 +1251,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-3",
         "linkedEntities": [
           {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
             "spanText": "justified",
             "entityId": "term-justification"
           }
@@ -1110,6 +1273,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
           }
         ]
       },
@@ -1124,16 +1291,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-3",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
           },
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -1146,7 +1313,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "for all have sinned, and fall short of the glory of God;",
         "translation": "WEB",
         "illustrationId": "ill-rom-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "ROM-3:24",
@@ -1159,16 +1331,24 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-3",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "justified",
             "entityId": "term-justification"
           },
           {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "redemption",
+            "entityId": "term-redemption"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -1183,12 +1363,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-3",
         "linkedEntities": [
           {
-            "spanText": "righteousness",
-            "entityId": "term-righteousness"
+            "spanText": "atoning sacrifice",
+            "entityId": "term-propitiation"
           },
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -1203,16 +1387,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-3",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
           },
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -1226,6 +1410,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rom-3",
         "linkedEntities": [
+          {
+            "spanText": "boasting",
+            "entityId": "term-boasting-kauchēma"
+          },
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
@@ -1265,6 +1453,14 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gentiles",
             "entityId": "term-gentiles"
+          },
+          {
+            "spanText": "Gentiles",
+            "entityId": "term-gentiles"
+          },
+          {
+            "spanText": "Gentiles",
+            "entityId": "term-gentiles"
           }
         ]
       },
@@ -1283,8 +1479,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "term-justification"
           },
           {
+            "spanText": "circumcised",
+            "entityId": "term-circumcision"
+          },
+          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "uncircumcised",
+            "entityId": "term-circumcision"
           }
         ]
       },
@@ -1330,6 +1534,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
           }
         ]
       },
@@ -1350,6 +1558,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "justified",
             "entityId": "term-justification"
+          },
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
           }
         ]
       },
@@ -1400,12 +1612,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-4",
         "linkedEntities": [
           {
-            "spanText": "righteousness",
-            "entityId": "term-righteousness"
+            "spanText": "justifies",
+            "entityId": "term-justification"
           },
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -1438,7 +1654,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Blessed are they whose iniquities are forgiven, whose sins are covered.",
         "translation": "WEB",
         "illustrationId": "ill-rom-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "forgiven",
+            "entityId": "term-forgiveness"
+          }
+        ]
       },
       {
         "id": "ROM-4:8",
@@ -1462,16 +1683,20 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-4",
         "linkedEntities": [
           {
+            "spanText": "circumcised",
+            "entityId": "term-circumcision"
+          },
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          },
+          {
             "spanText": "Abraham",
             "entityId": "char-abraham"
           },
           {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
-          },
-          {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -1484,7 +1709,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "How then was it counted? When he was in circumcision, or in uncircumcision? Not in circumcision, but in uncircumcision.",
         "translation": "WEB",
         "illustrationId": "ill-rom-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "circumcision",
+            "entityId": "term-circumcision"
+          }
+        ]
       },
       {
         "id": "ROM-4:11",
@@ -1496,6 +1726,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rom-4",
         "linkedEntities": [
+          {
+            "spanText": "circumcision",
+            "entityId": "term-circumcision"
+          },
           {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
@@ -1517,12 +1751,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-4",
         "linkedEntities": [
           {
-            "spanText": "Abraham",
-            "entityId": "char-abraham"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
           }
         ]
       },
@@ -1539,6 +1773,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "heir",
+            "entityId": "term-inheritance"
           },
           {
             "spanText": "righteousness",
@@ -1561,6 +1799,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-4",
         "linkedEntities": [
           {
+            "spanText": "heirs",
+            "entityId": "term-inheritance"
+          },
+          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
           }
@@ -1575,7 +1817,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the law produces wrath, for where there is no law, neither is there disobedience.",
         "translation": "WEB",
         "illustrationId": "ill-rom-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          }
+        ]
       },
       {
         "id": "ROM-4:16",
@@ -1588,16 +1835,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-4",
         "linkedEntities": [
           {
-            "spanText": "Abraham",
-            "entityId": "char-abraham"
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
           },
           {
             "spanText": "grace",
             "entityId": "term-grace"
           },
           {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
           }
         ]
       },
@@ -1623,12 +1870,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-4",
         "linkedEntities": [
           {
-            "spanText": "Abraham",
-            "entityId": "char-abraham"
+            "spanText": "hope",
+            "entityId": "term-hope"
           },
           {
             "spanText": "hope",
             "entityId": "term-hope"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
           }
         ]
       },
@@ -1643,12 +1894,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-4",
         "linkedEntities": [
           {
-            "spanText": "Sarah",
-            "entityId": "char-sarah"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Sarah",
+            "entityId": "char-sarah"
           }
         ]
       },
@@ -1665,6 +1916,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
           }
         ]
       },
@@ -1762,10 +2017,6 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-5",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "justified",
             "entityId": "term-justification"
           },
@@ -1776,6 +2027,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -1790,16 +2045,20 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-5",
         "linkedEntities": [
           {
-            "spanText": "grace",
-            "entityId": "term-grace"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
           },
           {
+            "spanText": "grace",
+            "entityId": "term-grace"
+          },
+          {
             "spanText": "hope",
             "entityId": "term-hope"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
           }
         ]
       },
@@ -1863,7 +2122,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For while we were yet weak, at the right time Christ died for the ungodly.",
         "translation": "WEB",
         "illustrationId": "ill-rom-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "ROM-5:7",
@@ -1889,6 +2153,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -1905,6 +2173,14 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "justified",
             "entityId": "term-justification"
+          },
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
+          },
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
           }
         ]
       },
@@ -1921,6 +2197,14 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "reconciled",
             "entityId": "term-reconciliation"
+          },
+          {
+            "spanText": "reconciled",
+            "entityId": "term-reconciliation"
+          },
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
           }
         ]
       },
@@ -1977,12 +2261,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-5",
         "linkedEntities": [
           {
-            "spanText": "Moses",
-            "entityId": "char-moses"
-          },
-          {
             "spanText": "Adam",
             "entityId": "char-adam"
+          },
+          {
+            "spanText": "Moses",
+            "entityId": "char-moses"
           }
         ]
       },
@@ -1997,12 +2281,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-5",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -2016,6 +2300,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rom-5",
         "linkedEntities": [
+          {
+            "spanText": "condemnation",
+            "entityId": "term-condemnation"
+          },
           {
             "spanText": "justification",
             "entityId": "term-justification"
@@ -2033,16 +2321,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-5",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
+            "spanText": "grace",
+            "entityId": "term-grace"
           },
           {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
           },
           {
-            "spanText": "grace",
-            "entityId": "term-grace"
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -2057,12 +2345,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-5",
         "linkedEntities": [
           {
-            "spanText": "justified",
-            "entityId": "term-justification"
-          },
-          {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "justified",
+            "entityId": "term-justification"
           }
         ]
       },
@@ -2104,16 +2392,20 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-5",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
+            "spanText": "grace",
+            "entityId": "term-grace"
           },
           {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
           },
           {
-            "spanText": "grace",
-            "entityId": "term-grace"
+            "spanText": "eternal life",
+            "entityId": "term-eternal-life"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       }
@@ -2168,12 +2460,20 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-6",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
+            "spanText": "baptized",
+            "entityId": "term-baptism"
           },
           {
             "spanText": "baptized",
             "entityId": "term-baptism"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -2190,6 +2490,14 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "baptism",
             "entityId": "term-baptism"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
           }
         ]
       },
@@ -2369,7 +2677,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But thanks be to God, that, whereas you were bondservants of sin, you became obedient from the heart to that form of teaching to which you were delivered.",
         "translation": "WEB",
         "illustrationId": "ill-rom-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "bondservants",
+            "entityId": "term-bondservant"
+          }
+        ]
       },
       {
         "id": "ROM-6:18",
@@ -2381,6 +2694,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rom-6",
         "linkedEntities": [
+          {
+            "spanText": "bondservants",
+            "entityId": "term-bondservant"
+          },
           {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
@@ -2398,8 +2715,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-6",
         "linkedEntities": [
           {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "sanctification",
+            "entityId": "term-sanctification"
           }
         ]
       },
@@ -2439,7 +2764,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But now, being made free from sin and having become servants of God, you have your fruit of sanctification and the result of eternal life.",
         "translation": "WEB",
         "illustrationId": "ill-rom-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctification",
+            "entityId": "term-sanctification"
+          },
+          {
+            "spanText": "eternal life",
+            "entityId": "term-eternal-life"
+          }
+        ]
       },
       {
         "id": "ROM-6:23",
@@ -2451,6 +2785,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rom-6",
         "linkedEntities": [
+          {
+            "spanText": "eternal life",
+            "entityId": "term-eternal-life"
+          },
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
@@ -2512,7 +2850,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore, my brothers, you also were made dead to the law through the body of Christ, that you would be joined to another, to him who was raised from the dead, that we might produce fruit to God.",
         "translation": "WEB",
         "illustrationId": "ill-rom-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "ROM-7:5",
@@ -2523,7 +2866,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For when we were in the flesh, the sinful passions which were through the law worked in our members to bring out fruit to death.",
         "translation": "WEB",
         "illustrationId": "ill-rom-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "ROM-7:6",
@@ -2545,7 +2893,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "What shall we say then? Is the law sin? May it never be! However, I wouldn’t have known sin, except through the law. For I wouldn’t have known coveting, unless the law had said, “You shall not covet.”",
         "translation": "WEB",
         "illustrationId": "ill-rom-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "coveting",
+            "entityId": "term-covetousness"
+          },
+          {
+            "spanText": "covet",
+            "entityId": "term-covetousness"
+          }
+        ]
       },
       {
         "id": "ROM-7:8",
@@ -2556,7 +2913,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But sin, finding occasion through the commandment, produced in me all kinds of coveting. For apart from the law, sin is dead.",
         "translation": "WEB",
         "illustrationId": "ill-rom-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "commandment",
+            "entityId": "term-commandments"
+          },
+          {
+            "spanText": "coveting",
+            "entityId": "term-covetousness"
+          }
+        ]
       },
       {
         "id": "ROM-7:9",
@@ -2567,7 +2933,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I was alive apart from the law once, but when the commandment came, sin revived, and I died.",
         "translation": "WEB",
         "illustrationId": "ill-rom-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "commandment",
+            "entityId": "term-commandments"
+          }
+        ]
       },
       {
         "id": "ROM-7:10",
@@ -2600,7 +2971,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore the law indeed is holy, and the commandment holy, and righteous, and good.",
         "translation": "WEB",
         "illustrationId": "ill-rom-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "ROM-7:13",
@@ -2666,7 +3042,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For I know that in me, that is, in my flesh, dwells no good thing. For desire is present with me, but I don’t find it doing that which is good.",
         "translation": "WEB",
         "illustrationId": "ill-rom-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "ROM-7:19",
@@ -2774,8 +3155,20 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-8",
         "linkedEntities": [
           {
+            "spanText": "condemnation",
+            "entityId": "term-condemnation"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
           },
           {
             "spanText": "Spirit",
@@ -2794,12 +3187,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-8",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -2812,7 +3209,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For what the law couldn’t do, in that it was weak through the flesh, God did, sending his own Son in the likeness of sinful flesh and for sin, he condemned sin in the flesh;",
         "translation": "WEB",
         "illustrationId": "ill-rom-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "ROM-8:4",
@@ -2843,6 +3245,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-holy-spirit-nt"
           }
         ]
       },
@@ -2857,12 +3263,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-8",
         "linkedEntities": [
           {
-            "spanText": "peace",
-            "entityId": "term-peace-eirene"
-          },
-          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "peace",
+            "entityId": "term-peace-eirene"
           }
         ]
       },
@@ -2901,6 +3307,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-holy-spirit-nt"
           }
         ]
       },
@@ -2931,12 +3341,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-8",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -2994,12 +3404,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-8",
         "linkedEntities": [
           {
-            "spanText": "adoption",
-            "entityId": "term-adoption"
-          },
-          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "adoption",
+            "entityId": "term-adoption"
           }
         ]
       },
@@ -3028,7 +3438,20 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and if children, then heirs: heirs of God and joint heirs with Christ, if indeed we suffer with him, that we may also be glorified with him.",
         "translation": "WEB",
         "illustrationId": "ill-rom-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heirs",
+            "entityId": "term-inheritance"
+          },
+          {
+            "spanText": "heirs",
+            "entityId": "term-inheritance"
+          },
+          {
+            "spanText": "glorified",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "ROM-8:18",
@@ -3039,7 +3462,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For I consider that the sufferings of this present time are not worthy to be compared with the glory which will be revealed toward us.",
         "translation": "WEB",
         "illustrationId": "ill-rom-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "ROM-8:19",
@@ -3101,12 +3529,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-8",
         "linkedEntities": [
           {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
+          },
+          {
             "spanText": "adoption",
             "entityId": "term-adoption"
           },
           {
-            "spanText": "Spirit",
-            "entityId": "term-ruach"
+            "spanText": "redemption",
+            "entityId": "term-redemption"
           }
         ]
       },
@@ -3120,6 +3552,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rom-8",
         "linkedEntities": [
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
+          },
           {
             "spanText": "hope",
             "entityId": "term-hope"
@@ -3171,6 +3607,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
           }
         ]
       },
@@ -3214,6 +3654,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "justified",
             "entityId": "term-justification"
+          },
+          {
+            "spanText": "justified",
+            "entityId": "term-justification"
           }
         ]
       },
@@ -3248,7 +3692,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Who could bring a charge against God’s chosen ones? It is God who justifies.",
         "translation": "WEB",
         "illustrationId": "ill-rom-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "justifies",
+            "entityId": "term-justification"
+          }
+        ]
       },
       {
         "id": "ROM-8:34",
@@ -3274,6 +3723,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "persecution",
+            "entityId": "term-tribulation"
           }
         ]
       },
@@ -3308,7 +3761,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For I am persuaded that neither death, nor life, nor angels, nor principalities, nor things present, nor things to come, nor powers,",
         "translation": "WEB",
         "illustrationId": "ill-rom-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "ROM-8:39",
@@ -3321,12 +3779,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-8",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       }
@@ -3354,6 +3812,14 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-9",
         "linkedEntities": [
           {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
+          },
+          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
           }
@@ -3379,7 +3845,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For I could wish that I myself were accursed from Christ for my brothers’ sake, my relatives according to the flesh",
         "translation": "WEB",
         "illustrationId": "ill-rom-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "ROM-9:4",
@@ -3394,6 +3869,14 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "adoption",
             "entityId": "term-adoption"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "covenants",
+            "entityId": "term-covenant"
           }
         ]
       },
@@ -3406,7 +3889,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "of whom are the fathers, and from whom is Christ as concerning the flesh, who is over all, God, blessed forever. Amen.",
         "translation": "WEB",
         "illustrationId": "ill-rom-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
+          }
+        ]
       },
       {
         "id": "ROM-9:6",
@@ -3453,7 +3945,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "That is, it is not the children of the flesh who are children of God, but the children of the promise are counted as heirs.",
         "translation": "WEB",
         "illustrationId": "ill-rom-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heirs",
+            "entityId": "term-inheritance"
+          }
+        ]
       },
       {
         "id": "ROM-9:9",
@@ -3507,7 +4004,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "it was said to her, “The elder will serve the younger.”",
         "translation": "WEB",
         "illustrationId": "ill-rom-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "elder",
+            "entityId": "term-elder-presbyter"
+          }
+        ]
       },
       {
         "id": "ROM-9:13",
@@ -3557,6 +4059,14 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "mercy",
+            "entityId": "term-mercy-eleos"
+          },
+          {
+            "spanText": "mercy",
+            "entityId": "term-mercy-eleos"
           }
         ]
       },
@@ -3645,7 +4155,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "What if God, willing to show his wrath and to make his power known, endured with much patience vessels of wrath prepared for destruction,",
         "translation": "WEB",
         "illustrationId": "ill-rom-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          },
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          }
+        ]
       },
       {
         "id": "ROM-9:23",
@@ -3657,6 +4176,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rom-9",
         "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
           {
             "spanText": "mercy",
             "entityId": "term-loyal-love"
@@ -3723,6 +4246,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Israel",
             "entityId": "term-israel"
+          },
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
           }
         ]
       },
@@ -3769,16 +4296,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-9",
         "linkedEntities": [
           {
+            "spanText": "Gentiles",
+            "entityId": "term-gentiles"
+          },
+          {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
           },
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
-          },
-          {
-            "spanText": "Gentiles",
-            "entityId": "term-gentiles"
           }
         ]
       },
@@ -3793,12 +4320,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-9",
         "linkedEntities": [
           {
-            "spanText": "righteousness",
-            "entityId": "term-righteousness"
-          },
-          {
             "spanText": "Israel",
             "entityId": "term-israel"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -3853,12 +4380,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-10",
         "linkedEntities": [
           {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          },
+          {
             "spanText": "Israel",
             "entityId": "term-israel"
           },
           {
-            "spanText": "prayer",
-            "entityId": "term-prayer"
+            "spanText": "saved",
+            "entityId": "term-salvation"
           }
         ]
       },
@@ -3899,6 +4430,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rom-10",
         "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
           {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
@@ -3942,6 +4477,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -3954,7 +4493,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "or, ‘Who will descend into the abyss?’ (that is, to bring Christ up from the dead.)”",
         "translation": "WEB",
         "illustrationId": "ill-rom-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "abyss",
+            "entityId": "term-abyss"
+          }
+        ]
       },
       {
         "id": "ROM-10:8",
@@ -3969,6 +4513,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "preach",
+            "entityId": "term-preach-proclaim"
           }
         ]
       },
@@ -3983,8 +4531,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-10",
         "linkedEntities": [
           {
+            "spanText": "confess",
+            "entityId": "term-confession"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
           }
         ]
       },
@@ -4001,6 +4557,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "confession",
+            "entityId": "term-confession"
           }
         ]
       },
@@ -4058,6 +4618,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rom-10",
         "linkedEntities": [
+          {
+            "spanText": "preach",
+            "entityId": "term-preach-proclaim"
+          },
           {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
@@ -4122,12 +4686,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-10",
         "linkedEntities": [
           {
-            "spanText": "Moses",
-            "entityId": "char-moses"
-          },
-          {
             "spanText": "Israel",
             "entityId": "term-israel"
+          },
+          {
+            "spanText": "Moses",
+            "entityId": "char-moses"
           }
         ]
       },
@@ -4221,7 +4785,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Lord, they have killed your prophets, they have broken down your altars. I am left alone, and they seek my life.”",
         "translation": "WEB",
         "illustrationId": "ill-rom-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "ROM-11:4",
@@ -4306,6 +4875,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "stumbling block",
+            "entityId": "term-stumbling-block"
           }
         ]
       },
@@ -4330,6 +4903,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rom-11",
         "linkedEntities": [
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          },
           {
             "spanText": "Gentiles",
             "entityId": "term-gentiles"
@@ -4365,6 +4942,14 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gentiles",
             "entityId": "term-gentiles"
+          },
+          {
+            "spanText": "apostle",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "glorify",
+            "entityId": "term-glory-doxa"
           }
         ]
       },
@@ -4377,7 +4962,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "if by any means I may provoke to jealousy those who are my flesh, and may save some of them.",
         "translation": "WEB",
         "illustrationId": "ill-rom-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "ROM-11:15",
@@ -4388,7 +4978,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For if the rejection of them is the reconciling of the world, what would their acceptance be, but life from the dead?",
         "translation": "WEB",
         "illustrationId": "ill-rom-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "reconciling",
+            "entityId": "term-reconciliation"
+          }
+        ]
       },
       {
         "id": "ROM-11:16",
@@ -4421,7 +5016,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "don’t boast over the branches. But if you boast, it is not you who support the root, but the root supports you.",
         "translation": "WEB",
         "illustrationId": "ill-rom-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
+          },
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "ROM-11:19",
@@ -4505,12 +5109,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-11",
         "linkedEntities": [
           {
-            "spanText": "Gentiles",
-            "entityId": "term-gentiles"
-          },
-          {
             "spanText": "Israel",
             "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gentiles",
+            "entityId": "term-gentiles"
           }
         ]
       },
@@ -4525,12 +5129,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-11",
         "linkedEntities": [
           {
-            "spanText": "Jacob",
-            "entityId": "char-jacob"
-          },
-          {
             "spanText": "Israel",
             "entityId": "term-israel"
+          },
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -4606,6 +5214,14 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "mercy",
+            "entityId": "term-mercy-eleos"
+          },
+          {
+            "spanText": "mercy",
+            "entityId": "term-mercy-eleos"
           }
         ]
       },
@@ -4672,7 +5288,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For of him, and through him, and to him are all things. To him be the glory for ever! Amen.",
         "translation": "WEB",
         "illustrationId": "ill-rom-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
+          }
+        ]
       }
     ]
   },
@@ -4696,7 +5321,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore I urge you, brothers, by the mercies of God, to present your bodies a living sacrifice, holy, acceptable to God, which is your spiritual service.",
         "translation": "WEB",
         "illustrationId": "ill-rom-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
+          }
+        ]
       },
       {
         "id": "ROM-12:2",
@@ -4749,7 +5379,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "so we, who are many, are one body in Christ, and individually members of one another,",
         "translation": "WEB",
         "illustrationId": "ill-rom-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "ROM-12:6",
@@ -4764,6 +5399,14 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "prophecy",
+            "entityId": "term-prophecy-nt"
+          },
+          {
+            "spanText": "prophesy",
+            "entityId": "term-prophecy-nt"
           },
           {
             "spanText": "faith",
@@ -4811,6 +5454,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "hypocrisy",
+            "entityId": "term-hypocrite"
           }
         ]
       },
@@ -4870,7 +5517,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "contributing to the needs of the saints; given to hospitality.",
         "translation": "WEB",
         "illustrationId": "ill-rom-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "ROM-12:14",
@@ -4881,7 +5533,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Bless those who persecute you; bless, and don’t curse.",
         "translation": "WEB",
         "illustrationId": "ill-rom-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "persecute",
+            "entityId": "term-tribulation"
+          }
+        ]
       },
       {
         "id": "ROM-12:15",
@@ -4903,7 +5560,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Be of the same mind one toward another. Don’t set your mind on high things, but associate with the humble. Don’t be wise in your own conceits.",
         "translation": "WEB",
         "illustrationId": "ill-rom-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "humble",
+            "entityId": "term-humble-meekness"
+          }
+        ]
       },
       {
         "id": "ROM-12:17",
@@ -4941,7 +5603,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t seek revenge yourselves, beloved, but give place to God’s wrath. For it is written, “Vengeance belongs to me; I will repay, says the Lord.”",
         "translation": "WEB",
         "illustrationId": "ill-rom-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          }
+        ]
       },
       {
         "id": "ROM-12:20",
@@ -5020,7 +5687,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "for he is a servant of God to you for good. But if you do that which is evil, be afraid, for he doesn’t bear the sword in vain; for he is a servant of God, an avenger for wrath to him who does evil.",
         "translation": "WEB",
         "illustrationId": "ill-rom-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          }
+        ]
       },
       {
         "id": "ROM-13:5",
@@ -5031,7 +5703,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore you need to be in subjection, not only because of the wrath, but also for conscience’ sake.",
         "translation": "WEB",
         "illustrationId": "ill-rom-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          },
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
+          }
+        ]
       },
       {
         "id": "ROM-13:6",
@@ -5082,6 +5763,14 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-13",
         "linkedEntities": [
           {
+            "spanText": "commandments",
+            "entityId": "term-commandments"
+          },
+          {
+            "spanText": "covet",
+            "entityId": "term-covetousness"
+          },
+          {
             "spanText": "love",
             "entityId": "term-agape-love"
           }
@@ -5112,7 +5801,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Do this, knowing the time, that it is already time for you to awaken out of sleep, for salvation is now nearer to us than when we first believed.",
         "translation": "WEB",
         "illustrationId": "ill-rom-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          }
+        ]
       },
       {
         "id": "ROM-13:12",
@@ -5149,6 +5843,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
           }
         ]
       }
@@ -5272,7 +5970,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For to this end Christ died, rose, and lived again, that he might be Lord of both the dead and the living.",
         "translation": "WEB",
         "illustrationId": "ill-rom-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "ROM-14:10",
@@ -5283,7 +5986,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But you, why do you judge your brother? Or you again, why do you despise your brother? For we will all stand before the judgment seat of Christ.",
         "translation": "WEB",
         "illustrationId": "ill-rom-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "ROM-14:11",
@@ -5294,7 +6002,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For it is written, “ ‘As I live,’ says the Lord, ‘to me every knee will bow. Every tongue will confess to God.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-rom-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "confess",
+            "entityId": "term-confession"
+          }
+        ]
       },
       {
         "id": "ROM-14:12",
@@ -5316,7 +6029,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore let’s not judge one another any more, but judge this rather, that no man put a stumbling block in his brother’s way, or an occasion for falling.",
         "translation": "WEB",
         "illustrationId": "ill-rom-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "stumbling block",
+            "entityId": "term-stumbling-block"
+          }
+        ]
       },
       {
         "id": "ROM-14:14",
@@ -5380,6 +6098,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "term-peace-eirene"
           },
           {
+            "spanText": "joy",
+            "entityId": "term-joy-chara"
+          },
+          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
           }
@@ -5421,7 +6143,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t overthrow God’s work for food’s sake. All things indeed are clean, however it is evil for that man who creates a stumbling block by eating.",
         "translation": "WEB",
         "illustrationId": "ill-rom-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "stumbling block",
+            "entityId": "term-stumbling-block"
+          }
+        ]
       },
       {
         "id": "ROM-14:21",
@@ -5477,12 +6204,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-14",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "preaching",
+            "entityId": "term-preach-proclaim"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -5496,6 +6227,14 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rom-14",
         "linkedEntities": [
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          },
+          {
+            "spanText": "commandment",
+            "entityId": "term-commandments"
+          },
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
@@ -5515,6 +6254,14 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       }
@@ -5562,7 +6309,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For even Christ didn’t please himself. But, as it is written, “The reproaches of those who reproached you fell on me.”",
         "translation": "WEB",
         "illustrationId": "ill-rom-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "ROM-15:4",
@@ -5591,6 +6343,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-15",
         "linkedEntities": [
           {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           }
@@ -5607,6 +6363,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-15",
         "linkedEntities": [
           {
+            "spanText": "glorify",
+            "entityId": "term-glory-doxa"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           }
@@ -5621,7 +6381,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore accept one another, even as Christ also accepted you, to the glory of God.",
         "translation": "WEB",
         "illustrationId": "ill-rom-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "ROM-15:8",
@@ -5632,7 +6397,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now I say that Christ has been made a servant of the circumcision for the truth of God, that he might confirm the promises given to the fathers,",
         "translation": "WEB",
         "illustrationId": "ill-rom-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "circumcision",
+            "entityId": "term-circumcision"
+          }
+        ]
       },
       {
         "id": "ROM-15:9",
@@ -5701,12 +6471,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-isaiah"
           },
           {
-            "spanText": "hope",
-            "entityId": "term-hope"
-          },
-          {
             "spanText": "Gentiles",
             "entityId": "term-gentiles"
+          },
+          {
+            "spanText": "hope",
+            "entityId": "term-hope"
           }
         ]
       },
@@ -5723,6 +6493,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "hope",
             "entityId": "term-hope"
+          },
+          {
+            "spanText": "joy",
+            "entityId": "term-joy-chara"
           },
           {
             "spanText": "peace",
@@ -5772,16 +6546,24 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-15",
         "linkedEntities": [
           {
-            "spanText": "Good News",
-            "entityId": "term-gospel-euangelion"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           },
           {
             "spanText": "Gentiles",
             "entityId": "term-gentiles"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Good News",
+            "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "sanctified",
+            "entityId": "term-sanctification"
           },
           {
             "spanText": "Spirit",
@@ -5799,6 +6581,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rom-15",
         "linkedEntities": [
+          {
+            "spanText": "boasting",
+            "entityId": "term-boasting-kauchēma"
+          },
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
@@ -5832,16 +6618,20 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-15",
         "linkedEntities": [
           {
-            "spanText": "Good News",
-            "entityId": "term-gospel-euangelion"
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           },
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
           },
           {
-            "spanText": "Spirit",
-            "entityId": "term-ruach"
+            "spanText": "preached",
+            "entityId": "term-preach-proclaim"
+          },
+          {
+            "spanText": "Good News",
+            "entityId": "term-gospel-euangelion"
           }
         ]
       },
@@ -5855,6 +6645,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rom-15",
         "linkedEntities": [
+          {
+            "spanText": "preach",
+            "entityId": "term-preach-proclaim"
+          },
           {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
@@ -5923,6 +6717,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
           }
         ]
       },
@@ -5936,6 +6734,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rom-15",
         "linkedEntities": [
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          },
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
@@ -6020,6 +6822,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-15",
         "linkedEntities": [
           {
+            "spanText": "Judea",
+            "entityId": "place-judea"
+          },
+          {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
           }
@@ -6034,7 +6840,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "that I may come to you in joy through the will of God, and together with you, find rest.",
         "translation": "WEB",
         "illustrationId": "ill-rom-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "joy",
+            "entityId": "term-joy-chara"
+          }
+        ]
       },
       {
         "id": "ROM-15:33",
@@ -6049,6 +6860,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       }
@@ -6094,7 +6909,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "that you receive her in the Lord, in a way worthy of the saints, and that you assist her in whatever matter she may need from you, for she herself also has been a helper of many, and of my own self.",
         "translation": "WEB",
         "illustrationId": "ill-rom-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "ROM-16:3",
@@ -6109,6 +6929,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Aquila",
             "entityId": "char-priscilla-aquila"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           },
           {
             "spanText": "Jesus",
@@ -6145,6 +6969,10 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "assembly",
             "entityId": "term-church-ekklesia"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -6168,7 +6996,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Greet Andronicus and Junia, my relatives and my fellow prisoners, who are notable among the apostles, who were also in Christ before me.",
         "translation": "WEB",
         "illustrationId": "ill-rom-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          }
+        ]
       },
       {
         "id": "ROM-16:8",
@@ -6256,7 +7089,12 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Greet Philologus and Julia, Nereus and his sister, and Olympas, and all the saints who are with them.",
         "translation": "WEB",
         "illustrationId": "ill-rom-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "ROM-16:16",
@@ -6318,16 +7156,20 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-16",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
+            "spanText": "peace",
+            "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "Satan",
+            "entityId": "term-satan-adversary"
           },
           {
             "spanText": "grace",
             "entityId": "term-grace"
           },
           {
-            "spanText": "peace",
-            "entityId": "term-peace-eirene"
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -6385,12 +7227,16 @@ export const ROMANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rom-16",
         "linkedEntities": [
           {
+            "spanText": "grace",
+            "entityId": "term-grace"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           },
           {
-            "spanText": "grace",
-            "entityId": "term-grace"
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       },

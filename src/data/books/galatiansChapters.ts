@@ -23,12 +23,16 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Paul",
             "entityId": "char-paul"
+          },
+          {
+            "spanText": "apostle",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -59,16 +63,16 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Grace",
             "entityId": "term-grace"
           },
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -92,7 +96,16 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "to whom be the glory forever and ever. Amen.",
         "translation": "WEB",
         "illustrationId": "ill-gal-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
+          }
+        ]
       },
       {
         "id": "GAL-1:6",
@@ -105,12 +118,16 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-1",
         "linkedEntities": [
           {
-            "spanText": "good news",
-            "entityId": "term-gospel-euangelion"
-          },
-          {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "good news",
+            "entityId": "term-gospel-euangelion"
           }
         ]
       },
@@ -127,6 +144,10 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "good news",
             "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -140,6 +161,14 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-gal-1",
         "linkedEntities": [
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "preach",
+            "entityId": "term-preach-proclaim"
+          },
           {
             "spanText": "good news",
             "entityId": "term-gospel-euangelion"
@@ -156,6 +185,10 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-gal-1",
         "linkedEntities": [
+          {
+            "spanText": "preaches",
+            "entityId": "term-preach-proclaim"
+          },
           {
             "spanText": "good news",
             "entityId": "term-gospel-euangelion"
@@ -216,6 +249,10 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-1",
         "linkedEntities": [
           {
+            "spanText": "persecuted",
+            "entityId": "term-tribulation"
+          },
+          {
             "spanText": "assembly",
             "entityId": "term-church-ekklesia"
           }
@@ -261,6 +298,10 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gentiles",
             "entityId": "term-gentiles"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
           }
         ]
       },
@@ -279,6 +320,10 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "place-jerusalem"
           },
           {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          },
+          {
             "spanText": "Damascus",
             "entityId": "place-damascus"
           }
@@ -295,12 +340,12 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-1",
         "linkedEntities": [
           {
-            "spanText": "Peter",
-            "entityId": "char-peter"
-          },
-          {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Peter",
+            "entityId": "char-peter"
           }
         ]
       },
@@ -355,6 +400,10 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "assemblies",
             "entityId": "term-church-ekklesia"
+          },
+          {
+            "spanText": "Judea",
+            "entityId": "place-judea"
           }
         ]
       },
@@ -368,6 +417,10 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-gal-1",
         "linkedEntities": [
+          {
+            "spanText": "persecuted",
+            "entityId": "term-tribulation"
+          },
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
@@ -383,7 +436,12 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So they glorified God in me.",
         "translation": "WEB",
         "illustrationId": "ill-gal-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glorified",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       }
     ]
   },
@@ -409,16 +467,16 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-2",
         "linkedEntities": [
           {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
+          },
+          {
             "spanText": "Barnabas",
             "entityId": "char-barnabas"
           },
           {
             "spanText": "Titus",
             "entityId": "char-titus"
-          },
-          {
-            "spanText": "Jerusalem",
-            "entityId": "place-jerusalem"
           }
         ]
       },
@@ -435,6 +493,10 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "preach",
+            "entityId": "term-preach-proclaim"
           },
           {
             "spanText": "Gentiles",
@@ -455,6 +517,10 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Titus",
             "entityId": "char-titus"
+          },
+          {
+            "spanText": "circumcised",
+            "entityId": "term-circumcision"
           }
         ]
       },
@@ -469,12 +535,16 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-2",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "liberty",
             "entityId": "term-freedom-eleutheria"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -520,6 +590,10 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "term-gospel-euangelion"
           },
           {
+            "spanText": "uncircumcised",
+            "entityId": "term-circumcision"
+          },
+          {
             "spanText": "Peter",
             "entityId": "char-peter"
           }
@@ -540,6 +614,10 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-peter"
           },
           {
+            "spanText": "circumcised",
+            "entityId": "term-circumcision"
+          },
+          {
             "spanText": "Gentiles",
             "entityId": "term-gentiles"
           }
@@ -556,24 +634,28 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-2",
         "linkedEntities": [
           {
-            "spanText": "Barnabas",
-            "entityId": "char-barnabas"
-          },
-          {
-            "spanText": "Cephas",
-            "entityId": "char-peter"
+            "spanText": "grace",
+            "entityId": "term-grace"
           },
           {
             "spanText": "James",
             "entityId": "char-james-jerusalem"
           },
           {
+            "spanText": "Cephas",
+            "entityId": "char-peter"
+          },
+          {
             "spanText": "John",
             "entityId": "char-john-apostle"
           },
           {
-            "spanText": "grace",
-            "entityId": "term-grace"
+            "spanText": "Barnabas",
+            "entityId": "char-barnabas"
+          },
+          {
+            "spanText": "fellowship",
+            "entityId": "term-fellowship-koinonia"
           },
           {
             "spanText": "Gentiles",
@@ -643,6 +725,14 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-2",
         "linkedEntities": [
           {
+            "spanText": "hypocrisy",
+            "entityId": "term-hypocrite"
+          },
+          {
+            "spanText": "hypocrisy",
+            "entityId": "term-hypocrite"
+          },
+          {
             "spanText": "Barnabas",
             "entityId": "char-barnabas"
           }
@@ -699,12 +789,8 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-2",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
+            "spanText": "justified",
+            "entityId": "term-justification"
           },
           {
             "spanText": "justified",
@@ -713,6 +799,22 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
           }
         ]
       },
@@ -765,12 +867,16 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-2",
         "linkedEntities": [
           {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
-          },
-          {
             "spanText": "crucified",
             "entityId": "term-crucifixion"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -785,12 +891,12 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-2",
         "linkedEntities": [
           {
-            "spanText": "righteousness",
-            "entityId": "term-righteousness"
-          },
-          {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       }
@@ -838,12 +944,12 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-3",
         "linkedEntities": [
           {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
-          },
-          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -860,6 +966,10 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
           }
         ]
       },
@@ -885,12 +995,16 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-3",
         "linkedEntities": [
           {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
-          },
-          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "miracles",
+            "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -925,12 +1039,12 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-3",
         "linkedEntities": [
           {
-            "spanText": "Abraham",
-            "entityId": "char-abraham"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
           }
         ]
       },
@@ -945,24 +1059,28 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-3",
         "linkedEntities": [
           {
-            "spanText": "Good News",
-            "entityId": "term-gospel-euangelion"
-          },
-          {
-            "spanText": "Abraham",
-            "entityId": "char-abraham"
-          },
-          {
             "spanText": "justify",
             "entityId": "term-justification"
+          },
+          {
+            "spanText": "Gentiles",
+            "entityId": "term-gentiles"
           },
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
           },
           {
-            "spanText": "Gentiles",
-            "entityId": "term-gentiles"
+            "spanText": "preached",
+            "entityId": "term-preach-proclaim"
+          },
+          {
+            "spanText": "Good News",
+            "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
           }
         ]
       },
@@ -977,12 +1095,12 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-3",
         "linkedEntities": [
           {
-            "spanText": "Abraham",
-            "entityId": "char-abraham"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
           }
         ]
       },
@@ -1042,7 +1160,16 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Christ redeemed us from the curse of the law, having become a curse for us. For it is written, “Cursed is everyone who hangs on a tree,”",
         "translation": "WEB",
         "illustrationId": "ill-gal-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "redeemed",
+            "entityId": "term-redemption"
+          }
+        ]
       },
       {
         "id": "GAL-3:14",
@@ -1059,20 +1186,24 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-abraham"
           },
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
-          },
-          {
             "spanText": "Gentiles",
             "entityId": "term-gentiles"
           },
           {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
+          },
+          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -1135,6 +1266,10 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-3",
         "linkedEntities": [
           {
+            "spanText": "inheritance",
+            "entityId": "term-inheritance"
+          },
+          {
             "spanText": "Abraham",
             "entityId": "char-abraham"
           }
@@ -1149,7 +1284,20 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then why is there the law? It was added because of transgressions, until the offspring should come to whom the promise has been made. It was ordained through angels by the hand of a mediator.",
         "translation": "WEB",
         "illustrationId": "ill-gal-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "transgressions",
+            "entityId": "term-condemnation"
+          },
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "mediator",
+            "entityId": "term-mediator"
+          }
+        ]
       },
       {
         "id": "GAL-3:20",
@@ -1160,7 +1308,12 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now a mediator is not between one, but God is one.",
         "translation": "WEB",
         "illustrationId": "ill-gal-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "mediator",
+            "entityId": "term-mediator"
+          }
+        ]
       },
       {
         "id": "GAL-3:21",
@@ -1189,12 +1342,12 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-3",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -1261,12 +1414,12 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-3",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -1315,6 +1468,10 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abraham",
             "entityId": "char-abraham"
+          },
+          {
+            "spanText": "heirs",
+            "entityId": "term-inheritance"
           }
         ]
       }
@@ -1340,7 +1497,16 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But I say that so long as the heir is a child, he is no different from a bondservant, though he is lord of all,",
         "translation": "WEB",
         "illustrationId": "ill-gal-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heir",
+            "entityId": "term-inheritance"
+          },
+          {
+            "spanText": "bondservant",
+            "entityId": "term-bondservant"
+          }
+        ]
       },
       {
         "id": "GAL-4:2",
@@ -1351,7 +1517,12 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "but is under guardians and stewards until the day appointed by the father.",
         "translation": "WEB",
         "illustrationId": "ill-gal-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "stewards",
+            "entityId": "term-steward"
+          }
+        ]
       },
       {
         "id": "GAL-4:3",
@@ -1406,12 +1577,12 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-4",
         "linkedEntities": [
           {
-            "spanText": "Abba",
-            "entityId": "term-adoption"
-          },
-          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Abba",
+            "entityId": "term-adoption"
           }
         ]
       },
@@ -1424,7 +1595,20 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So you are no longer a bondservant, but a son; and if a son, then an heir of God through Christ.",
         "translation": "WEB",
         "illustrationId": "ill-gal-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "bondservant",
+            "entityId": "term-bondservant"
+          },
+          {
+            "spanText": "heir",
+            "entityId": "term-inheritance"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "GAL-4:8",
@@ -1492,6 +1676,14 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-4",
         "linkedEntities": [
           {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
+            "spanText": "preached",
+            "entityId": "term-preach-proclaim"
+          },
+          {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
           }
@@ -1507,6 +1699,18 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-gal-4",
         "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
@@ -1628,16 +1832,16 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-4",
         "linkedEntities": [
           {
+            "spanText": "covenants",
+            "entityId": "term-covenant"
+          },
+          {
             "spanText": "Mount Sinai",
             "entityId": "place-sinai"
           },
           {
             "spanText": "Hagar",
             "entityId": "char-hagar"
-          },
-          {
-            "spanText": "covenants",
-            "entityId": "term-covenant"
           }
         ]
       },
@@ -1652,12 +1856,12 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-4",
         "linkedEntities": [
           {
-            "spanText": "Mount Sinai",
-            "entityId": "place-sinai"
-          },
-          {
             "spanText": "Hagar",
             "entityId": "char-hagar"
+          },
+          {
+            "spanText": "Mount Sinai",
+            "entityId": "place-sinai"
           },
           {
             "spanText": "Jerusalem",
@@ -1724,6 +1928,10 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-4",
         "linkedEntities": [
           {
+            "spanText": "persecuted",
+            "entityId": "term-tribulation"
+          },
+          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
           }
@@ -1777,6 +1985,14 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "liberty",
             "entityId": "term-freedom-eleutheria"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "yoke",
+            "entityId": "term-yoke"
           }
         ]
       },
@@ -1793,6 +2009,14 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Paul",
             "entityId": "char-paul"
+          },
+          {
+            "spanText": "circumcision",
+            "entityId": "term-circumcision"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -1805,7 +2029,12 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yes, I testify again to every man who receives circumcision that he is a debtor to do the whole law.",
         "translation": "WEB",
         "illustrationId": "ill-gal-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "circumcision",
+            "entityId": "term-circumcision"
+          }
+        ]
       },
       {
         "id": "GAL-5:4",
@@ -1838,8 +2067,8 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-5",
         "linkedEntities": [
           {
-            "spanText": "righteousness",
-            "entityId": "term-righteousness"
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           },
           {
             "spanText": "faith",
@@ -1850,8 +2079,8 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "term-hope"
           },
           {
-            "spanText": "Spirit",
-            "entityId": "term-ruach"
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -1868,6 +2097,10 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "circumcision",
+            "entityId": "term-circumcision"
           },
           {
             "spanText": "faith",
@@ -1932,7 +2165,24 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But I, brothers, if I still preach circumcision, why am I still persecuted? Then the stumbling block of the cross has been removed.",
         "translation": "WEB",
         "illustrationId": "ill-gal-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "preach",
+            "entityId": "term-preach-proclaim"
+          },
+          {
+            "spanText": "persecuted",
+            "entityId": "term-tribulation"
+          },
+          {
+            "spanText": "stumbling block",
+            "entityId": "term-stumbling-block"
+          },
+          {
+            "spanText": "cross",
+            "entityId": "term-crucifixion"
+          }
+        ]
       },
       {
         "id": "GAL-5:12",
@@ -1958,6 +2208,10 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "freedom",
             "entityId": "term-freedom-eleutheria"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
           },
           {
             "spanText": "love",
@@ -2005,6 +2259,10 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
           }
         ]
       },
@@ -2021,6 +2279,10 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-holy-spirit-nt"
           }
         ]
       },
@@ -2049,7 +2311,12 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the deeds of the flesh are obvious, which are: adultery, sexual immorality, uncleanness, lustfulness,",
         "translation": "WEB",
         "illustrationId": "ill-gal-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
+          }
+        ]
       },
       {
         "id": "GAL-5:20",
@@ -2060,7 +2327,12 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "idolatry, sorcery, hatred, strife, jealousies, outbursts of anger, rivalries, divisions, heresies,",
         "translation": "WEB",
         "illustrationId": "ill-gal-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "idolatry",
+            "entityId": "term-idolatry"
+          }
+        ]
       },
       {
         "id": "GAL-5:21",
@@ -2088,20 +2360,20 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "term-fruit-of-spirit"
           },
           {
-            "spanText": "joy",
-            "entityId": "term-joy-chara"
-          },
-          {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
-          },
-          {
             "spanText": "love",
             "entityId": "term-agape-love"
           },
           {
+            "spanText": "joy",
+            "entityId": "term-joy-chara"
+          },
+          {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -2145,6 +2417,10 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-holy-spirit-nt"
           }
         ]
       },
@@ -2192,7 +2468,12 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Bear one another’s burdens, and so fulfill the law of Christ.",
         "translation": "WEB",
         "illustrationId": "ill-gal-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "GAL-6:3",
@@ -2214,7 +2495,12 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But let each man examine his own work, and then he will have reason to boast in himself, and not in someone else.",
         "translation": "WEB",
         "illustrationId": "ill-gal-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "GAL-6:5",
@@ -2260,8 +2546,20 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-6",
         "linkedEntities": [
           {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-holy-spirit-nt"
+          },
+          {
+            "spanText": "eternal life",
+            "entityId": "term-eternal-life"
           }
         ]
       },
@@ -2312,7 +2610,28 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "As many as desire to make a good impression in the flesh compel you to be circumcised; just so they may not be persecuted for the cross of Christ.",
         "translation": "WEB",
         "illustrationId": "ill-gal-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
+            "spanText": "circumcised",
+            "entityId": "term-circumcision"
+          },
+          {
+            "spanText": "persecuted",
+            "entityId": "term-tribulation"
+          },
+          {
+            "spanText": "cross",
+            "entityId": "term-crucifixion"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "GAL-6:13",
@@ -2323,7 +2642,16 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For even they who receive circumcision don’t keep the law themselves, but they desire to have you circumcised, that they may boast in your flesh.",
         "translation": "WEB",
         "illustrationId": "ill-gal-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "circumcision",
+            "entityId": "term-circumcision"
+          },
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "GAL-6:14",
@@ -2335,6 +2663,14 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-gal-6",
         "linkedEntities": [
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
+          },
+          {
+            "spanText": "cross",
+            "entityId": "term-crucifixion"
+          },
           {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
@@ -2356,12 +2692,16 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-6",
         "linkedEntities": [
           {
-            "spanText": "new creation",
-            "entityId": "term-new-creation"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "circumcision",
+            "entityId": "term-circumcision"
+          },
+          {
+            "spanText": "new creation",
+            "entityId": "term-new-creation"
           }
         ]
       },
@@ -2380,12 +2720,12 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "term-peace-eirene"
           },
           {
-            "spanText": "Israel",
-            "entityId": "term-israel"
-          },
-          {
             "spanText": "mercy",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2416,12 +2756,16 @@ export const GALATIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-gal-6",
         "linkedEntities": [
           {
+            "spanText": "grace",
+            "entityId": "term-grace"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           },
           {
-            "spanText": "grace",
-            "entityId": "term-grace"
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       }

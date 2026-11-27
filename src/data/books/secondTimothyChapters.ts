@@ -23,16 +23,24 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2ti-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Paul",
             "entityId": "char-paul"
           },
           {
+            "spanText": "apostle",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -51,20 +59,24 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-timothy"
           },
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "mercy",
+            "entityId": "term-loyal-love"
           },
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
           },
           {
-            "spanText": "mercy",
-            "entityId": "term-loyal-love"
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -77,7 +89,12 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "I thank God, whom I serve as my forefathers did, with a pure conscience. How unceasing is my memory of you in my petitions, night and day",
         "translation": "WEB",
         "illustrationId": "ill-2ti-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
+          }
+        ]
       },
       {
         "id": "2TI-1:4",
@@ -106,16 +123,16 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2ti-1",
         "linkedEntities": [
           {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          },
+          {
             "spanText": "Lois",
             "entityId": "char-lois-eunice"
           },
           {
             "spanText": "Eunice",
             "entityId": "char-lois-eunice"
-          },
-          {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -157,6 +174,10 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2ti-1",
         "linkedEntities": [
           {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
+          },
+          {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
           }
@@ -173,12 +194,16 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2ti-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
+            "spanText": "saved",
+            "entityId": "term-salvation"
           },
           {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -193,12 +218,12 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2ti-1",
         "linkedEntities": [
           {
-            "spanText": "Good News",
-            "entityId": "term-gospel-euangelion"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Good News",
+            "entityId": "term-gospel-euangelion"
           }
         ]
       },
@@ -212,6 +237,10 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-2ti-1",
         "linkedEntities": [
+          {
+            "spanText": "apostle",
+            "entityId": "term-apostle"
+          },
           {
             "spanText": "Gentiles",
             "entityId": "term-gentiles"
@@ -240,16 +269,16 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2ti-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
           },
           {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -291,12 +320,12 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2ti-1",
         "linkedEntities": [
           {
-            "spanText": "Onesiphorus",
-            "entityId": "char-onesiphorus"
-          },
-          {
             "spanText": "mercy",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Onesiphorus",
+            "entityId": "char-onesiphorus"
           }
         ]
       },
@@ -327,12 +356,12 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2ti-1",
         "linkedEntities": [
           {
-            "spanText": "Ephesus",
-            "entityId": "place-ephesus"
-          },
-          {
             "spanText": "mercy",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Ephesus",
+            "entityId": "place-ephesus"
           }
         ]
       }
@@ -360,12 +389,16 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2ti-2",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -378,7 +411,12 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "The things which you have heard from me among many witnesses, commit the same things to faithful men, who will be able to teach others also.",
         "translation": "WEB",
         "illustrationId": "ill-2ti-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "witnesses",
+            "entityId": "term-witness-martyr"
+          }
+        ]
       },
       {
         "id": "2TI-2:3",
@@ -390,6 +428,10 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-2ti-2",
         "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
@@ -455,12 +497,12 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-jesus"
           },
           {
-            "spanText": "Good News",
-            "entityId": "term-gospel-euangelion"
-          },
-          {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Good News",
+            "entityId": "term-gospel-euangelion"
           }
         ]
       },
@@ -486,8 +528,16 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2ti-2",
         "linkedEntities": [
           {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
           }
         ]
       },
@@ -619,7 +669,12 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "If anyone therefore purges himself from these, he will be a vessel for honor, sanctified, and suitable for the master’s use, prepared for every good work.",
         "translation": "WEB",
         "illustrationId": "ill-2ti-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctified",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "2TI-2:22",
@@ -680,7 +735,12 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "in gentleness correcting those who oppose him: perhaps God may give them repentance leading to a full knowledge of the truth,",
         "translation": "WEB",
         "illustrationId": "ill-2ti-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "repentance",
+            "entityId": "term-repentance"
+          }
+        ]
       },
       {
         "id": "2TI-2:26",
@@ -691,7 +751,12 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "and they may recover themselves out of the devil’s snare, having been taken captive by him to his will.",
         "translation": "WEB",
         "illustrationId": "ill-2ti-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "devil",
+            "entityId": "term-satan-adversary"
+          }
+        ]
       }
     ]
   },
@@ -850,6 +915,14 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2ti-3",
         "linkedEntities": [
           {
+            "spanText": "persecutions",
+            "entityId": "term-tribulation"
+          },
+          {
+            "spanText": "persecutions",
+            "entityId": "term-tribulation"
+          },
+          {
             "spanText": "Antioch",
             "entityId": "place-antioch"
           }
@@ -866,8 +939,16 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2ti-3",
         "linkedEntities": [
           {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "persecution",
+            "entityId": "term-tribulation"
           }
         ]
       },
@@ -904,16 +985,24 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2ti-3",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Scriptures",
             "entityId": "term-scripture-inspired"
           },
           {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          },
+          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -986,7 +1075,12 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "preach the word; be urgent in season and out of season; reprove, rebuke, and exhort with all patience and teaching.",
         "translation": "WEB",
         "illustrationId": "ill-2ti-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "preach",
+            "entityId": "term-preach-proclaim"
+          }
+        ]
       },
       {
         "id": "2TI-4:3",
@@ -1065,6 +1159,10 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "linkedEntities": [
           {
             "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "righteous",
             "entityId": "term-righteousness"
           }
         ]
@@ -1205,7 +1303,16 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "And the Lord will deliver me from every evil work, and will preserve me for his heavenly Kingdom. To him be the glory forever and ever. Amen.",
         "translation": "WEB",
         "illustrationId": "ill-2ti-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
+          }
+        ]
       },
       {
         "id": "2TI-4:19",
@@ -1218,16 +1325,16 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2ti-4",
         "linkedEntities": [
           {
-            "spanText": "Onesiphorus",
-            "entityId": "char-onesiphorus"
-          },
-          {
             "spanText": "Prisca",
             "entityId": "char-priscilla-aquila"
           },
           {
             "spanText": "Aquila",
             "entityId": "char-priscilla-aquila"
+          },
+          {
+            "spanText": "Onesiphorus",
+            "entityId": "char-onesiphorus"
           }
         ]
       },
@@ -1275,6 +1382,10 @@ export const SECOND_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       }

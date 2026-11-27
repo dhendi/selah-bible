@@ -23,12 +23,16 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1pe-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Peter",
             "entityId": "char-peter"
+          },
+          {
+            "spanText": "apostle",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -43,6 +47,14 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1pe-1",
         "linkedEntities": [
           {
+            "spanText": "sanctification",
+            "entityId": "term-sanctification"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           },
@@ -53,10 +65,6 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
-          },
-          {
-            "spanText": "Spirit",
-            "entityId": "term-ruach"
           }
         ]
       },
@@ -71,20 +79,24 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1pe-1",
         "linkedEntities": [
           {
-            "spanText": "living hope",
-            "entityId": "term-living-hope"
-          },
-          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           },
           {
-            "spanText": "resurrection",
-            "entityId": "term-resurrection"
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           },
           {
             "spanText": "mercy",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "living hope",
+            "entityId": "term-living-hope"
+          },
+          {
+            "spanText": "resurrection",
+            "entityId": "term-resurrection"
           }
         ]
       },
@@ -97,7 +109,12 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "to an incorruptible and undefiled inheritance that doesn’t fade away, reserved in Heaven for you,",
         "translation": "WEB",
         "illustrationId": "ill-1pe-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "inheritance",
+            "entityId": "term-inheritance"
+          }
+        ]
       },
       {
         "id": "1PE-1:5",
@@ -112,6 +129,10 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
           }
         ]
       },
@@ -142,12 +163,16 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1pe-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -162,16 +187,20 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1pe-1",
         "linkedEntities": [
           {
-            "spanText": "joy",
-            "entityId": "term-joy-chara"
+            "spanText": "love",
+            "entityId": "term-agape-love"
           },
           {
             "spanText": "rejoice",
             "entityId": "term-joy-chara"
           },
           {
-            "spanText": "love",
-            "entityId": "term-agape-love"
+            "spanText": "joy",
+            "entityId": "term-joy-chara"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
           }
         ]
       },
@@ -188,6 +217,10 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
           }
         ]
       },
@@ -201,6 +234,14 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-1pe-1",
         "linkedEntities": [
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          },
+          {
+            "spanText": "prophesied",
+            "entityId": "term-prophecy-nt"
+          },
           {
             "spanText": "grace",
             "entityId": "term-grace"
@@ -220,6 +261,10 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -234,12 +279,20 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1pe-1",
         "linkedEntities": [
           {
+            "spanText": "preached",
+            "entityId": "term-preach-proclaim"
+          },
+          {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
           },
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
           }
         ]
       },
@@ -254,16 +307,16 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1pe-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
+            "spanText": "hope",
+            "entityId": "term-hope"
           },
           {
             "spanText": "grace",
             "entityId": "term-grace"
           },
           {
-            "spanText": "hope",
-            "entityId": "term-hope"
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -320,7 +373,12 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "knowing that you were redeemed, not with corruptible things, with silver or gold, from the useless way of life handed down from your fathers,",
         "translation": "WEB",
         "illustrationId": "ill-1pe-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "redeemed",
+            "entityId": "term-redemption"
+          }
+        ]
       },
       {
         "id": "1PE-1:19",
@@ -375,12 +433,12 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1pe-1",
         "linkedEntities": [
           {
-            "spanText": "love",
-            "entityId": "term-agape-love"
-          },
-          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "love",
+            "entityId": "term-agape-love"
           }
         ]
       },
@@ -404,7 +462,12 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "For, “All flesh is like grass, and all of man’s glory like the flower in the grass. The grass withers, and its flower falls;",
         "translation": "WEB",
         "illustrationId": "ill-1pe-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "1PE-1:25",
@@ -419,6 +482,10 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "preached",
+            "entityId": "term-preach-proclaim"
           }
         ]
       }
@@ -490,6 +557,10 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1pe-2",
         "linkedEntities": [
           {
+            "spanText": "sacrifices",
+            "entityId": "term-offering"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           }
@@ -506,12 +577,16 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1pe-2",
         "linkedEntities": [
           {
+            "spanText": "Scripture",
+            "entityId": "term-scripture-inspired"
+          },
+          {
             "spanText": "Zion",
             "entityId": "place-zion"
           },
           {
-            "spanText": "Scripture",
-            "entityId": "term-scripture-inspired"
+            "spanText": "chief cornerstone",
+            "entityId": "term-cornerstone"
           }
         ]
       },
@@ -524,7 +599,12 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "For you who believe therefore is the honor, but for those who are disobedient, “The stone which the builders rejected has become the chief cornerstone,”",
         "translation": "WEB",
         "illustrationId": "ill-1pe-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "chief cornerstone",
+            "entityId": "term-cornerstone"
+          }
+        ]
       },
       {
         "id": "1PE-2:8",
@@ -566,6 +646,14 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "mercy",
+            "entityId": "term-mercy-eleos"
+          },
+          {
+            "spanText": "mercy",
+            "entityId": "term-mercy-eleos"
           }
         ]
       },
@@ -589,7 +677,12 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "having good behavior among the nations, so in that of which they speak against you as evildoers, they may by your good works, which they see, glorify God in the day of visitation.",
         "translation": "WEB",
         "illustrationId": "ill-1pe-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glorify",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "1PE-2:13",
@@ -633,7 +726,12 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "as free, and not using your freedom for a cloak of wickedness, but as bondservants of God.",
         "translation": "WEB",
         "illustrationId": "ill-1pe-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "bondservants",
+            "entityId": "term-bondservant"
+          }
+        ]
       },
       {
         "id": "1PE-2:17",
@@ -671,7 +769,12 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "For it is commendable if someone endures pain, suffering unjustly, because of conscience toward God.",
         "translation": "WEB",
         "illustrationId": "ill-1pe-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
+          }
+        ]
       },
       {
         "id": "1PE-2:20",
@@ -682,7 +785,12 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "For what glory is it if, when you sin, you patiently endure beating? But if, when you do well, you patiently endure suffering, this is commendable with God.",
         "translation": "WEB",
         "illustrationId": "ill-1pe-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "1PE-2:21",
@@ -693,7 +801,12 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "For you were called to this, because Christ also suffered for us, leaving you an example, that you should follow his steps,",
         "translation": "WEB",
         "illustrationId": "ill-1pe-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "1PE-2:22",
@@ -742,7 +855,16 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "For you were going astray like sheep; but now you have returned to the Shepherd and Overseer of your souls.",
         "translation": "WEB",
         "illustrationId": "ill-1pe-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Shepherd",
+            "entityId": "term-good-shepherd"
+          },
+          {
+            "spanText": "Overseer",
+            "entityId": "term-overseer"
+          }
+        ]
       }
     ]
   },
@@ -823,12 +945,12 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1pe-3",
         "linkedEntities": [
           {
-            "spanText": "Abraham",
-            "entityId": "char-abraham"
-          },
-          {
             "spanText": "Sarah",
             "entityId": "char-sarah"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
           }
         ]
       },
@@ -842,6 +964,10 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-1pe-3",
         "linkedEntities": [
+          {
+            "spanText": "heirs",
+            "entityId": "term-inheritance"
+          },
           {
             "spanText": "grace",
             "entityId": "term-grace"
@@ -912,6 +1038,10 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1pe-3",
         "linkedEntities": [
           {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
             "spanText": "prayer",
             "entityId": "term-prayer"
           }
@@ -955,12 +1085,16 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1pe-3",
         "linkedEntities": [
           {
-            "spanText": "humility",
-            "entityId": "term-humility-kenosis"
+            "spanText": "sanctify",
+            "entityId": "term-sanctification"
           },
           {
             "spanText": "hope",
             "entityId": "term-hope"
+          },
+          {
+            "spanText": "humility",
+            "entityId": "term-humility-kenosis"
           }
         ]
       },
@@ -973,7 +1107,16 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "having a good conscience. Thus, while you are spoken against as evildoers, they may be disappointed who curse your good way of life in Christ.",
         "translation": "WEB",
         "illustrationId": "ill-1pe-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "1PE-3:17",
@@ -997,6 +1140,14 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1pe-3",
         "linkedEntities": [
           {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
           }
@@ -1011,7 +1162,12 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "in whom he also went and preached to the spirits in prison,",
         "translation": "WEB",
         "illustrationId": "ill-1pe-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "preached",
+            "entityId": "term-preach-proclaim"
+          }
+        ]
       },
       {
         "id": "1PE-3:20",
@@ -1026,6 +1182,10 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Noah",
             "entityId": "char-noah"
+          },
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
           }
         ]
       },
@@ -1040,12 +1200,24 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1pe-3",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
+            "spanText": "baptism",
+            "entityId": "term-baptism"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
           },
           {
             "spanText": "resurrection",
             "entityId": "term-resurrection"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -1058,7 +1230,12 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "who is at the right hand of God, having gone into heaven, angels and authorities and powers being made subject to him.",
         "translation": "WEB",
         "illustrationId": "ill-1pe-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       }
     ]
   },
@@ -1082,7 +1259,16 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore, since Christ suffered for us in the flesh, arm yourselves also with the same mind; for he who has suffered in the flesh has ceased from sin,",
         "translation": "WEB",
         "illustrationId": "ill-1pe-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "1PE-4:2",
@@ -1093,7 +1279,12 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "that you no longer should live the rest of your time in the flesh for the lusts of men, but for the will of God.",
         "translation": "WEB",
         "illustrationId": "ill-1pe-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "1PE-4:3",
@@ -1120,7 +1311,12 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "They think it is strange that you don’t run with them into the same excess of riot, blaspheming.",
         "translation": "WEB",
         "illustrationId": "ill-1pe-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blaspheming",
+            "entityId": "term-blasphemy"
+          }
+        ]
       },
       {
         "id": "1PE-4:5",
@@ -1146,6 +1342,10 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "preached",
+            "entityId": "term-preach-proclaim"
           }
         ]
       },
@@ -1219,8 +1419,16 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1pe-4",
         "linkedEntities": [
           {
+            "spanText": "glorified",
+            "entityId": "term-glory-doxa"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       },
@@ -1246,11 +1454,19 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1pe-4",
         "linkedEntities": [
           {
-            "spanText": "joy",
-            "entityId": "term-joy-chara"
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           },
           {
             "spanText": "rejoice",
+            "entityId": "term-joy-chara"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "joy",
             "entityId": "term-joy-chara"
           }
         ]
@@ -1268,6 +1484,10 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "blasphemed",
+            "entityId": "term-blasphemy"
           }
         ]
       },
@@ -1318,7 +1538,16 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "“If it is hard for the righteous to be saved, what will happen to the ungodly and the sinner?”",
         "translation": "WEB",
         "illustrationId": "ill-1pe-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
+          }
+        ]
       },
       {
         "id": "1PE-4:19",
@@ -1329,7 +1558,12 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore let them also who suffer according to the will of God in doing good entrust their souls to him, as to a faithful Creator.",
         "translation": "WEB",
         "illustrationId": "ill-1pe-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
+          }
+        ]
       }
     ]
   },
@@ -1353,7 +1587,24 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore I exhort the elders among you, as a fellow elder, and a witness of the sufferings of Christ, and who will also share in the glory that will be revealed.",
         "translation": "WEB",
         "illustrationId": "ill-1pe-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "elders",
+            "entityId": "term-elder-presbyter"
+          },
+          {
+            "spanText": "witness",
+            "entityId": "term-witness-martyr"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "1PE-5:2",
@@ -1364,7 +1615,12 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "Shepherd the flock of God which is among you, exercising the oversight, not under compulsion, but voluntarily, not for dishonest gain, but willingly;",
         "translation": "WEB",
         "illustrationId": "ill-1pe-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Shepherd",
+            "entityId": "term-good-shepherd"
+          }
+        ]
       },
       {
         "id": "1PE-5:3",
@@ -1386,7 +1642,16 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the chief Shepherd is revealed, you will receive the crown of glory that doesn’t fade away.",
         "translation": "WEB",
         "illustrationId": "ill-1pe-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Shepherd",
+            "entityId": "term-good-shepherd"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "1PE-5:5",
@@ -1399,12 +1664,20 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1pe-5",
         "linkedEntities": [
           {
+            "spanText": "elder",
+            "entityId": "term-elder-presbyter"
+          },
+          {
             "spanText": "humility",
             "entityId": "term-humility-kenosis"
           },
           {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "humble",
+            "entityId": "term-humble-meekness"
           }
         ]
       },
@@ -1417,7 +1690,12 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "Humble yourselves therefore under the mighty hand of God, that he may exalt you in due time,",
         "translation": "WEB",
         "illustrationId": "ill-1pe-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Humble",
+            "entityId": "term-humble-meekness"
+          }
+        ]
       },
       {
         "id": "1PE-5:7",
@@ -1439,7 +1717,12 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "Be sober and self-controlled. Be watchful. Your adversary, the devil, walks around like a roaring lion, seeking whom he may devour.",
         "translation": "WEB",
         "illustrationId": "ill-1pe-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "devil",
+            "entityId": "term-satan-adversary"
+          }
+        ]
       },
       {
         "id": "1PE-5:9",
@@ -1468,12 +1751,16 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1pe-5",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -1486,7 +1773,12 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "To him be the glory and the power forever and ever. Amen.",
         "translation": "WEB",
         "illustrationId": "ill-1pe-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
+          }
+        ]
       },
       {
         "id": "1PE-5:12",
@@ -1501,6 +1793,10 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Silvanus",
             "entityId": "char-silas"
+          },
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
           },
           {
             "spanText": "grace",
@@ -1519,12 +1815,12 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1pe-5",
         "linkedEntities": [
           {
-            "spanText": "Mark",
-            "entityId": "char-mark"
-          },
-          {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Mark",
+            "entityId": "char-mark"
           }
         ]
       },
@@ -1539,16 +1835,20 @@ export const FIRST_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1pe-5",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "love",
             "entityId": "term-agape-love"
           },
           {
             "spanText": "Peace",
             "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       }

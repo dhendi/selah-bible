@@ -23,12 +23,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Paul",
             "entityId": "char-paul"
+          },
+          {
+            "spanText": "apostle",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -43,20 +47,32 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
+            "spanText": "assembly",
+            "entityId": "term-church-ekklesia"
           },
           {
             "spanText": "Corinth",
             "entityId": "place-corinth"
           },
           {
-            "spanText": "assembly",
-            "entityId": "term-church-ekklesia"
+            "spanText": "sanctified",
+            "entityId": "term-sanctification"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -71,16 +87,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Grace",
             "entityId": "term-grace"
           },
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -95,12 +111,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -124,7 +144,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "even as the testimony of Christ was confirmed in you:",
         "translation": "WEB",
         "illustrationId": "ill-1co-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
+          }
+        ]
       },
       {
         "id": "1CO-1:7",
@@ -169,6 +194,14 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-1",
         "linkedEntities": [
           {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "fellowship",
+            "entityId": "term-fellowship-koinonia"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           }
@@ -212,16 +245,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-1",
         "linkedEntities": [
           {
+            "spanText": "Paul",
+            "entityId": "char-paul"
+          },
+          {
             "spanText": "Apollos",
             "entityId": "char-apollos"
           },
           {
             "spanText": "Cephas",
             "entityId": "char-peter"
-          },
-          {
-            "spanText": "Paul",
-            "entityId": "char-paul"
           }
         ]
       },
@@ -308,12 +341,20 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-1",
         "linkedEntities": [
           {
+            "spanText": "preach",
+            "entityId": "term-preach-proclaim"
+          },
+          {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
           },
           {
             "spanText": "wisdom",
             "entityId": "term-wisdom"
+          },
+          {
+            "spanText": "cross",
+            "entityId": "term-crucifixion"
           }
         ]
       },
@@ -326,7 +367,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the word of the cross is foolishness to those who are dying, but to us who are being saved it is the power of God.",
         "translation": "WEB",
         "illustrationId": "ill-1co-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
+          }
+        ]
       },
       {
         "id": "1CO-1:19",
@@ -355,6 +401,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-1",
         "linkedEntities": [
           {
+            "spanText": "scribe",
+            "entityId": "term-scribes"
+          },
+          {
             "spanText": "wisdom",
             "entityId": "term-wisdom"
           }
@@ -373,6 +423,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "wisdom",
             "entityId": "term-wisdom"
+          },
+          {
+            "spanText": "preaching",
+            "entityId": "term-preach-proclaim"
           }
         ]
       },
@@ -405,6 +459,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "crucified",
             "entityId": "term-crucifixion"
+          },
+          {
+            "spanText": "stumbling block",
+            "entityId": "term-stumbling-block"
           }
         ]
       },
@@ -444,7 +502,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For you see your calling, brothers, that not many are wise according to the flesh, not many mighty, and not many noble;",
         "translation": "WEB",
         "illustrationId": "ill-1co-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "1CO-1:27",
@@ -477,7 +540,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "that no flesh should boast before God.",
         "translation": "WEB",
         "illustrationId": "ill-1co-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "1CO-1:30",
@@ -494,12 +566,20 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-jesus"
           },
           {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
+          },
+          {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
           },
           {
-            "spanText": "wisdom",
-            "entityId": "term-wisdom"
+            "spanText": "sanctification",
+            "entityId": "term-sanctification"
+          },
+          {
+            "spanText": "redemption",
+            "entityId": "term-redemption"
           }
         ]
       },
@@ -512,7 +592,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "that, as it is written, “He who boasts, let him boast in the Lord.”",
         "translation": "WEB",
         "illustrationId": "ill-1co-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boasts",
+            "entityId": "term-boasting-kauchēma"
+          },
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       }
     ]
   },
@@ -540,6 +629,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "wisdom",
             "entityId": "term-wisdom"
+          },
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
           }
         ]
       },
@@ -584,6 +677,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-1co-2",
         "linkedEntities": [
+          {
+            "spanText": "preaching",
+            "entityId": "term-preach-proclaim"
+          },
           {
             "spanText": "wisdom",
             "entityId": "term-wisdom"
@@ -643,6 +740,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "wisdom",
             "entityId": "term-wisdom"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
           }
         ]
       },
@@ -659,6 +760,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "crucified",
             "entityId": "term-crucifixion"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
           }
         ]
       },
@@ -691,6 +796,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-holy-spirit-nt"
           }
         ]
       },
@@ -707,6 +816,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-holy-spirit-nt"
           }
         ]
       },
@@ -782,7 +895,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“For who has known the mind of the Lord, that he should instruct him?” But we have Christ’s mind.",
         "translation": "WEB",
         "illustrationId": "ill-1co-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       }
     ]
   },
@@ -806,7 +924,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Brothers, I couldn’t speak to you as to spiritual, but as to fleshly, as to babies in Christ.",
         "translation": "WEB",
         "illustrationId": "ill-1co-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "1CO-3:2",
@@ -841,12 +964,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-3",
         "linkedEntities": [
           {
-            "spanText": "Apollos",
-            "entityId": "char-apollos"
-          },
-          {
             "spanText": "Paul",
             "entityId": "char-paul"
+          },
+          {
+            "spanText": "Apollos",
+            "entityId": "char-apollos"
           }
         ]
       },
@@ -993,7 +1116,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If any man’s work is burned, he will suffer loss, but he himself will be saved, but as through fire.",
         "translation": "WEB",
         "illustrationId": "ill-1co-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
+          }
+        ]
       },
       {
         "id": "1CO-3:16",
@@ -1028,6 +1156,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
           }
         ]
       },
@@ -1078,7 +1210,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore let no one boast in men. For all things are yours,",
         "translation": "WEB",
         "illustrationId": "ill-1co-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "1CO-3:22",
@@ -1091,16 +1228,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-3",
         "linkedEntities": [
           {
+            "spanText": "Paul",
+            "entityId": "char-paul"
+          },
+          {
             "spanText": "Apollos",
             "entityId": "char-apollos"
           },
           {
             "spanText": "Cephas",
             "entityId": "char-peter"
-          },
-          {
-            "spanText": "Paul",
-            "entityId": "char-paul"
           }
         ]
       },
@@ -1113,7 +1250,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and you are Christ’s, and Christ is God’s.",
         "translation": "WEB",
         "illustrationId": "ill-1co-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       }
     ]
   },
@@ -1137,7 +1279,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So let a man think of us as Christ’s servants, and stewards of God’s mysteries.",
         "translation": "WEB",
         "illustrationId": "ill-1co-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "stewards",
+            "entityId": "term-steward"
+          }
+        ]
       },
       {
         "id": "1CO-4:2",
@@ -1148,7 +1299,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Here, moreover, it is required of stewards that they be found faithful.",
         "translation": "WEB",
         "illustrationId": "ill-1co-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "stewards",
+            "entityId": "term-steward"
+          },
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
+          }
+        ]
       },
       {
         "id": "1CO-4:3",
@@ -1213,7 +1373,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For who makes you different? And what do you have that you didn’t receive? But if you did receive it, why do you boast as if you had not received it?",
         "translation": "WEB",
         "illustrationId": "ill-1co-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "1CO-4:8",
@@ -1235,7 +1400,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For, I think that God has displayed us, the apostles, last of all, like men sentenced to death. For we are made a spectacle to the world, both to angels and men.",
         "translation": "WEB",
         "illustrationId": "ill-1co-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "1CO-4:10",
@@ -1246,7 +1420,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "We are fools for Christ’s sake, but you are wise in Christ. We are weak, but you are strong. You have honor, but we have dishonor.",
         "translation": "WEB",
         "illustrationId": "ill-1co-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "1CO-4:11",
@@ -1268,7 +1447,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "We toil, working with our own hands. When people curse us, we bless. Being persecuted, we endure.",
         "translation": "WEB",
         "illustrationId": "ill-1co-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "persecuted",
+            "entityId": "term-tribulation"
+          }
+        ]
       },
       {
         "id": "1CO-4:13",
@@ -1303,12 +1487,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-4",
         "linkedEntities": [
           {
-            "spanText": "Good News",
-            "entityId": "term-gospel-euangelion"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Good News",
+            "entityId": "term-gospel-euangelion"
           }
         ]
       },
@@ -1336,6 +1520,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Timothy",
             "entityId": "char-timothy"
+          },
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
           },
           {
             "spanText": "assembly",
@@ -1416,6 +1604,18 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-5",
         "linkedEntities": [
           {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
+          },
+          {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
+          },
+          {
+            "spanText": "immorality",
+            "entityId": "term-immorality-porneia"
+          },
+          {
             "spanText": "Gentiles",
             "entityId": "term-gentiles"
           }
@@ -1456,6 +1656,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -1469,6 +1673,18 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-1co-5",
         "linkedEntities": [
+          {
+            "spanText": "Satan",
+            "entityId": "term-satan-adversary"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
+          },
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
@@ -1484,7 +1700,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your boasting is not good. Don’t you know that a little yeast leavens the whole lump?",
         "translation": "WEB",
         "illustrationId": "ill-1co-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boasting",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "1CO-5:7",
@@ -1496,6 +1717,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-1co-5",
         "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
           {
             "spanText": "Passover",
             "entityId": "term-passover"
@@ -1533,7 +1758,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "yet not at all meaning with the sexual sinners of this world, or with the covetous and extortionists, or with idolaters; for then you would have to leave the world.",
         "translation": "WEB",
         "illustrationId": "ill-1co-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covetous",
+            "entityId": "term-covetousness"
+          },
+          {
+            "spanText": "idolaters",
+            "entityId": "term-idolatry"
+          }
+        ]
       },
       {
         "id": "1CO-5:11",
@@ -1544,7 +1778,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But as it is, I wrote to you not to associate with anyone who is called a brother who is a sexual sinner, or covetous, or an idolater, or a slanderer, or a drunkard, or an extortionist. Don’t even eat with such a person.",
         "translation": "WEB",
         "illustrationId": "ill-1co-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covetous",
+            "entityId": "term-covetousness"
+          },
+          {
+            "spanText": "idolater",
+            "entityId": "term-idolatry"
+          }
+        ]
       },
       {
         "id": "1CO-5:12",
@@ -1590,7 +1833,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Dare any of you, having a matter against his neighbor, go to law before the unrighteous, and not before the saints?",
         "translation": "WEB",
         "illustrationId": "ill-1co-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "1CO-6:2",
@@ -1601,7 +1849,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t you know that the saints will judge the world? And if the world is judged by you, are you unworthy to judge the smallest matters?",
         "translation": "WEB",
         "illustrationId": "ill-1co-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "1CO-6:3",
@@ -1612,7 +1865,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t you know that we will judge angels? How much more, things that pertain to this life?",
         "translation": "WEB",
         "illustrationId": "ill-1co-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "1CO-6:4",
@@ -1683,7 +1941,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Or don’t you know that the unrighteous will not inherit God’s Kingdom? Don’t be deceived. Neither the sexually immoral, nor idolaters, nor adulterers, nor male prostitutes, nor homosexuals,",
         "translation": "WEB",
         "illustrationId": "ill-1co-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "idolaters",
+            "entityId": "term-idolatry"
+          }
+        ]
       },
       {
         "id": "1CO-6:10",
@@ -1694,7 +1957,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "nor thieves, nor covetous, nor drunkards, nor slanderers, nor extortionists, will inherit God’s Kingdom.",
         "translation": "WEB",
         "illustrationId": "ill-1co-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covetous",
+            "entityId": "term-covetousness"
+          }
+        ]
       },
       {
         "id": "1CO-6:11",
@@ -1707,12 +1975,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-6",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
+            "spanText": "sanctified",
+            "entityId": "term-sanctification"
           },
           {
             "spanText": "justified",
             "entityId": "term-justification"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           },
           {
             "spanText": "Spirit",
@@ -1740,7 +2012,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Foods for the belly, and the belly for foods,” but God will bring to nothing both it and them. But the body is not for sexual immorality, but for the Lord; and the Lord for the body.",
         "translation": "WEB",
         "illustrationId": "ill-1co-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
+          }
+        ]
       },
       {
         "id": "1CO-6:14",
@@ -1762,7 +2039,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t you know that your bodies are members of Christ? Shall I then take the members of Christ and make them members of a prostitute? May it never be!",
         "translation": "WEB",
         "illustrationId": "ill-1co-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "1CO-6:16",
@@ -1773,7 +2059,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Or don’t you know that he who is joined to a prostitute is one body? For, “The two”, he says, “will become one flesh.”",
         "translation": "WEB",
         "illustrationId": "ill-1co-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "1CO-6:17",
@@ -1795,7 +2086,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Flee sexual immorality! “Every sin that a man does is outside the body,” but he who commits sexual immorality sins against his own body.",
         "translation": "WEB",
         "illustrationId": "ill-1co-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
+          },
+          {
+            "spanText": "immorality",
+            "entityId": "term-immorality-porneia"
+          }
+        ]
       },
       {
         "id": "1CO-6:19",
@@ -1826,7 +2126,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "for you were bought with a price. Therefore glorify God in your body and in your spirit, which are God’s.",
         "translation": "WEB",
         "illustrationId": "ill-1co-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glorify",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       }
     ]
   },
@@ -1896,8 +2201,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-7",
         "linkedEntities": [
           {
+            "spanText": "fasting",
+            "entityId": "term-fasting"
+          },
+          {
             "spanText": "prayer",
             "entityId": "term-prayer"
+          },
+          {
+            "spanText": "Satan",
+            "entityId": "term-satan-adversary"
           }
         ]
       },
@@ -1910,7 +2223,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But this I say by way of concession, not of commandment.",
         "translation": "WEB",
         "illustrationId": "ill-1co-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "commandment",
+            "entityId": "term-commandments"
+          }
+        ]
       },
       {
         "id": "1CO-7:7",
@@ -1932,7 +2250,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But I say to the unmarried and to widows, it is good for them if they remain even as I am.",
         "translation": "WEB",
         "illustrationId": "ill-1co-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "widows",
+            "entityId": "term-widows-care"
+          }
+        ]
       },
       {
         "id": "1CO-7:9",
@@ -2003,7 +2326,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the unbelieving husband is sanctified in the wife, and the unbelieving wife is sanctified in the husband. Otherwise your children would be unclean, but now they are holy.",
         "translation": "WEB",
         "illustrationId": "ill-1co-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctified",
+            "entityId": "term-sanctification"
+          },
+          {
+            "spanText": "sanctified",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "1CO-7:15",
@@ -2052,7 +2384,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Was anyone called having been circumcised? Let him not become uncircumcised. Has anyone been called in uncircumcision? Let him not be circumcised.",
         "translation": "WEB",
         "illustrationId": "ill-1co-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "circumcised",
+            "entityId": "term-circumcision"
+          },
+          {
+            "spanText": "uncircumcised",
+            "entityId": "term-circumcision"
+          }
+        ]
       },
       {
         "id": "1CO-7:19",
@@ -2063,7 +2404,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Circumcision is nothing, and uncircumcision is nothing, but the keeping of the commandments of God.",
         "translation": "WEB",
         "illustrationId": "ill-1co-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Circumcision",
+            "entityId": "term-circumcision"
+          },
+          {
+            "spanText": "commandments",
+            "entityId": "term-commandments"
+          }
+        ]
       },
       {
         "id": "1CO-7:20",
@@ -2085,7 +2435,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Were you called being a bondservant? Don’t let that bother you, but if you get an opportunity to become free, use it.",
         "translation": "WEB",
         "illustrationId": "ill-1co-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "bondservant",
+            "entityId": "term-bondservant"
+          }
+        ]
       },
       {
         "id": "1CO-7:22",
@@ -2096,7 +2451,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For he who was called in the Lord being a bondservant is the Lord’s free man. Likewise he who was called being free is Christ’s bondservant.",
         "translation": "WEB",
         "illustrationId": "ill-1co-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "bondservant",
+            "entityId": "term-bondservant"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "1CO-7:23",
@@ -2107,7 +2471,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You were bought with a price. Don’t become bondservants of men.",
         "translation": "WEB",
         "illustrationId": "ill-1co-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "bondservants",
+            "entityId": "term-bondservant"
+          }
+        ]
       },
       {
         "id": "1CO-7:24",
@@ -2167,7 +2536,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if you marry, you have not sinned. If a virgin marries, she has not sinned. Yet such will have oppression in the flesh, and I want to spare you.",
         "translation": "WEB",
         "illustrationId": "ill-1co-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "1CO-7:29",
@@ -2330,6 +2704,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-8",
         "linkedEntities": [
           {
+            "spanText": "idols",
+            "entityId": "term-idolatry"
+          },
+          {
             "spanText": "love",
             "entityId": "term-agape-love"
           }
@@ -2366,7 +2744,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore concerning the eating of things sacrificed to idols, we know that no idol is anything in the world, and that there is no other God but one.",
         "translation": "WEB",
         "illustrationId": "ill-1co-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "idols",
+            "entityId": "term-idolatry"
+          }
+        ]
       },
       {
         "id": "1CO-8:5",
@@ -2404,7 +2787,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "However, that knowledge isn’t in all men. But some, with consciousness of the idol until now, eat as of a thing sacrificed to an idol, and their conscience, being weak, is defiled.",
         "translation": "WEB",
         "illustrationId": "ill-1co-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "idol",
+            "entityId": "term-idolatry"
+          },
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
+          }
+        ]
       },
       {
         "id": "1CO-8:8",
@@ -2426,7 +2818,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But be careful that by no means does this liberty of yours become a stumbling block to the weak.",
         "translation": "WEB",
         "illustrationId": "ill-1co-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "stumbling block",
+            "entityId": "term-stumbling-block"
+          }
+        ]
       },
       {
         "id": "1CO-8:10",
@@ -2437,7 +2834,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For if a man sees you who have knowledge sitting in an idol’s temple, won’t his conscience, if he is weak, be emboldened to eat things sacrificed to idols?",
         "translation": "WEB",
         "illustrationId": "ill-1co-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
+          }
+        ]
       },
       {
         "id": "1CO-8:11",
@@ -2448,7 +2854,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "And through your knowledge, he who is weak perishes, the brother for whose sake Christ died.",
         "translation": "WEB",
         "illustrationId": "ill-1co-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "1CO-8:12",
@@ -2459,7 +2870,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Thus, sinning against the brothers, and wounding their conscience when it is weak, you sin against Christ.",
         "translation": "WEB",
         "illustrationId": "ill-1co-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "1CO-8:13",
@@ -2496,6 +2916,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-9",
         "linkedEntities": [
           {
+            "spanText": "apostle",
+            "entityId": "term-apostle"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           }
@@ -2510,7 +2934,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If to others I am not an apostle, yet at least I am to you; for you are the seal of my apostleship in the Lord.",
         "translation": "WEB",
         "illustrationId": "ill-1co-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "apostle",
+            "entityId": "term-apostle"
+          }
+        ]
       },
       {
         "id": "1CO-9:3",
@@ -2575,7 +3004,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "What soldier ever serves at his own expense? Who plants a vineyard, and doesn’t eat of its fruit? Or who feeds a flock, and doesn’t drink from the flock’s milk?",
         "translation": "WEB",
         "illustrationId": "ill-1co-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "vineyard",
+            "entityId": "term-vineyard"
+          }
+        ]
       },
       {
         "id": "1CO-9:8",
@@ -2617,6 +3051,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "hope",
             "entityId": "term-hope"
+          },
+          {
+            "spanText": "hope",
+            "entityId": "term-hope"
           }
         ]
       },
@@ -2644,6 +3082,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -2660,6 +3102,14 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -2688,7 +3138,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But I have used none of these things, and I don’t write these things that it may be done so in my case; for I would rather die, than that anyone should make my boasting void.",
         "translation": "WEB",
         "illustrationId": "ill-1co-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boasting",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "1CO-9:16",
@@ -2701,8 +3156,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-9",
         "linkedEntities": [
           {
+            "spanText": "preach",
+            "entityId": "term-preach-proclaim"
+          },
+          {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
           }
         ]
       },
@@ -2715,7 +3178,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For if I do this of my own will, I have a reward. But if not of my own will, I have a stewardship entrusted to me.",
         "translation": "WEB",
         "illustrationId": "ill-1co-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "stewardship",
+            "entityId": "term-steward"
+          }
+        ]
       },
       {
         "id": "1CO-9:18",
@@ -2728,8 +3196,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-9",
         "linkedEntities": [
           {
+            "spanText": "preach",
+            "entityId": "term-preach-proclaim"
+          },
+          {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -2872,12 +3348,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-10",
         "linkedEntities": [
           {
-            "spanText": "Moses",
-            "entityId": "char-moses"
-          },
-          {
             "spanText": "baptized",
             "entityId": "term-baptism"
+          },
+          {
+            "spanText": "Moses",
+            "entityId": "char-moses"
           }
         ]
       },
@@ -2901,7 +3377,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and all drank the same spiritual drink. For they drank of a spiritual rock that followed them, and the rock was Christ.",
         "translation": "WEB",
         "illustrationId": "ill-1co-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "1CO-10:5",
@@ -2934,7 +3415,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t be idolaters, as some of them were. As it is written, “The people sat down to eat and drink, and rose up to play.”",
         "translation": "WEB",
         "illustrationId": "ill-1co-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "idolaters",
+            "entityId": "term-idolatry"
+          }
+        ]
       },
       {
         "id": "1CO-10:8",
@@ -2945,7 +3431,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let’s not commit sexual immorality, as some of them committed, and in one day twenty-three thousand fell.",
         "translation": "WEB",
         "illustrationId": "ill-1co-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
+          }
+        ]
       },
       {
         "id": "1CO-10:9",
@@ -2956,7 +3447,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let’s not test Christ, as some of them tested, and perished by the serpents.",
         "translation": "WEB",
         "illustrationId": "ill-1co-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "1CO-10:10",
@@ -3000,7 +3496,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "No temptation has taken you except what is common to man. God is faithful, who will not allow you to be tempted above what you are able, but will with the temptation also make the way of escape, that you may be able to endure it.",
         "translation": "WEB",
         "illustrationId": "ill-1co-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
+          }
+        ]
       },
       {
         "id": "1CO-10:14",
@@ -3011,7 +3512,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore, my beloved, flee from idolatry.",
         "translation": "WEB",
         "illustrationId": "ill-1co-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "idolatry",
+            "entityId": "term-idolatry"
+          }
+        ]
       },
       {
         "id": "1CO-10:15",
@@ -3059,6 +3565,18 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Israel",
             "entityId": "term-israel"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
+            "spanText": "sacrifices",
+            "entityId": "term-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -3071,7 +3589,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "What am I saying then? That a thing sacrificed to idols is anything, or that an idol is anything?",
         "translation": "WEB",
         "illustrationId": "ill-1co-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "idols",
+            "entityId": "term-idolatry"
+          }
+        ]
       },
       {
         "id": "1CO-10:20",
@@ -3086,6 +3609,18 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gentiles",
             "entityId": "term-gentiles"
+          },
+          {
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
+          },
+          {
+            "spanText": "demons",
+            "entityId": "term-demons-evil-spirits"
+          },
+          {
+            "spanText": "fellowship",
+            "entityId": "term-fellowship-koinonia"
           }
         ]
       },
@@ -3098,7 +3633,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You can’t both drink the cup of the Lord and the cup of demons. You can’t both partake of the table of the Lord and of the table of demons.",
         "translation": "WEB",
         "illustrationId": "ill-1co-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "demons",
+            "entityId": "term-demons-evil-spirits"
+          }
+        ]
       },
       {
         "id": "1CO-10:22",
@@ -3142,7 +3682,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whatever is sold in the butcher shop, eat, asking no question for the sake of conscience,",
         "translation": "WEB",
         "illustrationId": "ill-1co-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
+          }
+        ]
       },
       {
         "id": "1CO-10:26",
@@ -3164,7 +3709,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if one of those who don’t believe invites you to a meal, and you are inclined to go, eat whatever is set before you, asking no questions for the sake of conscience.",
         "translation": "WEB",
         "illustrationId": "ill-1co-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
+          }
+        ]
       },
       {
         "id": "1CO-10:28",
@@ -3175,7 +3725,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if anyone says to you, “This was offered to idols,” don’t eat it for the sake of the one who told you, and for the sake of conscience. For “the earth is the Lord’s, with all its fullness.”",
         "translation": "WEB",
         "illustrationId": "ill-1co-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
+          }
+        ]
       },
       {
         "id": "1CO-10:29",
@@ -3208,7 +3763,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whether therefore you eat, or drink, or whatever you do, do all to the glory of God.",
         "translation": "WEB",
         "illustrationId": "ill-1co-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "1CO-10:32",
@@ -3235,7 +3795,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "even as I also please all men in all things, not seeking my own profit, but the profit of the many, that they may be saved.",
         "translation": "WEB",
         "illustrationId": "ill-1co-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
+          }
+        ]
       }
     ]
   },
@@ -3259,7 +3824,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Be imitators of me, even as I also am of Christ.",
         "translation": "WEB",
         "illustrationId": "ill-1co-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "1CO-11:2",
@@ -3281,7 +3851,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But I would have you know that the head of every man is Christ, and the head of the woman is man, and the head of Christ is God.",
         "translation": "WEB",
         "illustrationId": "ill-1co-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "1CO-11:4",
@@ -3292,7 +3867,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Every man praying or prophesying, having his head covered, dishonors his head.",
         "translation": "WEB",
         "illustrationId": "ill-1co-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophesying",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "1CO-11:5",
@@ -3303,7 +3883,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But every woman praying or prophesying with her head uncovered dishonors her head. For it is one and the same thing as if she were shaved.",
         "translation": "WEB",
         "illustrationId": "ill-1co-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophesying",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "1CO-11:6",
@@ -3325,7 +3910,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For a man indeed ought not to have his head covered, because he is the image and glory of God, but the woman is the glory of the man.",
         "translation": "WEB",
         "illustrationId": "ill-1co-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "1CO-11:8",
@@ -3358,7 +3948,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For this cause the woman ought to have authority over her own head, because of the angels.",
         "translation": "WEB",
         "illustrationId": "ill-1co-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "1CO-11:11",
@@ -3413,7 +4008,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if a woman has long hair, it is a glory to her, for her hair is given to her for a covering.",
         "translation": "WEB",
         "illustrationId": "ill-1co-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "1CO-11:16",
@@ -3473,7 +4073,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When therefore you assemble yourselves together, it is not the Lord’s supper that you eat.",
         "translation": "WEB",
         "illustrationId": "ill-1co-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lord’s supper",
+            "entityId": "term-lords-supper"
+          }
+        ]
       },
       {
         "id": "1CO-11:21",
@@ -3677,7 +4282,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You know that when you were heathen, you were led away to those mute idols, however you might be led.",
         "translation": "WEB",
         "illustrationId": "ill-1co-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "idols",
+            "entityId": "term-idolatry"
+          }
+        ]
       },
       {
         "id": "1CO-12:3",
@@ -3690,12 +4300,20 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-12",
         "linkedEntities": [
           {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           },
           {
-            "spanText": "Spirit",
-            "entityId": "term-ruach"
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Holy Spirit",
+            "entityId": "term-holy-spirit-nt"
           }
         ]
       },
@@ -3764,12 +4382,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-12",
         "linkedEntities": [
           {
-            "spanText": "wisdom",
-            "entityId": "term-wisdom"
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           },
           {
             "spanText": "Spirit",
-            "entityId": "term-ruach"
+            "entityId": "term-holy-spirit-nt"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
           }
         ]
       },
@@ -3802,7 +4424,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and to another workings of miracles; and to another prophecy; and to another discerning of spirits; to another different kinds of languages; and to another the interpretation of languages.",
         "translation": "WEB",
         "illustrationId": "ill-1co-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "miracles",
+            "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "prophecy",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "1CO-12:11",
@@ -3829,7 +4460,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For as the body is one, and has many members, and all the members of the body, being many, are one body; so also is Christ.",
         "translation": "WEB",
         "illustrationId": "ill-1co-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "1CO-12:13",
@@ -3842,12 +4478,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-12",
         "linkedEntities": [
           {
-            "spanText": "baptized",
-            "entityId": "term-baptism"
-          },
-          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "baptized",
+            "entityId": "term-baptism"
           }
         ]
       },
@@ -4003,7 +4639,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now you are the body of Christ, and members individually.",
         "translation": "WEB",
         "illustrationId": "ill-1co-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "1CO-12:28",
@@ -4018,6 +4659,14 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "assembly",
             "entityId": "term-church-ekklesia"
+          },
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
           }
         ]
       },
@@ -4030,7 +4679,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Are all apostles? Are all prophets? Are all teachers? Are all miracle workers?",
         "translation": "WEB",
         "illustrationId": "ill-1co-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          }
+        ]
       },
       {
         "id": "1CO-12:30",
@@ -4078,6 +4732,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-13",
         "linkedEntities": [
           {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          },
+          {
             "spanText": "love",
             "entityId": "term-agape-love"
           }
@@ -4093,6 +4751,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-1co-13",
         "linkedEntities": [
+          {
+            "spanText": "prophecy",
+            "entityId": "term-prophecy-nt"
+          },
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
@@ -4181,6 +4843,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "prophecies",
+            "entityId": "term-prophecy-nt"
           }
         ]
       },
@@ -4193,7 +4859,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For we know in part and we prophesy in part;",
         "translation": "WEB",
         "illustrationId": "ill-1co-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophesy",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "1CO-13:10",
@@ -4278,6 +4949,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "prophesy",
+            "entityId": "term-prophecy-nt"
           }
         ]
       },
@@ -4306,7 +4981,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But he who prophesies speaks to men for their edification, exhortation, and consolation.",
         "translation": "WEB",
         "illustrationId": "ill-1co-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophesies",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "1CO-14:4",
@@ -4318,6 +4998,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-1co-14",
         "linkedEntities": [
+          {
+            "spanText": "prophesies",
+            "entityId": "term-prophecy-nt"
+          },
           {
             "spanText": "assembly",
             "entityId": "term-church-ekklesia"
@@ -4371,7 +5055,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For if the trumpet gave an uncertain sound, who would prepare himself for war?",
         "translation": "WEB",
         "illustrationId": "ill-1co-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "trumpet",
+            "entityId": "term-trumpets"
+          }
+        ]
       },
       {
         "id": "1CO-14:9",
@@ -4464,7 +5153,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Otherwise if you bless with the spirit, how will he who fills the place of the unlearned say the “Amen” at your giving of thanks, seeing he doesn’t know what you say?",
         "translation": "WEB",
         "illustrationId": "ill-1co-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
+          }
+        ]
       },
       {
         "id": "1CO-14:17",
@@ -4670,6 +5364,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
           }
         ]
       },
@@ -4720,7 +5418,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If any man thinks himself to be a prophet, or spiritual, let him recognize the things which I write to you, that they are the commandment of the Lord.",
         "translation": "WEB",
         "illustrationId": "ill-1co-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "commandment",
+            "entityId": "term-commandments"
+          }
+        ]
       },
       {
         "id": "1CO-14:38",
@@ -4781,6 +5484,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "preached",
+            "entityId": "term-preach-proclaim"
           }
         ]
       },
@@ -4793,7 +5500,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "by which also you are saved, if you hold firmly the word which I preached to you—unless you believed in vain.",
         "translation": "WEB",
         "illustrationId": "ill-1co-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
+          },
+          {
+            "spanText": "preached",
+            "entityId": "term-preach-proclaim"
+          }
+        ]
       },
       {
         "id": "1CO-15:3",
@@ -4804,7 +5520,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For I delivered to you first of all that which I also received: that Christ died for our sins according to the Scriptures,",
         "translation": "WEB",
         "illustrationId": "ill-1co-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "1CO-15:4",
@@ -4853,7 +5574,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then he appeared to James, then to all the apostles,",
         "translation": "WEB",
         "illustrationId": "ill-1co-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "James",
+            "entityId": "char-james-jerusalem"
+          },
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          }
+        ]
       },
       {
         "id": "1CO-15:8",
@@ -4877,6 +5607,14 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-15",
         "linkedEntities": [
           {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "persecuted",
+            "entityId": "term-tribulation"
+          },
+          {
             "spanText": "assembly",
             "entityId": "term-church-ekklesia"
           }
@@ -4892,6 +5630,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-1co-15",
         "linkedEntities": [
+          {
+            "spanText": "grace",
+            "entityId": "term-grace"
+          },
           {
             "spanText": "grace",
             "entityId": "term-grace"
@@ -4919,6 +5661,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-1co-15",
         "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
           {
             "spanText": "resurrection",
             "entityId": "term-resurrection"
@@ -4966,7 +5712,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yes, we are also found false witnesses of God, because we testified about God that he raised up Christ, whom he didn’t raise up, if it is so that the dead are not raised.",
         "translation": "WEB",
         "illustrationId": "ill-1co-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "witnesses",
+            "entityId": "term-witness-martyr"
+          }
+        ]
       },
       {
         "id": "1CO-15:16",
@@ -5139,6 +5890,14 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "baptized",
             "entityId": "term-baptism"
+          },
+          {
+            "spanText": "baptized",
+            "entityId": "term-baptism"
+          },
+          {
+            "spanText": "baptized",
+            "entityId": "term-baptism"
           }
         ]
       },
@@ -5163,6 +5922,10 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-1co-15",
         "linkedEntities": [
+          {
+            "spanText": "boasting",
+            "entityId": "term-boasting-kauchēma"
+          },
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
@@ -5260,7 +6023,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "All flesh is not the same flesh, but there is one flesh of men, another flesh of animals, another of fish, and another of birds.",
         "translation": "WEB",
         "illustrationId": "ill-1co-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "1CO-15:40",
@@ -5271,7 +6039,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "There are also celestial bodies and terrestrial bodies; but the glory of the celestial differs from that of the terrestrial.",
         "translation": "WEB",
         "illustrationId": "ill-1co-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "1CO-15:41",
@@ -5282,7 +6055,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "There is one glory of the sun, another glory of the moon, and another glory of the stars; for one star differs from another star in glory.",
         "translation": "WEB",
         "illustrationId": "ill-1co-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "1CO-15:42",
@@ -5391,7 +6169,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now I say this, brothers, that flesh and blood can’t inherit God’s Kingdom; neither does the perishable inherit imperishable.",
         "translation": "WEB",
         "illustrationId": "ill-1co-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "1CO-15:51",
@@ -5413,7 +6196,16 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "in a moment, in the twinkling of an eye, at the last trumpet. For the trumpet will sound and the dead will be raised incorruptible, and we will be changed.",
         "translation": "WEB",
         "illustrationId": "ill-1co-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "trumpet",
+            "entityId": "term-trumpets"
+          },
+          {
+            "spanText": "trumpet",
+            "entityId": "term-trumpets"
+          }
+        ]
       },
       {
         "id": "1CO-15:53",
@@ -5446,7 +6238,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Death, where is your sting? Hades, where is your victory?”",
         "translation": "WEB",
         "illustrationId": "ill-1co-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hades",
+            "entityId": "term-hades"
+          }
+        ]
       },
       {
         "id": "1CO-15:56",
@@ -5508,7 +6305,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now concerning the collection for the saints, as I commanded the assemblies of Galatia, you do likewise.",
         "translation": "WEB",
         "illustrationId": "ill-1co-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "1CO-16:2",
@@ -5702,7 +6504,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now I beg you, brothers—you know the house of Stephanas, that it is the first fruits of Achaia, and that they have set themselves to serve the saints—",
         "translation": "WEB",
         "illustrationId": "ill-1co-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "1CO-16:16",
@@ -5748,11 +6555,11 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-16",
         "linkedEntities": [
           {
-            "spanText": "Priscilla",
+            "spanText": "Aquila",
             "entityId": "char-priscilla-aquila"
           },
           {
-            "spanText": "Aquila",
+            "spanText": "Priscilla",
             "entityId": "char-priscilla-aquila"
           },
           {
@@ -5799,12 +6606,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-16",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -5819,12 +6626,12 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-16",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -5839,12 +6646,20 @@ export const FIRST_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1co-16",
         "linkedEntities": [
           {
+            "spanText": "love",
+            "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           },
           {
-            "spanText": "love",
-            "entityId": "term-agape-love"
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       }

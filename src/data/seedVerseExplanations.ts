@@ -1575,6 +1575,519 @@ export const SEED_VERSE_EXPLANATIONS: Record<string, VerseExplanation> = {
     tryThisAction: 'Pray Ezekiel 37’s simple prayer over something feeling barren today: “Breathe fresh life here, Lord.”',
     kidFriendlySummary: 'When dry dusty bones looked totally hopeless, God blew gentle wind across the valley until everyone stood dancing alive!',
   },
+  'MAT-5:3': {
+    verseId: 'MAT-5:3',
+    verseRef: 'Matthew 5:3',
+    whatThisMeans:
+      '“Blessed” (Greek: makarios) describes deep flourishing under God’s care; “poor in spirit” means bringing empty, honest hands to God with zero religious boasting.',
+    lessonForYou: 'Admitting you need God isn’t spiritual weakness—it is the open doorway into Jesus’ Kingdom.',
+    tryThisAction: 'Start today’s prayer simply: “Jesus, I can’t carry life on my own; lead me today.”',
+    kidFriendlySummary: 'You don’t have to act super strong to be in Jesus’ family—knowing you need God’s help opens heaven’s door wide!',
+  },
+  'MAT-5:13': {
+    verseId: 'MAT-5:13',
+    verseRef: 'Matthew 5:13',
+    whatThisMeans:
+      'In the ancient world without refrigerators, salt preserved good food from rot and brought out flavor—just as disciples quietly preserve goodness and kindness around them.',
+    lessonForYou: 'Small everyday honesty and patience reshape an entire classroom, home, or workplace quietly.',
+    tryThisAction: 'Bring calm kindness into one tense conversation or group space today.',
+    kidFriendlySummary: 'Just like a pinch of salt makes soup delicious, quiet kindness changes every room you walk into!',
+  },
+  'MAT-6:9': {
+    verseId: 'MAT-6:9',
+    verseRef: 'Matthew 6:9',
+    whatThisMeans:
+      'Jesus teaches believers to begin prayer addressing the Ruler of heaven intimately as “Our Father”—combining tender family closeness with deep reverence for His holy name.',
+    lessonForYou: 'Prayer never requires fancy speeches; you speak to a loving Father in a worldwide family.',
+    tryThisAction: 'Pray the Lord’s Prayer slowly line by line today, pausing on “Your kingdom come.”',
+    kidFriendlySummary: 'Jesus taught us we can talk to God just like a child talking happily to a loving Dad!',
+  },
+  'MAT-6:33': {
+    verseId: 'MAT-6:33',
+    verseRef: 'Matthew 6:33',
+    whatThisMeans:
+      'Jesus invites anxious hearts to shift priority away from frantic hoarding toward trusting God’s reign and doing right—promising everyday food and clothing will follow naturally.',
+    lessonForYou: 'Seeking God’s Kingdom first unknots tight worries about tomorrow.',
+    tryThisAction: 'Hand over one swirling worry about next week and serve someone near you faithfully today.',
+    kidFriendlySummary: 'When you put loving God first, you never need to panic—He knows exactly what you need every day!',
+  },
+  'MAT-11:28': {
+    verseId: 'MAT-11:28',
+    verseRef: 'Matthew 11:28',
+    whatThisMeans:
+      'Unlike strict teachers piling heavy rule-yokes onto exhausted people, Jesus invites weary souls directly to Himself for gentle rest.',
+    lessonForYou: 'Exhaustion and mistakes qualify you for Jesus’ invitation, never disqualify you.',
+    tryThisAction: 'Set aside ten quiet minutes today just to breathe and rest in Jesus’ gentleness.',
+    kidFriendlySummary: 'Whenever life feels heavy like an overflowing backpack, Jesus says, “Come sit beside Me and rest.”',
+  },
+  'MAT-28:19': {
+    verseId: 'MAT-28:19',
+    verseRef: 'Matthew 28:19',
+    whatThisMeans:
+      'Holding all authority in heaven and earth, the risen Jesus sends disciples across every ethnic border (“all nations” / ta ethne) to invite people into baptism and lifelong apprenticeship.',
+    lessonForYou: 'Making disciples happens naturally in daily life alongside Jesus’ promise: “I am with you always.”',
+    tryThisAction: 'Pray for one neighbor or coworker who hasn’t experienced Jesus’ welcome yet.',
+    kidFriendlySummary: 'Jesus asks friends everywhere to share His good news around the world—and promises never to leave our side!',
+  },
+  'MRK-10:45': {
+    verseId: 'MRK-10:45',
+    verseRef: 'Mark 10:45',
+    whatThisMeans:
+      'Overturning human ideas of leadership as bossing others around, Jesus declares His own royal mission: serving humbly and giving His life as the ransom price setting captives free.',
+    lessonForYou: 'True greatness is measured by who you lift up, never by who bows to you.',
+    tryThisAction: 'Look for one quiet, unthanked chore or act of help you can do silently today.',
+    kidFriendlySummary: 'King Jesus didn’t come to be waited on—He came to help others and rescue us with love!',
+  },
+  'LUK-2:10': {
+    verseId: 'LUK-2:10',
+    verseRef: 'Luke 2:10',
+    whatThisMeans:
+      'God’s angel bypassed palaces first to bring “good news of great joy” to humble night-shift shepherds—proving Messiah arrived for ordinary working people.',
+    lessonForYou: 'Real Christianity begins with joy stronger than fear, meant for “all the people.”',
+    tryThisAction: 'Share one genuine word of encouragement today to lift someone’s quiet fear.',
+    kidFriendlySummary: 'God sent singing angels to outdoor shepherds first so everyone everywhere knows Jesus came for them!',
+  },
+  'LUK-15:20': {
+    verseId: 'LUK-15:20',
+    verseRef: 'Luke 15:20',
+    whatThisMeans:
+      'In first-century culture, dignified fathers never hiked up robes to sprint down dusty lanes—yet Jesus pictures God running with wide-open compassion toward returning wanderers.',
+    lessonForYou: 'No distance, shame, or wasted season can outrun God’s welcoming embrace.',
+    tryThisAction: 'If guilt is holding you back from prayer, walk home straight into God’s arms right now.',
+    kidFriendlySummary: 'Even before the runaway son finished apologizing, the Father sprinted up with the biggest hug ever!',
+  },
+  'JHN-1:1': {
+    verseId: 'JHN-1:1',
+    verseRef: 'John 1:1',
+    whatThisMeans:
+      'Echoing Genesis 1:1’s opening words, John calls Jesus “the Word” (Greek: Logos)—meaning Christ already stood eternally face to face with God and fully shares God’s own divine nature.',
+    lessonForYou: 'If you ever wonder what God is truly like, look straight at Jesus—He is God speaking clearly to us.',
+    tryThisAction: 'Read John 1:1–14 aloud slowly, soaking in the wonder of Creator becoming Savior.',
+    kidFriendlySummary: 'Before stars or oceans existed, Jesus was already right beside God—and helped speak the universe into beauty!',
+  },
+  'JHN-1:14': {
+    verseId: 'JHN-1:14',
+    verseRef: 'John 1:14',
+    whatThisMeans:
+      '“Dwelt” literally means “pitched His tabernacle tent” among us—just as God’s glory filled Israel’s Exodus tent, God moved into human flesh in Nazareth full of grace and truth.',
+    lessonForYou: 'Jesus never asks you to hide messy humanness; He stepped straight into mortal skin beside us.',
+    tryThisAction: 'Thank Jesus today for truly understanding human tiredness, hunger, and tears.',
+    kidFriendlySummary: 'Creator God moved right into our neighborhood as a real human friend full of grace and truth!',
+  },
+  'JHN-3:16': {
+    verseId: 'JHN-3:16',
+    verseRef: 'John 3:16',
+    whatThisMeans:
+      'Spoken at night to seeking Pharisee Nicodemus, this verse anchors salvation inside God’s active love—not angry obligation, rather giving His treasured Son so trusting hearts share eternal life.',
+    lessonForYou: 'Belonging to God rests on trusting Jesus’ rescuing love, not earning a flawless moral record.',
+    tryThisAction: 'Insert your own name mentally as you thank God for loving the world personally today.',
+    kidFriendlySummary: 'God loved the whole wide world so much He gave Jesus—and everyone who trusts Him lives forever!',
+  },
+  'JHN-8:32': {
+    verseId: 'JHN-8:32',
+    verseRef: 'John 8:32',
+    whatThisMeans:
+      'Real freedom isn’t merely doing whatever impulse demands; Jesus connects lasting inner freedom directly to abiding in His truth so guilt and deceit lose their chains.',
+    lessonForYou: 'Walking honestly inside Jesus’ teaching frees you from image-games and secret bondage.',
+    tryThisAction: 'Swap one comforting half-truth or worry today for simple honesty with God and a trusted friend.',
+    kidFriendlySummary: 'Knowing Jesus’ honest truth opens every cage door and lets your heart breathe free!',
+  },
+  'JHN-10:10': {
+    verseId: 'JHN-10:10',
+    verseRef: 'John 10:10',
+    whatThisMeans:
+      'Contrasting selfish thieves who only exploit sheep, the Good Shepherd lays down His life so His flock steps into flourishing, overflowing fullness (“life abundantly”).',
+    lessonForYou: 'Following Jesus never shrinks real life—it heals life back into what you were created to enjoy.',
+    tryThisAction: 'Ask Jesus where fear is stealing your peace today and receive His abundant shepherd care.',
+    kidFriendlySummary: 'Jesus the Good Shepherd doesn’t come to take good things away—He brings full, singing joy!',
+  },
+  'JHN-11:25': {
+    verseId: 'JHN-11:25',
+    verseRef: 'John 11:25',
+    whatThisMeans:
+      'Standing beside grieving Martha before raising Lazarus, Jesus reveals He doesn’t merely pass along resurrection power—He HIMSELF IS the Resurrection and the Life conquering death.',
+    lessonForYou: 'Death never holds the final chapter over anyone anchored inside Christ.',
+    tryThisAction: 'Bring any grief or goodbye softly to Jesus today, trusting He holds tomorrow’s reunion.',
+    kidFriendlySummary: 'Jesus told Martha that death isn’t the boss anymore—He brings dead things waking right back to life!',
+  },
+  'JHN-14:6': {
+    verseId: 'JHN-14:6',
+    verseRef: 'John 14:6',
+    whatThisMeans:
+      'Answering Thomas’s honest question (“How can we know the way?”), Jesus isn’t pointing vaguely toward maps—He Himself is the living bridge carrying humanity home into the Father’s house.',
+    lessonForYou: 'You don’t climb halfway up to heaven on good works; Jesus becomes the entire Way for you.',
+    tryThisAction: 'Walk into today’s decisions staying close to Jesus’ words and gentle spirit.',
+    kidFriendlySummary: 'When disciples felt lost, Jesus smiled and said: “Just stick close to Me—I’m the road straight home!”',
+  },
+  'ACT-1:8': {
+    verseId: 'ACT-1:8',
+    verseRef: 'Acts 1:8',
+    whatThisMeans:
+      'Right before ascending, Jesus gives the Spirit’s power not for political domination, rather to turn ordinary fearful witnesses outward from Jerusalem through Judea, Samaria, and every nation.',
+    lessonForYou: 'You never witness on your own willpower; the Holy Spirit supplies courage one step at a time.',
+    tryThisAction: 'Notice your own “Jerusalem” (home/workplace) today and ask the Spirit for quiet love there.',
+    kidFriendlySummary: 'Like ripples stretching across a lake, Jesus sent friends powered by His Spirit from next door to everywhere!',
+  },
+  'ACT-2:38': {
+    verseId: 'ACT-2:38',
+    verseRef: 'Acts 2:38',
+    whatThisMeans:
+      'At Pentecost, Peter invites pierced hearts to turn toward Jesus (repent) and receive water baptism—promising total forgiveness and the very same indwelling Holy Spirit for their children too.',
+    lessonForYou: 'Even those who shouted wrong verdicts days earlier found complete clean grace the instant they turned to Christ.',
+    tryThisAction: 'Thank God today that the Holy Spirit isn’t reserved only for “super-Christians”—it is His promise to you.',
+    kidFriendlySummary: 'When people asked how to start fresh, Peter said: “Say yes to Jesus—He washes every mistake away and sends His Spirit!”',
+  },
+  'ROM-1:16': {
+    verseId: 'ROM-1:16',
+    verseRef: 'Romans 1:16',
+    whatThisMeans:
+      'In proud imperial Rome, worshiping a crucified carpenter looked foolish—yet Paul calls the Gospel “God’s power (dynamis)” actively rescuing every trusting heart, Jew and Gentile alike.',
+    lessonForYou: 'Never feel embarrassed by Jesus’ story; quiet faith carries heaven’s saving power.',
+    tryThisAction: 'Read Romans 1 slowly remembering the Gospel works by simple trust, not status.',
+    kidFriendlySummary: 'We never need to be shy about loving Jesus—His good news brings God’s strongest rescue to everyone!',
+  },
+  'ROM-3:23': {
+    verseId: 'ROM-3:23',
+    verseRef: 'Romans 3:23',
+    whatThisMeans:
+      'Every human—religious insider and rebellious outsider alike—missed the mark of reflecting God’s radiant glory, leveling the ground cleanly so grace reaches everyone identically.',
+    lessonForYou: 'Nobody stands taller by bragging; humility puts everyone together at the foot of mercy.',
+    tryThisAction: 'Treat someone whose struggles frustrate you patiently today, remembering we all live by grace.',
+    kidFriendlySummary: 'Everyone drops the ball sometimes—none of us are too fancy for Jesus’ kindness and help!',
+  },
+  'ROM-5:8': {
+    verseId: 'ROM-5:8',
+    verseRef: 'Romans 5:8',
+    whatThisMeans:
+      'Notice the tense: Jesus didn’t wait until we polished ourselves up first! While we were still estranged sinners, God proved His love clearly through Christ dying in our place.',
+    lessonForYou: 'God’s love stays steadier than your moods—He loved you at your weakest before you ever sought Him.',
+    tryThisAction: 'Silence harsh self-condemnation today by remembering Calvary’s proof of how fiercely you are loved.',
+    kidFriendlySummary: 'Jesus didn’t wait for us to become perfect first—He showed how much He loves us right when we needed saving most!',
+  },
+  'ROM-6:23': {
+    verseId: 'ROM-6:23',
+    verseRef: 'Romans 6:23',
+    whatThisMeans:
+      'Paul contrasts earned paycheck wages (sin naturally pays out spiritual death) against an unearned birthday gift (charisma): eternal life given freely inside union with Jesus Christ.',
+    lessonForYou: 'You never earn grace as hourly wages; you open your hands and receive a King’s free gift.',
+    tryThisAction: 'Stop keeping spiritual scorecards today and walk warmly inside Jesus’ free grace.',
+    kidFriendlySummary: 'Sin leaves sad messes, yet God hands out forever-life through Jesus as a completely free gift!',
+  },
+  'ROM-8:1': {
+    verseId: 'ROM-8:1',
+    verseRef: 'Romans 8:1',
+    whatThisMeans:
+      'Opening Romans’ mountaintop chapter, “condemnation” (katakrima) means guilty execution sentence—and Paul declares that sentence ZEROED OUT completely for everyone belonging to Christ Jesus.',
+    lessonForYou: 'Guilt whispers you remain on probation, whereas God declares you cleanly acquitted and beloved.',
+    tryThisAction: 'Speak Romans 8:1 aloud whenever lingering shame tries dragging yesterday’s regrets back.',
+    kidFriendlySummary: 'If you belong to Jesus, God holds zero angry scorecards against you—you are loved and free!',
+  },
+  'ROM-8:28': {
+    verseId: 'ROM-8:28',
+    verseRef: 'Romans 8:28',
+    whatThisMeans:
+      'Not claiming every tragedy or injustice is good in itself, rather promising God is so resourceful that He weaves even harsh griefs together for ultimate healing and Christlikeness.',
+    lessonForYou: 'Nothing painful you endure goes wasted inside God’s patient hands.',
+    tryThisAction: 'Entrust one confusing or painful puzzle piece of this year gently into God’s tailoring hands.',
+    kidFriendlySummary: 'Even when messy things happen, God works like a master artist weaving every scrap into a good tapestry!',
+  },
+  'ROM-8:38': {
+    verseId: 'ROM-8:38',
+    verseRef: 'Romans 8:38',
+    whatThisMeans:
+      'Paul ransacks the entire cosmos—death, spiritual powers, present fears, uncertain futures—and vows not one force on earth or sky can snap Christ’s love off His people.',
+    lessonForYou: 'Your grip on God may tremble on hard days, yet His grip on you never slips.',
+    tryThisAction: 'Name your biggest fear about tomorrow right now and place it under Christ’s unbreakable love.',
+    kidFriendlySummary: 'Nothing—not dark nights, monsters, or scary tomorrows—can ever pull God’s love away from you!',
+  },
+  'ROM-10:9': {
+    verseId: 'ROM-10:9',
+    verseRef: 'Romans 10:9',
+    whatThisMeans:
+      'Echoing Deuteronomy 30, salvation isn’t hidden across impossible oceans: confessing Jesus openly as true Lord while trusting deeply that God raised Him from the dead brings clean rescue.',
+    lessonForYou: 'Simple sincere trust in the living Christ—both inside your heart and honestly on your lips—unites you to God.',
+    tryThisAction: 'Encourage another believer today simply by sharing one reason you trust Jesus.',
+    kidFriendlySummary: 'Believing in your heart that Jesus came alive and saying out loud “Jesus is my King” welcomes you right home!',
+  },
+  'ROM-12:1': {
+    verseId: 'ROM-12:1',
+    verseRef: 'Romans 12:1',
+    whatThisMeans:
+      'After eleven chapters describing God’s mercy, Paul calls worship our whole everyday life—not offering dead temple animals, rather giving our living Mondays, bodies, and choices joyfully back to God.',
+    lessonForYou: 'Ordinary errands, work, and kindness become worship when offered to thank a merciful Savior.',
+    tryThisAction: 'Dedicate the very next task in your calendar silently to God as an act of grateful worship.',
+    kidFriendlySummary: 'Real worship isn’t just Sunday songs—using your hands, mind, and kindness all week is your thank-you gift to God!',
+  },
+  'ROM-12:2': {
+    verseId: 'ROM-12:2',
+    verseRef: 'Romans 12:2',
+    whatThisMeans:
+      '“Don’t be squeezed into the world’s mold”—instead invite the Spirit to renovate how you think from the inside out (metamorphoo) so you naturally discover how good and right God’s ways are.',
+    lessonForYou: 'Lasting life change starts quietly in what truths we feed our minds each morning.',
+    tryThisAction: 'Swap fifteen minutes of hurried scrolling today for slow, thoughtful Scripture meditation.',
+    kidFriendlySummary: 'Like a caterpillar changing into a butterfly, letting God’s Word fill our minds grows bright brand-new habits!',
+  },
+  '1CO-10:13': {
+    verseId: '1CO-10:13',
+    verseRef: '1 Corinthians 10:13',
+    whatThisMeans:
+      'Facing temptations common to all humanity, God never deserts His children inside an airtight box—He remains faithful and always carves an honest “way of escape” so we can endure.',
+    lessonForYou: 'Nobody has an impossible temptation with zero exits; pausing to look up reveals God’s exit door.',
+    tryThisAction: 'Next time pressure flares up today, pause ten seconds and ask God to show you the exit.',
+    kidFriendlySummary: 'God knows how tough choices get—and always leaves an open side-door so you don’t have to give in!',
+  },
+  '1CO-13:4': {
+    verseId: '1CO-13:4',
+    verseRef: '1 Corinthians 13:4',
+    whatThisMeans:
+      'Correcting flashy pride in Corinth, Paul defines agape love not as passing feelings, rather patient action—waiting kindly, cheering others on, and refusing to inflate ego.',
+    lessonForYou: 'Love looks most supernatural when it slows down to stay patient with prickly people.',
+    tryThisAction: 'Practice patience and unjealous kindness toward one tricky relationship today.',
+    kidFriendlySummary: 'Real Jesus-love waits kindly without grabbing spotlight or keeping grumpy scorecards!',
+  },
+  '2CO-5:17': {
+    verseId: '2CO-5:17',
+    verseRef: '2 Corinthians 5:17',
+    whatThisMeans:
+      'Being “in Christ” isn’t merely slapping fresh paint on old habits—God launches Isaiah’s promised New Creation right inside a believer’s soul, making old failure pass cleanly away.',
+    lessonForYou: 'Your past labels don’t own your future; in Christ you live inside a genuinely new start.',
+    tryThisAction: 'Notice one old negative label you carry about yourself and replace it with “made new in Christ.”',
+    kidFriendlySummary: 'With Jesus, old sad chapters finish up and God begins a shining brand-new story inside you!',
+  },
+  '2CO-12:9': {
+    verseId: '2CO-12:9',
+    verseRef: '2 Corinthians 12:9',
+    whatThisMeans:
+      'When God declined to remove Paul’s painful “thorn in the flesh,” Jesus answered personally: His grace stays completely sufficient, shining strongest exactly where human frailty runs out.',
+    lessonForYou: 'Weakness isn’t shameful dead-weight—it creates wide-open space where Christ’s power clearly rests.',
+    tryThisAction: 'Invite Jesus straight into one weakness you usually try hiding today.',
+    kidFriendlySummary: 'When you feel tiny or tired, Jesus whispers: “My strength shines brightest right where you feel weak!”',
+  },
+  'GAL-2:20': {
+    verseId: 'GAL-2:20',
+    verseRef: 'Galatians 2:20',
+    whatThisMeans:
+      'Because Jesus joined our story at Calvary, self-reliance died with Him so His own life now animates us daily by trusting faith in the Son of God “who loved me and gave himself for me.”',
+    lessonForYou: 'Christianity is personal union: Christ lives out His love through your ordinary hands and feet.',
+    tryThisAction: 'Greet today saying calmly: “Jesus, live Your patient love through me today.”',
+    kidFriendlySummary: 'Jesus didn’t just love crowds—He loves YOU by name and walks inside your heart every single day!',
+  },
+  'GAL-5:22': {
+    verseId: 'GAL-5:22',
+    verseRef: 'Galatians 5:22',
+    whatThisMeans:
+      'Notice “fruit” is singular! Like slow orchard ripening rather than strained plastic trophies, staying rooted in the Holy Spirit grows love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, and self-control together.',
+    lessonForYou: 'You grow healthy spiritual fruit by abiding close to Jesus, never by exhausting white-knuckle stress.',
+    tryThisAction: 'Pick one Spirit quality—gentleness or patience—and watch for opportunities to practice it today.',
+    kidFriendlySummary: 'Like sunshine ripening sweet apples on a tree, God’s Spirit grows kindness, joy, and peace inside friendly hearts!',
+  },
+  'EPH-2:8': {
+    verseId: 'EPH-2:8',
+    verseRef: 'Ephesians 2:8',
+    whatThisMeans:
+      'Salvation rests purely on God’s unearned generosity (grace), opened by trusting faith—neither bought by moral achievements nor open to spiritual bragging, rather preparing us for loving good works (v.10).',
+    lessonForYou: 'Good works don’t purchase salvation; rescued people joyfully walk in good works already loved.',
+    tryThisAction: 'Rest gratefully in God’s gift first, then look freely for someone you can bless today.',
+    kidFriendlySummary: 'Heaven isn’t a prize earned by homework—God gives rescue free by grace, then sends us out smiling to help others!',
+  },
+  'EPH-4:32': {
+    verseId: 'EPH-4:32',
+    verseRef: 'Ephesians 4:32',
+    whatThisMeans:
+      'Instead of nursing bitter grudges inside churches or homes, Paul roots tenderhearted forgiving kindness directly in one model: forgive neighbors exactly as God in Christ generously forgave you.',
+    lessonForYou: 'Kindness and tender mercy stay contagious whenever we remember how much we were pardoned.',
+    tryThisAction: 'Drop one small grudge or sharp reply today and offer a gentle answer instead.',
+    kidFriendlySummary: 'Because God forgives us with open arms, we can speak warmly and forgive friends cheerfully too!',
+  },
+  'EPH-6:11': {
+    verseId: 'EPH-6:11',
+    verseRef: 'Ephesians 6:11',
+    whatThisMeans:
+      'Life’s deepest battles aren’t waged against human neighbors—so God hands out truth, righteousness, peace, faith, salvation, and His Word so believers stand calm and unbroken against spiritual deceit.',
+    lessonForYou: 'People around you aren’t the true enemy; put on peace and truth before stepping into tense rooms.',
+    tryThisAction: 'Pray through one piece of the Armor of God—like the “belt of truth” or “shoes of peace”—this morning.',
+    kidFriendlySummary: 'God dresses us head-to-toe in truth, peace, and kindness like brave knights guarding calm hearts!',
+  },
+  'PHP-2:5': {
+    verseId: 'PHP-2:5',
+    verseRef: 'Philippians 2:5',
+    whatThisMeans:
+      'Introducing an ancient hymn celebrating Christ emptying royal status to become a cross-bearing servant, Paul asks fractured friends to adopt Jesus’ own selfless, humble mindset toward each other.',
+    lessonForYou: 'True Christian harmony starts whenever someone happily lays down status to serve first.',
+    tryThisAction: 'Let someone else take the better seat, credit, or last word quietly today.',
+    kidFriendlySummary: 'Think and care just like Jesus—He traded Heaven’s throne for a dusty towel to serve friends lovingly!',
+  },
+  'PHP-4:6': {
+    verseId: 'PHP-4:6',
+    verseRef: 'Philippians 4:6',
+    whatThisMeans:
+      'Writing calmly from Roman custody, Paul pairs every specific anxious detail with thankful prayer—and promises God’s own peace (v.7) will stand sentinel duty guarding your heart and mind.',
+    lessonForYou: 'Whenever worry circles back around, turn each worry sentence into a thank-you prayer request.',
+    tryThisAction: 'Write or speak three anxious things right now into a simple honest prayer ending in thanksgiving.',
+    kidFriendlySummary: 'Never worry alone in circles—tell Jesus everything inside your head with a grateful thank-you!',
+  },
+  'PHP-4:13': {
+    verseId: 'PHP-4:13',
+    verseRef: 'Philippians 4:13',
+    whatThisMeans:
+      'Often misquoted about sports trophies, this verse speaks literally about contentment in BOTH plenty and hungry poverty (v.12)—declaring Christ supplies strength to stay joyful whether times boom or pinch.',
+    lessonForYou: 'Christ empowers quiet contentment equally in empty seasons and abundant ones.',
+    tryThisAction: 'Thank Jesus for being enough right where circumstances feel tight or uncertain today.',
+    kidFriendlySummary: 'Whether you have lots or just a little, Jesus fills your heart with strength enough for every single day!',
+  },
+  'COL-3:23': {
+    verseId: 'COL-3:23',
+    verseRef: 'Colossians 3:23',
+    whatThisMeans:
+      'Spoken initially to overlooked household workers, this transforms every routine shift, homework page, or dish sink into joyful personal service done straight for the Lord Jesus Himself.',
+    lessonForYou: 'Zero honest work goes unnoticed when done whole-heartedly before your watching King.',
+    tryThisAction: 'Put cheerful extra care into one small ordinary chore today “as for the Lord.”',
+    kidFriendlySummary: 'Even cleaning your room or finishing homework feels bright when you do it smiling as a gift to Jesus!',
+  },
+  '1TH-5:16': {
+    verseId: '1TH-5:16',
+    verseRef: '1 Thessalonians 5:16',
+    whatThisMeans:
+      'Not demanding fake plastic smiles during grief—together with “pray without ceasing, give thanks in all circumstances,” joy springs steadily from trusting God stays faithful inside every storm.',
+    lessonForYou: 'Keep a continuous open-line whisper of prayer and gratitude running right beneath busy hours.',
+    tryThisAction: 'Send up three short two-second thank-you prayers spread across today’s commute or chores.',
+    kidFriendlySummary: 'Keep smiling hearts ready, chat with God anytime anywhere, and spot reasons to say thank You!',
+  },
+  '2TI-1:7': {
+    verseId: '2TI-1:7',
+    verseRef: '2 Timothy 1:7',
+    whatThisMeans:
+      'To timid young pastor Timothy facing harsh critics, aging Paul reminds him cowardly panic never came from God—the Spirit already placed power, warm love, and calm clear-minded discipline inside him.',
+    lessonForYou: 'Fear isn’t your compass; God’s Spirit restores a steady, loving, disciplined mind.',
+    tryThisAction: 'Notice one timid hesitation today and step calmly forward in love and steady clarity.',
+    kidFriendlySummary: 'God never puts scary panic inside your heart—He sends brave power, warm love, and calm wise thoughts!',
+  },
+  '2TI-3:16': {
+    verseId: '2TI-3:16',
+    verseRef: '2 Timothy 3:16',
+    whatThisMeans:
+      'Calling Scripture “God-breathed” (theopneustos), Paul shows sacred pages aren’t dead ink rules—they breathe God’s own wisdom to teach, gently correct course, and outfit believers for every good work.',
+    lessonForYou: 'Reading Scripture expects encounter with a living Author preparing us to bless others practically.',
+    tryThisAction: 'Ask before reading any verse today: “Lord, how can this equip me for one good work today?”',
+    kidFriendlySummary: 'God breathed His living love right into Bible stories so they help us grow wise, kind, and ready to help!',
+  },
+  'HEB-4:16': {
+    verseId: 'HEB-4:16',
+    verseRef: 'Hebrews 4:16',
+    whatThisMeans:
+      'Because Jesus truly lived through mortal temptation without failing, Heaven’s holy throne transforms for us from a terrifying courtroom into a “throne of grace” dispensing urgent mercy right on time.',
+    lessonForYou: 'Never hang outside God’s door waiting to feel “good enough”—walk boldly inside specifically when you need help!',
+    tryThisAction: 'Step boldly to God in prayer right at your moment of need today without cleaning up first.',
+    kidFriendlySummary: 'Because Jesus knows how life feels, you can run straight onto God’s lap anytime you need brave help!',
+  },
+  'HEB-11:1': {
+    verseId: 'HEB-11:1',
+    verseRef: 'Hebrews 11:1',
+    whatThisMeans:
+      'Biblical faith isn’t blind wishing against facts—it is solid, sturdy trust (“assurance / title-deed”) treating God’s faithful invisible promises as reliable enough to shape how we live visibly right now.',
+    lessonForYou: 'Real faith looks ahead to God’s character and steps forward calmly even before outcomes appear.',
+    tryThisAction: 'Remember one promise God kept in the past while taking one trusting step today.',
+    kidFriendlySummary: 'Faith means trusting God’s steady promises so completely that you step forward bravely even before seeing the finish!',
+  },
+  'HEB-12:2': {
+    verseId: 'HEB-12:2',
+    verseRef: 'Hebrews 12:2',
+    whatThisMeans:
+      'Picturing tired marathon runners surrounded by a cheering stadium of heroes, the writer fixes eyes squarely on Jesus—who endured Calvary’s shame specifically “for the joy set before him”: bringing us home!',
+    lessonForYou: 'Don’t stare exclusively at hurdles beneath your feet; lift your gaze to Jesus ahead at the finish.',
+    tryThisAction: 'When today feels tedious, recall that YOU were part of the joy motivating Jesus forward.',
+    kidFriendlySummary: 'Keep your eyes fixed right on Jesus running ahead of us—He finished strong because bringing us home made Him smile!',
+  },
+  'JAS-1:2': {
+    verseId: 'JAS-1:2',
+    verseRef: 'James 1:2',
+    whatThisMeans:
+      'James doesn’t pretend painful tests are fun—he urges treating hard trials calmly because pressure tests and strengthens faith into resilient endurance that makes your character whole.',
+    lessonForYou: 'Hard weeks aren’t wasted detours; patiently endured, they build deep, unshakeable steadiness.',
+    tryThisAction: 'Ask over one irritating delay today: “How might God grow patient endurance inside me through this?”',
+    kidFriendlySummary: 'Tough days act like climbing muscles—with Jesus’ help, hard hills make brave hearts grow stronger!',
+  },
+  'JAS-1:5': {
+    verseId: 'JAS-1:5',
+    verseRef: 'James 1:5',
+    whatThisMeans:
+      'Whenever confusion hits inside trials, James promises God loves giving wisdom lavishly and “without finding fault”—never scolding anyone for asking honestly what to do next.',
+    lessonForYou: 'God delights in honest prayers asking simply, “Lord, I don’t know what’s wise here—show me.”',
+    tryThisAction: 'Pause over one tricky decision today and ask God straightforwardly for calm wisdom.',
+    kidFriendlySummary: 'Whenever you feel stuck on a tough choice, ask God for wisdom—He loves sharing bright answers with zero grumbling!',
+  },
+  'JAS-2:17': {
+    verseId: 'JAS-2:17',
+    verseRef: 'James 2:17',
+    whatThisMeans:
+      'James agrees wholeheartedly with Paul that God saves by faith—clarifying that living, breathing faith naturally shows up in warm coats, shared food, and real kindness, not hollow “bless you” wishes.',
+    lessonForYou: 'Genuine trust inside the heart always finds simple everyday hands and feet.',
+    tryThisAction: 'Pair good wishes today with one tangible act meeting someone’s physical or practical need.',
+    kidFriendlySummary: 'Real faith isn’t just saying “God bless you!”—it looks like sharing snacks, helping chores, and smiling warm!',
+  },
+  '1PE-5:7': {
+    verseId: '1PE-5:7',
+    verseRef: '1 Peter 5:7',
+    whatThisMeans:
+      'Speaking gently to anxious scattered Christians, Peter tells us to heave (“cast”) every heavy worry squarely onto God’s shoulders—grounded in one unshakeable fact: “because he cares for you.”',
+    lessonForYou: 'God isn’t irritated by your anxieties; He gently invites you to offload them because He truly cares.',
+    tryThisAction: 'Picture handing today’s heaviest worry physically off your hands into God’s attentive care.',
+    kidFriendlySummary: 'Toss every big worry straight up into God’s strong hands—He cares deeply about every single little detail!',
+  },
+  '1JN-1:9': {
+    verseId: '1JN-1:9',
+    verseRef: '1 John 1:9',
+    whatThisMeans:
+      'Confessing means agreeing honestly with God instead of making excuses—and God responds faithfully and justly (because Christ already paid!) both forgiving sins AND scrubbing residual guilt clean.',
+    lessonForYou: 'Honesty draws you straight into cleansing warmth rather than pushing you into hiding.',
+    tryThisAction: 'Come clean directly with God in simple plain words about anything weighing on your conscience today.',
+    kidFriendlySummary: 'Saying honestly “I messed up, Jesus” never gets you kicked out—He forgives fast and washes your heart clean!',
+  },
+  '1JN-4:8': {
+    verseId: '1JN-4:8',
+    verseRef: '1 John 4:8',
+    whatThisMeans:
+      'John summarizes all Scripture in three luminous words: “God is love.” Love isn’t just one trait God puts on sometimes—self-giving goodness is His eternal essence shown clearest at Calvary (v.9–10).',
+    lessonForYou: 'Knowing God truly always produces genuine patience and practical care toward others.',
+    tryThisAction: 'Reflect God’s loving heart toward someone around you who feels overlooked or prickly today.',
+    kidFriendlySummary: 'Who is God really? God IS love—and knowing Him turns our hearts warm and friendly too!',
+  },
+  '1JN-4:19': {
+    verseId: '1JN-4:19',
+    verseRef: '1 John 4:19',
+    whatThisMeans:
+      'Christian love never runs on self-manufactured fumes! Everything good we pour out toward neighbors simply echoes backwards from one limitless spring: “because he first loved us.”',
+    lessonForYou: 'Whenever your patience runs empty, stop straining and receive God’s love freshly first.',
+    tryThisAction: 'Pause to soak in Christ’s first love for you before heading into difficult conversations.',
+    kidFriendlySummary: 'We can love neighbors bravely because God started loving us first and fills our cups every morning!',
+  },
+  'REV-3:20': {
+    verseId: 'REV-3:20',
+    verseRef: 'Revelation 3:20',
+    whatThisMeans:
+      'Addressed directly to a lukewarm, self-satisfied church, the risen Jesus stands patiently knocking outside—offering warm table fellowship to anyone who opens the door in renewed trust.',
+    lessonForYou: 'Even busy or distracted believers can open the door right now to fresh closeness with Christ.',
+    tryThisAction: 'Invite Jesus warmly into the ordinary schedule of your home and thoughts right now.',
+    kidFriendlySummary: 'Jesus knocks gently on the door of your heart—and smiles to come inside and share a happy meal with you!',
+  },
+  'REV-21:4': {
+    verseId: 'REV-21:4',
+    verseRef: 'Revelation 21:4',
+    whatThisMeans:
+      'Crowning all 66 books inside New Jerusalem, God Himself wipes away every tear gently—abolishing death, mourning, crying, and pain permanently so restored creation begins forever healed.',
+    lessonForYou: 'No present heartbreak lasts forever; Christian hope promises tears wiped dry personally by God.',
+    tryThisAction: 'Comfort a grieving heart gently today, remembering the tearless morning coming in Christ.',
+    kidFriendlySummary: 'In the brand-new forever home Jesus is preparing, God wipes every tear dry—no crying, hurting, or goodbyes ever again!',
+  },
+  'REV-22:20': {
+    verseId: 'REV-22:20',
+    verseRef: 'Revelation 22:20',
+    whatThisMeans:
+      'Bible history’s closing promise and prayer unite seamlessly: Jesus vows “Yes, I am coming quickly,” and the Church answers across centuries in joyful longing: “Amen! Come, Lord Jesus!”',
+    lessonForYou: 'Christians face chaotic headlines not with panic, rather confident hopeful longing for Christ’s return.',
+    tryThisAction: 'End today’s prayers with the Bible’s final hopeful greeting: “Amen. Come, Lord Jesus!”',
+    kidFriendlySummary: 'The very last page of the Bible ends with a warm promise from Jesus: “Wait cheerfully—I’m coming soon!”',
+  },
 };
 
 interface BookExplanationTemplate {

@@ -439,7 +439,7 @@ export const SEED_CHARACTERS: Record<string, CharacterCard> = {
       'A passionate Galilean fisherman called by Jesus to become a "fisher of people." Though Peter famously stumbled in fear, the risen Jesus forgave and commissioned him to lead the birth of the Early Church.',
     familyTree: {
       parents: ['Jonah (John)'],
-      siblings: ['Andrew'],
+      siblings: ['char-profile-andrew'],
       spouse: ['Unnamed Wife (Capernaum)'],
     },
     locationsLived: [
@@ -4573,6 +4573,3094 @@ export const SEED_CHARACTERS: Record<string, CharacterCard> = {
       },
     ],
   },
+  'char-profile-jesus': {
+      "id": "char-profile-jesus",
+      "name": "Jesus Christ",
+      "nameMeaning": "Hebrew/Greek: יֵשׁוּעַ / Ἰησοῦς (\"Yahweh Saves\") · Χριστός (\"Anointed Messiah\")",
+      "era": "Gospels (~4 BC – 30 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-jesus",
+      "quickBio": "Eternal Son of God born of Mary in Bethlehem, raised in Nazareth, baptized in the Jordan, and crucified outside Jerusalem for the sins of the world. Rising bodily on the third day, He reigns as Lord, Savior, and Bridegroom of a redeemed humanity.",
+      "familyTree": {
+          "parents": [
+              "God the Father",
+              "char-profile-mary-jesus",
+              "char-profile-joseph-nazareth"
+          ],
+          "siblings": [
+              "char-profile-james-jerusalem",
+              "char-profile-jude",
+              "Joseph",
+              "Simon"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Bethlehem of Judea",
+              "roleInLife": "Born in humility and laid in a manger",
+              "coordinates": {
+                  "lat": 31.705,
+                  "lng": 35.202
+              },
+              "mapPinId": "loc-bethlehem"
+          },
+          {
+              "placeName": "Galilee (Nazareth & Capernaum)",
+              "roleInLife": "Preached the Kingdom, healed the sick, and called twelve apostles",
+              "coordinates": {
+                  "lat": 32.8,
+                  "lng": 35.5
+              },
+              "mapPinId": "loc-galilee"
+          },
+          {
+              "placeName": "Jerusalem",
+              "roleInLife": "Taught in the Temple, died on Golgotha, and rose from the empty tomb",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Fulfills every Old Testament promise of the Davidic King, Suffering Servant, and Passover Lamb.",
+          "Reconciles sinners to God by grace through His cross and bodily resurrection.",
+          "Reveals the exact heart of God: unfailing truth overflowing with humble, rescuing love."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Matthew 5:1–16",
+              "label": "The Beatitudes & Sermon on the Mount",
+              "storyModuleId": "story-mat-sermon",
+              "chapterId": "MAT-5",
+              "anchorVerseNumber": 3
+          },
+          {
+              "reference": "John 3:1–21",
+              "label": "Born Again & God So Loved the World",
+              "storyModuleId": "story-jhn-nicodemus",
+              "chapterId": "JHN-3",
+              "anchorVerseNumber": 16
+          },
+          {
+              "reference": "Luke 24:1–53",
+              "label": "The Empty Tomb & Road to Emmaus",
+              "storyModuleId": "story-luk-resurrection",
+              "chapterId": "LUK-24",
+              "anchorVerseNumber": 6
+          }
+      ]
+  },
+  'char-profile-paul': {
+      "id": "char-profile-paul",
+      "name": "Paul the Apostle",
+      "nameMeaning": "Hebrew/Latin: שָׁאוּל / Paulus (\"Asked For\" / \"Little\")",
+      "era": "Early Church & Missionary Journeys (~33–67 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-paul",
+      "quickBio": "Brilliant Pharisee scholar from Tarsus who fiercely persecuted Christians until the risen Jesus confronted him on the road to Damascus. Transformed into the tireless Apostle to the Gentiles, Paul planted churches across the Roman Empire and authored thirteen New Testament letters.",
+      "familyTree": {
+          "parents": [
+              "Tribe of Benjamin family in Tarsus"
+          ],
+          "siblings": [
+              "Sister in Jerusalem"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem & Damascus",
+              "roleInLife": "Studied under Gamaliel, met the risen Christ, and escaped persecution",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          },
+          {
+              "placeName": "Galilee & Syria (Antioch)",
+              "roleInLife": "Launched three historic missionary journeys to the nations",
+              "coordinates": {
+                  "lat": 32.8,
+                  "lng": 35.5
+              },
+              "mapPinId": "loc-galilee"
+          }
+      ],
+      "whyTheyMatter": [
+          "Articulated justification by grace through faith across Romans and Galatians.",
+          "Carried the Gospel from Jerusalem to Greece and imperial Rome without losing joy in prison."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Acts 9:1–19",
+              "label": "Blinded on the Road to Damascus",
+              "storyModuleId": "story-act-damascus",
+              "chapterId": "ACT-9",
+              "anchorVerseNumber": 4
+          },
+          {
+              "reference": "Romans 8:1–39",
+              "label": "No Condemnation & Nothing Separates Us",
+              "storyModuleId": "story-rom-spirit",
+              "chapterId": "ROM-8",
+              "anchorVerseNumber": 38
+          },
+          {
+              "reference": "1 Corinthians 13:1–13",
+              "label": "The More Excellent Way of Agape Love",
+              "storyModuleId": "story-1co-love",
+              "chapterId": "1CO-13",
+              "anchorVerseNumber": 4
+          }
+      ]
+  },
+  'char-profile-mary-jesus': {
+      "id": "char-profile-mary-jesus",
+      "name": "Mary, Mother of Jesus",
+      "nameMeaning": "Hebrew: מִרְיָם / Miryam (\"Beloved / Wished-for Child\")",
+      "era": "Birth & Ministry of Jesus (~4 BC – 33 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-mary-jesus",
+      "quickBio": "Humble young woman of Nazareth chosen by God’s grace to conceive Jesus through the Holy Spirit. She answered the angel with courageous surrender—“Let it be to me according to your word”—pondered every sign in her heart, and stood faithfully beneath the cross.",
+      "familyTree": {
+          "parents": [
+              "Heli (Luke 3 tradition)"
+          ],
+          "siblings": [
+              "Unnamed sister"
+          ],
+          "spouse": [
+              "char-profile-joseph-nazareth"
+          ],
+          "children": [
+              "char-profile-jesus",
+              "char-profile-james-jerusalem",
+              "char-profile-jude"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Galilee (Nazareth & Cana)",
+              "roleInLife": "Visited by Gabriel; trusted Jesus at the Cana wedding",
+              "coordinates": {
+                  "lat": 32.7,
+                  "lng": 35.3
+              },
+              "mapPinId": "loc-galilee"
+          },
+          {
+              "placeName": "Bethlehem & Jerusalem",
+              "roleInLife": "Gave birth in a manger; stayed beside the cross and Pentecost Upper Room",
+              "coordinates": {
+                  "lat": 31.705,
+                  "lng": 35.202
+              },
+              "mapPinId": "loc-bethlehem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Models willing, faith-filled obedience in her Magnificat praise song (Luke 1:46–55).",
+          "Endured Simeon’s prophecy of a pierced soul while staying anchored beside Jesus’ disciples."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Luke 1:26–56",
+              "label": "The Annunciation & Mary’s Magnificat",
+              "storyModuleId": "story-luk-annunciation",
+              "chapterId": "LUK-1",
+              "anchorVerseNumber": 38
+          },
+          {
+              "reference": "John 19:25–27",
+              "label": "Standing Courageously Beside the Cross",
+              "storyModuleId": "story-jhn-cross",
+              "chapterId": "JHN-19",
+              "anchorVerseNumber": 26
+          }
+      ]
+  },
+  'char-profile-joseph-nazareth': {
+      "id": "char-profile-joseph-nazareth",
+      "name": "Joseph of Nazareth",
+      "nameMeaning": "Hebrew: יוֹסֵף / Yosef (\"May He Add\")",
+      "era": "Nativity & Childhood of Jesus (~4 BC – 12 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-joseph-nazareth",
+      "quickBio": "Righteous carpenter from King David’s line engaged to Mary. Torn when she was found pregnant, he listened immediately to God’s angel in dreams, protected Mother and Child in Egypt, and quietly raised Jesus as a craftsman in Nazareth.",
+      "familyTree": {
+          "parents": [
+              "Jacob / Eli (Davidic lineage)"
+          ],
+          "siblings": [],
+          "spouse": [
+              "char-profile-mary-jesus"
+          ],
+          "children": [
+              "char-profile-jesus",
+              "char-profile-james-jerusalem",
+              "char-profile-jude"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Bethlehem & Egypt",
+              "roleInLife": "Fled by night from Herod to keep infant Jesus safe",
+              "coordinates": {
+                  "lat": 31.705,
+                  "lng": 35.202
+              },
+              "mapPinId": "loc-bethlehem"
+          },
+          {
+              "placeName": "Galilee (Nazareth)",
+              "roleInLife": "Worked faithfully as a carpenter and taught Jesus integrity",
+              "coordinates": {
+                  "lat": 32.7,
+                  "lng": 35.3
+              },
+              "mapPinId": "loc-galilee"
+          }
+      ],
+      "whyTheyMatter": [
+          "Connected Jesus legally to the royal throne promised to King David.",
+          "Exemplifies quiet strength, mercy toward others’ reputation, and instant obedience."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Matthew 1:18–25",
+              "label": "Joseph’s Dream & Naming Jesus",
+              "storyModuleId": "story-mat-birth",
+              "chapterId": "MAT-1",
+              "anchorVerseNumber": 20
+          },
+          {
+              "reference": "Matthew 2:13–23",
+              "label": "Flight Into Egypt & Settling in Nazareth",
+              "storyModuleId": "story-mat-flight",
+              "chapterId": "MAT-2",
+              "anchorVerseNumber": 13
+          }
+      ]
+  },
+  'char-profile-john-baptist': {
+      "id": "char-profile-john-baptist",
+      "name": "John the Baptist",
+      "nameMeaning": "Hebrew/Greek: יוֹחָנָן / Ioannes (\"Yahweh Has Shown Grace\")",
+      "era": "Prepare the Way (~26–29 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-john-baptist",
+      "quickBio": "Last and greatest Old Covenant prophet—Miraculously born to elderly Zacharias and Elizabeth. Clothed in camel’s hair beside the Jordan River, John fearlessly called Israel to turn from hypocrisy and pointed straight to Jesus: “Behold, the Lamb of God!”",
+      "familyTree": {
+          "parents": [
+              "char-profile-zacharias-luke",
+              "char-profile-elizabeth"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Judean Wilderness & Jordan River",
+              "roleInLife": "Preached repentance and baptized Jesus",
+              "coordinates": {
+                  "lat": 31.83,
+                  "lng": 35.54
+              },
+              "mapPinId": "loc-gilgal"
+          }
+      ],
+      "whyTheyMatter": [
+          "Bridged Malachi’s closing prophecy directly to Christ’s arrival.",
+          "Modeled breathtaking humility: “He must increase, but I must decrease.”"
+      ],
+      "keyChapters": [
+          {
+              "reference": "Matthew 3:1–17",
+              "label": "Voice in the Wilderness & Jesus’ Baptism",
+              "storyModuleId": "story-mat-baptism",
+              "chapterId": "MAT-3",
+              "anchorVerseNumber": 11
+          },
+          {
+              "reference": "John 1:29–34",
+              "label": "“Behold, the Lamb of God!”",
+              "storyModuleId": "story-jhn-lamb",
+              "chapterId": "JHN-1",
+              "anchorVerseNumber": 29
+          }
+      ]
+  },
+  'char-profile-matthew': {
+      "id": "char-profile-matthew",
+      "name": "Matthew (Levi)",
+      "nameMeaning": "Hebrew: מַתִּתְיָהוּ / Mattityahu (\"Gift of Yahweh\")",
+      "era": "Twelve Apostles (~27–60 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-matthew",
+      "quickBio": "Despised Capernaum tax collector working for Rome until Jesus walked past his booth saying, “Follow me.” Matthew left everything behind at once, threw a banquet for fellow outcasts, and later penned the Gospel of Matthew.",
+      "familyTree": {
+          "parents": [
+              "Alphaeus"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Galilee (Capernaum)",
+              "roleInLife": "Rose instantly from his tax booth to follow Jesus",
+              "coordinates": {
+                  "lat": 32.88,
+                  "lng": 35.57
+              },
+              "mapPinId": "loc-galilee"
+          }
+      ],
+      "whyTheyMatter": [
+          "Demonstrates that no compromise or social stigma puts anyone outside Jesus’ grace.",
+          "Authored the Gospel rich with Sermon on the Mount teachings and Old Testament fulfillments."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Matthew 9:9–13",
+              "label": "Called From the Tax Collector’s Booth",
+              "storyModuleId": "story-mat-call",
+              "chapterId": "MAT-9",
+              "anchorVerseNumber": 9
+          },
+          {
+              "reference": "Luke 5:27–32",
+              "label": "Levi’s Banquet With Sinners",
+              "storyModuleId": "story-luk-levi",
+              "chapterId": "LUK-5",
+              "anchorVerseNumber": 29
+          }
+      ]
+  },
+  'char-profile-john-apostle': {
+      "id": "char-profile-john-apostle",
+      "name": "John the Apostle",
+      "nameMeaning": "Hebrew/Greek: יוֹחָנָן (\"Yahweh Is Gracious\")",
+      "era": "Apostles & Revelation (~27–95 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-john-apostle",
+      "quickBio": "Galilean fisherman called alongside his brother James (“Sons of Thunder”), yet remembered as “the disciple whom Jesus loved.” Present at the Transfiguration, Last Supper, and empty tomb, John later pastored Ephesus, cared for Mary, and received Revelation while exiled on Patmos.",
+      "familyTree": {
+          "parents": [
+              "Zebedee",
+              "Salome"
+          ],
+          "siblings": [
+              "char-profile-james-zebedee"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Sea of Galilee",
+              "roleInLife": "Left father Zebedee’s fishing nets to follow Jesus",
+              "coordinates": {
+                  "lat": 32.8,
+                  "lng": 35.5
+              },
+              "mapPinId": "loc-galilee"
+          },
+          {
+              "placeName": "Jerusalem",
+              "roleInLife": "Trusted with caring for Jesus’ mother from the cross",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Authored the Gospel of John, three Epistles on love and light, and the Book of Revelation.",
+          "Shows how Jesus transforms fiery ambition into deep, tender pastoral love."
+      ],
+      "keyChapters": [
+          {
+              "reference": "John 1:1–18",
+              "label": "The Word Became Flesh",
+              "storyModuleId": "story-jhn-word",
+              "chapterId": "JHN-1",
+              "anchorVerseNumber": 14
+          },
+          {
+              "reference": "1 John 4:7–21",
+              "label": "God Is Love & Fearless Assurance",
+              "storyModuleId": "story-1jn-love",
+              "chapterId": "1JN-4",
+              "anchorVerseNumber": 8
+          },
+          {
+              "reference": "Revelation 1:9–20",
+              "label": "Patmos Vision of the Risen Christ",
+              "storyModuleId": "story-rev-vision",
+              "chapterId": "REV-1",
+              "anchorVerseNumber": 17
+          }
+      ]
+  },
+  'char-profile-james-zebedee': {
+      "id": "char-profile-james-zebedee",
+      "name": "James, Son of Zebedee",
+      "nameMeaning": "Hebrew: יַעֲקֹב / Ya’akov (\"Supplanter / Heel-Grabber\")",
+      "era": "Early Apostles (~27–44 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-james-zebedee",
+      "quickBio": "Older brother of John and part of Jesus’ inner three alongside Peter. Nicknamed a “Son of Thunder” for his intense zeal, James learned that true greatness means drinking Christ’s cup of servant sacrifice—becoming the first of the Twelve martyred under Herod Agrippa I.",
+      "familyTree": {
+          "parents": [
+              "Zebedee",
+              "Salome"
+          ],
+          "siblings": [
+              "char-profile-john-apostle"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Sea of Galilee",
+              "roleInLife": "Mended fishing nets beside John before answering Jesus’ call",
+              "coordinates": {
+                  "lat": 32.8,
+                  "lng": 35.5
+              },
+              "mapPinId": "loc-galilee"
+          },
+          {
+              "placeName": "Jerusalem",
+              "roleInLife": "Witnessed the Transfiguration & became the first martyred apostle",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Walked with Jesus in Jairus’s home, on the Mount of Transfiguration, and in Gethsemane.",
+          "Sealed his witness with unwavering courage in Acts 12:2."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Mark 10:35–45",
+              "label": "The Cup of Servant Greatness",
+              "storyModuleId": "story-mrk-cup",
+              "chapterId": "MRK-10",
+              "anchorVerseNumber": 45
+          },
+          {
+              "reference": "Acts 12:1–3",
+              "label": "First Apostle Martyred in Jerusalem",
+              "storyModuleId": "story-act-martyr",
+              "chapterId": "ACT-12",
+              "anchorVerseNumber": 2
+          }
+      ]
+  },
+  'char-profile-andrew': {
+      "id": "char-profile-andrew",
+      "name": "Andrew the Apostle",
+      "nameMeaning": "Greek: Ἀνδρέας / Andreas (\"Manly / Courageous\")",
+      "era": "Twelve Apostles (~27–60 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-andrew",
+      "quickBio": "First disciple of John the Baptist to follow Jesus—and immediately ran to bring his brother Simon Peter to the Messiah. Throughout the Gospels, Andrew is quietly bringing individuals forward: the boy with five barley loaves and curious Greek seekers.",
+      "familyTree": {
+          "parents": [
+              "Jonah (John)"
+          ],
+          "siblings": [
+              "char-profile-peter"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Bethsaida & Capernaum (Galilee)",
+              "roleInLife": "Fisherman who first introduced Simon Peter to Jesus",
+              "coordinates": {
+                  "lat": 32.9,
+                  "lng": 35.6
+              },
+              "mapPinId": "loc-galilee"
+          }
+      ],
+      "whyTheyMatter": [
+          "Patron pattern of personal invitation—“He first found his own brother Simon.”",
+          "Noticed small ordinary resources (five loaves and two fish) that Jesus multiplied for thousands."
+      ],
+      "keyChapters": [
+          {
+              "reference": "John 1:35–42",
+              "label": "Bringing Simon Peter to Jesus",
+              "storyModuleId": "story-jhn-andrew",
+              "chapterId": "JHN-1",
+              "anchorVerseNumber": 41
+          },
+          {
+              "reference": "John 6:5–13",
+              "label": "Pointing to the Boy With Five Barley Loaves",
+              "storyModuleId": "story-jhn-loaves",
+              "chapterId": "JHN-6",
+              "anchorVerseNumber": 8
+          }
+      ]
+  },
+  'char-profile-mary-magdalene': {
+      "id": "char-profile-mary-magdalene",
+      "name": "Mary Magdalene",
+      "nameMeaning": "Hebrew/Aramaic: מִרְיָם מִן מַגְדָּלָא (\"Mary of Magdala\")",
+      "era": "Cross & Resurrection (~28–33 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-mary-magdalene",
+      "quickBio": "Set free from seven tormenting spirits by Jesus, Mary from the Galilean lakeside town of Magdala supported His ministry faithfully, watched bravely from Golgotha when others fled, and became the very first human witness to speak with the risen Christ.",
+      "familyTree": {
+          "parents": [
+              "Magdala community"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Magdala (Sea of Galilee)",
+              "roleInLife": "Delivered by Jesus and supported His traveling disciples",
+              "coordinates": {
+                  "lat": 32.83,
+                  "lng": 35.52
+              },
+              "mapPinId": "loc-galilee"
+          },
+          {
+              "placeName": "Jerusalem (Garden Tomb)",
+              "roleInLife": "Heard the risen Jesus speak her name—“Mary!”",
+              "coordinates": {
+                  "lat": 31.78,
+                  "lng": 35.23
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "First herald sent by Jesus to tell the apostles He had risen from the dead.",
+          "Rebukes ancient skepticism by anchoring Easter morning testimony upon faithful women witnesses."
+      ],
+      "keyChapters": [
+          {
+              "reference": "John 20:1–18",
+              "label": "First Witness at the Garden Tomb",
+              "storyModuleId": "story-jhn-mary",
+              "chapterId": "JHN-20",
+              "anchorVerseNumber": 16
+          }
+      ]
+  },
+  'char-profile-martha': {
+      "id": "char-profile-martha",
+      "name": "Martha of Bethany",
+      "nameMeaning": "Aramaic: מָרְתָא / Marta (\"Lady / Mistress of the House\")",
+      "era": "Ministry of Jesus (~28–33 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-martha",
+      "quickBio": "Generous older sister of Mary and Lazarus who opened her Bethany home as Jesus’ safe sanctuary outside Jerusalem. Though once flustered over dinner preparations, Martha later uttered one of the Gospels’ clearest confessions: “You are the Christ, the Son of God!”",
+      "familyTree": {
+          "parents": [],
+          "siblings": [
+              "char-profile-mary-bethany",
+              "char-profile-lazarus-bethany"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Bethany (Near Jerusalem)",
+              "roleInLife": "Welcomed Jesus warmly and witnessed Lazarus raised",
+              "coordinates": {
+                  "lat": 31.77,
+                  "lng": 35.26
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Her confession in John 11:27 stands equal to Peter’s confession of Jesus as Messiah.",
+          "Reminds busy servants that Jesus delights in our presence before our productivity."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Luke 10:38–42",
+              "label": "Distracted Service vs. the One Necessary Thing",
+              "storyModuleId": "story-luk-martha",
+              "chapterId": "LUK-10",
+              "anchorVerseNumber": 41
+          },
+          {
+              "reference": "John 11:17–27",
+              "label": "“I Am the Resurrection and the Life”",
+              "storyModuleId": "story-jhn-martha",
+              "chapterId": "JHN-11",
+              "anchorVerseNumber": 27
+          }
+      ]
+  },
+  'char-profile-mary-bethany': {
+      "id": "char-profile-mary-bethany",
+      "name": "Mary of Bethany",
+      "nameMeaning": "Hebrew: מִרְיָם (\"Beloved\")",
+      "era": "Ministry of Jesus (~28–33 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-mary-bethany",
+      "quickBio": "Sister of Martha and Lazarus remembered forever in three quiet postures—always at Jesus’ feet: listening intently to His teaching, weeping honestly over Lazarus’s grave, and anointing Jesus’ feet with priceless pure nard before His burial.",
+      "familyTree": {
+          "parents": [],
+          "siblings": [
+              "char-profile-martha",
+              "char-profile-lazarus-bethany"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Bethany (Mount of Olives Slope)",
+              "roleInLife": "Sat at Jesus’ feet and poured out costly spikenard ointment",
+              "coordinates": {
+                  "lat": 31.77,
+                  "lng": 35.26
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Jesus promised her loving extravagance would be remembered wherever the Gospel is told.",
+          "Shows women welcomed explicitly as Scripture disciples sitting beside a rabbi."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Luke 10:38–42",
+              "label": "Choosing the Good Portion at Jesus’ Feet",
+              "storyModuleId": "story-luk-mary-bethany",
+              "chapterId": "LUK-10",
+              "anchorVerseNumber": 42
+          },
+          {
+              "reference": "John 12:1–8",
+              "label": "Anointing Jesus With Pure Nard",
+              "storyModuleId": "story-jhn-anoint",
+              "chapterId": "JHN-12",
+              "anchorVerseNumber": 3
+          }
+      ]
+  },
+  'char-profile-lazarus-bethany': {
+      "id": "char-profile-lazarus-bethany",
+      "name": "Lazarus of Bethany",
+      "nameMeaning": "Hebrew/Greek: אֶלְעָזָר / Lazaros (\"God Has Helped\")",
+      "era": "Ministry of Jesus (~28–33 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-lazarus-bethany",
+      "quickBio": "Close personal friend of Jesus whose death moved Jesus to tears—and whose four-day-old tomb opened at Christ’s command, “Lazarus, come out!” His joyful resurrection dinner sparked chief priests to plot both Jesus’ and Lazarus’s deaths.",
+      "familyTree": {
+          "parents": [],
+          "siblings": [
+              "char-profile-martha",
+              "char-profile-mary-bethany"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Bethany (Outside Jerusalem)",
+              "roleInLife": "Walked out of a sealed tomb bound in linen cloths",
+              "coordinates": {
+                  "lat": 31.77,
+                  "lng": 35.26
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Living sign that Jesus holds authority over death itself right before Passion Week.",
+          "Provoked John 11:35 (“Jesus wept”), revealing God’s deep grief alongside hurting friends."
+      ],
+      "keyChapters": [
+          {
+              "reference": "John 11:1–44",
+              "label": "“Lazarus, Come Out!”",
+              "storyModuleId": "story-jhn-lazarus",
+              "chapterId": "JHN-11",
+              "anchorVerseNumber": 43
+          }
+      ]
+  },
+  'char-profile-nicodemus': {
+      "id": "char-profile-nicodemus",
+      "name": "Nicodemus",
+      "nameMeaning": "Greek: Νικόδημος / Nikodemos (\"Victory of the People\")",
+      "era": "Gospel of John (~27–30 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-nicodemus",
+      "quickBio": "Respected Pharisee and Sanhedrin council teacher who came seeking Jesus cautiously by night—hearing the timeless truth of John 3:16. Later, Nicodemus defended Jesus legally before hostile colleagues and openly brought a hundred pounds of spices to bury Him.",
+      "familyTree": {
+          "parents": [
+              "Pharisee Council in Jerusalem"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem",
+              "roleInLife": "Came by night to ask questions, then honored Jesus in death",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Shows genuine seekers moving gradually from timid night questions to public devotion.",
+          "His midnight conversation gave Scripture “You must be born again” and John 3:16."
+      ],
+      "keyChapters": [
+          {
+              "reference": "John 3:1–16",
+              "label": "Midnight Conversation on Being Born Again",
+              "storyModuleId": "story-jhn-nicodemus",
+              "chapterId": "JHN-3",
+              "anchorVerseNumber": 3
+          },
+          {
+              "reference": "John 19:38–42",
+              "label": "Bringing Myrrh & Aloes for Jesus’ Burial",
+              "storyModuleId": "story-jhn-burial",
+              "chapterId": "JHN-19",
+              "anchorVerseNumber": 39
+          }
+      ]
+  },
+  'char-profile-zacchaeus': {
+      "id": "char-profile-zacchaeus",
+      "name": "Zacchaeus",
+      "nameMeaning": "Hebrew/Greek: זַכַּי / Zakchaios (\"Pure / Innocent\")",
+      "era": "Journey to Jerusalem (~30 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-zacchaeus",
+      "quickBio": "Wealthy chief tax collector of Jericho too short to see past the crowd, so he climbed a sycamore tree—and Jesus invited Himself to dinner! Welcoming Jesus home transformed greed into instant joy: half his wealth given to the poor and fourfold restitution to anyone cheated.",
+      "familyTree": {
+          "parents": [],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jericho",
+              "roleInLife": "Climbed a sycamore tree and hosted Jesus at his table",
+              "coordinates": {
+                  "lat": 31.87,
+                  "lng": 35.44
+              },
+              "mapPinId": "loc-jericho"
+          }
+      ],
+      "whyTheyMatter": [
+          "Prompted Jesus’ mission statement: “The Son of Man came to seek and to save that which was lost.”",
+          "Proves true repentance shows concrete restitution and glad generosity."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Luke 19:1–10",
+              "label": "Sycamore Tree Encounter & Restitution",
+              "storyModuleId": "story-luk-zacchaeus",
+              "chapterId": "LUK-19",
+              "anchorVerseNumber": 10
+          }
+      ]
+  },
+  'char-profile-thomas': {
+      "id": "char-profile-thomas",
+      "name": "Thomas (Didymus)",
+      "nameMeaning": "Aramaic/Greek: תְּאוֹמָא / Didymos (\"The Twin\")",
+      "era": "Apostles (~27–60 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-thomas",
+      "quickBio": "Loyal yet candid apostle who once offered to die beside Jesus in Judea (“Let us go also, that we may die with him”), asked honestly where Jesus was going, and demanded tangible nail-marks after Easter—until his encounter yielded Scripture’s highest confession: “My Lord and my God!”",
+      "familyTree": {
+          "parents": [],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Galilee & Jerusalem",
+              "roleInLife": "Touched the risen Lord’s wounds and confessed Him as God",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Shows Jesus patiently welcoming honest questions rather than shaming bruised faith.",
+          "His question in John 14:5 elicited “I am the way, the truth, and the life.”"
+      ],
+      "keyChapters": [
+          {
+              "reference": "John 14:5–6",
+              "label": "Asking the Way Home to the Father",
+              "storyModuleId": "story-jhn-way",
+              "chapterId": "JHN-14",
+              "anchorVerseNumber": 6
+          },
+          {
+              "reference": "John 20:24–29",
+              "label": "“My Lord and My God!”",
+              "storyModuleId": "story-jhn-thomas",
+              "chapterId": "JHN-20",
+              "anchorVerseNumber": 28
+          }
+      ]
+  },
+  'char-profile-philip-apostle': {
+      "id": "char-profile-philip-apostle",
+      "name": "Philip the Apostle",
+      "nameMeaning": "Greek: Φίλιππος / Philippos (\"Lover of Horses\")",
+      "era": "Twelve Apostles (~27–60 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-philip-apostle",
+      "quickBio": "From Bethsaida, hometown of Peter and Andrew. When Nathanael scoffed at Nazareth, Philip didn’t argue—he gently replied, “Come and see.” Practical and earnest, Philip helped Greek pilgrims meet Jesus and asked Him, “Show us the Father.”",
+      "familyTree": {
+          "parents": [
+              "Bethsaida family"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Bethsaida (Sea of Galilee)",
+              "roleInLife": "Quickly invited skeptical friend Nathanael to meet Jesus",
+              "coordinates": {
+                  "lat": 32.9,
+                  "lng": 35.6
+              },
+              "mapPinId": "loc-galilee"
+          }
+      ],
+      "whyTheyMatter": [
+          "Coins one of the simplest, wisest ways to witness: “Come and see.”",
+          "Prompted Jesus’ great revelation: “He who has seen me has seen the Father.”"
+      ],
+      "keyChapters": [
+          {
+              "reference": "John 1:43–46",
+              "label": "“Come and See” Invitation to Nathanael",
+              "storyModuleId": "story-jhn-philip",
+              "chapterId": "JHN-1",
+              "anchorVerseNumber": 46
+          },
+          {
+              "reference": "John 14:8–11",
+              "label": "“Lord, Show Us the Father”",
+              "storyModuleId": "story-jhn-father",
+              "chapterId": "JHN-14",
+              "anchorVerseNumber": 9
+          }
+      ]
+  },
+  'char-profile-nathanael': {
+      "id": "char-profile-nathanael",
+      "name": "Nathanael (Bartholomew)",
+      "nameMeaning": "Hebrew: נְתַנְאֵל (\"God Has Given\")",
+      "era": "Twelve Apostles (~27–60 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-nathanael",
+      "quickBio": "Cana-born Israelite famous for unfiltered honesty—“Can anything good come out of Nazareth?”—whom Jesus praised on sight as “an Israelite indeed, in whom there is no deceit,” because Jesus already saw him meditating beneath his fig tree.",
+      "familyTree": {
+          "parents": [
+              "Tolmai (Bartholomew)"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Cana in Galilee",
+              "roleInLife": "Meditated under a fig tree before being recognized by Jesus",
+              "coordinates": {
+                  "lat": 32.74,
+                  "lng": 35.34
+              },
+              "mapPinId": "loc-galilee"
+          }
+      ],
+      "whyTheyMatter": [
+          "Teaches that God notices secret private devotion long before anyone else speaks our name."
+      ],
+      "keyChapters": [
+          {
+              "reference": "John 1:45–51",
+              "label": "Seen Under the Fig Tree",
+              "storyModuleId": "story-jhn-nathanael",
+              "chapterId": "JHN-1",
+              "anchorVerseNumber": 47
+          }
+      ]
+  },
+  'char-profile-judas-iscariot': {
+      "id": "char-profile-judas-iscariot",
+      "name": "Judas Iscariot",
+      "nameMeaning": "Hebrew: יְהוּדָה אִישׁ־קְרִיּוֹת (\"Praise · Man of Kerioth\")",
+      "era": "Twelve Apostles & Betrayal (~27–30 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-judas-iscariot",
+      "quickBio": "One of the Twelve entrusted with the group’s money bag who quietly nurtured secret greed—eventually selling Jesus to the chief priests for thirty silver coins and identifying Him in Gethsemane with a kiss.",
+      "familyTree": {
+          "parents": [
+              "Simon Iscariot"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem & Gethsemane",
+              "roleInLife": "Betrayed Jesus for thirty pieces of silver",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Sobering warning that closeness to holy ministry cannot cure an unconfessed, guarded heart.",
+          "Even his betrayal turned by God’s sovereignty to accomplish our redemption."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Matthew 26:14–50",
+              "label": "Thirty Silver Coins & a Betrayer’s Kiss",
+              "storyModuleId": "story-mat-betrayal",
+              "chapterId": "MAT-26",
+              "anchorVerseNumber": 49
+          }
+      ]
+  },
+  'char-profile-luke': {
+      "id": "char-profile-luke",
+      "name": "Luke the Physician",
+      "nameMeaning": "Greek: Λουκᾶς / Loukas (\"Light-Giving\" · from Lucanus)",
+      "era": "Apostolic Era (~45–67 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-luke",
+      "quickBio": "Beloved Gentile doctor, careful historian, and steadfast friend of Paul through shipwrecks and Roman imprisonment. Through tireless eyewitness interviews, Luke authored over a quarter of the New Testament—both the Gospel of Luke and the Book of Acts.",
+      "familyTree": {
+          "parents": [
+              "Gentile family (Antioch tradition)"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem & Judea",
+              "roleInLife": "Interviewed Mary and early eyewitnesses carefully",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Only Gentile New Testament writer, highlighting Jesus’ heart for outsiders, women, and the poor.",
+          "Stayed with Paul right to the final chapter of 2 Timothy: “Only Luke is with me.”"
+      ],
+      "keyChapters": [
+          {
+              "reference": "Luke 1:1–4",
+              "label": "Orderly Eyewitness Investigation for Theophilus",
+              "storyModuleId": "story-luk-prologue",
+              "chapterId": "LUK-1",
+              "anchorVerseNumber": 3
+          },
+          {
+              "reference": "Acts 16:10–17",
+              "label": "“We” Travelled Into Europe With Paul",
+              "storyModuleId": "story-act-philippi",
+              "chapterId": "ACT-16",
+              "anchorVerseNumber": 10
+          }
+      ]
+  },
+  'char-profile-mark': {
+      "id": "char-profile-mark",
+      "name": "John Mark",
+      "nameMeaning": "Hebrew/Latin: יוֹחָנָן מַרְקוֹס (\"Yahweh Has Shown Grace · Hammer\")",
+      "era": "Early Church (~30–65 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-mark",
+      "quickBio": "Young Jerusalem believer whose home hosted the praying church when Peter walked out of prison. Though Mark deserted Paul’s first missionary trip and caused a painful split with Barnabas, his cousin Barnabas mentored him back to strength until Paul himself wrote: “Get Mark… he is very useful to me!”",
+      "familyTree": {
+          "parents": [
+              "Mary of Jerusalem"
+          ],
+          "siblings": [],
+          "children": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem",
+              "roleInLife": "Family upper room sheltered early praying believers",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Living proof of second chances—failing early in ministry didn’t write his final chapter.",
+          "Wrote the fast-paced Gospel of Mark largely preserving Simon Peter’s vivid eyewitness voice."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Acts 12:12–17",
+              "label": "Jerusalem Home Hosting the Praying Church",
+              "storyModuleId": "story-act-rhoda",
+              "chapterId": "ACT-12",
+              "anchorVerseNumber": 12
+          },
+          {
+              "reference": "2 Timothy 4:11",
+              "label": "Restored & “Useful for Ministry”",
+              "storyModuleId": "story-2ti-mark",
+              "chapterId": "2TI-4",
+              "anchorVerseNumber": 11
+          }
+      ]
+  },
+  'char-profile-barnabas': {
+      "id": "char-profile-barnabas",
+      "name": "Barnabas",
+      "nameMeaning": "Aramaic: בַּר־נְבִיאָא (\"Son of Encouragement / Exhortation\")",
+      "era": "Early Church (~30–55 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-barnabas",
+      "quickBio": "Nicknamed Joseph of Cyprus, a generous Levite who sold his field to aid hungry Jerusalem saints. When terrified Christians feared former persecutor Saul, Barnabas vouched for him, mentored him in Antioch, and later stood patiently beside young John Mark after his failure.",
+      "familyTree": {
+          "parents": [
+              "Levite family on Cyprus"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem",
+              "roleInLife": "Sold land to support needy saints and championed newly converted Saul",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Built bridges between suspicious leaders and redeemed outsiders like Saul and John Mark."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Acts 4:36–37",
+              "label": "Named “Son of Encouragement”",
+              "storyModuleId": "story-act-barnabas",
+              "chapterId": "ACT-4",
+              "anchorVerseNumber": 36
+          },
+          {
+              "reference": "Acts 11:22–26",
+              "label": "Nurturing Antioch’s First “Christians”",
+              "storyModuleId": "story-act-antioch",
+              "chapterId": "ACT-11",
+              "anchorVerseNumber": 24
+          }
+      ]
+  },
+  'char-profile-stephen': {
+      "id": "char-profile-stephen",
+      "name": "Stephen (First Martyr)",
+      "nameMeaning": "Greek: Στέφανος / Stephanos (\"Crown / Wreath\")",
+      "era": "Early Church (~33–34 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-stephen",
+      "quickBio": "Greek-speaking Jewish believer chosen among the Seven to care fairly for neglected widows. Full of grace, Spirit, and wisdom, Stephen traced Israel’s entire story before the Sanhedrin, saw Jesus standing at God’s right hand, and forgave his killers with his dying breath as young Saul watched.",
+      "familyTree": {
+          "parents": [],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem",
+              "roleInLife": "Served widows daily and sealed the Gospel with forgiving courage",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "His Christ-like prayer of forgiveness planted a seed inside watching Saul of Tarsus.",
+          "Shows that humble table-service and fearless prophetic truth belong together."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Acts 7:51–60",
+              "label": "Vision of Jesus Standing & Final Prayer",
+              "storyModuleId": "story-act-stephen",
+              "chapterId": "ACT-7",
+              "anchorVerseNumber": 55
+          }
+      ]
+  },
+  'char-profile-philip-evangelist': {
+      "id": "char-profile-philip-evangelist",
+      "name": "Philip the Evangelist",
+      "nameMeaning": "Greek: Φίλιππος / Philippos (\"Friend of Horses\")",
+      "era": "Acts & Judea (~33–58 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-philip-evangelist",
+      "quickBio": "One of the original Seven deacons who fled Jerusalem’s persecution into Samaria—breaking bitter ethnic walls to preach Christ with joy. Later, an angel guided him onto a desert road to explain Isaiah 53 and baptize an Ethiopian royal treasurer.",
+      "familyTree": {
+          "parents": [],
+          "siblings": [],
+          "children": [
+              "Four prophesying daughters"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Samaria & Caesarea",
+              "roleInLife": "Preached Christ across Samaria and opened his home to Paul years later",
+              "coordinates": {
+                  "lat": 32.27,
+                  "lng": 35.19
+              },
+              "mapPinId": "loc-samaria"
+          }
+      ],
+      "whyTheyMatter": [
+          "Carried the Good News cross-culturally first to despised Samaritans, then to Africa via Ethiopia."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Acts 8:4–40",
+              "label": "Revival in Samaria & Chariot on the Gaza Road",
+              "storyModuleId": "story-act-ethiopian",
+              "chapterId": "ACT-8",
+              "anchorVerseNumber": 35
+          }
+      ]
+  },
+  'char-profile-timothy': {
+      "id": "char-profile-timothy",
+      "name": "Timothy",
+      "nameMeaning": "Greek: Τιμόθεος / Timotheos (\"Honoring God\")",
+      "era": "Early Churches (~48–67 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-timothy",
+      "quickBio": "Raised in Lystra on Scripture by his Jewish mother Eunice and grandmother Lois, young Timothy joined Paul as a lifelong spiritual son. Though naturally timid and prone to stomach illness, he faithfully pastored troubled Ephesus and received Paul’s two heartfelt pastoral letters.",
+      "familyTree": {
+          "parents": [
+              "char-profile-lois-eunice",
+              "Greek father"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem & Missions Network",
+              "roleInLife": "Trained under Paul to guard sound truth and gentle leadership",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Shows God strengthens quiet, anxious younger believers to lead maturely: “Let no one despise your youth.”"
+      ],
+      "keyChapters": [
+          {
+              "reference": "1 Timothy 4:12–16",
+              "label": "Leading by Example in Speech, Love & Faith",
+              "storyModuleId": "story-1ti-example",
+              "chapterId": "1TI-4",
+              "anchorVerseNumber": 12
+          },
+          {
+              "reference": "2 Timothy 3:14–17",
+              "label": "Scripture Known Since Infancy",
+              "storyModuleId": "story-2ti-scripture",
+              "chapterId": "2TI-3",
+              "anchorVerseNumber": 16
+          }
+      ]
+  },
+  'char-profile-titus': {
+      "id": "char-profile-titus",
+      "name": "Titus",
+      "nameMeaning": "Latin: Titus (\"Honorable / Saved\")",
+      "era": "Apostolic Era (~48–66 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-titus",
+      "quickBio": "Trusted Gentile companion of Paul who became the apostle’s steady peacemaker in tough assignments: reconciling estranged Corinth through tears and organizing young churches across wild, fractured Crete.",
+      "familyTree": {
+          "parents": [
+              "Gentile parents"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem & Mediterranean Churches",
+              "roleInLife": "Stood as living proof of uncircumcised Gentile grace",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Proved in Galatians 2 that Gentile Christians belong fully to God’s family without legalistic badges."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Titus 2:1–15",
+              "label": "Teaching Healthy Goodness & Blessed Hope",
+              "storyModuleId": "story-tit-grace",
+              "chapterId": "TIT-2",
+              "anchorVerseNumber": 11
+          }
+      ]
+  },
+  'char-profile-silas': {
+      "id": "char-profile-silas",
+      "name": "Silas (Silvanus)",
+      "nameMeaning": "Aramaic/Latin: שִׁילָא / Silvanus (\"Of the Woods\" / \"Asked\")",
+      "era": "Early Church (~49–65 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-silas",
+      "quickBio": "Respected Jerusalem prophet chosen to carry the Jerusalem Council’s unifying letter, who later partnered with Paul across Europe. At midnight in a bruised, chained Philippi prison cell, Silas sang hymns aloud alongside Paul right before the earthquake.",
+      "familyTree": {
+          "parents": [
+              "Roman-Jewish background"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem",
+              "roleInLife": "Trusted prophet sent with the Council’s peace letter",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Later served as Peter’s faithful scribe in 1 Peter 5:12—bridging both Jerusalem and Pauline wings."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Acts 16:22–34",
+              "label": "Singing Hymns at Midnight in Philippi Stocks",
+              "storyModuleId": "story-act-midnight",
+              "chapterId": "ACT-16",
+              "anchorVerseNumber": 25
+          }
+      ]
+  },
+  'char-profile-james-jerusalem': {
+      "id": "char-profile-james-jerusalem",
+      "name": "James of Jerusalem",
+      "nameMeaning": "Hebrew: יַעֲקֹב (\"May He Protect / Supplanter\")",
+      "era": "Jerusalem Church (~30–62 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-james-jerusalem",
+      "quickBio": "Younger half-brother of Jesus who initially doubted His ministry—until the risen Jesus appeared to him privately (1 Cor 15:7). Converted deeply, James became the steady prayerful pillar of Jerusalem’s church and wrote the vivid, practical Letter of James.",
+      "familyTree": {
+          "parents": [
+              "char-profile-joseph-nazareth",
+              "char-profile-mary-jesus"
+          ],
+          "siblings": [
+              "char-profile-jesus",
+              "char-profile-jude"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Galilee (Nazareth)",
+              "roleInLife": "Grew up under Joseph and Mary’s roof",
+              "coordinates": {
+                  "lat": 32.7,
+                  "lng": 35.3
+              },
+              "mapPinId": "loc-galilee"
+          },
+          {
+              "placeName": "Jerusalem",
+              "roleInLife": "Guided the Acts 15 Council to welcome Gentiles without legal burdens",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Authored the Book of James: showing genuine faith always breathes through mercy, controlled tongues, and active love."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Acts 15:13–21",
+              "label": "Wisdom at the Jerusalem Council",
+              "storyModuleId": "story-act-council",
+              "chapterId": "ACT-15",
+              "anchorVerseNumber": 19
+          },
+          {
+              "reference": "James 1:2–27",
+              "label": "Joy in Trials & Pure Religion",
+              "storyModuleId": "story-jas-wisdom",
+              "chapterId": "JAS-1",
+              "anchorVerseNumber": 27
+          }
+      ]
+  },
+  'char-profile-jude': {
+      "id": "char-profile-jude",
+      "name": "Jude (Brother of Jesus)",
+      "nameMeaning": "Hebrew: יְהוּדָה / Yehudah (\"Praise\")",
+      "era": "Early Church (~30–80 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-jude",
+      "quickBio": "Humble younger half-brother of Jesus and James who introduced himself simply as “a servant of Jesus Christ, and brother of James.” His fiery, compassionate letter urges churches to guard sacred truth while snatching doubters with mercy—closing in one of Scripture’s grandest doxologies.",
+      "familyTree": {
+          "parents": [
+              "char-profile-joseph-nazareth",
+              "char-profile-mary-jesus"
+          ],
+          "siblings": [
+              "char-profile-jesus",
+              "char-profile-james-jerusalem"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Galilee & Judea",
+              "roleInLife": "Came to worship his brother Jesus after the resurrection",
+              "coordinates": {
+                  "lat": 32.7,
+                  "lng": 35.3
+              },
+              "mapPinId": "loc-galilee"
+          }
+      ],
+      "whyTheyMatter": [
+          "Wrote Jude 24–25: “To him who is able to keep you from stumbling, and to present you faultless…”"
+      ],
+      "keyChapters": [
+          {
+              "reference": "Jude 1:1–25",
+              "label": "Contending With Mercy & Glorious Doxology",
+              "storyModuleId": "story-jud-doxology",
+              "chapterId": "JUD-1",
+              "anchorVerseNumber": 24
+          }
+      ]
+  },
+  'char-profile-cornelius': {
+      "id": "char-profile-cornelius",
+      "name": "Cornelius the Centurion",
+      "nameMeaning": "Latin: Cornelius (\"Horn / Strong-Willed\")",
+      "era": "Early Church (~40 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-cornelius",
+      "quickBio": "Generous, God-fearing Roman army centurion stationed in Caesarea whose prayers and gifts to the poor rose before God. Sent to summon Simon Peter, Cornelius’s household received the Holy Spirit directly—shattering ethnic walls forever for Gentile believers.",
+      "familyTree": {
+          "parents": [
+              "Roman Italian Regiment"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Judea / Samaria Coast",
+              "roleInLife": "First Gentile household baptized in the Holy Spirit",
+              "coordinates": {
+                  "lat": 32.5,
+                  "lng": 34.89
+              },
+              "mapPinId": "loc-samaria"
+          }
+      ],
+      "whyTheyMatter": [
+          "Marked the decisive turning point in Acts 10 proving God welcomes every nation without partiality."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Acts 10:1–48",
+              "label": "Gentile Pentecost in Cornelius’s House",
+              "storyModuleId": "story-act-cornelius",
+              "chapterId": "ACT-10",
+              "anchorVerseNumber": 34
+          }
+      ]
+  },
+  'char-profile-lydia': {
+      "id": "char-profile-lydia",
+      "name": "Lydia of Thyatira",
+      "nameMeaning": "Greek: Λυδία (\"Woman of Lydia Region\")",
+      "era": "Missionary Journeys (~50 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-lydia",
+      "quickBio": "Independent businesswomen trading luxury purple cloth in Philippi. Praying beside a riverbank on the Sabbath, “the Lord opened her heart to listen to what was spoken by Paul”—making Lydia the first recorded Christian convert in Europe and generous host of Philippi’s church.",
+      "familyTree": {
+          "parents": [
+              "Thyatira merchant household"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem & Mediterranean Churches",
+              "roleInLife": "Opened her Philippi home to house Europe’s first Christian congregation",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Demonstrates the crucial financial and hospitality partnership of women in building early churches."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Acts 16:11–15",
+              "label": "The Lord Opened Her Heart Beside the River",
+              "storyModuleId": "story-act-lydia",
+              "chapterId": "ACT-16",
+              "anchorVerseNumber": 14
+          }
+      ]
+  },
+  'char-profile-priscilla-aquila': {
+      "id": "char-profile-priscilla-aquila",
+      "name": "Priscilla & Aquila",
+      "nameMeaning": "Latin: Priscilla (\"Ancient/Venerable\") · Aquila (\"Eagle\")",
+      "era": "Early Churches (~49–65 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-priscilla-aquila",
+      "quickBio": "Jewish-Christian tentmakers exiled from Rome under Claudius who opened their workshop to Paul in Corinth. This devoted couple later gently invited eloquent Apollos aside to clarify Christ’s Gospel completely and hosted churches in both Ephesus and Rome—risking their own necks for Paul.",
+      "familyTree": {
+          "parents": [],
+          "siblings": [],
+          "spouse": [
+              "Married Ministry Partners"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem & Mediterranean Churches",
+              "roleInLife": "Hosted house churches and stitched tents beside Paul",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Scripture’s premier picture of husband-and-wife hospitality, mentoring, and everyday marketplace ministry."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Acts 18:1–26",
+              "label": "Tentmaking & Explaining God’s Way More Accurately",
+              "storyModuleId": "story-act-priscilla",
+              "chapterId": "ACT-18",
+              "anchorVerseNumber": 26
+          }
+      ]
+  },
+  'char-profile-apollos': {
+      "id": "char-profile-apollos",
+      "name": "Apollos",
+      "nameMeaning": "Greek: Ἀπολλώς (\"Given by Apollo\")",
+      "era": "Early Churches (~52–60 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-apollos",
+      "quickBio": "Eloquence, Scripture mastery, and fiery spirit defined this Alexandrian Jew—yet he knew only John’s baptism until Priscilla and Aquila gently taught him fuller truth. Humble enough to learn from tentmakers, Apollos became a mighty waterer of Paul’s gospel seeds in Corinth.",
+      "familyTree": {
+          "parents": [
+              "Alexandria Jewish community"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem & Mediterranean Churches",
+              "roleInLife": "Proved from Hebrew Scriptures that Jesus is the Messiah",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Reminds gifted teachers that teachability keeps brilliant eloquence humble and fruitful."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Acts 18:24–28",
+              "label": "Mighty in the Scriptures & Teachable Heart",
+              "storyModuleId": "story-act-apollos",
+              "chapterId": "ACT-18",
+              "anchorVerseNumber": 24
+          },
+          {
+              "reference": "1 Corinthians 3:5–9",
+              "label": "“I Planted, Apollos Watered, God Gave Growth”",
+              "storyModuleId": "story-1co-watered",
+              "chapterId": "1CO-3",
+              "anchorVerseNumber": 6
+          }
+      ]
+  },
+  'char-profile-phoebe': {
+      "id": "char-profile-phoebe",
+      "name": "Phoebe of Cenchreae",
+      "nameMeaning": "Greek: Φοίβη / Phoibe (\"Bright / Radiant\")",
+      "era": "Early Church (~57 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-phoebe",
+      "quickBio": "Respected deacon (diakonos) and generous patron (prostatis) of the port church in Cenchreae near Corinth. Paul entrusted the monumental Letter to the Romans into Phoebe’s personal hands to carry, deliver, and explain before Rome’s congregations.",
+      "familyTree": {
+          "parents": [
+              "Cenchreae church family"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem & Mediterranean Churches",
+              "roleInLife": "Trusted courier who delivered Paul’s Epistle to the Romans",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Protected and delivered the book of Romans to the capital of the Roman Empire."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Romans 16:1–2",
+              "label": "Commended Helper & Trusted Messenger of Romans",
+              "storyModuleId": "story-rom-phoebe",
+              "chapterId": "ROM-16",
+              "anchorVerseNumber": 1
+          }
+      ]
+  },
+  'char-profile-dorcas': {
+      "id": "char-profile-dorcas",
+      "name": "Dorcas (Tabitha)",
+      "nameMeaning": "Aramaic/Greek: טְבִיתָא / Δορκάς (\"Gazelle\")",
+      "era": "Early Church (~36–40 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-dorcas",
+      "quickBio": "Beloved Christian woman of Joppa described simply as “always doing good and helping the poor.” When illness took her life, weeping widows showed Simon Peter the warm tunics and cloaks she had stitched for them—and God answered Peter’s prayer by raising her alive.",
+      "familyTree": {
+          "parents": [
+              "Joppa believers"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Judean Coast (Joppa)",
+              "roleInLife": "Clothed poor widows with quiet handmade kindness",
+              "coordinates": {
+                  "lat": 32.05,
+                  "lng": 34.75
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Shows how needle-and-thread everyday mercy leaves an irreplaceable legacy in God’s church."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Acts 9:36–42",
+              "label": "Weeping Widows, Handmade Coats & Raised Alive",
+              "storyModuleId": "story-act-dorcas",
+              "chapterId": "ACT-9",
+              "anchorVerseNumber": 36
+          }
+      ]
+  },
+  'char-profile-onesimus': {
+      "id": "char-profile-onesimus",
+      "name": "Onesimus",
+      "nameMeaning": "Greek: Ὀνήσιμος / Onesimos (\"Useful / Profitable\")",
+      "era": "Paul’s Roman Imprisonment (~61 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-onesimus",
+      "quickBio": "An enslaved man who fled his master Philemon in Colossae and encountered the imprisoned Apostle Paul—who led him to faith in Christ. Paul then wrote Philemon’s tender letter, sending Onesimus home no longer merely as property, but “as a beloved brother.”",
+      "familyTree": {
+          "parents": [],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Mediterranean Churches",
+              "roleInLife": "Reconciled with Philemon through Paul’s personal plea",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Inspired an entire New Testament book transforming social hierarchy from the inside out."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Philemon 1:8–21",
+              "label": "Welcome Him Back as a Beloved Brother",
+              "storyModuleId": "story-phm-onesimus",
+              "chapterId": "PHM-1",
+              "anchorVerseNumber": 16
+          }
+      ]
+  },
+  'char-profile-philemon': {
+      "id": "char-profile-philemon",
+      "name": "Philemon",
+      "nameMeaning": "Greek: Φιλήμων (\"Affectionate / Friendly\")",
+      "era": "Early Church (~61 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-philemon",
+      "quickBio": "Wealthy Christian host in Colossae whose faith and love refreshed weary believers. When his runaway servant Onesimus returned carrying Paul’s letter, Philemon faced a radical gospel test: replacing ancient master’s revenge with Christian brotherhood.",
+      "familyTree": {
+          "parents": [],
+          "siblings": [],
+          "spouse": [
+              "Apphia"
+          ],
+          "children": [
+              "Archippus"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Mediterranean House Churches",
+              "roleInLife": "Hosted the Colossian congregation inside his home",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Demonstrates how Gospel grace rewrites forgiveness inside ordinary households."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Philemon 1:1–25",
+              "label": "Paul’s Personal Appeal for Forgiveness",
+              "storyModuleId": "story-phm-appeal",
+              "chapterId": "PHM-1",
+              "anchorVerseNumber": 17
+          }
+      ]
+  },
+  'char-profile-gamaliel': {
+      "id": "char-profile-gamaliel",
+      "name": "Gamaliel the Elder",
+      "nameMeaning": "Hebrew: גַּמְלִיאֵל (\"God Is My Recompense\")",
+      "era": "Acts (~30–50 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-gamaliel",
+      "quickBio": "One of history’s most honored Pharisee doctors of the Law and Paul’s own Jerusalem mentor. When panicked Sanhedrin leaders wanted to execute the apostles, Gamaliel calmly cautioned them: “If this work is of God, you will not be able to overthrow them; lest perhaps you be found fighting against God!”",
+      "familyTree": {
+          "parents": [
+              "House of Hillel"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem Temple Courts",
+              "roleInLife": "Educated Saul of Tarsus and counseled restraint before the Sanhedrin",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Spared the infant apostles’ lives through calm legal wisdom under heated panic."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Acts 5:34–40",
+              "label": "Measured Counsel Before the High Council",
+              "storyModuleId": "story-act-gamaliel",
+              "chapterId": "ACT-5",
+              "anchorVerseNumber": 38
+          }
+      ]
+  },
+  'char-profile-pilate': {
+      "id": "char-profile-pilate",
+      "name": "Pontius Pilate",
+      "nameMeaning": "Latin: Pontius Pilatus (\"Armed With a Javelin\")",
+      "era": "Crucifixion Week (~26–36 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-pilate",
+      "quickBio": "Fifth Roman Prefect of Judea who interrogated Jesus during Passover week. Though Pilate declared three times—“I find no basis for a charge against him!”—and washed his hands in water, political fear over Caesar led him to condemn an innocent Messiah to crucifixion.",
+      "familyTree": {
+          "parents": [
+              "Roman equestrian family"
+          ],
+          "siblings": [],
+          "spouse": [
+              "Claudia Procula (trad.)"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem (Praetorium)",
+              "roleInLife": "Asked Jesus skeptically, “What is truth?” and handed Him over",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Repeatedly affirmed Jesus’ total innocence before delivering Him up—underscoring Christ’s spotless sacrifice."
+      ],
+      "keyChapters": [
+          {
+              "reference": "John 18:28–40",
+              "label": "“My Kingdom Is Not of This World”",
+              "storyModuleId": "story-jhn-pilate",
+              "chapterId": "JHN-18",
+              "anchorVerseNumber": 38
+          },
+          {
+              "reference": "Matthew 27:11–26",
+              "label": "Washing Hands Under Crowd Pressure",
+              "storyModuleId": "story-mat-pilate",
+              "chapterId": "MAT-27",
+              "anchorVerseNumber": 24
+          }
+      ]
+  },
+  'char-profile-caiaphas': {
+      "id": "char-profile-caiaphas",
+      "name": "High Priest Caiaphas",
+      "nameMeaning": "Aramaic: קַיָּפָא (\"Depression / Seeker\")",
+      "era": "Gospels & Early Acts (~18–36 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-caiaphas",
+      "quickBio": "Joseph Caiaphas held Israel’s highest priestly office during Jesus’ entire public ministry. Preserving Rome’s political status quo above truth, he unknowingly spoke literal prophecy—“It is better for one man to die for the people”—and led the midnight trial condemning Jesus.",
+      "familyTree": {
+          "parents": [],
+          "siblings": [],
+          "spouse": [
+              "Daughter of Annas"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem Temple & Palace",
+              "roleInLife": "Presided over the night Sanhedrin verdict against Jesus",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Unwittingly spoke prophetic truth about Christ’s substitutionary death while clinging to earthly power."
+      ],
+      "keyChapters": [
+          {
+              "reference": "John 11:47–53",
+              "label": "Unknowing Prophecy That One Must Die",
+              "storyModuleId": "story-jhn-caiaphas",
+              "chapterId": "JHN-11",
+              "anchorVerseNumber": 50
+          },
+          {
+              "reference": "Matthew 26:57–68",
+              "label": "Tearing Priestly Robes at Jesus’ Confession",
+              "storyModuleId": "story-mat-trial",
+              "chapterId": "MAT-26",
+              "anchorVerseNumber": 65
+          }
+      ]
+  },
+  'char-profile-annas': {
+      "id": "char-profile-annas",
+      "name": "Annas (Patriarch Priest)",
+      "nameMeaning": "Hebrew: חָנָן / Chanan (\"Gracious\")",
+      "era": "Gospels & Acts (~6–40 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-annas",
+      "quickBio": "Power-broker father-in-law of Caiaphas who controlled Jerusalem’s Temple aristocracy behind the scenes for decades. Jesus was dragged bound into Annas’s courtyard first during His arrest, and years later Annas interrogated Peter and John when the lame beggar was healed.",
+      "familyTree": {
+          "parents": [],
+          "siblings": [],
+          "children": [
+              "Five high-priest sons"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem Upper City",
+              "roleInLife": "First questioned Jesus after Gethsemane arrest",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Shows entrenched institutional power unable to silence either the cross or Peter’s bold witness."
+      ],
+      "keyChapters": [
+          {
+              "reference": "John 18:12–24",
+              "label": "Midnight Interrogation Before Annas",
+              "storyModuleId": "story-jhn-annas",
+              "chapterId": "JHN-18",
+              "anchorVerseNumber": 13
+          }
+      ]
+  },
+  'char-profile-herod-great': {
+      "id": "char-profile-herod-great",
+      "name": "Herod the Great",
+      "nameMeaning": "Greek: Ἡρῴδης (\"Heroic / Song of the Hero\")",
+      "era": "Nativity (~37–4 BC)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-herod-great",
+      "quickBio": "Brutal, brilliant master-builder who reconstructed Jerusalem’s magnificent marble Temple yet grew so paranoid about his throne that he slaughtered family members—and ordered Bethlehem’s boys killed after the Magi came seeking the newborn King of the Jews.",
+      "familyTree": {
+          "parents": [
+              "Antipater the Idumean",
+              "Cypros"
+          ],
+          "siblings": [],
+          "children": [
+              "char-profile-herod-antipas",
+              "Archelaus"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem & Bethlehem Vicinity",
+              "roleInLife": "Deceived Magi and ordered the Bethlehem slaughter",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Contrasts insecure earthly tyranny against Jesus, the gentle newborn Shepherd-King."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Matthew 2:1–18",
+              "label": "Troubled by the Star of Bethlehem",
+              "storyModuleId": "story-mat-herod",
+              "chapterId": "MAT-2",
+              "anchorVerseNumber": 3
+          }
+      ]
+  },
+  'char-profile-herod-antipas': {
+      "id": "char-profile-herod-antipas",
+      "name": "Herod Antipas",
+      "nameMeaning": "Greek: Ἡρῴδης Ἀντίπας (\"Like His Father\")",
+      "era": "Ministry of Jesus (~4 BC – 39 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-herod-antipas",
+      "quickBio": "Tetrarch of Galilee who actually respected John the Baptist’s preaching in secret, yet executed John to save face after a reckless banquet oath—and later mocked Jesus with a robe on Good Friday morning after Jesus refused him a single entertaining miracle.",
+      "familyTree": {
+          "parents": [
+              "char-profile-herod-great",
+              "Malthace"
+          ],
+          "siblings": [],
+          "spouse": [
+              "Herodias"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Galilee (Tiberias)",
+              "roleInLife": "Ruled Galilee during Jesus’ ministry and executed John the Baptist",
+              "coordinates": {
+                  "lat": 32.79,
+                  "lng": 35.53
+              },
+              "mapPinId": "loc-galilee"
+          },
+          {
+              "placeName": "Jerusalem",
+              "roleInLife": "Mocked silent Jesus during Passion trial",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Warns how shallow curiosity without repentance numbs a human conscience until God stays silent."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Mark 6:14–29",
+              "label": "Fearful Curiosity & the Death of John the Baptist",
+              "storyModuleId": "story-mrk-herod",
+              "chapterId": "MRK-6",
+              "anchorVerseNumber": 20
+          },
+          {
+              "reference": "Luke 23:6–12",
+              "label": "Silent Before a Curious King",
+              "storyModuleId": "story-luk-herod",
+              "chapterId": "LUK-23",
+              "anchorVerseNumber": 9
+          }
+      ]
+  },
+  'char-profile-joseph-arimathaea': {
+      "id": "char-profile-joseph-arimathaea",
+      "name": "Joseph of Arimathea",
+      "nameMeaning": "Hebrew: יוֹסֵף (\"May He Add\")",
+      "era": "Crucifixion & Burial (~30 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-joseph-arimathaea",
+      "quickBio": "Wealthy, righteous Sanhedrin councilman who secretly followed Jesus and quietly refused consent to the death plot. After Golgotha went dark, Joseph found sudden courage—marching straight to Pilate to claim Jesus’ body and lay Him in his own brand-new garden tomb.",
+      "familyTree": {
+          "parents": [
+              "Arimathea estate"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem (Garden Tomb)",
+              "roleInLife": "Provided a brand-new rock tomb, fulfilling Isaiah 53:9",
+              "coordinates": {
+                  "lat": 31.78,
+                  "lng": 35.23
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Fulfilled Isaiah 53:9 (“with a rich man in his death”) through unexpected courage at the darkest hour."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Mark 15:42–47",
+              "label": "Finding Courage Before Pilate for Jesus’ Burial",
+              "storyModuleId": "story-mrk-burial",
+              "chapterId": "MRK-15",
+              "anchorVerseNumber": 43
+          }
+      ]
+  },
+  'char-profile-simon-cyrene': {
+      "id": "char-profile-simon-cyrene",
+      "name": "Simon of Cyrene",
+      "nameMeaning": "Hebrew/Greek: שִׁמְעוֹן (\"He Has Heard · From North Africa\")",
+      "era": "Good Friday (~30 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-simon-cyrene",
+      "quickBio": "Jewish pilgrim traveling all the way from Cyrene (Libya) for Passover who stepped fresh from the countryside right as Roman soldiers forced him to lift Jesus’ heavy crossbeam up toward Golgotha. Mark notably recalls him as “the father of Alexander and Rufus”—names known inside the later Roman church!",
+      "familyTree": {
+          "parents": [
+              "Cyrene Jewish diaspora"
+          ],
+          "siblings": [],
+          "children": [
+              "Alexander",
+              "Rufus"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem (Road to Golgotha)",
+              "roleInLife": "Bore the literal wooden crossbeam behind exhausted Jesus",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "An unforgettable picture of carrying Christ’s cross—and likely leading his whole family to Rome’s church (Rom 16:13)."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Mark 15:21",
+              "label": "Compelled to Carry Jesus’ Cross",
+              "storyModuleId": "story-mrk-cyrene",
+              "chapterId": "MRK-15",
+              "anchorVerseNumber": 21
+          }
+      ]
+  },
+  'char-profile-zacharias-luke': {
+      "id": "char-profile-zacharias-luke",
+      "name": "Zacharias the Priest",
+      "nameMeaning": "Hebrew: זְכַרְיָה (\"Yahweh Remembers\")",
+      "era": "Nativity Prelude (~5 BC)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-zacharias-luke",
+      "quickBio": "Elderly, faithful countryside priest whose turn came once in a lifetime to burn incense inside Jerusalem’s sanctuary. Struck mute for doubting Gabriel’s promise of a son in old age, Zacharias spent nine quiet months preparing—before bursting into the prophetic Benedictus praise song.",
+      "familyTree": {
+          "parents": [
+              "Priestly division of Abijah"
+          ],
+          "siblings": [],
+          "spouse": [
+              "char-profile-elizabeth"
+          ],
+          "children": [
+              "char-profile-john-baptist"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem Temple & Judean Hills",
+              "roleInLife": "Met Angel Gabriel beside the altar of incense",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "His song in Luke 1:68–79 celebrated God’s covenant mercy “like sunrise from on high.”"
+      ],
+      "keyChapters": [
+          {
+              "reference": "Luke 1:5–25",
+              "label": "Gabriel’s Visit at the Altar of Incense",
+              "storyModuleId": "story-luk-zacharias",
+              "chapterId": "LUK-1",
+              "anchorVerseNumber": 13
+          },
+          {
+              "reference": "Luke 1:67–79",
+              "label": "The Benedictus: Sunrise From on High",
+              "storyModuleId": "story-luk-benedictus",
+              "chapterId": "LUK-1",
+              "anchorVerseNumber": 78
+          }
+      ]
+  },
+  'char-profile-elizabeth': {
+      "id": "char-profile-elizabeth",
+      "name": "Elizabeth",
+      "nameMeaning": "Hebrew: אֱלִישֶׁבַע (\"My God Is an Oath / My God Is Abundance\")",
+      "era": "Nativity Prelude (~5 BC)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-elizabeth",
+      "quickBio": "Righteous descendant of Aaron who endured decades of childlessness gracefully until God blessed her with John the Baptist. When pregnant young Mary stepped across her doorway, Elizabeth’s baby leaped and she greeted Mary with Spirit-filled honor.",
+      "familyTree": {
+          "parents": [
+              "Daughters of Aaron"
+          ],
+          "siblings": [],
+          "spouse": [
+              "char-profile-zacharias-luke"
+          ],
+          "children": [
+              "char-profile-john-baptist"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Hill Country of Judea",
+              "roleInLife": "Encouraged young Mary during three crucial months",
+              "coordinates": {
+                  "lat": 31.72,
+                  "lng": 35.16
+              },
+              "mapPinId": "loc-bethlehem"
+          }
+      ],
+      "whyTheyMatter": [
+          "First human voice to recognize unborn Jesus as Lord: “Why am I so favored that the mother of my Lord should come to me?”"
+      ],
+      "keyChapters": [
+          {
+              "reference": "Luke 1:39–45",
+              "label": "Mentoring Mary in the Judean Hills",
+              "storyModuleId": "story-luk-visitation",
+              "chapterId": "LUK-1",
+              "anchorVerseNumber": 41
+          }
+      ]
+  },
+  'char-profile-simeon-temple': {
+      "id": "char-profile-simeon-temple",
+      "name": "Simeon in the Temple",
+      "nameMeaning": "Hebrew: שִׁמְעוֹן (\"God Has Heard\")",
+      "era": "Infancy of Jesus (~4 BC)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-simeon-temple",
+      "quickBio": "Righteous, devout Jerusalem elder promised by the Holy Spirit that he would not die until his eyes saw the Messiah. Guided into the Temple at the exact moment Mary and Joseph brought forty-day-old Jesus, Simeon cradled the baby and blessed God in peace.",
+      "familyTree": {
+          "parents": [],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem Temple Courts",
+              "roleInLife": "Cradled infant Jesus and prophesied a light for the Gentiles",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Announced early in Luke 2 that infant Jesus would bring salvation to Gentile nations as well as Israel."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Luke 2:25–35",
+              "label": "“My Eyes Have Seen Your Salvation”",
+              "storyModuleId": "story-luk-simeon",
+              "chapterId": "LUK-2",
+              "anchorVerseNumber": 30
+          }
+      ]
+  },
+  'char-profile-anna-prophetess': {
+      "id": "char-profile-anna-prophetess",
+      "name": "Anna the Prophetess",
+      "nameMeaning": "Hebrew: חַנָּה / Channah (\"Grace / Favor\")",
+      "era": "Infancy of Jesus (~4 BC)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-anna-prophetess",
+      "quickBio": "Elderly prophetess of the tribe of Asher widowed after just seven years of marriage who devoted the next sixty-plus years to constant prayer and fasting inside the Temple. Stepping up at Simeon’s blessing, Anna immediately thanked God and spread word about Jesus across Jerusalem.",
+      "familyTree": {
+          "parents": [
+              "Phanuel (Tribe of Asher)"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem Temple",
+              "roleInLife": "Worshiped night and day and spread hope of redemption",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Honors lifelong quiet prayer warriors who refuse bitterness after grief and recognize God’s arrival first."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Luke 2:36–38",
+              "label": "Constant Prayer & Speaking of Jerusalem’s Redemption",
+              "storyModuleId": "story-luk-anna",
+              "chapterId": "LUK-2",
+              "anchorVerseNumber": 38
+          }
+      ]
+  },
+  'char-profile-bartimaeus': {
+      "id": "char-profile-bartimaeus",
+      "name": "Bartimaeus",
+      "nameMeaning": "Aramaic: בַּר־טִימַאי (\"Son of Timaeus\")",
+      "era": "Ministry of Jesus (~30 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-bartimaeus",
+      "quickBio": "Blind beggar sitting beside Jericho’s dusty road who refused to be shushed by an irritated crowd—shouting even louder, “Jesus, Son of David, have mercy on me!” Throwing off his heavy beggar’s cloak before even being healed, Bartimaeus received sight and immediately followed Jesus down the road.",
+      "familyTree": {
+          "parents": [
+              "Timaeus"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jericho Road",
+              "roleInLife": "Regained physical sight and immediately followed Jesus toward Jerusalem",
+              "coordinates": {
+                  "lat": 31.87,
+                  "lng": 35.44
+              },
+              "mapPinId": "loc-jericho"
+          }
+      ],
+      "whyTheyMatter": [
+          "Shows persistent faith refusing crowd discouragement and leaving old security cloaks behind for Jesus."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Mark 10:46–52",
+              "label": "“What Do You Want Me to Do for You?”",
+              "storyModuleId": "story-mrk-bartimaeus",
+              "chapterId": "MRK-10",
+              "anchorVerseNumber": 51
+          }
+      ]
+  },
+  'char-profile-jairus': {
+      "id": "char-profile-jairus",
+      "name": "Jairus (Synagogue Ruler)",
+      "nameMeaning": "Hebrew: יָאִיר / Yair (\"He Enlightens\")",
+      "era": "Ministry of Jesus (~28 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-jairus",
+      "quickBio": "Respected leader of Capernaum’s synagogue who laid aside all social pride to fall at Jesus’ feet begging for his dying twelve-year-old daughter. Though agonizing delays brought news that she had already died, Jesus held Jairus steady—“Don’t be afraid, only believe”—and woke his girl alive.",
+      "familyTree": {
+          "parents": [],
+          "siblings": [],
+          "children": [
+              "Twelve-year-old daughter"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Galilee (Capernaum)",
+              "roleInLife": "Knelt openly at Jesus’ feet despite religious peer hostility",
+              "coordinates": {
+                  "lat": 32.88,
+                  "lng": 35.57
+              },
+              "mapPinId": "loc-galilee"
+          }
+      ],
+      "whyTheyMatter": [
+          "Speaks to desperate parents learning how faith outlasts devastating delays."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Mark 5:21–43",
+              "label": "“Don’t Be Afraid, Only Believe”",
+              "storyModuleId": "story-mrk-jairus",
+              "chapterId": "MRK-5",
+              "anchorVerseNumber": 36
+          }
+      ]
+  },
+  'char-profile-ananias-damascus': {
+      "id": "char-profile-ananias-damascus",
+      "name": "Ananias of Damascus",
+      "nameMeaning": "Hebrew: חֲנַנְיָה / Chananyah (\"Yahweh Is Gracious\")",
+      "era": "Early Church (~34 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-ananias-damascus",
+      "quickBio": "Ordinary, devout disciple living on Straight Street in Damascus whom God told to go pray for blind, feared persecutor Saul of Tarsus. Swallowing understandable terror, Ananias obeyed—laying gentle hands on his former enemy and calling him “Brother Saul.”",
+      "familyTree": {
+          "parents": [],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Damascus Vicinity",
+              "roleInLife": "First believer to welcome former persecutor Saul as a brother",
+              "coordinates": {
+                  "lat": 33.51,
+                  "lng": 36.3
+              },
+              "mapPinId": "loc-galilee"
+          }
+      ],
+      "whyTheyMatter": [
+          "Those two words—“Brother Saul”—launched one of church history’s greatest transformations."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Acts 9:10–18",
+              "label": "“Brother Saul, the Lord Jesus Sent Me”",
+              "storyModuleId": "story-act-ananias",
+              "chapterId": "ACT-9",
+              "anchorVerseNumber": 17
+          }
+      ]
+  },
+  'char-profile-matthias': {
+      "id": "char-profile-matthias",
+      "name": "Matthias the Apostle",
+      "nameMeaning": "Hebrew/Greek: מַתִּתְיָהוּ / Matthias (\"Gift of God\")",
+      "era": "Early Church (~30 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-matthias",
+      "quickBio": "Unsung faithful disciple who walked alongside Jesus quietly from John’s baptism right up through the Ascension. Chosen by prayerful lot in the Upper Room after Judas’s betrayal, Matthias stepped willingly into the Twelve as an eyewitness of the Resurrection.",
+      "familyTree": {
+          "parents": [],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem Upper Room",
+              "roleInLife": "Chosen through prayer to restore the Twelve Apostles",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Honors years of quiet, unheralded faithfulness before ever receiving a named public role."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Acts 1:15–26",
+              "label": "Chosen After Steadfast Faithfulness",
+              "storyModuleId": "story-act-matthias",
+              "chapterId": "ACT-1",
+              "anchorVerseNumber": 26
+          }
+      ]
+  },
+  'char-profile-ethiopian-eunuch': {
+      "id": "char-profile-ethiopian-eunuch",
+      "name": "Ethiopian Royal Official",
+      "nameMeaning": "Title: Court Treasurer under Candace of Meroe (Nubia/Ethiopia)",
+      "era": "Early Church (~34 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-ethiopian-eunuch",
+      "quickBio": "High-ranking African treasury official who traveled hundreds of miles to worship in Jerusalem and was reading Isaiah 53 aloud in his chariot heading south. Instructed by Philip, he believed immediately in Jesus, asked for water right beside the desert road, and went home rejoicing.",
+      "familyTree": {
+          "parents": [
+              "Kingdom of Kush / Meroe court"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem to Gaza Desert Road",
+              "roleInLife": "Found Christ in Isaiah 53 and carried joy back toward Africa",
+              "coordinates": {
+                  "lat": 31.5,
+                  "lng": 34.5
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Fulfills Isaiah 56:3–5 warmly—a once-excluded eunuch and foreigner welcomed straight into Christ’s family."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Acts 8:26–39",
+              "label": "Isaiah 53 Chariot Bible Study & Desert Baptism",
+              "storyModuleId": "story-act-chariot",
+              "chapterId": "ACT-8",
+              "anchorVerseNumber": 36
+          }
+      ]
+  },
+  'char-profile-epaphroditus': {
+      "id": "char-profile-epaphroditus",
+      "name": "Epaphroditus",
+      "nameMeaning": "Greek: Ἐπαφρόδιτος (\"Lovely / Favored\")",
+      "era": "Paul’s Roman Imprisonment (~61 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-epaphroditus",
+      "quickBio": "Ordinary courier sent by the church in Philippi carrying financial support across land and sea to imprisoned Paul. Nearly dying from illness along the way, Epaphroditus worried more that his home church would grieve for him than about his own recovery.",
+      "familyTree": {
+          "parents": [
+              "Philippi congregation"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Mediterranean Churches",
+              "roleInLife": "Risked his life bringing Philippi’s generous gift to Paul",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Praised by Paul as “brother, coworker, and fellow soldier” for selfless behind-the-scenes sacrifice."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Philippians 2:25–30",
+              "label": "Risked Everything to Serve Christ’s Work",
+              "storyModuleId": "story-php-epaphroditus",
+              "chapterId": "PHP-2",
+              "anchorVerseNumber": 25
+          }
+      ]
+  },
+  'char-profile-epaphras': {
+      "id": "char-profile-epaphras",
+      "name": "Epaphras of Colossae",
+      "nameMeaning": "Greek: Ἐπαφρᾶς (\"Devoted / Lovely\" · short for Epaphroditus)",
+      "era": "Apostolic Era (~55–62 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-epaphras",
+      "quickBio": "Faithful local evangelist who brought the Gospel to his home Lycus Valley cities—Colossae, Laodicea, and Hierapolis—while Paul stayed in Ephesus. Even while sharing Paul’s distant imprisonment, Epaphras agonized daily in intercessory prayer for his hometown churches.",
+      "familyTree": {
+          "parents": [
+              "Colossae congregation"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Asia Minor Churches",
+              "roleInLife": "Planted home congregations in Colossae and wrestled in prayer",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Shows that hometown Christians—not only famous traveling apostles—spread most early churches."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Colossians 4:12–13",
+              "label": "Always Wrestling in Prayer for His Hometown",
+              "storyModuleId": "story-col-epaphras",
+              "chapterId": "COL-4",
+              "anchorVerseNumber": 12
+          }
+      ]
+  },
+  'char-profile-tychicus': {
+      "id": "char-profile-tychicus",
+      "name": "Tychicus",
+      "nameMeaning": "Greek: Τυχικός / Tychikos (\"Fortuitous / Helpful\")",
+      "era": "Apostolic Era (~57–67 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-tychicus",
+      "quickBio": "Dependable believer from Asia Minor whom Paul trusted with the weightiest deliveries of Christian history—carrying Ephesians, Colossians, and Philemon over dangerous Roman roads simply to “encourage your hearts.”",
+      "familyTree": {
+          "parents": [
+              "Asia Province congregation"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Mediterranean Routes",
+              "roleInLife": "Delivered Ephesians & Colossians and comforted anxious churches",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Unsung link keeping New Testament letters circulating safely and encouraging churches face to face."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Ephesians 6:21–22",
+              "label": "Beloved Brother Sent to Encourage Your Hearts",
+              "storyModuleId": "story-eph-tychicus",
+              "chapterId": "EPH-6",
+              "anchorVerseNumber": 21
+          }
+      ]
+  },
+  'char-profile-lois-eunice': {
+      "id": "char-profile-lois-eunice",
+      "name": "Lois & Eunice",
+      "nameMeaning": "Greek: Λωΐς (\"More Desirable\") · Εὐνίκη (\"Good Victory\")",
+      "era": "Early Church (~35–65 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-lois-eunice",
+      "quickBio": "Faithful grandmother and mother living in Lystra (Asia Minor) whose quiet, unhypocritical home discipleship saturated young Timothy in the Scriptures from infancy long before Paul arrived.",
+      "familyTree": {
+          "parents": [
+              "Lois (Grandmother)"
+          ],
+          "siblings": [],
+          "children": [
+              "char-profile-timothy"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Galatia / Lystra Region",
+              "roleInLife": "Passed sincere multi-generational faith down to Timothy",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Honored in 2 Timothy 1:5 as living proof that loving home Scripture habits shape generations."
+      ],
+      "keyChapters": [
+          {
+              "reference": "2 Timothy 1:5",
+              "label": "Sincere Faith Across Three Generations",
+              "storyModuleId": "story-2ti-lois",
+              "chapterId": "2TI-1",
+              "anchorVerseNumber": 5
+          }
+      ]
+  },
+  'char-profile-gaius-elder': {
+      "id": "char-profile-gaius-elder",
+      "name": "Gaius of 3 John",
+      "nameMeaning": "Latin: Gaius (\"Rejoicer\")",
+      "era": "Late Apostolic Era (~90 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-gaius",
+      "quickBio": "Open-hearted Christian leader deeply praised by the Apostle John in 3 John for walking steadfastly in truth and opening his home generously to traveling preachers—even while local dictator Diotrephes pushed people out.",
+      "familyTree": {
+          "parents": [],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Asia Minor Churches",
+              "roleInLife": "Supported traveling missionaries generously despite local bullying",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Shows that quiet hospitality strengthens missionaries as a true “fellow worker for the truth.”"
+      ],
+      "keyChapters": [
+          {
+              "reference": "3 John 1:1–8",
+              "label": "Warm Hospitality Over Self-Importance",
+              "storyModuleId": "story-3jn-gaius",
+              "chapterId": "3JN-1",
+              "anchorVerseNumber": 5
+          }
+      ]
+  },
+  'char-profile-lazarus-parable': {
+      "id": "char-profile-lazarus-parable",
+      "name": "Lazarus the Beggar (Parable)",
+      "nameMeaning": "Hebrew/Greek: אֶלְעָזָר / Lazaros (\"God Has Helped\")",
+      "era": "Jesus’ Parables (~29 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-lazarus-bethany",
+      "quickBio": "Only named character in any of Jesus’ parables—a starving, sore-covered beggar lying outside a nameless rich man’s locked gate, later carried by angels to Abraham’s side while cruel indifference meets eternal regret.",
+      "familyTree": {
+          "parents": [],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Judea / Galilee Teaching Setting",
+              "roleInLife": "Contrasted earthly luxury against lasting compassion",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Gives dignity and a personal name to the forgotten poor right beside wealthy gates."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Luke 16:19–31",
+              "label": "The Rich Man and Lazarus",
+              "storyModuleId": "story-luk-lazarus",
+              "chapterId": "LUK-16",
+              "anchorVerseNumber": 20
+          }
+      ]
+  },
+  'char-profile-cleopas': {
+      "id": "char-profile-cleopas",
+      "name": "Cleopas (Emmaus Road)",
+      "nameMeaning": "Greek: Κλεόπας / Kleopas (\"Renowned Father\")",
+      "era": "Easter Sunday (~30 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-matthias",
+      "quickBio": "Grief-stricken disciple walking seven miles from Jerusalem to Emmaus on Easter afternoon—unknowingly joined by the risen Jesus, who opened all the Scriptures from Moses onward until their hearts burned and bread broke open their eyes.",
+      "familyTree": {
+          "parents": [],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem to Emmaus Road",
+              "roleInLife": "Recognized the risen Christ in the breaking of bread",
+              "coordinates": {
+                  "lat": 31.83,
+                  "lng": 35.11
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Gives every searching believer Jesus’ own Old-to-New-Testament Bible overview."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Luke 24:13–35",
+              "label": "“Did Not Our Hearts Burn Within Us?”",
+              "storyModuleId": "story-luk-emmaus",
+              "chapterId": "LUK-24",
+              "anchorVerseNumber": 32
+          }
+      ]
+  },
+  'char-profile-herodias': {
+      "id": "char-profile-herodias",
+      "name": "Herodias",
+      "nameMeaning": "Greek: Ἡρῳδιάς (Herodian Princess)",
+      "era": "Ministry of John the Baptist (~28 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-mary-bethany",
+      "quickBio": "Ambitious granddaughter of Herod the Great who divorced her husband to marry his brother Herod Antipas—and nursed murderous hatred against John the Baptist until she trapped Antipas into ordering John’s beheading.",
+      "familyTree": {
+          "parents": [
+              "Aristobulus IV"
+          ],
+          "siblings": [
+              "King Herod Agrippa I"
+          ],
+          "spouse": [
+              "char-profile-herod-antipas"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Galilee & Machaerus Palace",
+              "roleInLife": "Nursed bitter vengeance against John the Baptist’s truth",
+              "coordinates": {
+                  "lat": 32.79,
+                  "lng": 35.53
+              },
+              "mapPinId": "loc-galilee"
+          }
+      ],
+      "whyTheyMatter": [
+          "Illustrates how unrepentant resentment against honest truth destroys everyone near it."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Mark 6:17–28",
+              "label": "Herod’s Banquet & Tragic Oath",
+              "storyModuleId": "story-mrk-herodias",
+              "chapterId": "MRK-6",
+              "anchorVerseNumber": 24
+          }
+      ]
+  },
+  'char-profile-barabbas': {
+      "id": "char-profile-barabbas",
+      "name": "Barabbas",
+      "nameMeaning": "Aramaic: בַּר־אַבָּא / Bar-Abba (\"Son of the Father\")",
+      "era": "Good Friday (~30 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-bartimaeus",
+      "quickBio": "Notorious Jerusalem insurrectionist and murderer scheduled for Roman crucifixion on Good Friday—released by Pilate’s Passover crowd choice while innocent Jesus stepped onto the center cross literally meant for him.",
+      "familyTree": {
+          "parents": [],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem (Roman Custody)",
+              "roleInLife": "Walked free the hour Jesus took his execution place",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Living emblem of the Gospel exchange: the guilty released because the Righteous One took his cross."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Mark 15:6–15",
+              "label": "A Guilty Rebel Set Free in Jesus’ Place",
+              "storyModuleId": "story-mrk-barabbas",
+              "chapterId": "MRK-15",
+              "anchorVerseNumber": 15
+          }
+      ]
+  },
+  'char-profile-salome': {
+      "id": "char-profile-salome",
+      "name": "Salome of Galilee",
+      "nameMeaning": "Hebrew: שְׁלוֹמִית / Shelomit (\"Peaceful\")",
+      "era": "Cross & Resurrection (~28–30 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-dorcas",
+      "quickBio": "Devoted Galilean disciple (widely linked with the mother of James and John) who cared for Jesus’ band from Galilee onward, stood bravely at Golgotha, and carried burial spices at dawn on Easter morning to discover the stone rolled away.",
+      "familyTree": {
+          "parents": [],
+          "siblings": [],
+          "spouse": [
+              "Zebedee (trad.)"
+          ],
+          "children": [
+              "char-profile-james-zebedee",
+              "char-profile-john-apostle"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Galilee & Jerusalem Tomb",
+              "roleInLife": "Carried dawn burial spices and witnessed the empty tomb",
+              "coordinates": {
+                  "lat": 31.78,
+                  "lng": 35.23
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Remembered for steady presence when male disciples scattered in fear."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Mark 16:1–8",
+              "label": "Easter Dawn Spice-Bearer at the Empty Tomb",
+              "storyModuleId": "story-mrk-easter",
+              "chapterId": "MRK-16",
+              "anchorVerseNumber": 1
+          }
+      ]
+  },
+  'char-profile-herod-agrippa': {
+      "id": "char-profile-herod-agrippa",
+      "name": "King Herod Agrippa I",
+      "nameMeaning": "Latin/Greek: Agrippa · Grandson of Herod the Great",
+      "era": "Acts Church (~41–44 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-herod-great",
+      "quickBio": "Popular client-king who killed Apostle James and jailed Simon Peter to please Jerusalem crowds—only for an angel to unlock Peter’s chains overnight, before Agrippa perished in Caesarea after accepting idolatrous worship as a god.",
+      "familyTree": {
+          "parents": [
+              "Aristobulus IV"
+          ],
+          "siblings": [
+              "char-profile-herodias"
+          ],
+          "children": [
+              "char-profile-agrippa"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem & Caesarea",
+              "roleInLife": "Persecuted the early church briefly before sudden downfall",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Acts 12 closes cleanly: proud persecution fell while “the word of God grew and multiplied.”"
+      ],
+      "keyChapters": [
+          {
+              "reference": "Acts 12:1–24",
+              "label": "Peter’s Prison Break & God’s Unstoppable Word",
+              "storyModuleId": "story-act-agrippa1",
+              "chapterId": "ACT-12",
+              "anchorVerseNumber": 24
+          }
+      ]
+  },
+  'char-profile-felix': {
+      "id": "char-profile-felix",
+      "name": "Governor Felix",
+      "nameMeaning": "Latin: Antonius Felix (\"Happy / Fortunate\")",
+      "era": "Acts Trials (~52–59 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-herod-antipas",
+      "quickBio": "Corrupt Roman procurator of Judea who trembled under Paul’s private preaching about righteousness, self-control, and coming judgment—yet kept delaying faith while secretly hoping Paul would offer him a bribe.",
+      "familyTree": {
+          "parents": [
+              "Roman imperial freedman family"
+          ],
+          "siblings": [],
+          "spouse": [
+              "Drusilla"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Caesarea Coastal Court",
+              "roleInLife": "Kept Paul chained two years hoping for a bribe",
+              "coordinates": {
+                  "lat": 32.5,
+                  "lng": 34.89
+              },
+              "mapPinId": "loc-samaria"
+          }
+      ],
+      "whyTheyMatter": [
+          "Warned history against putting off truth with “When I have a convenient time, I will call for you.”"
+      ],
+      "keyChapters": [
+          {
+              "reference": "Acts 24:22–27",
+              "label": "Trembling Yet Procrastinating Truth",
+              "storyModuleId": "story-act-felix",
+              "chapterId": "ACT-24",
+              "anchorVerseNumber": 25
+          }
+      ]
+  },
+  'char-profile-festus': {
+      "id": "char-profile-festus",
+      "name": "Porcius Festus",
+      "nameMeaning": "Latin: Porcius Festus (\"Festive\")",
+      "era": "Acts Trials (~59–62 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-pilate",
+      "quickBio": "More principled Roman governor replacing Felix who refused Jerusalem ambushes against Paul, heard Paul’s appeal to Caesar (“To Caesar you have appealed—to Caesar you shall go!”), and hosted King Agrippa II to hear the Gospel.",
+      "familyTree": {
+          "parents": [
+              "Roman equestrian order"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Caesarea Maritima",
+              "roleInLife": "Granted Paul’s historic legal appeal to imperial Rome",
+              "coordinates": {
+                  "lat": 32.5,
+                  "lng": 34.89
+              },
+              "mapPinId": "loc-samaria"
+          }
+      ],
+      "whyTheyMatter": [
+          "Providentially routed Paul under Roman protection straight toward Rome, as Jesus promised."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Acts 25:6–12",
+              "label": "“To Caesar You Shall Go!”",
+              "storyModuleId": "story-act-festus",
+              "chapterId": "ACT-25",
+              "anchorVerseNumber": 12
+          }
+      ]
+  },
+  'char-profile-agrippa': {
+      "id": "char-profile-agrippa",
+      "name": "King Herod Agrippa II",
+      "nameMeaning": "Greek/Latin: Ἀγρίππας (Last Herodian Monarch)",
+      "era": "Acts Trials (~50–93 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-herod-great",
+      "quickBio": "Well-read Jewish-Roman ruler summoned by Festus to hear Paul’s defense in Caesarea. Knowing Hebrew prophecies intimately, Agrippa famously interrupted Paul: “In a short time would you persuade me to become a Christian?”",
+      "familyTree": {
+          "parents": [
+              "char-profile-herod-agrippa"
+          ],
+          "siblings": [
+              "Bernice",
+              "Drusilla"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Caesarea Audience Hall",
+              "roleInLife": "Heard Paul’s clearest personal testimony before chains",
+              "coordinates": {
+                  "lat": 32.5,
+                  "lng": 34.89
+              },
+              "mapPinId": "loc-samaria"
+          }
+      ],
+      "whyTheyMatter": [
+          "Received Acts 26’s gripping prayer: that every listener might know Christ’s freedom—minus chains!"
+      ],
+      "keyChapters": [
+          {
+              "reference": "Acts 26:1–32",
+              "label": "“In a Short Time Persuade Me to Be a Christian?”",
+              "storyModuleId": "story-act-agrippa2",
+              "chapterId": "ACT-26",
+              "anchorVerseNumber": 28
+          }
+      ]
+  },
+  'char-profile-ananias-sapphira': {
+      "id": "char-profile-ananias-sapphira",
+      "name": "Ananias & Sapphira",
+      "nameMeaning": "Hebrew/Aramaic: חֲנַנְיָה (\"God Is Gracious\") · שַׁפִּירָא (\"Beautiful\")",
+      "era": "Early Jerusalem Church (~32 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-priscilla-aquila",
+      "quickBio": "Married Jerusalem church members who sold property but staged a theatrical lie—secretly keeping back money while pretending full sacrifice to buy spiritual applause. Peter’s warning uncovered their deceit, teaching the young church sacred honesty.",
+      "familyTree": {
+          "parents": [],
+          "siblings": [],
+          "spouse": [
+              "Married Couple"
+          ]
+      },
+      "locationsLived": [
+          {
+              "placeName": "Jerusalem",
+              "roleInLife": "Sobered the newborn church against performative hypocrisy",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Shows God fiercely protects early community sincerity against image-polishing lies."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Acts 5:1–11",
+              "label": "Guarding Truth Inside the Early Community",
+              "storyModuleId": "story-act-ananias-sapphira",
+              "chapterId": "ACT-5",
+              "anchorVerseNumber": 4
+          }
+      ]
+  },
+  'char-profile-euodia-syntyche': {
+      "id": "char-profile-euodia-syntyche",
+      "name": "Euodia & Syntyche",
+      "nameMeaning": "Greek: Εὐοδία (\"Prosperous Journey\") · Συντύχη (\"Pleasant Encounter\")",
+      "era": "Early Church (~61 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-lois-eunice",
+      "quickBio": "Two courageous women coworkers who had labored side by side with Paul for the Gospel in Philippi, yet fell into public disagreement. Paul urged the whole church to help them reconcile in the shared humility of Jesus Christ.",
+      "familyTree": {
+          "parents": [
+              "Philippi congregation"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Philippi Church",
+              "roleInLife": "Names recorded in the Book of Life; called to harmony",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Shows even devoted gospel coworkers need gentle church help to mend personal division."
+      ],
+      "keyChapters": [
+          {
+              "reference": "Philippians 4:2–3",
+              "label": "Urged to Be of the Same Mind in the Lord",
+              "storyModuleId": "story-php-unity",
+              "chapterId": "PHP-4",
+              "anchorVerseNumber": 2
+          }
+      ]
+  },
+  'char-profile-onesiphorus': {
+      "id": "char-profile-onesiphorus",
+      "name": "Onesiphorus",
+      "nameMeaning": "Greek: Ὀνησιφόρος (\"Bringer of Help / Profit-Bringer\")",
+      "era": "Paul’s Final Imprisonment (~66 AD)",
+      "roleBadge": "New Testament",
+      "portraitIllustrationId": "portrait-tychicus",
+      "quickBio": "Loyal friend from Ephesus who refused shame when everyone else in Asia deserted imprisoned Paul. Traveling all the way to Rome, Onesiphorus searched tirelessly through prisons until he found Paul and refreshed his soul.",
+      "familyTree": {
+          "parents": [
+              "Ephesus household"
+          ],
+          "siblings": []
+      },
+      "locationsLived": [
+          {
+              "placeName": "Ephesus & Rome",
+              "roleInLife": "Tracked down chained Paul tirelessly to refresh his spirit",
+              "coordinates": {
+                  "lat": 31.776,
+                  "lng": 35.234
+              },
+              "mapPinId": "loc-jerusalem"
+          }
+      ],
+      "whyTheyMatter": [
+          "Living definition of unashamed loyalty when beloved friends fall out of public favor."
+      ],
+      "keyChapters": [
+          {
+              "reference": "2 Timothy 1:16–18",
+              "label": "Not Ashamed of Paul’s Chains",
+              "storyModuleId": "story-2ti-onesiphorus",
+              "chapterId": "2TI-1",
+              "anchorVerseNumber": 16
+          }
+      ]
+  },
 };
 
 export const CHARACTER_DIRECTORY_LIST: CharacterCard[] = [
@@ -4685,4 +7773,75 @@ export const CHARACTER_DIRECTORY_LIST: CharacterCard[] = [
   SEED_CHARACTERS['char-profile-zedekiah'],
   SEED_CHARACTERS['char-profile-ezekiel'],
   SEED_CHARACTERS['char-profile-peter'],
+  SEED_CHARACTERS['char-profile-jesus'],
+  SEED_CHARACTERS['char-profile-paul'],
+  SEED_CHARACTERS['char-profile-mary-jesus'],
+  SEED_CHARACTERS['char-profile-joseph-nazareth'],
+  SEED_CHARACTERS['char-profile-john-baptist'],
+  SEED_CHARACTERS['char-profile-matthew'],
+  SEED_CHARACTERS['char-profile-john-apostle'],
+  SEED_CHARACTERS['char-profile-james-zebedee'],
+  SEED_CHARACTERS['char-profile-andrew'],
+  SEED_CHARACTERS['char-profile-mary-magdalene'],
+  SEED_CHARACTERS['char-profile-martha'],
+  SEED_CHARACTERS['char-profile-mary-bethany'],
+  SEED_CHARACTERS['char-profile-lazarus-bethany'],
+  SEED_CHARACTERS['char-profile-nicodemus'],
+  SEED_CHARACTERS['char-profile-zacchaeus'],
+  SEED_CHARACTERS['char-profile-thomas'],
+  SEED_CHARACTERS['char-profile-philip-apostle'],
+  SEED_CHARACTERS['char-profile-nathanael'],
+  SEED_CHARACTERS['char-profile-judas-iscariot'],
+  SEED_CHARACTERS['char-profile-luke'],
+  SEED_CHARACTERS['char-profile-mark'],
+  SEED_CHARACTERS['char-profile-barnabas'],
+  SEED_CHARACTERS['char-profile-stephen'],
+  SEED_CHARACTERS['char-profile-philip-evangelist'],
+  SEED_CHARACTERS['char-profile-timothy'],
+  SEED_CHARACTERS['char-profile-titus'],
+  SEED_CHARACTERS['char-profile-silas'],
+  SEED_CHARACTERS['char-profile-james-jerusalem'],
+  SEED_CHARACTERS['char-profile-jude'],
+  SEED_CHARACTERS['char-profile-cornelius'],
+  SEED_CHARACTERS['char-profile-lydia'],
+  SEED_CHARACTERS['char-profile-priscilla-aquila'],
+  SEED_CHARACTERS['char-profile-apollos'],
+  SEED_CHARACTERS['char-profile-phoebe'],
+  SEED_CHARACTERS['char-profile-dorcas'],
+  SEED_CHARACTERS['char-profile-onesimus'],
+  SEED_CHARACTERS['char-profile-philemon'],
+  SEED_CHARACTERS['char-profile-gamaliel'],
+  SEED_CHARACTERS['char-profile-pilate'],
+  SEED_CHARACTERS['char-profile-caiaphas'],
+  SEED_CHARACTERS['char-profile-annas'],
+  SEED_CHARACTERS['char-profile-herod-great'],
+  SEED_CHARACTERS['char-profile-herod-antipas'],
+  SEED_CHARACTERS['char-profile-joseph-arimathaea'],
+  SEED_CHARACTERS['char-profile-simon-cyrene'],
+  SEED_CHARACTERS['char-profile-zacharias-luke'],
+  SEED_CHARACTERS['char-profile-elizabeth'],
+  SEED_CHARACTERS['char-profile-simeon-temple'],
+  SEED_CHARACTERS['char-profile-anna-prophetess'],
+  SEED_CHARACTERS['char-profile-bartimaeus'],
+  SEED_CHARACTERS['char-profile-jairus'],
+  SEED_CHARACTERS['char-profile-ananias-damascus'],
+  SEED_CHARACTERS['char-profile-matthias'],
+  SEED_CHARACTERS['char-profile-ethiopian-eunuch'],
+  SEED_CHARACTERS['char-profile-epaphroditus'],
+  SEED_CHARACTERS['char-profile-epaphras'],
+  SEED_CHARACTERS['char-profile-tychicus'],
+  SEED_CHARACTERS['char-profile-lois-eunice'],
+  SEED_CHARACTERS['char-profile-gaius-elder'],
+  SEED_CHARACTERS['char-profile-lazarus-parable'],
+  SEED_CHARACTERS['char-profile-cleopas'],
+  SEED_CHARACTERS['char-profile-herodias'],
+  SEED_CHARACTERS['char-profile-barabbas'],
+  SEED_CHARACTERS['char-profile-salome'],
+  SEED_CHARACTERS['char-profile-herod-agrippa'],
+  SEED_CHARACTERS['char-profile-felix'],
+  SEED_CHARACTERS['char-profile-festus'],
+  SEED_CHARACTERS['char-profile-agrippa'],
+  SEED_CHARACTERS['char-profile-ananias-sapphira'],
+  SEED_CHARACTERS['char-profile-euodia-syntyche'],
+  SEED_CHARACTERS['char-profile-onesiphorus'],
 ];

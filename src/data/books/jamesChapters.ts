@@ -23,12 +23,12 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-jas-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "James",
             "entityId": "char-james-jerusalem"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -138,7 +138,16 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "text": "But let the brother in humble circumstances glory in his high position;",
         "translation": "WEB",
         "illustrationId": "ill-jas-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "humble",
+            "entityId": "term-humble-meekness"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "JAS-1:10",
@@ -149,7 +158,12 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "text": "and the rich, in that he is made humble, because like the flower in the grass, he will pass away.",
         "translation": "WEB",
         "illustrationId": "ill-jas-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "humble",
+            "entityId": "term-humble-meekness"
+          }
+        ]
       },
       {
         "id": "JAS-1:11",
@@ -351,7 +365,12 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Pure religion and undefiled before our God and Father is this: to visit the fatherless and widows in their affliction, and to keep oneself unstained by the world.",
         "translation": "WEB",
         "illustrationId": "ill-jas-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "widows",
+            "entityId": "term-widows-care"
+          }
+        ]
       }
     ]
   },
@@ -377,12 +396,16 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-jas-2",
         "linkedEntities": [
           {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           },
           {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
           }
         ]
       },
@@ -395,7 +418,12 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "text": "For if a man with a gold ring, in fine clothing, comes into your synagogue, and a poor man in filthy clothing also comes in,",
         "translation": "WEB",
         "illustrationId": "ill-jas-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "synagogue",
+            "entityId": "term-synagogue"
+          }
+        ]
       },
       {
         "id": "JAS-2:3",
@@ -434,6 +462,10 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "term-faith-pistis"
           },
           {
+            "spanText": "heirs",
+            "entityId": "term-inheritance"
+          },
+          {
             "spanText": "love",
             "entityId": "term-agape-love"
           }
@@ -459,7 +491,12 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t they blaspheme the honorable name by which you are called?",
         "translation": "WEB",
         "illustrationId": "ill-jas-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blaspheme",
+            "entityId": "term-blasphemy"
+          }
+        ]
       },
       {
         "id": "JAS-2:8",
@@ -534,6 +571,14 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "mercy",
+            "entityId": "term-mercy-eleos"
+          },
+          {
+            "spanText": "mercy",
+            "entityId": "term-mercy-eleos"
           }
         ]
       },
@@ -621,7 +666,12 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "text": "You believe that God is one. You do well. The demons also believe, and shudder.",
         "translation": "WEB",
         "illustrationId": "ill-jas-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "demons",
+            "entityId": "term-demons-evil-spirits"
+          }
+        ]
       },
       {
         "id": "JAS-2:20",
@@ -654,8 +704,16 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-abraham"
           },
           {
+            "spanText": "justified",
+            "entityId": "term-justification"
+          },
+          {
             "spanText": "Isaac",
             "entityId": "char-isaac"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -686,12 +744,12 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-jas-2",
         "linkedEntities": [
           {
-            "spanText": "Abraham",
-            "entityId": "char-abraham"
-          },
-          {
             "spanText": "Scripture",
             "entityId": "term-scripture-inspired"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
           },
           {
             "spanText": "righteousness",
@@ -709,6 +767,10 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-jas-2",
         "linkedEntities": [
+          {
+            "spanText": "justified",
+            "entityId": "term-justification"
+          },
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
@@ -728,6 +790,10 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Rahab",
             "entityId": "char-rahab"
+          },
+          {
+            "spanText": "justified",
+            "entityId": "term-justification"
           }
         ]
       },
@@ -813,7 +879,12 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "text": "So the tongue is also a little member, and boasts great things. See how a small fire can spread to a large forest!",
         "translation": "WEB",
         "illustrationId": "ill-jas-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boasts",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "JAS-3:6",
@@ -824,7 +895,12 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "text": "And the tongue is a fire. The world of iniquity among our members is the tongue, which defiles the whole body, and sets on fire the course of nature, and is set on fire by Gehenna.",
         "translation": "WEB",
         "illustrationId": "ill-jas-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gehenna",
+            "entityId": "term-gehenna"
+          }
+        ]
       },
       {
         "id": "JAS-3:7",
@@ -917,7 +993,12 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if you have bitter jealousy and selfish ambition in your heart, don’t boast and don’t lie against the truth.",
         "translation": "WEB",
         "illustrationId": "ill-jas-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "JAS-3:15",
@@ -963,6 +1044,10 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mercy",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "hypocrisy",
+            "entityId": "term-hypocrite"
           }
         ]
       },
@@ -979,6 +1064,10 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "peace",
+            "entityId": "term-peace-eirene"
           },
           {
             "spanText": "peace",
@@ -1019,7 +1108,12 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "text": "You lust, and don’t have. You murder and covet, and can’t obtain. You fight and make war. You don’t have, because you don’t ask.",
         "translation": "WEB",
         "illustrationId": "ill-jas-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covet",
+            "entityId": "term-covetousness"
+          }
+        ]
       },
       {
         "id": "JAS-4:3",
@@ -1076,6 +1170,14 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "grace",
+            "entityId": "term-grace"
+          },
+          {
+            "spanText": "humble",
+            "entityId": "term-humble-meekness"
           }
         ]
       },
@@ -1088,7 +1190,12 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Be subject therefore to God. Resist the devil, and he will flee from you.",
         "translation": "WEB",
         "illustrationId": "ill-jas-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "devil",
+            "entityId": "term-satan-adversary"
+          }
+        ]
       },
       {
         "id": "JAS-4:8",
@@ -1126,7 +1233,12 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Humble yourselves in the sight of the Lord, and he will exalt you.",
         "translation": "WEB",
         "illustrationId": "ill-jas-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Humble",
+            "entityId": "term-humble-meekness"
+          }
+        ]
       },
       {
         "id": "JAS-4:11",
@@ -1192,7 +1304,20 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "text": "But now you glory in your boasting. All such boasting is evil.",
         "translation": "WEB",
         "illustrationId": "ill-jas-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "boasting",
+            "entityId": "term-boasting-kauchēma"
+          },
+          {
+            "spanText": "boasting",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "JAS-4:17",
@@ -1249,7 +1374,16 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your gold and your silver are corroded, and their corrosion will be for a testimony against you and will eat your flesh like fire. You have laid up your treasure in the last days.",
         "translation": "WEB",
         "illustrationId": "ill-jas-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "JAS-5:4",
@@ -1282,7 +1416,12 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "text": "You have condemned and you have murdered the righteous one. He doesn’t resist you.",
         "translation": "WEB",
         "illustrationId": "ill-jas-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "JAS-5:7",
@@ -1326,7 +1465,12 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Take, brothers, for an example of suffering and of perseverance, the prophets who spoke in the name of the Lord.",
         "translation": "WEB",
         "illustrationId": "ill-jas-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "JAS-5:11",
@@ -1357,7 +1501,16 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "text": "But above all things, my brothers, don’t swear— not by heaven, or by the earth, or by any other oath; but let your “yes” be “yes”, and your “no”, “no”, so that you don’t fall into hypocrisy.",
         "translation": "WEB",
         "illustrationId": "ill-jas-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "oath",
+            "entityId": "term-oath"
+          },
+          {
+            "spanText": "hypocrisy",
+            "entityId": "term-hypocrite"
+          }
+        ]
       },
       {
         "id": "JAS-5:13",
@@ -1379,7 +1532,12 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Is any among you sick? Let him call for the elders of the assembly, and let them pray over him, anointing him with oil in the name of the Lord,",
         "translation": "WEB",
         "illustrationId": "ill-jas-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "elders",
+            "entityId": "term-elder-presbyter"
+          }
+        ]
       },
       {
         "id": "JAS-5:15",
@@ -1392,12 +1550,16 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-jas-5",
         "linkedEntities": [
           {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          },
+          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
           },
           {
-            "spanText": "prayer",
-            "entityId": "term-prayer"
+            "spanText": "forgiven",
+            "entityId": "term-forgiveness"
           }
         ]
       },
@@ -1412,8 +1574,16 @@ export const JAMES_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-jas-5",
         "linkedEntities": [
           {
+            "spanText": "Confess",
+            "entityId": "term-confession"
+          },
+          {
             "spanText": "prayer",
             "entityId": "term-prayer"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },

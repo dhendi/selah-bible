@@ -23,20 +23,24 @@ export const TITUS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-tit-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Paul",
             "entityId": "char-paul"
           },
           {
-            "spanText": "godliness",
-            "entityId": "term-godliness"
+            "spanText": "apostle",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           },
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "godliness",
+            "entityId": "term-godliness"
           }
         ]
       },
@@ -53,6 +57,10 @@ export const TITUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "hope",
             "entityId": "term-hope"
+          },
+          {
+            "spanText": "eternal life",
+            "entityId": "term-eternal-life"
           }
         ]
       },
@@ -65,7 +73,12 @@ export const TITUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "but in his own time revealed his word in the message with which I was entrusted according to the commandment of God our Savior;",
         "translation": "WEB",
         "illustrationId": "ill-tit-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "commandment",
+            "entityId": "term-commandments"
+          }
+        ]
       },
       {
         "id": "TIT-1:4",
@@ -78,28 +91,28 @@ export const TITUS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-tit-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Titus",
             "entityId": "char-titus"
-          },
-          {
-            "spanText": "Grace",
-            "entityId": "term-grace"
           },
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
           },
           {
-            "spanText": "peace",
-            "entityId": "term-peace-eirene"
+            "spanText": "Grace",
+            "entityId": "term-grace"
           },
           {
             "spanText": "mercy",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "peace",
+            "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -112,7 +125,12 @@ export const TITUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I left you in Crete for this reason, that you would set in order the things that were lacking and appoint elders in every city, as I directed you,",
         "translation": "WEB",
         "illustrationId": "ill-tit-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "elders",
+            "entityId": "term-elder-presbyter"
+          }
+        ]
       },
       {
         "id": "TIT-1:6",
@@ -134,7 +152,16 @@ export const TITUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the overseer must be blameless, as God’s steward, not self-pleasing, not easily angered, not given to wine, not violent, not greedy for dishonest gain;",
         "translation": "WEB",
         "illustrationId": "ill-tit-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "overseer",
+            "entityId": "term-overseer"
+          },
+          {
+            "spanText": "steward",
+            "entityId": "term-steward"
+          }
+        ]
       },
       {
         "id": "TIT-1:8",
@@ -172,7 +199,12 @@ export const TITUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For there are also many unruly men, vain talkers and deceivers, especially those of the circumcision,",
         "translation": "WEB",
         "illustrationId": "ill-tit-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "circumcision",
+            "entityId": "term-circumcision"
+          }
+        ]
       },
       {
         "id": "TIT-1:11",
@@ -194,7 +226,12 @@ export const TITUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "One of them, a prophet of their own, said, “Cretans are always liars, evil beasts, and idle gluttons.”",
         "translation": "WEB",
         "illustrationId": "ill-tit-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophet",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "TIT-1:13",
@@ -206,6 +243,10 @@ export const TITUS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-tit-1",
         "linkedEntities": [
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
+          },
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
@@ -221,7 +262,12 @@ export const TITUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "not paying attention to Jewish fables and commandments of men who turn away from the truth.",
         "translation": "WEB",
         "illustrationId": "ill-tit-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "commandments",
+            "entityId": "term-commandments"
+          }
+        ]
       },
       {
         "id": "TIT-1:15",
@@ -232,7 +278,12 @@ export const TITUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "To the pure, all things are pure; but to those who are defiled and unbelieving, nothing is pure; but both their mind and their conscience are defiled.",
         "translation": "WEB",
         "illustrationId": "ill-tit-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
+          }
+        ]
       },
       {
         "id": "TIT-1:16",
@@ -325,7 +376,12 @@ export const TITUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "to be sober minded, chaste, workers at home, kind, being in subjection to their own husbands, that God’s word may not be blasphemed.",
         "translation": "WEB",
         "illustrationId": "ill-tit-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blasphemed",
+            "entityId": "term-blasphemy"
+          }
+        ]
       },
       {
         "id": "TIT-2:6",
@@ -395,6 +451,10 @@ export const TITUS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
           }
         ]
       },
@@ -420,12 +480,16 @@ export const TITUS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-tit-2",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "hope",
             "entityId": "term-hope"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -438,7 +502,12 @@ export const TITUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "who gave himself for us, that he might redeem us from all iniquity, and purify for himself a people for his own possession, zealous for good works.",
         "translation": "WEB",
         "illustrationId": "ill-tit-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "redeem",
+            "entityId": "term-redemption"
+          }
+        ]
       },
       {
         "id": "TIT-2:15",
@@ -537,6 +606,10 @@ export const TITUS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "term-loyal-love"
           },
           {
+            "spanText": "saved",
+            "entityId": "term-salvation"
+          },
+          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
           }
@@ -569,12 +642,24 @@ export const TITUS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-tit-3",
         "linkedEntities": [
           {
+            "spanText": "justified",
+            "entityId": "term-justification"
+          },
+          {
             "spanText": "grace",
             "entityId": "term-grace"
           },
           {
+            "spanText": "heirs",
+            "entityId": "term-inheritance"
+          },
+          {
             "spanText": "hope",
             "entityId": "term-hope"
+          },
+          {
+            "spanText": "eternal life",
+            "entityId": "term-eternal-life"
           }
         ]
       },
@@ -587,7 +672,12 @@ export const TITUS_CHAPTERS: Record<string, ChapterData> = {
         "text": "This saying is faithful, and concerning these things I desire that you affirm confidently, so that those who have believed God may be careful to maintain good works. These things are good and profitable to men;",
         "translation": "WEB",
         "illustrationId": "ill-tit-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
+          }
+        ]
       },
       {
         "id": "TIT-3:9",
@@ -676,12 +766,16 @@ export const TITUS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-tit-3",
         "linkedEntities": [
           {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          },
+          {
             "spanText": "Grace",
             "entityId": "term-grace"
           },
           {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       }

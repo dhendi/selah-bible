@@ -23,16 +23,28 @@ export const JUDE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-jud-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Jude",
             "entityId": "char-jude"
           },
           {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
             "spanText": "James",
             "entityId": "char-james-jerusalem"
+          },
+          {
+            "spanText": "sanctified",
+            "entityId": "term-sanctification"
           }
         ]
       },
@@ -47,16 +59,16 @@ export const JUDE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-jud-1",
         "linkedEntities": [
           {
-            "spanText": "love",
-            "entityId": "term-agape-love"
+            "spanText": "Mercy",
+            "entityId": "term-loyal-love"
           },
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
           },
           {
-            "spanText": "Mercy",
-            "entityId": "term-loyal-love"
+            "spanText": "love",
+            "entityId": "term-agape-love"
           }
         ]
       },
@@ -71,8 +83,16 @@ export const JUDE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-jud-1",
         "linkedEntities": [
           {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          },
+          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
           }
         ]
       },
@@ -87,12 +107,16 @@ export const JUDE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-jud-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
+            "spanText": "condemnation",
+            "entityId": "term-condemnation"
           },
           {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -106,6 +130,10 @@ export const JUDE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-jud-1",
         "linkedEntities": [
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
+          },
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
@@ -121,7 +149,12 @@ export const JUDE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Angels who didn’t keep their first domain, but deserted their own dwelling place, he has kept in everlasting bonds under darkness for the judgment of the great day.",
         "translation": "WEB",
         "illustrationId": "ill-jud-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "JUD-1:7",
@@ -140,6 +173,14 @@ export const JUDE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gomorrah",
             "entityId": "place-gomorrah"
+          },
+          {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
           }
         ]
       },
@@ -152,7 +193,12 @@ export const JUDE_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yet in the same way, these also in their dreaming defile the flesh, despise authority, and slander celestial beings.",
         "translation": "WEB",
         "illustrationId": "ill-jud-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "JUD-1:9",
@@ -165,12 +211,20 @@ export const JUDE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-jud-1",
         "linkedEntities": [
           {
+            "spanText": "Michael",
+            "entityId": "char-michael"
+          },
+          {
+            "spanText": "devil",
+            "entityId": "term-satan-adversary"
+          },
+          {
             "spanText": "Moses",
             "entityId": "char-moses"
           },
           {
-            "spanText": "Michael",
-            "entityId": "char-michael"
+            "spanText": "condemnation",
+            "entityId": "term-condemnation"
           }
         ]
       },
@@ -196,12 +250,12 @@ export const JUDE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-jud-1",
         "linkedEntities": [
           {
-            "spanText": "Balaam",
-            "entityId": "char-balaam"
-          },
-          {
             "spanText": "Cain",
             "entityId": "char-cain"
+          },
+          {
+            "spanText": "Balaam",
+            "entityId": "char-balaam"
           },
           {
             "spanText": "Korah",
@@ -218,7 +272,12 @@ export const JUDE_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are hidden rocky reefs in your love feasts when they feast with you, shepherds who without fear feed themselves; clouds without water, carried along by winds; autumn trees without fruit, twice dead, plucked up by the roots;",
         "translation": "WEB",
         "illustrationId": "ill-jud-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "shepherds",
+            "entityId": "term-good-shepherd"
+          }
+        ]
       },
       {
         "id": "JUD-1:13",
@@ -248,6 +307,10 @@ export const JUDE_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Adam",
             "entityId": "char-adam"
+          },
+          {
+            "spanText": "prophesied",
+            "entityId": "term-prophecy-nt"
           }
         ]
       },
@@ -283,6 +346,10 @@ export const JUDE_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-jud-1",
         "linkedEntities": [
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          },
           {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
@@ -347,16 +414,20 @@ export const JUDE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-jud-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "love",
             "entityId": "term-agape-love"
           },
           {
             "spanText": "mercy",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
+          },
+          {
+            "spanText": "eternal life",
+            "entityId": "term-eternal-life"
           }
         ]
       },
@@ -393,6 +464,10 @@ export const JUDE_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-jud-1",
         "linkedEntities": [
           {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
             "spanText": "joy",
             "entityId": "term-joy-chara"
           }
@@ -407,7 +482,16 @@ export const JUDE_CHAPTERS: Record<string, ChapterData> = {
         "text": "to God our Savior, who alone is wise, be glory and majesty, dominion and power, both now and forever. Amen.",
         "translation": "WEB",
         "illustrationId": "ill-jud-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
+          }
+        ]
       }
     ]
   }

@@ -23,24 +23,36 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2co-1",
         "linkedEntities": [
           {
-            "spanText": "Timothy",
-            "entityId": "char-timothy"
-          },
-          {
             "spanText": "Paul",
             "entityId": "char-paul"
+          },
+          {
+            "spanText": "apostle",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           },
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           },
           {
-            "spanText": "Corinth",
-            "entityId": "place-corinth"
+            "spanText": "Timothy",
+            "entityId": "char-timothy"
           },
           {
             "spanText": "assembly",
             "entityId": "term-church-ekklesia"
+          },
+          {
+            "spanText": "Corinth",
+            "entityId": "place-corinth"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
           }
         ]
       },
@@ -55,16 +67,16 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2co-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Grace",
             "entityId": "term-grace"
           },
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -104,7 +116,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For as the sufferings of Christ abound to us, even so our comfort also abounds through Christ.",
         "translation": "WEB",
         "illustrationId": "ill-2co-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "2CO-1:6",
@@ -115,7 +132,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if we are afflicted, it is for your comfort and salvation. If we are comforted, it is for your comfort, which produces in you the patient enduring of the same sufferings which we also suffer.",
         "translation": "WEB",
         "illustrationId": "ill-2co-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          }
+        ]
       },
       {
         "id": "2CO-1:7",
@@ -193,12 +215,28 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2co-1",
         "linkedEntities": [
           {
-            "spanText": "grace",
-            "entityId": "term-grace"
+            "spanText": "boasting",
+            "entityId": "term-boasting-kauchēma"
+          },
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
+          },
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
+          },
+          {
+            "spanText": "holiness",
+            "entityId": "term-sanctification"
           },
           {
             "spanText": "wisdom",
             "entityId": "term-wisdom"
+          },
+          {
+            "spanText": "grace",
+            "entityId": "term-grace"
           }
         ]
       },
@@ -229,6 +267,10 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2co-1",
         "linkedEntities": [
           {
+            "spanText": "boasting",
+            "entityId": "term-boasting-kauchēma"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           }
@@ -254,7 +296,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and by you to pass into Macedonia, and again from Macedonia to come to you, and to be sent forward by you on my journey to Judea.",
         "translation": "WEB",
         "illustrationId": "ill-2co-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judea",
+            "entityId": "place-judea"
+          }
+        ]
       },
       {
         "id": "2CO-1:17",
@@ -265,7 +312,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When I therefore was thus determined, did I show fickleness? Or the things that I purpose, do I purpose according to the flesh, that with me there should be the “Yes, yes” and the “No, no?”",
         "translation": "WEB",
         "illustrationId": "ill-2co-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "2CO-1:18",
@@ -276,7 +328,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But as God is faithful, our word toward you was not “Yes and no.”",
         "translation": "WEB",
         "illustrationId": "ill-2co-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
+          }
+        ]
       },
       {
         "id": "2CO-1:19",
@@ -291,6 +348,10 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "preached",
+            "entityId": "term-preach-proclaim"
           },
           {
             "spanText": "Silvanus",
@@ -311,7 +372,16 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For however many are the promises of God, in him is the “Yes.” Therefore also through him is the “Amen”, to the glory of God through us.",
         "translation": "WEB",
         "illustrationId": "ill-2co-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "2CO-1:21",
@@ -351,6 +421,10 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2co-1",
         "linkedEntities": [
           {
+            "spanText": "witness",
+            "entityId": "term-witness-martyr"
+          },
+          {
             "spanText": "Corinth",
             "entityId": "place-corinth"
           }
@@ -369,6 +443,10 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "joy",
+            "entityId": "term-joy-chara"
           }
         ]
       }
@@ -416,7 +494,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "And I wrote this very thing to you, so that, when I came, I wouldn’t have sorrow from them of whom I ought to rejoice; having confidence in you all, that my joy would be shared by all of you.",
         "translation": "WEB",
         "illustrationId": "ill-2co-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "joy",
+            "entityId": "term-joy-chara"
+          }
+        ]
       },
       {
         "id": "2CO-2:4",
@@ -465,7 +548,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "so that on the contrary you should rather forgive him and comfort him, lest by any means such a one should be swallowed up with his excessive sorrow.",
         "translation": "WEB",
         "illustrationId": "ill-2co-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "forgive",
+            "entityId": "term-forgiveness"
+          }
+        ]
       },
       {
         "id": "2CO-2:8",
@@ -503,7 +591,16 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now I also forgive whomever you forgive anything. For if indeed I have forgiven anything, I have forgiven that one for your sakes in the presence of Christ,",
         "translation": "WEB",
         "illustrationId": "ill-2co-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "forgive",
+            "entityId": "term-forgiveness"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "2CO-2:11",
@@ -514,7 +611,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "that no advantage may be gained over us by Satan, for we are not ignorant of his schemes.",
         "translation": "WEB",
         "illustrationId": "ill-2co-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Satan",
+            "entityId": "term-satan-adversary"
+          }
+        ]
       },
       {
         "id": "2CO-2:12",
@@ -529,6 +631,10 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -568,7 +674,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For we are a sweet aroma of Christ to God, in those who are saved and in those who perish:",
         "translation": "WEB",
         "illustrationId": "ill-2co-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
+          }
+        ]
       },
       {
         "id": "2CO-2:16",
@@ -638,8 +749,16 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2co-3",
         "linkedEntities": [
           {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
           }
         ]
       },
@@ -652,7 +771,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Such confidence we have through Christ toward God,",
         "translation": "WEB",
         "illustrationId": "ill-2co-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "2CO-3:5",
@@ -682,6 +806,10 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-holy-spirit-nt"
           }
         ]
       },
@@ -696,12 +824,16 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2co-3",
         "linkedEntities": [
           {
-            "spanText": "Moses",
-            "entityId": "char-moses"
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
           },
           {
             "spanText": "Israel",
             "entityId": "term-israel"
+          },
+          {
+            "spanText": "Moses",
+            "entityId": "char-moses"
           }
         ]
       },
@@ -718,6 +850,10 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
           }
         ]
       },
@@ -731,6 +867,10 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-2co-3",
         "linkedEntities": [
+          {
+            "spanText": "condemnation",
+            "entityId": "term-condemnation"
+          },
           {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
@@ -851,6 +991,10 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-holy-spirit-nt"
           }
         ]
       },
@@ -908,7 +1052,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But we have renounced the hidden things of shame, not walking in craftiness, nor handling the word of God deceitfully, but by the manifestation of the truth commending ourselves to every man’s conscience in the sight of God.",
         "translation": "WEB",
         "illustrationId": "ill-2co-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
+          }
+        ]
       },
       {
         "id": "2CO-4:3",
@@ -939,6 +1088,14 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -952,6 +1109,14 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-2co-4",
         "linkedEntities": [
+          {
+            "spanText": "preach",
+            "entityId": "term-preach-proclaim"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
@@ -968,6 +1133,10 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-2co-4",
         "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
           {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
@@ -1036,6 +1205,10 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
           }
         ]
       },
@@ -1262,7 +1435,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For we must all be revealed before the judgment seat of Christ that each one may receive the things in the body according to what he has done, whether good or bad.",
         "translation": "WEB",
         "illustrationId": "ill-2co-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "2CO-5:11",
@@ -1277,6 +1455,10 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "hope",
             "entityId": "term-hope"
+          },
+          {
+            "spanText": "consciences",
+            "entityId": "term-conscience"
           }
         ]
       },
@@ -1289,7 +1471,16 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For we are not commending ourselves to you again, but speak as giving you occasion of boasting on our behalf, that you may have something to answer those who boast in appearance, and not in heart.",
         "translation": "WEB",
         "illustrationId": "ill-2co-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boasting",
+            "entityId": "term-boasting-kauchēma"
+          },
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "2CO-5:13",
@@ -1315,6 +1506,10 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -1338,7 +1533,16 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore we know no one after the flesh from now on. Even though we have known Christ after the flesh, yet now we know him so no more.",
         "translation": "WEB",
         "illustrationId": "ill-2co-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "2CO-5:17",
@@ -1367,15 +1571,15 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2co-5",
         "linkedEntities": [
           {
+            "spanText": "reconciled",
+            "entityId": "term-reconciliation"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           },
           {
             "spanText": "reconciliation",
-            "entityId": "term-reconciliation"
-          },
-          {
-            "spanText": "reconciled",
             "entityId": "term-reconciliation"
           }
         ]
@@ -1466,7 +1670,16 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "for he says, “At an acceptable time I listened to you. In a day of salvation I helped you.” Behold, now is the acceptable time. Behold, now is the day of salvation.",
         "translation": "WEB",
         "illustrationId": "ill-2co-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          },
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          }
+        ]
       },
       {
         "id": "2CO-6:3",
@@ -1512,12 +1725,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2co-6",
         "linkedEntities": [
           {
-            "spanText": "love",
-            "entityId": "term-agape-love"
-          },
-          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "love",
+            "entityId": "term-agape-love"
           }
         ]
       },
@@ -1546,7 +1759,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "by glory and dishonor, by evil report and good report; as deceivers, and yet true;",
         "translation": "WEB",
         "illustrationId": "ill-2co-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "2CO-6:9",
@@ -1614,6 +1832,14 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2co-6",
         "linkedEntities": [
           {
+            "spanText": "fellowship",
+            "entityId": "term-fellowship-koinonia"
+          },
+          {
+            "spanText": "fellowship",
+            "entityId": "term-fellowship-koinonia"
+          },
+          {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
           }
@@ -1628,7 +1854,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "What agreement does Christ have with Belial? Or what portion does a believer have with an unbeliever?",
         "translation": "WEB",
         "illustrationId": "ill-2co-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "2CO-6:16",
@@ -1643,6 +1874,14 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "idols",
+            "entityId": "term-idolatry"
           }
         ]
       },
@@ -1690,7 +1929,16 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Having therefore these promises, beloved, let’s cleanse ourselves from all defilement of flesh and spirit, perfecting holiness in the fear of God.",
         "translation": "WEB",
         "illustrationId": "ill-2co-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
+            "spanText": "holiness",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "2CO-7:2",
@@ -1723,7 +1971,16 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Great is my boldness of speech toward you. Great is my boasting on your behalf. I am filled with comfort. I overflow with joy in all our affliction.",
         "translation": "WEB",
         "illustrationId": "ill-2co-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boasting",
+            "entityId": "term-boasting-kauchēma"
+          },
+          {
+            "spanText": "joy",
+            "entityId": "term-joy-chara"
+          }
+        ]
       },
       {
         "id": "2CO-7:5",
@@ -1734,7 +1991,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For even when we had come into Macedonia, our flesh had no relief, but we were afflicted on every side. Fightings were outside. Fear was inside.",
         "translation": "WEB",
         "illustrationId": "ill-2co-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "2CO-7:6",
@@ -1783,7 +2045,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I now rejoice, not that you were grieved, but that you were grieved to repentance. For you were grieved in a godly way, that you might suffer loss by us in nothing.",
         "translation": "WEB",
         "illustrationId": "ill-2co-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "repentance",
+            "entityId": "term-repentance"
+          }
+        ]
       },
       {
         "id": "2CO-7:10",
@@ -1794,7 +2061,16 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For godly sorrow produces repentance to salvation, which brings no regret. But the sorrow of the world produces death.",
         "translation": "WEB",
         "illustrationId": "ill-2co-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "repentance",
+            "entityId": "term-repentance"
+          },
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          }
+        ]
       },
       {
         "id": "2CO-7:11",
@@ -1829,6 +2105,10 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2co-7",
         "linkedEntities": [
           {
+            "spanText": "joy",
+            "entityId": "term-joy-chara"
+          },
+          {
             "spanText": "Titus",
             "entityId": "char-titus"
           }
@@ -1844,6 +2124,10 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-2co-7",
         "linkedEntities": [
+          {
+            "spanText": "boasted",
+            "entityId": "term-boasting-kauchēma"
+          },
           {
             "spanText": "Titus",
             "entityId": "char-titus"
@@ -1910,7 +2194,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "how in much proof of affliction, the abundance of their joy and their deep poverty abounded to the riches of their generosity.",
         "translation": "WEB",
         "illustrationId": "ill-2co-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "joy",
+            "entityId": "term-joy-chara"
+          }
+        ]
       },
       {
         "id": "2CO-8:3",
@@ -1936,6 +2225,14 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "fellowship",
+            "entityId": "term-fellowship-koinonia"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
           }
         ]
       },
@@ -1981,16 +2278,16 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2co-8",
         "linkedEntities": [
           {
-            "spanText": "grace",
-            "entityId": "term-grace"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
           },
           {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "grace",
+            "entityId": "term-grace"
           }
         ]
       },
@@ -2004,6 +2301,10 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-2co-8",
         "linkedEntities": [
+          {
+            "spanText": "commandment",
+            "entityId": "term-commandments"
+          },
           {
             "spanText": "love",
             "entityId": "term-agape-love"
@@ -2021,12 +2322,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2co-8",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -2152,6 +2453,10 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
           }
         ]
       },
@@ -2201,6 +2506,18 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Titus",
             "entityId": "char-titus"
+          },
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -2217,6 +2534,10 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "boasting",
+            "entityId": "term-boasting-kauchēma"
           }
         ]
       }
@@ -2242,7 +2563,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "It is indeed unnecessary for me to write to you concerning the service to the saints,",
         "translation": "WEB",
         "illustrationId": "ill-2co-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "2CO-9:2",
@@ -2253,7 +2579,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "for I know your readiness, of which I boast on your behalf to those of Macedonia, that Achaia has been prepared for the past year. Your zeal has stirred up very many of them.",
         "translation": "WEB",
         "illustrationId": "ill-2co-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "2CO-9:3",
@@ -2264,7 +2595,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But I have sent the brothers that our boasting on your behalf may not be in vain in this respect, that, just as I said, you may be prepared,",
         "translation": "WEB",
         "illustrationId": "ill-2co-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boasting",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "2CO-9:4",
@@ -2275,7 +2611,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "lest by any means, if anyone from Macedonia comes there with me and finds you unprepared, we (to say nothing of you) would be disappointed in this confident boasting.",
         "translation": "WEB",
         "illustrationId": "ill-2co-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boasting",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "2CO-9:5",
@@ -2378,7 +2719,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For this service of giving that you perform not only makes up for lack among the saints, but abounds also through much giving of thanks to God,",
         "translation": "WEB",
         "illustrationId": "ill-2co-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "2CO-9:13",
@@ -2391,8 +2737,20 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2co-9",
         "linkedEntities": [
           {
+            "spanText": "glorify",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "confession",
+            "entityId": "term-confession"
+          },
+          {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -2449,6 +2807,14 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Paul",
             "entityId": "char-paul"
+          },
+          {
+            "spanText": "humility",
+            "entityId": "term-humble-meekness"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -2461,7 +2827,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yes, I beg you that I may not, when present, show courage with the confidence with which I intend to be bold against some, who consider us to be walking according to the flesh.",
         "translation": "WEB",
         "illustrationId": "ill-2co-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "2CO-10:3",
@@ -2472,7 +2843,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For though we walk in the flesh, we don’t wage war according to the flesh;",
         "translation": "WEB",
         "illustrationId": "ill-2co-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "2CO-10:4",
@@ -2494,7 +2870,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "throwing down imaginations and every high thing that is exalted against the knowledge of God and bringing every thought into captivity to the obedience of Christ,",
         "translation": "WEB",
         "illustrationId": "ill-2co-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "2CO-10:6",
@@ -2527,7 +2908,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For even if I boast somewhat abundantly concerning our authority, which the Lord gave for building you up, and not for casting you down, I will not be ashamed,",
         "translation": "WEB",
         "illustrationId": "ill-2co-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "2CO-10:9",
@@ -2582,7 +2968,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But we will not boast beyond proper limits, but within the boundaries with which God appointed to us, which reach even to you.",
         "translation": "WEB",
         "illustrationId": "ill-2co-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "2CO-10:14",
@@ -2611,12 +3002,16 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2co-10",
         "linkedEntities": [
           {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
+            "spanText": "boasting",
+            "entityId": "term-boasting-kauchēma"
           },
           {
             "spanText": "hope",
             "entityId": "term-hope"
+          },
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -2630,6 +3025,10 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-2co-10",
         "linkedEntities": [
+          {
+            "spanText": "preach",
+            "entityId": "term-preach-proclaim"
+          },
           {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
@@ -2691,7 +3090,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For I am jealous over you with a godly jealousy. For I married you to one husband, that I might present you as a pure virgin to Christ.",
         "translation": "WEB",
         "illustrationId": "ill-2co-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "2CO-11:3",
@@ -2706,6 +3110,10 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Eve",
             "entityId": "char-eve"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -2720,12 +3128,16 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2co-11",
         "linkedEntities": [
           {
-            "spanText": "good news",
-            "entityId": "term-gospel-euangelion"
+            "spanText": "preaches",
+            "entityId": "term-preach-proclaim"
           },
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "good news",
+            "entityId": "term-gospel-euangelion"
           }
         ]
       },
@@ -2738,7 +3150,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For I reckon that I am not at all behind the very best apostles.",
         "translation": "WEB",
         "illustrationId": "ill-2co-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          }
+        ]
       },
       {
         "id": "2CO-11:6",
@@ -2761,6 +3178,10 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-2co-11",
         "linkedEntities": [
+          {
+            "spanText": "preached",
+            "entityId": "term-preach-proclaim"
+          },
           {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
@@ -2798,7 +3219,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "As the truth of Christ is in me, no one will stop me from this boasting in the regions of Achaia.",
         "translation": "WEB",
         "illustrationId": "ill-2co-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boasting",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "2CO-11:11",
@@ -2825,7 +3251,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But what I do, that I will do, that I may cut off occasion from those who desire an occasion, that in which they boast, they may be found even as we.",
         "translation": "WEB",
         "illustrationId": "ill-2co-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "2CO-11:13",
@@ -2836,7 +3267,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For such men are false apostles, deceitful workers, masquerading as Christ’s apostles.",
         "translation": "WEB",
         "illustrationId": "ill-2co-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          }
+        ]
       },
       {
         "id": "2CO-11:14",
@@ -2847,7 +3283,16 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "And no wonder, for even Satan masquerades as an angel of light.",
         "translation": "WEB",
         "illustrationId": "ill-2co-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Satan",
+            "entityId": "term-satan-adversary"
+          },
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "2CO-11:15",
@@ -2874,7 +3319,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I say again, let no one think me foolish. But if so, yet receive me as foolish, that I also may boast a little.",
         "translation": "WEB",
         "illustrationId": "ill-2co-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "2CO-11:17",
@@ -2896,7 +3346,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Seeing that many boast after the flesh, I will also boast.",
         "translation": "WEB",
         "illustrationId": "ill-2co-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "2CO-11:19",
@@ -3105,7 +3560,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "It is doubtless not profitable for me to boast. For I will come to visions and revelations of the Lord.",
         "translation": "WEB",
         "illustrationId": "ill-2co-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "2CO-12:2",
@@ -3116,7 +3576,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I know a man in Christ, fourteen years ago (whether in the body, I don’t know, or whether out of the body, I don’t know; God knows), such a one caught up into the third heaven.",
         "translation": "WEB",
         "illustrationId": "ill-2co-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "2CO-12:3",
@@ -3149,7 +3614,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "On behalf of such a one I will boast, but on my own behalf I will not boast, except in my weaknesses.",
         "translation": "WEB",
         "illustrationId": "ill-2co-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "2CO-12:6",
@@ -3160,7 +3630,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For if I would desire to boast, I will not be foolish; for I will speak the truth. But I refrain, so that no man may think more of me than that which he sees in me or hears from me.",
         "translation": "WEB",
         "illustrationId": "ill-2co-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "2CO-12:7",
@@ -3171,7 +3646,16 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "By reason of the exceeding greatness of the revelations, that I should not be exalted excessively, a thorn in the flesh was given to me: a messenger of Satan to torment me, that I should not be exalted excessively.",
         "translation": "WEB",
         "illustrationId": "ill-2co-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
+            "spanText": "Satan",
+            "entityId": "term-satan-adversary"
+          }
+        ]
       },
       {
         "id": "2CO-12:8",
@@ -3197,6 +3681,14 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -3209,7 +3701,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore I take pleasure in weaknesses, in injuries, in necessities, in persecutions, and in distresses, for Christ’s sake. For when I am weak, then am I strong.",
         "translation": "WEB",
         "illustrationId": "ill-2co-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "persecutions",
+            "entityId": "term-tribulation"
+          }
+        ]
       },
       {
         "id": "2CO-12:11",
@@ -3220,7 +3717,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I have become foolish in boasting. You compelled me, for I ought to have been commended by you, for I am in no way inferior to the very best apostles, though I am nothing.",
         "translation": "WEB",
         "illustrationId": "ill-2co-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          }
+        ]
       },
       {
         "id": "2CO-12:12",
@@ -3231,7 +3733,16 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Truly the signs of an apostle were worked among you in all perseverance, in signs and wonders and mighty works.",
         "translation": "WEB",
         "illustrationId": "ill-2co-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "apostle",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "wonders",
+            "entityId": "term-gospel-euangelion"
+          }
+        ]
       },
       {
         "id": "2CO-12:13",
@@ -3242,7 +3753,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For what is there in which you were made inferior to the rest of the assemblies, unless it is that I myself was not a burden to you? Forgive me this wrong.",
         "translation": "WEB",
         "illustrationId": "ill-2co-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Forgive",
+            "entityId": "term-forgiveness"
+          }
+        ]
       },
       {
         "id": "2CO-12:14",
@@ -3306,6 +3822,14 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Titus",
             "entityId": "char-titus"
+          },
+          {
+            "spanText": "Titus",
+            "entityId": "char-titus"
+          },
+          {
+            "spanText": "Titus",
+            "entityId": "char-titus"
           }
         ]
       },
@@ -3340,7 +3864,20 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "that again when I come my God would humble me before you, and I would mourn for many of those who have sinned before now, and not repented of the uncleanness, sexual immorality, and lustfulness which they committed.",
         "translation": "WEB",
         "illustrationId": "ill-2co-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "humble",
+            "entityId": "term-humble-meekness"
+          },
+          {
+            "spanText": "repented",
+            "entityId": "term-repentance"
+          },
+          {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
+          }
+        ]
       }
     ]
   },
@@ -3364,7 +3901,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "This is the third time I am coming to you. “At the mouth of two or three witnesses shall every word be established.”",
         "translation": "WEB",
         "illustrationId": "ill-2co-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "witnesses",
+            "entityId": "term-witness-martyr"
+          }
+        ]
       },
       {
         "id": "2CO-13:2",
@@ -3386,7 +3928,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "seeing that you seek a proof of Christ who speaks in me; who toward you is not weak, but is powerful in you.",
         "translation": "WEB",
         "illustrationId": "ill-2co-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "2CO-13:4",
@@ -3415,12 +3962,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2co-13",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -3495,12 +4042,16 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2co-13",
         "linkedEntities": [
           {
-            "spanText": "love",
-            "entityId": "term-agape-love"
+            "spanText": "peace",
+            "entityId": "term-peace-eirene"
           },
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "love",
+            "entityId": "term-agape-love"
           }
         ]
       },
@@ -3524,7 +4075,12 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the saints greet you.",
         "translation": "WEB",
         "illustrationId": "ill-2co-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "2CO-13:14",
@@ -3537,20 +4093,28 @@ export const SECOND_CORINTHIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2co-13",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           },
           {
             "spanText": "love",
             "entityId": "term-agape-love"
           },
           {
+            "spanText": "fellowship",
+            "entityId": "term-fellowship-koinonia"
+          },
+          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       }

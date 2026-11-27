@@ -27,12 +27,28 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-paul"
           },
           {
+            "spanText": "apostle",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           },
           {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          },
+          {
             "spanText": "Ephesus",
             "entityId": "place-ephesus"
+          },
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -47,16 +63,16 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Grace",
             "entityId": "term-grace"
           },
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -73,6 +89,10 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -103,12 +123,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "adoption",
             "entityId": "term-adoption"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -122,6 +142,10 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-eph-1",
         "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
           {
             "spanText": "grace",
             "entityId": "term-grace"
@@ -141,6 +165,10 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "redemption",
             "entityId": "term-redemption"
+          },
+          {
+            "spanText": "forgiveness",
+            "entityId": "term-forgiveness"
           },
           {
             "spanText": "grace",
@@ -200,7 +228,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "We were also assigned an inheritance in him, having been foreordained according to the purpose of him who does all things after the counsel of his will,",
         "translation": "WEB",
         "illustrationId": "ill-eph-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "inheritance",
+            "entityId": "term-inheritance"
+          }
+        ]
       },
       {
         "id": "EPH-1:12",
@@ -211,7 +244,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "to the end that we should be to the praise of his glory, we who had before hoped in Christ.",
         "translation": "WEB",
         "illustrationId": "ill-eph-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "EPH-1:13",
@@ -226,6 +264,10 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
           },
           {
             "spanText": "Spirit",
@@ -244,6 +286,10 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-1",
         "linkedEntities": [
           {
+            "spanText": "inheritance",
+            "entityId": "term-inheritance"
+          },
+          {
             "spanText": "redemption",
             "entityId": "term-redemption"
           }
@@ -260,16 +306,20 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
           },
           {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
+          },
+          {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
           }
         ]
       },
@@ -317,6 +367,10 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "hope",
             "entityId": "term-hope"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
           }
         ]
       },
@@ -402,7 +456,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You were made alive when you were dead in transgressions and sins,",
         "translation": "WEB",
         "illustrationId": "ill-eph-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "transgressions",
+            "entityId": "term-condemnation"
+          }
+        ]
       },
       {
         "id": "EPH-2:2",
@@ -424,7 +483,16 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "We also all once lived among them in the lusts of our flesh, doing the desires of the flesh and of the mind, and were by nature children of wrath, even as the rest.",
         "translation": "WEB",
         "illustrationId": "ill-eph-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          }
+        ]
       },
       {
         "id": "EPH-2:4",
@@ -437,12 +505,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-2",
         "linkedEntities": [
           {
-            "spanText": "love",
-            "entityId": "term-agape-love"
-          },
-          {
             "spanText": "mercy",
             "entityId": "term-loyal-love"
+          },
+          {
+            "spanText": "love",
+            "entityId": "term-agape-love"
           }
         ]
       },
@@ -457,8 +525,16 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-2",
         "linkedEntities": [
           {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
           }
         ]
       },
@@ -472,6 +548,10 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-eph-2",
         "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
@@ -489,12 +569,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-2",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -513,6 +593,10 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "term-grace"
           },
           {
+            "spanText": "saved",
+            "entityId": "term-salvation"
+          },
+          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
           }
@@ -527,7 +611,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "not of works, that no one would boast.",
         "translation": "WEB",
         "illustrationId": "ill-eph-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "EPH-2:10",
@@ -558,6 +647,18 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gentiles",
             "entityId": "term-gentiles"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
+            "spanText": "uncircumcision",
+            "entityId": "term-circumcision"
+          },
+          {
+            "spanText": "circumcision",
+            "entityId": "term-circumcision"
           }
         ]
       },
@@ -572,16 +673,16 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-2",
         "linkedEntities": [
           {
-            "spanText": "hope",
-            "entityId": "term-hope"
+            "spanText": "Israel",
+            "entityId": "term-israel"
           },
           {
             "spanText": "covenants",
             "entityId": "term-covenant"
           },
           {
-            "spanText": "Israel",
-            "entityId": "term-israel"
+            "spanText": "hope",
+            "entityId": "term-hope"
           }
         ]
       },
@@ -628,6 +729,10 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-2",
         "linkedEntities": [
           {
+            "spanText": "commandments",
+            "entityId": "term-commandments"
+          },
+          {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
           }
@@ -646,6 +751,10 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "reconcile",
             "entityId": "term-reconciliation"
+          },
+          {
+            "spanText": "cross",
+            "entityId": "term-crucifixion"
           }
         ]
       },
@@ -659,6 +768,10 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-eph-2",
         "linkedEntities": [
+          {
+            "spanText": "preached",
+            "entityId": "term-preach-proclaim"
+          },
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
@@ -690,7 +803,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So then you are no longer strangers and foreigners, but you are fellow citizens with the saints and of the household of God,",
         "translation": "WEB",
         "illustrationId": "ill-eph-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "EPH-2:20",
@@ -703,8 +821,20 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-2",
         "linkedEntities": [
           {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "chief cornerstone",
+            "entityId": "term-cornerstone"
           }
         ]
       },
@@ -768,6 +898,10 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-paul"
           },
           {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           },
@@ -822,6 +956,10 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mystery",
             "entityId": "term-mystery-mysterion"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -835,6 +973,14 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-eph-3",
         "linkedEntities": [
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          },
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
@@ -852,16 +998,20 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-3",
         "linkedEntities": [
           {
-            "spanText": "Good News",
-            "entityId": "term-gospel-euangelion"
+            "spanText": "Gentiles",
+            "entityId": "term-gentiles"
+          },
+          {
+            "spanText": "heirs",
+            "entityId": "term-inheritance"
           },
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           },
           {
-            "spanText": "Gentiles",
-            "entityId": "term-gentiles"
+            "spanText": "Good News",
+            "entityId": "term-gospel-euangelion"
           }
         ]
       },
@@ -892,8 +1042,16 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-3",
         "linkedEntities": [
           {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          },
+          {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "preach",
+            "entityId": "term-preach-proclaim"
           },
           {
             "spanText": "Gentiles",
@@ -912,12 +1070,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-3",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "mystery",
             "entityId": "term-mystery-mysterion"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -932,12 +1090,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-3",
         "linkedEntities": [
           {
-            "spanText": "wisdom",
-            "entityId": "term-wisdom"
-          },
-          {
             "spanText": "assembly",
             "entityId": "term-church-ekklesia"
+          },
+          {
+            "spanText": "wisdom",
+            "entityId": "term-wisdom"
           }
         ]
       },
@@ -982,7 +1140,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore I ask that you may not lose heart at my troubles for you, which are your glory.",
         "translation": "WEB",
         "illustrationId": "ill-eph-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "EPH-3:14",
@@ -1022,6 +1185,10 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-3",
         "linkedEntities": [
           {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
           }
@@ -1056,7 +1223,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "may be strengthened to comprehend with all the saints what is the width and length and height and depth,",
         "translation": "WEB",
         "illustrationId": "ill-eph-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "EPH-3:19",
@@ -1096,12 +1268,16 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-3",
         "linkedEntities": [
           {
+            "spanText": "assembly",
+            "entityId": "term-church-ekklesia"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           },
           {
-            "spanText": "assembly",
-            "entityId": "term-church-ekklesia"
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       }
@@ -1160,12 +1336,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-4",
         "linkedEntities": [
           {
-            "spanText": "peace",
-            "entityId": "term-peace-eirene"
-          },
-          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "peace",
+            "entityId": "term-peace-eirene"
           }
         ]
       },
@@ -1180,12 +1356,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-4",
         "linkedEntities": [
           {
-            "spanText": "hope",
-            "entityId": "term-hope"
-          },
-          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "hope",
+            "entityId": "term-hope"
           }
         ]
       },
@@ -1233,6 +1409,10 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -1278,7 +1458,20 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He gave some to be apostles; and some, prophets; and some, evangelists; and some, shepherds and teachers;",
         "translation": "WEB",
         "illustrationId": "ill-eph-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          },
+          {
+            "spanText": "shepherds",
+            "entityId": "term-good-shepherd"
+          }
+        ]
       },
       {
         "id": "EPH-4:12",
@@ -1289,7 +1482,16 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "for the perfecting of the saints, to the work of serving, to the building up of the body of Christ,",
         "translation": "WEB",
         "illustrationId": "ill-eph-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "EPH-4:13",
@@ -1450,6 +1652,10 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "holiness",
+            "entityId": "term-sanctification"
           }
         ]
       },
@@ -1473,7 +1679,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Be angry, and don’t sin.” Don’t let the sun go down on your wrath,",
         "translation": "WEB",
         "illustrationId": "ill-eph-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          }
+        ]
       },
       {
         "id": "EPH-4:27",
@@ -1484,7 +1695,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and don’t give place to the devil.",
         "translation": "WEB",
         "illustrationId": "ill-eph-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "devil",
+            "entityId": "term-satan-adversary"
+          }
+        ]
       },
       {
         "id": "EPH-4:28",
@@ -1524,12 +1740,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-4",
         "linkedEntities": [
           {
-            "spanText": "redemption",
-            "entityId": "term-redemption"
-          },
-          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "redemption",
+            "entityId": "term-redemption"
           }
         ]
       },
@@ -1542,7 +1758,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let all bitterness, wrath, anger, outcry, and slander be put away from you, with all malice.",
         "translation": "WEB",
         "illustrationId": "ill-eph-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          }
+        ]
       },
       {
         "id": "EPH-4:32",
@@ -1553,7 +1774,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "And be kind to one another, tender hearted, forgiving each other, just as God also in Christ forgave you.",
         "translation": "WEB",
         "illustrationId": "ill-eph-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "forgiving",
+            "entityId": "term-forgiveness"
+          }
+        ]
       }
     ]
   },
@@ -1592,6 +1818,14 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
           }
         ]
       },
@@ -1604,7 +1838,20 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But sexual immorality, and all uncleanness or covetousness, let it not even be mentioned among you, as becomes saints;",
         "translation": "WEB",
         "illustrationId": "ill-eph-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
+          },
+          {
+            "spanText": "covetousness",
+            "entityId": "term-covetousness"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "EPH-5:4",
@@ -1626,7 +1873,24 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Know this for sure, that no sexually immoral person, nor unclean person, nor covetous man, who is an idolater, has any inheritance in the Kingdom of Christ and God.",
         "translation": "WEB",
         "illustrationId": "ill-eph-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covetous",
+            "entityId": "term-covetousness"
+          },
+          {
+            "spanText": "idolater",
+            "entityId": "term-idolatry"
+          },
+          {
+            "spanText": "inheritance",
+            "entityId": "term-inheritance"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "EPH-5:6",
@@ -1637,7 +1901,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let no one deceive you with empty words. For because of these things, the wrath of God comes on the children of disobedience.",
         "translation": "WEB",
         "illustrationId": "ill-eph-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          }
+        ]
       },
       {
         "id": "EPH-5:7",
@@ -1701,7 +1970,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Have no fellowship with the unfruitful deeds of darkness, but rather even reprove them.",
         "translation": "WEB",
         "illustrationId": "ill-eph-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fellowship",
+            "entityId": "term-fellowship-koinonia"
+          }
+        ]
       },
       {
         "id": "EPH-5:12",
@@ -1756,7 +2030,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "redeeming the time, because the days are evil.",
         "translation": "WEB",
         "illustrationId": "ill-eph-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "redeeming",
+            "entityId": "term-redemption"
+          }
+        ]
       },
       {
         "id": "EPH-5:17",
@@ -1895,7 +2174,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "that he might sanctify it, having cleansed it by the washing of water with the word,",
         "translation": "WEB",
         "illustrationId": "ill-eph-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctify",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "EPH-5:27",
@@ -1940,6 +2224,10 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-5",
         "linkedEntities": [
           {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
             "spanText": "assembly",
             "entityId": "term-church-ekklesia"
           }
@@ -1954,7 +2242,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "because we are members of his body, of his flesh and bones.",
         "translation": "WEB",
         "illustrationId": "ill-eph-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "EPH-5:31",
@@ -2036,7 +2329,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Honor your father and mother,” which is the first commandment with a promise:",
         "translation": "WEB",
         "illustrationId": "ill-eph-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "commandment",
+            "entityId": "term-commandments"
+          }
+        ]
       },
       {
         "id": "EPH-6:3",
@@ -2058,7 +2356,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You fathers, don’t provoke your children to wrath, but nurture them in the discipline and instruction of the Lord.",
         "translation": "WEB",
         "illustrationId": "ill-eph-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          }
+        ]
       },
       {
         "id": "EPH-6:5",
@@ -2069,7 +2372,16 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Servants, be obedient to those who according to the flesh are your masters, with fear and trembling, in singleness of your heart, as to Christ,",
         "translation": "WEB",
         "illustrationId": "ill-eph-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "EPH-6:6",
@@ -2080,7 +2392,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "not in the way of service only when eyes are on you, as men pleasers, but as servants of Christ, doing the will of God from the heart,",
         "translation": "WEB",
         "illustrationId": "ill-eph-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "EPH-6:7",
@@ -2139,6 +2456,10 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "armor of God",
             "entityId": "term-armor-of-god"
+          },
+          {
+            "spanText": "devil",
+            "entityId": "term-satan-adversary"
           }
         ]
       },
@@ -2151,7 +2472,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For our wrestling is not against flesh and blood, but against the principalities, against the powers, against the world’s rulers of the darkness of this age, and against the spiritual forces of wickedness in the heavenly places.",
         "translation": "WEB",
         "illustrationId": "ill-eph-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "EPH-6:13",
@@ -2180,12 +2506,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-6",
         "linkedEntities": [
           {
-            "spanText": "righteousness",
-            "entityId": "term-righteousness"
-          },
-          {
             "spanText": "breastplate",
             "entityId": "term-armor-of-god"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -2240,11 +2566,15 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-6",
         "linkedEntities": [
           {
-            "spanText": "sword of the Spirit",
+            "spanText": "helmet",
             "entityId": "term-armor-of-god"
           },
           {
-            "spanText": "helmet",
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          },
+          {
+            "spanText": "sword of the Spirit",
             "entityId": "term-armor-of-god"
           }
         ]
@@ -2266,6 +2596,10 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
           }
         ]
       },
@@ -2280,12 +2614,12 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-6",
         "linkedEntities": [
           {
-            "spanText": "Good News",
-            "entityId": "term-gospel-euangelion"
-          },
-          {
             "spanText": "mystery",
             "entityId": "term-mystery-mysterion"
+          },
+          {
+            "spanText": "Good News",
+            "entityId": "term-gospel-euangelion"
           }
         ]
       },
@@ -2338,20 +2672,20 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-6",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
+            "spanText": "Peace",
+            "entityId": "term-peace-eirene"
           },
           {
             "spanText": "love",
             "entityId": "term-agape-love"
           },
           {
-            "spanText": "Peace",
-            "entityId": "term-peace-eirene"
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -2366,16 +2700,20 @@ export const EPHESIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-eph-6",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Grace",
             "entityId": "term-grace"
           },
           {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       }

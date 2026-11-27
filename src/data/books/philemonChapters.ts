@@ -23,20 +23,24 @@ export const PHILEMON_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-phm-1",
         "linkedEntities": [
           {
-            "spanText": "Philemon",
-            "entityId": "char-philemon"
+            "spanText": "Paul",
+            "entityId": "char-paul"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           },
           {
             "spanText": "Timothy",
             "entityId": "char-timothy"
           },
           {
-            "spanText": "Paul",
-            "entityId": "char-paul"
-          },
-          {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
+            "spanText": "Philemon",
+            "entityId": "char-philemon"
           }
         ]
       },
@@ -62,16 +66,16 @@ export const PHILEMON_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-phm-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Grace",
             "entityId": "term-grace"
           },
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -102,16 +106,20 @@ export const PHILEMON_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-phm-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
+            "spanText": "love",
+            "entityId": "term-agape-love"
           },
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
           },
           {
-            "spanText": "love",
-            "entityId": "term-agape-love"
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
           }
         ]
       },
@@ -126,12 +134,20 @@ export const PHILEMON_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-phm-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
+            "spanText": "fellowship",
+            "entityId": "term-fellowship-koinonia"
           },
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -152,6 +168,10 @@ export const PHILEMON_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
           }
         ]
       },
@@ -177,16 +197,16 @@ export const PHILEMON_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-phm-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
+            "spanText": "love",
+            "entityId": "term-agape-love"
           },
           {
             "spanText": "Paul",
             "entityId": "char-paul"
           },
           {
-            "spanText": "love",
-            "entityId": "term-agape-love"
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -275,7 +295,12 @@ export const PHILEMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "no longer as a slave, but more than a slave, a beloved brother, especially to me, but how much rather to you, both in the flesh and in the Lord.",
         "translation": "WEB",
         "illustrationId": "ill-phm-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "PHM-1:17",
@@ -393,12 +418,12 @@ export const PHILEMON_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-phm-1",
         "linkedEntities": [
           {
-            "spanText": "Luke",
-            "entityId": "char-luke"
-          },
-          {
             "spanText": "Mark",
             "entityId": "char-mark"
+          },
+          {
+            "spanText": "Luke",
+            "entityId": "char-luke"
           }
         ]
       },
@@ -413,12 +438,16 @@ export const PHILEMON_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-phm-1",
         "linkedEntities": [
           {
+            "spanText": "grace",
+            "entityId": "term-grace"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           },
           {
-            "spanText": "grace",
-            "entityId": "term-grace"
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       }

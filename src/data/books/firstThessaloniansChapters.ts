@@ -23,8 +23,8 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1th-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
+            "spanText": "Paul",
+            "entityId": "char-paul"
           },
           {
             "spanText": "Silvanus",
@@ -35,8 +35,20 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-timothy"
           },
           {
-            "spanText": "Paul",
-            "entityId": "char-paul"
+            "spanText": "assembly",
+            "entityId": "term-church-ekklesia"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           },
           {
             "spanText": "Grace",
@@ -45,10 +57,6 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
-          },
-          {
-            "spanText": "assembly",
-            "entityId": "term-church-ekklesia"
           }
         ]
       },
@@ -74,20 +82,20 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1th-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "love",
+            "entityId": "term-agape-love"
           },
           {
             "spanText": "hope",
             "entityId": "term-hope"
           },
           {
-            "spanText": "love",
-            "entityId": "term-agape-love"
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -178,7 +186,12 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For they themselves report concerning us what kind of a reception we had from you, and how you turned to God from idols, to serve a living and true God,",
         "translation": "WEB",
         "illustrationId": "ill-1th-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "idols",
+            "entityId": "term-idolatry"
+          }
+        ]
       },
       {
         "id": "1TH-1:10",
@@ -193,6 +206,10 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
           }
         ]
       }
@@ -231,12 +248,12 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1th-2",
         "linkedEntities": [
           {
-            "spanText": "Good News",
-            "entityId": "term-gospel-euangelion"
-          },
-          {
             "spanText": "Philippi",
             "entityId": "place-philippi"
+          },
+          {
+            "spanText": "Good News",
+            "entityId": "term-gospel-euangelion"
           }
         ]
       },
@@ -276,7 +293,16 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For neither were we at any time found using words of flattery, as you know, nor a cloak of covetousness (God is witness),",
         "translation": "WEB",
         "illustrationId": "ill-1th-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covetousness",
+            "entityId": "term-covetousness"
+          },
+          {
+            "spanText": "witness",
+            "entityId": "term-witness-martyr"
+          }
+        ]
       },
       {
         "id": "1TH-2:6",
@@ -287,7 +313,20 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "nor seeking glory from men (neither from you nor from others), when we might have claimed authority as apostles of Christ.",
         "translation": "WEB",
         "illustrationId": "ill-1th-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "1TH-2:7",
@@ -327,6 +366,10 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1th-2",
         "linkedEntities": [
           {
+            "spanText": "preached",
+            "entityId": "term-preach-proclaim"
+          },
+          {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
           }
@@ -341,7 +384,12 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You are witnesses with God how holy, righteously, and blamelessly we behaved ourselves toward you who believe.",
         "translation": "WEB",
         "illustrationId": "ill-1th-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "witnesses",
+            "entityId": "term-witness-martyr"
+          }
+        ]
       },
       {
         "id": "1TH-2:11",
@@ -363,7 +411,12 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "to the end that you should walk worthily of God, who calls you into his own Kingdom and glory.",
         "translation": "WEB",
         "illustrationId": "ill-1th-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "1TH-2:13",
@@ -387,12 +440,20 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1th-2",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "assemblies",
             "entityId": "term-church-ekklesia"
+          },
+          {
+            "spanText": "Judea",
+            "entityId": "place-judea"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -409,6 +470,10 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
           }
         ]
       },
@@ -425,6 +490,14 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Gentiles",
             "entityId": "term-gentiles"
+          },
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
+          },
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
           }
         ]
       },
@@ -470,20 +543,20 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1th-2",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
-            "spanText": "coming",
-            "entityId": "term-parousia-coming"
+            "spanText": "hope",
+            "entityId": "term-hope"
           },
           {
             "spanText": "joy",
             "entityId": "term-joy-chara"
           },
           {
-            "spanText": "hope",
-            "entityId": "term-hope"
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
+          },
+          {
+            "spanText": "coming",
+            "entityId": "term-parousia-coming"
           }
         ]
       },
@@ -543,12 +616,16 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1th-3",
         "linkedEntities": [
           {
+            "spanText": "Timothy",
+            "entityId": "char-timothy"
+          },
+          {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
           },
           {
-            "spanText": "Timothy",
-            "entityId": "char-timothy"
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           },
           {
             "spanText": "faith",
@@ -656,11 +733,11 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1th-3",
         "linkedEntities": [
           {
-            "spanText": "rejoice",
+            "spanText": "joy",
             "entityId": "term-joy-chara"
           },
           {
-            "spanText": "joy",
+            "spanText": "rejoice",
             "entityId": "term-joy-chara"
           }
         ]
@@ -724,12 +801,20 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1th-3",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
+            "spanText": "holiness",
+            "entityId": "term-sanctification"
           },
           {
             "spanText": "coming",
             "entityId": "term-parousia-coming"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
           }
         ]
       }
@@ -791,6 +876,10 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "sanctification",
             "entityId": "term-sanctification-hagiasmos"
+          },
+          {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
           }
         ]
       },
@@ -975,7 +1064,16 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the Lord himself will descend from heaven with a shout, with the voice of the archangel and with God’s trumpet. The dead in Christ will rise first,",
         "translation": "WEB",
         "illustrationId": "ill-1th-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "trumpet",
+            "entityId": "term-trumpets"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "1TH-4:17",
@@ -1114,20 +1212,24 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "term-armor-of-god"
           },
           {
-            "spanText": "helmet",
-            "entityId": "term-armor-of-god"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "love",
+            "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "helmet",
+            "entityId": "term-armor-of-god"
           },
           {
             "spanText": "hope",
             "entityId": "term-hope"
           },
           {
-            "spanText": "love",
-            "entityId": "term-agape-love"
+            "spanText": "salvation",
+            "entityId": "term-salvation"
           }
         ]
       },
@@ -1141,6 +1243,14 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-1th-5",
         "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          },
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          },
           {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
@@ -1260,6 +1370,10 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1th-5",
         "linkedEntities": [
           {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           }
@@ -1290,7 +1404,12 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t despise prophecies.",
         "translation": "WEB",
         "illustrationId": "ill-1th-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophecies",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "1TH-5:21",
@@ -1325,20 +1444,20 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1th-5",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
-            "spanText": "coming",
-            "entityId": "term-parousia-coming"
+            "spanText": "peace",
+            "entityId": "term-peace-eirene"
           },
           {
             "spanText": "sanctify",
             "entityId": "term-sanctification-hagiasmos"
           },
           {
-            "spanText": "peace",
-            "entityId": "term-peace-eirene"
+            "spanText": "coming",
+            "entityId": "term-parousia-coming"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -1351,7 +1470,12 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "He who calls you is faithful, who will also do it.",
         "translation": "WEB",
         "illustrationId": "ill-1th-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
+          }
+        ]
       },
       {
         "id": "1TH-5:25",
@@ -1397,12 +1521,16 @@ export const FIRST_THESSALONIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1th-5",
         "linkedEntities": [
           {
+            "spanText": "grace",
+            "entityId": "term-grace"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           },
           {
-            "spanText": "grace",
-            "entityId": "term-grace"
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       }

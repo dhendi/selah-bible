@@ -23,16 +23,24 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-col-1",
         "linkedEntities": [
           {
-            "spanText": "Timothy",
-            "entityId": "char-timothy"
-          },
-          {
             "spanText": "Paul",
             "entityId": "char-paul"
           },
           {
+            "spanText": "apostle",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Timothy",
+            "entityId": "char-timothy"
           }
         ]
       },
@@ -47,8 +55,12 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-col-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           },
           {
             "spanText": "Grace",
@@ -57,6 +69,10 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -87,16 +103,20 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-col-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
           },
           {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
+          },
+          {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
           }
         ]
       },
@@ -111,12 +131,12 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-col-1",
         "linkedEntities": [
           {
-            "spanText": "Good News",
-            "entityId": "term-gospel-euangelion"
-          },
-          {
             "spanText": "hope",
             "entityId": "term-hope"
+          },
+          {
+            "spanText": "Good News",
+            "entityId": "term-gospel-euangelion"
           }
         ]
       },
@@ -210,6 +230,10 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-col-1",
         "linkedEntities": [
           {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
             "spanText": "joy",
             "entityId": "term-joy-chara"
           }
@@ -224,7 +248,16 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "giving thanks to the Father, who made us fit to be partakers of the inheritance of the saints in light,",
         "translation": "WEB",
         "illustrationId": "ill-col-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "inheritance",
+            "entityId": "term-inheritance"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "COL-1:13",
@@ -255,6 +288,10 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "redemption",
             "entityId": "term-redemption"
+          },
+          {
+            "spanText": "forgiveness",
+            "entityId": "term-forgiveness"
           }
         ]
       },
@@ -269,12 +306,12 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-col-1",
         "linkedEntities": [
           {
-            "spanText": "firstborn",
-            "entityId": "term-preeminence-supremacy"
-          },
-          {
             "spanText": "image",
             "entityId": "term-imago-dei"
+          },
+          {
+            "spanText": "firstborn",
+            "entityId": "term-preeminence-supremacy"
           }
         ]
       },
@@ -311,12 +348,12 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-col-1",
         "linkedEntities": [
           {
-            "spanText": "firstborn",
-            "entityId": "term-preeminence-supremacy"
-          },
-          {
             "spanText": "assembly",
             "entityId": "term-church-ekklesia"
+          },
+          {
+            "spanText": "firstborn",
+            "entityId": "term-preeminence-supremacy"
           }
         ]
       },
@@ -353,6 +390,10 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "cross",
+            "entityId": "term-crucifixion"
           }
         ]
       },
@@ -380,6 +421,10 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "reconciled",
             "entityId": "term-reconciliation"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
           }
         ]
       },
@@ -394,20 +439,20 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-col-1",
         "linkedEntities": [
           {
-            "spanText": "Good News",
-            "entityId": "term-gospel-euangelion"
-          },
-          {
-            "spanText": "Paul",
-            "entityId": "char-paul"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
           },
           {
             "spanText": "hope",
             "entityId": "term-hope"
+          },
+          {
+            "spanText": "Good News",
+            "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "Paul",
+            "entityId": "char-paul"
           }
         ]
       },
@@ -426,6 +471,10 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "term-joy-chara"
           },
           {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
             "spanText": "assembly",
             "entityId": "term-church-ekklesia"
           }
@@ -440,7 +489,12 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "of which I was made a servant according to the stewardship of God which was given me toward you to fulfill the word of God,",
         "translation": "WEB",
         "illustrationId": "ill-col-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "stewardship",
+            "entityId": "term-steward"
+          }
+        ]
       },
       {
         "id": "COL-1:26",
@@ -469,16 +523,20 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-col-1",
         "linkedEntities": [
           {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
             "spanText": "mystery",
             "entityId": "term-mystery-mysterion"
           },
           {
-            "spanText": "hope",
-            "entityId": "term-hope"
-          },
-          {
             "spanText": "Gentiles",
             "entityId": "term-gentiles"
+          },
+          {
+            "spanText": "hope",
+            "entityId": "term-hope"
           }
         ]
       },
@@ -493,12 +551,12 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-col-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "wisdom",
             "entityId": "term-wisdom"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -535,7 +593,12 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For I desire to have you know how greatly I struggle for you, and for those at Laodicea, and for as many as have not seen my face in the flesh;",
         "translation": "WEB",
         "illustrationId": "ill-col-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "COL-2:2",
@@ -548,12 +611,16 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-col-2",
         "linkedEntities": [
           {
+            "spanText": "love",
+            "entityId": "term-agape-love"
+          },
+          {
             "spanText": "mystery",
             "entityId": "term-mystery-mysterion"
           },
           {
-            "spanText": "love",
-            "entityId": "term-agape-love"
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -595,8 +662,16 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-col-2",
         "linkedEntities": [
           {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -679,7 +754,16 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "In him you were also circumcised with a circumcision not made with hands, in the putting off of the body of the sins of the flesh, in the circumcision of Christ,",
         "translation": "WEB",
         "illustrationId": "ill-col-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "circumcised",
+            "entityId": "term-circumcision"
+          },
+          {
+            "spanText": "circumcision",
+            "entityId": "term-circumcision"
+          }
+        ]
       },
       {
         "id": "COL-2:12",
@@ -692,12 +776,12 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-col-2",
         "linkedEntities": [
           {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
-          },
-          {
             "spanText": "baptism",
             "entityId": "term-baptism"
+          },
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -710,7 +794,16 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You were dead through your trespasses and the uncircumcision of your flesh. He made you alive together with him, having forgiven us all our trespasses,",
         "translation": "WEB",
         "illustrationId": "ill-col-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "uncircumcision",
+            "entityId": "term-circumcision"
+          },
+          {
+            "spanText": "forgiven",
+            "entityId": "term-forgiveness"
+          }
+        ]
       },
       {
         "id": "COL-2:14",
@@ -721,7 +814,12 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "wiping out the handwriting in ordinances which was against us. He has taken it out of the way, nailing it to the cross.",
         "translation": "WEB",
         "illustrationId": "ill-col-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cross",
+            "entityId": "term-crucifixion"
+          }
+        ]
       },
       {
         "id": "COL-2:15",
@@ -770,7 +868,12 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let no one rob you of your prize by self-abasement and worshiping of the angels, dwelling in the things which he has not seen, vainly puffed up by his fleshly mind,",
         "translation": "WEB",
         "illustrationId": "ill-col-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "COL-2:19",
@@ -829,6 +932,10 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "wisdom",
             "entityId": "term-wisdom"
+          },
+          {
+            "spanText": "humility",
+            "entityId": "term-humble-meekness"
           }
         ]
       }
@@ -854,7 +961,12 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "If then you were raised together with Christ, seek the things that are above, where Christ is, seated on the right hand of God.",
         "translation": "WEB",
         "illustrationId": "ill-col-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "COL-3:2",
@@ -876,7 +988,12 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For you died, and your life is hidden with Christ in God.",
         "translation": "WEB",
         "illustrationId": "ill-col-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "COL-3:4",
@@ -887,7 +1004,12 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "When Christ, our life, is revealed, then you will also be revealed with him in glory.",
         "translation": "WEB",
         "illustrationId": "ill-col-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "COL-3:5",
@@ -898,7 +1020,20 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Put to death therefore your members which are on the earth: sexual immorality, uncleanness, depraved passion, evil desire, and covetousness, which is idolatry.",
         "translation": "WEB",
         "illustrationId": "ill-col-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
+          },
+          {
+            "spanText": "covetousness",
+            "entityId": "term-covetousness"
+          },
+          {
+            "spanText": "idolatry",
+            "entityId": "term-idolatry"
+          }
+        ]
       },
       {
         "id": "COL-3:6",
@@ -909,7 +1044,12 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For these things’ sake the wrath of God comes on the children of disobedience.",
         "translation": "WEB",
         "illustrationId": "ill-col-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          }
+        ]
       },
       {
         "id": "COL-3:7",
@@ -931,7 +1071,12 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "but now you also put them all away: anger, wrath, malice, slander, and shameful speaking out of your mouth.",
         "translation": "WEB",
         "illustrationId": "ill-col-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          }
+        ]
       },
       {
         "id": "COL-3:9",
@@ -969,7 +1114,20 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "where there can’t be Greek and Jew, circumcision and uncircumcision, barbarian, Scythian, bondservant, or free person; but Christ is all, and in all.",
         "translation": "WEB",
         "illustrationId": "ill-col-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "circumcision",
+            "entityId": "term-circumcision"
+          },
+          {
+            "spanText": "uncircumcision",
+            "entityId": "term-circumcision"
+          },
+          {
+            "spanText": "bondservant",
+            "entityId": "term-bondservant"
+          }
+        ]
       },
       {
         "id": "COL-3:12",
@@ -996,7 +1154,12 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "bearing with one another, and forgiving each other, if any man has a complaint against any; even as Christ forgave you, so you also do.",
         "translation": "WEB",
         "illustrationId": "ill-col-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "forgiving",
+            "entityId": "term-forgiveness"
+          }
+        ]
       },
       {
         "id": "COL-3:14",
@@ -1041,12 +1204,12 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-col-3",
         "linkedEntities": [
           {
-            "spanText": "grace",
-            "entityId": "term-grace"
-          },
-          {
             "spanText": "wisdom",
             "entityId": "term-wisdom"
+          },
+          {
+            "spanText": "grace",
+            "entityId": "term-grace"
           }
         ]
       },
@@ -1124,7 +1287,12 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Servants, obey in all things those who are your masters according to the flesh, not just when they are looking, as men pleasers, but in singleness of heart, fearing God.",
         "translation": "WEB",
         "illustrationId": "ill-col-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "COL-3:23",
@@ -1146,7 +1314,12 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "knowing that from the Lord you will receive the reward of the inheritance; for you serve the Lord Christ.",
         "translation": "WEB",
         "illustrationId": "ill-col-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "inheritance",
+            "entityId": "term-inheritance"
+          }
+        ]
       },
       {
         "id": "COL-3:25",
@@ -1212,6 +1385,10 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mystery",
             "entityId": "term-mystery-mysterion"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -1239,6 +1416,10 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "wisdom",
             "entityId": "term-wisdom"
+          },
+          {
+            "spanText": "redeeming",
+            "entityId": "term-redemption"
           }
         ]
       },
@@ -1271,6 +1452,14 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Tychicus",
             "entityId": "char-tychicus"
+          },
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "bondservant",
+            "entityId": "term-bondservant"
           }
         ]
       },
@@ -1298,6 +1487,10 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Onesimus",
             "entityId": "char-onesimus"
+          },
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -1312,12 +1505,16 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-col-4",
         "linkedEntities": [
           {
+            "spanText": "Mark",
+            "entityId": "char-mark"
+          },
+          {
             "spanText": "Barnabas",
             "entityId": "char-barnabas"
           },
           {
-            "spanText": "Mark",
-            "entityId": "char-mark"
+            "spanText": "commandments",
+            "entityId": "term-commandments"
           }
         ]
       },
@@ -1334,6 +1531,10 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "circumcision",
+            "entityId": "term-circumcision"
           }
         ]
       },
@@ -1350,6 +1551,10 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Epaphras",
             "entityId": "char-epaphras"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -1440,6 +1645,10 @@ export const COLOSSIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       }

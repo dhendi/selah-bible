@@ -23,24 +23,36 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-php-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
+            "spanText": "Paul",
+            "entityId": "char-paul"
           },
           {
             "spanText": "Timothy",
             "entityId": "char-timothy"
           },
           {
-            "spanText": "Paul",
-            "entityId": "char-paul"
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           },
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           },
           {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          },
+          {
             "spanText": "Philippi",
             "entityId": "place-philippi"
+          },
+          {
+            "spanText": "overseers",
+            "entityId": "term-overseer"
           }
         ]
       },
@@ -55,16 +67,16 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-php-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Grace",
             "entityId": "term-grace"
           },
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -158,6 +170,14 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-php-1",
         "linkedEntities": [
           {
+            "spanText": "witness",
+            "entityId": "term-witness-martyr"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           }
@@ -201,12 +221,16 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-php-1",
         "linkedEntities": [
           {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           },
           {
-            "spanText": "righteousness",
-            "entityId": "term-righteousness"
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
           }
         ]
       },
@@ -257,7 +281,12 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Some indeed preach Christ even out of envy and strife, and some also out of good will.",
         "translation": "WEB",
         "illustrationId": "ill-php-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "preach",
+            "entityId": "term-preach-proclaim"
+          }
+        ]
       },
       {
         "id": "PHP-1:16",
@@ -268,7 +297,12 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "The former insincerely preach Christ from selfish ambition, thinking that they add affliction to my chains;",
         "translation": "WEB",
         "illustrationId": "ill-php-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "preach",
+            "entityId": "term-preach-proclaim"
+          }
+        ]
       },
       {
         "id": "PHP-1:17",
@@ -281,12 +315,12 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-php-1",
         "linkedEntities": [
           {
-            "spanText": "Good News",
-            "entityId": "term-gospel-euangelion"
-          },
-          {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "Good News",
+            "entityId": "term-gospel-euangelion"
           }
         ]
       },
@@ -317,12 +351,16 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-php-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
+            "spanText": "salvation",
+            "entityId": "term-salvation"
           },
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -362,7 +400,12 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if I live on in the flesh, this will bring fruit from my work; yet I don’t know what I will choose.",
         "translation": "WEB",
         "illustrationId": "ill-php-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "PHP-1:23",
@@ -384,7 +427,12 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yet to remain in the flesh is more needful for your sake.",
         "translation": "WEB",
         "illustrationId": "ill-php-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "PHP-1:25",
@@ -451,7 +499,12 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and in nothing frightened by the adversaries, which is for them a proof of destruction, but to you of salvation, and that from God.",
         "translation": "WEB",
         "illustrationId": "ill-php-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          }
+        ]
       },
       {
         "id": "PHP-1:29",
@@ -499,8 +552,16 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-php-2",
         "linkedEntities": [
           {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "fellowship",
+            "entityId": "term-fellowship-koinonia"
           },
           {
             "spanText": "Spirit",
@@ -566,6 +627,10 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-php-2",
         "linkedEntities": [
           {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           }
@@ -606,6 +671,10 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "humbled",
             "entityId": "term-humility-kenosis"
+          },
+          {
+            "spanText": "cross",
+            "entityId": "term-crucifixion"
           }
         ]
       },
@@ -647,8 +716,16 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-php-2",
         "linkedEntities": [
           {
+            "spanText": "confess",
+            "entityId": "term-confession"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
           }
         ]
       },
@@ -661,7 +738,12 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "So then, my beloved, even as you have always obeyed, not only in my presence, but now much more in my absence, work out your own salvation with fear and trembling.",
         "translation": "WEB",
         "illustrationId": "ill-php-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          }
+        ]
       },
       {
         "id": "PHP-2:13",
@@ -705,7 +787,12 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "holding up the word of life, that I may have something to boast in the day of Christ, that I didn’t run in vain nor labor in vain.",
         "translation": "WEB",
         "illustrationId": "ill-php-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "boast",
+            "entityId": "term-boasting-kauchēma"
+          }
+        ]
       },
       {
         "id": "PHP-2:17",
@@ -718,12 +805,16 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-php-2",
         "linkedEntities": [
           {
-            "spanText": "rejoice",
-            "entityId": "term-joy-chara"
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
           },
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "rejoice",
+            "entityId": "term-joy-chara"
           }
         ]
       },
@@ -754,12 +845,16 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-php-2",
         "linkedEntities": [
           {
-            "spanText": "Timothy",
-            "entityId": "char-timothy"
+            "spanText": "hope",
+            "entityId": "term-hope"
           },
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Timothy",
+            "entityId": "char-timothy"
           }
         ]
       },
@@ -815,7 +910,12 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore I hope to send him at once, as soon as I see how it will go with me.",
         "translation": "WEB",
         "illustrationId": "ill-php-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "hope",
+            "entityId": "term-hope"
+          }
+        ]
       },
       {
         "id": "PHP-2:24",
@@ -841,6 +941,10 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Epaphroditus",
             "entityId": "char-epaphroditus"
+          },
+          {
+            "spanText": "apostle",
+            "entityId": "term-apostle"
           }
         ]
       },
@@ -952,7 +1056,12 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Beware of the dogs; beware of the evil workers; beware of the false circumcision.",
         "translation": "WEB",
         "illustrationId": "ill-php-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "circumcision",
+            "entityId": "term-circumcision"
+          }
+        ]
       },
       {
         "id": "PHP-3:3",
@@ -965,16 +1074,28 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-php-3",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
+            "spanText": "circumcision",
+            "entityId": "term-circumcision"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           },
           {
             "spanText": "rejoice",
             "entityId": "term-joy-chara"
           },
           {
-            "spanText": "Spirit",
-            "entityId": "term-ruach"
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
           }
         ]
       },
@@ -987,7 +1108,12 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "though I myself might have confidence even in the flesh. If any other man thinks that he has confidence in the flesh, I yet more:",
         "translation": "WEB",
         "illustrationId": "ill-php-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "PHP-3:5",
@@ -1000,16 +1126,20 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-php-3",
         "linkedEntities": [
           {
+            "spanText": "circumcised",
+            "entityId": "term-circumcision"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
             "spanText": "Benjamin",
             "entityId": "char-benjamin"
           },
           {
             "spanText": "Pharisee",
             "entityId": "term-pharisees"
-          },
-          {
-            "spanText": "Israel",
-            "entityId": "term-israel"
           }
         ]
       },
@@ -1024,12 +1154,16 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-php-3",
         "linkedEntities": [
           {
-            "spanText": "righteousness",
-            "entityId": "term-righteousness"
+            "spanText": "persecuting",
+            "entityId": "term-tribulation"
           },
           {
             "spanText": "assembly",
             "entityId": "term-church-ekklesia"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -1042,7 +1176,12 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "However, I consider those things that were gain to me as a loss for Christ.",
         "translation": "WEB",
         "illustrationId": "ill-php-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "PHP-3:8",
@@ -1077,6 +1216,10 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -1093,6 +1236,10 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "resurrection",
             "entityId": "term-resurrection"
+          },
+          {
+            "spanText": "fellowship",
+            "entityId": "term-fellowship-koinonia"
           }
         ]
       },
@@ -1197,7 +1344,12 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For many walk, of whom I told you often, and now tell you even weeping, as the enemies of the cross of Christ,",
         "translation": "WEB",
         "illustrationId": "ill-php-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cross",
+            "entityId": "term-crucifixion"
+          }
+        ]
       },
       {
         "id": "PHP-3:19",
@@ -1208,7 +1360,12 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "whose end is destruction, whose god is the belly, and whose glory is in their shame, who think about earthly things.",
         "translation": "WEB",
         "illustrationId": "ill-php-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "PHP-3:20",
@@ -1235,7 +1392,12 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "who will change the body of our humiliation to be conformed to the body of his glory, according to the working by which he is able even to subject all things to himself.",
         "translation": "WEB",
         "illustrationId": "ill-php-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       }
     ]
   },
@@ -1356,12 +1518,16 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-php-4",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -1439,7 +1605,12 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "I can do all things through Christ, who strengthens me.",
         "translation": "WEB",
         "illustrationId": "ill-php-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "PHP-4:14",
@@ -1507,6 +1678,10 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Epaphroditus",
             "entityId": "char-epaphroditus"
+          },
+          {
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
           }
         ]
       },
@@ -1520,6 +1695,10 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-php-4",
         "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
@@ -1535,7 +1714,16 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now to our God and Father be the glory forever and ever! Amen.",
         "translation": "WEB",
         "illustrationId": "ill-php-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
+          }
+        ]
       },
       {
         "id": "PHP-4:21",
@@ -1562,7 +1750,12 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the saints greet you, especially those who are of Caesar’s household.",
         "translation": "WEB",
         "illustrationId": "ill-php-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "PHP-4:23",
@@ -1575,12 +1768,16 @@ export const PHILIPPIANS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-php-4",
         "linkedEntities": [
           {
+            "spanText": "grace",
+            "entityId": "term-grace"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           },
           {
-            "spanText": "grace",
-            "entityId": "term-grace"
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       }

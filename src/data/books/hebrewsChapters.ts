@@ -21,7 +21,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "God, having in the past spoken to the fathers through the prophets at many times and in various ways,",
         "translation": "WEB",
         "illustrationId": "ill-heb-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "HEB-1:2",
@@ -32,7 +37,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "has at the end of these days spoken to us by his Son, whom he appointed heir of all things, through whom also he made the worlds.",
         "translation": "WEB",
         "illustrationId": "ill-heb-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heir",
+            "entityId": "term-inheritance"
+          }
+        ]
       },
       {
         "id": "HEB-1:3",
@@ -43,7 +53,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "His Son is the radiance of his glory, the very image of his substance, and upholding all things by the word of his power, who, when he had by himself purified us of our sins, sat down on the right hand of the Majesty on high,",
         "translation": "WEB",
         "illustrationId": "ill-heb-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "HEB-1:4",
@@ -54,7 +69,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "having become as much better than the angels as the more excellent name he has inherited is better than theirs.",
         "translation": "WEB",
         "illustrationId": "ill-heb-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "HEB-1:5",
@@ -65,7 +85,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For to which of the angels did he say at any time, “You are my Son. Today I have become your father?” and again, “I will be to him a Father, and he will be to me a Son?”",
         "translation": "WEB",
         "illustrationId": "ill-heb-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "HEB-1:6",
@@ -98,7 +123,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But of the Son he says, “Your throne, O God, is forever and ever. The scepter of uprightness is the scepter of your Kingdom.",
         "translation": "WEB",
         "illustrationId": "ill-heb-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
+          }
+        ]
       },
       {
         "id": "HEB-1:9",
@@ -169,7 +199,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Aren’t they all serving spirits, sent out to do service for the sake of those who will inherit salvation?",
         "translation": "WEB",
         "illustrationId": "ill-heb-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          }
+        ]
       }
     ]
   },
@@ -204,7 +239,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For if the word spoken through angels proved steadfast, and every transgression and disobedience received a just penalty,",
         "translation": "WEB",
         "illustrationId": "ill-heb-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "transgression",
+            "entityId": "term-condemnation"
+          }
+        ]
       },
       {
         "id": "HEB-2:3",
@@ -215,7 +259,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "how will we escape if we neglect so great a salvation—which at the first having been spoken through the Lord, was confirmed to us by those who heard,",
         "translation": "WEB",
         "illustrationId": "ill-heb-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          }
+        ]
       },
       {
         "id": "HEB-2:4",
@@ -227,6 +276,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-heb-2",
         "linkedEntities": [
+          {
+            "spanText": "wonders",
+            "entityId": "term-gospel-euangelion"
+          },
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
@@ -242,7 +295,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For he didn’t subject the world to come, of which we speak, to angels.",
         "translation": "WEB",
         "illustrationId": "ill-heb-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "HEB-2:6",
@@ -264,7 +322,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "You made him a little lower than the angels. You crowned him with glory and honor.",
         "translation": "WEB",
         "illustrationId": "ill-heb-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "HEB-2:8",
@@ -292,6 +355,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-jesus"
           },
           {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
             "spanText": "grace",
             "entityId": "term-grace"
           }
@@ -306,7 +373,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For it became him, for whom are all things, and through whom are all things, in bringing many children to glory, to make the author of their salvation perfect through sufferings.",
         "translation": "WEB",
         "illustrationId": "ill-heb-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          }
+        ]
       },
       {
         "id": "HEB-2:11",
@@ -317,7 +389,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For both he who sanctifies and those who are sanctified are all from one, for which cause he is not ashamed to call them brothers,",
         "translation": "WEB",
         "illustrationId": "ill-heb-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctifies",
+            "entityId": "term-sanctification"
+          },
+          {
+            "spanText": "sanctified",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "HEB-2:12",
@@ -350,7 +431,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Since then the children have shared in flesh and blood, he also himself in the same way partook of the same, that through death he might bring to nothing him who had the power of death, that is, the devil,",
         "translation": "WEB",
         "illustrationId": "ill-heb-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
+            "spanText": "devil",
+            "entityId": "term-satan-adversary"
+          }
+        ]
       },
       {
         "id": "HEB-2:15",
@@ -389,6 +479,14 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-heb-2",
         "linkedEntities": [
+          {
+            "spanText": "merciful",
+            "entityId": "term-mercy-eleos"
+          },
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
+          },
           {
             "spanText": "high priest",
             "entityId": "term-high-priest-christ"
@@ -434,8 +532,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-3",
         "linkedEntities": [
           {
+            "spanText": "Apostle",
+            "entityId": "term-apostle"
+          },
+          {
             "spanText": "High Priest",
             "entityId": "term-high-priest-christ"
+          },
+          {
+            "spanText": "confession",
+            "entityId": "term-confession"
           },
           {
             "spanText": "Jesus",
@@ -454,6 +560,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-3",
         "linkedEntities": [
           {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
+          },
+          {
             "spanText": "Moses",
             "entityId": "char-moses"
           }
@@ -469,6 +579,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-heb-3",
         "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
           {
             "spanText": "Moses",
             "entityId": "char-moses"
@@ -499,6 +613,14 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
           }
         ]
       },
@@ -512,6 +634,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-heb-3",
         "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
           {
             "spanText": "hope",
             "entityId": "term-hope"
@@ -576,7 +702,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "As I swore in my wrath, ‘They will not enter into my rest.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-heb-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          }
+        ]
       },
       {
         "id": "HEB-3:12",
@@ -609,7 +740,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For we have become partakers of Christ, if we hold the beginning of our confidence firm to the end,",
         "translation": "WEB",
         "illustrationId": "ill-heb-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "HEB-3:15",
@@ -633,12 +769,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-3",
         "linkedEntities": [
           {
-            "spanText": "Moses",
-            "entityId": "char-moses"
-          },
-          {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Moses",
+            "entityId": "char-moses"
           }
         ]
       },
@@ -714,6 +850,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "term-gospel-euangelion"
           },
           {
+            "spanText": "preached",
+            "entityId": "term-preach-proclaim"
+          },
+          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
           }
@@ -728,7 +868,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For we who have believed do enter into that rest, even as he has said, “As I swore in my wrath, they will not enter into my rest;” although the works were finished from the foundation of the world.",
         "translation": "WEB",
         "illustrationId": "ill-heb-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          }
+        ]
       },
       {
         "id": "HEB-4:4",
@@ -765,6 +910,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "good news",
             "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "preached",
+            "entityId": "term-preach-proclaim"
           }
         ]
       },
@@ -877,6 +1026,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "confession",
+            "entityId": "term-confession"
           }
         ]
       },
@@ -906,6 +1059,14 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-heb-4",
         "linkedEntities": [
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
+          },
+          {
+            "spanText": "grace",
+            "entityId": "term-grace"
+          },
           {
             "spanText": "grace",
             "entityId": "term-grace"
@@ -938,7 +1099,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For every high priest, being taken from among men, is appointed for men in things pertaining to God, that he may offer both gifts and sacrifices for sins.",
         "translation": "WEB",
         "illustrationId": "ill-heb-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "high priest",
+            "entityId": "term-high-priest-christ"
+          },
+          {
+            "spanText": "sacrifices",
+            "entityId": "term-offering"
+          }
+        ]
       },
       {
         "id": "HEB-5:2",
@@ -960,7 +1130,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Because of this, he must offer sacrifices for sins for the people, as well as for himself.",
         "translation": "WEB",
         "illustrationId": "ill-heb-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sacrifices",
+            "entityId": "term-offering"
+          }
+        ]
       },
       {
         "id": "HEB-5:4",
@@ -988,6 +1163,14 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-heb-5",
         "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "glorify",
+            "entityId": "term-glory-doxa"
+          },
           {
             "spanText": "high priest",
             "entityId": "term-high-priest-christ"
@@ -1021,6 +1204,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-5",
         "linkedEntities": [
           {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
             "spanText": "prayers",
             "entityId": "term-prayer"
           }
@@ -1046,7 +1233,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Having been made perfect, he became to all of those who obey him the author of eternal salvation,",
         "translation": "WEB",
         "illustrationId": "ill-heb-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          }
+        ]
       },
       {
         "id": "HEB-5:10",
@@ -1141,6 +1333,14 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-6",
         "linkedEntities": [
           {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "repentance",
+            "entityId": "term-repentance"
+          },
+          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
           }
@@ -1209,7 +1409,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and then fell away, it is impossible to renew them again to repentance; seeing they crucify the Son of God for themselves again, and put him to open shame.",
         "translation": "WEB",
         "illustrationId": "ill-heb-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "repentance",
+            "entityId": "term-repentance"
+          },
+          {
+            "spanText": "crucify",
+            "entityId": "term-crucifixion"
+          }
+        ]
       },
       {
         "id": "HEB-6:7",
@@ -1242,7 +1451,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But, beloved, we are persuaded of better things for you, and things that accompany salvation, even though we speak like this.",
         "translation": "WEB",
         "illustrationId": "ill-heb-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          }
+        ]
       },
       {
         "id": "HEB-6:10",
@@ -1257,6 +1471,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
           }
         ]
       },
@@ -1339,7 +1557,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For men indeed swear by a greater one, and in every dispute of theirs the oath is final for confirmation.",
         "translation": "WEB",
         "illustrationId": "ill-heb-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "oath",
+            "entityId": "term-oath"
+          }
+        ]
       },
       {
         "id": "HEB-6:17",
@@ -1350,7 +1573,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "In this way God, being determined to show more abundantly to the heirs of the promise the immutability of his counsel, interposed with an oath,",
         "translation": "WEB",
         "illustrationId": "ill-heb-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "heirs",
+            "entityId": "term-inheritance"
+          },
+          {
+            "spanText": "oath",
+            "entityId": "term-oath"
+          }
+        ]
       },
       {
         "id": "HEB-6:18",
@@ -1395,16 +1627,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-6",
         "linkedEntities": [
           {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
+          },
+          {
             "spanText": "high priest",
             "entityId": "term-high-priest-christ"
           },
           {
             "spanText": "Melchizedek",
             "entityId": "char-melchizedek"
-          },
-          {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
           }
         ]
       }
@@ -1434,6 +1666,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Melchizedek",
             "entityId": "char-melchizedek"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-high-priest-christ"
           },
           {
             "spanText": "Abraham",
@@ -1503,12 +1739,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-7",
         "linkedEntities": [
           {
-            "spanText": "Abraham",
-            "entityId": "char-abraham"
-          },
-          {
             "spanText": "Levi",
             "entityId": "char-levi"
+          },
+          {
+            "spanText": "commandment",
+            "entityId": "term-commandments"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
           }
         ]
       },
@@ -1626,7 +1866,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For he of whom these things are said belongs to another tribe, from which no one has officiated at the altar.",
         "translation": "WEB",
         "illustrationId": "ill-heb-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "HEB-7:14",
@@ -1639,12 +1884,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-7",
         "linkedEntities": [
           {
-            "spanText": "Moses",
-            "entityId": "char-moses"
-          },
-          {
             "spanText": "Judah",
             "entityId": "char-judah"
+          },
+          {
+            "spanText": "Moses",
+            "entityId": "char-moses"
           }
         ]
       },
@@ -1673,7 +1918,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "who has been made, not after the law of a fleshly commandment, but after the power of an endless life;",
         "translation": "WEB",
         "illustrationId": "ill-heb-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "commandment",
+            "entityId": "term-commandments"
+          }
+        ]
       },
       {
         "id": "HEB-7:17",
@@ -1727,7 +1977,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Inasmuch as he was not made priest without the taking of an oath",
         "translation": "WEB",
         "illustrationId": "ill-heb-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "oath",
+            "entityId": "term-oath"
+          }
+        ]
       },
       {
         "id": "HEB-7:21",
@@ -1739,6 +1994,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-heb-7",
         "linkedEntities": [
+          {
+            "spanText": "oath",
+            "entityId": "term-oath"
+          },
           {
             "spanText": "Melchizedek",
             "entityId": "char-melchizedek"
@@ -1823,7 +2082,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "who doesn’t need, like those high priests, to offer up sacrifices daily, first for his own sins, and then for the sins of the people. For he did this once for all, when he offered up himself.",
         "translation": "WEB",
         "illustrationId": "ill-heb-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sacrifices",
+            "entityId": "term-offering"
+          }
+        ]
       },
       {
         "id": "HEB-7:28",
@@ -1834,7 +2098,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the law appoints men as high priests who have weakness, but the word of the oath which came after the law appoints a Son forever who has been perfected.",
         "translation": "WEB",
         "illustrationId": "ill-heb-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "oath",
+            "entityId": "term-oath"
+          }
+        ]
       }
     ]
   },
@@ -1862,6 +2131,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "high priest",
             "entityId": "term-high-priest-christ"
+          },
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
           }
         ]
       },
@@ -1876,12 +2149,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-8",
         "linkedEntities": [
           {
-            "spanText": "tabernacle",
-            "entityId": "term-tabernacle"
-          },
-          {
             "spanText": "sanctuary",
             "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "tabernacle",
+            "entityId": "term-tabernacle"
           }
         ]
       },
@@ -1894,7 +2167,20 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For every high priest is appointed to offer both gifts and sacrifices. Therefore it is necessary that this high priest also have something to offer.",
         "translation": "WEB",
         "illustrationId": "ill-heb-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "high priest",
+            "entityId": "term-high-priest-christ"
+          },
+          {
+            "spanText": "high priest",
+            "entityId": "term-high-priest-christ"
+          },
+          {
+            "spanText": "sacrifices",
+            "entityId": "term-offering"
+          }
+        ]
       },
       {
         "id": "HEB-8:4",
@@ -1978,12 +2264,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "term-new-covenant"
           },
           {
-            "spanText": "Judah",
-            "entityId": "char-judah"
-          },
-          {
             "spanText": "Israel",
             "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -1998,12 +2284,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-8",
         "linkedEntities": [
           {
-            "spanText": "Egypt",
-            "entityId": "place-egypt"
-          },
-          {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
           }
         ]
       },
@@ -2047,7 +2333,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For I will be merciful to their unrighteousness. I will remember their sins and lawless deeds no more.”",
         "translation": "WEB",
         "illustrationId": "ill-heb-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "merciful",
+            "entityId": "term-mercy-eleos"
+          }
+        ]
       },
       {
         "id": "HEB-8:13",
@@ -2089,12 +2380,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-9",
         "linkedEntities": [
           {
-            "spanText": "sanctuary",
-            "entityId": "term-sanctuary"
-          },
-          {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
           }
         ]
       },
@@ -2141,8 +2432,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-9",
         "linkedEntities": [
           {
-            "spanText": "Aaron",
-            "entityId": "char-aaron"
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
           },
           {
             "spanText": "ark",
@@ -2151,6 +2446,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
           }
         ]
       },
@@ -2164,6 +2463,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-heb-9",
         "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
           {
             "spanText": "mercy seat",
             "entityId": "term-mercy-seat"
@@ -2195,7 +2498,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "but into the second the high priest alone, once in the year, not without blood, which he offers for himself, and for the errors of the people.",
         "translation": "WEB",
         "illustrationId": "ill-heb-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "high priest",
+            "entityId": "term-high-priest-christ"
+          }
+        ]
       },
       {
         "id": "HEB-9:8",
@@ -2208,12 +2516,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-9",
         "linkedEntities": [
           {
-            "spanText": "tabernacle",
-            "entityId": "term-tabernacle"
-          },
-          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "tabernacle",
+            "entityId": "term-tabernacle"
           }
         ]
       },
@@ -2226,7 +2534,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "This is a symbol of the present age, where gifts and sacrifices are offered that are incapable, concerning the conscience, of making the worshiper perfect,",
         "translation": "WEB",
         "illustrationId": "ill-heb-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sacrifices",
+            "entityId": "term-offering"
+          },
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
+          }
+        ]
       },
       {
         "id": "HEB-9:10",
@@ -2249,6 +2566,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-heb-9",
         "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
           {
             "spanText": "high priest",
             "entityId": "term-high-priest-christ"
@@ -2284,7 +2605,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For if the blood of goats and bulls, and the ashes of a heifer sprinkling those who have been defiled, sanctify to the cleanness of the flesh,",
         "translation": "WEB",
         "illustrationId": "ill-heb-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctify",
+            "entityId": "term-sanctification"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "HEB-9:14",
@@ -2297,8 +2627,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-9",
         "linkedEntities": [
           {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
           }
         ]
       },
@@ -2313,20 +2651,28 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-9",
         "linkedEntities": [
           {
+            "spanText": "mediator",
+            "entityId": "term-mediator"
+          },
+          {
             "spanText": "new covenant",
             "entityId": "term-new-covenant"
           },
           {
-            "spanText": "mediator",
-            "entityId": "term-mediator"
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           },
           {
             "spanText": "redemption",
             "entityId": "term-redemption"
           },
           {
-            "spanText": "covenant",
-            "entityId": "term-covenant"
+            "spanText": "transgressions",
+            "entityId": "term-condemnation"
+          },
+          {
+            "spanText": "inheritance",
+            "entityId": "term-inheritance"
           }
         ]
       },
@@ -2378,6 +2724,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-heb-9",
         "linkedEntities": [
+          {
+            "spanText": "commandment",
+            "entityId": "term-commandments"
+          },
           {
             "spanText": "Moses",
             "entityId": "char-moses"
@@ -2436,7 +2786,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "It was necessary therefore that the copies of the things in the heavens should be cleansed with these, but the heavenly things themselves with better sacrifices than these.",
         "translation": "WEB",
         "illustrationId": "ill-heb-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sacrifices",
+            "entityId": "term-offering"
+          }
+        ]
       },
       {
         "id": "HEB-9:24",
@@ -2458,7 +2813,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "nor yet that he should offer himself often, as the high priest enters into the holy place year by year with blood not his own,",
         "translation": "WEB",
         "illustrationId": "ill-heb-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "high priest",
+            "entityId": "term-high-priest-christ"
+          }
+        ]
       },
       {
         "id": "HEB-9:26",
@@ -2491,7 +2851,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "so Christ also, having been offered once to bear the sins of many, will appear a second time, without sin, to those who are eagerly waiting for him for salvation.",
         "translation": "WEB",
         "illustrationId": "ill-heb-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          }
+        ]
       }
     ]
   },
@@ -2515,7 +2880,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the law, having a shadow of the good to come, not the very image of the things, can never with the same sacrifices year by year, which they offer continually, make perfect those who draw near.",
         "translation": "WEB",
         "illustrationId": "ill-heb-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sacrifices",
+            "entityId": "term-offering"
+          }
+        ]
       },
       {
         "id": "HEB-10:2",
@@ -2537,7 +2907,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But in those sacrifices there is a yearly reminder of sins.",
         "translation": "WEB",
         "illustrationId": "ill-heb-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sacrifices",
+            "entityId": "term-offering"
+          }
+        ]
       },
       {
         "id": "HEB-10:4",
@@ -2616,6 +2991,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-10",
         "linkedEntities": [
           {
+            "spanText": "sanctified",
+            "entityId": "term-sanctification"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           }
@@ -2630,7 +3009,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Every priest indeed stands day by day serving and often offering the same sacrifices which can never take away sins,",
         "translation": "WEB",
         "illustrationId": "ill-heb-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-high-priest-christ"
+          }
+        ]
       },
       {
         "id": "HEB-10:12",
@@ -2663,7 +3047,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For by one offering he has perfected forever those who are being sanctified.",
         "translation": "WEB",
         "illustrationId": "ill-heb-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctified",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "HEB-10:15",
@@ -2744,7 +3133,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "by the way which he dedicated for us, a new and living way, through the veil, that is to say, his flesh,",
         "translation": "WEB",
         "illustrationId": "ill-heb-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "HEB-10:21",
@@ -2755,7 +3149,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "and having a great priest over God’s house,",
         "translation": "WEB",
         "illustrationId": "ill-heb-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-high-priest-christ"
+          }
+        ]
       },
       {
         "id": "HEB-10:22",
@@ -2770,6 +3169,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
           }
         ]
       },
@@ -2783,6 +3186,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-heb-10",
         "linkedEntities": [
+          {
+            "spanText": "confession",
+            "entityId": "term-confession"
+          },
           {
             "spanText": "hope",
             "entityId": "term-hope"
@@ -2851,6 +3258,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Moses",
             "entityId": "char-moses"
+          },
+          {
+            "spanText": "witnesses",
+            "entityId": "term-witness-martyr"
           }
         ]
       },
@@ -2865,16 +3276,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-10",
         "linkedEntities": [
           {
-            "spanText": "grace",
-            "entityId": "term-grace"
-          },
-          {
             "spanText": "covenant",
             "entityId": "term-covenant"
           },
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "grace",
+            "entityId": "term-grace"
           }
         ]
       },
@@ -2977,6 +3388,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-10",
         "linkedEntities": [
           {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
           }
@@ -3036,7 +3451,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For by this, the elders obtained testimony.",
         "translation": "WEB",
         "illustrationId": "ill-heb-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "elders",
+            "entityId": "term-elder-presbyter"
+          },
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
+          }
+        ]
       },
       {
         "id": "HEB-11:3",
@@ -3065,16 +3489,24 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-11",
         "linkedEntities": [
           {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          },
+          {
             "spanText": "Abel",
             "entityId": "char-abel"
+          },
+          {
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
           },
           {
             "spanText": "Cain",
             "entityId": "char-cain"
           },
           {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
           }
         ]
       },
@@ -3089,12 +3521,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-11",
         "linkedEntities": [
           {
-            "spanText": "Enoch",
-            "entityId": "char-enoch"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Enoch",
+            "entityId": "char-enoch"
           }
         ]
       },
@@ -3125,16 +3557,20 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-11",
         "linkedEntities": [
           {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          },
+          {
             "spanText": "Noah",
             "entityId": "char-noah"
           },
           {
-            "spanText": "righteousness",
-            "entityId": "term-righteousness"
+            "spanText": "heir",
+            "entityId": "term-inheritance"
           },
           {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -3149,12 +3585,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-11",
         "linkedEntities": [
           {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          },
+          {
             "spanText": "Abraham",
             "entityId": "char-abraham"
           },
           {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
+            "spanText": "inheritance",
+            "entityId": "term-inheritance"
           }
         ]
       },
@@ -3169,16 +3609,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-11",
         "linkedEntities": [
           {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          },
+          {
             "spanText": "Isaac",
             "entityId": "char-isaac"
           },
           {
             "spanText": "Jacob",
             "entityId": "char-jacob"
-          },
-          {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -3204,12 +3644,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-11",
         "linkedEntities": [
           {
-            "spanText": "Sarah",
-            "entityId": "char-sarah"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Sarah",
+            "entityId": "char-sarah"
           }
         ]
       },
@@ -3237,6 +3677,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "confessed",
+            "entityId": "term-confession"
           }
         ]
       },
@@ -3284,16 +3728,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-11",
         "linkedEntities": [
           {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          },
+          {
             "spanText": "Abraham",
             "entityId": "char-abraham"
           },
           {
             "spanText": "Isaac",
             "entityId": "char-isaac"
-          },
-          {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -3335,6 +3779,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-11",
         "linkedEntities": [
           {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          },
+          {
             "spanText": "Isaac",
             "entityId": "char-isaac"
           },
@@ -3345,10 +3793,6 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Esau",
             "entityId": "char-esau"
-          },
-          {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -3363,16 +3807,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-11",
         "linkedEntities": [
           {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          },
+          {
             "spanText": "Jacob",
             "entityId": "char-jacob"
           },
           {
             "spanText": "Joseph",
             "entityId": "char-joseph"
-          },
-          {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -3387,12 +3831,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-11",
         "linkedEntities": [
           {
-            "spanText": "Joseph",
-            "entityId": "char-joseph"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Joseph",
+            "entityId": "char-joseph"
           },
           {
             "spanText": "Israel",
@@ -3411,12 +3855,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-11",
         "linkedEntities": [
           {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          },
+          {
             "spanText": "Moses",
             "entityId": "char-moses"
           },
           {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
+            "spanText": "commandment",
+            "entityId": "term-commandments"
           }
         ]
       },
@@ -3431,16 +3879,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-11",
         "linkedEntities": [
           {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          },
+          {
             "spanText": "Moses",
             "entityId": "char-moses"
           },
           {
             "spanText": "Pharaoh",
             "entityId": "char-pharaoh"
-          },
-          {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -3466,6 +3914,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-11",
         "linkedEntities": [
           {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
             "spanText": "Egypt",
             "entityId": "place-egypt"
           }
@@ -3482,12 +3934,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-11",
         "linkedEntities": [
           {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          },
+          {
             "spanText": "Egypt",
             "entityId": "place-egypt"
           },
           {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
           }
         ]
       },
@@ -3502,12 +3958,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-11",
         "linkedEntities": [
           {
-            "spanText": "Passover",
-            "entityId": "term-passover"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Passover",
+            "entityId": "term-passover"
           }
         ]
       },
@@ -3522,16 +3978,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-11",
         "linkedEntities": [
           {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          },
+          {
             "spanText": "Red Sea",
             "entityId": "place-red-sea"
           },
           {
             "spanText": "Egyptians",
             "entityId": "char-egyptians"
-          },
-          {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -3546,12 +4002,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-11",
         "linkedEntities": [
           {
-            "spanText": "Jericho",
-            "entityId": "place-jericho"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Jericho",
+            "entityId": "place-jericho"
           }
         ]
       },
@@ -3566,12 +4022,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-11",
         "linkedEntities": [
           {
-            "spanText": "Rahab",
-            "entityId": "char-rahab"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Rahab",
+            "entityId": "char-rahab"
           },
           {
             "spanText": "peace",
@@ -3606,12 +4062,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-jephthah"
           },
           {
+            "spanText": "David",
+            "entityId": "char-david"
+          },
+          {
             "spanText": "Samuel",
             "entityId": "char-samuel"
           },
           {
-            "spanText": "David",
-            "entityId": "char-david"
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
           }
         ]
       },
@@ -3626,12 +4086,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-11",
         "linkedEntities": [
           {
-            "spanText": "righteousness",
-            "entityId": "term-righteousness"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -3656,6 +4116,14 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-heb-11",
         "linkedEntities": [
+          {
+            "spanText": "resurrection",
+            "entityId": "term-resurrection"
+          },
+          {
+            "spanText": "resurrection",
+            "entityId": "term-resurrection"
+          },
           {
             "spanText": "resurrection",
             "entityId": "term-resurrection"
@@ -3766,12 +4234,20 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-jesus"
           },
           {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          },
+          {
             "spanText": "joy",
             "entityId": "term-joy-chara"
           },
           {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
+            "spanText": "cross",
+            "entityId": "term-crucifixion"
+          },
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
           }
         ]
       },
@@ -3850,7 +4326,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Furthermore, we had the fathers of our flesh to chasten us, and we paid them respect. Shall we not much rather be in subjection to the Father of spirits, and live?",
         "translation": "WEB",
         "illustrationId": "ill-heb-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "HEB-12:10",
@@ -3861,7 +4342,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For they indeed, for a few days, punished us as seemed good to them; but he for our profit, that we may be partakers of his holiness.",
         "translation": "WEB",
         "illustrationId": "ill-heb-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "holiness",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "HEB-12:11",
@@ -3914,6 +4400,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "sanctification",
+            "entityId": "term-sanctification"
           }
         ]
       },
@@ -3980,7 +4470,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "the sound of a trumpet, and the voice of words; which those who heard it begged that not one more word should be spoken to them,",
         "translation": "WEB",
         "illustrationId": "ill-heb-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "trumpet",
+            "entityId": "term-trumpets"
+          }
+        ]
       },
       {
         "id": "HEB-12:20",
@@ -4020,12 +4515,16 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-12",
         "linkedEntities": [
           {
+            "spanText": "Zion",
+            "entityId": "place-zion"
+          },
+          {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
           },
           {
-            "spanText": "Zion",
-            "entityId": "place-zion"
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
           }
         ]
       },
@@ -4051,20 +4550,20 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-12",
         "linkedEntities": [
           {
-            "spanText": "new covenant",
-            "entityId": "term-new-covenant"
-          },
-          {
-            "spanText": "Abel",
-            "entityId": "char-abel"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           },
           {
             "spanText": "mediator",
             "entityId": "term-mediator"
+          },
+          {
+            "spanText": "new covenant",
+            "entityId": "term-new-covenant"
+          },
+          {
+            "spanText": "Abel",
+            "entityId": "char-abel"
           }
         ]
       },
@@ -4166,7 +4665,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t forget to show hospitality to strangers, for in doing so, some have entertained angels without knowing it.",
         "translation": "WEB",
         "illustrationId": "ill-heb-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "HEB-13:3",
@@ -4271,6 +4775,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-13",
         "linkedEntities": [
           {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
             "spanText": "tabernacle",
             "entityId": "term-tabernacle"
           }
@@ -4285,7 +4793,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the bodies of those animals, whose blood is brought into the holy place by the high priest as an offering for sin, are burned outside of the camp.",
         "translation": "WEB",
         "illustrationId": "ill-heb-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "high priest",
+            "entityId": "term-high-priest-christ"
+          }
+        ]
       },
       {
         "id": "HEB-13:12",
@@ -4300,6 +4813,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "sanctify",
+            "entityId": "term-sanctification"
           }
         ]
       },
@@ -4334,7 +4851,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Through him, then, let’s offer up a sacrifice of praise to God continually, that is, the fruit of lips which proclaim allegiance to his name.",
         "translation": "WEB",
         "illustrationId": "ill-heb-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sacrifice",
+            "entityId": "term-offering"
+          }
+        ]
       },
       {
         "id": "HEB-13:16",
@@ -4345,7 +4867,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "But don’t forget to be doing good and sharing, for with such sacrifices God is well pleased.",
         "translation": "WEB",
         "illustrationId": "ill-heb-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sacrifices",
+            "entityId": "term-offering"
+          }
+        ]
       },
       {
         "id": "HEB-13:17",
@@ -4372,7 +4899,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Pray for us, for we are persuaded that we have a good conscience, desiring to live honorably in all things.",
         "translation": "WEB",
         "illustrationId": "ill-heb-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
+          }
+        ]
       },
       {
         "id": "HEB-13:19",
@@ -4396,16 +4928,20 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-heb-13",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
           },
           {
+            "spanText": "shepherd",
+            "entityId": "term-good-shepherd"
+          },
+          {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -4422,6 +4958,14 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       },
@@ -4461,7 +5005,12 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
         "text": "Greet all of your leaders and all the saints. The Italians greet you.",
         "translation": "WEB",
         "illustrationId": "ill-heb-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "HEB-13:25",
@@ -4476,6 +5025,10 @@ export const HEBREWS_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Grace",
             "entityId": "term-grace"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       }

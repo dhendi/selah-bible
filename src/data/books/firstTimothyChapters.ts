@@ -23,12 +23,24 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1ti-1",
         "linkedEntities": [
           {
+            "spanText": "Paul",
+            "entityId": "char-paul"
+          },
+          {
+            "spanText": "apostle",
+            "entityId": "term-apostle"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           },
           {
-            "spanText": "Paul",
-            "entityId": "char-paul"
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "commandment",
+            "entityId": "term-commandments"
           },
           {
             "spanText": "hope",
@@ -51,24 +63,28 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-timothy"
           },
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
           },
           {
             "spanText": "Grace",
             "entityId": "term-grace"
           },
           {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
+            "spanText": "mercy",
+            "entityId": "term-loyal-love"
           },
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
           },
           {
-            "spanText": "mercy",
-            "entityId": "term-loyal-love"
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -99,6 +115,10 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1ti-1",
         "linkedEntities": [
           {
+            "spanText": "stewardship",
+            "entityId": "term-steward"
+          },
+          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
           }
@@ -115,12 +135,16 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1ti-1",
         "linkedEntities": [
           {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
-          },
-          {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
+          },
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -171,7 +195,12 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "as knowing this, that law is not made for a righteous person, but for the lawless and insubordinate, for the ungodly and sinners, for the unholy and profane, for murderers of fathers and murderers of mothers, for manslayers,",
         "translation": "WEB",
         "illustrationId": "ill-1ti-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "1TI-1:10",
@@ -202,6 +231,10 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
           }
         ]
       },
@@ -248,10 +281,6 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1ti-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "grace",
             "entityId": "term-grace"
           },
@@ -262,6 +291,10 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -292,12 +325,16 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1ti-1",
         "linkedEntities": [
           {
+            "spanText": "mercy",
+            "entityId": "term-loyal-love"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           },
           {
-            "spanText": "mercy",
-            "entityId": "term-loyal-love"
+            "spanText": "eternal life",
+            "entityId": "term-eternal-life"
           }
         ]
       },
@@ -310,7 +347,16 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now to the King eternal, immortal, invisible, to God who alone is wise, be honor and glory forever and ever. Amen.",
         "translation": "WEB",
         "illustrationId": "ill-1ti-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
+          }
+        ]
       },
       {
         "id": "1TI-1:18",
@@ -325,6 +371,10 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Timothy",
             "entityId": "char-timothy"
+          },
+          {
+            "spanText": "prophecies",
+            "entityId": "term-prophecy-nt"
           }
         ]
       },
@@ -341,6 +391,10 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
           }
         ]
       },
@@ -357,6 +411,10 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Satan",
             "entityId": "char-satan"
+          },
+          {
+            "spanText": "blaspheme",
+            "entityId": "term-blasphemy"
           }
         ]
       }
@@ -425,7 +483,12 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "who desires all people to be saved and come to full knowledge of the truth.",
         "translation": "WEB",
         "illustrationId": "ill-1ti-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saved",
+            "entityId": "term-salvation"
+          }
+        ]
       },
       {
         "id": "1TI-2:5",
@@ -438,12 +501,16 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1ti-2",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "mediator",
             "entityId": "term-mediator"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -456,7 +523,16 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "who gave himself as a ransom for all, the testimony in its own times,",
         "translation": "WEB",
         "illustrationId": "ill-1ti-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "ransom",
+            "entityId": "term-ransom-redemption"
+          },
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
+          }
+        ]
       },
       {
         "id": "1TI-2:7",
@@ -469,12 +545,20 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1ti-2",
         "linkedEntities": [
           {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
+            "spanText": "apostle",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           },
           {
             "spanText": "Gentiles",
             "entityId": "term-gentiles"
+          },
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -585,12 +669,20 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1ti-2",
         "linkedEntities": [
           {
+            "spanText": "saved",
+            "entityId": "term-salvation"
+          },
+          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
           },
           {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "sanctification",
+            "entityId": "term-sanctification"
           }
         ]
       }
@@ -616,7 +708,12 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "This is a faithful saying: someone who seeks to be an overseer desires a good work.",
         "translation": "WEB",
         "illustrationId": "ill-1ti-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "overseer",
+            "entityId": "term-overseer"
+          }
+        ]
       },
       {
         "id": "1TI-3:2",
@@ -627,7 +724,12 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "The overseer therefore must be without reproach, the husband of one wife, temperate, sensible, modest, hospitable, good at teaching;",
         "translation": "WEB",
         "illustrationId": "ill-1ti-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "overseer",
+            "entityId": "term-overseer"
+          }
+        ]
       },
       {
         "id": "1TI-3:3",
@@ -638,7 +740,12 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "not a drinker, not violent, not greedy for money, but gentle, not quarrelsome, not covetous;",
         "translation": "WEB",
         "illustrationId": "ill-1ti-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covetous",
+            "entityId": "term-covetousness"
+          }
+        ]
       },
       {
         "id": "1TI-3:4",
@@ -671,7 +778,16 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "not a new convert, lest being puffed up he fall into the same condemnation as the devil.",
         "translation": "WEB",
         "illustrationId": "ill-1ti-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "condemnation",
+            "entityId": "term-condemnation"
+          },
+          {
+            "spanText": "devil",
+            "entityId": "term-satan-adversary"
+          }
+        ]
       },
       {
         "id": "1TI-3:7",
@@ -682,7 +798,16 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Moreover he must have good testimony from those who are outside, to avoid falling into reproach and the snare of the devil.",
         "translation": "WEB",
         "illustrationId": "ill-1ti-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
+          },
+          {
+            "spanText": "devil",
+            "entityId": "term-satan-adversary"
+          }
+        ]
       },
       {
         "id": "1TI-3:8",
@@ -708,6 +833,10 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
           }
         ]
       },
@@ -755,12 +884,16 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1ti-3",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -799,6 +932,26 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "godliness",
             "entityId": "term-godliness"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          },
+          {
+            "spanText": "justified",
+            "entityId": "term-justification"
+          },
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "preached",
+            "entityId": "term-preach-proclaim"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
           }
         ]
       }
@@ -826,12 +979,16 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1ti-4",
         "linkedEntities": [
           {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
+          },
+          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
           },
           {
-            "spanText": "Spirit",
-            "entityId": "term-ruach"
+            "spanText": "demons",
+            "entityId": "term-demons-evil-spirits"
           }
         ]
       },
@@ -844,7 +1001,16 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "through the hypocrisy of men who speak lies, branded in their own conscience as with a hot iron,",
         "translation": "WEB",
         "illustrationId": "ill-1ti-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "hypocrisy",
+            "entityId": "term-hypocrite"
+          },
+          {
+            "spanText": "conscience",
+            "entityId": "term-conscience"
+          }
+        ]
       },
       {
         "id": "1TI-4:3",
@@ -879,6 +1045,10 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1ti-4",
         "linkedEntities": [
           {
+            "spanText": "sanctified",
+            "entityId": "term-sanctification"
+          },
+          {
             "spanText": "prayer",
             "entityId": "term-prayer"
           }
@@ -894,6 +1064,10 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-1ti-4",
         "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
@@ -980,12 +1154,12 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1ti-4",
         "linkedEntities": [
           {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
-          },
-          {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -1009,7 +1183,16 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t neglect the gift that is in you, which was given to you by prophecy, with the laying on of the hands of the elders.",
         "translation": "WEB",
         "illustrationId": "ill-1ti-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophecy",
+            "entityId": "term-prophecy-nt"
+          },
+          {
+            "spanText": "elders",
+            "entityId": "term-elder-presbyter"
+          }
+        ]
       },
       {
         "id": "1TI-4:15",
@@ -1066,7 +1249,12 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "the elder women as mothers; the younger as sisters, in all purity.",
         "translation": "WEB",
         "illustrationId": "ill-1ti-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "elder",
+            "entityId": "term-elder-presbyter"
+          }
+        ]
       },
       {
         "id": "1TI-5:3",
@@ -1077,7 +1265,12 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Honor widows who are widows indeed.",
         "translation": "WEB",
         "illustrationId": "ill-1ti-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "widows",
+            "entityId": "term-widows-care"
+          }
+        ]
       },
       {
         "id": "1TI-5:4",
@@ -1088,7 +1281,12 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if any widow has children or grandchildren, let them learn first to show piety toward their own family and to repay their parents, for this is acceptable in the sight of God.",
         "translation": "WEB",
         "illustrationId": "ill-1ti-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "widow",
+            "entityId": "term-widows-care"
+          }
+        ]
       },
       {
         "id": "1TI-5:5",
@@ -1168,7 +1366,12 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "being approved by good works, if she has brought up children, if she has been hospitable to strangers, if she has washed the saints’ feet, if she has relieved the afflicted, and if she has diligently followed every good work.",
         "translation": "WEB",
         "illustrationId": "ill-1ti-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "1TI-5:11",
@@ -1179,7 +1382,12 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "But refuse younger widows, for when they have grown wanton against Christ, they desire to marry,",
         "translation": "WEB",
         "illustrationId": "ill-1ti-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "1TI-5:12",
@@ -1190,7 +1398,12 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "having condemnation, because they have rejected their first pledge.",
         "translation": "WEB",
         "illustrationId": "ill-1ti-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "condemnation",
+            "entityId": "term-condemnation"
+          }
+        ]
       },
       {
         "id": "1TI-5:13",
@@ -1250,7 +1463,12 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let the elders who rule well be counted worthy of double honor, especially those who labor in the word and in teaching.",
         "translation": "WEB",
         "illustrationId": "ill-1ti-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "elders",
+            "entityId": "term-elder-presbyter"
+          }
+        ]
       },
       {
         "id": "1TI-5:18",
@@ -1277,7 +1495,12 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t receive an accusation against an elder, except at the word of two or three witnesses.",
         "translation": "WEB",
         "illustrationId": "ill-1ti-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "witnesses",
+            "entityId": "term-witness-martyr"
+          }
+        ]
       },
       {
         "id": "1TI-5:20",
@@ -1303,6 +1526,10 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
           }
         ]
       },
@@ -1372,7 +1599,20 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let as many as are bondservants under the yoke count their own masters worthy of all honor, that the name of God and the doctrine not be blasphemed.",
         "translation": "WEB",
         "illustrationId": "ill-1ti-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "bondservants",
+            "entityId": "term-bondservant"
+          },
+          {
+            "spanText": "yoke",
+            "entityId": "term-yoke"
+          },
+          {
+            "spanText": "blasphemed",
+            "entityId": "term-blasphemy"
+          }
+        ]
       },
       {
         "id": "1TI-6:2",
@@ -1508,12 +1748,12 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1ti-6",
         "linkedEntities": [
           {
-            "spanText": "godliness",
-            "entityId": "term-godliness"
-          },
-          {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "godliness",
+            "entityId": "term-godliness"
           },
           {
             "spanText": "faith",
@@ -1538,6 +1778,18 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "eternal life",
+            "entityId": "term-eternal-life"
+          },
+          {
+            "spanText": "confessed",
+            "entityId": "term-confession"
+          },
+          {
+            "spanText": "witnesses",
+            "entityId": "term-witness-martyr"
           }
         ]
       },
@@ -1552,12 +1804,20 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1ti-6",
         "linkedEntities": [
           {
-            "spanText": "Pontius Pilate",
-            "entityId": "char-pilate"
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           },
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Pontius Pilate",
+            "entityId": "char-pilate"
+          },
+          {
+            "spanText": "confession",
+            "entityId": "term-confession"
           }
         ]
       },
@@ -1571,6 +1831,10 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-1ti-6",
         "linkedEntities": [
+          {
+            "spanText": "commandment",
+            "entityId": "term-commandments"
+          },
           {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
@@ -1597,7 +1861,12 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "He alone has immortality, dwelling in unapproachable light, whom no man has seen, nor can see: to whom be honor and eternal power. Amen.",
         "translation": "WEB",
         "illustrationId": "ill-1ti-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
+          }
+        ]
       },
       {
         "id": "1TI-6:17",
@@ -1635,7 +1904,12 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "text": "laying up in store for themselves a good foundation against the time to come, that they may lay hold of eternal life.",
         "translation": "WEB",
         "illustrationId": "ill-1ti-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "eternal life",
+            "entityId": "term-eternal-life"
+          }
+        ]
       },
       {
         "id": "1TI-6:20",
@@ -1664,12 +1938,16 @@ export const FIRST_TIMOTHY_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1ti-6",
         "linkedEntities": [
           {
+            "spanText": "faith",
+            "entityId": "term-faith-pistis"
+          },
+          {
             "spanText": "Grace",
             "entityId": "term-grace"
           },
           {
-            "spanText": "faith",
-            "entityId": "term-faith-pistis"
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       }

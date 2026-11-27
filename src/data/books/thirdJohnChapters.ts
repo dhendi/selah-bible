@@ -23,6 +23,10 @@ export const THIRD_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-3jn-1",
         "linkedEntities": [
           {
+            "spanText": "elder",
+            "entityId": "term-elder-presbyter"
+          },
+          {
             "spanText": "Gaius",
             "entityId": "char-gaius-elder"
           },
@@ -79,7 +83,12 @@ export const THIRD_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "Beloved, you do a faithful work in whatever you accomplish for those who are brothers and strangers.",
         "translation": "WEB",
         "illustrationId": "ill-3jn-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
+          }
+        ]
       },
       {
         "id": "3JN-1:6",
@@ -166,7 +175,16 @@ export const THIRD_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "Demetrius has the testimony of all, and of the truth itself; yes, we also testify, and you know that our testimony is true.",
         "translation": "WEB",
         "illustrationId": "ill-3jn-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
+          },
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
+          }
+        ]
       },
       {
         "id": "3JN-1:13",

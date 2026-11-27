@@ -23,6 +23,10 @@ export const SECOND_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2jn-1",
         "linkedEntities": [
           {
+            "spanText": "elder",
+            "entityId": "term-elder-presbyter"
+          },
+          {
             "spanText": "love",
             "entityId": "term-agape-love"
           }
@@ -50,24 +54,24 @@ export const SECOND_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2jn-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Grace",
             "entityId": "term-grace"
           },
           {
-            "spanText": "love",
-            "entityId": "term-agape-love"
+            "spanText": "mercy",
+            "entityId": "term-loyal-love"
           },
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
           },
           {
-            "spanText": "mercy",
-            "entityId": "term-loyal-love"
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
+          },
+          {
+            "spanText": "love",
+            "entityId": "term-agape-love"
           }
         ]
       },
@@ -98,6 +102,10 @@ export const SECOND_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2jn-1",
         "linkedEntities": [
           {
+            "spanText": "commandment",
+            "entityId": "term-commandments"
+          },
+          {
             "spanText": "love",
             "entityId": "term-agape-love"
           }
@@ -116,6 +124,10 @@ export const SECOND_JOHN_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "commandments",
+            "entityId": "term-commandments"
           }
         ]
       },
@@ -130,8 +142,16 @@ export const SECOND_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2jn-1",
         "linkedEntities": [
           {
+            "spanText": "confess",
+            "entityId": "term-confession"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
           }
         ]
       },
@@ -155,7 +175,12 @@ export const SECOND_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whoever transgresses and doesn’t remain in the teaching of Christ, doesn’t have God. He who remains in the teaching has both the Father and the Son.",
         "translation": "WEB",
         "illustrationId": "ill-2jn-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "2JN-1:10",
@@ -190,12 +215,12 @@ export const SECOND_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2jn-1",
         "linkedEntities": [
           {
-            "spanText": "joy",
-            "entityId": "term-joy-chara"
-          },
-          {
             "spanText": "hope",
             "entityId": "term-hope"
+          },
+          {
+            "spanText": "joy",
+            "entityId": "term-joy-chara"
           }
         ]
       },
@@ -208,7 +233,12 @@ export const SECOND_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of your chosen sister greet you. Amen.",
         "translation": "WEB",
         "illustrationId": "ill-2jn-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
+          }
+        ]
       }
     ]
   }

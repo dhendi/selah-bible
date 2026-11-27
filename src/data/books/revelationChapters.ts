@@ -27,6 +27,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-jesus"
           },
           {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          },
+          {
             "spanText": "John",
             "entityId": "char-john-apostle"
           }
@@ -43,6 +47,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-1",
         "linkedEntities": [
           {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           }
@@ -57,7 +65,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "Blessed is he who reads and those who hear the words of the prophecy, and keep the things that are written in it, for the time is at hand.",
         "translation": "WEB",
         "illustrationId": "ill-rev-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophecy",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "REV-1:4",
@@ -80,6 +93,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
           }
         ]
       },
@@ -96,6 +113,14 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "witness",
+            "entityId": "term-witness-martyr"
           }
         ]
       },
@@ -108,7 +133,20 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "and he made us to be a Kingdom, priests to his God and Father—to him be the glory and the dominion forever and ever. Amen.",
         "translation": "WEB",
         "illustrationId": "ill-rev-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
+          }
+        ]
       },
       {
         "id": "REV-1:7",
@@ -119,7 +157,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, he is coming with the clouds, and every eye will see him, including those who pierced him. All the tribes of the earth will mourn over him. Even so, Amen.",
         "translation": "WEB",
         "illustrationId": "ill-rev-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
+          }
+        ]
       },
       {
         "id": "REV-1:8",
@@ -152,12 +195,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "John",
             "entityId": "char-john-apostle"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           },
           {
             "spanText": "Jesus",
@@ -166,6 +209,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Patmos",
             "entityId": "place-patmos"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -182,6 +229,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "trumpet",
+            "entityId": "term-trumpets"
           }
         ]
       },
@@ -276,7 +327,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "and the Living one. I was dead, and behold, I am alive forever and ever. Amen. I have the keys of Death and of Hades.",
         "translation": "WEB",
         "illustrationId": "ill-rev-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hades",
+            "entityId": "term-hades"
+          }
+        ]
       },
       {
         "id": "REV-1:19",
@@ -298,7 +354,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "The mystery of the seven stars which you saw in my right hand, and the seven golden lamp stands is this: The seven stars are the angels of the seven assemblies. The seven lamp stands are seven assemblies.",
         "translation": "WEB",
         "illustrationId": "ill-rev-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       }
     ]
   },
@@ -324,6 +385,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-2",
         "linkedEntities": [
           {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          },
+          {
             "spanText": "Ephesus",
             "entityId": "place-ephesus"
           }
@@ -338,7 +403,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "“I know your works, and your toil and perseverance, and that you can’t tolerate evil men, and have tested those who call themselves apostles, and they are not, and found them false.",
         "translation": "WEB",
         "illustrationId": "ill-rev-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          }
+        ]
       },
       {
         "id": "REV-2:3",
@@ -371,7 +441,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "Remember therefore from where you have fallen, and repent and do the first works; or else I am coming to you swiftly, and will move your lamp stand out of its place, unless you repent.",
         "translation": "WEB",
         "illustrationId": "ill-rev-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "repent",
+            "entityId": "term-repentance"
+          }
+        ]
       },
       {
         "id": "REV-2:6",
@@ -395,16 +470,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-2",
         "linkedEntities": [
           {
-            "spanText": "tree of life",
-            "entityId": "term-tree-of-life"
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           },
           {
             "spanText": "overcomes",
             "entityId": "term-overcomer"
           },
           {
-            "spanText": "Spirit",
-            "entityId": "term-ruach"
+            "spanText": "tree of life",
+            "entityId": "term-tree-of-life"
           }
         ]
       },
@@ -417,7 +492,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "“To the angel of the assembly in Smyrna write: “The first and the last, who was dead, and has come to life says these things:",
         "translation": "WEB",
         "illustrationId": "ill-rev-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "REV-2:9",
@@ -429,6 +509,14 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rev-2",
         "linkedEntities": [
+          {
+            "spanText": "blasphemy",
+            "entityId": "term-blasphemy"
+          },
+          {
+            "spanText": "synagogue",
+            "entityId": "term-synagogue"
+          },
           {
             "spanText": "Satan",
             "entityId": "char-satan"
@@ -444,7 +532,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t be afraid of the things which you are about to suffer. Behold, the devil is about to throw some of you into prison, that you may be tested; and you will have oppression for ten days. Be faithful to death, and I will give you the crown of life.",
         "translation": "WEB",
         "illustrationId": "ill-rev-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "devil",
+            "entityId": "term-satan-adversary"
+          }
+        ]
       },
       {
         "id": "REV-2:11",
@@ -457,12 +550,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-2",
         "linkedEntities": [
           {
-            "spanText": "overcomes",
-            "entityId": "term-overcomer"
-          },
-          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "overcomes",
+            "entityId": "term-overcomer"
           }
         ]
       },
@@ -492,8 +585,20 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-satan"
           },
           {
+            "spanText": "Satan",
+            "entityId": "term-satan-adversary"
+          },
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
+          },
+          {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "witness",
+            "entityId": "term-witness-martyr"
           }
         ]
       },
@@ -516,8 +621,20 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-balak"
           },
           {
+            "spanText": "stumbling block",
+            "entityId": "term-stumbling-block"
+          },
+          {
             "spanText": "Israel",
             "entityId": "term-israel"
+          },
+          {
+            "spanText": "idols",
+            "entityId": "term-idolatry"
+          },
+          {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
           }
         ]
       },
@@ -541,7 +658,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "Repent therefore, or else I am coming to you quickly, and I will make war against them with the sword of my mouth.",
         "translation": "WEB",
         "illustrationId": "ill-rev-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Repent",
+            "entityId": "term-repentance"
+          }
+        ]
       },
       {
         "id": "REV-2:17",
@@ -554,12 +676,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-2",
         "linkedEntities": [
           {
-            "spanText": "overcomes",
-            "entityId": "term-overcomer"
-          },
-          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "overcomes",
+            "entityId": "term-overcomer"
           }
         ]
       },
@@ -603,6 +725,14 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jezebel",
             "entityId": "char-jezebel"
+          },
+          {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
+          },
+          {
+            "spanText": "idols",
+            "entityId": "term-idolatry"
           }
         ]
       },
@@ -615,7 +745,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "I gave her time to repent, but she refuses to repent of her sexual immorality.",
         "translation": "WEB",
         "illustrationId": "ill-rev-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "repent",
+            "entityId": "term-repentance"
+          },
+          {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
+          }
+        ]
       },
       {
         "id": "REV-2:22",
@@ -742,7 +881,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "“And to the angel of the assembly in Sardis write: “He who has the seven Spirits of God, and the seven stars says these things: “I know your works, that you have a reputation of being alive, but you are dead.",
         "translation": "WEB",
         "illustrationId": "ill-rev-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "REV-3:2",
@@ -764,7 +908,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "Remember therefore how you have received and heard. Keep it and repent. If therefore you won’t watch, I will come as a thief, and you won’t know what hour I will come upon you.",
         "translation": "WEB",
         "illustrationId": "ill-rev-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "repent",
+            "entityId": "term-repentance"
+          }
+        ]
       },
       {
         "id": "REV-3:4",
@@ -790,6 +939,14 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "overcomes",
             "entityId": "term-overcomer"
+          },
+          {
+            "spanText": "confess",
+            "entityId": "term-confession"
+          },
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
           }
         ]
       },
@@ -847,6 +1004,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-3",
         "linkedEntities": [
           {
+            "spanText": "synagogue",
+            "entityId": "term-synagogue"
+          },
+          {
             "spanText": "Satan",
             "entityId": "char-satan"
           }
@@ -885,16 +1046,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-3",
         "linkedEntities": [
           {
-            "spanText": "new Jerusalem",
-            "entityId": "place-new-jerusalem"
-          },
-          {
             "spanText": "overcomes",
             "entityId": "term-overcomer"
           },
           {
             "spanText": "temple",
             "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "new Jerusalem",
+            "entityId": "place-new-jerusalem"
           }
         ]
       },
@@ -923,7 +1084,20 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "“To the angel of the assembly in Laodicea write: “The Amen, the Faithful and True Witness, the Beginning of God’s creation, says these things:",
         "translation": "WEB",
         "illustrationId": "ill-rev-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
+          },
+          {
+            "spanText": "Faithful",
+            "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Witness",
+            "entityId": "term-witness-martyr"
+          }
+        ]
       },
       {
         "id": "REV-3:15",
@@ -978,7 +1152,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "As many as I love, I reprove and chasten. Be zealous therefore, and repent.",
         "translation": "WEB",
         "illustrationId": "ill-rev-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "repent",
+            "entityId": "term-repentance"
+          }
+        ]
       },
       {
         "id": "REV-3:20",
@@ -1004,6 +1183,14 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "overcomes",
             "entityId": "term-overcomer"
+          },
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
+          },
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
           }
         ]
       },
@@ -1045,7 +1232,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "After these things I looked and saw a door opened in heaven, and the first voice that I heard, like a trumpet speaking with me, was one saying, “Come up here, and I will show you the things which must happen after this.”",
         "translation": "WEB",
         "illustrationId": "ill-rev-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "trumpet",
+            "entityId": "term-trumpets"
+          }
+        ]
       },
       {
         "id": "REV-4:2",
@@ -1060,6 +1252,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
           }
         ]
       },
@@ -1072,7 +1268,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "that looked like a jasper stone and a sardius. There was a rainbow around the throne, like an emerald to look at.",
         "translation": "WEB",
         "illustrationId": "ill-rev-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
+          }
+        ]
       },
       {
         "id": "REV-4:4",
@@ -1083,7 +1284,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "Around the throne were twenty-four thrones. On the thrones were twenty-four elders sitting, dressed in white garments, with crowns of gold on their heads.",
         "translation": "WEB",
         "illustrationId": "ill-rev-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "elders",
+            "entityId": "term-elder-presbyter"
+          }
+        ]
       },
       {
         "id": "REV-4:5",
@@ -1138,7 +1344,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the living creatures give glory, honor, and thanks to him who sits on the throne, to him who lives forever and ever,",
         "translation": "WEB",
         "illustrationId": "ill-rev-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "REV-4:10",
@@ -1149,7 +1360,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "the twenty-four elders fall down before him who sits on the throne, and worship him who lives forever and ever, and throw their crowns before the throne, saying,",
         "translation": "WEB",
         "illustrationId": "ill-rev-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "elders",
+            "entityId": "term-elder-presbyter"
+          }
+        ]
       },
       {
         "id": "REV-4:11",
@@ -1160,7 +1376,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Worthy are you, our Lord and God, the Holy One, to receive the glory, the honor, and the power, for you created all things, and because of your desire they existed, and were created!”",
         "translation": "WEB",
         "illustrationId": "ill-rev-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       }
     ]
   },
@@ -1184,7 +1405,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "I saw, in the right hand of him who sat on the throne, a book written inside and outside, sealed shut with seven seals.",
         "translation": "WEB",
         "illustrationId": "ill-rev-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
+          },
+          {
+            "spanText": "seals",
+            "entityId": "term-scroll-seals"
+          }
+        ]
       },
       {
         "id": "REV-5:2",
@@ -1195,7 +1425,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "I saw a mighty angel proclaiming with a loud voice, “Who is worthy to open the book, and to break its seals?”",
         "translation": "WEB",
         "illustrationId": "ill-rev-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "seals",
+            "entityId": "term-scroll-seals"
+          }
+        ]
       },
       {
         "id": "REV-5:3",
@@ -1230,12 +1469,20 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-5",
         "linkedEntities": [
           {
-            "spanText": "David",
-            "entityId": "char-david"
+            "spanText": "elders",
+            "entityId": "term-elder-presbyter"
           },
           {
             "spanText": "Judah",
             "entityId": "char-judah"
+          },
+          {
+            "spanText": "David",
+            "entityId": "char-david"
+          },
+          {
+            "spanText": "seals",
+            "entityId": "term-scroll-seals"
           }
         ]
       },
@@ -1249,6 +1496,14 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rev-5",
         "linkedEntities": [
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
+          },
+          {
+            "spanText": "elders",
+            "entityId": "term-elder-presbyter"
+          },
           {
             "spanText": "Lamb",
             "entityId": "term-lamb-of-god"
@@ -1281,8 +1536,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "term-lamb-of-god"
           },
           {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          },
+          {
             "spanText": "prayers",
             "entityId": "term-prayer"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
           }
         ]
       },
@@ -1306,7 +1569,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "and made us kings and priests to our God, and we will reign on the earth.”",
         "translation": "WEB",
         "illustrationId": "ill-rev-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "REV-5:11",
@@ -1317,7 +1585,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "I saw, and I heard something like a voice of many angels around the throne, the living creatures, and the elders. The number of them was ten thousands of ten thousands, and thousands of thousands;",
         "translation": "WEB",
         "illustrationId": "ill-rev-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "REV-5:12",
@@ -1336,6 +1609,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "wisdom",
             "entityId": "term-wisdom"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
           }
         ]
       },
@@ -1352,6 +1629,14 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Lamb",
             "entityId": "term-lamb-of-god"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       },
@@ -1364,7 +1649,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "The four living creatures said, “Amen!” Then the elders fell down and worshiped.",
         "translation": "WEB",
         "illustrationId": "ill-rev-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
+          }
+        ]
       }
     ]
   },
@@ -1392,6 +1682,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Lamb",
             "entityId": "term-lamb-of-god"
+          },
+          {
+            "spanText": "seals",
+            "entityId": "term-scroll-seals"
           }
         ]
       },
@@ -1415,7 +1709,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "When he opened the second seal, I heard the second living creature saying, “Come!”",
         "translation": "WEB",
         "illustrationId": "ill-rev-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "seal",
+            "entityId": "term-scroll-seals"
+          }
+        ]
       },
       {
         "id": "REV-6:4",
@@ -1442,7 +1741,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "When he opened the third seal, I heard the third living creature saying, “Come and see!” And behold, a black horse, and he who sat on it had a balance in his hand.",
         "translation": "WEB",
         "illustrationId": "ill-rev-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "seal",
+            "entityId": "term-scroll-seals"
+          }
+        ]
       },
       {
         "id": "REV-6:6",
@@ -1453,7 +1757,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "I heard a voice in the middle of the four living creatures saying, “A choenix of wheat for a denarius, and three choenix of barley for a denarius! Don’t damage the oil and the wine!”",
         "translation": "WEB",
         "illustrationId": "ill-rev-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "denarius",
+            "entityId": "term-denarius"
+          },
+          {
+            "spanText": "denarius",
+            "entityId": "term-denarius"
+          }
+        ]
       },
       {
         "id": "REV-6:7",
@@ -1475,7 +1788,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "And behold, a pale horse, and the name of he who sat on it was Death. Hades followed with him. Authority over one fourth of the earth, to kill with the sword, with famine, with death, and by the wild animals of the earth was given to him.",
         "translation": "WEB",
         "illustrationId": "ill-rev-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hades",
+            "entityId": "term-hades"
+          }
+        ]
       },
       {
         "id": "REV-6:9",
@@ -1487,6 +1805,14 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rev-6",
         "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
+          },
           {
             "spanText": "Lamb",
             "entityId": "term-lamb-of-god"
@@ -1570,6 +1896,14 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-6",
         "linkedEntities": [
           {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
+          },
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          },
+          {
             "spanText": "Lamb",
             "entityId": "term-lamb-of-god"
           }
@@ -1584,7 +1918,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "for the great day of his wrath has come; and who is able to stand?”",
         "translation": "WEB",
         "illustrationId": "ill-rev-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          }
+        ]
       }
     ]
   },
@@ -1608,7 +1947,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "After this, I saw four angels standing at the four corners of the earth, holding the four winds of the earth, so that no wind would blow on the earth, or on the sea, or on any tree.",
         "translation": "WEB",
         "illustrationId": "ill-rev-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "REV-7:2",
@@ -1619,7 +1963,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "I saw another angel ascend from the sunrise, having the seal of the living God. He cried with a loud voice to the four angels to whom it was given to harm the earth and the sea,",
         "translation": "WEB",
         "illustrationId": "ill-rev-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "seal",
+            "entityId": "term-scroll-seals"
+          }
+        ]
       },
       {
         "id": "REV-7:3",
@@ -1630,7 +1983,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "saying, “Don’t harm the earth, neither the sea, nor the trees, until we have sealed the bondservants of our God on their foreheads!”",
         "translation": "WEB",
         "illustrationId": "ill-rev-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "bondservants",
+            "entityId": "term-bondservant"
+          }
+        ]
       },
       {
         "id": "REV-7:4",
@@ -1659,12 +2017,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-7",
         "linkedEntities": [
           {
-            "spanText": "Reuben",
-            "entityId": "char-reuben"
-          },
-          {
             "spanText": "Judah",
             "entityId": "char-judah"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
           },
           {
             "spanText": "Gad",
@@ -1755,6 +2113,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-7",
         "linkedEntities": [
           {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
+          },
+          {
             "spanText": "Lamb",
             "entityId": "term-lamb-of-god"
           }
@@ -1771,6 +2133,14 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-7",
         "linkedEntities": [
           {
+            "spanText": "Salvation",
+            "entityId": "term-salvation"
+          },
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
+          },
+          {
             "spanText": "Lamb",
             "entityId": "term-lamb-of-god"
           }
@@ -1785,7 +2155,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the angels were standing around the throne, the elders, and the four living creatures; and they fell on their faces before his throne, and worshiped God,",
         "translation": "WEB",
         "illustrationId": "ill-rev-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "elders",
+            "entityId": "term-elder-presbyter"
+          }
+        ]
       },
       {
         "id": "REV-7:12",
@@ -1797,6 +2172,18 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rev-7",
         "linkedEntities": [
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
           {
             "spanText": "wisdom",
             "entityId": "term-wisdom"
@@ -1812,7 +2199,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "One of the elders answered, saying to me, “These who are arrayed in the white robes, who are they, and where did they come from?”",
         "translation": "WEB",
         "illustrationId": "ill-rev-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "elders",
+            "entityId": "term-elder-presbyter"
+          }
+        ]
       },
       {
         "id": "REV-7:14",
@@ -1870,6 +2262,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Lamb",
             "entityId": "term-lamb-of-god"
+          },
+          {
+            "spanText": "shepherds",
+            "entityId": "term-good-shepherd"
           }
         ]
       }
@@ -1895,7 +2291,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "When he opened the seventh seal, there was silence in heaven for about half an hour.",
         "translation": "WEB",
         "illustrationId": "ill-rev-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "seal",
+            "entityId": "term-scroll-seals"
+          }
+        ]
       },
       {
         "id": "REV-8:2",
@@ -1906,7 +2307,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "I saw the seven angels who stand before God, and seven trumpets were given to them.",
         "translation": "WEB",
         "illustrationId": "ill-rev-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
+          }
+        ]
       },
       {
         "id": "REV-8:3",
@@ -1919,8 +2329,28 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-8",
         "linkedEntities": [
           {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          },
+          {
             "spanText": "prayers",
             "entityId": "term-prayer"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          },
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
           }
         ]
       },
@@ -1935,8 +2365,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-8",
         "linkedEntities": [
           {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          },
+          {
             "spanText": "prayers",
             "entityId": "term-prayer"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
           }
         ]
       },
@@ -1949,7 +2387,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "The angel took the censer, and he filled it with the fire of the altar, then threw it on the earth. Thunders, sounds, lightnings, and an earthquake followed.",
         "translation": "WEB",
         "illustrationId": "ill-rev-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "REV-8:6",
@@ -1960,7 +2403,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "The seven angels who had the seven trumpets prepared themselves to sound.",
         "translation": "WEB",
         "illustrationId": "ill-rev-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
+          }
+        ]
       },
       {
         "id": "REV-8:7",
@@ -2061,7 +2509,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "The fifth angel sounded, and I saw a star from the sky which had fallen to the earth. The key to the pit of the abyss was given to him.",
         "translation": "WEB",
         "illustrationId": "ill-rev-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "abyss",
+            "entityId": "term-abyss"
+          }
+        ]
       },
       {
         "id": "REV-9:2",
@@ -2072,7 +2529,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "He opened the pit of the abyss, and smoke went up out of the pit, like the smoke from a burning furnace. The sun and the air were darkened because of the smoke from the pit.",
         "translation": "WEB",
         "illustrationId": "ill-rev-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "abyss",
+            "entityId": "term-abyss"
+          }
+        ]
       },
       {
         "id": "REV-9:3",
@@ -2094,7 +2556,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "They were told that they should not hurt the grass of the earth, neither any green thing, neither any tree, but only those people who don’t have God’s seal on their foreheads.",
         "translation": "WEB",
         "illustrationId": "ill-rev-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "seal",
+            "entityId": "term-scroll-seals"
+          }
+        ]
       },
       {
         "id": "REV-9:5",
@@ -2171,7 +2638,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "They have over them as king the angel of the abyss. His name in Hebrew is “Abaddon”, but in Greek, he has the name “Apollyon”.",
         "translation": "WEB",
         "illustrationId": "ill-rev-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "abyss",
+            "entityId": "term-abyss"
+          }
+        ]
       },
       {
         "id": "REV-9:12",
@@ -2193,7 +2669,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sixth angel sounded. I heard a voice from the horns of the golden altar which is before God,",
         "translation": "WEB",
         "illustrationId": "ill-rev-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "REV-9:14",
@@ -2204,7 +2685,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "saying to the sixth angel who had the trumpet, “Free the four angels who are bound at the great river Euphrates!”",
         "translation": "WEB",
         "illustrationId": "ill-rev-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "trumpet",
+            "entityId": "term-trumpets"
+          }
+        ]
       },
       {
         "id": "REV-9:15",
@@ -2248,7 +2734,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "By these three plagues were one third of mankind killed: by the fire, the smoke, and the sulfur, which proceeded out of their mouths.",
         "translation": "WEB",
         "illustrationId": "ill-rev-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "plagues",
+            "entityId": "term-plagues"
+          }
+        ]
       },
       {
         "id": "REV-9:19",
@@ -2270,7 +2761,24 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "The rest of mankind, who were not killed with these plagues, didn’t repent of the works of their hands, that they wouldn’t worship demons, and the idols of gold, and of silver, and of brass, and of stone, and of wood; which can’t see, hear, or walk.",
         "translation": "WEB",
         "illustrationId": "ill-rev-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "plagues",
+            "entityId": "term-plagues"
+          },
+          {
+            "spanText": "repent",
+            "entityId": "term-repentance"
+          },
+          {
+            "spanText": "demons",
+            "entityId": "term-demons-evil-spirits"
+          },
+          {
+            "spanText": "idols",
+            "entityId": "term-idolatry"
+          }
+        ]
       },
       {
         "id": "REV-9:21",
@@ -2281,7 +2789,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "They didn’t repent of their murders, their sorceries, their sexual immorality, or their thefts.",
         "translation": "WEB",
         "illustrationId": "ill-rev-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "repent",
+            "entityId": "term-repentance"
+          },
+          {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
+          }
+        ]
       }
     ]
   },
@@ -2305,7 +2822,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "I saw a mighty angel coming down out of the sky, clothed with a cloud. A rainbow was on his head. His face was like the sun, and his feet like pillars of fire.",
         "translation": "WEB",
         "illustrationId": "ill-rev-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "REV-10:2",
@@ -2338,7 +2860,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the seven thunders sounded, I was about to write; but I heard a voice from the sky saying, “Seal up the things which the seven thunders said, and don’t write them.”",
         "translation": "WEB",
         "illustrationId": "ill-rev-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Seal",
+            "entityId": "term-scroll-seals"
+          }
+        ]
       },
       {
         "id": "REV-10:5",
@@ -2349,7 +2876,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "The angel whom I saw standing on the sea and on the land lifted up his right hand to the sky,",
         "translation": "WEB",
         "illustrationId": "ill-rev-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "REV-10:6",
@@ -2371,7 +2903,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "but in the days of the voice of the seventh angel, when he is about to sound, then the mystery of God is finished, as he declared to his servants, the prophets.",
         "translation": "WEB",
         "illustrationId": "ill-rev-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "REV-10:8",
@@ -2415,7 +2952,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "They told me, “You must prophesy again over many peoples, nations, languages, and kings.”",
         "translation": "WEB",
         "illustrationId": "ill-rev-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophesy",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       }
     ]
   },
@@ -2443,6 +2985,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -2471,7 +3017,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will give power to my two witnesses, and they will prophesy one thousand two hundred sixty days, clothed in sackcloth.”",
         "translation": "WEB",
         "illustrationId": "ill-rev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "witnesses",
+            "entityId": "term-witness-martyr"
+          },
+          {
+            "spanText": "prophesy",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "REV-11:4",
@@ -2504,7 +3059,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "These have the power to shut up the sky, that it may not rain during the days of their prophecy. They have power over the waters, to turn them into blood, and to strike the earth with every plague, as often as they desire.",
         "translation": "WEB",
         "illustrationId": "ill-rev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophecy",
+            "entityId": "term-prophecy-nt"
+          },
+          {
+            "spanText": "plague",
+            "entityId": "term-plagues"
+          }
+        ]
       },
       {
         "id": "REV-11:7",
@@ -2515,7 +3079,20 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "When they have finished their testimony, the beast that comes up out of the abyss will make war with them, and overcome them, and kill them.",
         "translation": "WEB",
         "illustrationId": "ill-rev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
+          },
+          {
+            "spanText": "beast",
+            "entityId": "term-beast-dragon"
+          },
+          {
+            "spanText": "abyss",
+            "entityId": "term-abyss"
+          }
+        ]
       },
       {
         "id": "REV-11:8",
@@ -2534,6 +3111,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "crucified",
+            "entityId": "term-crucifixion"
           }
         ]
       },
@@ -2595,7 +3176,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "In that day there was a great earthquake, and a tenth of the city fell. Seven thousand people were killed in the earthquake, and the rest were terrified, and gave glory to the God of heaven.",
         "translation": "WEB",
         "illustrationId": "ill-rev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "REV-11:14",
@@ -2617,7 +3203,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "The seventh angel sounded, and great voices in heaven followed, saying, “The kingdom of the world has become the Kingdom of our Lord, and of his Christ. He will reign forever and ever!”",
         "translation": "WEB",
         "illustrationId": "ill-rev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "REV-11:16",
@@ -2628,7 +3223,20 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "The twenty-four elders, who sit on their thrones before God’s throne, fell on their faces and worshiped God,",
         "translation": "WEB",
         "illustrationId": "ill-rev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "elders",
+            "entityId": "term-elder-presbyter"
+          },
+          {
+            "spanText": "thrones",
+            "entityId": "term-heaven-throne"
+          },
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
+          }
+        ]
       },
       {
         "id": "REV-11:17",
@@ -2650,7 +3258,20 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "The nations were angry, and your wrath came, as did the time for the dead to be judged, and to give your bondservants the prophets, their reward, as well as to the saints, and those who fear your name, to the small and the great, and to destroy those who destroy the earth.”",
         "translation": "WEB",
         "illustrationId": "ill-rev-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          },
+          {
+            "spanText": "bondservants",
+            "entityId": "term-bondservant"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "REV-11:19",
@@ -2669,6 +3290,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           }
         ]
       }
@@ -2716,7 +3341,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "Another sign was seen in heaven. Behold, a great red dragon, having seven heads and ten horns, and on his heads seven crowns.",
         "translation": "WEB",
         "illustrationId": "ill-rev-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "dragon",
+            "entityId": "term-beast-dragon"
+          }
+        ]
       },
       {
         "id": "REV-12:4",
@@ -2727,7 +3357,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "His tail drew one third of the stars of the sky, and threw them to the earth. The dragon stood before the woman who was about to give birth, so that when she gave birth he might devour her child.",
         "translation": "WEB",
         "illustrationId": "ill-rev-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "dragon",
+            "entityId": "term-beast-dragon"
+          }
+        ]
       },
       {
         "id": "REV-12:5",
@@ -2738,7 +3373,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "She gave birth to a son, a male child, who is to rule all the nations with a rod of iron. Her child was caught up to God, and to his throne.",
         "translation": "WEB",
         "illustrationId": "ill-rev-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
+          }
+        ]
       },
       {
         "id": "REV-12:6",
@@ -2764,6 +3404,14 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Michael",
             "entityId": "char-michael"
+          },
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "dragon",
+            "entityId": "term-beast-dragon"
           }
         ]
       },
@@ -2789,8 +3437,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-12",
         "linkedEntities": [
           {
+            "spanText": "devil",
+            "entityId": "term-satan-adversary"
+          },
+          {
             "spanText": "Satan",
             "entityId": "char-satan"
+          },
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
           }
         ]
       },
@@ -2803,7 +3459,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "I heard a loud voice in heaven, saying, “Now the salvation, the power, and the Kingdom of our God, and the authority of his Christ has come; for the accuser of our brothers has been thrown down, who accuses them before our God day and night.",
         "translation": "WEB",
         "illustrationId": "ill-rev-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          }
+        ]
       },
       {
         "id": "REV-12:11",
@@ -2816,12 +3481,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-12",
         "linkedEntities": [
           {
+            "spanText": "overcame",
+            "entityId": "term-overcomer"
+          },
+          {
             "spanText": "Lamb",
             "entityId": "term-lamb-of-god"
           },
           {
-            "spanText": "overcame",
-            "entityId": "term-overcomer"
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
           }
         ]
       },
@@ -2838,6 +3507,14 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "rejoice",
             "entityId": "term-joy-chara"
+          },
+          {
+            "spanText": "devil",
+            "entityId": "term-satan-adversary"
+          },
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
           }
         ]
       },
@@ -2850,7 +3527,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the dragon saw that he was thrown down to the earth, he persecuted the woman who gave birth to the male child.",
         "translation": "WEB",
         "illustrationId": "ill-rev-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "persecuted",
+            "entityId": "term-tribulation"
+          }
+        ]
       },
       {
         "id": "REV-12:14",
@@ -2896,8 +3578,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-12",
         "linkedEntities": [
           {
+            "spanText": "commandments",
+            "entityId": "term-commandments"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
           }
         ]
       }
@@ -2923,7 +3613,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then I stood on the sand of the sea. I saw a beast coming up out of the sea, having ten horns and seven heads. On his horns were ten crowns, and on his heads, blasphemous names.",
         "translation": "WEB",
         "illustrationId": "ill-rev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "beast",
+            "entityId": "term-beast-dragon"
+          }
+        ]
       },
       {
         "id": "REV-13:2",
@@ -2934,7 +3629,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "The beast which I saw was like a leopard, and his feet were like those of a bear, and his mouth like the mouth of a lion. The dragon gave him his power, his throne, and great authority.",
         "translation": "WEB",
         "illustrationId": "ill-rev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "beast",
+            "entityId": "term-beast-dragon"
+          },
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
+          }
+        ]
       },
       {
         "id": "REV-13:3",
@@ -2945,7 +3649,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "One of his heads looked like it had been wounded fatally. His fatal wound was healed, and the whole earth marveled at the beast.",
         "translation": "WEB",
         "illustrationId": "ill-rev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "beast",
+            "entityId": "term-beast-dragon"
+          }
+        ]
       },
       {
         "id": "REV-13:4",
@@ -2967,7 +3676,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "A mouth speaking great things and blasphemy was given to him. Authority to make war for forty-two months was given to him.",
         "translation": "WEB",
         "illustrationId": "ill-rev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blasphemy",
+            "entityId": "term-blasphemy"
+          }
+        ]
       },
       {
         "id": "REV-13:6",
@@ -2978,7 +3692,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "He opened his mouth for blasphemy against God, to blaspheme his name, and his dwelling, those who dwell in heaven.",
         "translation": "WEB",
         "illustrationId": "ill-rev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blasphemy",
+            "entityId": "term-blasphemy"
+          },
+          {
+            "spanText": "blaspheme",
+            "entityId": "term-blasphemy"
+          }
+        ]
       },
       {
         "id": "REV-13:7",
@@ -2989,7 +3712,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "It was given to him to make war with the saints, and to overcome them. Authority over every tribe, people, language, and nation was given to him.",
         "translation": "WEB",
         "illustrationId": "ill-rev-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "REV-13:8",
@@ -3031,6 +3759,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
           }
         ]
       },
@@ -3156,12 +3888,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-14",
         "linkedEntities": [
           {
-            "spanText": "Zion",
-            "entityId": "place-zion"
-          },
-          {
             "spanText": "Lamb",
             "entityId": "term-lamb-of-god"
+          },
+          {
+            "spanText": "Zion",
+            "entityId": "place-zion"
           }
         ]
       },
@@ -3185,7 +3917,20 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "They sing a new song before the throne, and before the four living creatures and the elders. No one could learn the song except the one hundred forty-four thousand, those who had been redeemed out of the earth.",
         "translation": "WEB",
         "illustrationId": "ill-rev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
+          },
+          {
+            "spanText": "elders",
+            "entityId": "term-elder-presbyter"
+          },
+          {
+            "spanText": "redeemed",
+            "entityId": "term-redemption"
+          }
+        ]
       },
       {
         "id": "REV-14:4",
@@ -3198,12 +3943,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-14",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Lamb",
             "entityId": "term-lamb-of-god"
+          },
+          {
+            "spanText": "redeemed",
+            "entityId": "term-redemption"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -3229,6 +3978,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-14",
         "linkedEntities": [
           {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          },
+          {
             "spanText": "Good News",
             "entityId": "term-gospel-euangelion"
           }
@@ -3243,7 +3996,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said with a loud voice, “Fear the Lord, and give him glory; for the hour of his judgment has come. Worship him who made the heaven, the earth, the sea, and the springs of waters!”",
         "translation": "WEB",
         "illustrationId": "ill-rev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "REV-14:8",
@@ -3256,8 +4014,20 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-14",
         "linkedEntities": [
           {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          },
+          {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          },
+          {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
           }
         ]
       },
@@ -3271,6 +4041,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rev-14",
         "linkedEntities": [
+          {
+            "spanText": "beast",
+            "entityId": "term-beast-dragon"
+          },
           {
             "spanText": "mark",
             "entityId": "char-mark"
@@ -3288,6 +4062,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-14",
         "linkedEntities": [
           {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          },
+          {
             "spanText": "Lamb",
             "entityId": "term-lamb-of-god"
           }
@@ -3303,6 +4081,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rev-14",
         "linkedEntities": [
+          {
+            "spanText": "beast",
+            "entityId": "term-beast-dragon"
+          },
           {
             "spanText": "mark",
             "entityId": "char-mark"
@@ -3320,12 +4102,20 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-14",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          },
+          {
+            "spanText": "commandments",
+            "entityId": "term-commandments"
           },
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -3408,7 +4198,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "Another angel came out from the altar, he who has power over fire, and he called with a great voice to him who had the sharp sickle, saying, “Send your sharp sickle, and gather the clusters of the vine of the earth, for the earth’s grapes are fully ripe!”",
         "translation": "WEB",
         "illustrationId": "ill-rev-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "REV-14:19",
@@ -3454,7 +4249,20 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "I saw another great and marvelous sign in the sky: seven angels having the seven last plagues, for in them God’s wrath is finished.",
         "translation": "WEB",
         "illustrationId": "ill-rev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "plagues",
+            "entityId": "term-plagues"
+          },
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          }
+        ]
       },
       {
         "id": "REV-15:2",
@@ -3465,7 +4273,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "I saw something like a sea of glass mixed with fire, and those who overcame the beast, his image, and the number of his name, standing on the sea of glass, having harps of God.",
         "translation": "WEB",
         "illustrationId": "ill-rev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "beast",
+            "entityId": "term-beast-dragon"
+          }
+        ]
       },
       {
         "id": "REV-15:3",
@@ -3484,6 +4297,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Lamb",
             "entityId": "term-lamb-of-god"
+          },
+          {
+            "spanText": "Righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -3496,7 +4313,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "Who wouldn’t fear you, Lord, and glorify your name? For you only are holy. For all the nations will come and worship before you. For your righteous acts have been revealed.”",
         "translation": "WEB",
         "illustrationId": "ill-rev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glorify",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "REV-15:5",
@@ -3511,6 +4337,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
           }
         ]
       },
@@ -3523,7 +4353,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "The seven angels who had the seven plagues came out, clothed with pure, bright linen, and wearing golden sashes around their breasts.",
         "translation": "WEB",
         "illustrationId": "ill-rev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "plagues",
+            "entityId": "term-plagues"
+          }
+        ]
       },
       {
         "id": "REV-15:7",
@@ -3534,7 +4373,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "One of the four living creatures gave to the seven angels seven golden bowls full of the wrath of God, who lives forever and ever.",
         "translation": "WEB",
         "illustrationId": "ill-rev-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          }
+        ]
       },
       {
         "id": "REV-15:8",
@@ -3549,6 +4393,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
           }
         ]
       }
@@ -3578,6 +4426,14 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
           }
         ]
       },
@@ -3594,6 +4450,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "mark",
             "entityId": "char-mark"
+          },
+          {
+            "spanText": "beast",
+            "entityId": "term-beast-dragon"
           }
         ]
       },
@@ -3606,7 +4466,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "The second angel poured out his bowl into the sea, and it became blood as of a dead man. Every living thing in the sea died.",
         "translation": "WEB",
         "illustrationId": "ill-rev-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "REV-16:4",
@@ -3628,7 +4493,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "I heard the angel of the waters saying, “You are righteous, who are and who were, O Holy One, because you have judged these things.",
         "translation": "WEB",
         "illustrationId": "ill-rev-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "REV-16:6",
@@ -3639,7 +4509,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "For they poured out the blood of saints and prophets, and you have given them blood to drink. They deserve this.”",
         "translation": "WEB",
         "illustrationId": "ill-rev-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          },
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "REV-16:7",
@@ -3650,7 +4529,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "I heard the altar saying, “Yes, Lord God, the Almighty, true and righteous are your judgments.”",
         "translation": "WEB",
         "illustrationId": "ill-rev-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "REV-16:8",
@@ -3672,7 +4560,24 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "People were scorched with great heat, and people blasphemed the name of God who has the power over these plagues. They didn’t repent and give him glory.",
         "translation": "WEB",
         "illustrationId": "ill-rev-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blasphemed",
+            "entityId": "term-blasphemy"
+          },
+          {
+            "spanText": "plagues",
+            "entityId": "term-plagues"
+          },
+          {
+            "spanText": "repent",
+            "entityId": "term-repentance"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "REV-16:10",
@@ -3683,7 +4588,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "The fifth poured out his bowl on the throne of the beast, and his kingdom was darkened. They gnawed their tongues because of the pain,",
         "translation": "WEB",
         "illustrationId": "ill-rev-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
+          },
+          {
+            "spanText": "beast",
+            "entityId": "term-beast-dragon"
+          }
+        ]
       },
       {
         "id": "REV-16:11",
@@ -3694,7 +4608,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "and they blasphemed the God of heaven because of their pains and their sores. They didn’t repent of their works.",
         "translation": "WEB",
         "illustrationId": "ill-rev-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blasphemed",
+            "entityId": "term-blasphemy"
+          },
+          {
+            "spanText": "repent",
+            "entityId": "term-repentance"
+          }
+        ]
       },
       {
         "id": "REV-16:12",
@@ -3716,7 +4639,20 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "I saw coming out of the mouth of the dragon, and out of the mouth of the beast, and out of the mouth of the false prophet, three unclean spirits, something like frogs;",
         "translation": "WEB",
         "illustrationId": "ill-rev-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "dragon",
+            "entityId": "term-beast-dragon"
+          },
+          {
+            "spanText": "prophet",
+            "entityId": "term-prophecy-nt"
+          },
+          {
+            "spanText": "unclean spirits",
+            "entityId": "term-demons-evil-spirits"
+          }
+        ]
       },
       {
         "id": "REV-16:14",
@@ -3727,7 +4663,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "for they are spirits of demons, performing signs; which go out to the kings of the whole inhabited earth, to gather them together for the war of that great day of God, the Almighty.",
         "translation": "WEB",
         "illustrationId": "ill-rev-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "demons",
+            "entityId": "term-demons-evil-spirits"
+          }
+        ]
       },
       {
         "id": "REV-16:15",
@@ -3764,6 +4705,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
           }
         ]
       },
@@ -3791,6 +4736,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
           }
         ]
       },
@@ -3814,7 +4763,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "Great hailstones, about the weight of a talent, came down out of the sky on people. People blasphemed God because of the plague of the hail, for this plague is exceedingly severe.",
         "translation": "WEB",
         "illustrationId": "ill-rev-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "blasphemed",
+            "entityId": "term-blasphemy"
+          },
+          {
+            "spanText": "plague",
+            "entityId": "term-plagues"
+          }
+        ]
       }
     ]
   },
@@ -3838,7 +4796,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "One of the seven angels who had the seven bowls came and spoke with me, saying, “Come here. I will show you the judgment of the great prostitute who sits on many waters,",
         "translation": "WEB",
         "illustrationId": "ill-rev-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "REV-17:2",
@@ -3849,7 +4812,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "with whom the kings of the earth committed sexual immorality. Those who dwell in the earth were made drunken with the wine of her sexual immorality.”",
         "translation": "WEB",
         "illustrationId": "ill-rev-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
+          },
+          {
+            "spanText": "immorality",
+            "entityId": "term-immorality-porneia"
+          }
+        ]
       },
       {
         "id": "REV-17:3",
@@ -3864,6 +4836,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "beast",
+            "entityId": "term-beast-dragon"
           }
         ]
       },
@@ -3876,7 +4852,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "The woman was dressed in purple and scarlet, and decked with gold and precious stones and pearls, having in her hand a golden cup full of abominations and the impurities of the sexual immorality of the earth.",
         "translation": "WEB",
         "illustrationId": "ill-rev-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
+          }
+        ]
       },
       {
         "id": "REV-17:5",
@@ -3905,6 +4886,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-17",
         "linkedEntities": [
           {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           }
@@ -3919,7 +4904,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "The angel said to me, “Why do you wonder? I will tell you the mystery of the woman, and of the beast that carries her, which has the seven heads and the ten horns.",
         "translation": "WEB",
         "illustrationId": "ill-rev-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "beast",
+            "entityId": "term-beast-dragon"
+          }
+        ]
       },
       {
         "id": "REV-17:8",
@@ -3930,7 +4924,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "The beast that you saw was, and is not; and is about to come up out of the abyss and to go into destruction. Those who dwell on the earth and whose names have not been written in the book of life from the foundation of the world will marvel when they see that the beast was, and is not, and shall be present.",
         "translation": "WEB",
         "illustrationId": "ill-rev-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "beast",
+            "entityId": "term-beast-dragon"
+          },
+          {
+            "spanText": "abyss",
+            "entityId": "term-abyss"
+          }
+        ]
       },
       {
         "id": "REV-17:9",
@@ -4005,6 +5008,14 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Lamb",
             "entityId": "term-lamb-of-god"
+          },
+          {
+            "spanText": "Lamb",
+            "entityId": "term-lamb-of-god"
+          },
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
           }
         ]
       },
@@ -4074,7 +5085,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "After these things, I saw another angel coming down out of the sky, having great authority. The earth was illuminated with his glory.",
         "translation": "WEB",
         "illustrationId": "ill-rev-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "REV-18:2",
@@ -4089,6 +5109,14 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "demons",
+            "entityId": "term-demons-evil-spirits"
+          },
+          {
+            "spanText": "unclean spirit",
+            "entityId": "term-demons-evil-spirits"
           }
         ]
       },
@@ -4101,7 +5129,20 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "For all the nations have drunk of the wine of the wrath of her sexual immorality, the kings of the earth committed sexual immorality with her, and the merchants of the earth grew rich from the abundance of her luxury.”",
         "translation": "WEB",
         "illustrationId": "ill-rev-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          },
+          {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
+          },
+          {
+            "spanText": "immorality",
+            "entityId": "term-immorality-porneia"
+          }
+        ]
       },
       {
         "id": "REV-18:4",
@@ -4112,7 +5153,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "I heard another voice from heaven, saying, “Come out of her, my people, that you have no participation in her sins, and that you don’t receive of her plagues,",
         "translation": "WEB",
         "illustrationId": "ill-rev-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "plagues",
+            "entityId": "term-plagues"
+          }
+        ]
       },
       {
         "id": "REV-18:5",
@@ -4145,7 +5191,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "However much she glorified herself, and grew wanton, so much give her of torment and mourning. For she says in her heart, ‘I sit a queen, and am no widow, and will in no way see mourning.’",
         "translation": "WEB",
         "illustrationId": "ill-rev-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glorified",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "widow",
+            "entityId": "term-widows-care"
+          }
+        ]
       },
       {
         "id": "REV-18:8",
@@ -4156,7 +5211,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore in one day her plagues will come: death, mourning, and famine; and she will be utterly burned with fire; for the Lord God who has judged her is strong.",
         "translation": "WEB",
         "illustrationId": "ill-rev-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "plagues",
+            "entityId": "term-plagues"
+          }
+        ]
       },
       {
         "id": "REV-18:9",
@@ -4167,7 +5227,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "The kings of the earth who committed sexual immorality and lived wantonly with her will weep and wail over her, when they look at the smoke of her burning,",
         "translation": "WEB",
         "illustrationId": "ill-rev-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
+          }
+        ]
       },
       {
         "id": "REV-18:10",
@@ -4216,7 +5281,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "and cinnamon, incense, perfume, frankincense, wine, olive oil, fine flour, wheat, sheep, horses, chariots, and people’s bodies and souls.",
         "translation": "WEB",
         "illustrationId": "ill-rev-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          }
+        ]
       },
       {
         "id": "REV-18:14",
@@ -4297,6 +5367,18 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Rejoice",
             "entityId": "term-joy-chara"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          },
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
           }
         ]
       },
@@ -4310,6 +5392,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rev-18",
         "linkedEntities": [
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          },
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
@@ -4347,7 +5433,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "In her was found the blood of prophets and of saints, and of all who have been slain on the earth.”",
         "translation": "WEB",
         "illustrationId": "ill-rev-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          },
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       }
     ]
   },
@@ -4375,6 +5470,14 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hallelujah",
             "entityId": "term-hallelujah"
+          },
+          {
+            "spanText": "Salvation",
+            "entityId": "term-salvation"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
           }
         ]
       },
@@ -4387,7 +5490,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "for his judgments are true and righteous. For he has judged the great prostitute, who corrupted the earth with her sexual immorality, and he has avenged the blood of his servants at her hand.”",
         "translation": "WEB",
         "illustrationId": "ill-rev-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "sexual immorality",
+            "entityId": "term-immorality-porneia"
+          }
+        ]
       },
       {
         "id": "REV-19:3",
@@ -4416,6 +5528,18 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-19",
         "linkedEntities": [
           {
+            "spanText": "elders",
+            "entityId": "term-elder-presbyter"
+          },
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
+          },
+          {
             "spanText": "Hallelujah",
             "entityId": "term-hallelujah"
           }
@@ -4430,7 +5554,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "A voice came from the throne, saying, “Give praise to our God, all you his servants, you who fear him, the small and the great!”",
         "translation": "WEB",
         "illustrationId": "ill-rev-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
+          }
+        ]
       },
       {
         "id": "REV-19:6",
@@ -4459,12 +5588,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-19",
         "linkedEntities": [
           {
-            "spanText": "Lamb",
-            "entityId": "term-lamb-of-god"
-          },
-          {
             "spanText": "rejoice",
             "entityId": "term-joy-chara"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "Lamb",
+            "entityId": "term-lamb-of-god"
           }
         ]
       },
@@ -4477,7 +5610,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "It was given to her that she would array herself in bright, pure, fine linen: for the fine linen is the righteous acts of the saints.",
         "translation": "WEB",
         "illustrationId": "ill-rev-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "REV-19:9",
@@ -4506,12 +5644,32 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-19",
         "linkedEntities": [
           {
+            "spanText": "bondservant",
+            "entityId": "term-bondservant"
+          },
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
+          },
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           },
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Prophecy",
+            "entityId": "term-prophecy-nt"
           }
         ]
       },
@@ -4525,6 +5683,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rev-19",
         "linkedEntities": [
+          {
+            "spanText": "Faithful",
+            "entityId": "term-faith-pistis"
+          },
           {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
@@ -4578,7 +5740,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "Out of his mouth proceeds a sharp, double-edged sword, that with it he should strike the nations. He will rule them with an iron rod. He treads the wine press of the fierceness of the wrath of God, the Almighty.",
         "translation": "WEB",
         "illustrationId": "ill-rev-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "wrath",
+            "entityId": "term-wrath-orge"
+          }
+        ]
       },
       {
         "id": "REV-19:16",
@@ -4600,7 +5767,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "I saw an angel standing in the sun. He cried with a loud voice, saying to all the birds that fly in the sky, “Come! Be gathered together to the great supper of God,",
         "translation": "WEB",
         "illustrationId": "ill-rev-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "REV-19:18",
@@ -4622,7 +5794,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "I saw the beast, and the kings of the earth, and their armies, gathered together to make war against him who sat on the horse, and against his army.",
         "translation": "WEB",
         "illustrationId": "ill-rev-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "beast",
+            "entityId": "term-beast-dragon"
+          }
+        ]
       },
       {
         "id": "REV-19:20",
@@ -4634,6 +5811,18 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rev-19",
         "linkedEntities": [
+          {
+            "spanText": "beast",
+            "entityId": "term-beast-dragon"
+          },
+          {
+            "spanText": "beast",
+            "entityId": "term-beast-dragon"
+          },
+          {
+            "spanText": "prophet",
+            "entityId": "term-prophecy-nt"
+          },
           {
             "spanText": "mark",
             "entityId": "char-mark"
@@ -4673,7 +5862,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "I saw an angel coming down out of heaven, having the key of the abyss and a great chain in his hand.",
         "translation": "WEB",
         "illustrationId": "ill-rev-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "abyss",
+            "entityId": "term-abyss"
+          }
+        ]
       },
       {
         "id": "REV-20:2",
@@ -4685,6 +5883,14 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rev-20",
         "linkedEntities": [
+          {
+            "spanText": "dragon",
+            "entityId": "term-beast-dragon"
+          },
+          {
+            "spanText": "devil",
+            "entityId": "term-satan-adversary"
+          },
           {
             "spanText": "Satan",
             "entityId": "char-satan"
@@ -4700,7 +5906,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "and cast him into the abyss, and shut it, and sealed it over him, that he should deceive the nations no more, until the thousand years were finished. After this, he must be freed for a short time.",
         "translation": "WEB",
         "illustrationId": "ill-rev-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "abyss",
+            "entityId": "term-abyss"
+          }
+        ]
       },
       {
         "id": "REV-20:4",
@@ -4713,12 +5924,28 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-20",
         "linkedEntities": [
           {
-            "spanText": "mark",
-            "entityId": "char-mark"
+            "spanText": "thrones",
+            "entityId": "term-heaven-throne"
+          },
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
           },
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "beast",
+            "entityId": "term-beast-dragon"
+          },
+          {
+            "spanText": "mark",
+            "entityId": "char-mark"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -4751,6 +5978,14 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "resurrection",
             "entityId": "term-resurrection"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -4790,7 +6025,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "They went up over the width of the earth, and surrounded the camp of the saints, and the beloved city. Fire came down out of heaven from God and devoured them.",
         "translation": "WEB",
         "illustrationId": "ill-rev-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          }
+        ]
       },
       {
         "id": "REV-20:10",
@@ -4801,7 +6041,20 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "The devil who deceived them was thrown into the lake of fire and sulfur, where the beast and the false prophet are also. They will be tormented day and night forever and ever.",
         "translation": "WEB",
         "illustrationId": "ill-rev-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "devil",
+            "entityId": "term-satan-adversary"
+          },
+          {
+            "spanText": "beast",
+            "entityId": "term-beast-dragon"
+          },
+          {
+            "spanText": "prophet",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "REV-20:11",
@@ -4812,7 +6065,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "I saw a great white throne, and him who sat on it, from whose face the earth and the heaven fled away. There was found no place for them.",
         "translation": "WEB",
         "illustrationId": "ill-rev-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
+          }
+        ]
       },
       {
         "id": "REV-20:12",
@@ -4834,7 +6092,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sea gave up the dead who were in it. Death and Hades gave up the dead who were in them. They were judged, each one according to his works.",
         "translation": "WEB",
         "illustrationId": "ill-rev-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hades",
+            "entityId": "term-hades"
+          }
+        ]
       },
       {
         "id": "REV-20:14",
@@ -4845,7 +6108,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "Death and Hades were thrown into the lake of fire. This is the second death, the lake of fire.",
         "translation": "WEB",
         "illustrationId": "ill-rev-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Hades",
+            "entityId": "term-hades"
+          }
+        ]
       },
       {
         "id": "REV-20:15",
@@ -4934,7 +6202,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "He who sits on the throne said, “Behold, I am making all things new.” He said, “Write, for these words of God are faithful and true.”",
         "translation": "WEB",
         "illustrationId": "ill-rev-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
+          },
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
+          }
+        ]
       },
       {
         "id": "REV-21:6",
@@ -4981,7 +6258,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "But for the cowardly, unbelieving, sinners, abominable, murderers, sexually immoral, sorcerers, idolaters, and all liars, their part is in the lake that burns with fire and sulfur, which is the second death.”",
         "translation": "WEB",
         "illustrationId": "ill-rev-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "idolaters",
+            "entityId": "term-idolatry"
+          }
+        ]
       },
       {
         "id": "REV-21:9",
@@ -4993,6 +6275,14 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rev-21",
         "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "plagues",
+            "entityId": "term-plagues"
+          },
           {
             "spanText": "Lamb",
             "entityId": "term-lamb-of-god"
@@ -5010,12 +6300,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-21",
         "linkedEntities": [
           {
-            "spanText": "Jerusalem",
-            "entityId": "place-jerusalem"
-          },
-          {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Jerusalem",
+            "entityId": "place-jerusalem"
           }
         ]
       },
@@ -5028,7 +6318,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "having the glory of God. Her light was like a most precious stone, as if it were a jasper stone, clear as crystal;",
         "translation": "WEB",
         "illustrationId": "ill-rev-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "REV-21:12",
@@ -5040,6 +6335,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rev-21",
         "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          },
           {
             "spanText": "Israel",
             "entityId": "term-israel"
@@ -5067,6 +6366,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rev-21",
         "linkedEntities": [
+          {
+            "spanText": "Apostles",
+            "entityId": "term-apostle"
+          },
           {
             "spanText": "Lamb",
             "entityId": "term-lamb-of-god"
@@ -5161,6 +6464,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-21",
         "linkedEntities": [
           {
+            "spanText": "temple",
+            "entityId": "term-sanctuary"
+          },
+          {
             "spanText": "Lamb",
             "entityId": "term-lamb-of-god"
           }
@@ -5176,6 +6483,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rev-21",
         "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
           {
             "spanText": "Lamb",
             "entityId": "term-lamb-of-god"
@@ -5255,6 +6566,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-22",
         "linkedEntities": [
           {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
+          },
+          {
             "spanText": "Lamb",
             "entityId": "term-lamb-of-god"
           }
@@ -5286,6 +6601,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rev-22",
         "linkedEntities": [
+          {
+            "spanText": "throne",
+            "entityId": "term-heaven-throne"
+          },
           {
             "spanText": "Lamb",
             "entityId": "term-lamb-of-god"
@@ -5323,7 +6642,20 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to me, “These words are faithful and true. The Lord God of the spirits of the prophets sent his angel to show to his bondservants the things which must happen soon.”",
         "translation": "WEB",
         "illustrationId": "ill-rev-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
+          },
+          {
+            "spanText": "bondservants",
+            "entityId": "term-bondservant"
+          }
+        ]
       },
       {
         "id": "REV-22:7",
@@ -5334,7 +6666,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Behold, I come quickly. Blessed is he who keeps the words of the prophecy of this book.”",
         "translation": "WEB",
         "illustrationId": "ill-rev-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophecy",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "REV-22:8",
@@ -5349,6 +6686,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "John",
             "entityId": "char-john-apostle"
+          },
+          {
+            "spanText": "angel",
+            "entityId": "term-angel-messenger"
           }
         ]
       },
@@ -5361,7 +6702,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to me, “See you don’t do it! I am a fellow bondservant with you and with your brothers, the prophets, and with those who keep the words of this book. Worship God.”",
         "translation": "WEB",
         "illustrationId": "ill-rev-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "bondservant",
+            "entityId": "term-bondservant"
+          }
+        ]
       },
       {
         "id": "REV-22:10",
@@ -5372,7 +6718,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to me, “Don’t seal up the words of the prophecy of this book, for the time is at hand.",
         "translation": "WEB",
         "illustrationId": "ill-rev-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "seal",
+            "entityId": "term-scroll-seals"
+          },
+          {
+            "spanText": "prophecy",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "REV-22:11",
@@ -5384,6 +6739,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-rev-22",
         "linkedEntities": [
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
           {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
@@ -5432,6 +6791,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-22",
         "linkedEntities": [
           {
+            "spanText": "commandments",
+            "entityId": "term-commandments"
+          },
+          {
             "spanText": "tree of life",
             "entityId": "term-tree-of-life"
           }
@@ -5446,7 +6809,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "Outside are the dogs, the sorcerers, the sexually immoral, the murderers, the idolaters, and everyone who loves and practices falsehood.",
         "translation": "WEB",
         "illustrationId": "ill-rev-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "idolaters",
+            "entityId": "term-idolatry"
+          }
+        ]
       },
       {
         "id": "REV-22:16",
@@ -5459,12 +6827,12 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-22",
         "linkedEntities": [
           {
-            "spanText": "David",
-            "entityId": "char-david"
-          },
-          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "David",
+            "entityId": "char-david"
           }
         ]
       },
@@ -5493,7 +6861,16 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "text": "I testify to everyone who hears the words of the prophecy of this book, if anyone adds to them, may God add to him the plagues which are written in this book.",
         "translation": "WEB",
         "illustrationId": "ill-rev-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophecy",
+            "entityId": "term-prophecy-nt"
+          },
+          {
+            "spanText": "plagues",
+            "entityId": "term-plagues"
+          }
+        ]
       },
       {
         "id": "REV-22:19",
@@ -5522,6 +6899,10 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-22",
         "linkedEntities": [
           {
+            "spanText": "Amen",
+            "entityId": "term-amen"
+          },
+          {
             "spanText": "Jesus",
             "entityId": "char-jesus"
           }
@@ -5538,12 +6919,20 @@ export const REVELATION_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-rev-22",
         "linkedEntities": [
           {
+            "spanText": "grace",
+            "entityId": "term-grace"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           },
           {
-            "spanText": "grace",
-            "entityId": "term-grace"
+            "spanText": "saints",
+            "entityId": "term-sanctification"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       }

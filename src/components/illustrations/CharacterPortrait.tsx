@@ -483,8 +483,244 @@ const PORTRAIT_URL_MAP: Record<string, { src: string; alt: string }> = {
     alt: 'Portrait of Boaz of Bethlehem',
   },
   'portrait-peter': {
-    src: '/images/peace-pastures.jpg',
-    alt: 'Shores of Galilee (Simon Peter)',
+    src: '/images/portrait-peter.jpg',
+    alt: 'Portrait of Simon Peter',
+  },
+  'portrait-jesus': {
+    src: '/images/portrait-jesus.jpg',
+    alt: 'Portrait of Jesus Christ',
+  },
+  'portrait-paul': {
+    src: '/images/portrait-paul.jpg',
+    alt: 'Portrait of Paul the Apostle',
+  },
+  'portrait-mary-jesus': {
+    src: '/images/portrait-mary-jesus.jpg',
+    alt: 'Portrait of Mary, Mother of Jesus',
+  },
+  'portrait-joseph-nazareth': {
+    src: '/images/portrait-joseph-nazareth.jpg',
+    alt: 'Portrait of Joseph of Nazareth',
+  },
+  'portrait-john-baptist': {
+    src: '/images/portrait-john-baptist.jpg',
+    alt: 'Portrait of John the Baptist',
+  },
+  'portrait-matthew': {
+    src: '/images/portrait-matthew.jpg',
+    alt: 'Portrait of Matthew (Levi)',
+  },
+  'portrait-john-apostle': {
+    src: '/images/portrait-john-apostle.jpg',
+    alt: 'Portrait of John the Apostle',
+  },
+  'portrait-james-zebedee': {
+    src: '/images/portrait-james-zebedee.jpg',
+    alt: 'Portrait of James, Son of Zebedee',
+  },
+  'portrait-andrew': {
+    src: '/images/portrait-andrew.jpg',
+    alt: 'Portrait of Andrew the Apostle',
+  },
+  'portrait-mary-magdalene': {
+    src: '/images/portrait-mary-magdalene.jpg',
+    alt: 'Portrait of Mary Magdalene',
+  },
+  'portrait-martha': {
+    src: '/images/portrait-martha.jpg',
+    alt: 'Portrait of Martha of Bethany',
+  },
+  'portrait-mary-bethany': {
+    src: '/images/portrait-mary-bethany.jpg',
+    alt: 'Portrait of Mary of Bethany',
+  },
+  'portrait-lazarus-bethany': {
+    src: '/images/portrait-lazarus.jpg',
+    alt: 'Portrait of Lazarus of Bethany',
+  },
+  'portrait-nicodemus': {
+    src: '/images/portrait-nicodemus.jpg',
+    alt: 'Portrait of Nicodemus',
+  },
+  'portrait-zacchaeus': {
+    src: '/images/portrait-zacchaeus.jpg',
+    alt: 'Portrait of Zacchaeus',
+  },
+  'portrait-thomas': {
+    src: '/images/portrait-thomas.jpg',
+    alt: 'Portrait of Thomas',
+  },
+  'portrait-philip-apostle': {
+    src: '/images/portrait-philip-apostle.jpg',
+    alt: 'Portrait of Philip the Apostle',
+  },
+  'portrait-nathanael': {
+    src: '/images/portrait-nathanael.jpg',
+    alt: 'Portrait of Nathanael',
+  },
+  'portrait-judas-iscariot': {
+    src: '/images/portrait-judas-iscariot.jpg',
+    alt: 'Portrait of Judas Iscariot',
+  },
+  'portrait-luke': {
+    src: '/images/portrait-luke.jpg',
+    alt: 'Portrait of Luke the Physician',
+  },
+  'portrait-mark': {
+    src: '/images/portrait-mark.jpg',
+    alt: 'Portrait of John Mark',
+  },
+  'portrait-barnabas': {
+    src: '/images/portrait-barnabas.jpg',
+    alt: 'Portrait of Barnabas',
+  },
+  'portrait-stephen': {
+    src: '/images/portrait-stephen.jpg',
+    alt: 'Portrait of Stephen',
+  },
+  'portrait-philip-evangelist': {
+    src: '/images/portrait-philip-evangelist.jpg',
+    alt: 'Portrait of Philip the Evangelist',
+  },
+  'portrait-timothy': {
+    src: '/images/portrait-timothy.jpg',
+    alt: 'Portrait of Timothy',
+  },
+  'portrait-titus': {
+    src: '/images/portrait-titus.jpg',
+    alt: 'Portrait of Titus',
+  },
+  'portrait-silas': {
+    src: '/images/portrait-silas.jpg',
+    alt: 'Portrait of Silas',
+  },
+  'portrait-james-jerusalem': {
+    src: '/images/portrait-james-jerusalem.jpg',
+    alt: 'Portrait of James of Jerusalem',
+  },
+  'portrait-jude': {
+    src: '/images/portrait-jude.jpg',
+    alt: 'Portrait of Jude',
+  },
+  'portrait-cornelius': {
+    src: '/images/portrait-cornelius.jpg',
+    alt: 'Portrait of Cornelius',
+  },
+  'portrait-lydia': {
+    src: '/images/portrait-lydia.jpg',
+    alt: 'Portrait of Lydia of Thyatira',
+  },
+  'portrait-priscilla-aquila': {
+    src: '/images/portrait-priscilla-aquila.jpg',
+    alt: 'Portrait of Priscilla & Aquila',
+  },
+  'portrait-apollos': {
+    src: '/images/portrait-apollos.jpg',
+    alt: 'Portrait of Apollos',
+  },
+  'portrait-phoebe': {
+    src: '/images/portrait-phoebe.jpg',
+    alt: 'Portrait of Phoebe',
+  },
+  'portrait-dorcas': {
+    src: '/images/portrait-dorcas.jpg',
+    alt: 'Portrait of Dorcas (Tabitha)',
+  },
+  'portrait-onesimus': {
+    src: '/images/portrait-onesimus.jpg',
+    alt: 'Portrait of Onesimus',
+  },
+  'portrait-philemon': {
+    src: '/images/portrait-philemon.jpg',
+    alt: 'Portrait of Philemon',
+  },
+  'portrait-gamaliel': {
+    src: '/images/portrait-gamaliel.jpg',
+    alt: 'Portrait of Gamaliel',
+  },
+  'portrait-pilate': {
+    src: '/images/portrait-pilate.jpg',
+    alt: 'Portrait of Pontius Pilate',
+  },
+  'portrait-caiaphas': {
+    src: '/images/portrait-caiaphas.jpg',
+    alt: 'Portrait of Caiaphas',
+  },
+  'portrait-annas': {
+    src: '/images/portrait-annas.jpg',
+    alt: 'Portrait of Annas',
+  },
+  'portrait-herod-great': {
+    src: '/images/portrait-herod-great.jpg',
+    alt: 'Portrait of Herod the Great',
+  },
+  'portrait-herod-antipas': {
+    src: '/images/portrait-herod-antipas.jpg',
+    alt: 'Portrait of Herod Antipas',
+  },
+  'portrait-joseph-arimathaea': {
+    src: '/images/portrait-joseph-arimathaea.jpg',
+    alt: 'Portrait of Joseph of Arimathea',
+  },
+  'portrait-simon-cyrene': {
+    src: '/images/portrait-simon-cyrene.jpg',
+    alt: 'Portrait of Simon of Cyrene',
+  },
+  'portrait-zacharias-luke': {
+    src: '/images/portrait-zacharias-luke.jpg',
+    alt: 'Portrait of Zacharias',
+  },
+  'portrait-elizabeth': {
+    src: '/images/portrait-elizabeth.jpg',
+    alt: 'Portrait of Elizabeth',
+  },
+  'portrait-simeon-temple': {
+    src: '/images/portrait-simeon.jpg',
+    alt: 'Portrait of Simeon',
+  },
+  'portrait-anna-prophetess': {
+    src: '/images/portrait-anna-prophetess.jpg',
+    alt: 'Portrait of Anna',
+  },
+  'portrait-bartimaeus': {
+    src: '/images/portrait-bartimaeus.jpg',
+    alt: 'Portrait of Bartimaeus',
+  },
+  'portrait-jairus': {
+    src: '/images/portrait-jairus.jpg',
+    alt: 'Portrait of Jairus',
+  },
+  'portrait-ananias-damascus': {
+    src: '/images/portrait-ananias-damascus.jpg',
+    alt: 'Portrait of Ananias of Damascus',
+  },
+  'portrait-matthias': {
+    src: '/images/portrait-matthias.jpg',
+    alt: 'Portrait of Matthias',
+  },
+  'portrait-ethiopian-eunuch': {
+    src: '/images/portrait-ethiopian-eunuch.jpg',
+    alt: 'Portrait of Ethiopian Official',
+  },
+  'portrait-epaphroditus': {
+    src: '/images/portrait-epaphroditus.jpg',
+    alt: 'Portrait of Epaphroditus',
+  },
+  'portrait-epaphras': {
+    src: '/images/portrait-epaphras.jpg',
+    alt: 'Portrait of Epaphras',
+  },
+  'portrait-tychicus': {
+    src: '/images/portrait-tychicus.jpg',
+    alt: 'Portrait of Tychicus',
+  },
+  'portrait-lois-eunice': {
+    src: '/images/portrait-lois-eunice.jpg',
+    alt: 'Portrait of Lois & Eunice',
+  },
+  'portrait-gaius': {
+    src: '/images/portrait-gaius.jpg',
+    alt: 'Portrait of Gaius',
   },
 };
 

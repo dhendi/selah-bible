@@ -23,20 +23,32 @@ export const SECOND_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2pe-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus Christ",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Simon Peter",
             "entityId": "char-peter"
           },
           {
-            "spanText": "righteousness",
-            "entityId": "term-righteousness"
+            "spanText": "apostle",
+            "entityId": "term-apostle"
+          },
+          {
+            "spanText": "Jesus Christ",
+            "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           },
           {
             "spanText": "faith",
             "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -51,16 +63,16 @@ export const SECOND_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2pe-1",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "Grace",
             "entityId": "term-grace"
           },
           {
             "spanText": "peace",
             "entityId": "term-peace-eirene"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -77,6 +89,10 @@ export const SECOND_PETER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "godliness",
             "entityId": "term-godliness"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
           }
         ]
       },
@@ -271,7 +287,12 @@ export const SECOND_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "For he received from God the Father honor and glory when the voice came to him from the Majestic Glory, “This is my beloved Son, in whom I am well pleased.”",
         "translation": "WEB",
         "illustrationId": "ill-2pe-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          }
+        ]
       },
       {
         "id": "2PE-1:18",
@@ -293,7 +314,12 @@ export const SECOND_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "We have the more sure word of prophecy; and you do well that you heed it, as to a lamp shining in a dark place, until the day dawns, and the morning star arises in your hearts:",
         "translation": "WEB",
         "illustrationId": "ill-2pe-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophecy",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "2PE-1:20",
@@ -305,6 +331,10 @@ export const SECOND_PETER_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-2pe-1",
         "linkedEntities": [
+          {
+            "spanText": "prophecy",
+            "entityId": "term-prophecy-nt"
+          },
           {
             "spanText": "Scripture",
             "entityId": "term-scripture-inspired"
@@ -321,6 +351,10 @@ export const SECOND_PETER_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-2pe-1",
         "linkedEntities": [
+          {
+            "spanText": "prophecy",
+            "entityId": "term-prophecy-nt"
+          },
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
@@ -349,7 +383,12 @@ export const SECOND_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "But false prophets also arose among the people, as false teachers will also be among you, who will secretly bring in destructive heresies, denying even the Master who bought them, bringing on themselves swift destruction.",
         "translation": "WEB",
         "illustrationId": "ill-2pe-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "2PE-2:2",
@@ -371,7 +410,12 @@ export const SECOND_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "In covetousness they will exploit you with deceptive words: whose sentence now from of old doesn’t linger, and their destruction will not slumber.",
         "translation": "WEB",
         "illustrationId": "ill-2pe-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covetousness",
+            "entityId": "term-covetousness"
+          }
+        ]
       },
       {
         "id": "2PE-2:4",
@@ -382,7 +426,12 @@ export const SECOND_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "For if God didn’t spare angels when they sinned, but cast them down to Tartarus, and committed them to pits of darkness to be reserved for judgment;",
         "translation": "WEB",
         "illustrationId": "ill-2pe-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "2PE-2:5",
@@ -471,7 +520,12 @@ export const SECOND_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "but chiefly those who walk after the flesh in the lust of defilement and despise authority. Daring, self-willed, they are not afraid to speak evil of dignitaries;",
         "translation": "WEB",
         "illustrationId": "ill-2pe-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "2PE-2:11",
@@ -482,7 +536,12 @@ export const SECOND_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "whereas angels, though greater in might and power, don’t bring a railing judgment against them before the Lord.",
         "translation": "WEB",
         "illustrationId": "ill-2pe-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "angels",
+            "entityId": "term-angel-messenger"
+          }
+        ]
       },
       {
         "id": "2PE-2:12",
@@ -542,7 +601,12 @@ export const SECOND_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "but he was rebuked for his own disobedience. A mute donkey spoke with a man’s voice and stopped the madness of the prophet.",
         "translation": "WEB",
         "illustrationId": "ill-2pe-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophet",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "2PE-2:17",
@@ -564,7 +628,12 @@ export const SECOND_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "For, uttering great swelling words of emptiness, they entice in the lusts of the flesh, by licentiousness, those who are indeed escaping from those who live in error;",
         "translation": "WEB",
         "illustrationId": "ill-2pe-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "2PE-2:19",
@@ -576,6 +645,10 @@ export const SECOND_PETER_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-2pe-2",
         "linkedEntities": [
+          {
+            "spanText": "bondservants",
+            "entityId": "term-bondservant"
+          },
           {
             "spanText": "overcomes",
             "entityId": "term-overcomer"
@@ -611,6 +684,10 @@ export const SECOND_PETER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "commandment",
+            "entityId": "term-commandments"
           }
         ]
       },
@@ -658,7 +735,20 @@ export const SECOND_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "that you should remember the words which were spoken before by the holy prophets, and the commandment of us, the apostles of the Lord and Savior:",
         "translation": "WEB",
         "illustrationId": "ill-2pe-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          },
+          {
+            "spanText": "commandment",
+            "entityId": "term-commandments"
+          },
+          {
+            "spanText": "apostles",
+            "entityId": "term-apostle"
+          }
+        ]
       },
       {
         "id": "2PE-3:3",
@@ -735,7 +825,12 @@ export const SECOND_PETER_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Lord is not slow concerning his promise, as some count slowness; but he is patient with us, not wishing that anyone should perish, but that all should come to repentance.",
         "translation": "WEB",
         "illustrationId": "ill-2pe-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "repentance",
+            "entityId": "term-repentance"
+          }
+        ]
       },
       {
         "id": "2PE-3:10",
@@ -827,6 +922,10 @@ export const SECOND_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2pe-3",
         "linkedEntities": [
           {
+            "spanText": "salvation",
+            "entityId": "term-salvation"
+          },
+          {
             "spanText": "Paul",
             "entityId": "char-paul"
           },
@@ -874,12 +973,20 @@ export const SECOND_PETER_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-2pe-3",
         "linkedEntities": [
           {
+            "spanText": "grace",
+            "entityId": "term-grace"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           },
           {
-            "spanText": "grace",
-            "entityId": "term-grace"
+            "spanText": "glory",
+            "entityId": "term-glory-doxa"
+          },
+          {
+            "spanText": "Amen",
+            "entityId": "term-amen"
           }
         ]
       }

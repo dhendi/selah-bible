@@ -37,7 +37,12 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "(and the life was revealed, and we have seen, and testify, and declare to you the life, the eternal life, which was with the Father, and was revealed to us);",
         "translation": "WEB",
         "illustrationId": "ill-1jn-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "eternal life",
+            "entityId": "term-eternal-life"
+          }
+        ]
       },
       {
         "id": "1JN-1:3",
@@ -49,6 +54,10 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-1jn-1",
         "linkedEntities": [
+          {
+            "spanText": "fellowship",
+            "entityId": "term-fellowship-koinonia"
+          },
           {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
@@ -91,7 +100,12 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "If we say that we have fellowship with him and walk in the darkness, we lie, and don’t tell the truth.",
         "translation": "WEB",
         "illustrationId": "ill-1jn-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "fellowship",
+            "entityId": "term-fellowship-koinonia"
+          }
+        ]
       },
       {
         "id": "1JN-1:7",
@@ -103,6 +117,10 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-1jn-1",
         "linkedEntities": [
+          {
+            "spanText": "fellowship",
+            "entityId": "term-fellowship-koinonia"
+          },
           {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
@@ -129,7 +147,24 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "If we confess our sins, he is faithful and righteous to forgive us the sins, and to cleanse us from all unrighteousness.",
         "translation": "WEB",
         "illustrationId": "ill-1jn-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "confess",
+            "entityId": "term-confession"
+          },
+          {
+            "spanText": "faithful",
+            "entityId": "term-faith-pistis"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "forgive",
+            "entityId": "term-forgiveness"
+          }
+        ]
       },
       {
         "id": "1JN-1:10",
@@ -168,6 +203,10 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "righteous",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -180,7 +219,12 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "And he is the atoning sacrifice for our sins, and not for ours only, but also for the whole world.",
         "translation": "WEB",
         "illustrationId": "ill-1jn-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "atoning sacrifice",
+            "entityId": "term-propitiation"
+          }
+        ]
       },
       {
         "id": "1JN-2:3",
@@ -191,7 +235,12 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "This is how we know that we know him: if we keep his commandments.",
         "translation": "WEB",
         "illustrationId": "ill-1jn-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "commandments",
+            "entityId": "term-commandments"
+          }
+        ]
       },
       {
         "id": "1JN-2:4",
@@ -202,7 +251,12 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "One who says, “I know him,” and doesn’t keep his commandments, is a liar, and the truth isn’t in him.",
         "translation": "WEB",
         "illustrationId": "ill-1jn-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "commandments",
+            "entityId": "term-commandments"
+          }
+        ]
       },
       {
         "id": "1JN-2:5",
@@ -295,7 +349,12 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "I write to you, little children, because your sins are forgiven you for his name’s sake.",
         "translation": "WEB",
         "illustrationId": "ill-1jn-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "forgiven",
+            "entityId": "term-forgiveness"
+          }
+        ]
       },
       {
         "id": "1JN-2:13",
@@ -344,7 +403,12 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "For all that is in the world, the lust of the flesh, the lust of the eyes, and the pride of life, isn’t the Father’s, but is the world’s.",
         "translation": "WEB",
         "illustrationId": "ill-1jn-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
+          }
+        ]
       },
       {
         "id": "1JN-2:17",
@@ -414,6 +478,10 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -426,7 +494,12 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whoever denies the Son doesn’t have the Father. He who confesses the Son has the Father also.",
         "translation": "WEB",
         "illustrationId": "ill-1jn-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "confesses",
+            "entityId": "term-confession"
+          }
+        ]
       },
       {
         "id": "1JN-2:24",
@@ -448,7 +521,12 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "This is the promise which he promised us, the eternal life.",
         "translation": "WEB",
         "illustrationId": "ill-1jn-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "eternal life",
+            "entityId": "term-eternal-life"
+          }
+        ]
       },
       {
         "id": "1JN-2:26",
@@ -613,7 +691,12 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "He who sins is of the devil, for the devil has been sinning from the beginning. To this end the Son of God was revealed: that he might destroy the works of the devil.",
         "translation": "WEB",
         "illustrationId": "ill-1jn-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "devil",
+            "entityId": "term-satan-adversary"
+          }
+        ]
       },
       {
         "id": "1JN-3:9",
@@ -636,6 +719,10 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-1jn-3",
         "linkedEntities": [
+          {
+            "spanText": "devil",
+            "entityId": "term-satan-adversary"
+          },
           {
             "spanText": "righteousness",
             "entityId": "term-righteousness"
@@ -710,7 +797,12 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whoever hates his brother is a murderer, and you know that no murderer has eternal life remaining in him.",
         "translation": "WEB",
         "illustrationId": "ill-1jn-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "eternal life",
+            "entityId": "term-eternal-life"
+          }
+        ]
       },
       {
         "id": "1JN-3:16",
@@ -802,7 +894,12 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "so whatever we ask, we receive from him, because we keep his commandments and do the things that are pleasing in his sight.",
         "translation": "WEB",
         "illustrationId": "ill-1jn-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "commandments",
+            "entityId": "term-commandments"
+          }
+        ]
       },
       {
         "id": "1JN-3:23",
@@ -814,6 +911,10 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-1jn-3",
         "linkedEntities": [
+          {
+            "spanText": "commandment",
+            "entityId": "term-commandments"
+          },
           {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
@@ -862,7 +963,12 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "Beloved, don’t believe every spirit, but test the spirits, whether they are of God, because many false prophets have gone out into the world.",
         "translation": "WEB",
         "illustrationId": "ill-1jn-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "prophets",
+            "entityId": "term-prophecy-nt"
+          }
+        ]
       },
       {
         "id": "1JN-4:2",
@@ -875,12 +981,20 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1jn-4",
         "linkedEntities": [
           {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
+          },
+          {
+            "spanText": "confesses",
+            "entityId": "term-confession"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
           },
           {
-            "spanText": "Spirit",
-            "entityId": "term-ruach"
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
           }
         ]
       },
@@ -895,8 +1009,16 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1jn-4",
         "linkedEntities": [
           {
+            "spanText": "confess",
+            "entityId": "term-confession"
+          },
+          {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "flesh",
+            "entityId": "term-flesh-sarx"
           }
         ]
       },
@@ -994,6 +1116,10 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "atoning sacrifice",
+            "entityId": "term-propitiation"
           }
         ]
       },
@@ -1163,6 +1289,10 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1jn-4",
         "linkedEntities": [
           {
+            "spanText": "commandment",
+            "entityId": "term-commandments"
+          },
+          {
             "spanText": "love",
             "entityId": "term-agape-love"
           }
@@ -1194,6 +1324,10 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "Christ",
+            "entityId": "term-christ-messiah"
           }
         ]
       },
@@ -1210,6 +1344,10 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "love",
             "entityId": "term-agape-love"
+          },
+          {
+            "spanText": "commandments",
+            "entityId": "term-commandments"
           }
         ]
       },
@@ -1222,7 +1360,12 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "For this is loving God, that we keep his commandments. His commandments are not grievous.",
         "translation": "WEB",
         "illustrationId": "ill-1jn-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "commandments",
+            "entityId": "term-commandments"
+          }
+        ]
       },
       {
         "id": "1JN-5:4",
@@ -1259,12 +1402,12 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1jn-5",
         "linkedEntities": [
           {
-            "spanText": "Jesus",
-            "entityId": "char-jesus"
-          },
-          {
             "spanText": "overcomes",
             "entityId": "term-overcomer"
+          },
+          {
+            "spanText": "Jesus",
+            "entityId": "char-jesus"
           }
         ]
       },
@@ -1285,6 +1428,10 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Spirit",
             "entityId": "term-ruach"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-holy-spirit-nt"
           }
         ]
       },
@@ -1324,7 +1471,12 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "If we receive the witness of men, the witness of God is greater; for this is God’s testimony which he has testified concerning his Son.",
         "translation": "WEB",
         "illustrationId": "ill-1jn-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "witness",
+            "entityId": "term-witness-martyr"
+          }
+        ]
       },
       {
         "id": "1JN-5:10",
@@ -1335,7 +1487,12 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "He who believes in the Son of God has the testimony in himself. He who doesn’t believe God has made him a liar, because he has not believed in the testimony that God has given concerning his Son.",
         "translation": "WEB",
         "illustrationId": "ill-1jn-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "testimony",
+            "entityId": "term-witness-martyr"
+          }
+        ]
       },
       {
         "id": "1JN-5:11",
@@ -1346,7 +1503,12 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "The testimony is this, that God gave to us eternal life, and this life is in his Son.",
         "translation": "WEB",
         "illustrationId": "ill-1jn-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "eternal life",
+            "entityId": "term-eternal-life"
+          }
+        ]
       },
       {
         "id": "1JN-5:12",
@@ -1368,7 +1530,12 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "These things I have written to you who believe in the name of the Son of God, that you may know that you have eternal life, and that you may continue to believe in the name of the Son of God.",
         "translation": "WEB",
         "illustrationId": "ill-1jn-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "eternal life",
+            "entityId": "term-eternal-life"
+          }
+        ]
       },
       {
         "id": "1JN-5:14",
@@ -1449,6 +1616,10 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jesus Christ",
             "entityId": "char-jesus"
+          },
+          {
+            "spanText": "eternal life",
+            "entityId": "term-eternal-life"
           }
         ]
       },
@@ -1461,7 +1632,12 @@ export const FIRST_JOHN_CHAPTERS: Record<string, ChapterData> = {
         "text": "Little children, keep yourselves from idols.",
         "translation": "WEB",
         "illustrationId": "ill-1jn-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "idols",
+            "entityId": "term-idolatry"
+          }
+        ]
       }
     ]
   }
