@@ -322,8 +322,8 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'char-belshazzar': '/images/dan-05.jpg',
   'term-most-high': '/images/dan-04.jpg',
   'term-fiery-furnace': '/images/dan-03.jpg',
-  'term-ancient-of-days': '/images/dan-07.jpg',
-  'term-son-of-man': '/images/dan-07.jpg',
+  'term-ancient-of-days': '/images/word-ancient-of-days.jpg',
+  'term-son-of-man': '/images/word-son-of-man.jpg',
   'char-god': '/images/gen-01.jpg',
   'place-susa': '/images/word-susa-citadel.jpg',
   'term-joy-strength': '/images/word-joy-strength.jpg',
@@ -398,6 +398,10 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'term-shepherd-king': '/images/ezk-34.jpg',
   'term-living-water-temple': '/images/ezk-47.jpg',
   'term-glory-yahweh': '/images/word-glory-yahweh.jpg',
+  'char-gabriel': '/images/portrait-gabriel.jpg',
+  'char-michael': '/images/portrait-michael.jpg',
+  'term-lions-den': '/images/dan-06.jpg',
+  'place-greece': '/images/dan-08.jpg',
 };
 
 export interface ResolvedEntityAsset {

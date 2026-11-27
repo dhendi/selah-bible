@@ -33,6 +33,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -49,6 +53,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -61,7 +69,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The king spoke to Ashpenaz the master of his eunuchs, that he should bring in some of the children of Israel, even of the royal offspring and of the nobles;",
         "translation": "WEB",
         "illustrationId": "ill-dan-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "DAN-1:4",
@@ -72,7 +85,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "youths in whom was no defect, but well-favored, and skillful in all wisdom, and endowed with knowledge, and understanding science, and who had the ability to stand in the king’s palace; and that he should teach them the learning and the language of the Chaldeans.",
         "translation": "WEB",
         "illustrationId": "ill-dan-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "DAN-1:5",
@@ -110,6 +128,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Azariah",
             "entityId": "char-abednego"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -138,6 +160,22 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Azariah",
             "entityId": "char-abednego"
+          },
+          {
+            "spanText": "Belteshazzar",
+            "entityId": "char-daniel"
+          },
+          {
+            "spanText": "Abednego",
+            "entityId": "char-abednego"
+          },
+          {
+            "spanText": "Shadrach",
+            "entityId": "char-shadrach"
+          },
+          {
+            "spanText": "Meshach",
+            "entityId": "char-meshach"
           }
         ]
       },
@@ -364,6 +402,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Daniel",
             "entityId": "char-daniel"
+          },
+          {
+            "spanText": "Cyrus",
+            "entityId": "char-cyrus"
           }
         ]
       }
@@ -405,7 +447,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the king commanded that the magicians, the enchanters, the sorcerers, and the Chaldeans be called to tell the king his dreams. So they came in and stood before the king.",
         "translation": "WEB",
         "illustrationId": "ill-dan-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "DAN-2:3",
@@ -427,7 +474,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the Chaldeans spoke to the king in the Syrian language, “O king, live forever! Tell your servants the dream, and we will show the interpretation.”",
         "translation": "WEB",
         "illustrationId": "ill-dan-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "DAN-2:5",
@@ -438,7 +490,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The king answered the Chaldeans, “The thing has gone from me. If you don’t make known to me the dream and its interpretation, you will be cut in pieces, and your houses will be made a dunghill.",
         "translation": "WEB",
         "illustrationId": "ill-dan-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "DAN-2:6",
@@ -482,7 +539,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if you don’t make known to me the dream, there is but one law for you; for you have prepared lying and corrupt words to speak before me, until the situation changes. Therefore tell me the dream, and I will know that you can show me its interpretation.”",
         "translation": "WEB",
         "illustrationId": "ill-dan-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "DAN-2:10",
@@ -493,7 +555,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Chaldeans answered before the king, and said, “There is not a man on the earth who can show the king’s matter, because no king, lord, or ruler, has asked such a thing of any magician, or enchanter, or Chaldean.",
         "translation": "WEB",
         "illustrationId": "ill-dan-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "DAN-2:11",
@@ -753,6 +820,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Daniel",
             "entityId": "char-daniel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -768,6 +839,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "linkedEntities": [
           {
             "spanText": "Daniel",
+            "entityId": "char-daniel"
+          },
+          {
+            "spanText": "Belteshazzar",
             "entityId": "char-daniel"
           }
         ]
@@ -1235,7 +1310,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore at that time certain Chaldeans came near, and brought accusation against the Jews.",
         "translation": "WEB",
         "illustrationId": "ill-dan-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "DAN-3:9",
@@ -1841,7 +1921,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the magicians, the enchanters, the Chaldeans, and the soothsayers came in; and I told the dream before them; but they didn’t make known to me its interpretation.",
         "translation": "WEB",
         "illustrationId": "ill-dan-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "DAN-4:8",
@@ -1855,6 +1940,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "linkedEntities": [
           {
             "spanText": "Daniel",
+            "entityId": "char-daniel"
+          },
+          {
+            "spanText": "Belteshazzar",
             "entityId": "char-daniel"
           }
         ]
@@ -2001,6 +2090,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Daniel",
             "entityId": "char-daniel"
+          },
+          {
+            "spanText": "Belteshazzar",
+            "entityId": "char-daniel"
           }
         ]
       },
@@ -2100,7 +2193,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore, O king, let my counsel be acceptable to you, and break off your sins by righteousness, and your iniquities by showing mercy to the poor. Perhaps there may be a lengthening of your tranquility.”",
         "translation": "WEB",
         "illustrationId": "ill-dan-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "DAN-4:28",
@@ -2375,6 +2473,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -2429,6 +2531,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Nebuchadnezzar",
             "entityId": "char-nebuchadnezzar"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -2444,6 +2550,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "linkedEntities": [
           {
             "spanText": "Daniel",
+            "entityId": "char-daniel"
+          },
+          {
+            "spanText": "Belteshazzar",
             "entityId": "char-daniel"
           }
         ]
@@ -2461,6 +2571,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Daniel",
             "entityId": "char-daniel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -2669,7 +2783,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "PERES: your kingdom is divided, and given to the Medes and Persians.”",
         "translation": "WEB",
         "illustrationId": "ill-dan-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Medes",
+            "entityId": "place-media"
+          }
+        ]
       },
       {
         "id": "DAN-5:29",
@@ -2817,6 +2936,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Daniel",
             "entityId": "char-daniel"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -2845,7 +2968,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "All the presidents of the kingdom, the deputies and the local governors, the counselors and the governors, have consulted together to establish a royal statute, and to make a strong decree, that whoever asks a petition of any god or man for thirty days, except of you, O king, he shall be cast into the den of lions.",
         "translation": "WEB",
         "illustrationId": "ill-dan-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "den of lions",
+            "entityId": "term-lions-den"
+          }
+        ]
       },
       {
         "id": "DAN-6:8",
@@ -2856,7 +2984,16 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now, O king, establish the decree, and sign the writing, that it not be changed, according to the law of the Medes and Persians, which doesn’t alter.”",
         "translation": "WEB",
         "illustrationId": "ill-dan-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Medes",
+            "entityId": "place-media"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "DAN-6:9",
@@ -2895,6 +3032,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "prayed",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -2927,7 +3068,20 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then they came near, and spoke before the king concerning the king’s decree: “Haven’t you signed a decree that every man who makes a petition to any god or man within thirty days, except to you, O king, shall be cast into the den of lions?” The king answered, “This thing is true, according to the law of the Medes and Persians, which doesn’t alter.”",
         "translation": "WEB",
         "illustrationId": "ill-dan-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "den of lions",
+            "entityId": "term-lions-den"
+          },
+          {
+            "spanText": "Medes",
+            "entityId": "place-media"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "DAN-6:13",
@@ -2942,6 +3096,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Daniel",
             "entityId": "char-daniel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -2970,7 +3128,16 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then these men assembled together to the king, and said to the king, “Know, O king, that it is a law of the Medes and Persians, that no decree nor statute which the king establishes may be changed.”",
         "translation": "WEB",
         "illustrationId": "ill-dan-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Medes",
+            "entityId": "place-media"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "DAN-6:16",
@@ -2989,6 +3156,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Daniel",
             "entityId": "char-daniel"
+          },
+          {
+            "spanText": "den of lions",
+            "entityId": "term-lions-den"
           }
         ]
       },
@@ -3028,7 +3199,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the king arose very early in the morning, and went in haste to the den of lions.",
         "translation": "WEB",
         "illustrationId": "ill-dan-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "den of lions",
+            "entityId": "term-lions-den"
+          }
+        ]
       },
       {
         "id": "DAN-6:20",
@@ -3047,6 +3223,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Daniel",
             "entityId": "char-daniel"
+          },
+          {
+            "spanText": "lions",
+            "entityId": "term-lions-den"
           }
         ]
       },
@@ -3079,6 +3259,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "lions",
+            "entityId": "term-lions-den"
           }
         ]
       },
@@ -3115,6 +3299,14 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Daniel",
             "entityId": "char-daniel"
+          },
+          {
+            "spanText": "den of lions",
+            "entityId": "term-lions-den"
+          },
+          {
+            "spanText": "lions",
+            "entityId": "term-lions-den"
           }
         ]
       },
@@ -3167,6 +3359,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Daniel",
             "entityId": "char-daniel"
+          },
+          {
+            "spanText": "lions",
+            "entityId": "term-lions-den"
           }
         ]
       },
@@ -3187,6 +3383,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Darius",
             "entityId": "char-darius"
+          },
+          {
+            "spanText": "Cyrus",
+            "entityId": "char-cyrus"
           }
         ]
       }
@@ -3531,6 +3731,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Most High",
             "entityId": "term-most-high"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -3718,7 +3922,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yes, it magnified itself, even to the prince of the army; and it took away from him the continual burnt offering, and the place of his sanctuary was cast down.",
         "translation": "WEB",
         "illustrationId": "ill-dan-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          }
+        ]
       },
       {
         "id": "DAN-8:12",
@@ -3740,7 +3949,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then I heard a holy one speaking; and another holy one said to that certain one who spoke, “How long will the vision about the continual burnt offering, and the disobedience that makes desolate, to give both the sanctuary and the army to be trodden under foot be?”",
         "translation": "WEB",
         "illustrationId": "ill-dan-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          }
+        ]
       },
       {
         "id": "DAN-8:14",
@@ -3751,7 +3965,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to me, “To two thousand and three hundred evenings and mornings. Then the sanctuary will be cleansed.”",
         "translation": "WEB",
         "illustrationId": "ill-dan-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          }
+        ]
       },
       {
         "id": "DAN-8:15",
@@ -3778,7 +3997,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "I heard a man’s voice between the banks of the Ulai, which called, and said, “Gabriel, make this man understand the vision.”",
         "translation": "WEB",
         "illustrationId": "ill-dan-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gabriel",
+            "entityId": "char-gabriel"
+          }
+        ]
       },
       {
         "id": "DAN-8:17",
@@ -3827,7 +4051,16 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The ram which you saw, that had the two horns, they are the kings of Media and Persia.",
         "translation": "WEB",
         "illustrationId": "ill-dan-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
+          },
+          {
+            "spanText": "Media",
+            "entityId": "place-media"
+          }
+        ]
       },
       {
         "id": "DAN-8:21",
@@ -3838,7 +4071,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The rough male goat is the king of Greece. The great horn that is between his eyes is the first king.",
         "translation": "WEB",
         "illustrationId": "ill-dan-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Greece",
+            "entityId": "place-greece"
+          }
+        ]
       },
       {
         "id": "DAN-8:22",
@@ -3937,6 +4175,14 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Darius",
             "entityId": "char-darius"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          },
+          {
+            "spanText": "Medes",
+            "entityId": "place-media"
           }
         ]
       },
@@ -3977,6 +4223,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -3997,6 +4247,14 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          },
+          {
+            "spanText": "prayed",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -4035,6 +4293,18 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -4098,6 +4368,14 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -4134,6 +4412,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -4170,6 +4452,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
           }
         ]
       },
@@ -4186,6 +4472,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -4202,6 +4492,14 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
           }
         ]
       },
@@ -4218,6 +4516,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
           }
         ]
       },
@@ -4254,6 +4556,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -4266,7 +4572,16 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "yes, while I was speaking in prayer, the man Gabriel, whom I had seen in the vision at the beginning, being caused to fly swiftly, touched me about the time of the evening offering.",
         "translation": "WEB",
         "illustrationId": "ill-dan-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gabriel",
+            "entityId": "char-gabriel"
+          },
+          {
+            "spanText": "prayer",
+            "entityId": "term-prayer"
+          }
+        ]
       },
       {
         "id": "DAN-9:22",
@@ -4304,7 +4619,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Seventy weeks are decreed on your people and on your holy city, to finish disobedience, and to make an end of sins, and to make reconciliation for iniquity, and to bring in everlasting righteousness, and to seal up vision and prophecy, and to anoint the most holy.",
         "translation": "WEB",
         "illustrationId": "ill-dan-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "DAN-9:25",
@@ -4331,7 +4651,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "After the sixty-two weeks the Anointed One will be cut off, and will have nothing. The people of the prince who come will destroy the city and the sanctuary. Its end will be with a flood, and war will be even to the end. Desolations are determined.",
         "translation": "WEB",
         "illustrationId": "ill-dan-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          }
+        ]
       },
       {
         "id": "DAN-9:27",
@@ -4342,7 +4667,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He will make a firm covenant with many for one week. In the middle of the week he will cause the sacrifice and the offering to cease. On the wing of abominations will come one who makes desolate; and even to the full end, and that determined, wrath will be poured out on the desolate.”",
         "translation": "WEB",
         "illustrationId": "ill-dan-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       }
     ]
   },
@@ -4370,6 +4700,18 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Daniel",
             "entityId": "char-daniel"
+          },
+          {
+            "spanText": "Belteshazzar",
+            "entityId": "char-daniel"
+          },
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
+          },
+          {
+            "spanText": "Cyrus",
+            "entityId": "char-cyrus"
           }
         ]
       },
@@ -4527,7 +4869,16 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "But the prince of the kingdom of Persia withstood me twenty-one days; but, behold, Michael, one of the chief princes, came to help me because I remained there with the kings of Persia.",
         "translation": "WEB",
         "illustrationId": "ill-dan-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Michael",
+            "entityId": "char-michael"
+          },
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
+          }
+        ]
       },
       {
         "id": "DAN-10:14",
@@ -4604,7 +4955,16 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then he said, “Do you know why I have come to you? Now I will return to fight with the prince of Persia. When I go out, behold, the prince of Greece will come.",
         "translation": "WEB",
         "illustrationId": "ill-dan-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Greece",
+            "entityId": "place-greece"
+          },
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
+          }
+        ]
       },
       {
         "id": "DAN-10:21",
@@ -4615,7 +4975,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "But I will tell you that which is inscribed in the writing of truth. There is no one who holds with me against these, but Michael your prince.",
         "translation": "WEB",
         "illustrationId": "ill-dan-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Michael",
+            "entityId": "char-michael"
+          }
+        ]
       }
     ]
   },
@@ -4655,7 +5020,16 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Now I will show you the truth. Behold, three more kings will stand up in Persia; and the fourth will be far richer than all of them. When he has grown strong through his riches, he will stir up all against the realm of Greece.",
         "translation": "WEB",
         "illustrationId": "ill-dan-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Greece",
+            "entityId": "place-greece"
+          },
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
+          }
+        ]
       },
       {
         "id": "DAN-11:3",
@@ -4721,7 +5095,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He will also carry their gods, with their molten images, and with their goodly vessels of silver and of gold, captive into Egypt. He will refrain some years from the king of the north.",
         "translation": "WEB",
         "illustrationId": "ill-dan-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "DAN-11:9",
@@ -4875,7 +5254,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The overwhelming forces will be overwhelmed from before him, and will be broken. Yes, also the prince of the covenant.",
         "translation": "WEB",
         "illustrationId": "ill-dan-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "DAN-11:23",
@@ -4941,7 +5325,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then he will return into his land with great wealth. His heart will be against the holy covenant. He will take action, and return to his own land.",
         "translation": "WEB",
         "illustrationId": "ill-dan-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "DAN-11:29",
@@ -4963,7 +5352,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "For ships of Kittim will come against him. Therefore he will be grieved, and will return, and have indignation against the holy covenant, and will take action. He will even return, and have regard to those who forsake the holy covenant.",
         "translation": "WEB",
         "illustrationId": "ill-dan-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "DAN-11:31",
@@ -4974,7 +5368,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Forces will stand on his part, and they will profane the sanctuary, even the fortress, and will take away the continual burnt offering. Then they will set up the abomination that makes desolate.",
         "translation": "WEB",
         "illustrationId": "ill-dan-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          }
+        ]
       },
       {
         "id": "DAN-11:32",
@@ -4989,6 +5388,10 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "God",
             "entityId": "char-god"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           }
         ]
       },
@@ -5105,7 +5508,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He will also stretch out his hand on the countries. The land of Egypt won’t escape.",
         "translation": "WEB",
         "illustrationId": "ill-dan-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "DAN-11:43",
@@ -5116,7 +5524,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "But he will have power over the treasures of gold and of silver, and over all the precious things of Egypt. The Libyans and the Ethiopians will be at his steps.",
         "translation": "WEB",
         "illustrationId": "ill-dan-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "DAN-11:44",
@@ -5162,7 +5575,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“At that time Michael will stand up, the great prince who stands for the children of your people; and there will be a time of trouble, such as never was since there was a nation even to that same time. At that time your people will be delivered, everyone who is found written in the book.",
         "translation": "WEB",
         "illustrationId": "ill-dan-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Michael",
+            "entityId": "char-michael"
+          }
+        ]
       },
       {
         "id": "DAN-12:2",
@@ -5184,7 +5602,12 @@ export const DANIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Those who are wise will shine as the brightness of the expanse. Those who turn many to righteousness will shine as the stars forever and ever.",
         "translation": "WEB",
         "illustrationId": "ill-dan-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "DAN-12:4",
