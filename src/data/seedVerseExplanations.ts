@@ -1957,6 +1957,41 @@ const BOOK_EXPLANATION_TEMPLATES: Record<string, BookExplanationTemplate> = {
     action: (ref) => `Practice quiet, steady kindness in your daily work today alongside ${ref}.`,
     kid: (s) => `${s} God gives calm peace to help us stay steady and keep doing good every day!`,
   },
+  '1TI': {
+    bookName: '1 Timothy',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, healthy gospel teaching produces pure hearts, sincere prayers, and quiet contentment grounded in Jesus our one Mediator.`,
+    action: (ref) => `Lift one sincere prayer for someone around you today and practice contentment alongside ${ref}.`,
+    kid: (s) => `${s} Godliness and grateful contentment make every heart rich in Jesus!`,
+  },
+  '2TI': {
+    bookName: '2 Timothy',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, God-breathed Scripture equips brave believers across generations to fan God’s gift into flame and finish the race.`,
+    action: (ref) => `Thank God for someone who passed faith to you and linger thoughtfully over ${ref}.`,
+    kid: (s) => `${s} God didn’t give us a spirit of fear—He gives us power, love, and a steady mind!`,
+  },
+  TIT: {
+    bookName: 'Titus',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, saving grace trains ordinary households to shine with integrity, gentleness, and eager good works.`,
+    action: (ref) => `Let God’s mercy spill over into one practical kindness today as you reflect on ${ref}.`,
+    kid: (s) => `${s} Jesus washes hearts clean so our everyday kindness shows everyone how good God is!`,
+  },
+  PHM: {
+    bookName: 'Philemon',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, Christlike forgiveness transforms former barriers into warm family welcome: no longer a servant, but a beloved brother.`,
+    action: (ref) => `Extend unexpected grace or reconciliation toward someone today alongside ${ref}.`,
+    kid: (s) => `${s} In Jesus’ family, everyone becomes a welcomed brother or sister!`,
+  },
+  HEB: {
+    bookName: 'Hebrews',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, Jesus our sympathetic Great High Priest opens a fresh living way to grace’s throne—anchoring endurance until the unshakeable Kingdom.`,
+    action: (ref) => `Fix your eyes squarely on Jesus today and encourage one friend warmly alongside ${ref}.`,
+    kid: (s) => `${s} Surrounded by God’s faithful heroes, let’s keep looking straight at Jesus!`,
+  },
 };
 
 export function getExplanationForVerse(

@@ -14,9 +14,19 @@ export const ChapterPickerModal: React.FC = () => {
   } = useStudyStore();
 
   const [selectedBookTab, setSelectedBookTab] = useState<
-    'GEN' | 'EXO' | 'LEV' | 'NUM' | 'DEU' | 'JOS' | 'JDG' | 'RUT' | '1SA' | '2SA' | '1KI' | '2KI' | '1CH' | '2CH' | 'EZR' | 'NEH' | 'EST' | 'JOB' | 'PSA' | 'PRO' | 'ECC' | 'SNG' | 'ISA' | 'JER' | 'LAM' | 'EZK' | 'DAN' | 'HOS' | 'JOL' | 'AMO' | 'OBA' | 'JON' | 'MIC' | 'NAM' | 'HAB' | 'ZEP' | 'HAG' | 'ZEC' | 'MAL' | 'MAT' | 'MRK' | 'LUK' | 'JHN' | 'ACT' | 'ROM' | '1CO' | '2CO' | 'GAL' | 'EPH' | 'PHP' | 'COL' | '1TH' | '2TH' | 'FEATURED'
+    'GEN' | 'EXO' | 'LEV' | 'NUM' | 'DEU' | 'JOS' | 'JDG' | 'RUT' | '1SA' | '2SA' | '1KI' | '2KI' | '1CH' | '2CH' | 'EZR' | 'NEH' | 'EST' | 'JOB' | 'PSA' | 'PRO' | 'ECC' | 'SNG' | 'ISA' | 'JER' | 'LAM' | 'EZK' | 'DAN' | 'HOS' | 'JOL' | 'AMO' | 'OBA' | 'JON' | 'MIC' | 'NAM' | 'HAB' | 'ZEP' | 'HAG' | 'ZEC' | 'MAL' | 'MAT' | 'MRK' | 'LUK' | 'JHN' | 'ACT' | 'ROM' | '1CO' | '2CO' | 'GAL' | 'EPH' | 'PHP' | 'COL' | '1TH' | '2TH' | '1TI' | '2TI' | 'TIT' | 'PHM' | 'HEB' | 'FEATURED'
   >(
-    currentChapterId.startsWith('2TH-')
+    currentChapterId.startsWith('HEB-')
+      ? 'HEB'
+      : currentChapterId.startsWith('PHM-')
+      ? 'PHM'
+      : currentChapterId.startsWith('TIT-')
+      ? 'TIT'
+      : currentChapterId.startsWith('2TI-')
+      ? '2TI'
+      : currentChapterId.startsWith('1TI-')
+      ? '1TI'
+      : currentChapterId.startsWith('2TH-')
       ? '2TH'
       : currentChapterId.startsWith('1TH-')
       ? '1TH'
@@ -190,6 +200,11 @@ export const ChapterPickerModal: React.FC = () => {
   const colossiansChapterNumbers = Array.from({ length: 4 }, (_, i) => i + 1);
   const firstThessChapterNumbers = Array.from({ length: 5 }, (_, i) => i + 1);
   const secondThessChapterNumbers = Array.from({ length: 3 }, (_, i) => i + 1);
+  const firstTimothyChapterNumbers = Array.from({ length: 6 }, (_, i) => i + 1);
+  const secondTimothyChapterNumbers = Array.from({ length: 4 }, (_, i) => i + 1);
+  const titusChapterNumbers = Array.from({ length: 3 }, (_, i) => i + 1);
+  const philemonChapterNumbers = Array.from({ length: 1 }, (_, i) => i + 1);
+  const hebrewsChapterNumbers = Array.from({ length: 13 }, (_, i) => i + 1);
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
@@ -204,7 +219,7 @@ export const ChapterPickerModal: React.FC = () => {
           <div>
             <h3 className="text-lg font-serif font-bold text-[#2C2C2A]">Select Book & Chapter</h3>
             <p className="text-xs text-[#76746E]">
-              OT (39) + Gospels (4) + Acts · Rom–2Th (Paul’s Church Letters)
+              OT (39) + Gospels (4) + Acts · Paul (13) + Hebrews
             </p>
           </div>
           <button
@@ -799,6 +814,61 @@ export const ChapterPickerModal: React.FC = () => {
             }`}
           >
             <span>2Th (3)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('1TI')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === '1TI'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>1Ti (6)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('2TI')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === '2TI'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>2Ti (4)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('TIT')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'TIT'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Tit (3)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('PHM')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'PHM'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Phm (1)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('HEB')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'HEB'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Heb (13)</span>
           </button>
 
           <button
@@ -3391,6 +3461,166 @@ export const ChapterPickerModal: React.FC = () => {
             </div>
           )}
 
+          {selectedBookTab === '1TI' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>6 Chapters · Full WEB Text</span>
+                <span>113 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-5 gap-2 mb-4">
+                {firstTimothyChapterNumbers.map((num) => {
+                  const id = `1TI-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = bookChapters?.[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `1 Timothy ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#C88A6B] text-white border-[#C88A6B] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#C88A6B]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {selectedBookTab === '2TI' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>4 Chapters · Full WEB Text</span>
+                <span>83 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-5 gap-2 mb-4">
+                {secondTimothyChapterNumbers.map((num) => {
+                  const id = `2TI-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = bookChapters?.[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `2 Timothy ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#C88A6B] text-white border-[#C88A6B] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#C88A6B]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {selectedBookTab === 'TIT' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>3 Chapters · Full WEB Text</span>
+                <span>46 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-5 gap-2 mb-4">
+                {titusChapterNumbers.map((num) => {
+                  const id = `TIT-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = bookChapters?.[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Titus ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#C88A6B] text-white border-[#C88A6B] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#C88A6B]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {selectedBookTab === 'PHM' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>1 Chapter · Full WEB Text</span>
+                <span>25 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-5 gap-2 mb-4">
+                {philemonChapterNumbers.map((num) => {
+                  const id = `PHM-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = bookChapters?.[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Philemon ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#C88A6B] text-white border-[#C88A6B] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#C88A6B]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {selectedBookTab === 'HEB' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>13 Chapters · Full WEB Text</span>
+                <span>303 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-5 gap-2 mb-4">
+                {hebrewsChapterNumbers.map((num) => {
+                  const id = `HEB-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = bookChapters?.[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Hebrews ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#C88A6B] text-white border-[#C88A6B] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#C88A6B]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
           {selectedBookTab === 'FEATURED' && (
             <div className="space-y-2.5">
               {/* Genesis 1–50 */}
@@ -4577,6 +4807,141 @@ export const ChapterPickerModal: React.FC = () => {
                   </p>
                 </div>
                 {currentChapterId.startsWith('2TH-') && (
+                  <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
+                )}
+              </button>
+
+              {/* 1 Timothy (Godliness & Sound Teaching) */}
+              <button
+                onClick={() => handleSelect('1TI-1')}
+                className={`w-full text-left p-3.5 rounded-2xl border transition-all flex items-center justify-between cursor-pointer ${
+                  currentChapterId.startsWith('1TI-')
+                    ? 'bg-[#EBF2ED] border-[#7A9A82] shadow-sm'
+                    : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+                }`}
+              >
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-serif font-bold text-[#2C2C2A] flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5 text-[#C88A6B]" /> 1 Timothy 1–6
+                    </span>
+                    <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-[#F7EBE4] text-[#8F5338]">
+                      Full Book
+                    </span>
+                  </div>
+                  <p className="text-xs text-[#6B6862] mt-0.5">
+                    One Mediator Christ Jesus, household care, godliness & contentment.
+                  </p>
+                </div>
+                {currentChapterId.startsWith('1TI-') && (
+                  <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
+                )}
+              </button>
+
+              {/* 2 Timothy (Pass the Torch & Finish the Race) */}
+              <button
+                onClick={() => handleSelect('2TI-1')}
+                className={`w-full text-left p-3.5 rounded-2xl border transition-all flex items-center justify-between cursor-pointer ${
+                  currentChapterId.startsWith('2TI-')
+                    ? 'bg-[#EBF2ED] border-[#7A9A82] shadow-sm'
+                    : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+                }`}
+              >
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-serif font-bold text-[#2C2C2A] flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5 text-[#C88A6B]" /> 2 Timothy 1–4
+                    </span>
+                    <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-[#F7EBE4] text-[#8F5338]">
+                      Full Book
+                    </span>
+                  </div>
+                  <p className="text-xs text-[#6B6862] mt-0.5">
+                    Lois & Eunice, God-breathed Scripture, Onesiphorus & finishing the race.
+                  </p>
+                </div>
+                {currentChapterId.startsWith('2TI-') && (
+                  <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
+                )}
+              </button>
+
+              {/* Titus (Grace Training Crete) */}
+              <button
+                onClick={() => handleSelect('TIT-1')}
+                className={`w-full text-left p-3.5 rounded-2xl border transition-all flex items-center justify-between cursor-pointer ${
+                  currentChapterId.startsWith('TIT-')
+                    ? 'bg-[#EBF2ED] border-[#7A9A82] shadow-sm'
+                    : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+                }`}
+              >
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-serif font-bold text-[#2C2C2A] flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5 text-[#C88A6B]" /> Titus 1–3
+                    </span>
+                    <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-[#F7EBE4] text-[#8F5338]">
+                      Full Book
+                    </span>
+                  </div>
+                  <p className="text-xs text-[#6B6862] mt-0.5">
+                    Sound teaching adorning homes & saving mercy washing hearts cleanly.
+                  </p>
+                </div>
+                {currentChapterId.startsWith('TIT-') && (
+                  <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
+                )}
+              </button>
+
+              {/* Philemon (Welcome Beloved Brother Onesimus) */}
+              <button
+                onClick={() => handleSelect('PHM-1')}
+                className={`w-full text-left p-3.5 rounded-2xl border transition-all flex items-center justify-between cursor-pointer ${
+                  currentChapterId.startsWith('PHM-')
+                    ? 'bg-[#EBF2ED] border-[#7A9A82] shadow-sm'
+                    : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+                }`}
+              >
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-serif font-bold text-[#2C2C2A] flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5 text-[#C88A6B]" /> Philemon 1
+                    </span>
+                    <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-[#F7EBE4] text-[#8F5338]">
+                      Full Book
+                    </span>
+                  </div>
+                  <p className="text-xs text-[#6B6862] mt-0.5">
+                    Paul’s tender appeal to welcome runaway Onesimus as a beloved brother.
+                  </p>
+                </div>
+                {currentChapterId.startsWith('PHM-') && (
+                  <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
+                )}
+              </button>
+
+              {/* Hebrews (Great High Priest & Hall of Faith) */}
+              <button
+                onClick={() => handleSelect('HEB-1')}
+                className={`w-full text-left p-3.5 rounded-2xl border transition-all flex items-center justify-between cursor-pointer ${
+                  currentChapterId.startsWith('HEB-')
+                    ? 'bg-[#EBF2ED] border-[#7A9A82] shadow-sm'
+                    : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+                }`}
+              >
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-serif font-bold text-[#2C2C2A] flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5 text-[#C88A6B]" /> Hebrews 1–13
+                    </span>
+                    <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-[#F7EBE4] text-[#8F5338]">
+                      Full Book
+                    </span>
+                  </div>
+                  <p className="text-xs text-[#6B6862] mt-0.5">
+                    Great High Priest after Melchizedek, New Covenant & Hebrews 11 Hall of Faith.
+                  </p>
+                </div>
+                {currentChapterId.startsWith('HEB-') && (
                   <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
                 )}
               </button>

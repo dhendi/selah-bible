@@ -58,6 +58,11 @@ const BOOK_IMPORTERS: Record<string, ChapterLoader> = {
   COL: () => import('./books/colossiansChapters').then((m) => m.COLOSSIANS_CHAPTERS),
   '1TH': () => import('./books/firstThessaloniansChapters').then((m) => m.FIRST_THESSALONIANS_CHAPTERS),
   '2TH': () => import('./books/secondThessaloniansChapters').then((m) => m.SECOND_THESSALONIANS_CHAPTERS),
+  '1TI': () => import('./books/firstTimothyChapters').then((m) => m.FIRST_TIMOTHY_CHAPTERS),
+  '2TI': () => import('./books/secondTimothyChapters').then((m) => m.SECOND_TIMOTHY_CHAPTERS),
+  TIT: () => import('./books/titusChapters').then((m) => m.TITUS_CHAPTERS),
+  PHM: () => import('./books/philemonChapters').then((m) => m.PHILEMON_CHAPTERS),
+  HEB: () => import('./books/hebrewsChapters').then((m) => m.HEBREWS_CHAPTERS),
 };
 
 const bookCache: Record<string, ChapterMap> = {};

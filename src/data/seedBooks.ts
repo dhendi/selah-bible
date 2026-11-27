@@ -1043,4 +1043,9 @@ export const BUILT_BOOK_START_CHAPTER: Record<string, string> = {
   COL: 'COL-1',
   '1TH': '1TH-1',
   '2TH': '2TH-1',
+  '1TI': '1TI-1',
+  '2TI': '2TI-1',
+  TIT: 'TIT-1',
+  PHM: 'PHM-1',
+  HEB: 'HEB-1',
 };

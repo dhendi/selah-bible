@@ -562,6 +562,56 @@ function resolveChapterAsset(key: string): { src: string; alt: string } | undefi
       };
     }
   }
+  const tim1Match = /^ill-1ti-(\d+)$/.exec(key);
+  if (tim1Match) {
+    const ch = Number(tim1Match[1]);
+    if (ch >= 1 && ch <= 6) {
+      return {
+        src: `/images/1ti-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `1 Timothy ${ch} illustration`,
+      };
+    }
+  }
+  const tim2Match = /^ill-2ti-(\d+)$/.exec(key);
+  if (tim2Match) {
+    const ch = Number(tim2Match[1]);
+    if (ch >= 1 && ch <= 4) {
+      return {
+        src: `/images/2ti-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `2 Timothy ${ch} illustration`,
+      };
+    }
+  }
+  const titMatch = /^ill-tit-(\d+)$/.exec(key);
+  if (titMatch) {
+    const ch = Number(titMatch[1]);
+    if (ch >= 1 && ch <= 3) {
+      return {
+        src: `/images/tit-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Titus ${ch} illustration`,
+      };
+    }
+  }
+  const phmMatch = /^ill-phm-(\d+)$/.exec(key);
+  if (phmMatch) {
+    const ch = Number(phmMatch[1]);
+    if (ch === 1) {
+      return {
+        src: `/images/phm-01.jpg`,
+        alt: `Philemon 1 illustration`,
+      };
+    }
+  }
+  const hebMatch = /^ill-heb-(\d+)$/.exec(key);
+  if (hebMatch) {
+    const ch = Number(hebMatch[1]);
+    if (ch >= 1 && ch <= 13) {
+      return {
+        src: `/images/heb-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Hebrews ${ch} illustration`,
+      };
+    }
+  }
   return undefined;
 }
 

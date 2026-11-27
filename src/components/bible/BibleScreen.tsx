@@ -59,6 +59,11 @@ const BOOK_SEQUENCE: { bookId: string; bookName: string; chapters: number }[] = 
   { bookId: 'COL', bookName: 'Colossians', chapters: 4 },
   { bookId: '1TH', bookName: '1 Thessalonians', chapters: 5 },
   { bookId: '2TH', bookName: '2 Thessalonians', chapters: 3 },
+  { bookId: '1TI', bookName: '1 Timothy', chapters: 6 },
+  { bookId: '2TI', bookName: '2 Timothy', chapters: 4 },
+  { bookId: 'TIT', bookName: 'Titus', chapters: 3 },
+  { bookId: 'PHM', bookName: 'Philemon', chapters: 1 },
+  { bookId: 'HEB', bookName: 'Hebrews', chapters: 13 },
 ];
 
 const ORDERED_CHAPTER_IDS: string[] = BOOK_SEQUENCE.flatMap((book) =>

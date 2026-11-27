@@ -553,6 +553,15 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'term-preeminence-supremacy': '/images/col-01.jpg',
   'term-parousia-coming': '/images/1th-04.jpg',
   'term-sanctification-hagiasmos': '/images/1th-05.jpg',
+  'char-philemon': '/images/portrait-philemon.jpg',
+  'char-lois-eunice': '/images/portrait-lois-eunice.jpg',
+  'char-onesiphorus': '/images/2ti-01.jpg',
+  'term-high-priest-christ': '/images/heb-08.jpg',
+  'term-godliness': '/images/1ti-06.jpg',
+  'term-scripture-inspired': '/images/2ti-03.jpg',
+  'term-mediator': '/images/heb-09.jpg',
+  'term-great-cloud-witnesses': '/images/heb-12.jpg',
+  'term-sound-doctrine': '/images/tit-02.jpg',
 };
 
 export interface ResolvedEntityAsset {
