@@ -1,11 +1,11 @@
-import React, { Suspense, lazy } from 'react';
+import React, { Suspense, lazy, useEffect, useRef } from 'react';
 import {
   Bookmark,
   BookOpen,
   Compass,
   PenLine,
 } from 'lucide-react';
-import { useStudyStore } from './store/useStudyStore';
+import { globalStore, useStudyStore } from './store/useStudyStore';
 import { TodayScreen } from './components/today/TodayScreen';
 import { OnboardingFlow } from './components/onboarding/OnboardingFlow';
 
@@ -53,6 +53,9 @@ const TypographyDrawer = lazy(() =>
 );
 
 export const App: React.FC = () => {
+  const navRef = useRef<HTMLElement | null>(null);
+  const footerRef = useRef<HTMLElement | null>(null);
+
   const {
     activeTab,
     setActiveTab,
@@ -60,6 +63,38 @@ export const App: React.FC = () => {
     showChapterPicker,
     setShowTypographyDrawer,
   } = useStudyStore();
+
+  useEffect(() => {
+    const syncChromeHeights = () => {
+      if (navRef.current) {
+        document.documentElement.style.setProperty(
+          '--selah-nav-h',
+          `${navRef.current.offsetHeight}px`
+        );
+      }
+      if (footerRef.current) {
+        document.documentElement.style.setProperty(
+          '--selah-footer-h',
+          `${footerRef.current.offsetHeight}px`
+        );
+      }
+    };
+    syncChromeHeights();
+    const ro = new ResizeObserver(syncChromeHeights);
+    if (navRef.current) ro.observe(navRef.current);
+    if (footerRef.current) ro.observe(footerRef.current);
+
+    const handleEsc = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        globalStore.closeTopOverlay();
+      }
+    };
+    window.addEventListener('keydown', handleEsc);
+    return () => {
+      ro.disconnect();
+      window.removeEventListener('keydown', handleEsc);
+    };
+  }, [preferences.uiScale]);
 
   const scaleLabel =
     preferences.uiScale === 'xlarge'
@@ -80,7 +115,7 @@ export const App: React.FC = () => {
       className={`min-h-[100dvh] bg-[#FBF8F1] sm:bg-[#EAE3D4] text-[#24221E] flex flex-col items-center justify-start ${getGlobalFontClass()}`}
     >
       {/* Subtle Top Book Spine Bar (Safe-area aware for native iOS/Android) */}
-      <nav className="w-full bg-[#FBF8F1]/95 sm:bg-[#E4DCCB]/85 backdrop-blur-xs border-b border-[#DDD3C1] px-4 pt-[max(0.5rem,env(safe-area-inset-top))] pb-2 flex items-center justify-between text-xs text-[#666158] sticky top-0 z-40">
+      <nav ref={navRef} className="w-full bg-[#FBF8F1]/95 sm:bg-[#E4DCCB]/85 backdrop-blur-xs border-b border-[#DDD3C1] px-4 pt-[max(0.5rem,env(safe-area-inset-top))] pb-2 flex items-center justify-between text-xs text-[#666158] sticky top-0 z-40">
         <div className="max-w-3xl w-full mx-auto flex items-center justify-between">
           <span className="font-serif font-semibold text-[#24221E] text-sm flex items-center gap-2 tracking-wide">
             <span className="w-1.5 h-3.5 bg-[#8B3A2B] inline-block rounded-[1px]" />
@@ -122,7 +157,7 @@ export const App: React.FC = () => {
           </div>
 
           {/* Quiet Editorial Bottom Navigation */}
-          <footer className="sticky bottom-0 left-0 right-0 z-30 bg-[#FBF8F1]/95 backdrop-blur-xs border-t border-[#DDD3C1] px-4 pt-0 pb-[max(0.75rem,env(safe-area-inset-bottom))] flex items-center justify-around select-none">
+          <footer ref={footerRef} className="sticky bottom-0 left-0 right-0 z-30 bg-[#FBF8F1]/95 backdrop-blur-xs border-t border-[#DDD3C1] px-4 pt-0 pb-[max(0.75rem,env(safe-area-inset-bottom))] flex items-center justify-around select-none">
             <button
               onClick={() => setActiveTab('today')}
               className={`flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-3 border-t-2 transition-colors cursor-pointer ${

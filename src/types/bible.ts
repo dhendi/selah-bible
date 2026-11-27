@@ -252,4 +252,5 @@ export interface MapLocationPin {
   yPercent: number; // 0-100 on stylized map
   era: string;
   keyPassage: string;
+  region?: 'near-east' | 'mediterranean';
 }

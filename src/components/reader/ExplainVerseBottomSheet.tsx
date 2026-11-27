@@ -66,11 +66,23 @@ export const ExplainVerseBottomSheet: React.FC = () => {
     } else if (activeExplainVerseId.startsWith('RUT')) {
       navigateToMapPin('loc-bethlehem');
     } else if (/^(MAT|MRK|LUK|JHN)-/.test(activeExplainVerseId)) {
-      navigateToMapPin('loc-mount-tabor');
+      navigateToMapPin('loc-nazareth');
     } else if (/^(ACT|HEB|JAS)-/.test(activeExplainVerseId)) {
       navigateToMapPin('loc-jerusalem');
-    } else if (/^(ROM|1CO|2CO|GAL|EPH|PHP|COL|1TH|2TH|1TI|2TI|TIT|PHM|1PE|2PE|1JN|2JN|3JN|JUD|REV)-/.test(activeExplainVerseId)) {
-      navigateToMapPin('loc-mount-carmel');
+    } else if (/^ROM-/.test(activeExplainVerseId)) {
+      navigateToMapPin('loc-rome');
+    } else if (/^(1CO|2CO)-/.test(activeExplainVerseId)) {
+      navigateToMapPin('loc-corinth');
+    } else if (/^(EPH|1TI|2TI|1JN|2JN|3JN)-/.test(activeExplainVerseId)) {
+      navigateToMapPin('loc-ephesus');
+    } else if (/^PHP-/.test(activeExplainVerseId)) {
+      navigateToMapPin('loc-philippi');
+    } else if (/^(GAL|COL|PHM)-/.test(activeExplainVerseId)) {
+      navigateToMapPin('loc-antioch');
+    } else if (/^REV-/.test(activeExplainVerseId)) {
+      navigateToMapPin('loc-patmos');
+    } else if (/^(1TH|2TH|TIT|1PE|2PE|JUD)-/.test(activeExplainVerseId)) {
+      navigateToMapPin('loc-athens');
     } else {
       navigateToMapPin('loc-eden');
     }

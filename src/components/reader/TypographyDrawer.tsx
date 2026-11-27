@@ -186,6 +186,30 @@ export const TypographyDrawer: React.FC = () => {
           </div>
         </div>
 
+        {/* Audio Speech Rate */}
+        <div className="mb-4 bg-[#F3EFE6] p-3.5 rounded-2xl border border-[#E5DFD5]">
+          <div className="text-xs font-semibold text-[#2C2C2A] mb-2">Read-Aloud Voice Speed</div>
+          <div className="grid grid-cols-3 gap-2">
+            {[
+              { label: '0.8× Slower', val: 0.8 },
+              { label: '1.0× Normal', val: 1.0 },
+              { label: '1.15× Brisk', val: 1.15 },
+            ].map((sp) => (
+              <button
+                key={sp.label}
+                onClick={() => updatePreferences({ audioSpeechRate: sp.val })}
+                className={`py-2 px-2 rounded-xl text-xs font-medium border transition-all cursor-pointer ${
+                  Math.abs((preferences.audioSpeechRate || 1.0) - sp.val) < 0.05
+                    ? 'bg-[#7A9A82] text-white border-[#7A9A82] shadow-xs'
+                    : 'bg-[#FAF7F2] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+                }`}
+              >
+                {sp.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
         {/* Accessibility Toggles */}
         <div className="space-y-2.5">
           {/* High Contrast Ink toggle */}

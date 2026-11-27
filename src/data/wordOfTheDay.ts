@@ -23,3 +23,77 @@ export const TERM_MANNA_ENTITY: EntityCard = {
   relatedVerseRefs: ['Exodus 16:15', 'Numbers 11:7', 'Deuteronomy 8:3', 'John 6:31-35'],
   iconSlug: 'manna-flakes',
 };
+
+export interface FeaturedWordPreview {
+  entityId: string;
+  label: string;
+  glyph: string;
+  title: string;
+  subtitle: string;
+}
+
+export function getWordStudyForChapter(chapterId: string, isNt: boolean): FeaturedWordPreview {
+  const dash = chapterId.indexOf('-');
+  const book = dash >= 0 ? chapterId.slice(0, dash) : chapterId;
+  if (!isNt) {
+    if (book === 'PSA' || book === 'RUT') {
+      return {
+        entityId: 'term-loyal-love',
+        label: 'Hebrew Word Study',
+        glyph: 'חֶסֶד',
+        title: 'Hesed: Covenant Steadfast Love',
+        subtitle: 'Hebrew: חֶסֶד (Chesed) · Unfailing Loyal Love',
+      };
+    }
+    if (book === 'GEN') {
+      return {
+        entityId: 'term-imago-dei',
+        label: 'Hebrew Word Study',
+        glyph: 'צֶלֶם',
+        title: 'Image of God (Imago Dei)',
+        subtitle: 'Hebrew: צֶלֶם אֱלֹהִים (Tselem Elohim) · Royal Mirror',
+      };
+    }
+    return {
+      entityId: 'term-manna',
+      label: 'Hebrew Word Study',
+      glyph: 'מָן',
+      title: 'Manna: Bread from Heaven',
+      subtitle: 'Hebrew: מָן (Man) · What is it?',
+    };
+  }
+  if (book === 'REV') {
+    return {
+      entityId: 'term-alpha-omega',
+      label: 'Greek Word Study',
+      glyph: 'Α Ω',
+      title: 'Alpha & Omega (First & Last)',
+      subtitle: 'Greek: τὸ Ἄλφα καὶ τὸ Ὦ · Beginning & End',
+    };
+  }
+  if (book === '1CO' || book === '1JN' || book === 'JHN') {
+    return {
+      entityId: 'term-agape-love',
+      label: 'Greek Word Study',
+      glyph: 'Ἀγάπη',
+      title: 'Agape Love (Self-Giving Care)',
+      subtitle: 'Greek: ἀγάπη (Agape) · “The More Excellent Way”',
+    };
+  }
+  if (book === 'MAT' || book === 'MRK' || book === 'LUK') {
+    return {
+      entityId: 'term-beatitudes-blessed',
+      label: 'Greek Word Study',
+      glyph: 'Μακάριος',
+      title: 'Blessed (Makarios · Deep Flourishing)',
+      subtitle: 'Greek: μακάριος · Upheld Under God’s Favor',
+    };
+  }
+  return {
+    entityId: 'term-grace',
+    label: 'Greek Word Study',
+    glyph: 'Χάρις',
+    title: 'Grace (Unmerited Favor in Christ)',
+    subtitle: 'Greek: χάρις (Charis) · Freely Given Gift',
+  };
+}

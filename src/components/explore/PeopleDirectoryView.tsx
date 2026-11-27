@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Users, ArrowRight, Clock } from 'lucide-react';
+import React, { useMemo, useState } from 'react';
+import { Users, ArrowRight, Clock, Search, X } from 'lucide-react';
 import type { CharacterRoleBadge } from '../../types/bible';
 import { CHARACTER_DIRECTORY_LIST } from '../../data/seedCharacters';
 import { CharacterPortrait } from '../illustrations/CharacterPortrait';
@@ -16,13 +16,23 @@ const ROLE_FILTERS: ('All' | CharacterRoleBadge)[] = [
 export const PeopleDirectoryView: React.FC = () => {
   const { openCharacterCard, preferences } = useStudyStore();
   const [selectedRole, setSelectedRole] = useState<'All' | CharacterRoleBadge>('All');
+  const [searchQuery, setSearchQuery] = useState('');
 
   const fontClass = preferences.isDyslexicFont ? 'font-dyslexic' : 'font-sans';
 
-  const filteredCharacters =
-    selectedRole === 'All'
-      ? CHARACTER_DIRECTORY_LIST
-      : CHARACTER_DIRECTORY_LIST.filter((c) => c.roleBadge === selectedRole);
+  const filteredCharacters = useMemo(() => {
+    const q = searchQuery.trim().toLowerCase();
+    return CHARACTER_DIRECTORY_LIST.filter((c) => {
+      if (selectedRole !== 'All' && c.roleBadge !== selectedRole) return false;
+      if (!q) return true;
+      return (
+        c.name.toLowerCase().includes(q) ||
+        c.nameMeaning.toLowerCase().includes(q) ||
+        c.era.toLowerCase().includes(q) ||
+        c.quickBio.toLowerCase().includes(q)
+      );
+    });
+  }, [selectedRole, searchQuery]);
 
   return (
     <div className={`space-y-4 ${fontClass}`}>
@@ -30,11 +40,34 @@ export const PeopleDirectoryView: React.FC = () => {
       <div className="bg-[#F3EFE6] rounded-3xl p-4 border border-[#E5DFD5]">
         <div className="text-[0.6875rem] font-bold uppercase tracking-wider text-[#7A9A82] flex items-center gap-1.5 mb-1">
           <Users className="w-3.5 h-3.5" />
-          <span>People of the Bible</span>
+          <span>People of the Bible ({CHARACTER_DIRECTORY_LIST.length})</span>
         </div>
         <p className="text-xs text-[#52504A] leading-relaxed">
           Explore key biblical figures, trace their family trees across generations, and follow their footsteps on the map.
         </p>
+      </div>
+
+      {/* Name & Era Quick Search */}
+      <div className="relative">
+        <Search className="w-4 h-4 text-[#76746E] absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none" />
+        <input
+          type="search"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          placeholder="Search by name, role, or era (e.g. Mary, David, Paul)..."
+          aria-label="Search biblical people"
+          className="w-full pl-10 pr-9 py-2.5 rounded-2xl bg-[#FAF7F2] border border-[#E2DACB] text-xs text-[#2C2C2A] placeholder:text-[#8C867B] focus:outline-none focus:border-[#7A9A82]"
+        />
+        {searchQuery && (
+          <button
+            type="button"
+            onClick={() => setSearchQuery('')}
+            aria-label="Clear people search"
+            className="p-1 rounded-full hover:bg-[#F3EFE6] text-[#76746E] absolute right-2.5 top-1/2 -translate-y-1/2 cursor-pointer"
+          >
+            <X className="w-3.5 h-3.5" />
+          </button>
+        )}
       </div>
 
       {/* Category Chips */}
@@ -56,7 +89,22 @@ export const PeopleDirectoryView: React.FC = () => {
 
       {/* Character Cards Grid / List */}
       <div className="space-y-3">
-        {filteredCharacters.map((character) => (
+        {filteredCharacters.length === 0 ? (
+          <div className="bg-[#F3EFE6] rounded-3xl p-6 text-center border border-[#E5DFD5]">
+            <p className="text-sm font-semibold text-[#2C2C2A]">No people matching “{searchQuery}”</p>
+            <button
+              type="button"
+              onClick={() => {
+                setSearchQuery('');
+                setSelectedRole('All');
+              }}
+              className="mt-2 text-xs font-semibold text-[#7A9A82] hover:underline cursor-pointer"
+            >
+              Show all {CHARACTER_DIRECTORY_LIST.length} people
+            </button>
+          </div>
+        ) : (
+          filteredCharacters.map((character) => (
           <div
             key={character.id}
             className="bg-[#FAF7F2] rounded-3xl p-4 border border-[#E5DFD5] shadow-xs hover:border-[#7A9A82]/50 transition-all flex items-start gap-3.5"
@@ -101,7 +149,8 @@ export const PeopleDirectoryView: React.FC = () => {
               </div>
             </div>
           </div>
-        ))}
+          ))
+        )}
       </div>
     </div>
   );

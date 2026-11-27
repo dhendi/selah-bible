@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import {
   Compass,
   ArrowRight,
@@ -14,6 +14,7 @@ import { ONBOARDING_QUIZ } from '../../data/seedQuizzes';
 import { EntityThumbnail } from '../illustrations/EntityThumbnails';
 
 export const OnboardingFlow: React.FC = () => {
+  const scrollRef = useRef<HTMLDivElement | null>(null);
   const {
     progress,
     completeOnboarding,
@@ -32,6 +33,12 @@ export const OnboardingFlow: React.FC = () => {
   const [hasOpenedAha, setHasOpenedAha] = useState(false);
   const [ahaSelectedOption, setAhaSelectedOption] = useState<number | null>(null);
   const [ahaAnswered, setAhaAnswered] = useState(false);
+
+  useEffect(() => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollTo({ top: 0, behavior: 'instant' as ScrollBehavior });
+    }
+  }, [step]);
 
   // If already completed onboarding, do not show
   if (progress.hasCompletedOnboarding) return null;
@@ -60,7 +67,10 @@ export const OnboardingFlow: React.FC = () => {
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-[#FAF7F2] overflow-y-auto flex flex-col justify-between p-6 max-w-xl mx-auto selection:bg-[#7A9A82]/20">
+    <div
+      ref={scrollRef}
+      className="fixed inset-0 z-50 bg-[#FAF7F2] overflow-y-auto flex flex-col justify-between p-5 sm:p-6 max-w-xl mx-auto selection:bg-[#7A9A82]/20"
+    >
       {/* Top Header & Step Indicator */}
       <div className="w-full">
         <div className="flex items-center justify-between text-xs text-[#76746E] mb-4">
@@ -80,41 +90,41 @@ export const OnboardingFlow: React.FC = () => {
 
         {/* ================= STEP 1: WELCOME ================= */}
         {step === 1 && (
-          <div className="space-y-6 animate-fade-in py-4">
-            <div className="w-16 h-16 rounded-3xl bg-[#EBF2ED] text-[#7A9A82] flex items-center justify-center mx-auto shadow-inner">
-              <BookOpen className="w-8 h-8" />
+          <div className="space-y-4 animate-fade-in py-2">
+            <div className="w-12 h-12 rounded-2xl bg-[#EBF2ED] text-[#7A9A82] flex items-center justify-center mx-auto shadow-inner">
+              <BookOpen className="w-6 h-6" />
             </div>
 
             <div className="text-center">
               <span className="text-xs font-bold uppercase tracking-wider text-[#7A9A82]">
                 A Calm, Connected Bible Platform
               </span>
-              <h1 className="text-3xl sm:text-4xl font-serif font-bold text-[#2C2C2A] mt-2 leading-tight">
+              <h1 className="text-2xl sm:text-3xl font-serif font-bold text-[#2C2C2A] mt-1.5 leading-tight">
                 Understand how the whole Bible fits together
               </h1>
-              <p className="text-sm text-[#6B6862] mt-3 leading-relaxed max-w-md mx-auto">
-                No ads, no social feeds, and no seminary jargon. Connect Scripture directly to historical timelines, interactive maps, Hebrew meanings, and active-recall quizzes.
+              <p className="text-xs sm:text-sm text-[#6B6862] mt-2 leading-relaxed max-w-md mx-auto">
+                No ads, no social feeds, and no seminary jargon. Connect Scripture directly to timelines, interactive maps, Hebrew & Greek meanings, and active-recall quizzes.
               </p>
             </div>
 
-            <div className="grid grid-cols-2 gap-3 pt-4">
-              <div className="p-3.5 rounded-2xl bg-[#F3EFE6] border border-[#E5DFD5] text-xs">
+            <div className="grid grid-cols-2 gap-2.5 pt-2">
+              <div className="p-3 rounded-2xl bg-[#F3EFE6] border border-[#E5DFD5] text-xs">
                 <div className="font-bold text-[#2C2C2A] flex items-center gap-1.5 mb-1">
                   <span className="w-2 h-2 rounded-full bg-[#7A9A82]" />
                   Connected Context
                 </div>
                 <div className="text-[#6B6862]">
-                  Tap underlined words to reveal timeline era, original Hebrew, and map pins.
+                  Tap underlined words to reveal timeline era, original meaning, and map pins.
                 </div>
               </div>
 
-              <div className="p-3.5 rounded-2xl bg-[#F3EFE6] border border-[#E5DFD5] text-xs">
+              <div className="p-3 rounded-2xl bg-[#F3EFE6] border border-[#E5DFD5] text-xs">
                 <div className="font-bold text-[#2C2C2A] flex items-center gap-1.5 mb-1">
                   <span className="w-2 h-2 rounded-full bg-[#C88A6B]" />
                   Active Recall
                 </div>
                 <div className="text-[#6B6862]">
-                  Daily 3-question quizzes and spaced-repetition flashcards to retain what you read.
+                  Short quizzes and spaced-repetition flashcards to retain what you read.
                 </div>
               </div>
             </div>
@@ -284,7 +294,7 @@ export const OnboardingFlow: React.FC = () => {
                     setShowAhaSheet(true);
                     setHasOpenedAha(true);
                   }}
-                  className="inline-flex items-center px-2 py-0.5 mx-1 rounded-md bg-[#7A9A82]/20 text-[#243527] border-b-2 border-[#7A9A82] hover:bg-[#7A9A82]/30 active:scale-95 transition-all cursor-pointer font-bold animate-pulse"
+                  className="inline px-1 border-b-2 border-dotted border-[#8B3A2B] bg-[#8B3A2B]/10 rounded-xs text-[#243527] hover:bg-[#8B3A2B]/20 active:scale-95 transition-all cursor-pointer font-semibold"
                 >
                   Manna
                 </button>

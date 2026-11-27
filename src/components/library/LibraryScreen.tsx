@@ -100,54 +100,54 @@ export const LibraryScreen: React.FC = () => {
         </div>
       </section>
 
-      {/* Segmented Sub-Tab Switcher */}
+      {/* Segmented Sub-Tab Switcher (stacks neatly like Explore on narrow/XL viewports) */}
       <div className="bg-[#F3EFE6] p-1 rounded-2xl border border-[#E5DFD5] grid grid-cols-4 gap-0.5 mb-5">
         <button
           onClick={() => setActiveSubTab('journal')}
-          className={`py-2 px-1 rounded-xl text-[0.6875rem] font-semibold flex items-center justify-center gap-1 transition-all cursor-pointer ${
+          className={`py-2 px-1 rounded-xl text-[0.625rem] sm:text-[0.6875rem] font-semibold flex flex-col sm:flex-row items-center justify-center gap-0.5 sm:gap-1 transition-all cursor-pointer ${
             activeSubTab === 'journal'
               ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
               : 'text-[#76746E] hover:text-[#2C2C2A]'
           }`}
         >
-          <PenLine className="w-3.5 h-3.5 text-[#7A9A82]" />
-          <span>Journal ({journalEntries.length})</span>
+          <PenLine className="w-3.5 h-3.5 text-[#7A9A82] flex-shrink-0" />
+          <span className="whitespace-nowrap">Journal ({journalEntries.length})</span>
         </button>
 
         <button
           onClick={() => setActiveSubTab('flashcards')}
-          className={`py-2 px-1 rounded-xl text-[0.6875rem] font-semibold flex items-center justify-center gap-1 transition-all cursor-pointer ${
+          className={`py-2 px-1 rounded-xl text-[0.625rem] sm:text-[0.6875rem] font-semibold flex flex-col sm:flex-row items-center justify-center gap-0.5 sm:gap-1 transition-all cursor-pointer ${
             activeSubTab === 'flashcards'
               ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
               : 'text-[#76746E] hover:text-[#2C2C2A]'
           }`}
         >
-          <Sparkles className="w-3.5 h-3.5 text-[#7A9A82]" />
-          <span>Cards ({flashcards.length})</span>
+          <Sparkles className="w-3.5 h-3.5 text-[#7A9A82] flex-shrink-0" />
+          <span className="whitespace-nowrap">Cards ({flashcards.length})</span>
         </button>
 
         <button
           onClick={() => setActiveSubTab('notes')}
-          className={`py-2 px-1 rounded-xl text-[0.6875rem] font-semibold flex items-center justify-center gap-1 transition-all cursor-pointer ${
+          className={`py-2 px-1 rounded-xl text-[0.625rem] sm:text-[0.6875rem] font-semibold flex flex-col sm:flex-row items-center justify-center gap-0.5 sm:gap-1 transition-all cursor-pointer ${
             activeSubTab === 'notes'
               ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
               : 'text-[#76746E] hover:text-[#2C2C2A]'
           }`}
         >
-          <Bookmark className="w-3.5 h-3.5 text-[#C88A6B]" />
-          <span>Notes ({notes.length})</span>
+          <Bookmark className="w-3.5 h-3.5 text-[#C88A6B] flex-shrink-0" />
+          <span className="whitespace-nowrap">Notes ({notes.length})</span>
         </button>
 
         <button
           onClick={() => setActiveSubTab('bookmarks')}
-          className={`py-2 px-1 rounded-xl text-[0.6875rem] font-semibold flex items-center justify-center gap-1 transition-all cursor-pointer ${
+          className={`py-2 px-1 rounded-xl text-[0.625rem] sm:text-[0.6875rem] font-semibold flex flex-col sm:flex-row items-center justify-center gap-0.5 sm:gap-1 transition-all cursor-pointer ${
             activeSubTab === 'bookmarks'
               ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
               : 'text-[#76746E] hover:text-[#2C2C2A]'
           }`}
         >
-          <CheckCircle className="w-3.5 h-3.5 text-[#5D7CA8]" />
-          <span>Saved ({progress.savedPassageBookmarks.length})</span>
+          <CheckCircle className="w-3.5 h-3.5 text-[#5D7CA8] flex-shrink-0" />
+          <span className="whitespace-nowrap">Saved ({progress.savedPassageBookmarks.length})</span>
         </button>
       </div>
 

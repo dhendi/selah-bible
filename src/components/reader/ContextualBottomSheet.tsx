@@ -2,6 +2,7 @@ import React from 'react';
 import { X, MapPin, Clock, Volume2, ArrowRight, BookOpen, PenLine, Share2, Users } from 'lucide-react';
 import { useStudyStore } from '../../store/useStudyStore';
 import { SEED_ENTITIES } from '../../data/seedEntities';
+import { parseBookIdFromChapter, resolvePassageFromReference } from '../../data/bookGroups';
 import { EntityThumbnail } from '../illustrations/EntityThumbnails';
 
 export const ContextualBottomSheet: React.FC = () => {
@@ -73,7 +74,9 @@ export const ContextualBottomSheet: React.FC = () => {
       navigateToMapPin('loc-gilgal');
     } else if (region.includes('Shiloh')) {
       navigateToMapPin('loc-shiloh');
-    } else if (region.includes('Tabor') || region.includes('Jezreel') || region.includes('Hazor') || region.includes('Galilee') || region.includes('Hermon') || region.includes('Banias') || region.includes('Capernaum') || region.includes('Nazareth') || region.includes('Magdala')) {
+    } else if (region.includes('Nazareth') || region.includes('Capernaum') || region.includes('Magdala')) {
+      navigateToMapPin('loc-nazareth');
+    } else if (region.includes('Tabor') || region.includes('Jezreel') || region.includes('Hazor') || region.includes('Galilee') || region.includes('Hermon') || region.includes('Banias')) {
       navigateToMapPin('loc-mount-tabor');
     } else if (region.includes('Harod')) {
       navigateToMapPin('loc-harod');
@@ -89,11 +92,27 @@ export const ContextualBottomSheet: React.FC = () => {
       navigateToMapPin('loc-samaria');
     } else if (region.includes('Dothan')) {
       navigateToMapPin('loc-dothan');
-    } else if (region.includes('Zarephath') || region.includes('Sidon') || region.includes('Tyre') || region.includes('Lebanon') || region.includes('Macedonia') || region.includes('Greece') || region.includes('Asia Minor') || region.includes('Mediterranean')) {
+    } else if (region.includes('Patmos')) {
+      navigateToMapPin('loc-patmos');
+    } else if (region.includes('Ephesus') || region.includes('Asia Minor') || region.includes('Colossae') || region.includes('Galatia') || region.includes('Tarsus')) {
+      navigateToMapPin('loc-ephesus');
+    } else if (region.includes('Philippi') || region.includes('Macedonia') || region.includes('Thessalonica')) {
+      navigateToMapPin('loc-philippi');
+    } else if (region.includes('Athens')) {
+      navigateToMapPin('loc-athens');
+    } else if (region.includes('Corinth') || region.includes('Greece') || region.includes('Cenchreae')) {
+      navigateToMapPin('loc-corinth');
+    } else if (region.includes('Rome') || region.includes('Italy')) {
+      navigateToMapPin('loc-rome');
+    } else if (region.includes('Antioch')) {
+      navigateToMapPin('loc-antioch');
+    } else if (region.includes('Zarephath') || region.includes('Sidon') || region.includes('Tyre') || region.includes('Lebanon') || region.includes('Mediterranean')) {
       navigateToMapPin('loc-mount-carmel');
     } else if (region.includes('Gibeon')) {
       navigateToMapPin('loc-ramah');
-    } else if (region.includes('Syria') || region.includes('Damascus') || region.includes('Aram')) {
+    } else if (region.includes('Damascus')) {
+      navigateToMapPin('loc-damascus');
+    } else if (region.includes('Syria') || region.includes('Aram')) {
       navigateToMapPin('loc-haran');
     } else if (region.includes('Babylon') || region.includes('Nineveh') || region.includes('Assyria') || region.includes('Chaldea') || region.includes('Persia') || region.includes('Susa') || region.includes('Shushan') || region.includes('Media') || region.includes('Ahava')) {
       navigateToMapPin('loc-babylon');
@@ -156,107 +175,8 @@ export const ContextualBottomSheet: React.FC = () => {
 
   const handleReflect = () => {
     const ref = entity.relatedVerseRefs[0] || 'Genesis 1:1';
-    const bookId = ref.includes('Revelation')
-      ? 'REV'
-      : ref.includes('Jude')
-        ? 'JUD'
-        : ref.includes('3 John')
-          ? '3JN'
-          : ref.includes('2 John')
-            ? '2JN'
-            : ref.includes('1 John')
-              ? '1JN'
-              : ref.includes('2 Peter')
-                ? '2PE'
-                : ref.includes('1 Peter')
-                  ? '1PE'
-                  : ref.includes('James')
-                    ? 'JAS'
-                    : ref.includes('Hebrews')
-      ? 'HEB'
-      : ref.includes('Philemon')
-        ? 'PHM'
-        : ref.includes('Titus')
-          ? 'TIT'
-          : ref.includes('2 Timothy')
-            ? '2TI'
-            : ref.includes('1 Timothy')
-              ? '1TI'
-              : ref.includes('2 Thessalonians')
-      ? '2TH'
-      : ref.includes('1 Thessalonians')
-        ? '1TH'
-        : ref.includes('Colossians')
-          ? 'COL'
-          : ref.includes('Philippians')
-      ? 'PHP'
-      : ref.includes('Ephesians')
-        ? 'EPH'
-        : ref.includes('Galatians')
-          ? 'GAL'
-          : ref.includes('2 Corinthians')
-      ? '2CO'
-      : ref.includes('1 Corinthians')
-        ? '1CO'
-        : ref.includes('Romans')
-          ? 'ROM'
-          : ref.includes('Acts')
-      ? 'ACT'
-      : ref.includes('John')
-        ? 'JHN'
-        : ref.includes('Luke')
-          ? 'LUK'
-          : ref.includes('Mark')
-            ? 'MRK'
-            : ref.includes('Matthew')
-              ? 'MAT'
-              : ref.includes('Jeremiah')
-      ? 'JER'
-      : ref.includes('Isaiah')
-        ? 'ISA'
-        : ref.includes('Song of Solomon')
-          ? 'SNG'
-          : ref.includes('Ecclesiastes')
-            ? 'ECC'
-      : ref.includes('Proverbs')
-        ? 'PRO'
-        : ref.includes('Psalm')
-          ? 'PSA'
-          : ref.includes('Job')
-            ? 'JOB'
-            : ref.includes('Esther')
-              ? 'EST'
-              : ref.includes('Nehemiah')
-                ? 'NEH'
-                : ref.includes('Ezra')
-                  ? 'EZR'
-                  : ref.includes('2 Chronicles')
-                    ? '2CH'
-                    : ref.includes('1 Chronicles')
-                      ? '1CH'
-                      : ref.includes('2 Kings')
-                        ? '2KI'
-                        : ref.includes('1 Kings')
-                          ? '1KI'
-                          : ref.includes('2 Samuel')
-                            ? '2SA'
-                            : ref.includes('1 Samuel')
-                              ? '1SA'
-                              : ref.includes('Ruth')
-                                ? 'RUT'
-                                : ref.includes('Judges')
-                                  ? 'JDG'
-                                  : ref.includes('Joshua')
-                                    ? 'JOS'
-                                    : ref.includes('Deuteronomy')
-                                      ? 'DEU'
-                                      : ref.includes('Numbers')
-                                        ? 'NUM'
-                                        : ref.includes('Leviticus')
-                                          ? 'LEV'
-                                          : ref.includes('Exodus')
-                                            ? 'EXO'
-                                            : 'GEN';
+    const { chapterId } = resolvePassageFromReference(ref);
+    const bookId = parseBookIdFromChapter(chapterId);
     openJournalSheet({
       verseRef: ref,
       bookId,

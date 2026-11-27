@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { X, CheckCircle2, XCircle, ArrowRight, Award, RotateCcw } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { useStudyStore } from '../../store/useStudyStore';
@@ -19,6 +19,14 @@ export const MiniQuizModal: React.FC<{
 
   const currentQ = questions[currentIndex];
 
+  useEffect(() => {
+    const handleEsc = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    window.addEventListener('keydown', handleEsc);
+    return () => window.removeEventListener('keydown', handleEsc);
+  }, [onClose]);
+
   const handleSelectOption = (idx: number) => {
     if (isAnswered) return;
     setSelectedOption(idx);
@@ -37,11 +45,10 @@ export const MiniQuizModal: React.FC<{
       setIsAnswered(false);
     } else {
       setIsFinished(true);
-      const finalScore = score + (selectedOption === currentQ.correctIndex ? 1 : 0);
       recordQuizCompletion(
         passageId,
         questions.map((q) => q.id),
-        finalScore,
+        score,
         questions.length
       );
       try {
@@ -85,7 +92,8 @@ export const MiniQuizModal: React.FC<{
           </div>
           <button
             onClick={onClose}
-            className="p-1.5 rounded-full hover:bg-[#F3EFE6] text-[#76746E]"
+            className="p-1.5 rounded-full hover:bg-[#F3EFE6] text-[#76746E] cursor-pointer"
+            aria-label="Close quiz"
           >
             <X className="w-5 h-5" />
           </button>

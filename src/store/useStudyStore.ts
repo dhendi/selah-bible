@@ -645,17 +645,13 @@ class StudyStore {
     this.notify();
   }
 
-  /**
-   * Handles Android hardware back navigation: closes any open modal/drawer first,
-   * returns from secondary tabs to the Bookmark flyleaf, or returns false to exit.
-   */
-  public handleNativeBack(): boolean {
-    if (this.showChapterPicker) {
-      this.setShowChapterPicker(false);
-      return true;
-    }
+  public closeTopOverlay(): boolean {
     if (this.showTypographyDrawer) {
       this.setShowTypographyDrawer(false);
+      return true;
+    }
+    if (this.showChapterPicker) {
+      this.setShowChapterPicker(false);
       return true;
     }
     if (this.activeShareVerse) {
@@ -678,6 +674,15 @@ class StudyStore {
       this.closeEntitySheet();
       return true;
     }
+    return false;
+  }
+
+  /**
+   * Handles Android hardware back navigation: closes any open modal/drawer first,
+   * returns from secondary tabs to the Bookmark flyleaf, or returns false to exit.
+   */
+  public handleNativeBack(): boolean {
+    if (this.closeTopOverlay()) return true;
     if (this.activeTab !== 'today') {
       this.setActiveTab('today');
       return true;

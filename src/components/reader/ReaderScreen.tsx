@@ -11,6 +11,8 @@ import {
   Share2,
   X,
   BookOpen,
+  Volume2,
+  Square,
 } from 'lucide-react';
 import { useStudyStore } from '../../store/useStudyStore';
 import { preloadBookForChapter, useChapterData } from '../../data/bookLoader';
@@ -59,9 +61,10 @@ export const ReaderScreen: React.FC = () => {
 
   const [selectedVerseNum, setSelectedVerseNum] = useState<number | null>(null);
   const [activeNoteVerse, setActiveNoteVerse] = useState<string | null>(null);
+  const [isReadingAloud, setIsReadingAloud] = useState(false);
 
   const isPureTextMode = activeTab === 'bible';
-  const targetChapterId = currentChapterId || 'EXO-16';
+  const targetChapterId = currentChapterId || 'GEN-1';
   const { chapterData, isLoading } = useChapterData(targetChapterId);
   const matchingStory = SEED_STORY_MODULES.find((s) => s.chapterId === targetChapterId);
 
@@ -80,7 +83,43 @@ export const ReaderScreen: React.FC = () => {
 
   useEffect(() => {
     setSelectedVerseNum(null);
+    setIsReadingAloud(false);
+    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+    }
   }, [currentChapterId]);
+
+  useEffect(() => {
+    return () => {
+      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
+    };
+  }, []);
+
+  const toggleReadChapterAloud = () => {
+    if (typeof window === 'undefined' || !('speechSynthesis' in window) || !chapterData) return;
+    if (isReadingAloud) {
+      window.speechSynthesis.cancel();
+      setIsReadingAloud(false);
+      return;
+    }
+    window.speechSynthesis.cancel();
+    const rate = preferences.audioSpeechRate || 1.0;
+    const verses = chapterData.verses || [];
+    if (verses.length === 0) return;
+
+    setIsReadingAloud(true);
+    verses.forEach((v, idx) => {
+      const utt = new SpeechSynthesisUtterance(v.text);
+      utt.rate = rate;
+      utt.onend = () => {
+        if (idx === verses.length - 1) setIsReadingAloud(false);
+      };
+      utt.onerror = () => setIsReadingAloud(false);
+      window.speechSynthesis.speak(utt);
+    });
+  };
 
   useEffect(() => {
     if (highlightedVerseNumber && highlightedRef.current) {
@@ -199,18 +238,26 @@ export const ReaderScreen: React.FC = () => {
             return <span key={i}>{seg.text}</span>;
           }
           return (
-            <button
+            <span
               key={i}
-              type="button"
+              role="button"
+              tabIndex={0}
               onClick={(e) => {
                 e.stopPropagation();
                 openEntitySheet(seg.entityId!);
               }}
-              className="inline border-b border-dotted border-[#8B3A2B]/55 text-inherit hover:bg-[#EFE7D6] hover:border-[#8B3A2B] transition-colors cursor-pointer"
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  openEntitySheet(seg.entityId!);
+                }
+              }}
+              className="border-b border-dotted border-[#8B3A2B]/55 text-inherit hover:bg-[#EFE7D6] hover:border-[#8B3A2B] transition-colors cursor-pointer"
               title="Tap to read word & character note"
             >
               {seg.text}
-            </button>
+            </span>
           );
         })}
       </>
@@ -219,23 +266,26 @@ export const ReaderScreen: React.FC = () => {
 
   return (
     <div ref={containerRef} className="relative min-h-full pb-28 bg-[#FBF8F1] text-[#24221E]">
-      {/* Running Book Folio Header */}
-      <header className="sticky top-0 z-30 bg-[#FBF8F1]/95 backdrop-blur-xs border-b border-[#E2DACB] px-5 py-2.5 flex items-center justify-between gap-2">
+      {/* Running Book Folio Header (Positioned cleanly below App top nav bar) */}
+      <header
+        className="sticky z-30 bg-[#FBF8F1]/95 backdrop-blur-xs border-b border-[#E2DACB] px-3.5 sm:px-5 py-2 flex flex-wrap items-center justify-between gap-2"
+        style={{ top: 'var(--selah-nav-h, 2.625rem)' }}
+      >
         <button
           onClick={() => setShowChapterPicker(true)}
-          className="flex items-center gap-1.5 text-sm font-serif font-semibold tracking-wide text-[#24221E] hover:text-[#8B3A2B] transition-colors cursor-pointer"
+          className="flex items-center gap-1.5 text-sm font-serif font-semibold tracking-wide text-[#24221E] hover:text-[#8B3A2B] transition-colors cursor-pointer min-w-0"
           aria-label="Select book and chapter"
         >
-          <span className="uppercase text-xs tracking-[0.12em]">
+          <span className="uppercase text-xs tracking-[0.12em] truncate">
             {chapterData.bookName}
           </span>
           <span className="text-[#8B3A2B] font-bold">{chapterData.chapterNumber}</span>
-          <ChevronDown className="w-3.5 h-3.5 text-[#8C867B]" />
+          <ChevronDown className="w-3.5 h-3.5 text-[#8C867B] flex-shrink-0" />
         </button>
 
-        <div className="flex items-center gap-2 sm:gap-3">
+        <div className="flex items-center gap-1.5 sm:gap-2.5 flex-shrink-0">
           {/* Quick Page Turns in Running Header */}
-          <div className="flex items-center border-r border-[#E2DACB] pr-2 gap-0.5">
+          <div className="flex items-center border-r border-[#E2DACB] pr-1.5 gap-0.5">
             <button
               onClick={() => turnToChapter(prevChapterId)}
               disabled={!prevChapterId}
@@ -257,7 +307,7 @@ export const ReaderScreen: React.FC = () => {
           </div>
 
           {/* Illustrated Study vs. Clean Printed Text Toggle */}
-          <div className="flex items-center gap-2.5 text-[0.6875rem] font-medium">
+          <div className="flex items-center gap-2 text-[0.6875rem] font-medium">
             <button
               onClick={() => {
                 setActiveTab('read');
@@ -286,11 +336,35 @@ export const ReaderScreen: React.FC = () => {
             </button>
           </div>
 
+          {/* Read Chapter Aloud */}
+          <button
+            onClick={toggleReadChapterAloud}
+            className={`pl-1.5 border-l border-[#E2DACB] flex items-center gap-1 text-[0.6875rem] font-semibold transition-colors cursor-pointer ${
+              isReadingAloud
+                ? 'text-[#8B3A2B]'
+                : 'text-[#666158] hover:text-[#24221E]'
+            }`}
+            title={isReadingAloud ? 'Stop reading chapter aloud' : 'Listen to chapter read aloud'}
+            aria-label={isReadingAloud ? 'Stop audio narration' : 'Listen to chapter'}
+          >
+            {isReadingAloud ? (
+              <>
+                <Square className="w-3.5 h-3.5 fill-current" />
+                <span className="hidden sm:inline">Stop</span>
+              </>
+            ) : (
+              <>
+                <Volume2 className="w-4 h-4" />
+                <span className="hidden sm:inline">Listen</span>
+              </>
+            )}
+          </button>
+
           <button
             onClick={() => setShowTypographyDrawer(true)}
-            className="pl-2 border-l border-[#E2DACB] font-serif text-sm font-semibold text-[#666158] hover:text-[#24221E] transition-colors cursor-pointer"
-            title="Page typography & spacing"
-            aria-label="Typography settings"
+            className="pl-1.5 border-l border-[#E2DACB] font-serif text-sm font-semibold text-[#666158] hover:text-[#24221E] transition-colors cursor-pointer"
+            title="Display & reading size"
+            aria-label="Display settings"
           >
             Aa
           </button>
@@ -498,18 +572,37 @@ export const ReaderScreen: React.FC = () => {
         const bookmarked = isBookmarked(vRef);
 
         return (
-          <div className="fixed bottom-[4.75rem] left-1/2 -translate-x-1/2 z-40 w-[calc(100%-2rem)] max-w-md bg-[#24221E] text-[#FBF8F1] border border-[#3E3A33] shadow-xl rounded-xl px-3.5 py-2.5 flex items-center justify-between gap-2 animate-slide-up">
+          <div
+            className="fixed left-1/2 -translate-x-1/2 z-40 w-[calc(100%-1.5rem)] max-w-lg bg-[#24221E] text-[#FBF8F1] border border-[#3E3A33] shadow-xl rounded-xl px-3.5 py-2.5 flex items-center justify-between gap-2 animate-slide-up"
+            style={{ bottom: 'calc(var(--selah-footer-h, 4.25rem) + 0.75rem)' }}
+          >
             <div className="text-xs font-serif font-semibold truncate pr-1">
               {vRef}
             </div>
 
-            <div className="flex items-center gap-1.5 flex-shrink-0">
+            <div className="flex items-center gap-1 flex-shrink-0">
               <button
                 onClick={() => openExplainDrawer(vId)}
                 className="px-2.5 py-1 rounded-md bg-[#8B3A2B] hover:bg-[#9E4534] text-white text-[0.6875rem] font-medium flex items-center gap-1 transition-colors cursor-pointer"
               >
                 <Sparkles className="w-3 h-3" />
                 <span>Explain</span>
+              </button>
+
+              <button
+                onClick={() =>
+                  openJournalSheet({
+                    verseRef: vRef,
+                    bookId: chapterData.bookId,
+                    snapshotText: selectedVerse.text,
+                    illustrationId: selectedVerse.illustrationId,
+                  })
+                }
+                className="p-1.5 rounded-md hover:bg-white/10 text-[#E2DACB] hover:text-white transition-colors cursor-pointer"
+                title="Reflect in journal"
+                aria-label="Reflect in journal"
+              >
+                <PenLine className="w-4 h-4" />
               </button>
 
               <button

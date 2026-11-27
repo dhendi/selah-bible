@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { X, BookOpen, Clock, Tag } from 'lucide-react';
 import type { BookOverview } from '../../types/bible';
 import { useStudyStore } from '../../store/useStudyStore';
@@ -9,6 +10,15 @@ export const BookOverviewModal: React.FC<{
   onClose: () => void;
 }> = ({ book, onClose }) => {
   const { navigateToPassage } = useStudyStore();
+
+  useEffect(() => {
+    if (!book) return;
+    const handleEsc = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    window.addEventListener('keydown', handleEsc);
+    return () => window.removeEventListener('keydown', handleEsc);
+  }, [book, onClose]);
 
   if (!book) return null;
 
@@ -21,14 +31,14 @@ export const BookOverviewModal: React.FC<{
     navigateToPassage(startPassageId);
   };
 
-  return (
+  const modal = (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
       <div
         className="absolute inset-0 bg-[#2C2C2A]/40 backdrop-blur-xs animate-fade-in"
         onClick={onClose}
       />
 
-      <div className="relative w-full max-w-md bg-[#FAF7F2] rounded-3xl shadow-2xl border border-[#E5DFD5] p-5 z-10 animate-slide-up flex flex-col max-h-[85vh] overflow-y-auto">
+      <div className="relative w-full max-w-lg bg-[#FAF7F2] rounded-3xl shadow-2xl border border-[#E5DFD5] p-5 z-10 animate-slide-up flex flex-col max-h-[85vh] overflow-y-auto">
         {/* Header */}
         <div className="flex items-start justify-between pb-3 border-b border-[#E8E2D7] mb-3">
           <div>
@@ -49,7 +59,8 @@ export const BookOverviewModal: React.FC<{
           </div>
           <button
             onClick={onClose}
-            className="p-1.5 rounded-full hover:bg-[#F3EFE6] text-[#76746E]"
+            className="p-1.5 rounded-full hover:bg-[#F3EFE6] text-[#76746E] cursor-pointer"
+            aria-label="Close book overview"
           >
             <X className="w-5 h-5" />
           </button>
@@ -117,4 +128,6 @@ export const BookOverviewModal: React.FC<{
       </div>
     </div>
   );
+
+  return typeof document !== 'undefined' ? createPortal(modal, document.body) : modal;
 };

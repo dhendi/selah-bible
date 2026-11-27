@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { ArrowRight, BookOpen } from 'lucide-react';
 import { useStudyStore } from '../../store/useStudyStore';
 import { MiniQuizModal } from '../quiz/MiniQuizModal';
-import { TERM_MANNA_ENTITY } from '../../data/wordOfTheDay';
+import { getWordStudyForChapter } from '../../data/wordOfTheDay';
 import { preloadBookForChapter, useChapterData } from '../../data/bookLoader';
 import {
   BIBLE_BOOK_GROUPS,
@@ -50,6 +50,21 @@ function resolveQuizId(chapterId: string): string {
   if (chapterId.startsWith('LAM-')) return 'lam-morning-mercy';
   if (chapterId.startsWith('EZK-')) return 'ezk-bones-river';
   if (chapterId.startsWith('DAN-')) return 'dan-exile-kingdom';
+  if (/^(HOS|JOL|AMO|OBA|JON|MIC|NAM|HAB|ZEP|HAG|ZEC|MAL)-/.test(chapterId)) {
+    return 'minor-prophets-mercy';
+  }
+  if (chapterId.startsWith('MAT-')) return 'mat-sermon';
+  if (chapterId.startsWith('MRK-')) return 'mrk-servant';
+  if (chapterId.startsWith('LUK-')) return 'luk-grace';
+  if (chapterId.startsWith('JHN-')) return 'jhn-word';
+  if (chapterId.startsWith('ACT-')) return 'act-spirit';
+  if (chapterId.startsWith('ROM-')) return 'rom-grace';
+  if (chapterId.startsWith('1CO-') || chapterId.startsWith('2CO-')) return '1co-2co-love';
+  if (/^(GAL|EPH|PHP|COL)-/.test(chapterId)) return 'gal-eph-php-col';
+  if (/^(1TH|2TH|1TI|2TI|TIT|PHM)-/.test(chapterId)) return 'thess-pastoral';
+  if (chapterId.startsWith('HEB-') || chapterId.startsWith('JAS-')) return 'heb-jas-faith';
+  if (/^(1PE|2PE|1JN|2JN|3JN|JUD)-/.test(chapterId)) return 'pet-jn-jud';
+  if (chapterId.startsWith('REV-')) return 'rev-new-creation';
   if (chapterId === 'EXO-16') return 'exo-16';
   return 'exo-sinai';
 }
@@ -75,7 +90,7 @@ export const TodayScreen: React.FC = () => {
     preloadBookForChapter(activeChapter);
   }, [activeChapter]);
 
-  const wordOfTheDay = TERM_MANNA_ENTITY;
+  const wordStudy = getWordStudyForChapter(activeChapter, bookMeta.testament === 'NT');
 
   const handleResumeReading = () => {
     navigateToPassage(activeChapter);
@@ -156,19 +171,21 @@ export const TodayScreen: React.FC = () => {
       <section className="grid sm:grid-cols-2 gap-5 pb-7 mb-7 border-b border-[#E2DACB]">
         {/* Lexicon Entry */}
         <button
-          onClick={() => openEntitySheet('term-manna')}
+          onClick={() => openEntitySheet(wordStudy.entityId)}
           className="text-left p-4 bg-[#F4EFE4]/60 hover:bg-[#F4EFE4] border border-[#E2DACB] transition-colors group cursor-pointer flex flex-col justify-between"
         >
           <div>
             <div className="flex items-center justify-between text-[0.625rem] uppercase tracking-[0.16em] text-[#8C867B]">
-              <span>Hebrew Word Study</span>
-              <span className="font-hebrew text-base text-[#8B3A2B] font-semibold">מָן</span>
+              <span>{wordStudy.label}</span>
+              <span className="font-hebrew text-base text-[#8B3A2B] font-semibold">
+                {wordStudy.glyph}
+              </span>
             </div>
             <div className="font-serif font-semibold text-base text-[#24221E] mt-1 group-hover:text-[#8B3A2B] transition-colors">
-              {wordOfTheDay.title}
+              {wordStudy.title}
             </div>
             <p className="text-xs text-[#666158] mt-1">
-              {wordOfTheDay.originalLanguageTerm}
+              {wordStudy.subtitle}
             </p>
           </div>
           <div className="mt-3 text-[0.6875rem] font-medium text-[#8B3A2B] inline-flex items-center gap-1">

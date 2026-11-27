@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { ArrowRight, BookOpen } from 'lucide-react';
 import { SEED_TIMELINE_ERAS } from '../../data/seedTimelines';
+import { resolvePassageFromReference } from '../../data/bookGroups';
 import { useStudyStore } from '../../store/useStudyStore';
 
 export const TimelineView: React.FC = () => {
@@ -12,44 +13,18 @@ export const TimelineView: React.FC = () => {
       : 'era-exodus'
   );
 
+  useEffect(() => {
+    if (selectedExploreItem && selectedExploreItem.startsWith('era-')) {
+      setActiveEraId(selectedExploreItem);
+    }
+  }, [selectedExploreItem]);
+
   const activeEra =
     SEED_TIMELINE_ERAS.find((e) => e.id === activeEraId) || SEED_TIMELINE_ERAS[2];
 
   const handleJumpToPassage = (ref: string) => {
-    const stripped = ref.replace(/^(?:1|2)\s+(?:Samuel|Kings)\s+/i, '');
-    const chapMatch = stripped.match(/\b(\d+)(?::(\d+))?/);
-    const chap = chapMatch ? chapMatch[1] : '1';
-    if (ref.includes('Genesis')) {
-      navigateToPassage(`GEN-${chap}`);
-    } else if (ref.includes('Leviticus')) {
-      navigateToPassage(`LEV-${chap}`);
-    } else if (ref.includes('Numbers')) {
-      navigateToPassage(`NUM-${chap}`);
-    } else if (ref.includes('Deuteronomy')) {
-      navigateToPassage(`DEU-${chap}`);
-    } else if (ref.includes('Joshua')) {
-      navigateToPassage(`JOS-${chap}`);
-    } else if (ref.includes('Judges')) {
-      navigateToPassage(`JDG-${chap}`);
-    } else if (ref.includes('Ruth')) {
-      navigateToPassage(`RUT-${chap}`, chap === '1' ? 16 : undefined);
-    } else if (ref.includes('1 Samuel')) {
-      navigateToPassage(`1SA-${chap}`);
-    } else if (ref.includes('2 Samuel')) {
-      navigateToPassage(`2SA-${chap}`);
-    } else if (ref.includes('1 Kings')) {
-      navigateToPassage(`1KI-${chap}`);
-    } else if (ref.includes('2 Kings')) {
-      navigateToPassage(`2KI-${chap}`);
-    } else if (ref.includes('Job')) {
-      navigateToPassage(`JOB-${chap}`);
-    } else if (ref.includes('Psalm')) {
-      navigateToPassage(`PSA-${chap}`);
-    } else if (ref.includes('Daniel')) {
-      navigateToPassage(`DAN-${chap}`);
-    } else {
-      navigateToPassage(`EXO-${ref.includes('16:') ? '16' : chap}`);
-    }
+    const { chapterId, verseNumber } = resolvePassageFromReference(ref);
+    navigateToPassage(chapterId, verseNumber);
   };
 
   return (

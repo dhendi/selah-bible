@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Bookmark, Trash2, ArrowRight, BookOpen, Plus } from 'lucide-react';
 import { useStudyStore } from '../../store/useStudyStore';
-import { PICKER_BOOK_MAP, parseBookIdFromChapter, type BibleBookId } from '../../data/bookGroups';
+import { PICKER_BOOK_MAP, parseBookIdFromChapter, resolvePassageFromReference, type BibleBookId } from '../../data/bookGroups';
 import { AddNoteModal } from '../reader/AddNoteModal';
 
 export const NotesManager: React.FC = () => {
@@ -23,14 +23,14 @@ export const NotesManager: React.FC = () => {
   });
 
   const handleJump = (verseRef: string, fallbackBookId?: string) => {
-    const chapMatch = verseRef.match(/\b(\d+)(?::(\d+))?\s*$/);
-    const chap = chapMatch ? chapMatch[1] : '1';
-    const verse = chapMatch && chapMatch[2] ? parseInt(chapMatch[2], 10) : undefined;
-    const bookEntry = Object.values(PICKER_BOOK_MAP).find((b) =>
-      verseRef.toLowerCase().startsWith(b.title.toLowerCase())
-    );
-    const bId = bookEntry?.id || (fallbackBookId as BibleBookId) || 'GEN';
-    navigateToPassage(`${bId}-${chap}`, verse);
+    const resolved = resolvePassageFromReference(verseRef);
+    const finalChapId =
+      resolved.chapterId.startsWith('GEN-') &&
+      !verseRef.toLowerCase().includes('genesis') &&
+      fallbackBookId
+        ? `${fallbackBookId}-${resolved.chapterId.split('-')[1]}`
+        : resolved.chapterId;
+    navigateToPassage(finalChapId, resolved.verseNumber);
   };
 
   return (

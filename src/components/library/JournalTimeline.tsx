@@ -8,7 +8,7 @@ import {
   Plus,
 } from 'lucide-react';
 import { useStudyStore } from '../../store/useStudyStore';
-import { PICKER_BOOK_MAP, parseBookIdFromChapter, type BibleBookId } from '../../data/bookGroups';
+import { PICKER_BOOK_MAP, parseBookIdFromChapter, resolvePassageFromReference, type BibleBookId } from '../../data/bookGroups';
 import { StoryIllustration } from '../illustrations/StoryIllustration';
 
 export const JournalTimeline: React.FC = () => {
@@ -42,14 +42,14 @@ export const JournalTimeline: React.FC = () => {
   }));
 
   const handleJump = (ref: string, fallbackBookId?: string) => {
-    const chapMatch = ref.match(/\b(\d+)(?::(\d+))?\s*$/);
-    const chap = chapMatch ? chapMatch[1] : '1';
-    const verse = chapMatch && chapMatch[2] ? parseInt(chapMatch[2], 10) : undefined;
-    const bookEntry = Object.values(PICKER_BOOK_MAP).find((b) =>
-      ref.toLowerCase().startsWith(b.title.toLowerCase())
-    );
-    const bId = bookEntry?.id || (fallbackBookId as BibleBookId) || 'GEN';
-    navigateToPassage(`${bId}-${chap}`, verse);
+    const resolved = resolvePassageFromReference(ref);
+    const finalChapId =
+      resolved.chapterId.startsWith('GEN-') &&
+      !ref.toLowerCase().includes('genesis') &&
+      fallbackBookId
+        ? `${fallbackBookId}-${resolved.chapterId.split('-')[1]}`
+        : resolved.chapterId;
+    navigateToPassage(finalChapId, resolved.verseNumber);
   };
 
   return (

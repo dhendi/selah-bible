@@ -2416,3 +2416,30 @@ export function formatChapterTitle(chapterId: string | null): string {
   const meta = PICKER_BOOK_MAP[bookId];
   return meta ? `${meta.title} ${chNum}` : chapterId;
 }
+
+const BOOK_TITLE_MATCHERS = [
+  ...PICKER_BOOKS.map((b) => ({ bookId: b.id, needle: b.title.toLowerCase() })),
+  { bookId: 'PSA' as BibleBookId, needle: 'psalm' },
+  { bookId: 'SNG' as BibleBookId, needle: 'song of songs' },
+].sort((a, b) => b.needle.length - a.needle.length);
+
+export function resolvePassageFromReference(ref: string): {
+  chapterId: string;
+  verseNumber?: number;
+} {
+  const normalized = ref.trim();
+  const lower = normalized.toLowerCase();
+  const matched = BOOK_TITLE_MATCHERS.find((m) => lower.includes(m.needle));
+  const bookId: BibleBookId = matched ? matched.bookId : 'GEN';
+
+  const needleIdx = matched ? lower.indexOf(matched.needle) : -1;
+  const afterBook =
+    needleIdx >= 0 ? normalized.slice(needleIdx + matched!.needle.length) : normalized;
+  const chapMatch = afterBook.match(/\b(\d+)(?::(\d+))?/);
+  const maxCh = PICKER_BOOK_MAP[bookId]?.chapters || 1;
+  const rawChap = chapMatch ? parseInt(chapMatch[1], 10) : 1;
+  const chapNum = Math.min(Math.max(1, rawChap), maxCh);
+  const verseNum = chapMatch && chapMatch[2] ? parseInt(chapMatch[2], 10) : undefined;
+
+  return { chapterId: `${bookId}-${chapNum}`, verseNumber: verseNum };
+}

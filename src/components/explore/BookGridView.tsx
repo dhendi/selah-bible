@@ -174,11 +174,6 @@ export const BookGridView: React.FC = () => {
                               >
                                 {book.id}
                               </span>
-                              {isFeaturedSeed && (
-                                <span className="text-[0.5625rem] font-bold px-1.5 py-0.5 rounded-full bg-[#7A9A82] text-white">
-                                  Seed V1
-                                </span>
-                              )}
                             </div>
                             <h4 className="text-sm font-serif font-bold text-[#2C2C2A] mt-2 group-hover:text-[#1F3A27] transition-colors">
                               {book.title}
