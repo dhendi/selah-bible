@@ -462,6 +462,16 @@ function resolveChapterAsset(key: string): { src: string; alt: string } | undefi
       };
     }
   }
+  const actMatch = /^ill-act-(\d+)$/.exec(key);
+  if (actMatch) {
+    const ch = Number(actMatch[1]);
+    if (ch >= 1 && ch <= 28) {
+      return {
+        src: `/images/act-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Acts ${ch} illustration`,
+      };
+    }
+  }
   return undefined;
 }
 

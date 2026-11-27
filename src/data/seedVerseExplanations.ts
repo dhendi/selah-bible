@@ -1887,6 +1887,13 @@ const BOOK_EXPLANATION_TEMPLATES: Record<string, BookExplanationTemplate> = {
     action: (ref) => `Abide quietly in Jesus’ love today and share a bright word of life drawn from ${ref}.`,
     kid: (s) => `${s} Jesus is our Good Shepherd and True Light who knows every friend by name!`,
   },
+  ACT: {
+    bookName: 'Acts',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, the risen Jesus pours out His Holy Spirit to carry fearless, generous witness from Jerusalem across every nation.`,
+    action: (ref) => `Encourage a friend or pray boldly for someone across your neighborhood today alongside ${ref}.`,
+    kid: (s) => `${s} God’s Holy Spirit helps ordinary friends share Jesus everywhere on earth!`,
+  },
 };
 
 export function getExplanationForVerse(

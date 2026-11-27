@@ -89,7 +89,7 @@ export const ContextualBottomSheet: React.FC = () => {
       navigateToMapPin('loc-samaria');
     } else if (region.includes('Dothan')) {
       navigateToMapPin('loc-dothan');
-    } else if (region.includes('Zarephath') || region.includes('Sidon') || region.includes('Tyre') || region.includes('Lebanon')) {
+    } else if (region.includes('Zarephath') || region.includes('Sidon') || region.includes('Tyre') || region.includes('Lebanon') || region.includes('Macedonia') || region.includes('Greece') || region.includes('Asia Minor') || region.includes('Mediterranean')) {
       navigateToMapPin('loc-mount-carmel');
     } else if (region.includes('Gibeon')) {
       navigateToMapPin('loc-ramah');
@@ -156,7 +156,17 @@ export const ContextualBottomSheet: React.FC = () => {
 
   const handleReflect = () => {
     const ref = entity.relatedVerseRefs[0] || 'Genesis 1:1';
-    const bookId = ref.includes('Jeremiah')
+    const bookId = ref.includes('Acts')
+      ? 'ACT'
+      : ref.includes('John')
+        ? 'JHN'
+        : ref.includes('Luke')
+          ? 'LUK'
+          : ref.includes('Mark')
+            ? 'MRK'
+            : ref.includes('Matthew')
+              ? 'MAT'
+              : ref.includes('Jeremiah')
       ? 'JER'
       : ref.includes('Isaiah')
         ? 'ISA'

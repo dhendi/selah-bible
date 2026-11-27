@@ -1033,4 +1033,5 @@ export const BUILT_BOOK_START_CHAPTER: Record<string, string> = {
   MRK: 'MRK-1',
   LUK: 'LUK-1',
   JHN: 'JHN-1',
+  ACT: 'ACT-1',
 };

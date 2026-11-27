@@ -67,6 +67,8 @@ export const ExplainVerseBottomSheet: React.FC = () => {
       navigateToMapPin('loc-bethlehem');
     } else if (/^(MAT|MRK|LUK|JHN)-/.test(activeExplainVerseId)) {
       navigateToMapPin('loc-mount-tabor');
+    } else if (activeExplainVerseId.startsWith('ACT-')) {
+      navigateToMapPin('loc-jerusalem');
     } else {
       navigateToMapPin('loc-eden');
     }
@@ -80,6 +82,8 @@ export const ExplainVerseBottomSheet: React.FC = () => {
       navigateToTimelineEra('era-judges');
     } else if (/^(MAT|MRK|LUK|JHN)-/.test(activeExplainVerseId)) {
       navigateToTimelineEra('era-jesus');
+    } else if (activeExplainVerseId.startsWith('ACT-')) {
+      navigateToTimelineEra('era-church');
     } else {
       navigateToTimelineEra('era-creation');
     }
