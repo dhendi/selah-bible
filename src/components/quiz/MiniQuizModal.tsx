@@ -76,7 +76,7 @@ export const MiniQuizModal: React.FC<{
         {/* Header */}
         <div className="flex items-center justify-between pb-3 border-b border-[#E8E2D7] mb-4">
           <div>
-            <div className="text-[11px] font-semibold uppercase tracking-wider text-[#7A9A82]">
+            <div className="text-[0.6875rem] font-semibold uppercase tracking-wider text-[#7A9A82]">
               Active-Recall Retention
             </div>
             <h3 className="text-lg font-serif font-bold text-[#2C2C2A]">
@@ -157,7 +157,7 @@ export const MiniQuizModal: React.FC<{
                 <p className="text-xs text-[#2C2C2A] leading-relaxed mb-2">
                   {currentQ.explanation}
                 </p>
-                <div className="text-[11px] text-[#6B6862] italic bg-[#FAF7F2] p-2 rounded-xl border border-[#E8E2D7]">
+                <div className="text-[0.6875rem] text-[#6B6862] italic bg-[#FAF7F2] p-2 rounded-xl border border-[#E8E2D7]">
                   "{currentQ.takeaway}"
                 </div>
               </div>

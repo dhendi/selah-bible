@@ -77,6 +77,25 @@
   clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 76%, 0 100%);
 }
 
+/* High Contrast Accessibility Mode (sharper ink & clearer borders for aging eyes) */
+html.high-contrast body {
+  background-color: #FFFFFF;
+  color: #161513;
+}
+html.high-contrast [class*="text-[#666158]"],
+html.high-contrast [class*="text-[#76746E]"],
+html.high-contrast [class*="text-[#8C867B]"],
+html.high-contrast [class*="text-[#6B6862]"],
+html.high-contrast [class*="text-[#8E8B84]"] {
+  color: #2E2C28 !important;
+}
+html.high-contrast [class*="border-[#E5DFD5]"],
+html.high-contrast [class*="border-[#E8E2D7]"],
+html.high-contrast [class*="border-[#E2DACB]"],
+html.high-contrast [class*="border-[#DDD3C1]"] {
+  border-color: #B8AE9D !important;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 6px;

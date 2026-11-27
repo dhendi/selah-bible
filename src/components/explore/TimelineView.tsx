@@ -56,7 +56,7 @@ export const TimelineView: React.FC = () => {
     <div className="space-y-5">
       {/* Intro Hook */}
       <div className="bg-[#F3EFE6] p-4 rounded-3xl border border-[#E5DFD5]">
-        <div className="text-[11px] font-bold uppercase tracking-wider text-[#7A9A82] mb-1">
+        <div className="text-[0.6875rem] font-bold uppercase tracking-wider text-[#7A9A82] mb-1">
           Historical Master Timeline
         </div>
         <p className="text-xs text-[#52504A] leading-relaxed">
@@ -85,7 +85,7 @@ export const TimelineView: React.FC = () => {
                 }`}
               >
                 <div className="flex items-center justify-between mb-1">
-                  <span className="text-[10px] font-mono text-[#76746E]">
+                  <span className="text-[0.625rem] font-mono text-[#76746E]">
                     Era {index + 1}
                   </span>
                   <div
@@ -96,7 +96,7 @@ export const TimelineView: React.FC = () => {
                 <div className="text-xs font-bold font-serif text-[#2C2C2A] line-clamp-1">
                   {era.name}
                 </div>
-                <div className="text-[10px] text-[#76746E] mt-0.5 truncate">
+                <div className="text-[0.625rem] text-[#76746E] mt-0.5 truncate">
                   {era.approxDate}
                 </div>
               </button>
@@ -110,7 +110,7 @@ export const TimelineView: React.FC = () => {
         <div className="flex items-start justify-between gap-3 pb-3 border-b border-[#E8E2D7] mb-4">
           <div>
             <span
-              className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full text-white"
+              className="text-[0.625rem] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full text-white"
               style={{ backgroundColor: activeEra.color }}
             >
               {activeEra.approxDate}
@@ -150,7 +150,7 @@ export const TimelineView: React.FC = () => {
                 className="p-3.5 rounded-2xl bg-[#F3EFE6] border border-[#E5DFD5] flex items-start justify-between gap-3"
               >
                 <div>
-                  <span className="text-[11px] font-mono font-semibold text-[#7A9A82] block">
+                  <span className="text-[0.6875rem] font-mono font-semibold text-[#7A9A82] block">
                     {evt.year}
                   </span>
                   <p className="text-xs text-[#2C2C2A] font-medium mt-0.5">
@@ -160,7 +160,7 @@ export const TimelineView: React.FC = () => {
 
                 <button
                   onClick={() => handleJumpToPassage(evt.reference)}
-                  className="px-2 py-1 rounded-lg bg-[#FAF7F2] text-[11px] font-medium text-[#5A7D63] border border-[#E8E2D7] hover:bg-[#EDE7DC] flex items-center gap-1 flex-shrink-0"
+                  className="px-2 py-1 rounded-lg bg-[#FAF7F2] text-[0.6875rem] font-medium text-[#5A7D63] border border-[#E8E2D7] hover:bg-[#EDE7DC] flex items-center gap-1 flex-shrink-0"
                 >
                   <BookOpen className="w-3 h-3" />
                   <span>{evt.reference}</span>

@@ -25,7 +25,17 @@ const DEFAULT_PREFERENCES: ReaderPreferences = {
   highContrast: false,
   highlightConnections: true,
   audioSpeechRate: 1.0,
+  uiScale: 'normal',
 };
+
+function applyAccessibilityDOM(prefs: ReaderPreferences) {
+  if (typeof document === 'undefined') return;
+  const root = document.documentElement;
+  const px =
+    prefs.uiScale === 'xlarge' ? '22px' : prefs.uiScale === 'large' ? '19px' : '16px';
+  root.style.fontSize = px;
+  root.classList.toggle('high-contrast', Boolean(prefs.highContrast));
+}
 
 const DEFAULT_PROGRESS: UserStudyProgress = {
   hasCompletedOnboarding: false,
@@ -139,6 +149,7 @@ class StudyStore {
 
   constructor() {
     this.preferences = this.loadFromStorage(STORAGE_KEYS.PREFS, DEFAULT_PREFERENCES);
+    applyAccessibilityDOM(this.preferences);
     this.progress = this.loadFromStorage(STORAGE_KEYS.PROGRESS, DEFAULT_PROGRESS);
     this.notes = this.loadFromStorage(STORAGE_KEYS.NOTES, DEFAULT_NOTES);
     this.flashcards = this.loadFromStorage(STORAGE_KEYS.CARDS, SEED_FLASHCARDS);
@@ -334,6 +345,7 @@ class StudyStore {
 
   public updatePreferences(newPrefs: Partial<ReaderPreferences>) {
     this.preferences = { ...this.preferences, ...newPrefs };
+    applyAccessibilityDOM(this.preferences);
     this.saveToStorage(STORAGE_KEYS.PREFS, this.preferences);
     this.notify();
   }

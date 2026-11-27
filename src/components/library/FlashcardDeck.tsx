@@ -75,10 +75,10 @@ export const FlashcardDeck: React.FC = () => {
           <div className="absolute inset-0 backface-hidden bg-[#FAF7F2] rounded-3xl p-6 border border-[#E5DFD5] shadow-sm flex flex-col justify-between">
             <div>
               <div className="flex items-center justify-between mb-3">
-                <span className="text-[11px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-[#EBF2ED] text-[#5A7D63]">
+                <span className="text-[0.6875rem] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-[#EBF2ED] text-[#5A7D63]">
                   {currentCard.verseReference}
                 </span>
-                <span className="text-[11px] text-[#96938B] flex items-center gap-1">
+                <span className="text-[0.6875rem] text-[#96938B] flex items-center gap-1">
                   <RotateCw className="w-3 h-3" /> Tap to Flip
                 </span>
               </div>
@@ -97,7 +97,7 @@ export const FlashcardDeck: React.FC = () => {
           <div className="absolute inset-0 backface-hidden rotate-y-180 bg-[#F3EFE6] rounded-3xl p-6 border border-[#7A9A82]/40 shadow-sm flex flex-col justify-between">
             <div>
               <div className="flex items-center justify-between mb-2">
-                <span className="text-[11px] font-bold uppercase tracking-wider text-[#7A9A82]">
+                <span className="text-[0.6875rem] font-bold uppercase tracking-wider text-[#7A9A82]">
                   Key Concept & Meaning
                 </span>
                 <button
@@ -106,7 +106,7 @@ export const FlashcardDeck: React.FC = () => {
                     e.stopPropagation();
                     handleJump();
                   }}
-                  className="text-[11px] font-medium text-[#7A9A82] hover:underline"
+                  className="text-[0.6875rem] font-medium text-[#7A9A82] hover:underline"
                 >
                   View in Reader →
                 </button>
@@ -128,7 +128,7 @@ export const FlashcardDeck: React.FC = () => {
               className="pt-3 border-t border-[#E5DFD5]"
               onClick={(e) => e.stopPropagation()}
             >
-              <div className="text-[11px] font-semibold text-[#76746E] mb-2 text-center">
+              <div className="text-[0.6875rem] font-semibold text-[#76746E] mb-2 text-center">
                 How well did you recall this?
               </div>
               <div className="grid grid-cols-4 gap-1.5">

@@ -77,7 +77,7 @@ export const NotesManager: React.FC = () => {
                         </button>
 
                         <div className="flex items-center gap-2">
-                          <span className="text-[10px] px-2 py-0.5 rounded-full bg-[#F3EFE6] text-[#76746E] font-medium">
+                          <span className="text-[0.625rem] px-2 py-0.5 rounded-full bg-[#F3EFE6] text-[#76746E] font-medium">
                             {note.tag || 'Reflection'}
                           </span>
                           <button
@@ -94,7 +94,7 @@ export const NotesManager: React.FC = () => {
                         {note.noteText}
                       </p>
 
-                      <div className="text-[10px] text-[#96938B] mt-2 pt-2 border-t border-[#EFEAE1]">
+                      <div className="text-[0.625rem] text-[#96938B] mt-2 pt-2 border-t border-[#EFEAE1]">
                         Saved {new Date(note.createdAt).toLocaleDateString()}
                       </div>
                     </div>

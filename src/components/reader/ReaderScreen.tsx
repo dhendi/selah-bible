@@ -18,7 +18,6 @@ import { SEED_STORY_MODULES } from '../../data/seedStoryModules';
 import { formatChapterTitle, getAdjacentChapters } from '../../data/bookGroups';
 import type { Verse } from '../../types/bible';
 import { StoryIllustration } from '../illustrations/StoryIllustration';
-import { TypographyDrawer } from './TypographyDrawer';
 import { AddNoteModal } from './AddNoteModal';
 import { triggerLightHaptic } from '../../native/capacitorBridge';
 
@@ -227,7 +226,7 @@ export const ReaderScreen: React.FC = () => {
           className="flex items-center gap-1.5 text-sm font-serif font-semibold tracking-wide text-[#24221E] hover:text-[#8B3A2B] transition-colors cursor-pointer"
           aria-label="Select book and chapter"
         >
-          <span className="uppercase text-[12px] tracking-[0.12em]">
+          <span className="uppercase text-xs tracking-[0.12em]">
             {chapterData.bookName}
           </span>
           <span className="text-[#8B3A2B] font-bold">{chapterData.chapterNumber}</span>
@@ -258,7 +257,7 @@ export const ReaderScreen: React.FC = () => {
           </div>
 
           {/* Illustrated Study vs. Clean Printed Text Toggle */}
-          <div className="flex items-center gap-2.5 text-[11px] font-medium">
+          <div className="flex items-center gap-2.5 text-[0.6875rem] font-medium">
             <button
               onClick={() => {
                 setActiveTab('read');
@@ -310,7 +309,7 @@ export const ReaderScreen: React.FC = () => {
               />
             </div>
             <figcaption className="mt-2.5 text-center px-2">
-              <div className="text-[10px] uppercase tracking-[0.16em] text-[#8C867B]">
+              <div className="text-[0.625rem] uppercase tracking-[0.16em] text-[#8C867B]">
                 {chapterData.bookName} · Chapter {chapterData.chapterNumber}
               </div>
               <p className="font-serif italic text-sm text-[#4A463F] mt-1 leading-snug">
@@ -323,7 +322,7 @@ export const ReaderScreen: React.FC = () => {
         {/* Chapter Opening Heading & Italic Introduction */}
         <article>
           <header className="text-center mb-6 pb-4 border-b border-[#E2DACB]">
-            <div className="text-[10px] uppercase tracking-[0.2em] text-[#8B3A2B] font-semibold">
+            <div className="text-[0.625rem] uppercase tracking-[0.2em] text-[#8B3A2B] font-semibold">
               {chapterData.verses[0]?.translation || 'WEB'} · Chapter {chapterData.chapterNumber}
             </div>
             <h1 className="text-2xl sm:text-[1.85rem] font-serif font-semibold text-[#24221E] mt-1 leading-tight">
@@ -338,7 +337,7 @@ export const ReaderScreen: React.FC = () => {
               </p>
             )}
 
-            <div className="mt-3 flex items-center justify-center gap-3 text-[11px] text-[#8C867B]">
+            <div className="mt-3 flex items-center justify-center gap-3 text-[0.6875rem] text-[#8C867B]">
               <span>{chapterData.verses.length} Verses</span>
               {!isPureTextMode && (
                 <>
@@ -397,7 +396,7 @@ export const ReaderScreen: React.FC = () => {
                       }`}
                     >
                       {!isFirstVerseInChapter && (
-                        <sup className="font-sans text-[10px] font-semibold text-[#8B3A2B]/80 mr-1 ml-1 select-none">
+                        <sup className="font-sans text-[0.625rem] font-semibold text-[#8B3A2B]/80 mr-1 ml-1 select-none">
                           {verse.verseNumber}
                         </sup>
                       )}
@@ -416,7 +415,7 @@ export const ReaderScreen: React.FC = () => {
           </div>
 
           {/* Quiet Colophon Hint */}
-          <p className="mt-7 text-center text-[11px] font-serif italic text-[#8C867B]">
+          <p className="mt-7 text-center text-[0.6875rem] font-serif italic text-[#8C867B]">
             {isPureTextMode
               ? 'Tap any verse number or line to bookmark or reflect.'
               : 'Tap any verse to explain, note, or bookmark · Tap underlined words for context.'}
@@ -436,7 +435,7 @@ export const ReaderScreen: React.FC = () => {
               <span>{prevChapterId ? formatChapterTitle(prevChapterId) : 'Beginning'}</span>
             </button>
 
-            <span className="text-[11px] tracking-[0.18em] uppercase text-[#8C867B] font-sans">
+            <span className="text-[0.6875rem] tracking-[0.18em] uppercase text-[#8C867B] font-sans">
               ❦
             </span>
 
@@ -453,7 +452,7 @@ export const ReaderScreen: React.FC = () => {
           {/* Quiet End-of-Chapter Study Reflection Strip */}
           {!isPureTextMode && (
             <section className="mt-8 pt-6 border-t border-[#E2DACB] text-center space-y-3">
-              <div className="text-[10px] font-bold uppercase tracking-[0.18em] text-[#8C867B]">
+              <div className="text-[0.625rem] font-bold uppercase tracking-[0.18em] text-[#8C867B]">
                 End of {passageTitle}
               </div>
               <p className="text-xs font-serif italic text-[#5B564D] max-w-sm mx-auto">
@@ -507,7 +506,7 @@ export const ReaderScreen: React.FC = () => {
             <div className="flex items-center gap-1.5 flex-shrink-0">
               <button
                 onClick={() => openExplainDrawer(vId)}
-                className="px-2.5 py-1 rounded-md bg-[#8B3A2B] hover:bg-[#9E4534] text-white text-[11px] font-medium flex items-center gap-1 transition-colors cursor-pointer"
+                className="px-2.5 py-1 rounded-md bg-[#8B3A2B] hover:bg-[#9E4534] text-white text-[0.6875rem] font-medium flex items-center gap-1 transition-colors cursor-pointer"
               >
                 <Sparkles className="w-3 h-3" />
                 <span>Explain</span>
@@ -569,7 +568,6 @@ export const ReaderScreen: React.FC = () => {
       })()}
 
       {/* Reader-Specific Modals */}
-      <TypographyDrawer />
       <AddNoteModal
         verseRef={activeNoteVerse}
         bookId={chapterData.bookId}

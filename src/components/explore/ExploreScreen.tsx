@@ -26,7 +26,7 @@ export const ExploreScreen: React.FC = () => {
       <div className="bg-[#F3EFE6] p-1 rounded-2xl border border-[#E5DFD5] grid grid-cols-5 gap-0.5 mb-5">
         <button
           onClick={() => setExploreView('search')}
-          className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex flex-col sm:flex-row items-center justify-center gap-0.5 sm:gap-1 transition-all cursor-pointer ${
+          className={`py-2 px-1 rounded-xl text-[0.625rem] sm:text-[0.6875rem] font-semibold flex flex-col sm:flex-row items-center justify-center gap-0.5 sm:gap-1 transition-all cursor-pointer ${
             exploreView === 'search'
               ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
               : 'text-[#76746E] hover:text-[#2C2C2A]'
@@ -38,7 +38,7 @@ export const ExploreScreen: React.FC = () => {
 
         <button
           onClick={() => setExploreView('people')}
-          className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex flex-col sm:flex-row items-center justify-center gap-0.5 sm:gap-1 transition-all cursor-pointer ${
+          className={`py-2 px-1 rounded-xl text-[0.625rem] sm:text-[0.6875rem] font-semibold flex flex-col sm:flex-row items-center justify-center gap-0.5 sm:gap-1 transition-all cursor-pointer ${
             exploreView === 'people'
               ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
               : 'text-[#76746E] hover:text-[#2C2C2A]'
@@ -50,7 +50,7 @@ export const ExploreScreen: React.FC = () => {
 
         <button
           onClick={() => setExploreView('grid')}
-          className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex flex-col sm:flex-row items-center justify-center gap-0.5 sm:gap-1 transition-all cursor-pointer ${
+          className={`py-2 px-1 rounded-xl text-[0.625rem] sm:text-[0.6875rem] font-semibold flex flex-col sm:flex-row items-center justify-center gap-0.5 sm:gap-1 transition-all cursor-pointer ${
             exploreView === 'grid'
               ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
               : 'text-[#76746E] hover:text-[#2C2C2A]'
@@ -62,7 +62,7 @@ export const ExploreScreen: React.FC = () => {
 
         <button
           onClick={() => setExploreView('timeline')}
-          className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex flex-col sm:flex-row items-center justify-center gap-0.5 sm:gap-1 transition-all cursor-pointer ${
+          className={`py-2 px-1 rounded-xl text-[0.625rem] sm:text-[0.6875rem] font-semibold flex flex-col sm:flex-row items-center justify-center gap-0.5 sm:gap-1 transition-all cursor-pointer ${
             exploreView === 'timeline'
               ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
               : 'text-[#76746E] hover:text-[#2C2C2A]'
@@ -74,7 +74,7 @@ export const ExploreScreen: React.FC = () => {
 
         <button
           onClick={() => setExploreView('map')}
-          className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex flex-col sm:flex-row items-center justify-center gap-0.5 sm:gap-1 transition-all cursor-pointer ${
+          className={`py-2 px-1 rounded-xl text-[0.625rem] sm:text-[0.6875rem] font-semibold flex flex-col sm:flex-row items-center justify-center gap-0.5 sm:gap-1 transition-all cursor-pointer ${
             exploreView === 'map'
               ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
               : 'text-[#76746E] hover:text-[#2C2C2A]'

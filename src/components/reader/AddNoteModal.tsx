@@ -45,11 +45,11 @@ export const AddNoteModal: React.FC<{
         {/* Existing notes for this verse if any */}
         {existingNotes.length > 0 && (
           <div className="mb-3 max-h-36 overflow-y-auto space-y-2 pr-1">
-            <span className="text-[11px] font-semibold text-[#76746E] uppercase">Previous Notes</span>
+            <span className="text-[0.6875rem] font-semibold text-[#76746E] uppercase">Previous Notes</span>
             {existingNotes.map((n) => (
               <div key={n.id} className="p-2.5 rounded-xl bg-[#F3EFE6] border border-[#E5DFD5] text-xs">
                 <p className="text-[#2C2C2A]">{n.noteText}</p>
-                <div className="flex justify-between items-center text-[10px] text-[#76746E] mt-1">
+                <div className="flex justify-between items-center text-[0.625rem] text-[#76746E] mt-1">
                   <span className="px-1.5 py-0.5 rounded bg-[#EDE7DC]">{n.tag}</span>
                   <span>{new Date(n.createdAt).toLocaleDateString()}</span>
                 </div>

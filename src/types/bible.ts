@@ -207,13 +207,14 @@ export interface UserVerseNote {
 }
 
 export interface ReaderPreferences {
-  fontSize: number; // e.g., 18 (range 15-26)
+  fontSize: number; // e.g., 18 (range 15-30)
   lineHeight: number; // e.g. 1.7 (range 1.4-2.2)
   fontFamily: 'serif' | 'sans' | 'dyslexic';
   isDyslexicFont: boolean;
   highContrast: boolean;
   highlightConnections: boolean;
   audioSpeechRate: number;
+  uiScale?: 'normal' | 'large' | 'xlarge';
 }
 
 export interface UserStudyProgress {

@@ -46,9 +46,27 @@ const CharacterCardModal = lazy(() =>
     default: m.CharacterCardModal,
   }))
 );
+const TypographyDrawer = lazy(() =>
+  import('./components/reader/TypographyDrawer').then((m) => ({
+    default: m.TypographyDrawer,
+  }))
+);
 
 export const App: React.FC = () => {
-  const { activeTab, setActiveTab, preferences, showChapterPicker } = useStudyStore();
+  const {
+    activeTab,
+    setActiveTab,
+    preferences,
+    showChapterPicker,
+    setShowTypographyDrawer,
+  } = useStudyStore();
+
+  const scaleLabel =
+    preferences.uiScale === 'xlarge'
+      ? 'XL Size'
+      : preferences.uiScale === 'large'
+        ? 'Large UI'
+        : 'Display Size';
 
   const getGlobalFontClass = () => {
     if (preferences.isDyslexicFont) return 'font-dyslexic';
@@ -68,9 +86,19 @@ export const App: React.FC = () => {
             <span className="w-1.5 h-3.5 bg-[#8B3A2B] inline-block rounded-[1px]" />
             <span>Selah</span>
           </span>
-          <span className="text-[10px] uppercase tracking-[0.18em] text-[#666158]">
-            Illustrated Study Bible
-          </span>
+          <button
+            onClick={() => setShowTypographyDrawer(true)}
+            className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full border text-[0.6875rem] font-semibold transition-all cursor-pointer ${
+              preferences.uiScale && preferences.uiScale !== 'normal'
+                ? 'bg-[#EBF2ED] border-[#7A9A82]/60 text-[#285842]'
+                : 'bg-[#FAF7F2]/80 border-[#D6CCBA] text-[#484642] hover:bg-[#FAF7F2]'
+            }`}
+            title="Change menu, button, and text sizes"
+            aria-label="Open display size and reading comfort settings"
+          >
+            <span className="font-serif font-bold text-[#8B3A2B]">Aa</span>
+            <span>{scaleLabel}</span>
+          </button>
         </div>
       </nav>
 
@@ -104,7 +132,7 @@ export const App: React.FC = () => {
               }`}
             >
               <Bookmark className="w-4 h-4" />
-              <span className="text-[11px] font-serif tracking-wide">Bookmark</span>
+              <span className="text-[0.6875rem] font-serif tracking-wide">Bookmark</span>
             </button>
 
             <button
@@ -116,7 +144,7 @@ export const App: React.FC = () => {
               }`}
             >
               <BookOpen className="w-4 h-4" />
-              <span className="text-[11px] font-serif tracking-wide">Bible</span>
+              <span className="text-[0.6875rem] font-serif tracking-wide">Bible</span>
             </button>
 
             <button
@@ -128,7 +156,7 @@ export const App: React.FC = () => {
               }`}
             >
               <Compass className="w-4 h-4" />
-              <span className="text-[11px] font-serif tracking-wide">Explore</span>
+              <span className="text-[0.6875rem] font-serif tracking-wide">Explore</span>
             </button>
 
             <button
@@ -140,7 +168,7 @@ export const App: React.FC = () => {
               }`}
             >
               <PenLine className="w-4 h-4" />
-              <span className="text-[11px] font-serif tracking-wide">Journal</span>
+              <span className="text-[0.6875rem] font-serif tracking-wide">Journal</span>
             </button>
           </footer>
         </div>
@@ -155,6 +183,7 @@ export const App: React.FC = () => {
         <SmartJournalModal />
         <ShareVerseModal />
         <CharacterCardModal />
+        <TypographyDrawer />
       </Suspense>
     </div>
   );

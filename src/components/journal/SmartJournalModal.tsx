@@ -134,7 +134,7 @@ export const SmartJournalModal: React.FC = () => {
                 />
               </div>
               <div className="flex-1 min-w-0">
-                <div className="flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider text-[#7A9A82]">
+                <div className="flex items-center gap-1 text-[0.625rem] font-bold uppercase tracking-wider text-[#7A9A82]">
                   <Sparkles className="w-3 h-3" />
                   <span>What I Read • {activeJournalTarget.verseRef}</span>
                 </div>
@@ -196,7 +196,7 @@ export const SmartJournalModal: React.FC = () => {
                   <div className="text-xs font-semibold text-[#2C2C2A]">
                     Also save to my Prayer Journal
                   </div>
-                  <div className="text-[11px] text-[#76746E]">
+                  <div className="text-[0.6875rem] text-[#76746E]">
                     Track answered prayers alongside your study notes
                   </div>
                 </div>

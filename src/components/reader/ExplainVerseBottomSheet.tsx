@@ -57,7 +57,7 @@ export const ExplainVerseBottomSheet: React.FC = () => {
     ? 'font-dyslexic'
     : 'font-sans';
 
-  const bodyFontSize = Math.max(13, Math.min(preferences.fontSize - 3, 19));
+  const bodyFontSize = Math.max(14, Math.min(preferences.fontSize - 2, 24));
 
   const handleMapClick = () => {
     closeExplainDrawer();
@@ -131,7 +131,7 @@ export const ExplainVerseBottomSheet: React.FC = () => {
         {/* Drawer Header + Standard / Kids & Family Toggle Pill */}
         <div className="flex items-start justify-between gap-2 pb-3 border-b border-[#E8E2D7] mb-4">
           <div>
-            <div className="flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider text-[#7A9A82]">
+            <div className="flex items-center gap-1.5 text-[0.6875rem] font-bold uppercase tracking-wider text-[#7A9A82]">
               <Sparkles className="w-3.5 h-3.5" />
               <span>Explain What This Means</span>
             </div>
@@ -142,7 +142,7 @@ export const ExplainVerseBottomSheet: React.FC = () => {
 
           <div className="flex items-center gap-2">
             {/* Compact Toggle Pill: Standard | Kids & Family */}
-            <div className="bg-[#F3EFE6] p-0.5 rounded-full border border-[#E5DFD5] flex items-center text-[11px] font-semibold">
+            <div className="bg-[#F3EFE6] p-0.5 rounded-full border border-[#E5DFD5] flex items-center text-[0.6875rem] font-semibold">
               <button
                 onClick={() => setKidsMode(false)}
                 className={`px-2.5 py-1 rounded-full transition-all cursor-pointer ${
@@ -258,7 +258,7 @@ export const ExplainVerseBottomSheet: React.FC = () => {
 
         {/* Horizontal Connected Quick Links Pills */}
         <div>
-          <div className="text-[11px] font-semibold uppercase tracking-wider text-[#76746E] mb-2">
+          <div className="text-[0.6875rem] font-semibold uppercase tracking-wider text-[#76746E] mb-2">
             Connected Links
           </div>
           <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-none">

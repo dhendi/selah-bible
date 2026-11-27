@@ -197,7 +197,7 @@ export const OnboardingFlow: React.FC = () => {
 
             {/* Live Interactive Preview Card */}
             <div className="p-4 rounded-3xl bg-[#FAF7F2] border border-[#7A9A82]/40 shadow-xs">
-              <span className="text-[10px] font-bold uppercase tracking-wider text-[#7A9A82] block mb-1">
+              <span className="text-[0.625rem] font-bold uppercase tracking-wider text-[#7A9A82] block mb-1">
                 Live Preview
               </span>
               <p
@@ -238,7 +238,7 @@ export const OnboardingFlow: React.FC = () => {
                   <div className="text-xs font-semibold text-[#2C2C2A]">
                     Dyslexia-Friendly Font (Lexend)
                   </div>
-                  <div className="text-[11px] text-[#76746E]">
+                  <div className="text-[0.6875rem] text-[#76746E]">
                     Weighted letter bottoms for reading fluency
                   </div>
                 </div>
@@ -290,7 +290,7 @@ export const OnboardingFlow: React.FC = () => {
                 </button>
                 ) for they did not know what it was. Moses said to them, "It is the bread the LORD has given you to eat." [16:15]
               </p>
-              <div className="text-right text-[11px] text-[#7A9A82] font-semibold mt-2">
+              <div className="text-right text-[0.6875rem] text-[#7A9A82] font-semibold mt-2">
                 ↑ Tap "Manna" to open bottom sheet
               </div>
             </div>
@@ -398,11 +398,11 @@ export const OnboardingFlow: React.FC = () => {
 
             <div className="grid grid-cols-2 gap-2 mb-4 text-xs">
               <div className="p-2.5 rounded-xl bg-[#FAF7F2] border border-[#E5DFD5]">
-                <span className="text-[10px] text-[#76746E] block">Timeline</span>
+                <span className="text-[0.625rem] text-[#76746E] block">Timeline</span>
                 <span className="font-semibold text-[#2C2C2A]">{mannaEntity.timelineYear}</span>
               </div>
               <div className="p-2.5 rounded-xl bg-[#FAF7F2] border border-[#E5DFD5]">
-                <span className="text-[10px] text-[#76746E] block">Location</span>
+                <span className="text-[0.625rem] text-[#76746E] block">Location</span>
                 <span className="font-semibold text-[#2C2C2A]">{mannaEntity.mapCoordinates?.regionName}</span>
               </div>
             </div>

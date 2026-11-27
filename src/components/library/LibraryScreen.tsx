@@ -56,7 +56,7 @@ export const LibraryScreen: React.FC = () => {
       {/* Progress & Metrics Dashboard Card */}
       <section className="mb-6">
         <div className="bg-[#F3EFE6] rounded-3xl p-5 border border-[#E5DFD5] shadow-xs">
-          <div className="text-[11px] font-bold uppercase tracking-wider text-[#7A9A82] mb-3">
+          <div className="text-[0.6875rem] font-bold uppercase tracking-wider text-[#7A9A82] mb-3">
             Habit & Accuracy Metrics
           </div>
 
@@ -65,21 +65,21 @@ export const LibraryScreen: React.FC = () => {
             <div className="bg-[#FAF7F2] p-3 rounded-2xl border border-[#E5DFD5] text-center">
               <Flame className="w-5 h-5 text-[#C88A6B] mx-auto mb-1 fill-[#C88A6B]" />
               <div className="text-base font-bold text-[#2C2C2A]">{progress.streakDays} Days</div>
-              <div className="text-[10px] text-[#76746E]">Current Streak</div>
+              <div className="text-[0.625rem] text-[#76746E]">Current Streak</div>
             </div>
 
             {/* Metric 2: Quiz Accuracy */}
             <div className="bg-[#FAF7F2] p-3 rounded-2xl border border-[#E5DFD5] text-center">
               <Award className="w-5 h-5 text-[#7A9A82] mx-auto mb-1" />
               <div className="text-base font-bold text-[#2C2C2A]">{accuracyPercent}%</div>
-              <div className="text-[10px] text-[#76746E]">Quiz Accuracy</div>
+              <div className="text-[0.625rem] text-[#76746E]">Quiz Accuracy</div>
             </div>
 
             {/* Metric 3: Verses Read */}
             <div className="bg-[#FAF7F2] p-3 rounded-2xl border border-[#E5DFD5] text-center">
               <BookOpen className="w-5 h-5 text-[#5D7CA8] mx-auto mb-1" />
               <div className="text-base font-bold text-[#2C2C2A]">{progress.readVersesCount}</div>
-              <div className="text-[10px] text-[#76746E]">Verses Studied</div>
+              <div className="text-[0.625rem] text-[#76746E]">Verses Studied</div>
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@ export const LibraryScreen: React.FC = () => {
       <div className="bg-[#F3EFE6] p-1 rounded-2xl border border-[#E5DFD5] grid grid-cols-4 gap-0.5 mb-5">
         <button
           onClick={() => setActiveSubTab('journal')}
-          className={`py-2 px-1 rounded-xl text-[11px] font-semibold flex items-center justify-center gap-1 transition-all cursor-pointer ${
+          className={`py-2 px-1 rounded-xl text-[0.6875rem] font-semibold flex items-center justify-center gap-1 transition-all cursor-pointer ${
             activeSubTab === 'journal'
               ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
               : 'text-[#76746E] hover:text-[#2C2C2A]'
@@ -101,7 +101,7 @@ export const LibraryScreen: React.FC = () => {
 
         <button
           onClick={() => setActiveSubTab('flashcards')}
-          className={`py-2 px-1 rounded-xl text-[11px] font-semibold flex items-center justify-center gap-1 transition-all cursor-pointer ${
+          className={`py-2 px-1 rounded-xl text-[0.6875rem] font-semibold flex items-center justify-center gap-1 transition-all cursor-pointer ${
             activeSubTab === 'flashcards'
               ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
               : 'text-[#76746E] hover:text-[#2C2C2A]'
@@ -113,7 +113,7 @@ export const LibraryScreen: React.FC = () => {
 
         <button
           onClick={() => setActiveSubTab('notes')}
-          className={`py-2 px-1 rounded-xl text-[11px] font-semibold flex items-center justify-center gap-1 transition-all cursor-pointer ${
+          className={`py-2 px-1 rounded-xl text-[0.6875rem] font-semibold flex items-center justify-center gap-1 transition-all cursor-pointer ${
             activeSubTab === 'notes'
               ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
               : 'text-[#76746E] hover:text-[#2C2C2A]'
@@ -125,7 +125,7 @@ export const LibraryScreen: React.FC = () => {
 
         <button
           onClick={() => setActiveSubTab('bookmarks')}
-          className={`py-2 px-1 rounded-xl text-[11px] font-semibold flex items-center justify-center gap-1 transition-all cursor-pointer ${
+          className={`py-2 px-1 rounded-xl text-[0.6875rem] font-semibold flex items-center justify-center gap-1 transition-all cursor-pointer ${
             activeSubTab === 'bookmarks'
               ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
               : 'text-[#76746E] hover:text-[#2C2C2A]'

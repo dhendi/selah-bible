@@ -216,7 +216,7 @@ export const AssistedSearchView: React.FC = () => {
 
         {/* Status Indicator & Prompt Suggestions */}
         <div className="flex flex-wrap items-center justify-between gap-2 px-0.5">
-          <div className="flex items-center gap-1.5 text-[11px] text-[#666158]">
+          <div className="flex items-center gap-1.5 text-[0.6875rem] text-[#666158]">
             <span
               className="w-2 h-2 rounded-full flex-shrink-0"
               style={{ backgroundColor: statusMeta.dot }}
@@ -224,21 +224,21 @@ export const AssistedSearchView: React.FC = () => {
             <span>{statusMeta.text}</span>
           </div>
           {isSearching && (
-            <span className="text-[11px] font-serif italic text-[#8B3A2B]">
+            <span className="text-[0.6875rem] font-serif italic text-[#8B3A2B]">
               Searching 66 books…
             </span>
           )}
         </div>
 
         <div className="flex flex-wrap gap-1.5 items-center pt-0.5">
-          <span className="text-[11px] font-serif italic text-[#666158] mr-1">Try:</span>
+          <span className="text-[0.6875rem] font-serif italic text-[#666158] mr-1">Try:</span>
           {SUGGESTED_QUERIES.map((chip) => {
             const isSelected = query.toLowerCase() === chip.toLowerCase();
             return (
               <button
                 key={chip}
                 onClick={() => setQuery(isSelected ? '' : chip)}
-                className={`px-2.5 py-1 rounded-full text-[11px] font-medium border transition-colors cursor-pointer ${
+                className={`px-2.5 py-1 rounded-full text-[0.6875rem] font-medium border transition-colors cursor-pointer ${
                   isSelected
                     ? 'bg-[#24221E] text-[#FBF8F1] border-[#24221E]'
                     : 'bg-[#F4EFE4] text-[#5B564D] border-[#DDD3C1] hover:bg-[#ECE4D4]'
@@ -255,10 +255,10 @@ export const AssistedSearchView: React.FC = () => {
       {!query.trim() && (
         <div className="space-y-3">
           <div className="flex items-baseline justify-between border-b border-[#E2DACB] pb-1.5">
-            <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-[#666158]">
+            <span className="text-[0.6875rem] font-bold uppercase tracking-[0.16em] text-[#666158]">
               Suggested Reading Across Scripture
             </span>
-            <span className="text-[11px] font-serif italic text-[#8C867B]">
+            <span className="text-[0.6875rem] font-serif italic text-[#8C867B]">
               Search any topic or phrase
             </span>
           </div>
@@ -278,7 +278,7 @@ export const AssistedSearchView: React.FC = () => {
                 </div>
                 <div className="flex-1 flex flex-col justify-between">
                   <div>
-                    <div className="text-[10px] font-semibold uppercase tracking-[0.14em] text-[#8B3A2B]">
+                    <div className="text-[0.625rem] font-semibold uppercase tracking-[0.14em] text-[#8B3A2B]">
                       {item.label} · {item.group}
                     </div>
                     <h3 className="text-base font-serif font-semibold text-[#24221E] mt-0.5 group-hover:text-[#8B3A2B] transition-colors">
@@ -300,7 +300,7 @@ export const AssistedSearchView: React.FC = () => {
           {results.directReference && (
             <div className="bg-[#F4EFE4] border border-[#DDD3C1] border-l-4 border-l-[#8B3A2B] p-4 space-y-2">
               <div className="flex items-center justify-between">
-                <span className="text-[10px] font-bold uppercase tracking-[0.16em] text-[#8B3A2B]">
+                <span className="text-[0.625rem] font-bold uppercase tracking-[0.16em] text-[#8B3A2B]">
                   Direct Reference Match
                 </span>
                 <button
@@ -343,7 +343,7 @@ export const AssistedSearchView: React.FC = () => {
 
               <div className="flex-1 space-y-1.5">
                 <div className="flex flex-wrap items-center justify-between gap-2">
-                  <span className="text-[10px] font-bold uppercase tracking-[0.16em] text-[#8B3A2B]">
+                  <span className="text-[0.625rem] font-bold uppercase tracking-[0.16em] text-[#8B3A2B]">
                     You May Be Looking For · {results.guideAnswer.entry.referenceLabel}
                   </span>
                 </div>
@@ -432,11 +432,11 @@ export const AssistedSearchView: React.FC = () => {
             results.chapters.length > 0 && (
               <section className="space-y-3">
                 <div className="flex items-baseline justify-between">
-                  <h4 className="text-[11px] font-bold uppercase tracking-[0.16em] text-[#666158]">
+                  <h4 className="text-[0.6875rem] font-bold uppercase tracking-[0.16em] text-[#666158]">
                     Stories & Chapters
                   </h4>
                   {results.usedSemantic && (
-                    <span className="text-[10px] font-serif italic text-[#5A7D63] flex items-center gap-1">
+                    <span className="text-[0.625rem] font-serif italic text-[#5A7D63] flex items-center gap-1">
                       <Sparkles className="w-3 h-3" /> Meaning + Verse Ranking
                     </span>
                   )}
@@ -467,11 +467,11 @@ export const AssistedSearchView: React.FC = () => {
                       <div className="flex-1 flex flex-col justify-between">
                         <div>
                           <div className="flex items-center justify-between gap-2">
-                            <span className="text-[10px] font-semibold uppercase tracking-[0.14em] text-[#8B3A2B]">
+                            <span className="text-[0.625rem] font-semibold uppercase tracking-[0.14em] text-[#8B3A2B]">
                               {res.chapter.bookName} {res.chapter.chapterNumber} ·{' '}
                               {res.chapter.testament} · {res.chapter.groupLabel}
                             </span>
-                            <span className="text-[10px] px-2 py-0.5 rounded-full bg-[#F4EFE4] text-[#666158] border border-[#E2DACB] capitalize">
+                            <span className="text-[0.625rem] px-2 py-0.5 rounded-full bg-[#F4EFE4] text-[#666158] border border-[#E2DACB] capitalize">
                               {res.matchReason === 'semantic'
                                 ? 'Meaning match'
                                 : res.matchReason === 'hybrid'
@@ -489,7 +489,7 @@ export const AssistedSearchView: React.FC = () => {
                           </p>
 
                           {res.matchingSnippet && (
-                            <p className="text-[11px] font-serif italic text-[#4A463F] mt-1.5 pl-2 border-l-2 border-[#DDD3C1] line-clamp-1">
+                            <p className="text-[0.6875rem] font-serif italic text-[#4A463F] mt-1.5 pl-2 border-l-2 border-[#DDD3C1] line-clamp-1">
                               v.{res.matchingSnippet.verseNumber}:{' '}
                               {highlightMatchedTokens(
                                 res.matchingSnippet.text,
@@ -500,7 +500,7 @@ export const AssistedSearchView: React.FC = () => {
                         </div>
 
                         <div className="mt-2 flex justify-end">
-                          <span className="text-[11px] font-medium text-[#8B3A2B] inline-flex items-center gap-1">
+                          <span className="text-[0.6875rem] font-medium text-[#8B3A2B] inline-flex items-center gap-1">
                             <span>Read Chapter</span>
                             <ArrowRight className="w-3 h-3 transform group-hover:translate-x-0.5 transition-transform" />
                           </span>
@@ -516,7 +516,7 @@ export const AssistedSearchView: React.FC = () => {
           {(activeFilter === 'all' || activeFilter === 'verses') &&
             results.verses.length > 0 && (
               <section className="space-y-2.5">
-                <h4 className="text-[11px] font-bold uppercase tracking-[0.16em] text-[#666158]">
+                <h4 className="text-[0.6875rem] font-bold uppercase tracking-[0.16em] text-[#666158]">
                   Scripture Verses
                 </h4>
 
@@ -549,7 +549,7 @@ export const AssistedSearchView: React.FC = () => {
           {(activeFilter === 'all' || activeFilter === 'entities') &&
             results.entities.length > 0 && (
               <section className="space-y-2.5">
-                <h4 className="text-[11px] font-bold uppercase tracking-[0.16em] text-[#666158]">
+                <h4 className="text-[0.6875rem] font-bold uppercase tracking-[0.16em] text-[#666158]">
                   People, Places & Word Studies
                 </h4>
 
@@ -577,7 +577,7 @@ export const AssistedSearchView: React.FC = () => {
                           {entity.title}
                         </div>
                         {entity.originalLanguageTerm && (
-                          <div className="text-[10px] text-[#8C867B] truncate">
+                          <div className="text-[0.625rem] text-[#8C867B] truncate">
                             {entity.originalLanguageTerm}
                           </div>
                         )}

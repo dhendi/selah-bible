@@ -22,7 +22,7 @@ export const ContextualBottomSheet: React.FC = () => {
   if (!entity) return null;
 
   const fontClass = preferences.isDyslexicFont ? 'font-dyslexic' : 'font-sans';
-  const bodySize = Math.max(13, Math.min(preferences.fontSize - 3, 19));
+  const bodySize = Math.max(14, Math.min(preferences.fontSize - 2, 24));
 
   const handleSpeak = () => {
     if ('speechSynthesis' in window) {
@@ -395,18 +395,18 @@ export const ContextualBottomSheet: React.FC = () => {
                 onClick={handleTimelineClick}
                 className="text-left bg-[#F3EFE6] hover:bg-[#EBE5DA] p-3 rounded-2xl border border-[#E5DFD5] transition-all group flex flex-col justify-between cursor-pointer"
               >
-                <div className="text-[11px] font-medium text-[#76746E] flex items-center justify-between">
+                <div className="text-[0.6875rem] font-medium text-[#76746E] flex items-center justify-between">
                   <span>Timeline</span>
                   <ArrowRight className="w-3 h-3 text-[#7A9A82] opacity-0 group-hover:opacity-100 transition-opacity" />
                 </div>
                 <div className="text-xs font-semibold text-[#2C2C2A] mt-1 line-clamp-2">
                   {entity.timelineYear}
                 </div>
-                <span className="text-[10px] text-[#7A9A82] mt-1 font-medium">Explore Era →</span>
+                <span className="text-[0.625rem] text-[#7A9A82] mt-1 font-medium">Explore Era →</span>
               </button>
             ) : (
               <div className="bg-[#F3EFE6] p-3 rounded-2xl border border-[#E5DFD5]">
-                <div className="text-[11px] font-medium text-[#76746E]">Appears</div>
+                <div className="text-[0.6875rem] font-medium text-[#76746E]">Appears</div>
                 <div className="text-xs font-semibold text-[#2C2C2A] mt-1">
                   {entity.frequencyCount || 'Multiple passages'}
                 </div>
@@ -419,7 +419,7 @@ export const ContextualBottomSheet: React.FC = () => {
                 onClick={handleMapClick}
                 className="text-left bg-[#F3EFE6] hover:bg-[#EBE5DA] p-3 rounded-2xl border border-[#E5DFD5] transition-all group flex flex-col justify-between cursor-pointer"
               >
-                <div className="text-[11px] font-medium text-[#76746E] flex items-center justify-between">
+                <div className="text-[0.6875rem] font-medium text-[#76746E] flex items-center justify-between">
                   <span className="flex items-center gap-1">
                     <MapPin className="w-3 h-3 text-[#C88A6B]" />
                     See Map
@@ -429,21 +429,21 @@ export const ContextualBottomSheet: React.FC = () => {
                 <div className="text-xs font-semibold text-[#2C2C2A] mt-1 line-clamp-1">
                   {entity.mapCoordinates.regionName}
                 </div>
-                <span className="text-[10px] text-[#C88A6B] mt-1 font-medium">View in Maps →</span>
+                <span className="text-[0.625rem] text-[#C88A6B] mt-1 font-medium">View in Maps →</span>
               </button>
             ) : (
               <button
                 onClick={handleTimelineClick}
                 className="text-left bg-[#F3EFE6] hover:bg-[#EBE5DA] p-3 rounded-2xl border border-[#E5DFD5] transition-all group flex flex-col justify-between cursor-pointer"
               >
-                <div className="text-[11px] font-medium text-[#76746E] flex items-center justify-between">
+                <div className="text-[0.6875rem] font-medium text-[#76746E] flex items-center justify-between">
                   <span>Frequency</span>
                   <ArrowRight className="w-3 h-3 text-[#7A9A82] opacity-0 group-hover:opacity-100 transition-opacity" />
                 </div>
                 <div className="text-xs font-semibold text-[#2C2C2A] mt-1">
                   {entity.frequencyCount || 'Found throughout Scripture'}
                 </div>
-                <span className="text-[10px] text-[#7A9A82] mt-1 font-medium">See Timeline →</span>
+                <span className="text-[0.625rem] text-[#7A9A82] mt-1 font-medium">See Timeline →</span>
               </button>
             )}
           </div>
@@ -478,7 +478,7 @@ export const ContextualBottomSheet: React.FC = () => {
               {entity.relatedVerseRefs.slice(0, 3).map((ref) => (
                 <span
                   key={ref}
-                  className="px-2 py-0.5 rounded-md bg-[#EDE7DC] text-[#2C2C2A] text-[11px] font-medium"
+                  className="px-2 py-0.5 rounded-md bg-[#EDE7DC] text-[#2C2C2A] text-[0.6875rem] font-medium"
                 >
                   {ref}
                 </span>

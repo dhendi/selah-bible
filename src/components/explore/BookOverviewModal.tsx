@@ -34,7 +34,7 @@ export const BookOverviewModal: React.FC<{
           <div>
             <div className="flex items-center gap-2 mb-1">
               <span
-                className="text-[10px] font-semibold uppercase px-2 py-0.5 rounded-full"
+                className="text-[0.625rem] font-semibold uppercase px-2 py-0.5 rounded-full"
                 style={{ backgroundColor: genreColor.bg, color: genreColor.text }}
               >
                 {book.genreLabel}

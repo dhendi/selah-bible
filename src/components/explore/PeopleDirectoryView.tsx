@@ -28,7 +28,7 @@ export const PeopleDirectoryView: React.FC = () => {
     <div className={`space-y-4 ${fontClass}`}>
       {/* Intro Banner */}
       <div className="bg-[#F3EFE6] rounded-3xl p-4 border border-[#E5DFD5]">
-        <div className="text-[11px] font-bold uppercase tracking-wider text-[#7A9A82] flex items-center gap-1.5 mb-1">
+        <div className="text-[0.6875rem] font-bold uppercase tracking-wider text-[#7A9A82] flex items-center gap-1.5 mb-1">
           <Users className="w-3.5 h-3.5" />
           <span>People of the Bible</span>
         </div>
@@ -71,12 +71,12 @@ export const PeopleDirectoryView: React.FC = () => {
                 <h3 className="text-base font-serif font-bold text-[#2C2C2A]">
                   {character.name}
                 </h3>
-                <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-[#EBF2ED] text-[#5A7D63]">
+                <span className="text-[0.625rem] font-semibold px-2 py-0.5 rounded-full bg-[#EBF2ED] text-[#5A7D63]">
                   {character.roleBadge}
                 </span>
               </div>
 
-              <div className="flex items-center gap-1 text-[11px] text-[#C88A6B] font-medium mt-0.5">
+              <div className="flex items-center gap-1 text-[0.6875rem] text-[#C88A6B] font-medium mt-0.5">
                 <Clock className="w-3 h-3" />
                 <span>{character.era}</span>
               </div>

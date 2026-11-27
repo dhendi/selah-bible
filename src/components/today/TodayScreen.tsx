@@ -91,7 +91,7 @@ export const TodayScreen: React.FC = () => {
     <div className="min-h-full pb-28 px-6 sm:px-8 pt-8 max-w-[38rem] mx-auto bg-[#FBF8F1] text-[#24221E]">
       {/* Book Flyleaf / Title Page Masthead */}
       <header className="text-center pb-6 border-b border-[#E2DACB] mb-7">
-        <div className="text-[10px] uppercase tracking-[0.24em] text-[#8B3A2B] font-semibold">
+        <div className="text-[0.625rem] uppercase tracking-[0.24em] text-[#8B3A2B] font-semibold">
           The Holy Scriptures · World English Bible
         </div>
         <h1 className="text-3xl font-serif font-semibold text-[#24221E] mt-2 tracking-tight">
@@ -112,7 +112,7 @@ export const TodayScreen: React.FC = () => {
             aria-hidden="true"
           />
 
-          <div className="text-[10px] uppercase tracking-[0.18em] text-[#8B3A2B] font-semibold pr-8">
+          <div className="text-[0.625rem] uppercase tracking-[0.18em] text-[#8B3A2B] font-semibold pr-8">
             Ribbon Bookmark · {bookMeta.title} {chapterNum}
           </div>
 
@@ -121,7 +121,7 @@ export const TodayScreen: React.FC = () => {
           </h2>
 
           {groupMeta && (
-            <div className="text-[11px] text-[#666158] mt-0.5">
+            <div className="text-[0.6875rem] text-[#666158] mt-0.5">
               {bookMeta.testament === 'OT' ? 'Old Testament' : 'New Testament'} ·{' '}
               {groupMeta.fullLabel}
             </div>
@@ -160,7 +160,7 @@ export const TodayScreen: React.FC = () => {
           className="text-left p-4 bg-[#F4EFE4]/60 hover:bg-[#F4EFE4] border border-[#E2DACB] transition-colors group cursor-pointer flex flex-col justify-between"
         >
           <div>
-            <div className="flex items-center justify-between text-[10px] uppercase tracking-[0.16em] text-[#8C867B]">
+            <div className="flex items-center justify-between text-[0.625rem] uppercase tracking-[0.16em] text-[#8C867B]">
               <span>Hebrew Word Study</span>
               <span className="font-hebrew text-base text-[#8B3A2B] font-semibold">מָן</span>
             </div>
@@ -171,7 +171,7 @@ export const TodayScreen: React.FC = () => {
               {wordOfTheDay.originalLanguageTerm}
             </p>
           </div>
-          <div className="mt-3 text-[11px] font-medium text-[#8B3A2B] inline-flex items-center gap-1">
+          <div className="mt-3 text-[0.6875rem] font-medium text-[#8B3A2B] inline-flex items-center gap-1">
             <span>Read lexicon note</span>
             <ArrowRight className="w-3 h-3 transform group-hover:translate-x-0.5 transition-transform" />
           </div>
@@ -183,7 +183,7 @@ export const TodayScreen: React.FC = () => {
           className="text-left p-4 bg-[#F4EFE4]/60 hover:bg-[#F4EFE4] border border-[#E2DACB] transition-colors group cursor-pointer flex flex-col justify-between"
         >
           <div>
-            <div className="flex items-center justify-between text-[10px] uppercase tracking-[0.16em] text-[#8C867B]">
+            <div className="flex items-center justify-between text-[0.625rem] uppercase tracking-[0.16em] text-[#8C867B]">
               <span>Active Recall</span>
               <span>3 Questions</span>
             </div>
@@ -194,7 +194,7 @@ export const TodayScreen: React.FC = () => {
               Review key words, geography, and meaning from your reading.
             </p>
           </div>
-          <div className="mt-3 text-[11px] font-medium text-[#8B3A2B] inline-flex items-center gap-1">
+          <div className="mt-3 text-[0.6875rem] font-medium text-[#8B3A2B] inline-flex items-center gap-1">
             <span>Begin short review</span>
             <ArrowRight className="w-3 h-3 transform group-hover:translate-x-0.5 transition-transform" />
           </div>
@@ -227,7 +227,7 @@ export const TodayScreen: React.FC = () => {
                 }`}
               >
                 <div className="flex items-baseline gap-2.5 min-w-0">
-                  <span className="text-[10px] font-semibold uppercase tracking-wider text-[#8C867B] w-6 flex-shrink-0">
+                  <span className="text-[0.625rem] font-semibold uppercase tracking-wider text-[#8C867B] w-6 flex-shrink-0">
                     {item.testament}
                   </span>
                   <span className="font-serif font-semibold text-sm text-[#24221E] truncate">

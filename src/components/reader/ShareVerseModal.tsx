@@ -218,7 +218,7 @@ export const ShareVerseModal: React.FC = () => {
             {isStudyCard ? (
               <div>
                 {activeShareVerse.cardCategory && (
-                  <p className="text-[10px] font-bold uppercase tracking-wider text-[#B07456] mb-1">
+                  <p className="text-[0.625rem] font-bold uppercase tracking-wider text-[#B07456] mb-1">
                     {activeShareVerse.cardCategory}
                   </p>
                 )}
@@ -255,7 +255,7 @@ export const ShareVerseModal: React.FC = () => {
               <span className="text-xs font-bold text-[#7A9A82]">
                 {activeShareVerse.verseRef}
               </span>
-              <span className="text-[10px] font-serif text-[#96938B]">
+              <span className="text-[0.625rem] font-serif text-[#96938B]">
                 Selah • Connected Bible
               </span>
             </div>

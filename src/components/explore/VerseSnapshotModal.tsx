@@ -90,7 +90,7 @@ export const VerseSnapshotModal: React.FC<{
           </div>
 
           <div className="absolute bottom-3 left-4">
-            <span className="text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-[#FAF7F2]/95 text-[#5A7D63] shadow-xs flex items-center gap-1">
+            <span className="text-[0.625rem] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-[#FAF7F2]/95 text-[#5A7D63] shadow-xs flex items-center gap-1">
               <Sparkles className="w-3 h-3" />
               {story.anchorVerseRef}
             </span>
@@ -117,7 +117,7 @@ export const VerseSnapshotModal: React.FC<{
             >
               "{story.anchorVerseText}"
             </blockquote>
-            <div className="text-right text-[11px] font-semibold text-[#7A9A82] mt-2">
+            <div className="text-right text-[0.6875rem] font-semibold text-[#7A9A82] mt-2">
               — {story.anchorVerseRef} (BSB)
             </div>
           </div>

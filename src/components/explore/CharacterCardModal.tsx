@@ -31,14 +31,14 @@ export const CharacterCardModal: React.FC = () => {
   if (!character) return null;
 
   const fontClass = preferences.isDyslexicFont ? 'font-dyslexic' : 'font-sans';
-  const bodySize = Math.max(13, Math.min(preferences.fontSize - 3, 19));
+  const bodySize = Math.max(14, Math.min(preferences.fontSize - 2, 24));
 
   const renderFamilyGroup = (label: string, items?: string[]) => {
     if (!items || items.length === 0) return null;
 
     return (
       <div className="flex flex-col sm:flex-row sm:items-center gap-1.5 py-1.5 border-b border-[#EFEAE1] last:border-b-0">
-        <span className="text-[11px] font-bold uppercase tracking-wider text-[#76746E] w-20 flex-shrink-0">
+        <span className="text-[0.6875rem] font-bold uppercase tracking-wider text-[#76746E] w-20 flex-shrink-0">
           {label}:
         </span>
         <div className="flex flex-wrap gap-1.5">
@@ -110,7 +110,7 @@ export const CharacterCardModal: React.FC = () => {
                 <span>Back</span>
               </button>
             )}
-            <span className="text-[11px] font-bold uppercase tracking-wider text-[#7A9A82] flex items-center gap-1">
+            <span className="text-[0.6875rem] font-bold uppercase tracking-wider text-[#7A9A82] flex items-center gap-1">
               <Users className="w-3.5 h-3.5" />
               Character Data Card
             </span>
@@ -134,10 +134,10 @@ export const CharacterCardModal: React.FC = () => {
 
           <div className="flex-1 min-w-0">
             <div className="flex items-center gap-2 flex-wrap mb-1">
-              <span className="text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-[#EBF2ED] text-[#385541]">
+              <span className="text-[0.625rem] font-bold uppercase px-2 py-0.5 rounded-full bg-[#EBF2ED] text-[#385541]">
                 {character.roleBadge}
               </span>
-              <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-[#FAECE5] text-[#B07456]">
+              <span className="text-[0.625rem] font-semibold px-2 py-0.5 rounded-full bg-[#FAECE5] text-[#B07456]">
                 {character.era}
               </span>
             </div>
@@ -171,7 +171,7 @@ export const CharacterCardModal: React.FC = () => {
                 <GitFork className="w-3.5 h-3.5" />
                 Interactive Family Tree
               </h3>
-              <span className="text-[10px] text-[#96938B]">Tap green pills to explore</span>
+              <span className="text-[0.625rem] text-[#96938B]">Tap green pills to explore</span>
             </div>
             <div>
               {renderFamilyGroup('Parents', character.familyTree.parents)}
@@ -200,11 +200,11 @@ export const CharacterCardModal: React.FC = () => {
                       <span className="text-xs font-bold font-serif text-[#2C2C2A] group-hover:text-[#C88A6B]">
                         {loc.placeName}
                       </span>
-                      <span className="text-[9px] font-mono text-[#96938B]">
+                      <span className="text-[0.5625rem] font-mono text-[#96938B]">
                         {loc.coordinates.lat.toFixed(1)}°N
                       </span>
                     </div>
-                    <p className="text-[11px] text-[#6B6862] leading-snug line-clamp-2">
+                    <p className="text-[0.6875rem] text-[#6B6862] leading-snug line-clamp-2">
                       {loc.roleInLife}
                     </p>
                   </button>
@@ -253,7 +253,7 @@ export const CharacterCardModal: React.FC = () => {
                     <BookOpen className="w-4 h-4 flex-shrink-0" />
                     <div>
                       <div className="text-xs font-bold">{ch.reference}</div>
-                      <div className="text-[11px] text-white/85">{ch.label}</div>
+                      <div className="text-[0.6875rem] text-white/85">{ch.label}</div>
                     </div>
                   </div>
                   <span className="text-xs font-semibold flex items-center gap-1">

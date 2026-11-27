@@ -89,7 +89,7 @@ export const MapView: React.FC = () => {
           <Compass className="w-4 h-4 text-[#C88A6B]" />
           Ancient Near East & Sinai Route
         </span>
-        <span className="text-[11px] text-[#7A9A82] font-semibold">Tap any pin to inspect</span>
+        <span className="text-[0.6875rem] text-[#7A9A82] font-semibold">Tap any pin to inspect</span>
       </div>
 
       {/* Stylized Parchment Map Canvas */}
@@ -269,7 +269,7 @@ export const MapView: React.FC = () => {
         </svg>
 
         {/* Legend Overlay at bottom-right */}
-        <div className="absolute bottom-2.5 right-2.5 bg-[#FAF7F2]/90 backdrop-blur-xs p-2 rounded-xl border border-[#E5DFD5] text-[10px] text-[#6B6862] space-y-1">
+        <div className="absolute bottom-2.5 right-2.5 bg-[#FAF7F2]/90 backdrop-blur-xs p-2 rounded-xl border border-[#E5DFD5] text-[0.625rem] text-[#6B6862] space-y-1">
           <div className="flex items-center gap-1.5">
             <span className="w-2 h-2 rounded-full bg-[#7A9A82]" />
             <span>Biblical Landmark</span>
@@ -289,7 +289,7 @@ export const MapView: React.FC = () => {
       <div className="bg-[#FAF7F2] rounded-3xl p-5 border border-[#E5DFD5] shadow-xs animate-fade-in">
         <div className="flex items-start justify-between gap-3 pb-3 border-b border-[#E8E2D7] mb-3">
           <div>
-            <div className="flex items-center gap-1 text-[11px] font-mono text-[#C88A6B] font-semibold">
+            <div className="flex items-center gap-1 text-[0.6875rem] font-mono text-[#C88A6B] font-semibold">
               <MapPin className="w-3.5 h-3.5" />
               <span>{activeLocation.era}</span>
             </div>

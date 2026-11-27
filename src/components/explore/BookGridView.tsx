@@ -46,7 +46,7 @@ export const BookGridView: React.FC = () => {
   return (
     <div className="space-y-4">
       {/* Testament Segmented Control */}
-      <div className="bg-[#F3EFE6] p-1 rounded-2xl border border-[#E5DFD5] grid grid-cols-3 gap-1">
+      <div className="bg-[#F3EFE6] p-1 rounded-2xl border border-[#E5DFD5] flex flex-wrap sm:grid sm:grid-cols-3 gap-1">
         {(
           [
             { id: 'ALL', label: 'All Books (66)' },
@@ -126,7 +126,7 @@ export const BookGridView: React.FC = () => {
                 <h3 className="text-sm font-serif font-bold text-[#2C2C2A]">
                   {testament === 'OT' ? 'Old Testament' : 'New Testament'}
                 </h3>
-                <span className="text-[11px] text-[#76746E]">
+                <span className="text-[0.6875rem] text-[#76746E]">
                   {testament === 'OT' ? '39 Books' : '27 Books'}
                 </span>
               </div>
@@ -144,7 +144,7 @@ export const BookGridView: React.FC = () => {
                       />
                       {group.fullLabel}
                     </span>
-                    <span className="text-[11px] text-[#76746E]">
+                    <span className="text-[0.6875rem] text-[#76746E]">
                       {group.bookIds.length} {group.bookIds.length === 1 ? 'book' : 'books'}
                     </span>
                   </div>
@@ -169,13 +169,13 @@ export const BookGridView: React.FC = () => {
                           <div>
                             <div className="flex items-center justify-between">
                               <span
-                                className="text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded"
+                                className="text-[0.625rem] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded"
                                 style={{ backgroundColor: color.badge, color: '#FFFFFF' }}
                               >
                                 {book.id}
                               </span>
                               {isFeaturedSeed && (
-                                <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-[#7A9A82] text-white">
+                                <span className="text-[0.5625rem] font-bold px-1.5 py-0.5 rounded-full bg-[#7A9A82] text-white">
                                   Seed V1
                                 </span>
                               )}
@@ -185,7 +185,7 @@ export const BookGridView: React.FC = () => {
                             </h4>
                           </div>
 
-                          <div className="text-[11px] text-[#55534E] flex items-center justify-between mt-2 pt-1 border-t border-black/5">
+                          <div className="text-[0.6875rem] text-[#55534E] flex items-center justify-between mt-2 pt-1 border-t border-black/5">
                             <span>{group.label}</span>
                             <span>{book.chapterCount} ch</span>
                           </div>

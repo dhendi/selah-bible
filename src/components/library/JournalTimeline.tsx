@@ -146,7 +146,7 @@ export const JournalTimeline: React.FC = () => {
             >
               {/* Top Meta Row */}
               <div className="flex items-center justify-between gap-2">
-                <span className="text-[11px] font-mono text-[#76746E]">
+                <span className="text-[0.6875rem] font-mono text-[#76746E]">
                   {new Date(entry.createdAt).toLocaleDateString(undefined, {
                     month: 'short',
                     day: 'numeric',
@@ -158,7 +158,7 @@ export const JournalTimeline: React.FC = () => {
                   {entry.linkedToPrayerList && (
                     <button
                       onClick={() => togglePrayerAnswered(entry.id)}
-                      className={`text-[10px] font-semibold px-2.5 py-0.5 rounded-full border flex items-center gap-1 transition-all cursor-pointer ${
+                      className={`text-[0.625rem] font-semibold px-2.5 py-0.5 rounded-full border flex items-center gap-1 transition-all cursor-pointer ${
                         entry.prayerAnswered
                           ? 'bg-[#EBF2ED] border-[#7A9A82] text-[#385541]'
                           : 'bg-[#FAECE5] border-[#ECCDC0] text-[#B07456]'
@@ -207,7 +207,7 @@ export const JournalTimeline: React.FC = () => {
                     </span>
                     <ArrowRight className="w-3 h-3 text-[#7A9A82] opacity-0 group-hover:opacity-100 transition-opacity" />
                   </div>
-                  <p className="text-[11px] text-[#6B6862] mt-0.5 line-clamp-2 leading-snug">
+                  <p className="text-[0.6875rem] text-[#6B6862] mt-0.5 line-clamp-2 leading-snug">
                     {entry.passageSnapshotText}
                   </p>
                 </div>
@@ -230,7 +230,7 @@ export const JournalTimeline: React.FC = () => {
                   {entry.reactionTags.map((tag) => (
                     <span
                       key={tag}
-                      className="text-[10px] font-medium px-2.5 py-0.5 rounded-full bg-[#EDE7DC] text-[#55534E]"
+                      className="text-[0.625rem] font-medium px-2.5 py-0.5 rounded-full bg-[#EDE7DC] text-[#55534E]"
                     >
                       {tag}
                     </span>

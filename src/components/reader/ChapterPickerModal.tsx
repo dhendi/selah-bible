@@ -23,6 +23,7 @@ export const ChapterPickerModal: React.FC = () => {
     setShowVisualHookHeader,
     activeTab,
     setActiveTab,
+    setShowTypographyDrawer,
   } = useStudyStore();
 
   const currentBookId = useMemo(
@@ -124,29 +125,40 @@ export const ChapterPickerModal: React.FC = () => {
         onClick={() => setShowChapterPicker(false)}
       />
 
-      <div className="relative w-full max-w-md bg-[#FAF7F2] rounded-3xl shadow-2xl border border-[#E5DFD5] p-5 z-10 animate-slide-up max-h-[88vh] flex flex-col">
+      <div className="relative w-full max-w-lg bg-[#FAF7F2] rounded-3xl shadow-2xl border border-[#E5DFD5] p-5 z-10 animate-slide-up max-h-[88vh] flex flex-col">
         {/* Header */}
-        <div className="flex items-center justify-between pb-3 border-b border-[#E8E2D7] mb-3">
+        <div className="flex items-center justify-between gap-2 pb-3 border-b border-[#E8E2D7] mb-3">
           <div>
             <h3 className="text-lg font-serif font-bold text-[#2C2C2A]">Select Book & Chapter</h3>
             <p className="text-xs text-[#76746E]">
               Old Testament (39) · New Testament (27)
             </p>
           </div>
-          <button
-            onClick={() => setShowChapterPicker(false)}
-            className="p-1.5 rounded-full hover:bg-[#F3EFE6] text-[#76746E] cursor-pointer"
-            aria-label="Close picker"
-          >
-            <X className="w-5 h-5" />
-          </button>
+          <div className="flex items-center gap-1.5 flex-shrink-0">
+            <button
+              onClick={() => setShowTypographyDrawer(true)}
+              className="px-2.5 py-1.5 rounded-full bg-[#F3EFE6] hover:bg-[#EBE5DA] border border-[#E5DFD5] text-xs font-semibold text-[#484642] flex items-center gap-1 cursor-pointer"
+              title="Make UI buttons and text bigger"
+              aria-label="Open display size settings"
+            >
+              <span className="font-serif font-bold text-[#8B3A2B]">Aa</span>
+              <span>Size</span>
+            </button>
+            <button
+              onClick={() => setShowChapterPicker(false)}
+              className="p-1.5 rounded-full hover:bg-[#F3EFE6] text-[#76746E] cursor-pointer"
+              aria-label="Close picker"
+            >
+              <X className="w-5 h-5" />
+            </button>
+          </div>
         </div>
 
         {/* Level 1: Testament Toggle */}
-        <div className="bg-[#F3EFE6] p-1 rounded-2xl border border-[#E5DFD5] grid grid-cols-3 gap-1 mb-2.5">
+        <div className="bg-[#F3EFE6] p-1 rounded-2xl border border-[#E5DFD5] flex flex-wrap sm:grid sm:grid-cols-3 gap-1 mb-2.5">
           <button
             onClick={() => handleTestamentSwitch('OT')}
-            className={`py-2 px-2 rounded-xl text-[11px] font-semibold transition-all cursor-pointer ${
+            className={`py-2 px-2 rounded-xl text-[0.6875rem] font-semibold transition-all cursor-pointer ${
               selectedTestament === 'OT'
                 ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
                 : 'text-[#76746E] hover:text-[#2C2C2A]'
@@ -156,7 +168,7 @@ export const ChapterPickerModal: React.FC = () => {
           </button>
           <button
             onClick={() => handleTestamentSwitch('NT')}
-            className={`py-2 px-2 rounded-xl text-[11px] font-semibold transition-all cursor-pointer ${
+            className={`py-2 px-2 rounded-xl text-[0.6875rem] font-semibold transition-all cursor-pointer ${
               selectedTestament === 'NT'
                 ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
                 : 'text-[#76746E] hover:text-[#2C2C2A]'
@@ -166,7 +178,7 @@ export const ChapterPickerModal: React.FC = () => {
           </button>
           <button
             onClick={() => handleTestamentSwitch('FEATURED')}
-            className={`py-2 px-2 rounded-xl text-[11px] font-semibold flex items-center justify-center gap-1 transition-all cursor-pointer ${
+            className={`py-2 px-2 rounded-xl text-[0.6875rem] font-semibold flex items-center justify-center gap-1 transition-all cursor-pointer ${
               selectedTestament === 'FEATURED'
                 ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
                 : 'text-[#76746E] hover:text-[#2C2C2A]'
@@ -185,7 +197,7 @@ export const ChapterPickerModal: React.FC = () => {
               <div className="flex flex-wrap gap-1.5 pb-1">
                 <button
                   onClick={() => handleGroupSwitch('ALL')}
-                  className={`px-2.5 py-1 rounded-full text-[11px] font-medium transition-all cursor-pointer border ${
+                  className={`px-2.5 py-1 rounded-full text-[0.6875rem] font-medium transition-all cursor-pointer border ${
                     selectedGroupId === 'ALL'
                       ? 'bg-[#2C2C2A] text-[#FAF7F2] border-[#2C2C2A]'
                       : 'bg-[#F3EFE6] text-[#6B6862] border-[#E5DFD5] hover:bg-[#EBE5DA]'
@@ -199,7 +211,7 @@ export const ChapterPickerModal: React.FC = () => {
                     <button
                       key={group.id}
                       onClick={() => handleGroupSwitch(group.id)}
-                      className={`px-2.5 py-1 rounded-full text-[11px] font-medium flex items-center gap-1.5 transition-all cursor-pointer border ${
+                      className={`px-2.5 py-1 rounded-full text-[0.6875rem] font-medium flex items-center gap-1.5 transition-all cursor-pointer border ${
                         isActive
                           ? 'text-[#2C2C2A] shadow-xs font-semibold'
                           : 'bg-[#F3EFE6] text-[#6B6862] border-[#E5DFD5] hover:bg-[#EBE5DA]'
@@ -236,7 +248,7 @@ export const ChapterPickerModal: React.FC = () => {
                   <div key={group.id}>
                     <div className="flex items-center justify-between px-0.5 mb-1.5">
                       <span
-                        className="text-[10px] font-bold uppercase tracking-wider flex items-center gap-1.5"
+                        className="text-[0.625rem] font-bold uppercase tracking-wider flex items-center gap-1.5"
                         style={{ color: group.badgeText }}
                       >
                         <span
@@ -245,7 +257,7 @@ export const ChapterPickerModal: React.FC = () => {
                         />
                         {group.fullLabel}
                       </span>
-                      <span className="text-[10px] text-[#8E8B84]">
+                      <span className="text-[0.625rem] text-[#8E8B84]">
                         {group.bookIds.length} {group.bookIds.length === 1 ? 'book' : 'books'}
                       </span>
                     </div>
@@ -258,7 +270,7 @@ export const ChapterPickerModal: React.FC = () => {
                           <button
                             key={bookId}
                             onClick={() => setSelectedBookId(bookId)}
-                            className={`px-2.5 py-1.5 rounded-xl text-[11px] font-semibold transition-all cursor-pointer border ${
+                            className={`px-2.5 py-1.5 rounded-xl text-[0.6875rem] font-semibold transition-all cursor-pointer border ${
                               isSelected
                                 ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
                                 : 'bg-transparent text-[#6B6862] border-transparent hover:bg-[#FAF7F2]/60 hover:text-[#2C2C2A]'
@@ -266,7 +278,7 @@ export const ChapterPickerModal: React.FC = () => {
                             style={isSelected ? { borderColor: group.accent } : undefined}
                           >
                             {book.shortLabel}{' '}
-                            <span className="text-[10px] opacity-65 font-normal">
+                            <span className="text-[0.625rem] opacity-65 font-normal">
                               ({book.chapters})
                             </span>
                           </button>
@@ -325,7 +337,7 @@ export const ChapterPickerModal: React.FC = () => {
 
                 {selectedBook.shortcuts && selectedBook.shortcuts.length > 0 && (
                   <div className="pt-2 border-t border-[#E8E2D7] space-y-1.5">
-                    <div className="text-[11px] font-bold uppercase tracking-wider text-[#76746E] px-1">
+                    <div className="text-[0.6875rem] font-bold uppercase tracking-wider text-[#76746E] px-1">
                       {selectedBook.shortcutsHeading || `Key ${selectedBook.title} Moments`}
                     </div>
                     {selectedBook.shortcuts.map((shortcut) => {
@@ -364,7 +376,7 @@ export const ChapterPickerModal: React.FC = () => {
                 ] as const
               ).map((section) => (
                 <div key={section.testament} className="space-y-2">
-                  <div className="text-[11px] font-bold uppercase tracking-wider text-[#76746E] px-1">
+                  <div className="text-[0.6875rem] font-bold uppercase tracking-wider text-[#76746E] px-1">
                     {section.label}
                   </div>
                   <div className="space-y-2">
@@ -391,7 +403,7 @@ export const ChapterPickerModal: React.FC = () => {
                                 />{' '}
                                 {item.title}
                               </span>
-                              <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-[#FAF7F2] text-[#6B6862] border border-[#E5DFD5]">
+                              <span className="text-[0.625rem] font-medium px-2 py-0.5 rounded-full bg-[#FAF7F2] text-[#6B6862] border border-[#E5DFD5]">
                                 {item.groupLabel}
                               </span>
                             </div>
