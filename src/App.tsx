@@ -7,7 +7,7 @@ import {
 } from 'lucide-react';
 import { globalStore, useStudyStore } from './store/useStudyStore';
 import { TodayScreen } from './components/today/TodayScreen';
-import { OnboardingFlow } from './components/onboarding/OnboardingFlow';
+import { BibleCoverLaunch } from './components/launch/BibleCoverLaunch';
 
 const ContextualBottomSheet = lazy(() =>
   import('./components/reader/ContextualBottomSheet').then((m) => ({
@@ -210,7 +210,7 @@ export const App: React.FC = () => {
       </div>
 
       {/* Global Overlays */}
-      <OnboardingFlow />
+      <BibleCoverLaunch />
       <Suspense fallback={null}>
         {showChapterPicker && <ChapterPickerModal />}
         <ContextualBottomSheet />

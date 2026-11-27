@@ -38,7 +38,7 @@ function applyAccessibilityDOM(prefs: ReaderPreferences) {
 }
 
 const DEFAULT_PROGRESS: UserStudyProgress = {
-  hasCompletedOnboarding: false,
+  hasCompletedOnboarding: true,
   experienceLevel: 'beginner',
   streakDays: 0,
   lastActiveDate: '',

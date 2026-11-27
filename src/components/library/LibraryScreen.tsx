@@ -5,7 +5,6 @@ import {
   Award,
   Flame,
   BookOpen,
-  RotateCcw,
   CheckCircle,
   PenLine,
 } from 'lucide-react';
@@ -21,7 +20,6 @@ export const LibraryScreen: React.FC = () => {
     notes,
     flashcards,
     journalEntries,
-    resetOnboarding,
     clearAllStudyData,
     navigateToPassage,
   } = useStudyStore();
@@ -190,16 +188,8 @@ export const LibraryScreen: React.FC = () => {
         )}
       </main>
 
-      {/* Onboarding Re-Launch & Clean Slate Reset Section */}
+      {/* Clean Slate Reset Section */}
       <footer className="pt-4 border-t border-[#E8E2D7] text-center space-y-3">
-        <button
-          onClick={resetOnboarding}
-          className="text-xs text-[#96938B] hover:text-[#2C2C2A] flex items-center gap-1.5 mx-auto transition-colors cursor-pointer"
-        >
-          <RotateCcw className="w-3.5 h-3.5" />
-          <span>Re-launch 60-Second Onboarding Tour</span>
-        </button>
-
         {confirmClear ? (
           <div className="inline-flex items-center gap-2 bg-[#FAECE5] border border-[#ECCDC0] px-3 py-1.5 rounded-xl text-xs">
             <span className="text-[#8B3A2B] font-medium">Clear all notes, cards & journal?</span>
