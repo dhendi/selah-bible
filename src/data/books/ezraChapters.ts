@@ -29,6 +29,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Cyrus",
             "entityId": "char-cyrus"
+          },
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
           }
         ]
       },
@@ -53,6 +57,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
           }
         ]
       },
@@ -77,6 +89,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "house of Yahweh",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -113,6 +133,22 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -148,6 +184,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Nebuchadnezzar",
+            "entityId": "char-nebuchadnezzar"
           }
         ]
       },
@@ -164,6 +204,18 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Cyrus",
             "entityId": "char-cyrus"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
+          },
+          {
+            "spanText": "Sheshbazzar",
+            "entityId": "char-sheshbazzar"
           }
         ]
       },
@@ -206,6 +258,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Sheshbazzar",
+            "entityId": "char-sheshbazzar"
           }
         ]
       }
@@ -239,6 +295,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Nebuchadnezzar",
+            "entityId": "char-nebuchadnezzar"
           }
         ]
       },
@@ -263,6 +327,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Nehemiah",
             "entityId": "char-nehemiah"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -647,6 +715,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeshua",
             "entityId": "char-jeshua"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -696,6 +768,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeshua",
             "entityId": "char-jeshua"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -708,7 +784,16 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The singers: the children of Asaph, one hundred twenty-eight.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asaph",
+            "entityId": "char-asaph"
+          },
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
+          }
+        ]
       },
       {
         "id": "EZR-2:42",
@@ -719,7 +804,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of the gatekeepers: the children of Shallum, the children of Ater, the children of Talmon, the children of Akkub, the children of Hatita, the children of Shobai, in all one hundred thirty-nine.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "gatekeepers",
+            "entityId": "term-temple-guilds"
+          }
+        ]
       },
       {
         "id": "EZR-2:43",
@@ -925,7 +1015,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "These were those who went up from Tel Melah, Tel Harsha, Cherub, Addan, and Immer; but they could not show their fathers’ houses, and their offspring, whether they were of Israel:",
         "translation": "WEB",
         "illustrationId": "ill-ezr-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZR-2:60",
@@ -947,7 +1042,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the children of the priests: the children of Habaiah, the children of Hakkoz, and the children of Barzillai, who took a wife of the daughters of Barzillai the Gileadite, and was called after their name.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "EZR-2:62",
@@ -969,7 +1069,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "The governor told them that they should not eat of the most holy things until a priest stood up to serve with Urim and with Thummim.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "EZR-2:64",
@@ -1044,7 +1149,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "They gave according to their ability into the treasury of the work sixty-one thousand darics of gold, and five thousand minas of silver, and one hundred priests’ garments.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "EZR-2:70",
@@ -1059,6 +1169,22 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       }
@@ -1088,6 +1214,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1116,6 +1246,22 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "law of Moses",
             "entityId": "term-torah-scroll"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1132,6 +1278,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -1144,7 +1298,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "They kept the feast of booths, as it is written, and offered the daily burnt offerings by number, according to the ordinance, as the duty of every day required;",
         "translation": "WEB",
         "illustrationId": "ill-ezr-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "EZR-3:5",
@@ -1159,6 +1318,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -1179,6 +1342,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -1195,6 +1362,18 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Cyrus",
             "entityId": "char-cyrus"
+          },
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
+          },
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
+          },
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
           }
         ]
       },
@@ -1223,6 +1402,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1239,6 +1426,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeshua",
             "entityId": "char-jeshua"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -1263,6 +1458,26 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Asaph",
+            "entityId": "char-asaph"
+          },
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -1279,6 +1494,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1291,7 +1510,16 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "But many of the priests and Levites and heads of fathers’ households, the old men who had seen the first house, when the foundation of this house was laid before their eyes, wept with a loud voice. Many also shouted aloud for joy,",
         "translation": "WEB",
         "illustrationId": "ill-ezr-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "EZR-3:13",
@@ -1334,6 +1562,18 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -1350,6 +1590,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zerubbabel",
             "entityId": "char-zerubbabel"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       },
@@ -1378,6 +1622,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeshua",
             "entityId": "char-jeshua"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
           }
         ]
       },
@@ -1390,7 +1642,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the people of the land weakened the hands of the people of Judah, and troubled them in building.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "EZR-4:5",
@@ -1408,7 +1665,11 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           },
           {
             "spanText": "Darius",
-            "entityId": "char-darius"
+            "entityId": "char-darius-persia"
+          },
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
           }
         ]
       },
@@ -1425,6 +1686,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -1441,6 +1706,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Artaxerxes",
             "entityId": "char-artaxerxes"
+          },
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
           }
         ]
       },
@@ -1461,6 +1730,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Rehum",
+            "entityId": "char-rehum"
           }
         ]
       },
@@ -1473,7 +1746,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "then Rehum the chancellor, Shimshai the scribe, and the rest of their companions, the Dinaites, and the Apharsathchites, the Tarpelites, the Apharsites, the Archevites, the Babylonians, the Shushanchites, the Dehaites, the Elamites,",
         "translation": "WEB",
         "illustrationId": "ill-ezr-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Rehum",
+            "entityId": "char-rehum"
+          }
+        ]
       },
       {
         "id": "EZR-4:10",
@@ -1484,7 +1762,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "and the rest of the nations whom the great and noble Osnappar brought over, and set in the city of Samaria, and in the rest of the country beyond the River, and so forth, wrote.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Samaria",
+            "entityId": "place-samaria"
+          }
+        ]
       },
       {
         "id": "EZR-4:11",
@@ -1515,6 +1798,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1571,7 +1858,16 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the king sent an answer to Rehum the chancellor, and to Shimshai the scribe, and to the rest of their companions who live in Samaria, and in the rest of the country beyond the River: Peace.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Samaria",
+            "entityId": "place-samaria"
+          },
+          {
+            "spanText": "Rehum",
+            "entityId": "char-rehum"
+          }
+        ]
       },
       {
         "id": "EZR-4:18",
@@ -1650,6 +1946,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Rehum",
+            "entityId": "char-rehum"
           }
         ]
       },
@@ -1664,12 +1968,16 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-ezr-4",
         "linkedEntities": [
           {
-            "spanText": "Darius",
-            "entityId": "char-darius"
-          },
-          {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Darius",
+            "entityId": "char-darius-persia"
+          },
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
           }
         ]
       }
@@ -1699,6 +2007,22 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Haggai",
+            "entityId": "char-haggai"
+          },
+          {
+            "spanText": "Zechariah",
+            "entityId": "char-zechariah"
           }
         ]
       },
@@ -1735,7 +2059,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "At the same time Tattenai, the governor beyond the River came to them, with Shetharbozenai, and their companions, and asked them, “Who gave you a decree to build this house, and to finish this wall?”",
         "translation": "WEB",
         "illustrationId": "ill-ezr-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tattenai",
+            "entityId": "char-tattenai"
+          }
+        ]
       },
       {
         "id": "EZR-5:4",
@@ -1760,7 +2089,11 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "linkedEntities": [
           {
             "spanText": "Darius",
-            "entityId": "char-darius"
+            "entityId": "char-darius-persia"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1776,7 +2109,11 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "linkedEntities": [
           {
             "spanText": "Darius",
-            "entityId": "char-darius"
+            "entityId": "char-darius-persia"
+          },
+          {
+            "spanText": "Tattenai",
+            "entityId": "char-tattenai"
           }
         ]
       },
@@ -1792,7 +2129,7 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "linkedEntities": [
           {
             "spanText": "Darius",
-            "entityId": "char-darius"
+            "entityId": "char-darius-persia"
           }
         ]
       },
@@ -1805,7 +2142,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Be it known to the king that we went into the province of Judah, to the house of the great God, which is built with great stones, and timber is laid in the walls. This work goes on with diligence and prospers in their hands.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "EZR-5:9",
@@ -1838,7 +2180,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Thus they returned us answer, saying, “We are the servants of the God of heaven and earth, and are building the house that was built these many years ago, which a great king of Israel built and finished.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZR-5:12",
@@ -1853,6 +2200,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Nebuchadnezzar",
+            "entityId": "char-nebuchadnezzar"
           }
         ]
       },
@@ -1905,6 +2256,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "Sheshbazzar",
+            "entityId": "char-sheshbazzar"
+          },
+          {
+            "spanText": "Nebuchadnezzar",
+            "entityId": "char-nebuchadnezzar"
           }
         ]
       },
@@ -1941,6 +2300,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Sheshbazzar",
+            "entityId": "char-sheshbazzar"
           }
         ]
       },
@@ -1996,12 +2359,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-ezr-6",
         "linkedEntities": [
           {
-            "spanText": "Darius",
-            "entityId": "char-darius"
-          },
-          {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Darius",
+            "entityId": "char-darius-persia"
           }
         ]
       },
@@ -2068,6 +2431,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "Nebuchadnezzar",
+            "entityId": "char-nebuchadnezzar"
           }
         ]
       },
@@ -2080,7 +2447,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now therefore, Tattenai, governor beyond the River, Shetharbozenai, and your companions the Apharsachites, who are beyond the River, you must stay far from there.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tattenai",
+            "entityId": "char-tattenai"
+          }
+        ]
       },
       {
         "id": "EZR-6:7",
@@ -2095,6 +2467,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "house of God",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2111,6 +2487,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "house of God",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2127,6 +2507,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2163,16 +2551,16 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-ezr-6",
         "linkedEntities": [
           {
-            "spanText": "Darius",
-            "entityId": "char-darius"
-          },
-          {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
           },
           {
             "spanText": "house of God",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "Darius",
+            "entityId": "char-darius-persia"
           }
         ]
       },
@@ -2188,7 +2576,11 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "linkedEntities": [
           {
             "spanText": "Darius",
-            "entityId": "char-darius"
+            "entityId": "char-darius-persia"
+          },
+          {
+            "spanText": "Tattenai",
+            "entityId": "char-tattenai"
           }
         ]
       },
@@ -2212,7 +2604,23 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           },
           {
             "spanText": "Darius",
-            "entityId": "char-darius"
+            "entityId": "char-darius-persia"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
+          },
+          {
+            "spanText": "Haggai",
+            "entityId": "char-haggai"
+          },
+          {
+            "spanText": "Zechariah",
+            "entityId": "char-zechariah"
           }
         ]
       },
@@ -2228,7 +2636,7 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "linkedEntities": [
           {
             "spanText": "Darius",
-            "entityId": "char-darius"
+            "entityId": "char-darius-persia"
           }
         ]
       },
@@ -2245,6 +2653,18 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "house of God",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2261,6 +2681,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "house of God",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2281,6 +2705,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2313,6 +2745,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Passover",
             "entityId": "term-passover"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2329,6 +2769,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2345,6 +2789,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
           }
         ]
       }
@@ -2378,6 +2830,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Artaxerxes",
             "entityId": "char-artaxerxes"
+          },
+          {
+            "spanText": "Hilkiah",
+            "entityId": "char-hilkiah"
+          },
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
           }
         ]
       },
@@ -2390,7 +2850,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "the son of Shallum, the son of Zadok, the son of Ahitub,",
         "translation": "WEB",
         "illustrationId": "ill-ezr-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zadok",
+            "entityId": "char-zadok"
+          }
+        ]
       },
       {
         "id": "EZR-7:3",
@@ -2423,7 +2888,16 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "the son of Abishua, the son of Phinehas, the son of Eleazar, the son of Aaron the chief priest—",
         "translation": "WEB",
         "illustrationId": "ill-ezr-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "EZR-7:6",
@@ -2454,6 +2928,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "law of Moses",
             "entityId": "term-torah-scroll"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2478,6 +2956,22 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2534,6 +3028,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ezra",
             "entityId": "char-ezra"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -2558,6 +3060,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Artaxerxes",
             "entityId": "char-artaxerxes"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2578,6 +3088,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Artaxerxes",
             "entityId": "char-artaxerxes"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -2594,6 +3112,18 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2610,6 +3140,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -2626,6 +3164,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2646,6 +3188,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2662,6 +3208,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -2720,6 +3270,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Artaxerxes",
             "entityId": "char-artaxerxes"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -2758,6 +3316,18 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2786,7 +3356,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Whoever will not do the law of your God and the law of the king, let judgment be executed on him with all diligence, whether it is to death, or to banishment, or to confiscation of goods, or to imprisonment.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
+          }
+        ]
       },
       {
         "id": "EZR-7:27",
@@ -2821,6 +3396,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -3014,7 +3593,20 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "I gathered them together to the river that runs to Ahava; and there we encamped three days: and I looked around at the people and the priests, and found there were none of the sons of Levi.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Ahava",
+            "entityId": "place-ahava"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "EZR-8:16",
@@ -3052,7 +3644,16 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "According to the good hand of our God on us they brought us a man of discretion, of the sons of Mahli, the son of Levi, the son of Israel; and Sherebiah, with his sons and his brothers, eighteen;",
         "translation": "WEB",
         "illustrationId": "ill-ezr-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "EZR-8:19",
@@ -3082,6 +3683,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -3094,7 +3699,16 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then I proclaimed a fast there, at the river Ahava, that we might humble ourselves before our God, to seek from him a straight way for us, and for our little ones, and for all our possessions.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ahava",
+            "entityId": "place-ahava"
+          },
+          {
+            "spanText": "humble",
+            "entityId": "term-humble-pray"
+          }
+        ]
       },
       {
         "id": "EZR-8:22",
@@ -3127,7 +3741,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then I set apart twelve of the chiefs of the priests, even Sherebiah, Hashabiah, and ten of their brothers with them,",
         "translation": "WEB",
         "illustrationId": "ill-ezr-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "EZR-8:25",
@@ -3138,7 +3757,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "and weighed to them the silver, the gold, and the vessels, even the offering for the house of our God, which the king, his counselors, his princes, and all Israel there present, had offered.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZR-8:26",
@@ -3195,6 +3819,18 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3211,6 +3847,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3227,6 +3871,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Ahava",
+            "entityId": "place-ahava"
           }
         ]
       },
@@ -3259,6 +3907,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeshua",
             "entityId": "char-jeshua"
+          },
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3286,6 +3942,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3322,7 +3986,20 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now when these things were done, the princes came near to me, saying, “The people of Israel, the priests, and the Levites, have not separated themselves from the peoples of the lands, following their abominations, even those of the Canaanites, the Hittites, the Perizzites, the Jebusites, the Ammonites, the Moabites, the Egyptians, and the Amorites.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "EZR-9:2",
@@ -3355,7 +4032,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then everyone who trembled at the words of the God of Israel were assembled to me, because of their trespass of the captivity; and I sat confounded until the evening offering.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZR-9:5",
@@ -3393,7 +4075,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Since the days of our fathers we have been exceedingly guilty to this day; and for our iniquities we, our kings, and our priests, have been delivered into the hand of the kings of the lands, to the sword, to captivity, to plunder, and to confusion of face, as it is this day.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "EZR-9:8",
@@ -3424,6 +4111,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
           }
         ]
       },
@@ -3495,6 +4190,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -3524,6 +4223,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ezra",
             "entityId": "char-ezra"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3540,6 +4243,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ezra",
             "entityId": "char-ezra"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3556,6 +4263,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-covenant"
+          },
+          {
+            "spanText": "law",
+            "entityId": "term-torah-scroll"
           }
         ]
       },
@@ -3583,6 +4294,18 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ezra",
             "entityId": "char-ezra"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3615,6 +4338,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -3642,6 +4369,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -3658,6 +4393,14 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ezra",
             "entityId": "char-ezra"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3719,7 +4462,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Only Jonathan the son of Asahel and Jahzeiah the son of Tikvah stood up against this; and Meshullam and Shabbethai the Levite helped them.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levite",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "EZR-10:16",
@@ -3734,6 +4482,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ezra",
             "entityId": "char-ezra"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3761,6 +4513,10 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeshua",
             "entityId": "char-jeshua"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -3817,7 +4573,16 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the Levites: Jozabad, and Shimei, and Kelaiah (also called Kelita), Pethahiah, Judah, and Eliezer.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "EZR-10:24",
@@ -3828,7 +4593,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the singers: Eliashib. Of the gatekeepers: Shallum, and Telem, and Uri.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
+          }
+        ]
       },
       {
         "id": "EZR-10:25",
@@ -3839,7 +4609,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of Israel: Of the sons of Parosh: Ramiah, and Izziah, and Malchijah, and Mijamin, and Eleazar, and Malchijah, and Benaiah.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZR-10:26",
@@ -3916,7 +4691,12 @@ export const EZRA_CHAPTERS: Record<string, ChapterData> = {
         "text": "Benjamin, Malluch, Shemariah.",
         "translation": "WEB",
         "illustrationId": "ill-ezr-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "EZR-10:33",

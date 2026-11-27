@@ -17176,6 +17176,10 @@ export const SECOND_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
           }
         ]
       },
@@ -17216,6 +17220,10 @@ export const SECOND_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Cyrus",
             "entityId": "char-cyrus"
+          },
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
           }
         ]
       },
@@ -17244,6 +17252,10 @@ export const SECOND_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Cyrus",
             "entityId": "char-cyrus"
+          },
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
           }
         ]
       }
