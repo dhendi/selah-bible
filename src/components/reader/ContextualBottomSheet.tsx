@@ -156,7 +156,23 @@ export const ContextualBottomSheet: React.FC = () => {
 
   const handleReflect = () => {
     const ref = entity.relatedVerseRefs[0] || 'Genesis 1:1';
-    const bookId = ref.includes('Hebrews')
+    const bookId = ref.includes('Revelation')
+      ? 'REV'
+      : ref.includes('Jude')
+        ? 'JUD'
+        : ref.includes('3 John')
+          ? '3JN'
+          : ref.includes('2 John')
+            ? '2JN'
+            : ref.includes('1 John')
+              ? '1JN'
+              : ref.includes('2 Peter')
+                ? '2PE'
+                : ref.includes('1 Peter')
+                  ? '1PE'
+                  : ref.includes('James')
+                    ? 'JAS'
+                    : ref.includes('Hebrews')
       ? 'HEB'
       : ref.includes('Philemon')
         ? 'PHM'

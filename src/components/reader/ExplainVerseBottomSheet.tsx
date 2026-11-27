@@ -67,9 +67,9 @@ export const ExplainVerseBottomSheet: React.FC = () => {
       navigateToMapPin('loc-bethlehem');
     } else if (/^(MAT|MRK|LUK|JHN)-/.test(activeExplainVerseId)) {
       navigateToMapPin('loc-mount-tabor');
-    } else if (/^(ACT|HEB)-/.test(activeExplainVerseId)) {
+    } else if (/^(ACT|HEB|JAS)-/.test(activeExplainVerseId)) {
       navigateToMapPin('loc-jerusalem');
-    } else if (/^(ROM|1CO|2CO|GAL|EPH|PHP|COL|1TH|2TH|1TI|2TI|TIT|PHM)-/.test(activeExplainVerseId)) {
+    } else if (/^(ROM|1CO|2CO|GAL|EPH|PHP|COL|1TH|2TH|1TI|2TI|TIT|PHM|1PE|2PE|1JN|2JN|3JN|JUD|REV)-/.test(activeExplainVerseId)) {
       navigateToMapPin('loc-mount-carmel');
     } else {
       navigateToMapPin('loc-eden');
@@ -84,7 +84,7 @@ export const ExplainVerseBottomSheet: React.FC = () => {
       navigateToTimelineEra('era-judges');
     } else if (/^(MAT|MRK|LUK|JHN)-/.test(activeExplainVerseId)) {
       navigateToTimelineEra('era-jesus');
-    } else if (/^(ACT|ROM|1CO|2CO|GAL|EPH|PHP|COL|1TH|2TH|1TI|2TI|TIT|PHM|HEB)-/.test(activeExplainVerseId)) {
+    } else if (/^(ACT|ROM|1CO|2CO|GAL|EPH|PHP|COL|1TH|2TH|1TI|2TI|TIT|PHM|HEB|JAS|1PE|2PE|1JN|2JN|3JN|JUD|REV)-/.test(activeExplainVerseId)) {
       navigateToTimelineEra('era-church');
     } else {
       navigateToTimelineEra('era-creation');

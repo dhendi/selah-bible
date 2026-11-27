@@ -562,6 +562,14 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'term-mediator': '/images/heb-09.jpg',
   'term-great-cloud-witnesses': '/images/heb-12.jpg',
   'term-sound-doctrine': '/images/tit-02.jpg',
+  'char-jude': '/images/portrait-jude.jpg',
+  'char-gaius-elder': '/images/portrait-gaius.jpg',
+  'place-patmos': '/images/rev-01.jpg',
+  'place-new-jerusalem': '/images/rev-21.jpg',
+  'term-alpha-omega': '/images/rev-01.jpg',
+  'term-living-hope': '/images/1pe-01.jpg',
+  'term-new-heaven-earth': '/images/rev-21.jpg',
+  'term-overcomer': '/images/rev-07.jpg',
 };
 
 export interface ResolvedEntityAsset {

@@ -1048,4 +1048,12 @@ export const BUILT_BOOK_START_CHAPTER: Record<string, string> = {
   TIT: 'TIT-1',
   PHM: 'PHM-1',
   HEB: 'HEB-1',
+  JAS: 'JAS-1',
+  '1PE': '1PE-1',
+  '2PE': '2PE-1',
+  '1JN': '1JN-1',
+  '2JN': '2JN-1',
+  '3JN': '3JN-1',
+  JUD: 'JUD-1',
+  REV: 'REV-1',
 };

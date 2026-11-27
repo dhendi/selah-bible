@@ -612,6 +612,77 @@ function resolveChapterAsset(key: string): { src: string; alt: string } | undefi
       };
     }
   }
+  const jasMatch = /^ill-jas-(\d+)$/.exec(key);
+  if (jasMatch) {
+    const ch = Number(jasMatch[1]);
+    if (ch >= 1 && ch <= 5) {
+      return {
+        src: `/images/jas-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `James ${ch} illustration`,
+      };
+    }
+  }
+  const pet1Match = /^ill-1pe-(\d+)$/.exec(key);
+  if (pet1Match) {
+    const ch = Number(pet1Match[1]);
+    if (ch >= 1 && ch <= 5) {
+      return {
+        src: `/images/1pe-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `1 Peter ${ch} illustration`,
+      };
+    }
+  }
+  const pet2Match = /^ill-2pe-(\d+)$/.exec(key);
+  if (pet2Match) {
+    const ch = Number(pet2Match[1]);
+    if (ch >= 1 && ch <= 3) {
+      return {
+        src: `/images/2pe-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `2 Peter ${ch} illustration`,
+      };
+    }
+  }
+  const jn1Match = /^ill-1jn-(\d+)$/.exec(key);
+  if (jn1Match) {
+    const ch = Number(jn1Match[1]);
+    if (ch >= 1 && ch <= 5) {
+      return {
+        src: `/images/1jn-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `1 John ${ch} illustration`,
+      };
+    }
+  }
+  const jn2Match = /^ill-2jn-(\d+)$/.exec(key);
+  if (jn2Match && Number(jn2Match[1]) === 1) {
+    return {
+      src: `/images/2jn-01.jpg`,
+      alt: `2 John 1 illustration`,
+    };
+  }
+  const jn3Match = /^ill-3jn-(\d+)$/.exec(key);
+  if (jn3Match && Number(jn3Match[1]) === 1) {
+    return {
+      src: `/images/3jn-01.jpg`,
+      alt: `3 John 1 illustration`,
+    };
+  }
+  const judMatch = /^ill-jud-(\d+)$/.exec(key);
+  if (judMatch && Number(judMatch[1]) === 1) {
+    return {
+      src: `/images/jud-01.jpg`,
+      alt: `Jude 1 illustration`,
+    };
+  }
+  const revMatch = /^ill-rev-(\d+)$/.exec(key);
+  if (revMatch) {
+    const ch = Number(revMatch[1]);
+    if (ch >= 1 && ch <= 22) {
+      return {
+        src: `/images/rev-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Revelation ${ch} illustration`,
+      };
+    }
+  }
   return undefined;
 }
 

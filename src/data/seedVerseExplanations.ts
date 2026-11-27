@@ -1992,6 +1992,62 @@ const BOOK_EXPLANATION_TEMPLATES: Record<string, BookExplanationTemplate> = {
     action: (ref) => `Fix your eyes squarely on Jesus today and encourage one friend warmly alongside ${ref}.`,
     kid: (s) => `${s} Surrounded by God’s faithful heroes, let’s keep looking straight at Jesus!`,
   },
+  JAS: {
+    bookName: 'James',
+    fallbackKey: 'PRO-3:5',
+    lesson: (t) => `In ${t}, living trust in Jesus breathes out through quick listening, gentle peaceable wisdom, tamed words, and active mercy.`,
+    action: (ref) => `Put faith straight into action today with one concrete act of kindness alongside ${ref}.`,
+    kid: (s) => `${s} Real trust in Jesus shows up in kind words and helping hands!`,
+  },
+  '1PE': {
+    bookName: '1 Peter',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, God rebirths scattered believers into living hope and a royal priesthood—answering hard trials with gentle reverence and rolled-off anxiety.`,
+    action: (ref) => `Roll one heavy worry quietly onto Jesus today knowing He cares for you in ${ref}.`,
+    kid: (s) => `${s} You can hand every worried feeling straight to Jesus because He truly cares for you!`,
+  },
+  '2PE': {
+    bookName: '2 Peter',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, eyewitness gospel grace fuels growing virtue and patience while waiting joyfully for new heavens where righteousness dwells.`,
+    action: (ref) => `Lean into one trustworthy promise of God’s light today as you ponder ${ref}.`,
+    kid: (s) => `${s} God’s promises shine like a bright morning lamp guiding us home!`,
+  },
+  '1JN': {
+    bookName: '1 John',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, God is light and God is love—cleansing honest confession cleanly and casting fear out completely through Jesus’ incarnate life.`,
+    action: (ref) => `Love one person visibly in deed and truth today alongside ${ref}.`,
+    kid: (s) => `${s} God loves us so much He calls us His own children—so let’s love each other too!`,
+  },
+  '2JN': {
+    bookName: '2 John',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, healthy Christian fellowship walks joyfully inside both unwavering truth about Jesus and warm daily love.`,
+    action: (ref) => `Hold both kindness and clear truth steadily today alongside ${ref}.`,
+    kid: (s) => `${s} Walking with Jesus means hugging truth and love together every single day!`,
+  },
+  '3JN': {
+    bookName: '3 John',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, Gaius’s warm hospitality partners directly with gospel truth—honoring open doors over noisy self-importance.`,
+    action: (ref) => `Welcome or encourage a traveling or lonely friend warmly today alongside ${ref}.`,
+    kid: (s) => `${s} Sharing warm welcome turns everyday homes into helpers of Jesus’ good news!`,
+  },
+  JUD: {
+    bookName: 'Jude',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, contending courageously for trusted faith stays anchored in mercy, prayer in the Spirit, and God’s joy-filled power to keep us standing.`,
+    action: (ref) => `Pray steadily with mercy toward someone wavering today alongside ${ref}.`,
+    kid: (s) => `${s} God is strong enough to hold our hands so we don’t stumble!`,
+  },
+  REV: {
+    bookName: 'Revelation',
+    fallbackKey: 'GEN-1:1',
+    lesson: (t) => `In ${t}, the slain and risen Lamb reigns unshaken above every earthly storm—leading faithful worshipers straight home to New Jerusalem where every tear is wiped away.`,
+    action: (ref) => `Lift praise to the Lamb on the throne today and let hope steady your heart in ${ref}.`,
+    kid: (s) => `${s} Jesus the Lamb wins cleanly with love—and promises a brand-new home with zero tears!`,
+  },
 };
 
 export function getExplanationForVerse(
