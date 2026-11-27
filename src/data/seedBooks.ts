@@ -1025,4 +1025,8 @@ export const BUILT_BOOK_START_CHAPTER: Record<string, string> = {
   MIC: 'MIC-1',
   NAM: 'NAM-1',
   HAB: 'HAB-1',
+  ZEP: 'ZEP-1',
+  HAG: 'HAG-1',
+  ZEC: 'ZEC-1',
+  MAL: 'MAL-1',
 };

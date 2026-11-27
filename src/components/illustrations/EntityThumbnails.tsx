@@ -420,6 +420,16 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'place-joppa': '/images/jon-01.jpg',
   'term-live-by-faith': '/images/hab-02.jpg',
   'term-plowshares-peace': '/images/mic-04.jpg',
+  'char-zephaniah': '/images/portrait-zephaniah.jpg',
+  'char-malachi': '/images/portrait-malachi.jpg',
+  'place-philistia': '/images/zep-02.jpg',
+  'place-damascus': '/images/zec-09.jpg',
+  'place-mount-of-olives': '/images/zec-14.jpg',
+  'term-menorah': '/images/zec-04.jpg',
+  'term-olive-branch': '/images/zec-04.jpg',
+  'term-branch-messiah': '/images/zec-06.jpg',
+  'term-sun-of-righteousness': '/images/mal-04.jpg',
+  'term-refiners-fire': '/images/mal-03.jpg',
 };
 
 export interface ResolvedEntityAsset {

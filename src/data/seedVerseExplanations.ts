@@ -34,6 +34,10 @@ import { JONAH_CHAPTERS } from './books/jonahChapters';
 import { MICAH_CHAPTERS } from './books/micahChapters';
 import { NAHUM_CHAPTERS } from './books/nahumChapters';
 import { HABAKKUK_CHAPTERS } from './books/habakkukChapters';
+import { ZEPHANIAH_CHAPTERS } from './books/zephaniahChapters';
+import { HAGGAI_CHAPTERS } from './books/haggaiChapters';
+import { ZECHARIAH_CHAPTERS } from './books/zechariahChapters';
+import { MALACHI_CHAPTERS } from './books/malachiChapters';
 
 export const SEED_VERSE_EXPLANATIONS: Record<string, VerseExplanation> = {
   // ================= GENESIS 1 =================
@@ -2202,6 +2206,70 @@ export function getExplanationForVerse(verseId: string): VerseExplanation {
         lessonForYou: `In ${chapData.title}, honest questions meet quiet watchtower patience until faith rejoices in God our Savior.`,
         tryThisAction: `Bring one honest question to God and choose thankful trust today with ${ref}.`,
         kidFriendlySummary: `${chapData.subtitle} Even when fields look empty, we can trust and sing to God!`,
+      };
+    }
+  }
+
+  if (verseId.startsWith('ZEP-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = ZEPHANIAH_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Zephaniah ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, seeking humility removes hollow pride so God Himself rejoices over His people with singing.`,
+        tryThisAction: `Choose quiet humility and gratitude in God’s love today as you read ${ref}.`,
+        kidFriendlySummary: `${chapData.subtitle} God stays right beside His people and sings for joy over them!`,
+      };
+    }
+  }
+
+  if (verseId.startsWith('HAG-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = HAGGAI_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Haggai ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, God’s encouraging presence turns discouraged builders toward wholehearted work in His house.`,
+        tryThisAction: `Take one concrete step today in a worthy work you had postponed while reading ${ref}.`,
+        kidFriendlySummary: `${chapData.subtitle} God says, “Be strong and work—for I am with you!”`,
+      };
+    }
+  }
+
+  if (verseId.startsWith('ZEC-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = ZECHARIAH_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Zechariah ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, God works not by human might or power alone, but by His Spirit—preparing Zion for the humble King.`,
+        tryThisAction: `Ask God’s Spirit for strength rather than leaning only on your own effort in ${ref}.`,
+        kidFriendlySummary: `${chapData.subtitle} God remembers His promises and pours out living water and peace!`,
+      };
+    }
+  }
+
+  if (verseId.startsWith('MAL-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = MALACHI_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Malachi ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, sincere wholehearted worship and covenant loyalty open the windows of blessing and healing dawn.`,
+        tryThisAction: `Give God your wholehearted best today in worship and kindness to others alongside ${ref}.`,
+        kidFriendlySummary: `${chapData.subtitle} God’s Sun of Righteousness rises with warm healing in His wings!`,
       };
     }
   }

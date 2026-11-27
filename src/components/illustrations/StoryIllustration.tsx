@@ -382,6 +382,46 @@ function resolveChapterAsset(key: string): { src: string; alt: string } | undefi
       };
     }
   }
+  const zepMatch = /^ill-zep-(\d+)$/.exec(key);
+  if (zepMatch) {
+    const ch = Number(zepMatch[1]);
+    if (ch >= 1 && ch <= 3) {
+      return {
+        src: `/images/zep-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Zephaniah ${ch} illustration`,
+      };
+    }
+  }
+  const hagMatch = /^ill-hag-(\d+)$/.exec(key);
+  if (hagMatch) {
+    const ch = Number(hagMatch[1]);
+    if (ch >= 1 && ch <= 2) {
+      return {
+        src: `/images/hag-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Haggai ${ch} illustration`,
+      };
+    }
+  }
+  const zecMatch = /^ill-zec-(\d+)$/.exec(key);
+  if (zecMatch) {
+    const ch = Number(zecMatch[1]);
+    if (ch >= 1 && ch <= 14) {
+      return {
+        src: `/images/zec-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Zechariah ${ch} illustration`,
+      };
+    }
+  }
+  const malMatch = /^ill-mal-(\d+)$/.exec(key);
+  if (malMatch) {
+    const ch = Number(malMatch[1]);
+    if (ch >= 1 && ch <= 4) {
+      return {
+        src: `/images/mal-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Malachi ${ch} illustration`,
+      };
+    }
+  }
   return undefined;
 }
 

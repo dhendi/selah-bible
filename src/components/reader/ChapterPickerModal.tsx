@@ -36,6 +36,10 @@ import { JONAH_CHAPTERS } from '../../data/books/jonahChapters';
 import { MICAH_CHAPTERS } from '../../data/books/micahChapters';
 import { NAHUM_CHAPTERS } from '../../data/books/nahumChapters';
 import { HABAKKUK_CHAPTERS } from '../../data/books/habakkukChapters';
+import { ZEPHANIAH_CHAPTERS } from '../../data/books/zephaniahChapters';
+import { HAGGAI_CHAPTERS } from '../../data/books/haggaiChapters';
+import { ZECHARIAH_CHAPTERS } from '../../data/books/zechariahChapters';
+import { MALACHI_CHAPTERS } from '../../data/books/malachiChapters';
 
 export const ChapterPickerModal: React.FC = () => {
   const {
@@ -48,9 +52,17 @@ export const ChapterPickerModal: React.FC = () => {
   } = useStudyStore();
 
   const [selectedBookTab, setSelectedBookTab] = useState<
-    'GEN' | 'EXO' | 'LEV' | 'NUM' | 'DEU' | 'JOS' | 'JDG' | 'RUT' | '1SA' | '2SA' | '1KI' | '2KI' | '1CH' | '2CH' | 'EZR' | 'NEH' | 'EST' | 'JOB' | 'PSA' | 'PRO' | 'ECC' | 'SNG' | 'ISA' | 'JER' | 'LAM' | 'EZK' | 'DAN' | 'HOS' | 'JOL' | 'AMO' | 'OBA' | 'JON' | 'MIC' | 'NAM' | 'HAB' | 'FEATURED'
+    'GEN' | 'EXO' | 'LEV' | 'NUM' | 'DEU' | 'JOS' | 'JDG' | 'RUT' | '1SA' | '2SA' | '1KI' | '2KI' | '1CH' | '2CH' | 'EZR' | 'NEH' | 'EST' | 'JOB' | 'PSA' | 'PRO' | 'ECC' | 'SNG' | 'ISA' | 'JER' | 'LAM' | 'EZK' | 'DAN' | 'HOS' | 'JOL' | 'AMO' | 'OBA' | 'JON' | 'MIC' | 'NAM' | 'HAB' | 'ZEP' | 'HAG' | 'ZEC' | 'MAL' | 'FEATURED'
   >(
-    currentChapterId.startsWith('HAB-')
+    currentChapterId.startsWith('MAL-')
+      ? 'MAL'
+      : currentChapterId.startsWith('ZEC-')
+      ? 'ZEC'
+      : currentChapterId.startsWith('HAG-')
+      ? 'HAG'
+      : currentChapterId.startsWith('ZEP-')
+      ? 'ZEP'
+      : currentChapterId.startsWith('HAB-')
       ? 'HAB'
       : currentChapterId.startsWith('NAM-')
       ? 'NAM'
@@ -166,6 +178,10 @@ export const ChapterPickerModal: React.FC = () => {
   const micahChapterNumbers = Array.from({ length: 7 }, (_, i) => i + 1);
   const nahumChapterNumbers = Array.from({ length: 3 }, (_, i) => i + 1);
   const habakkukChapterNumbers = Array.from({ length: 3 }, (_, i) => i + 1);
+  const zephaniahChapterNumbers = Array.from({ length: 3 }, (_, i) => i + 1);
+  const haggaiChapterNumbers = Array.from({ length: 2 }, (_, i) => i + 1);
+  const zechariahChapterNumbers = Array.from({ length: 14 }, (_, i) => i + 1);
+  const malachiChapterNumbers = Array.from({ length: 4 }, (_, i) => i + 1);
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
@@ -180,7 +196,7 @@ export const ChapterPickerModal: React.FC = () => {
           <div>
             <h3 className="text-lg font-serif font-bold text-[#2C2C2A]">Select Book & Chapter</h3>
             <p className="text-xs text-[#76746E]">
-              Gen through Habakkuk (3) & Featured
+              Gen through Malachi (Full OT · 39 Books) & Featured
             </p>
           </div>
           <button
@@ -577,6 +593,50 @@ export const ChapterPickerModal: React.FC = () => {
             }`}
           >
             <span>Hab (3)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('ZEP')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'ZEP'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Zep (3)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('HAG')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'HAG'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Hag (2)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('ZEC')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'ZEC'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Zec (14)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('MAL')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'MAL'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Mal (4)</span>
           </button>
 
           <button
@@ -2593,6 +2653,134 @@ export const ChapterPickerModal: React.FC = () => {
             </div>
           )}
 
+          {selectedBookTab === 'ZEP' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>3 Chapters · Full WEB Text</span>
+                <span>53 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-3 gap-2 mb-4">
+                {zephaniahChapterNumbers.map((num) => {
+                  const id = `ZEP-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = ZEPHANIAH_CHAPTERS[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Zephaniah ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#C88A6B] text-white border-[#C88A6B] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#C88A6B]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {selectedBookTab === 'HAG' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>2 Chapters · Full WEB Text</span>
+                <span>38 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-2 gap-2 mb-4">
+                {haggaiChapterNumbers.map((num) => {
+                  const id = `HAG-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = HAGGAI_CHAPTERS[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Haggai ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#C88A6B] text-white border-[#C88A6B] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#C88A6B]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {selectedBookTab === 'ZEC' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>14 Chapters · Full WEB Text</span>
+                <span>211 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-5 gap-2 mb-4">
+                {zechariahChapterNumbers.map((num) => {
+                  const id = `ZEC-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = ZECHARIAH_CHAPTERS[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Zechariah ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#C88A6B] text-white border-[#C88A6B] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#C88A6B]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {selectedBookTab === 'MAL' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>4 Chapters · Full WEB Text</span>
+                <span>55 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-4 gap-2 mb-4">
+                {malachiChapterNumbers.map((num) => {
+                  const id = `MAL-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = MALACHI_CHAPTERS[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Malachi ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#C88A6B] text-white border-[#C88A6B] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#C88A6B]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
           {selectedBookTab === 'FEATURED' && (
             <div className="space-y-2.5">
               {/* Genesis 1–50 */}
@@ -3374,6 +3562,33 @@ export const ChapterPickerModal: React.FC = () => {
                   </p>
                 </div>
                 {(currentChapterId.startsWith('JON-') || currentChapterId.startsWith('MIC-') || currentChapterId.startsWith('NAM-') || currentChapterId.startsWith('HAB-')) && (
+                  <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
+                )}
+              </button>
+
+              {/* Zephaniah–Malachi */}
+              <button
+                onClick={() => handleSelect('ZEP-1')}
+                className={`w-full text-left p-3.5 rounded-2xl border transition-all flex items-center justify-between cursor-pointer ${
+                  currentChapterId.startsWith('ZEP-') || currentChapterId.startsWith('HAG-') || currentChapterId.startsWith('ZEC-') || currentChapterId.startsWith('MAL-')
+                    ? 'bg-[#EBF2ED] border-[#7A9A82] shadow-sm'
+                    : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+                }`}
+              >
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-serif font-bold text-[#2C2C2A] flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5 text-[#C88A6B]" /> Zephaniah–Malachi
+                    </span>
+                    <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-[#F7EBE4] text-[#8F5338]">
+                      Full Books
+                    </span>
+                  </div>
+                  <p className="text-xs text-[#6B6862] mt-0.5">
+                    God singing over Zion in Zephaniah, temple rebuilding in Haggai & Zechariah, Sun of Righteousness in Malachi.
+                  </p>
+                </div>
+                {(currentChapterId.startsWith('ZEP-') || currentChapterId.startsWith('HAG-') || currentChapterId.startsWith('ZEC-') || currentChapterId.startsWith('MAL-')) && (
                   <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
                 )}
               </button>
