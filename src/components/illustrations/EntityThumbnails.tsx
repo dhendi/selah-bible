@@ -465,6 +465,13 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'term-hosanna': '/images/mat-21.jpg',
   'term-crucifixion': '/images/mat-27.jpg',
   'term-resurrection': '/images/mat-28.jpg',
+  'char-bartimaeus': '/images/mrk-10.jpg',
+  'char-jairus': '/images/mrk-05.jpg',
+  'char-herodias': '/images/mrk-06.jpg',
+  'char-barabbas': '/images/mrk-15.jpg',
+  'char-salome': '/images/mrk-16.jpg',
+  'place-decapolis': '/images/mrk-05.jpg',
+  'place-bethsaida': '/images/mrk-08.jpg',
 };
 
 export interface ResolvedEntityAsset {

@@ -1030,4 +1030,5 @@ export const BUILT_BOOK_START_CHAPTER: Record<string, string> = {
   ZEC: 'ZEC-1',
   MAL: 'MAL-1',
   MAT: 'MAT-1',
+  MRK: 'MRK-1',
 };

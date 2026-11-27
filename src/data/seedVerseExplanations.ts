@@ -1866,6 +1866,13 @@ const BOOK_EXPLANATION_TEMPLATES: Record<string, BookExplanationTemplate> = {
     action: (ref) => `Put one Beatitude practice or quiet prayer into action today alongside ${ref}.`,
     kid: (s) => `${s} Jesus is Immanuel—God right beside us every step of the way!`,
   },
+  MRK: {
+    bookName: 'Mark',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, Servant-King Jesus moves swiftly with healing compassion toward the cross as a ransom for many.`,
+    action: (ref) => `Serve someone quietly today without seeking spotlight, remembering ${ref}.`,
+    kid: (s) => `${s} Jesus wastes no time loving people, calming storms, and bringing peace!`,
+  },
 };
 
 export function getExplanationForVerse(

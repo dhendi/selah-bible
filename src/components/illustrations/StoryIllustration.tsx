@@ -432,6 +432,16 @@ function resolveChapterAsset(key: string): { src: string; alt: string } | undefi
       };
     }
   }
+  const mrkMatch = /^ill-mrk-(\d+)$/.exec(key);
+  if (mrkMatch) {
+    const ch = Number(mrkMatch[1]);
+    if (ch >= 1 && ch <= 16) {
+      return {
+        src: `/images/mrk-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Mark ${ch} illustration`,
+      };
+    }
+  }
   return undefined;
 }
 
