@@ -23,11 +23,11 @@ const ILLUSTRATION_URL_MAP: Record<string, { src: string; alt: string }> = {
   },
   'ill-wisdom-scroll': {
     src: '/images/wisdom-scroll.jpg',
-    alt: 'Ancient parchment scroll and olive branch',
+    alt: 'Unrolled ancient parchment scroll with inkwell, reed pen, and olive branch',
   },
   'ill-courage-light': {
     src: '/images/courage-light.jpg',
-    alt: 'Warm glowing lantern along a twilight mountain trail',
+    alt: 'Lit terracotta clay oil lamp resting beside a sunlit Judean foothill path',
   },
 };
 

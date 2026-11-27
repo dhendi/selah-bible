@@ -39,14 +39,14 @@ export const SEED_ILLUSTRATIONS: Record<string, IllustrationAsset> = {
     category: 'thematic',
     themeType: 'wisdom-scroll',
     tags: ['wisdom', 'word', 'truth', 'promises', 'covenant', 'forgiveness'],
-    description: 'Ancient parchment scroll representing enduring wisdom and covenant promises.',
+    description: 'Unrolled parchment scroll, inkwell, and olive branch illuminated by morning light.',
   },
   'ill-courage-light': {
     id: 'ill-courage-light',
-    title: 'Lantern in the Mountain Night',
+    title: 'Oil Lamp Along the Judean Path',
     category: 'thematic',
     themeType: 'courage-light',
     tags: ['courage', 'courage for kids', 'light', 'hope', 'guidance', 'kid-friendly', 'faith'],
-    description: 'A warm glowing lantern lighting a steady path over rugged hills.',
+    description: 'A lit Judean terracotta oil lamp guiding a winding olive hillside path at sunrise.',
   },
 };
