@@ -402,6 +402,16 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'char-michael': '/images/portrait-michael.jpg',
   'term-lions-den': '/images/dan-06.jpg',
   'place-greece': '/images/dan-08.jpg',
+  'char-hosea': '/images/portrait-hosea.jpg',
+  'char-gomer': '/images/portrait-gomer.jpg',
+  'char-joel': '/images/portrait-joel.jpg',
+  'char-amos': '/images/portrait-amos.jpg',
+  'char-obadiah-prophet': '/images/portrait-obadiah-prophet.jpg',
+  'char-jeroboam-ii': '/images/portrait-jeroboam-ii.jpg',
+  'place-tekoa': '/images/word-tekoa-shepherd.jpg',
+  'term-day-of-yahweh': '/images/jol-02.jpg',
+  'term-plumb-line': '/images/amo-07.jpg',
+  'term-valley-of-achor': '/images/hos-02.jpg',
 };
 
 export interface ResolvedEntityAsset {

@@ -302,6 +302,46 @@ function resolveChapterAsset(key: string): { src: string; alt: string } | undefi
       };
     }
   }
+  const hoseaMatch = /^ill-hos-(\d+)$/.exec(key);
+  if (hoseaMatch) {
+    const ch = Number(hoseaMatch[1]);
+    if (ch >= 1 && ch <= 14) {
+      return {
+        src: `/images/hos-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Hosea ${ch} illustration`,
+      };
+    }
+  }
+  const joelMatch = /^ill-jol-(\d+)$/.exec(key);
+  if (joelMatch) {
+    const ch = Number(joelMatch[1]);
+    if (ch >= 1 && ch <= 3) {
+      return {
+        src: `/images/jol-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Joel ${ch} illustration`,
+      };
+    }
+  }
+  const amosMatch = /^ill-amo-(\d+)$/.exec(key);
+  if (amosMatch) {
+    const ch = Number(amosMatch[1]);
+    if (ch >= 1 && ch <= 9) {
+      return {
+        src: `/images/amo-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Amos ${ch} illustration`,
+      };
+    }
+  }
+  const obaMatch = /^ill-oba-(\d+)$/.exec(key);
+  if (obaMatch) {
+    const ch = Number(obaMatch[1]);
+    if (ch >= 1 && ch <= 1) {
+      return {
+        src: `/images/oba-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Obadiah ${ch} illustration`,
+      };
+    }
+  }
   return undefined;
 }
 

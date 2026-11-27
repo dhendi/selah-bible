@@ -26,6 +26,10 @@ import { JEREMIAH_CHAPTERS } from './books/jeremiahChapters';
 import { LAMENTATIONS_CHAPTERS } from './books/lamentationsChapters';
 import { EZEKIEL_CHAPTERS } from './books/ezekielChapters';
 import { DANIEL_CHAPTERS } from './books/danielChapters';
+import { HOSEA_CHAPTERS } from './books/hoseaChapters';
+import { JOEL_CHAPTERS } from './books/joelChapters';
+import { AMOS_CHAPTERS } from './books/amosChapters';
+import { OBADIAH_CHAPTERS } from './books/obadiahChapters';
 
 export const SEED_VERSE_EXPLANATIONS: Record<string, VerseExplanation> = {
   // ================= GENESIS 1 =================
@@ -2068,6 +2072,70 @@ export function getExplanationForVerse(verseId: string): VerseExplanation {
       };
     }
     return SEED_VERSE_EXPLANATIONS['DAN-6:10'];
+  }
+
+  if (verseId.startsWith('HOS-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = HOSEA_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Hosea ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, God’s patient redeeming love calls unfaithful hearts back home like spring rain.`,
+        tryThisAction: `Pause over ${ref} and choose wholehearted loyalty over empty substitutes today.`,
+        kidFriendlySummary: `${chapData.subtitle} God never stops loving His children and invites us joyfully back home!`,
+      };
+    }
+  }
+
+  if (verseId.startsWith('JOL-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = JOEL_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Joel ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, sincere repentance (“rend your hearts”) unlocks God’s Spirit and restoration.`,
+        tryThisAction: `Read ${ref} slowly and ask God for fresh renewal in your prayers today.`,
+        kidFriendlySummary: `${chapData.subtitle} God promises to pour out His Spirit and bring healing streams of joy!`,
+      };
+    }
+  }
+
+  if (verseId.startsWith('AMO-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = AMOS_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Amos ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, true reverence for God always cares about honesty and justice for the vulnerable.`,
+        tryThisAction: `Look for one quiet practical way to encourage or stand fairly for someone today alongside ${ref}.`,
+        kidFriendlySummary: `${chapData.subtitle} God wants kindness and fairness to flow like a clean rushing river!`,
+      };
+    }
+  }
+
+  if (verseId.startsWith('OBA-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = OBADIAH_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Obadiah ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, God humbles smug pride against hurting neighbors and proves His kingdom endures.`,
+        tryThisAction: `Pray for humility and compassion toward struggling neighbors when reading ${ref}.`,
+        kidFriendlySummary: `${chapData.subtitle} God protects the vulnerable and reigns forever as wise King!`,
+      };
+    }
   }
 
   if (verseId.startsWith('RUT')) return SEED_VERSE_EXPLANATIONS['RUT-1:16'];

@@ -1017,4 +1017,8 @@ export const BUILT_BOOK_START_CHAPTER: Record<string, string> = {
   LAM: 'LAM-1',
   EZK: 'EZK-1',
   DAN: 'DAN-1',
+  HOS: 'HOS-1',
+  JOL: 'JOL-1',
+  AMO: 'AMO-1',
+  OBA: 'OBA-1',
 };

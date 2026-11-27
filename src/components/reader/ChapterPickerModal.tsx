@@ -28,6 +28,10 @@ import { JEREMIAH_CHAPTERS } from '../../data/books/jeremiahChapters';
 import { LAMENTATIONS_CHAPTERS } from '../../data/books/lamentationsChapters';
 import { EZEKIEL_CHAPTERS } from '../../data/books/ezekielChapters';
 import { DANIEL_CHAPTERS } from '../../data/books/danielChapters';
+import { HOSEA_CHAPTERS } from '../../data/books/hoseaChapters';
+import { JOEL_CHAPTERS } from '../../data/books/joelChapters';
+import { AMOS_CHAPTERS } from '../../data/books/amosChapters';
+import { OBADIAH_CHAPTERS } from '../../data/books/obadiahChapters';
 
 export const ChapterPickerModal: React.FC = () => {
   const {
@@ -40,9 +44,17 @@ export const ChapterPickerModal: React.FC = () => {
   } = useStudyStore();
 
   const [selectedBookTab, setSelectedBookTab] = useState<
-    'GEN' | 'EXO' | 'LEV' | 'NUM' | 'DEU' | 'JOS' | 'JDG' | 'RUT' | '1SA' | '2SA' | '1KI' | '2KI' | '1CH' | '2CH' | 'EZR' | 'NEH' | 'EST' | 'JOB' | 'PSA' | 'PRO' | 'ECC' | 'SNG' | 'ISA' | 'JER' | 'LAM' | 'EZK' | 'DAN' | 'FEATURED'
+    'GEN' | 'EXO' | 'LEV' | 'NUM' | 'DEU' | 'JOS' | 'JDG' | 'RUT' | '1SA' | '2SA' | '1KI' | '2KI' | '1CH' | '2CH' | 'EZR' | 'NEH' | 'EST' | 'JOB' | 'PSA' | 'PRO' | 'ECC' | 'SNG' | 'ISA' | 'JER' | 'LAM' | 'EZK' | 'DAN' | 'HOS' | 'JOL' | 'AMO' | 'OBA' | 'FEATURED'
   >(
-    currentChapterId.startsWith('DAN-')
+    currentChapterId.startsWith('OBA-')
+      ? 'OBA'
+      : currentChapterId.startsWith('AMO-')
+      ? 'AMO'
+      : currentChapterId.startsWith('JOL-')
+      ? 'JOL'
+      : currentChapterId.startsWith('HOS-')
+      ? 'HOS'
+      : currentChapterId.startsWith('DAN-')
       ? 'DAN'
       : currentChapterId.startsWith('EZK-')
       ? 'EZK'
@@ -134,6 +146,10 @@ export const ChapterPickerModal: React.FC = () => {
   const lamChapterNumbers = Array.from({ length: 5 }, (_, i) => i + 1);
   const ezekielChapterNumbers = Array.from({ length: 48 }, (_, i) => i + 1);
   const danielChapterNumbers = Array.from({ length: 12 }, (_, i) => i + 1);
+  const hoseaChapterNumbers = Array.from({ length: 14 }, (_, i) => i + 1);
+  const joelChapterNumbers = Array.from({ length: 3 }, (_, i) => i + 1);
+  const amosChapterNumbers = Array.from({ length: 9 }, (_, i) => i + 1);
+  const obadiahChapterNumbers = [1];
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
@@ -148,7 +164,7 @@ export const ChapterPickerModal: React.FC = () => {
           <div>
             <h3 className="text-lg font-serif font-bold text-[#2C2C2A]">Select Book & Chapter</h3>
             <p className="text-xs text-[#76746E]">
-              Gen through Daniel (12) & Featured
+              Gen through Obadiah (1) & Featured
             </p>
           </div>
           <button
@@ -457,6 +473,50 @@ export const ChapterPickerModal: React.FC = () => {
             }`}
           >
             <span>Dan (12)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('HOS')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'HOS'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Hos (14)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('JOL')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'JOL'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Jol (3)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('AMO')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'AMO'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Amo (9)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('OBA')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'OBA'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Oba (1)</span>
           </button>
 
           <button
@@ -2137,6 +2197,214 @@ export const ChapterPickerModal: React.FC = () => {
             </div>
           )}
 
+          {selectedBookTab === 'HOS' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>14 Chapters · Full WEB Text</span>
+                <span>197 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-5 gap-2 mb-4">
+                {hoseaChapterNumbers.map((num) => {
+                  const id = `HOS-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = HOSEA_CHAPTERS[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Hosea ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#C88A6B] text-white border-[#C88A6B] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#C88A6B]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+
+              <div className="pt-2 border-t border-[#E8E2D7] space-y-1.5">
+                <div className="text-[11px] font-bold uppercase tracking-wider text-[#76746E] px-1">
+                  Key Hosea Turning Points
+                </div>
+                {[
+                  { id: 'HOS-2', label: 'Ch 2 · Valley of Achor Turned Into Door of Hope' },
+                  { id: 'HOS-6', label: 'Ch 6 · Mercy Not Sacrifice & Sure as Dawn' },
+                  { id: 'HOS-11', label: 'Ch 11 · Cords of Loving Compassion Over Ephraim' },
+                  { id: 'HOS-14', label: 'Ch 14 · Healing Backsliding & Blossom Like Lily' },
+                ].map((shortcut) => (
+                  <button
+                    key={shortcut.id}
+                    onClick={() => handleSelect(shortcut.id)}
+                    className={`w-full text-left px-3 py-2 rounded-xl text-xs font-medium flex items-center justify-between transition-colors cursor-pointer ${
+                      currentChapterId === shortcut.id
+                        ? 'bg-[#F7EBE4] text-[#8F5338] font-semibold'
+                        : 'bg-[#F3EFE6] hover:bg-[#EBE5DA] text-[#2C2C2A]'
+                    }`}
+                  >
+                    <span>{shortcut.label}</span>
+                    {currentChapterId === shortcut.id && (
+                      <Check className="w-3.5 h-3.5 text-[#C88A6B]" />
+                    )}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {selectedBookTab === 'JOL' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>3 Chapters · Full WEB Text</span>
+                <span>73 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-3 gap-2 mb-4">
+                {joelChapterNumbers.map((num) => {
+                  const id = `JOL-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = JOEL_CHAPTERS[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Joel ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#C88A6B] text-white border-[#C88A6B] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#C88A6B]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+
+              <div className="pt-2 border-t border-[#E8E2D7] space-y-1.5">
+                <div className="text-[11px] font-bold uppercase tracking-wider text-[#76746E] px-1">
+                  Key Joel Moments
+                </div>
+                {[
+                  { id: 'JOL-1', label: 'Ch 1 · Locust Plague Awakening Judah to Prayer' },
+                  { id: 'JOL-2', label: 'Ch 2 · Rend Your Hearts & Spirit Poured on All' },
+                  { id: 'JOL-3', label: 'Ch 3 · Valley of Decision & Spring from Zion' },
+                ].map((shortcut) => (
+                  <button
+                    key={shortcut.id}
+                    onClick={() => handleSelect(shortcut.id)}
+                    className={`w-full text-left px-3 py-2 rounded-xl text-xs font-medium flex items-center justify-between transition-colors cursor-pointer ${
+                      currentChapterId === shortcut.id
+                        ? 'bg-[#F7EBE4] text-[#8F5338] font-semibold'
+                        : 'bg-[#F3EFE6] hover:bg-[#EBE5DA] text-[#2C2C2A]'
+                    }`}
+                  >
+                    <span>{shortcut.label}</span>
+                    {currentChapterId === shortcut.id && (
+                      <Check className="w-3.5 h-3.5 text-[#C88A6B]" />
+                    )}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {selectedBookTab === 'AMO' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>9 Chapters · Full WEB Text</span>
+                <span>146 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-3 gap-2 mb-4">
+                {amosChapterNumbers.map((num) => {
+                  const id = `AMO-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = AMOS_CHAPTERS[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Amos ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#C88A6B] text-white border-[#C88A6B] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#C88A6B]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+
+              <div className="pt-2 border-t border-[#E8E2D7] space-y-1.5">
+                <div className="text-[11px] font-bold uppercase tracking-wider text-[#76746E] px-1">
+                  Key Amos Turning Points
+                </div>
+                {[
+                  { id: 'AMO-3', label: 'Ch 3 · The Lion Has Roared — Who Will Not Prophesy?' },
+                  { id: 'AMO-5', label: 'Ch 5 · Let Justice Roll Down Like Mighty Waters' },
+                  { id: 'AMO-7', label: 'Ch 7 · Vision of the Plumb Line at Bethel' },
+                  { id: 'AMO-9', label: 'Ch 9 · Raising Up David’s Fallen Booth Forever' },
+                ].map((shortcut) => (
+                  <button
+                    key={shortcut.id}
+                    onClick={() => handleSelect(shortcut.id)}
+                    className={`w-full text-left px-3 py-2 rounded-xl text-xs font-medium flex items-center justify-between transition-colors cursor-pointer ${
+                      currentChapterId === shortcut.id
+                        ? 'bg-[#F7EBE4] text-[#8F5338] font-semibold'
+                        : 'bg-[#F3EFE6] hover:bg-[#EBE5DA] text-[#2C2C2A]'
+                    }`}
+                  >
+                    <span>{shortcut.label}</span>
+                    {currentChapterId === shortcut.id && (
+                      <Check className="w-3.5 h-3.5 text-[#C88A6B]" />
+                    )}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {selectedBookTab === 'OBA' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>1 Chapter · Full WEB Text</span>
+                <span>21 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-1 gap-2 mb-4">
+                {obadiahChapterNumbers.map((num) => {
+                  const id = `OBA-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = OBADIAH_CHAPTERS[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Obadiah ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#C88A6B] text-white border-[#C88A6B] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#C88A6B]/50'
+                      }`}
+                    >
+                      Chapter 1 · Whole Book (21 Verses)
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
           {selectedBookTab === 'FEATURED' && (
             <div className="space-y-2.5">
               {/* Genesis 1–50 */}
@@ -2864,6 +3132,33 @@ export const ChapterPickerModal: React.FC = () => {
                   </p>
                 </div>
                 {currentChapterId.startsWith('DAN-') && (
+                  <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
+                )}
+              </button>
+
+              {/* Hosea–Obadiah */}
+              <button
+                onClick={() => handleSelect('HOS-1')}
+                className={`w-full text-left p-3.5 rounded-2xl border transition-all flex items-center justify-between cursor-pointer ${
+                  currentChapterId.startsWith('HOS-') || currentChapterId.startsWith('JOL-') || currentChapterId.startsWith('AMO-') || currentChapterId.startsWith('OBA-')
+                    ? 'bg-[#EBF2ED] border-[#7A9A82] shadow-sm'
+                    : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+                }`}
+              >
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-serif font-bold text-[#2C2C2A] flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5 text-[#C88A6B]" /> Hosea–Obadiah
+                    </span>
+                    <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-[#F7EBE4] text-[#8F5338]">
+                      Full Books
+                    </span>
+                  </div>
+                  <p className="text-xs text-[#6B6862] mt-0.5">
+                    Unfailing love in Hosea, Spirit outpouring in Joel, rolling justice in Amos & Obadiah.
+                  </p>
+                </div>
+                {(currentChapterId.startsWith('HOS-') || currentChapterId.startsWith('JOL-') || currentChapterId.startsWith('AMO-') || currentChapterId.startsWith('OBA-')) && (
                   <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
                 )}
               </button>

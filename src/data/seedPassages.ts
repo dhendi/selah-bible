@@ -26,6 +26,10 @@ import { JEREMIAH_CHAPTERS } from './books/jeremiahChapters';
 import { LAMENTATIONS_CHAPTERS } from './books/lamentationsChapters';
 import { EZEKIEL_CHAPTERS } from './books/ezekielChapters';
 import { DANIEL_CHAPTERS } from './books/danielChapters';
+import { HOSEA_CHAPTERS } from './books/hoseaChapters';
+import { JOEL_CHAPTERS } from './books/joelChapters';
+import { AMOS_CHAPTERS } from './books/amosChapters';
+import { OBADIAH_CHAPTERS } from './books/obadiahChapters';
 
 export const SEED_CHAPTERS: Record<string, ChapterData> = {
   ...GENESIS_CHAPTERS,
@@ -55,4 +59,8 @@ export const SEED_CHAPTERS: Record<string, ChapterData> = {
   ...LAMENTATIONS_CHAPTERS,
   ...EZEKIEL_CHAPTERS,
   ...DANIEL_CHAPTERS,
+  ...HOSEA_CHAPTERS,
+  ...JOEL_CHAPTERS,
+  ...AMOS_CHAPTERS,
+  ...OBADIAH_CHAPTERS,
 };

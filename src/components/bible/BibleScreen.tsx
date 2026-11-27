@@ -33,6 +33,10 @@ const BOOK_SEQUENCE: { bookId: string; bookName: string; chapters: number }[] = 
   { bookId: 'LAM', bookName: 'Lamentations', chapters: 5 },
   { bookId: 'EZK', bookName: 'Ezekiel', chapters: 48 },
   { bookId: 'DAN', bookName: 'Daniel', chapters: 12 },
+  { bookId: 'HOS', bookName: 'Hosea', chapters: 14 },
+  { bookId: 'JOL', bookName: 'Joel', chapters: 3 },
+  { bookId: 'AMO', bookName: 'Amos', chapters: 9 },
+  { bookId: 'OBA', bookName: 'Obadiah', chapters: 1 },
 ];
 
 const ORDERED_CHAPTER_IDS: string[] = BOOK_SEQUENCE.flatMap((book) =>
