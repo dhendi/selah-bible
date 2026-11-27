@@ -1,6 +1,7 @@
 import React from 'react';
-import { LayoutGrid, Clock, Map, Search, Users } from 'lucide-react';
+import { BookOpenText, LayoutGrid, Clock, Map, Search, Users } from 'lucide-react';
 import { useStudyStore } from '../../store/useStudyStore';
+import { StoriesView } from './StoriesView';
 import { AssistedSearchView } from './AssistedSearchView';
 import { PeopleDirectoryView } from './PeopleDirectoryView';
 import { BookGridView } from './BookGridView';
@@ -18,12 +19,24 @@ export const ExploreScreen: React.FC = () => {
           Explore & Connect
         </h1>
         <p className="text-xs text-[#76746E] mt-0.5">
-          Search stories, meet biblical people, browse 66 books, or explore maps & eras.
+          Read illustrated stories, search scripture, meet biblical people, or explore 66 books, timelines & maps.
         </p>
       </header>
 
       {/* Segmented Control */}
-      <div className="bg-[#F3EFE6] p-1 rounded-2xl border border-[#E5DFD5] grid grid-cols-5 gap-0.5 mb-5">
+      <div className="bg-[#F3EFE6] p-1 rounded-2xl border border-[#E5DFD5] grid grid-cols-3 sm:grid-cols-6 gap-1 mb-5">
+        <button
+          onClick={() => setExploreView('stories')}
+          className={`py-2 px-1 rounded-xl text-[0.625rem] sm:text-[0.6875rem] font-semibold flex flex-col sm:flex-row items-center justify-center gap-0.5 sm:gap-1 transition-all cursor-pointer ${
+            exploreView === 'stories'
+              ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+              : 'text-[#76746E] hover:text-[#2C2C2A]'
+          }`}
+        >
+          <BookOpenText className="w-3.5 h-3.5 text-[#8B3A2B]" />
+          <span>Stories</span>
+        </button>
+
         <button
           onClick={() => setExploreView('search')}
           className={`py-2 px-1 rounded-xl text-[0.625rem] sm:text-[0.6875rem] font-semibold flex flex-col sm:flex-row items-center justify-center gap-0.5 sm:gap-1 transition-all cursor-pointer ${
@@ -87,6 +100,7 @@ export const ExploreScreen: React.FC = () => {
 
       {/* Dynamic Content */}
       <main className="animate-fade-in">
+        {exploreView === 'stories' && <StoriesView />}
         {exploreView === 'search' && <AssistedSearchView />}
         {exploreView === 'people' && <PeopleDirectoryView />}
         {exploreView === 'grid' && <BookGridView />}

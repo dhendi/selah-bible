@@ -254,3 +254,42 @@ export interface MapLocationPin {
   keyPassage: string;
   region?: 'near-east' | 'mediterranean';
 }
+
+export interface BibleStoryRef {
+  label: string;
+  chapterId: string;
+  verseNumber: number;
+}
+
+export interface BibleStoryBeat {
+  id: string;
+  beatNumber: number;
+  title: string;
+  narrative: string;
+  imageUrl: string;
+  imageAlt: string;
+  scriptureRefs: BibleStoryRef[];
+}
+
+export interface BibleStoryLesson {
+  title: string;
+  description: string;
+  anchorRef?: BibleStoryRef;
+}
+
+export interface BibleStory {
+  id: string;
+  slug: string;
+  title: string;
+  subtitle: string;
+  testament: Testament;
+  category: 'Old Testament Classics' | 'Parables of Jesus';
+  scriptureRange: string;
+  readingTimeMinutes: number;
+  coverImageUrl: string;
+  primaryChapterId: string;
+  summary: string;
+  beats: BibleStoryBeat[];
+  lessonsLearned: BibleStoryLesson[];
+  reflectionPrompt: string;
+}

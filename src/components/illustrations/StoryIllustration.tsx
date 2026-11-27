@@ -712,6 +712,17 @@ export function resolveStoryIllustrationAsset(
     }
   }
 
+  if (key.startsWith('story-')) {
+    const coverMap: Record<string, { src: string; alt: string }> = {
+      'story-noah-flood': { src: '/images/stories/noah-2.jpg', alt: 'Noah and the Great Flood' },
+      'story-david-goliath': { src: '/images/stories/david-goliath-4.jpg', alt: 'David and Goliath' },
+      'story-daniel-lions': { src: '/images/stories/daniel-lions-4.jpg', alt: 'Daniel in the Lions Den' },
+      'story-good-samaritan': { src: '/images/stories/good-samaritan-4.jpg', alt: 'The Good Samaritan' },
+      'story-prodigal-son': { src: '/images/stories/prodigal-son-4.jpg', alt: 'The Prodigal Son' },
+    };
+    if (coverMap[key]) return coverMap[key];
+  }
+
   if (key.startsWith('/images/')) {
     return {
       src: key,

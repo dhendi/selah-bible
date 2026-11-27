@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { ArrowRight, BookOpen } from 'lucide-react';
+import { ArrowRight, BookOpen, BookOpenText } from 'lucide-react';
 import { useStudyStore } from '../../store/useStudyStore';
 import { MiniQuizModal } from '../quiz/MiniQuizModal';
 import { getWordStudyForChapter } from '../../data/wordOfTheDay';
 import { preloadBookForChapter, useChapterData } from '../../data/bookLoader';
+import { assetUrl } from '../../utils/assetUrl';
 import {
   BIBLE_BOOK_GROUPS,
   PICKER_BOOK_MAP,
@@ -73,6 +74,7 @@ export const TodayScreen: React.FC = () => {
   const {
     progress,
     navigateToPassage,
+    navigateToStory,
     openEntitySheet,
     currentChapterId,
     setShowChapterPicker,
@@ -215,6 +217,33 @@ export const TodayScreen: React.FC = () => {
             <span>Begin short review</span>
             <ArrowRight className="w-3 h-3 transform group-hover:translate-x-0.5 transition-transform" />
           </div>
+        </button>
+      </section>
+
+      {/* 2.5 Illustrated Bible Stories & Parables Spotlight */}
+      <section className="pb-7 mb-7 border-b border-[#E2DACB]">
+        <button
+          onClick={() => navigateToStory(null)}
+          className="w-full text-left p-4 bg-[#F4EFE4]/70 hover:bg-[#F4EFE4] border border-[#E2DACB] transition-colors group cursor-pointer flex items-center gap-4"
+        >
+          <img
+            src={assetUrl('/images/stories/david-goliath-4.jpg')}
+            alt="Illustrated Bible Stories"
+            className="w-20 h-16 sm:w-24 sm:h-20 object-cover rounded-sm border border-[#D6CCBA] flex-shrink-0"
+          />
+          <div className="min-w-0 flex-1">
+            <div className="flex items-center gap-1.5 text-[0.625rem] uppercase tracking-[0.16em] text-[#8B3A2B] font-semibold">
+              <BookOpenText className="w-3 h-3" />
+              <span>Illustrated Stories · 5 Classics</span>
+            </div>
+            <div className="font-serif font-semibold text-base text-[#24221E] mt-0.5 group-hover:text-[#8B3A2B] transition-colors">
+              Famous Stories &amp; Parables
+            </div>
+            <p className="text-xs text-[#666158] mt-0.5 line-clamp-2">
+              Noah, David &amp; Goliath, Daniel, Good Samaritan &amp; Prodigal Son — 6 scenes each with scripture links &amp; lessons learned.
+            </p>
+          </div>
+          <ArrowRight className="w-4 h-4 text-[#8B3A2B] flex-shrink-0 transform group-hover:translate-x-0.5 transition-transform" />
         </button>
       </section>
 

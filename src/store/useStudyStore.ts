@@ -96,7 +96,7 @@ class StudyStore {
   private showTypographyDrawer = false;
   private showChapterPicker = false;
   private showVisualHookHeader = true;
-  private exploreView: 'search' | 'people' | 'grid' | 'timeline' | 'map' = 'search';
+  private exploreView: 'stories' | 'search' | 'people' | 'grid' | 'timeline' | 'map' = 'search';
   private selectedExploreItem: string | null = null;
   private listeners: Set<() => void> = new Set();
 
@@ -352,7 +352,7 @@ class StudyStore {
     this.notify();
   }
 
-  public setExploreView(view: 'search' | 'people' | 'grid' | 'timeline' | 'map', itemId: string | null = null) {
+  public setExploreView(view: 'stories' | 'search' | 'people' | 'grid' | 'timeline' | 'map', itemId: string | null = null) {
     this.exploreView = view;
     this.selectedExploreItem = itemId;
     this.notify();
@@ -645,6 +645,13 @@ class StudyStore {
     this.notify();
   }
 
+  public navigateToStory(storyId: string | null = null) {
+    this.activeTab = 'explore';
+    this.exploreView = 'stories';
+    this.selectedExploreItem = storyId;
+    this.notify();
+  }
+
   public closeTopOverlay(): boolean {
     if (this.showTypographyDrawer) {
       this.setShowTypographyDrawer(false);
@@ -745,7 +752,7 @@ export function useStudyStore() {
     setShowTypographyDrawer: (show: boolean) => globalStore.setShowTypographyDrawer(show),
     setShowChapterPicker: (show: boolean) => globalStore.setShowChapterPicker(show),
     setShowVisualHookHeader: (show: boolean) => globalStore.setShowVisualHookHeader(show),
-    setExploreView: (view: 'search' | 'people' | 'grid' | 'timeline' | 'map', itemId?: string | null) => globalStore.setExploreView(view, itemId),
+    setExploreView: (view: 'stories' | 'search' | 'people' | 'grid' | 'timeline' | 'map', itemId?: string | null) => globalStore.setExploreView(view, itemId),
     updatePreferences: (prefs: Partial<ReaderPreferences>) => globalStore.updatePreferences(prefs),
     setExperienceLevel: (lvl: 'beginner' | 'moderate' | 'deep') => globalStore.setExperienceLevel(lvl),
     completeOnboarding: () => globalStore.completeOnboarding(),
@@ -770,5 +777,6 @@ export function useStudyStore() {
     navigateToEntityInReader: (chapId: string, entityId: string) => globalStore.navigateToEntityInReader(chapId, entityId),
     navigateToMapPin: (pinId: string) => globalStore.navigateToMapPin(pinId),
     navigateToTimelineEra: (eraId: string) => globalStore.navigateToTimelineEra(eraId),
+    navigateToStory: (storyId?: string | null) => globalStore.navigateToStory(storyId),
   };
 }
