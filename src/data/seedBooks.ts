@@ -1040,4 +1040,7 @@ export const BUILT_BOOK_START_CHAPTER: Record<string, string> = {
   GAL: 'GAL-1',
   EPH: 'EPH-1',
   PHP: 'PHP-1',
+  COL: 'COL-1',
+  '1TH': '1TH-1',
+  '2TH': '2TH-1',
 };

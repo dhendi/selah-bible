@@ -547,6 +547,12 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'term-armor-of-god': '/images/eph-06.jpg',
   'term-joy-chara': '/images/php-04.jpg',
   'term-humility-kenosis': '/images/php-02.jpg',
+  'char-epaphras': '/images/portrait-epaphras.jpg',
+  'char-onesimus': '/images/portrait-onesimus.jpg',
+  'char-mark': '/images/portrait-mark.jpg',
+  'term-preeminence-supremacy': '/images/col-01.jpg',
+  'term-parousia-coming': '/images/1th-04.jpg',
+  'term-sanctification-hagiasmos': '/images/1th-05.jpg',
 };
 
 export interface ResolvedEntityAsset {

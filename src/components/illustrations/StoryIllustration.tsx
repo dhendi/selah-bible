@@ -532,6 +532,36 @@ function resolveChapterAsset(key: string): { src: string; alt: string } | undefi
       };
     }
   }
+  const colMatch = /^ill-col-(\d+)$/.exec(key);
+  if (colMatch) {
+    const ch = Number(colMatch[1]);
+    if (ch >= 1 && ch <= 4) {
+      return {
+        src: `/images/col-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Colossians ${ch} illustration`,
+      };
+    }
+  }
+  const th1Match = /^ill-1th-(\d+)$/.exec(key);
+  if (th1Match) {
+    const ch = Number(th1Match[1]);
+    if (ch >= 1 && ch <= 5) {
+      return {
+        src: `/images/1th-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `1 Thessalonians ${ch} illustration`,
+      };
+    }
+  }
+  const th2Match = /^ill-2th-(\d+)$/.exec(key);
+  if (th2Match) {
+    const ch = Number(th2Match[1]);
+    if (ch >= 1 && ch <= 3) {
+      return {
+        src: `/images/2th-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `2 Thessalonians ${ch} illustration`,
+      };
+    }
+  }
   return undefined;
 }
 

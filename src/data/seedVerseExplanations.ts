@@ -1936,6 +1936,27 @@ const BOOK_EXPLANATION_TEMPLATES: Record<string, BookExplanationTemplate> = {
     action: (ref) => `Rejoice in one concrete mercy today and lift someone else ahead of yourself alongside ${ref}.`,
     kid: (s) => `${s} Even in tough spots, Jesus’ joy shines brightly inside hearts that trust Him!`,
   },
+  COL: {
+    bookName: 'Colossians',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, Christ holds supremacy over every cosmic power and clothes believers in tenderhearted compassion, forgiveness, and peace.`,
+    action: (ref) => `Speak one gracious, peacemaking word today seasoned with salt alongside ${ref}.`,
+    kid: (s) => `${s} Jesus holds the whole universe together—and cares deeply for ordinary families and friends!`,
+  },
+  '1TH': {
+    bookName: '1 Thessalonians',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, steadfast faith, loving labor, and resurrection hope at Jesus’ return turn mourning sorrow into quiet joy.`,
+    action: (ref) => `Encourage a weary friend today with the steady promise of Jesus’ faithful care in ${ref}.`,
+    kid: (s) => `${s} Jesus remembers every loving thing we do and keeps His promise to return for us!`,
+  },
+  '2TH': {
+    bookName: '2 Thessalonians',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, God steadies shaken hearts with eternal comfort so believers work quietly and never grow weary in doing good.`,
+    action: (ref) => `Practice quiet, steady kindness in your daily work today alongside ${ref}.`,
+    kid: (s) => `${s} God gives calm peace to help us stay steady and keep doing good every day!`,
+  },
 };
 
 export function getExplanationForVerse(

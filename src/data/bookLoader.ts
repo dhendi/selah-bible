@@ -55,6 +55,9 @@ const BOOK_IMPORTERS: Record<string, ChapterLoader> = {
   GAL: () => import('./books/galatiansChapters').then((m) => m.GALATIANS_CHAPTERS),
   EPH: () => import('./books/ephesiansChapters').then((m) => m.EPHESIANS_CHAPTERS),
   PHP: () => import('./books/philippiansChapters').then((m) => m.PHILIPPIANS_CHAPTERS),
+  COL: () => import('./books/colossiansChapters').then((m) => m.COLOSSIANS_CHAPTERS),
+  '1TH': () => import('./books/firstThessaloniansChapters').then((m) => m.FIRST_THESSALONIANS_CHAPTERS),
+  '2TH': () => import('./books/secondThessaloniansChapters').then((m) => m.SECOND_THESSALONIANS_CHAPTERS),
 };
 
 const bookCache: Record<string, ChapterMap> = {};
