@@ -442,6 +442,26 @@ function resolveChapterAsset(key: string): { src: string; alt: string } | undefi
       };
     }
   }
+  const lukMatch = /^ill-luk-(\d+)$/.exec(key);
+  if (lukMatch) {
+    const ch = Number(lukMatch[1]);
+    if (ch >= 1 && ch <= 24) {
+      return {
+        src: `/images/luk-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Luke ${ch} illustration`,
+      };
+    }
+  }
+  const jhnMatch = /^ill-jhn-(\d+)$/.exec(key);
+  if (jhnMatch) {
+    const ch = Number(jhnMatch[1]);
+    if (ch >= 1 && ch <= 21) {
+      return {
+        src: `/images/jhn-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `John ${ch} illustration`,
+      };
+    }
+  }
   return undefined;
 }
 

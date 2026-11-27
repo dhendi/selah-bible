@@ -1873,6 +1873,20 @@ const BOOK_EXPLANATION_TEMPLATES: Record<string, BookExplanationTemplate> = {
     action: (ref) => `Serve someone quietly today without seeking spotlight, remembering ${ref}.`,
     kid: (s) => `${s} Jesus wastes no time loving people, calming storms, and bringing peace!`,
   },
+  LUK: {
+    bookName: 'Luke',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, the Savior of the world seeks and welcomes lost outsiders with overflowing Fatherly mercy.`,
+    action: (ref) => `Look for someone sitting overlooked nearby and offer warm table fellowship inspired by ${ref}.`,
+    kid: (s) => `${s} Jesus loves running to hug lost friends and celebrating when they come home!`,
+  },
+  JHN: {
+    bookName: 'John',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, the eternal Word made flesh reveals the Father’s heart so everyone who believes may have abundant life.`,
+    action: (ref) => `Abide quietly in Jesus’ love today and share a bright word of life drawn from ${ref}.`,
+    kid: (s) => `${s} Jesus is our Good Shepherd and True Light who knows every friend by name!`,
+  },
 };
 
 export function getExplanationForVerse(
