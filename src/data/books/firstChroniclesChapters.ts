@@ -7941,8 +7941,8 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "term-ark-of-covenant"
           },
           {
-            "spanText": "Edom",
-            "entityId": "place-edom"
+            "spanText": "Obed-Edom",
+            "entityId": "char-obed-edom"
           }
         ]
       },
@@ -7965,8 +7965,8 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "term-ark-of-covenant"
           },
           {
-            "spanText": "Edom",
-            "entityId": "place-edom"
+            "spanText": "Obed-Edom",
+            "entityId": "char-obed-edom"
           }
         ]
       }
@@ -8706,8 +8706,8 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-benaiah"
           },
           {
-            "spanText": "Edom",
-            "entityId": "place-edom"
+            "spanText": "Obed-Edom",
+            "entityId": "char-obed-edom"
           }
         ]
       },
@@ -8766,8 +8766,8 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1ch-15",
         "linkedEntities": [
           {
-            "spanText": "Edom",
-            "entityId": "place-edom"
+            "spanText": "Obed-Edom",
+            "entityId": "char-obed-edom"
           }
         ]
       },
@@ -8826,16 +8826,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "term-ark-of-covenant"
           },
           {
-            "spanText": "Edom",
-            "entityId": "place-edom"
-          },
-          {
             "spanText": "trumpets",
             "entityId": "term-trumpets"
           },
           {
             "spanText": "priests",
             "entityId": "term-priest"
+          },
+          {
+            "spanText": "Obed-Edom",
+            "entityId": "char-obed-edom"
           }
         ]
       },
@@ -8870,8 +8870,8 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "term-israel"
           },
           {
-            "spanText": "Edom",
-            "entityId": "place-edom"
+            "spanText": "Obed-Edom",
+            "entityId": "char-obed-edom"
           }
         ]
       },
@@ -9119,8 +9119,8 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-asaph"
           },
           {
-            "spanText": "Edom",
-            "entityId": "place-edom"
+            "spanText": "Obed-Edom",
+            "entityId": "char-obed-edom"
           }
         ]
       },
@@ -9647,8 +9647,8 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-jeduthun"
           },
           {
-            "spanText": "Edom",
-            "entityId": "place-edom"
+            "spanText": "Obed-Edom",
+            "entityId": "char-obed-edom"
           }
         ]
       },
@@ -13886,8 +13886,8 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1ch-26",
         "linkedEntities": [
           {
-            "spanText": "Edom",
-            "entityId": "place-edom"
+            "spanText": "Obed-Edom",
+            "entityId": "char-obed-edom"
           }
         ]
       },
@@ -13940,8 +13940,8 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1ch-26",
         "linkedEntities": [
           {
-            "spanText": "Edom",
-            "entityId": "place-edom"
+            "spanText": "Obed-Edom",
+            "entityId": "char-obed-edom"
           }
         ]
       },
@@ -14032,8 +14032,8 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-1ch-26",
         "linkedEntities": [
           {
-            "spanText": "Edom",
-            "entityId": "place-edom"
+            "spanText": "Obed-Edom",
+            "entityId": "char-obed-edom"
           }
         ]
       },
