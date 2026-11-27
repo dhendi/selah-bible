@@ -879,7 +879,12 @@ export const ZECHARIAH_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to me, “What do you see?” I said, “I have seen, and behold, a lamp stand all of gold, with its bowl on the top of it, and its seven lamps on it; there are seven pipes to each of the lamps, which are on the top of it;",
         "translation": "WEB",
         "illustrationId": "ill-zec-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "lamp stand",
+            "entityId": "term-menorah"
+          }
+        ]
       },
       {
         "id": "ZEC-4:3",
@@ -1032,6 +1037,10 @@ export const ZECHARIAH_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "olive",
             "entityId": "term-olive-branch"
+          },
+          {
+            "spanText": "lamp stand",
+            "entityId": "term-menorah"
           }
         ]
       },
