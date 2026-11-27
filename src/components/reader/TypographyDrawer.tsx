@@ -134,8 +134,8 @@ export const TypographyDrawer: React.FC = () => {
           {/* Highlight Connections toggle */}
           <label className="flex items-center justify-between p-3 rounded-xl bg-[#F3EFE6] border border-[#E5DFD5] cursor-pointer">
             <div>
-              <div className="text-xs font-semibold text-[#2C2C2A]">Highlight Connected Concepts</div>
-              <div className="text-[11px] text-[#76746E]">Soft sage underlines on theological and historical words</div>
+              <div className="text-xs font-semibold text-[#2C2C2A]">Mark Study Terms</div>
+              <div className="text-[11px] text-[#76746E]">Subtle dotted ink underlines on linked words and people</div>
             </div>
             <input
               type="checkbox"

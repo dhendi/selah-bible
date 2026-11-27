@@ -1,10 +1,9 @@
 import React, { Suspense, lazy } from 'react';
 import {
-  Calendar,
+  Bookmark,
   BookOpen,
-  Book,
   Compass,
-  Library,
+  PenLine,
 } from 'lucide-react';
 import { useStudyStore } from './store/useStudyStore';
 import { TodayScreen } from './components/today/TodayScreen';
@@ -15,10 +14,6 @@ const ContextualBottomSheet = lazy(() =>
     default: m.ContextualBottomSheet,
   }))
 );
-
-const BibleScreen = lazy(() =>
-  import('./components/bible/BibleScreen').then((m) => ({ default: m.BibleScreen }))
-);
 const ReaderScreen = lazy(() =>
   import('./components/reader/ReaderScreen').then((m) => ({ default: m.ReaderScreen }))
 );
@@ -27,6 +22,11 @@ const ExploreScreen = lazy(() =>
 );
 const LibraryScreen = lazy(() =>
   import('./components/library/LibraryScreen').then((m) => ({ default: m.LibraryScreen }))
+);
+const ChapterPickerModal = lazy(() =>
+  import('./components/reader/ChapterPickerModal').then((m) => ({
+    default: m.ChapterPickerModal,
+  }))
 );
 const ExplainVerseBottomSheet = lazy(() =>
   import('./components/reader/ExplainVerseBottomSheet').then((m) => ({
@@ -48,160 +48,114 @@ const CharacterCardModal = lazy(() =>
 );
 
 export const App: React.FC = () => {
-  const { activeTab, setActiveTab, preferences } = useStudyStore();
+  const { activeTab, setActiveTab, preferences, showChapterPicker } = useStudyStore();
 
-  // Global typography style resolution
   const getGlobalFontClass = () => {
     if (preferences.isDyslexicFont) return 'font-dyslexic';
     return 'font-sans';
   };
 
+  const isReaderTab = activeTab === 'read' || activeTab === 'bible';
+
   return (
-    <div className={`min-h-[100dvh] bg-[#FAF7F2] sm:bg-[#F0ECE1] text-[#2C2C2A] flex flex-col items-center justify-start ${getGlobalFontClass()}`}>
-      {/* Top Brand Header */}
-      <nav className="w-full bg-[#FAF7F2]/90 sm:bg-[#E8E2D7]/80 backdrop-blur-xs border-b border-[#E8E2D7] sm:border-[#DDD6C8] px-4 py-2.5 flex items-center justify-between text-xs text-[#6B6862] sticky top-0 z-40">
-        <div className="flex items-center gap-2">
-          <span className="font-serif font-bold text-[#2C2C2A] text-sm flex items-center gap-1.5">
-            <span className="w-2.5 h-2.5 rounded-full bg-[#7A9A82]" />
-            Selah
+    <div
+      className={`min-h-[100dvh] bg-[#FBF8F1] sm:bg-[#EAE3D4] text-[#24221E] flex flex-col items-center justify-start ${getGlobalFontClass()}`}
+    >
+      {/* Subtle Top Book Spine Bar */}
+      <nav className="w-full bg-[#FBF8F1]/95 sm:bg-[#E4DCCB]/85 backdrop-blur-xs border-b border-[#DDD3C1] px-4 py-2 flex items-center justify-between text-xs text-[#666158] sticky top-0 z-40">
+        <div className="max-w-3xl w-full mx-auto flex items-center justify-between">
+          <span className="font-serif font-semibold text-[#24221E] text-sm flex items-center gap-2 tracking-wide">
+            <span className="w-1.5 h-3.5 bg-[#8B3A2B] inline-block rounded-[1px]" />
+            <span>Selah</span>
           </span>
-          <span className="text-[11px] text-[#76746E] truncate">
-            Connected Bible Study
+          <span className="text-[10px] uppercase tracking-[0.18em] text-[#666158]">
+            Illustrated Study Bible
           </span>
         </div>
       </nav>
 
-      {/* Main Responsive Web / Tablet / Mobile Container */}
-      <div className="w-full flex-1 flex flex-col justify-start items-center p-0 sm:p-6">
-        <div className="relative w-full bg-[#FAF7F2] sm:max-w-4xl min-h-[calc(100dvh-2.75rem)] sm:min-h-[85dvh] sm:rounded-3xl sm:shadow-sm sm:border sm:border-[#E5DFD5] flex flex-col">
-          {/* Active Screen View Container */}
+      {/* Main Book Page Sheet */}
+      <div className="w-full flex-1 flex flex-col justify-start items-center p-0 sm:py-6 sm:px-4">
+        <div className="relative w-full bg-[#FBF8F1] sm:max-w-3xl min-h-[calc(100dvh-2.5rem)] sm:min-h-[85dvh] sm:rounded-[4px] sm:border sm:border-[#D6CCBA] book-sheet flex flex-col">
+          {/* Active Screen Content */}
           <div className="flex-1 w-full relative">
             <Suspense
               fallback={
-                <div className="min-h-[60vh] flex items-center justify-center text-sm text-[#76746E] font-serif">
-                  Loading view…
+                <div className="min-h-[60vh] flex items-center justify-center text-sm text-[#666158] font-serif italic">
+                  Opening page…
                 </div>
               }
             >
               {activeTab === 'today' && <TodayScreen />}
-              {activeTab === 'read' && <ReaderScreen />}
-              {activeTab === 'bible' && <BibleScreen />}
+              {isReaderTab && <ReaderScreen />}
               {activeTab === 'explore' && <ExploreScreen />}
               {activeTab === 'library' && <LibraryScreen />}
             </Suspense>
           </div>
 
-          {/* ================= BOTTOM NAVIGATION BAR ================= */}
-          <footer className="sticky bottom-0 left-0 right-0 z-30 bg-[#FAF7F2]/95 backdrop-blur-md border-t border-[#E8E2D7] px-2 pt-2 pb-[max(1rem,env(safe-area-inset-bottom))] flex items-center justify-around shadow-sm select-none">
-            {/* Tab 1: Today */}
+          {/* Quiet Editorial Bottom Navigation */}
+          <footer className="sticky bottom-0 left-0 right-0 z-30 bg-[#FBF8F1]/95 backdrop-blur-xs border-t border-[#DDD3C1] px-4 pt-0 pb-[max(0.75rem,env(safe-area-inset-bottom))] flex items-center justify-around select-none">
             <button
               onClick={() => setActiveTab('today')}
-              className={`flex flex-col items-center justify-center gap-1 py-1 px-2.5 rounded-2xl transition-all cursor-pointer ${
+              className={`flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-3 border-t-2 transition-colors cursor-pointer ${
                 activeTab === 'today'
-                  ? 'text-[#2C2C2A] font-bold'
-                  : 'text-[#8E8B83] hover:text-[#55534E]'
+                  ? 'border-[#8B3A2B] text-[#24221E] font-semibold'
+                  : 'border-transparent text-[#8C867B] hover:text-[#24221E]'
               }`}
             >
-              <div
-                className={`p-1 rounded-xl transition-colors ${
-                  activeTab === 'today' ? 'bg-[#7A9A82]/15 text-[#5A7D63]' : ''
-                }`}
-              >
-                <Calendar className="w-5 h-5" />
-              </div>
-              <span className="text-[11px] tracking-tight">Today</span>
+              <Bookmark className="w-4 h-4" />
+              <span className="text-[11px] font-serif tracking-wide">Bookmark</span>
             </button>
 
-            {/* Tab 2: Study Reader */}
             <button
               onClick={() => setActiveTab('read')}
-              className={`flex flex-col items-center justify-center gap-1 py-1 px-2.5 rounded-2xl transition-all cursor-pointer ${
-                activeTab === 'read'
-                  ? 'text-[#2C2C2A] font-bold'
-                  : 'text-[#8E8B83] hover:text-[#55534E]'
+              className={`flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-3 border-t-2 transition-colors cursor-pointer ${
+                isReaderTab
+                  ? 'border-[#8B3A2B] text-[#24221E] font-semibold'
+                  : 'border-transparent text-[#8C867B] hover:text-[#24221E]'
               }`}
             >
-              <div
-                className={`p-1 rounded-xl transition-colors ${
-                  activeTab === 'read' ? 'bg-[#7A9A82]/15 text-[#5A7D63]' : ''
-                }`}
-              >
-                <BookOpen className="w-5 h-5" />
-              </div>
-              <span className="text-[11px] tracking-tight">Read</span>
+              <BookOpen className="w-4 h-4" />
+              <span className="text-[11px] font-serif tracking-wide">Bible</span>
             </button>
 
-            {/* Tab 3: Pure Bible */}
-            <button
-              onClick={() => setActiveTab('bible')}
-              className={`flex flex-col items-center justify-center gap-1 py-1 px-2.5 rounded-2xl transition-all cursor-pointer ${
-                activeTab === 'bible'
-                  ? 'text-[#2C2C2A] font-bold'
-                  : 'text-[#8E8B83] hover:text-[#55534E]'
-              }`}
-            >
-              <div
-                className={`p-1 rounded-xl transition-colors ${
-                  activeTab === 'bible' ? 'bg-[#7A9A82]/15 text-[#5A7D63]' : ''
-                }`}
-              >
-                <Book className="w-5 h-5" />
-              </div>
-              <span className="text-[11px] tracking-tight">Bible</span>
-            </button>
-
-            {/* Tab 4: Explore */}
             <button
               onClick={() => setActiveTab('explore')}
-              className={`flex flex-col items-center justify-center gap-1 py-1 px-2.5 rounded-2xl transition-all cursor-pointer ${
+              className={`flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-3 border-t-2 transition-colors cursor-pointer ${
                 activeTab === 'explore'
-                  ? 'text-[#2C2C2A] font-bold'
-                  : 'text-[#8E8B83] hover:text-[#55534E]'
+                  ? 'border-[#8B3A2B] text-[#24221E] font-semibold'
+                  : 'border-transparent text-[#8C867B] hover:text-[#24221E]'
               }`}
             >
-              <div
-                className={`p-1 rounded-xl transition-colors ${
-                  activeTab === 'explore' ? 'bg-[#7A9A82]/15 text-[#5A7D63]' : ''
-                }`}
-              >
-                <Compass className="w-5 h-5" />
-              </div>
-              <span className="text-[11px] tracking-tight">Explore</span>
+              <Compass className="w-4 h-4" />
+              <span className="text-[11px] font-serif tracking-wide">Explore</span>
             </button>
 
-            {/* Tab 5: Library */}
             <button
               onClick={() => setActiveTab('library')}
-              className={`flex flex-col items-center justify-center gap-1 py-1 px-2.5 rounded-2xl transition-all cursor-pointer ${
+              className={`flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-3 border-t-2 transition-colors cursor-pointer ${
                 activeTab === 'library'
-                  ? 'text-[#2C2C2A] font-bold'
-                  : 'text-[#8E8B83] hover:text-[#55534E]'
+                  ? 'border-[#8B3A2B] text-[#24221E] font-semibold'
+                  : 'border-transparent text-[#8C867B] hover:text-[#24221E]'
               }`}
             >
-              <div
-                className={`p-1 rounded-xl transition-colors ${
-                  activeTab === 'library' ? 'bg-[#7A9A82]/15 text-[#5A7D63]' : ''
-                }`}
-              >
-                <Library className="w-5 h-5" />
-              </div>
-              <span className="text-[11px] tracking-tight">Library</span>
+              <PenLine className="w-4 h-4" />
+              <span className="text-[11px] font-serif tracking-wide">Journal</span>
             </button>
           </footer>
-
-          {/* Global Context & Study Modals */}
-          <Suspense fallback={null}>
-            <ContextualBottomSheet />
-            <CharacterCardModal />
-            <ExplainVerseBottomSheet />
-            <SmartJournalModal />
-            <ShareVerseModal />
-          </Suspense>
-
-          {/* Onboarding Overlay Flow (First Launch or Triggered) */}
-          <OnboardingFlow />
         </div>
       </div>
+
+      {/* Global Overlays */}
+      <OnboardingFlow />
+      <Suspense fallback={null}>
+        {showChapterPicker && <ChapterPickerModal />}
+        <ContextualBottomSheet />
+        <ExplainVerseBottomSheet />
+        <SmartJournalModal />
+        <ShareVerseModal />
+        <CharacterCardModal />
+      </Suspense>
     </div>
   );
 };

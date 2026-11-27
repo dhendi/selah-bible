@@ -2390,3 +2390,29 @@ export function parseBookIdFromChapter(chapterId: string): BibleBookId {
   const candidate = (dashIdx >= 0 ? chapterId.slice(0, dashIdx) : chapterId) as BibleBookId;
   return candidate in PICKER_BOOK_MAP ? candidate : 'GEN';
 }
+
+export const ORDERED_CHAPTER_IDS: string[] = PICKER_BOOKS.flatMap((book) =>
+  Array.from({ length: book.chapters }, (_, i) => `${book.id}-${i + 1}`)
+);
+
+export function getAdjacentChapters(chapterId: string): {
+  prevChapterId: string | null;
+  nextChapterId: string | null;
+} {
+  const idx = ORDERED_CHAPTER_IDS.indexOf(chapterId);
+  if (idx < 0) return { prevChapterId: null, nextChapterId: null };
+  return {
+    prevChapterId: idx > 0 ? ORDERED_CHAPTER_IDS[idx - 1] : null,
+    nextChapterId: idx < ORDERED_CHAPTER_IDS.length - 1 ? ORDERED_CHAPTER_IDS[idx + 1] : null,
+  };
+}
+
+export function formatChapterTitle(chapterId: string | null): string {
+  if (!chapterId) return '';
+  const dash = chapterId.indexOf('-');
+  if (dash < 0) return chapterId;
+  const bookId = chapterId.slice(0, dash) as BibleBookId;
+  const chNum = chapterId.slice(dash + 1);
+  const meta = PICKER_BOOK_MAP[bookId];
+  return meta ? `${meta.title} ${chNum}` : chapterId;
+}

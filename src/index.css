@@ -1,29 +1,32 @@
 @import "tailwindcss";
 
 @theme {
-  --color-paper: #FAF7F2;
-  --color-paper-subtle: #F6F2EA;
-  --color-card: #F3EFE6;
-  --color-card-elevated: #EDE7DC;
-  --color-card-border: #E5DFD5;
-  --color-card-border-soft: #DDD6C8;
+  --color-paper: #FBF8F1;
+  --color-paper-subtle: #F4EFE4;
+  --color-desk: #EAE3D4;
+  --color-card: #F5F0E6;
+  --color-card-elevated: #ECE5D8;
+  --color-card-border: #E2DACB;
+  --color-card-border-soft: #D6CCBA;
   
-  --color-charcoal: #2C2C2A;
-  --color-charcoal-muted: #6B6862;
-  --color-charcoal-subtle: #96938B;
+  --color-charcoal: #24221E;
+  --color-charcoal-muted: #666158;
+  --color-charcoal-subtle: #8C867B;
   
   --color-sage: #7A9A82;
-  --color-sage-dark: #64826C;
+  --color-sage-dark: #5A7D63;
   --color-sage-light: #EBF2ED;
-  --color-sage-subtle: rgba(122, 154, 130, 0.15);
+  --color-sage-subtle: rgba(122, 154, 130, 0.14);
   
+  --color-rubric: #8B3A2B;
+  --color-rubric-soft: rgba(139, 58, 43, 0.12);
   --color-terracotta: #C88A6B;
   --color-terracotta-dark: #B07456;
   --color-terracotta-light: #FAECE5;
   --color-terracotta-subtle: rgba(200, 138, 107, 0.15);
 
   --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-serif: 'Lora', 'Newsreader', Georgia, serif;
+  --font-serif: 'Newsreader', 'Lora', Georgia, serif;
   --font-dyslexic: 'Lexend', sans-serif;
   --font-hebrew: 'Noto Serif Hebrew', 'Times New Roman', serif;
 }
@@ -37,13 +40,41 @@
   html, body {
     margin: 0;
     padding: 0;
-    background-color: #FAF7F2;
-    color: #2C2C2A;
+    background-color: #FBF8F1;
+    color: #24221E;
     font-family: var(--font-sans);
     min-height: 100vh;
     min-height: 100dvh;
     overscroll-behavior-y: none;
   }
+}
+
+/* Printed Book Sheet & Heirloom Paper Surfaces */
+@media (min-width: 640px) {
+  .book-sheet {
+    box-shadow:
+      0 1px 2px rgba(44, 38, 28, 0.05),
+      0 18px 44px -22px rgba(44, 38, 28, 0.22),
+      inset 14px 0 26px -22px rgba(92, 74, 48, 0.18),
+      inset -2px 0 6px -4px rgba(92, 74, 48, 0.08);
+  }
+}
+
+.book-dropcap {
+  float: left;
+  font-family: var(--font-serif);
+  font-weight: 600;
+  color: #8B3A2B;
+  line-height: 0.78;
+  padding-top: 0.08em;
+  padding-right: 0.24em;
+  padding-bottom: 0.04em;
+  letter-spacing: -0.03em;
+  user-select: none;
+}
+
+.ribbon-bookmark-tab {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 76%, 0 100%);
 }
 
 /* Custom scrollbar */
