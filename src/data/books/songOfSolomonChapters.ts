@@ -486,7 +486,7 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-beloved-shepherd"
           },
           {
-            "spanText": "beloved is mine",
+            "spanText": "is mine, and I am his",
             "entityId": "term-love-seal"
           },
           {
@@ -1292,7 +1292,7 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
             "entityId": "char-beloved-shepherd"
           },
           {
-            "spanText": "beloved is mine",
+            "spanText": "is mine",
             "entityId": "term-love-seal"
           },
           {
