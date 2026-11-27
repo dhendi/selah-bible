@@ -90,7 +90,16 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "Don’t stare at me because I am dark, because the sun has scorched me. My mother’s sons were angry with me. They made me keeper of the vineyards. I haven’t kept my own vineyard.",
         "translation": "WEB",
         "illustrationId": "ill-sng-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "vineyards",
+            "entityId": "term-garden-vineyard"
+          },
+          {
+            "spanText": "vineyard",
+            "entityId": "term-garden-vineyard"
+          }
+        ]
       },
       {
         "id": "SNG-1:7",
@@ -171,6 +180,10 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "My beloved",
             "entityId": "char-beloved-shepherd"
+          },
+          {
+            "spanText": "myrrh",
+            "entityId": "term-myrrh-spices"
           }
         ]
       },
@@ -187,6 +200,14 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "My beloved",
             "entityId": "char-beloved-shepherd"
+          },
+          {
+            "spanText": "vineyards",
+            "entityId": "term-garden-vineyard"
+          },
+          {
+            "spanText": "En Gedi",
+            "entityId": "place-en-gedi"
           }
         ]
       },
@@ -254,6 +275,10 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Sharon",
             "entityId": "char-shulammite"
+          },
+          {
+            "spanText": "lily",
+            "entityId": "term-lilies-blossom"
           }
         ]
       },
@@ -266,7 +291,12 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "As a lily among thorns, so is my love among the daughters.",
         "translation": "WEB",
         "illustrationId": "ill-sng-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "lily",
+            "entityId": "term-lilies-blossom"
+          }
+        ]
       },
       {
         "id": "SNG-2:3",
@@ -434,7 +464,12 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "Catch for us the foxes, the little foxes that plunder the vineyards; for our vineyards are in blossom.",
         "translation": "WEB",
         "illustrationId": "ill-sng-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "vineyards",
+            "entityId": "term-garden-vineyard"
+          }
+        ]
       },
       {
         "id": "SNG-2:16",
@@ -453,6 +488,10 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "beloved is mine",
             "entityId": "term-love-seal"
+          },
+          {
+            "spanText": "lilies",
+            "entityId": "term-lilies-blossom"
           }
         ]
       },
@@ -554,7 +593,16 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "Who is this who comes up from the wilderness like pillars of smoke, perfumed with myrrh and frankincense, with all spices of the merchant?",
         "translation": "WEB",
         "illustrationId": "ill-sng-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "frankincense",
+            "entityId": "term-myrrh-spices"
+          },
+          {
+            "spanText": "myrrh",
+            "entityId": "term-myrrh-spices"
+          }
+        ]
       },
       {
         "id": "SNG-3:7",
@@ -569,6 +617,10 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Solomon",
             "entityId": "char-solomon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -596,6 +648,10 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Solomon",
             "entityId": "char-solomon"
+          },
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
           }
         ]
       },
@@ -628,6 +684,10 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Solomon",
             "entityId": "char-solomon"
+          },
+          {
+            "spanText": "Zion",
+            "entityId": "place-zion"
           }
         ]
       }
@@ -653,7 +713,12 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, you are beautiful, my love. Behold, you are beautiful. Your eyes are like doves behind your veil. Your hair is as a flock of goats, that descend from Mount Gilead.",
         "translation": "WEB",
         "illustrationId": "ill-sng-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Mount Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "SNG-4:2",
@@ -675,7 +740,12 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your lips are like scarlet thread. Your mouth is lovely. Your temples are like a piece of a pomegranate behind your veil.",
         "translation": "WEB",
         "illustrationId": "ill-sng-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "pomegranate",
+            "entityId": "term-garden-vineyard"
+          }
+        ]
       },
       {
         "id": "SNG-4:4",
@@ -702,7 +772,12 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your two breasts are like two fawns that are twins of a roe, which feed among the lilies.",
         "translation": "WEB",
         "illustrationId": "ill-sng-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "lilies",
+            "entityId": "term-lilies-blossom"
+          }
+        ]
       },
       {
         "id": "SNG-4:6",
@@ -713,7 +788,16 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "Until the day is cool, and the shadows flee away, I will go to the mountain of myrrh, to the hill of frankincense.",
         "translation": "WEB",
         "illustrationId": "ill-sng-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "frankincense",
+            "entityId": "term-myrrh-spices"
+          },
+          {
+            "spanText": "myrrh",
+            "entityId": "term-myrrh-spices"
+          }
+        ]
       },
       {
         "id": "SNG-4:7",
@@ -735,7 +819,16 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "Come with me from Lebanon, my bride, with me from Lebanon. Look from the top of Amana, from the top of Senir and Hermon, from the lions’ dens, from the mountains of the leopards.",
         "translation": "WEB",
         "illustrationId": "ill-sng-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          },
+          {
+            "spanText": "Hermon",
+            "entityId": "place-hermon"
+          }
+        ]
       },
       {
         "id": "SNG-4:9",
@@ -768,7 +861,12 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your lips, my bride, drip like the honeycomb. Honey and milk are under your tongue. The smell of your garments is like the smell of Lebanon.",
         "translation": "WEB",
         "illustrationId": "ill-sng-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          }
+        ]
       },
       {
         "id": "SNG-4:12",
@@ -779,7 +877,12 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "My sister, my bride, is a locked up garden; a locked up spring, a sealed fountain.",
         "translation": "WEB",
         "illustrationId": "ill-sng-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "garden",
+            "entityId": "term-garden-vineyard"
+          }
+        ]
       },
       {
         "id": "SNG-4:13",
@@ -790,7 +893,12 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your shoots are an orchard of pomegranates, with precious fruits, henna with spikenard plants,",
         "translation": "WEB",
         "illustrationId": "ill-sng-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "pomegranates",
+            "entityId": "term-garden-vineyard"
+          }
+        ]
       },
       {
         "id": "SNG-4:14",
@@ -801,7 +909,12 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "spikenard and saffron, calamus and cinnamon, with every kind of incense tree; myrrh and aloes, with all the best spices,",
         "translation": "WEB",
         "illustrationId": "ill-sng-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "myrrh",
+            "entityId": "term-myrrh-spices"
+          }
+        ]
       },
       {
         "id": "SNG-4:15",
@@ -812,7 +925,16 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "a fountain of gardens, a well of living waters, flowing streams from Lebanon.",
         "translation": "WEB",
         "illustrationId": "ill-sng-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "gardens",
+            "entityId": "term-garden-vineyard"
+          },
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          }
+        ]
       },
       {
         "id": "SNG-4:16",
@@ -827,6 +949,10 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "my beloved",
             "entityId": "char-beloved-shepherd"
+          },
+          {
+            "spanText": "garden",
+            "entityId": "term-garden-vineyard"
           }
         ]
       }
@@ -852,7 +978,16 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "I have come into my garden, my sister, my bride. I have gathered my myrrh with my spice; I have eaten my honeycomb with my honey; I have drunk my wine with my milk. Eat, friends! Drink, yes, drink abundantly, beloved.",
         "translation": "WEB",
         "illustrationId": "ill-sng-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "garden",
+            "entityId": "term-garden-vineyard"
+          },
+          {
+            "spanText": "myrrh",
+            "entityId": "term-myrrh-spices"
+          }
+        ]
       },
       {
         "id": "SNG-5:2",
@@ -910,6 +1045,10 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "my beloved",
             "entityId": "char-beloved-shepherd"
+          },
+          {
+            "spanText": "myrrh",
+            "entityId": "term-myrrh-spices"
           }
         ]
       },
@@ -969,7 +1108,12 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "How is your beloved better than another beloved, you fairest among women? How is your beloved better than another beloved, that you do so adjure us?",
         "translation": "WEB",
         "illustrationId": "ill-sng-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "beloved",
+            "entityId": "char-beloved-shepherd"
+          }
+        ]
       },
       {
         "id": "SNG-5:10",
@@ -1018,7 +1162,16 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "His cheeks are like a bed of spices with towers of perfumes. His lips are like lilies, dropping liquid myrrh.",
         "translation": "WEB",
         "illustrationId": "ill-sng-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "lilies",
+            "entityId": "term-lilies-blossom"
+          },
+          {
+            "spanText": "myrrh",
+            "entityId": "term-myrrh-spices"
+          }
+        ]
       },
       {
         "id": "SNG-5:14",
@@ -1040,7 +1193,12 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "His legs are like pillars of marble set on sockets of fine gold. His appearance is like Lebanon, excellent as the cedars.",
         "translation": "WEB",
         "illustrationId": "ill-sng-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          }
+        ]
       },
       {
         "id": "SNG-5:16",
@@ -1084,7 +1242,12 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "Where has your beloved gone, you fairest among women? Where has your beloved turned, that we may seek him with you?",
         "translation": "WEB",
         "illustrationId": "ill-sng-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "beloved",
+            "entityId": "char-beloved-shepherd"
+          }
+        ]
       },
       {
         "id": "SNG-6:2",
@@ -1099,6 +1262,18 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "My beloved",
             "entityId": "char-beloved-shepherd"
+          },
+          {
+            "spanText": "gardens",
+            "entityId": "term-garden-vineyard"
+          },
+          {
+            "spanText": "garden",
+            "entityId": "term-garden-vineyard"
+          },
+          {
+            "spanText": "lilies",
+            "entityId": "term-lilies-blossom"
           }
         ]
       },
@@ -1119,6 +1294,10 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "beloved is mine",
             "entityId": "term-love-seal"
+          },
+          {
+            "spanText": "lilies",
+            "entityId": "term-lilies-blossom"
           }
         ]
       },
@@ -1169,7 +1348,12 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your temples are like a piece of a pomegranate behind your veil.",
         "translation": "WEB",
         "illustrationId": "ill-sng-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "pomegranate",
+            "entityId": "term-garden-vineyard"
+          }
+        ]
       },
       {
         "id": "SNG-6:8",
@@ -1213,7 +1397,12 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "I went down into the nut tree grove, to see the green plants of the valley, to see whether the vine budded, and the pomegranates were in flower.",
         "translation": "WEB",
         "illustrationId": "ill-sng-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "pomegranates",
+            "entityId": "term-garden-vineyard"
+          }
+        ]
       },
       {
         "id": "SNG-6:12",
@@ -1275,7 +1464,12 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your body is like a round goblet, no mixed wine is wanting. Your waist is like a heap of wheat, set about with lilies.",
         "translation": "WEB",
         "illustrationId": "ill-sng-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "lilies",
+            "entityId": "term-lilies-blossom"
+          }
+        ]
       },
       {
         "id": "SNG-7:3",
@@ -1297,7 +1491,16 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your neck is like an ivory tower. Your eyes are like the pools in Heshbon by the gate of Bathrabbim. Your nose is like the tower of Lebanon which looks toward Damascus.",
         "translation": "WEB",
         "illustrationId": "ill-sng-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Damascus",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          }
+        ]
       },
       {
         "id": "SNG-7:5",
@@ -1308,7 +1511,12 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your head on you is like Carmel. The hair of your head like purple. The king is held captive in its tresses.",
         "translation": "WEB",
         "illustrationId": "ill-sng-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Carmel",
+            "entityId": "place-mount-carmel"
+          }
+        ]
       },
       {
         "id": "SNG-7:6",
@@ -1400,7 +1608,16 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "Let’s go early up to the vineyards. Let’s see whether the vine has budded, its blossom is open, and the pomegranates are in flower. There I will give you my love.",
         "translation": "WEB",
         "illustrationId": "ill-sng-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "pomegranates",
+            "entityId": "term-garden-vineyard"
+          },
+          {
+            "spanText": "vineyards",
+            "entityId": "term-garden-vineyard"
+          }
+        ]
       },
       {
         "id": "SNG-7:13",
@@ -1451,7 +1668,12 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "I would lead you, bringing you into the house of my mother, who would instruct me. I would have you drink spiced wine, of the juice of my pomegranate.",
         "translation": "WEB",
         "illustrationId": "ill-sng-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "pomegranate",
+            "entityId": "term-garden-vineyard"
+          }
+        ]
       },
       {
         "id": "SNG-8:3",
@@ -1489,7 +1711,12 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "Who is this who comes up from the wilderness, leaning on her beloved? Under the apple tree I aroused you. There your mother conceived you. There she was in labor and bore you.",
         "translation": "WEB",
         "illustrationId": "ill-sng-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "beloved",
+            "entityId": "char-beloved-shepherd"
+          }
+        ]
       },
       {
         "id": "SNG-8:6",
@@ -1508,6 +1735,10 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "seal",
             "entityId": "term-love-seal"
+          },
+          {
+            "spanText": "Sheol",
+            "entityId": "term-sheol"
           }
         ]
       },
@@ -1568,6 +1799,10 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Solomon",
             "entityId": "char-solomon"
+          },
+          {
+            "spanText": "vineyard",
+            "entityId": "term-garden-vineyard"
           }
         ]
       },
@@ -1584,6 +1819,10 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Solomon",
             "entityId": "char-solomon"
+          },
+          {
+            "spanText": "vineyard",
+            "entityId": "term-garden-vineyard"
           }
         ]
       },
@@ -1596,7 +1835,12 @@ export const SONG_OF_SOLOMON_CHAPTERS: Record<string, ChapterData> = {
         "text": "You who dwell in the gardens, with friends in attendance, let me hear your voice!",
         "translation": "WEB",
         "illustrationId": "ill-sng-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "gardens",
+            "entityId": "term-garden-vineyard"
+          }
+        ]
       },
       {
         "id": "SNG-8:14",

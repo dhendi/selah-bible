@@ -132,9 +132,9 @@ export const ContextualBottomSheet: React.FC = () => {
       navigateToTimelineEra('era-patriarchs');
     } else if (entity.timelineEra.includes('Judges') || entity.timelineEra.includes('Conquest') || entity.timelineEra.includes('Joshua')) {
       navigateToTimelineEra('era-judges');
-    } else if (entity.timelineEra.includes('Exile') || entity.timelineEra.includes('Captivity') || entity.timelineEra.includes('Babylon') || entity.timelineEra.includes('Assyria') || entity.timelineEra.includes('Restoration') || entity.timelineEra.includes('Return')) {
+    } else if (entity.timelineEra.includes('Exile') || entity.timelineEra.includes('Captivity') || entity.timelineEra.includes('Babylon') || entity.timelineEra.includes('Assyria') || entity.timelineEra.includes('Restoration') || entity.timelineEra.includes('Return') || entity.timelineEra.includes('Jeremiah') || entity.timelineEra.includes('Daniel')) {
       navigateToTimelineEra('era-exile');
-    } else if (entity.timelineEra.includes('Monarchy') || entity.timelineEra.includes('Kingdom') || entity.timelineEra.includes('Poetry') || entity.timelineEra.includes('Wisdom')) {
+    } else if (entity.timelineEra.includes('Monarchy') || entity.timelineEra.includes('Kingdom') || entity.timelineEra.includes('Poetry') || entity.timelineEra.includes('Wisdom') || entity.timelineEra.includes('Song') || entity.timelineEra.includes('Prophet') || entity.timelineEra.includes('Isaiah')) {
       navigateToTimelineEra('era-kingdom');
     } else {
       navigateToTimelineEra('era-creation');
@@ -152,8 +152,14 @@ export const ContextualBottomSheet: React.FC = () => {
 
   const handleReflect = () => {
     const ref = entity.relatedVerseRefs[0] || 'Genesis 1:1';
-    const bookId = ref.includes('Ecclesiastes')
-      ? 'ECC'
+    const bookId = ref.includes('Jeremiah')
+      ? 'JER'
+      : ref.includes('Isaiah')
+        ? 'ISA'
+        : ref.includes('Song of Solomon')
+          ? 'SNG'
+          : ref.includes('Ecclesiastes')
+            ? 'ECC'
       : ref.includes('Proverbs')
         ? 'PRO'
         : ref.includes('Psalm')

@@ -370,6 +370,10 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'term-appointed-season': '/images/ecc-03.jpg',
   'term-threefold-cord': '/images/ecc-04.jpg',
   'term-daily-gift': '/images/ecc-09.jpg',
+  'term-love-seal': '/images/sng-08.jpg',
+  'term-garden-vineyard': '/images/sng-07.jpg',
+  'term-lilies-blossom': '/images/sng-02.jpg',
+  'term-myrrh-spices': '/images/word-myrrh-spices.jpg',
 };
 
 export interface ResolvedEntityAsset {
