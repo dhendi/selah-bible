@@ -44,6 +44,7 @@ const BOOK_IMPORTERS: Record<string, ChapterLoader> = {
   HAG: () => import('./books/haggaiChapters').then((m) => m.HAGGAI_CHAPTERS),
   ZEC: () => import('./books/zechariahChapters').then((m) => m.ZECHARIAH_CHAPTERS),
   MAL: () => import('./books/malachiChapters').then((m) => m.MALACHI_CHAPTERS),
+  MAT: () => import('./books/matthewChapters').then((m) => m.MATTHEW_CHAPTERS),
 };
 
 const bookCache: Record<string, ChapterMap> = {};

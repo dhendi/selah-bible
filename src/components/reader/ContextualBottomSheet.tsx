@@ -51,7 +51,7 @@ export const ContextualBottomSheet: React.FC = () => {
       navigateToMapPin('loc-goshen');
     } else if (region.includes('Ararat')) {
       navigateToMapPin('loc-ararat');
-    } else if (region.includes('Jerusalem') || region.includes('Moriah') || region.includes('Jebus') || region.includes('Zion')) {
+    } else if (region.includes('Jerusalem') || region.includes('Moriah') || region.includes('Jebus') || region.includes('Zion') || region.includes('Judea') || region.includes('Olivet') || region.includes('Bethany') || region.includes('Golgotha') || region.includes('Gethsemane')) {
       navigateToMapPin('loc-jerusalem');
     } else if (region.includes('Midian')) {
       navigateToMapPin('loc-midian');
@@ -73,7 +73,7 @@ export const ContextualBottomSheet: React.FC = () => {
       navigateToMapPin('loc-gilgal');
     } else if (region.includes('Shiloh')) {
       navigateToMapPin('loc-shiloh');
-    } else if (region.includes('Tabor') || region.includes('Jezreel') || region.includes('Hazor') || region.includes('Galilee') || region.includes('Hermon')) {
+    } else if (region.includes('Tabor') || region.includes('Jezreel') || region.includes('Hazor') || region.includes('Galilee') || region.includes('Hermon') || region.includes('Banias') || region.includes('Capernaum') || region.includes('Nazareth') || region.includes('Magdala')) {
       navigateToMapPin('loc-mount-tabor');
     } else if (region.includes('Harod')) {
       navigateToMapPin('loc-harod');
@@ -126,7 +126,11 @@ export const ContextualBottomSheet: React.FC = () => {
 
   const handleTimelineClick = () => {
     closeEntitySheet();
-    if (entity.timelineEra.includes('Exodus') || entity.timelineEra.includes('Wilderness') || entity.timelineEra.includes('Numbers') || entity.timelineEra.includes('Deuteronomy')) {
+    if (entity.timelineEra.includes('Jesus') || entity.timelineEra.includes('Gospel') || entity.timelineEra.includes('Ministry')) {
+      navigateToTimelineEra('era-jesus');
+    } else if (entity.timelineEra.includes('Church') || entity.timelineEra.includes('Apost')) {
+      navigateToTimelineEra('era-church');
+    } else if (entity.timelineEra.includes('Exodus') || entity.timelineEra.includes('Wilderness') || entity.timelineEra.includes('Numbers') || entity.timelineEra.includes('Deuteronomy')) {
       navigateToTimelineEra('era-exodus');
     } else if (entity.timelineEra.includes('Patriarch')) {
       navigateToTimelineEra('era-patriarchs');

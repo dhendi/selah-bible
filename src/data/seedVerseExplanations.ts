@@ -1859,6 +1859,13 @@ const BOOK_EXPLANATION_TEMPLATES: Record<string, BookExplanationTemplate> = {
     action: (ref) => `Give God your wholehearted best today in worship and kindness to others alongside ${ref}.`,
     kid: (s) => `${s} God’s Sun of Righteousness rises with warm healing in His wings!`,
   },
+  MAT: {
+    bookName: 'Matthew',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, King Jesus fulfills Israel’s hope and welcomes humble disciples into the Kingdom of Heaven.`,
+    action: (ref) => `Put one Beatitude practice or quiet prayer into action today alongside ${ref}.`,
+    kid: (s) => `${s} Jesus is Immanuel—God right beside us every step of the way!`,
+  },
 };
 
 export function getExplanationForVerse(

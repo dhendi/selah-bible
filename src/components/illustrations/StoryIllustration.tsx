@@ -422,6 +422,16 @@ function resolveChapterAsset(key: string): { src: string; alt: string } | undefi
       };
     }
   }
+  const matMatch = /^ill-mat-(\d+)$/.exec(key);
+  if (matMatch) {
+    const ch = Number(matMatch[1]);
+    if (ch >= 1 && ch <= 28) {
+      return {
+        src: `/images/mat-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Matthew ${ch} illustration`,
+      };
+    }
+  }
   return undefined;
 }
 
