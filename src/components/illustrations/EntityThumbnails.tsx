@@ -391,6 +391,13 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'place-anathoth': '/images/word-anathoth.jpg',
   'term-great-faithfulness': '/images/lam-03.jpg',
   'term-sanctuary': '/images/word-sanctuary-miqdash.jpg',
+  'term-dry-bones-spirit': '/images/ezk-37.jpg',
+  'term-watchman': '/images/word-watchman-ezekiel.jpg',
+  'place-chebar': '/images/word-chebar-canal.jpg',
+  'char-gog': '/images/portrait-gog.jpg',
+  'term-shepherd-king': '/images/ezk-34.jpg',
+  'term-living-water-temple': '/images/ezk-47.jpg',
+  'term-glory-yahweh': '/images/word-glory-yahweh.jpg',
 };
 
 export interface ResolvedEntityAsset {

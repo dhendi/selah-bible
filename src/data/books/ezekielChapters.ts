@@ -21,7 +21,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now in the thirtieth year, in the fourth month, in the fifth day of the month, as I was among the captives by the river Chebar, the heavens were opened, and I saw visions of God.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chebar",
+            "entityId": "place-chebar"
+          }
+        ]
       },
       {
         "id": "EZK-1:2",
@@ -51,6 +56,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ezekiel",
             "entityId": "char-ezekiel"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          },
+          {
+            "spanText": "Chebar",
+            "entityId": "place-chebar"
           }
         ]
       },
@@ -331,6 +344,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-yahweh"
           }
         ]
       }
@@ -367,7 +384,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Spirit entered into me when he spoke to me, and set me on my feet; and I heard him who spoke to me.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
+          }
+        ]
       },
       {
         "id": "EZK-2:3",
@@ -378,7 +400,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to me, “Son of man, I send you to the children of Israel, to a nation of rebels who have rebelled against me. They and their fathers have transgressed against me even to this very day.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-2:4",
@@ -484,7 +511,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to me, “Son of man, eat what you find. Eat this scroll, and go, speak to the house of Israel.”",
         "translation": "WEB",
         "illustrationId": "ill-ezk-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-3:2",
@@ -517,7 +549,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to me, “Son of man, go to the house of Israel, and speak my words to them.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-3:5",
@@ -528,7 +565,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "For you are not sent to a people of a strange speech and of a hard language, but to the house of Israel;",
         "translation": "WEB",
         "illustrationId": "ill-ezk-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-3:6",
@@ -550,7 +592,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "But the house of Israel will not listen to you, for they will not listen to me; for all the house of Israel are obstinate and hard-hearted.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-3:8",
@@ -614,6 +661,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-yahweh"
           }
         ]
       },
@@ -641,6 +696,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           }
         ]
       },
@@ -653,7 +712,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then I came to them of the captivity at Tel Aviv, that lived by the river Chebar, and to where they lived; and I sat there overwhelmed among them seven days.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chebar",
+            "entityId": "place-chebar"
+          }
+        ]
       },
       {
         "id": "EZK-3:16",
@@ -680,7 +744,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Son of man, I have made you a watchman to the house of Israel. Therefore hear the word from my mouth, and warn them from me.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "watchman",
+            "entityId": "term-watchman"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-3:18",
@@ -713,7 +786,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Again, when a righteous man turns from his righteousness, and commits iniquity, and I lay a stumbling block before him, he will die. Because you have not given him warning, he will die in his sin, and his righteous deeds which he has done will not be remembered; but I will require his blood at your hand.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "EZK-3:21",
@@ -755,6 +833,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Chebar",
+            "entityId": "place-chebar"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-yahweh"
           }
         ]
       },
@@ -767,7 +853,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the Spirit entered into me, and set me on my feet. He spoke with me, and said to me, “Go, shut yourself inside your house.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
+          }
+        ]
       },
       {
         "id": "EZK-3:25",
@@ -856,7 +947,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Take for yourself an iron pan, and set it for a wall of iron between you and the city. Then set your face toward it. It will be besieged, and you shall lay siege against it. This shall be a sign to the house of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-4:4",
@@ -867,7 +963,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Moreover lie on your left side, and lay the iniquity of the house of Israel on it. According to the number of the days that you shall lie on it, you shall bear their iniquity.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-4:5",
@@ -878,7 +979,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "For I have appointed the years of their iniquity to be to you a number of days, even three hundred ninety days. So you shall bear the iniquity of the house of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-4:6",
@@ -889,7 +995,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Again, when you have accomplished these, you shall lie on your right side, and shall bear the iniquity of the house of Judah. I have appointed forty days, each day for a year, to you.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "EZK-4:7",
@@ -975,6 +1086,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1087,7 +1202,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of these again you shall take, and cast them into the middle of the fire, and burn them in the fire. From it a fire will come out into all the house of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-5:5",
@@ -1187,6 +1307,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
           }
         ]
       },
@@ -1309,7 +1433,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Son of man, set your face toward the mountains of Israel, and prophesy to them,",
         "translation": "WEB",
         "illustrationId": "ill-ezk-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-6:3",
@@ -1324,6 +1453,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1347,7 +1480,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will lay the dead bodies of the children of Israel before their idols. I will scatter your bones around your altars.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-6:6",
@@ -1427,6 +1565,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1515,6 +1657,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1844,6 +1990,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -1871,6 +2021,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           }
         ]
       },
@@ -1883,7 +2037,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, the glory of the God of Israel was there, according to the appearance that I saw in the plain.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-yahweh"
+          }
+        ]
       },
       {
         "id": "EZK-8:5",
@@ -1894,7 +2057,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then he said to me, “Son of man, lift up your eyes now the way toward the north.” So I lifted up my eyes the way toward the north, and saw, northward of the gate of the altar this image of jealousy in the entry.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EZK-8:6",
@@ -1905,7 +2073,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to me, “Son of man, do you see what they do? Even the great abominations that the house of Israel commit here, that I should go far off from my sanctuary? But you will again see yet other great abominations.”",
         "translation": "WEB",
         "illustrationId": "ill-ezk-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-8:7",
@@ -1949,7 +2126,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "So I went in and looked, and saw every form of creeping things, abominable animals, and all the idols of the house of Israel, portrayed around on the wall.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-8:11",
@@ -1960,7 +2142,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Seventy men of the elders of the house of Israel stood before them. In the middle of them Jaazaniah the son of Shaphan stood, every man with his censer in his hand; and the smell of the cloud of incense went up.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-8:12",
@@ -1975,6 +2162,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2029,6 +2220,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -2041,7 +2240,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then he said to me, “Have you seen this, son of man? Is it a light thing to the house of Judah that they commit the abominations which they commit here? For they have filled the land with violence, and have turned again to provoke me to anger. Behold, they put the branch to their nose.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "EZK-8:18",
@@ -2087,7 +2291,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, six men came from the way of the upper gate, which lies toward the north, every man with his slaughter weapon in his hand. One man in the middle of them was clothed in linen, with a writer’s inkhorn by his side. They went in, and stood beside the bronze altar.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EZK-9:3",
@@ -2098,7 +2307,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The glory of the God of Israel went up from the cherub, whereupon it was, to the threshold of the house; and he called to the man clothed in linen, who had the writer’s inkhorn by his side.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-yahweh"
+          }
+        ]
       },
       {
         "id": "EZK-9:4",
@@ -2140,7 +2358,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Kill utterly the old man, the young man, the virgin, little children and women; but don’t come near any man on whom is the mark. Begin at my sanctuary.” Then they began at the old men who were before the house.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          }
+        ]
       },
       {
         "id": "EZK-9:7",
@@ -2170,6 +2393,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2186,6 +2413,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -2233,7 +2468,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then I looked, and see, in the expanse that was over the head of the cherubim there appeared above them as it were a sapphire stone, as the appearance of the likeness of a throne.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
+          }
+        ]
       },
       {
         "id": "EZK-10:2",
@@ -2244,7 +2484,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He spoke to the man clothed in linen, and said, “Go in between the whirling wheels, even under the cherub, and fill both your hands with coals of fire from between the cherubim, and scatter them over the city.” He went in as I watched.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
+          }
+        ]
       },
       {
         "id": "EZK-10:3",
@@ -2255,7 +2500,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the cherubim stood on the right side of the house, when the man went in; and the cloud filled the inner court.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
+          }
+        ]
       },
       {
         "id": "EZK-10:4",
@@ -2270,6 +2520,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-yahweh"
           }
         ]
       },
@@ -2282,7 +2536,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sound of the wings of the cherubim was heard even to the outer court, as the voice of God Almighty when he speaks.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
+          }
+        ]
       },
       {
         "id": "EZK-10:6",
@@ -2293,7 +2552,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "It came to pass, when he commanded the man clothed in linen, saying, “Take fire from between the whirling wheels, from between the cherubim,” that he went in, and stood beside a wheel.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
+          }
+        ]
       },
       {
         "id": "EZK-10:7",
@@ -2304,7 +2568,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The cherub stretched out his hand from between the cherubim to the fire that was between the cherubim, and took some of it, and put it into the hands of him who was clothed in linen, who took it and went out.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
+          }
+        ]
       },
       {
         "id": "EZK-10:8",
@@ -2315,7 +2584,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The form of a man’s hand appeared here in the cherubim under their wings.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
+          }
+        ]
       },
       {
         "id": "EZK-10:9",
@@ -2326,7 +2600,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "I looked, and behold, there were four wheels beside the cherubim, one wheel beside one cherub, and another wheel beside another cherub. The appearance of the wheels was like a beryl stone.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
+          }
+        ]
       },
       {
         "id": "EZK-10:10",
@@ -2392,7 +2671,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The cherubim mounted up. This is the living creature that I saw by the river Chebar.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
+          },
+          {
+            "spanText": "Chebar",
+            "entityId": "place-chebar"
+          }
+        ]
       },
       {
         "id": "EZK-10:16",
@@ -2403,7 +2691,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the cherubim went, the wheels went beside them; and when the cherubim lifted up their wings to mount up from the earth, the wheels also didn’t turn from beside them.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
+          }
+        ]
       },
       {
         "id": "EZK-10:17",
@@ -2429,6 +2722,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-yahweh"
           }
         ]
       },
@@ -2445,6 +2746,18 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-yahweh"
           }
         ]
       },
@@ -2457,7 +2770,20 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "This is the living creature that I saw under the God of Israel by the river Chebar; and I knew that they were cherubim.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
+          },
+          {
+            "spanText": "Chebar",
+            "entityId": "place-chebar"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-10:21",
@@ -2479,7 +2805,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "As for the likeness of their faces, they were the faces which I saw by the river Chebar, their appearances and themselves. They each went straight forward.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chebar",
+            "entityId": "place-chebar"
+          }
+        ]
       }
     ]
   },
@@ -2507,6 +2838,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           }
         ]
       },
@@ -2556,6 +2891,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           }
         ]
       },
@@ -2626,6 +2969,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2638,7 +2985,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "This will not be your cauldron, neither will you be the meat in the middle of it. I will judge you in the border of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-11:12",
@@ -2669,6 +3021,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2705,6 +3061,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2721,6 +3081,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
           }
         ]
       },
@@ -2737,6 +3101,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -2763,6 +3131,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "linkedEntities": [
           {
             "spanText": "heart of flesh",
+            "entityId": "term-new-covenant"
+          },
+          {
+            "spanText": "new spirit",
             "entityId": "term-new-covenant"
           }
         ]
@@ -2803,7 +3175,20 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the cherubim lifted up their wings, and the wheels were beside them. The glory of the God of Israel was over them above.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-yahweh"
+          }
+        ]
       },
       {
         "id": "EZK-11:23",
@@ -2818,6 +3203,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-yahweh"
           }
         ]
       },
@@ -2830,7 +3219,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Spirit lifted me up, and brought me in the vision by the Spirit of God into Chaldea, to the captives. So the vision that I had seen went up from me.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
+          }
+        ]
       },
       {
         "id": "EZK-11:25",
@@ -2930,7 +3324,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "In their sight you shall bear it on your shoulder, and carry it out in the dark. You shall cover your face, so that you don’t see the land, for I have set you for a sign to the house of Israel.”",
         "translation": "WEB",
         "illustrationId": "ill-ezk-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-12:7",
@@ -2968,7 +3367,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Son of man, hasn’t the house of Israel, the rebellious house, said to you, ‘What are you doing?’",
         "translation": "WEB",
         "illustrationId": "ill-ezk-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-12:10",
@@ -2987,6 +3391,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3025,6 +3433,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
           }
         ]
       },
@@ -3115,6 +3527,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3159,7 +3575,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Son of man, what is this proverb that you have in the land of Israel, saying, ‘The days are prolonged, and every vision fails?’",
         "translation": "WEB",
         "illustrationId": "ill-ezk-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-12:23",
@@ -3174,6 +3595,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3186,7 +3611,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "For there will be no more any false vision nor flattering divination within the house of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-12:25",
@@ -3229,7 +3659,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Son of man, behold, they of the house of Israel say, ‘The vision that he sees is for many days to come, and he prophesies of times that are far off.’",
         "translation": "WEB",
         "illustrationId": "ill-ezk-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-12:28",
@@ -3289,6 +3724,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3317,7 +3756,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Israel, your prophets have been like foxes in the waste places.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-13",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-13:5",
@@ -3332,6 +3776,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3396,6 +3844,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3492,6 +3944,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3614,7 +4070,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then some of the elders of Israel came to me, and sat before me.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-14:2",
@@ -3656,6 +4117,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3668,7 +4133,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "that I may take the house of Israel in their own heart, because they are all estranged from me through their idols.” ’",
         "translation": "WEB",
         "illustrationId": "ill-ezk-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-14:6",
@@ -3683,6 +4153,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3699,6 +4173,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3731,6 +4209,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3758,6 +4240,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -3805,6 +4291,18 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Daniel",
             "entityId": "char-daniel"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "Noah",
+            "entityId": "char-noah"
+          },
+          {
+            "spanText": "Job",
+            "entityId": "char-job"
           }
         ]
       },
@@ -3890,6 +4388,18 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Daniel",
             "entityId": "char-daniel"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "Noah",
+            "entityId": "char-noah"
+          },
+          {
+            "spanText": "Job",
+            "entityId": "char-job"
           }
         ]
       },
@@ -4192,6 +4702,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           }
         ]
       },
@@ -4417,7 +4931,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "See therefore, I have stretched out my hand over you, and have diminished your portion, and delivered you to the will of those who hate you, the daughters of the Philistines, who are ashamed of your lewd way.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "EZK-16:28",
@@ -4646,7 +5165,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your elder sister is Samaria, who dwells at your left hand, she and her daughters; and your younger sister, who dwells at your right hand, is Sodom with her daughters.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
+          }
+        ]
       },
       {
         "id": "EZK-16:47",
@@ -4672,6 +5196,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
           }
         ]
       },
@@ -4684,7 +5212,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘ “Behold, this was the iniquity of your sister Sodom: pride, fullness of bread, and prosperous ease was in her and in her daughters. She also didn’t strengthen the hand of the poor and needy.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
+          }
+        ]
       },
       {
         "id": "EZK-16:50",
@@ -4728,7 +5261,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘ “I will reverse their captivity, the captivity of Sodom and her daughters, and the captivity of Samaria and her daughters, and the captivity of your captives among them;",
         "translation": "WEB",
         "illustrationId": "ill-ezk-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
+          }
+        ]
       },
       {
         "id": "EZK-16:54",
@@ -4750,7 +5288,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Your sisters, Sodom and her daughters, will return to their former estate; and Samaria and her daughters will return to their former estate; and you and your daughters will return to your former estate.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
+          }
+        ]
       },
       {
         "id": "EZK-16:56",
@@ -4761,7 +5304,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "For your sister Sodom was not mentioned by your mouth in the day of your pride,",
         "translation": "WEB",
         "illustrationId": "ill-ezk-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sodom",
+            "entityId": "place-sodom"
+          }
+        ]
       },
       {
         "id": "EZK-16:57",
@@ -4772,7 +5320,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "before your wickedness was uncovered, as at the time of the reproach of the daughters of Syria, and of all who are around her, the daughters of the Philistines, who despise you all around.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "EZK-16:58",
@@ -4803,6 +5356,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           }
         ]
       },
@@ -4815,7 +5372,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Nevertheless I will remember my covenant with you in the days of your youth, and I will establish to you an everlasting covenant.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "EZK-16:61",
@@ -4826,7 +5388,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then you will remember your ways and be ashamed, when you receive your sisters, your elder sisters and your younger; and I will give them to you for daughters, but not by your covenant.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "EZK-16:62",
@@ -4841,6 +5408,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           }
         ]
       },
@@ -4898,7 +5469,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Son of man, tell a riddle, and speak a parable to the house of Israel;",
         "translation": "WEB",
         "illustrationId": "ill-ezk-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-17:3",
@@ -4913,6 +5489,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
           }
         ]
       },
@@ -5043,7 +5623,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He took some of the royal offspring, and made a covenant with him. He also brought him under an oath, and took away the mighty of the land;",
         "translation": "WEB",
         "illustrationId": "ill-ezk-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "EZK-17:14",
@@ -5054,7 +5639,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "that the kingdom might be brought low, that it might not lift itself up, but that by keeping his covenant it might stand.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "EZK-17:15",
@@ -5069,6 +5659,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           }
         ]
       },
@@ -5089,6 +5683,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           }
         ]
       },
@@ -5101,7 +5699,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Pharaoh with his mighty army and great company won’t help him in the war, when they cast up mounds and build forts, to cut off many persons.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
+          }
+        ]
       },
       {
         "id": "EZK-17:18",
@@ -5112,7 +5715,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "For he has despised the oath by breaking the covenant; and behold, he had given his hand, and yet has done all these things. He won’t escape.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "EZK-17:19",
@@ -5127,6 +5735,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
           }
         ]
       },
@@ -5187,7 +5799,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will plant it in the mountain of the height of Israel; and it will produce boughs, and bear fruit, and be a good cedar. Birds of every kind will dwell in the shade of its branches.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-17:24",
@@ -5243,7 +5860,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“What do you mean, that you use this proverb concerning the land of Israel, saying, ‘The fathers have eaten sour grapes, and the children’s teeth are set on edge’?",
         "translation": "WEB",
         "illustrationId": "ill-ezk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-18:3",
@@ -5258,6 +5880,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5292,7 +5918,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "and has not eaten on the mountains, hasn’t lifted up his eyes to the idols of the house of Israel, hasn’t defiled his neighbor’s wife, hasn’t come near a woman in her impurity,",
         "translation": "WEB",
         "illustrationId": "ill-ezk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-18:7",
@@ -5396,7 +6027,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "who hasn’t eaten on the mountains, hasn’t lifted up his eyes to the idols of the house of Israel, hasn’t defiled his neighbor’s wife,",
         "translation": "WEB",
         "illustrationId": "ill-ezk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-18:16",
@@ -5451,7 +6087,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The soul who sins, he shall die. The son shall not bear the iniquity of the father, neither shall the father bear the iniquity of the son. The righteousness of the righteous shall be on him, and the wickedness of the wicked shall be on him.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "EZK-18:21",
@@ -5473,7 +6114,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "None of his transgressions that he has committed will be remembered against him. In his righteousness that he has done, he shall live.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "EZK-18:23",
@@ -5500,7 +6146,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“But when the righteous turns away from his righteousness, and commits iniquity, and does according to all the abominations that the wicked man does, should he live? None of his righteous deeds that he has done will be remembered. In his trespass that he has trespassed, and in his sin that he has sinned, in them he shall die.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "EZK-18:25",
@@ -5511,7 +6162,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Yet you say, ‘The way of the Lord is not equal.’ Hear now, house of Israel: Is my way not equal? Aren’t your ways unequal?",
         "translation": "WEB",
         "illustrationId": "ill-ezk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-18:26",
@@ -5522,7 +6178,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the righteous man turns away from his righteousness, and commits iniquity, and dies therein; in his iniquity that he has done he shall die.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "EZK-18:27",
@@ -5555,7 +6216,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yet the house of Israel says, ‘The way of the Lord is not fair.’ House of Israel, aren’t my ways fair? Aren’t your ways unfair?",
         "translation": "WEB",
         "illustrationId": "ill-ezk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-18:30",
@@ -5570,6 +6236,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5582,7 +6252,20 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Cast away from you all your transgressions, in which you have transgressed; and make yourself a new heart and a new spirit: for why will you die, house of Israel?",
         "translation": "WEB",
         "illustrationId": "ill-ezk-18",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "new spirit",
+            "entityId": "term-new-covenant"
+          },
+          {
+            "spanText": "new heart",
+            "entityId": "term-new-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-18:32",
@@ -5622,7 +6305,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Moreover, take up a lamentation for the princes of Israel,",
         "translation": "WEB",
         "illustrationId": "ill-ezk-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-19:2",
@@ -5719,6 +6407,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5803,6 +6495,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5835,6 +6531,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5866,6 +6566,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -5977,6 +6685,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
           }
         ]
       },
@@ -5989,7 +6701,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘ “But the house of Israel rebelled against me in the wilderness. They didn’t walk in my statutes, and they rejected my ordinances, which if a man keeps, he shall live in them. They greatly profaned my Sabbaths. Then I said I would pour out my wrath on them in the wilderness, to consume them.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-20:14",
@@ -6022,7 +6743,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "because they rejected my ordinances, and didn’t walk in my statutes, and profaned my Sabbaths; for their heart went after their idols.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
+          }
+        ]
       },
       {
         "id": "EZK-20:17",
@@ -6075,6 +6801,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
           }
         ]
       },
@@ -6087,7 +6817,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘ “But the children rebelled against me. They didn’t walk in my statutes, and didn’t keep my ordinances to do them, which if a man does, he shall live in them. They profaned my Sabbaths. Then I said I would pour out my wrath on them, to accomplish my anger against them in the wilderness.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
+          }
+        ]
       },
       {
         "id": "EZK-20:22",
@@ -6120,7 +6855,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "because they had not executed my ordinances, but had rejected my statutes, and had profaned my Sabbaths, and their eyes were after their fathers’ idols.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
+          }
+        ]
       },
       {
         "id": "EZK-20:25",
@@ -6162,6 +6902,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6200,6 +6944,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6216,6 +6964,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6297,7 +7049,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“I will cause you to pass under the rod, and I will bring you into the bond of the covenant.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "EZK-20:38",
@@ -6312,6 +7069,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6328,6 +7089,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6344,6 +7109,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6371,6 +7140,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6398,6 +7171,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6518,6 +7295,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6534,6 +7315,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6654,7 +7439,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Cry and wail, son of man; for it is on my people. It is on all the princes of Israel. They are delivered over to the sword with my people. Therefore beat your thigh.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-21:13",
@@ -6766,6 +7556,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -6837,7 +7635,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘You, deadly wounded wicked one, the prince of Israel, whose day has come, in the time of the iniquity of the end,",
         "translation": "WEB",
         "illustrationId": "ill-ezk-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-21:26",
@@ -6879,6 +7682,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -7018,7 +7825,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘ “Behold, the princes of Israel, everyone according to his power, have been in you to shed blood.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-22:7",
@@ -7040,7 +7852,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "You have despised my holy things, and have profaned my Sabbaths.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
+          }
+        ]
       },
       {
         "id": "EZK-22:9",
@@ -7170,7 +7987,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Son of man, the house of Israel has become dross to me. All of them are bronze, tin, iron, and lead in the middle of the furnace. They are the dross of silver.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-22:19",
@@ -7277,7 +8099,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Her priests have done violence to my law, and have profaned my holy things. They have made no distinction between the holy and the common, neither have they caused men to discern between the unclean and the clean, and have hidden their eyes from my Sabbaths. So I am profaned among them.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "EZK-22:27",
@@ -7447,7 +8278,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "She gave herself as a prostitute to them, all of them the choicest men of Assyria. She defiled herself with the idols of whoever she lusted after.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          }
+        ]
       },
       {
         "id": "EZK-23:8",
@@ -7529,7 +8365,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“She increased her prostitution; for she saw men portrayed on the wall, the images of the Chaldeans portrayed with red,",
         "translation": "WEB",
         "illustrationId": "ill-ezk-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "EZK-23:15",
@@ -7638,7 +8479,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "the Babylonians and all the Chaldeans, Pekod, Shoa, Koa, and all the Assyrians with them; all of them desirable young men, governors and rulers, princes and men of renown, all of them riding on horses.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chaldeans",
+            "entityId": "char-chaldeans"
+          }
+        ]
       },
       {
         "id": "EZK-23:24",
@@ -7833,7 +8679,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Moreover this they have done to me: they have defiled my sanctuary in the same day, and have profaned my Sabbaths.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
+          }
+        ]
       },
       {
         "id": "EZK-23:39",
@@ -7844,7 +8699,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "For when they had slain their children to their idols, then they came the same day into my sanctuary to profane it; and behold, they have done this in the middle of my house.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          }
+        ]
       },
       {
         "id": "EZK-23:40",
@@ -8256,6 +9116,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8377,7 +9245,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Son of man, set your face toward the children of Ammon, and prophesy against them.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          }
+        ]
       },
       {
         "id": "EZK-25:3",
@@ -8392,6 +9265,22 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -8419,6 +9308,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -8435,6 +9328,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8467,6 +9364,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -8479,7 +9384,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "therefore, behold, I will open the side of Moab from the cities, from his cities which are on his frontiers, the glory of the country, Beth Jeshimoth, Baal Meon, and Kiriathaim,",
         "translation": "WEB",
         "illustrationId": "ill-ezk-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "EZK-25:10",
@@ -8490,7 +9400,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "to the children of the east, to go against the children of Ammon; and I will give them for a possession, that the children of Ammon may not be remembered among the nations.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-25",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          }
+        ]
       },
       {
         "id": "EZK-25:11",
@@ -8505,6 +9420,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -8521,6 +9440,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -8537,6 +9464,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -8553,6 +9484,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -8569,6 +9508,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8585,6 +9528,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8646,6 +9593,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
           }
         ]
       },
@@ -8662,6 +9613,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
           }
         ]
       },
@@ -8674,7 +9629,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "They will destroy the walls of Tyre, and break down her towers. I will also scrape her dust from her, and make her a bare rock.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
+          }
+        ]
       },
       {
         "id": "EZK-26:5",
@@ -8729,6 +9689,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
           }
         ]
       },
@@ -8827,6 +9791,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
           }
         ]
       },
@@ -8944,7 +9912,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“You, son of man, take up a lamentation over Tyre;",
         "translation": "WEB",
         "illustrationId": "ill-ezk-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
+          }
+        ]
       },
       {
         "id": "EZK-27:3",
@@ -8959,6 +9932,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
           }
         ]
       },
@@ -8982,7 +9959,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "They have made all your planks of cypress trees from Senir. They have taken a cedar from Lebanon to make a mast for you.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          }
+        ]
       },
       {
         "id": "EZK-27:6",
@@ -8993,7 +9975,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "They have made your oars of the oaks of Bashan. They have made your benches of ivory inlaid in cypress wood from the islands of Kittim.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "EZK-27:7",
@@ -9020,7 +10007,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The inhabitants of Sidon and Arvad were your rowers. Your wise men, Tyre, were in you. They were your pilots.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
+          }
+        ]
       },
       {
         "id": "EZK-27:9",
@@ -9119,7 +10111,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘ “Judah and the land of Israel were your traders. They traded wheat of Minnith, confections, honey, oil, and balm for your merchandise.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "EZK-27:18",
@@ -9284,7 +10285,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "In their wailing they will take up a lamentation for you, and lament over you, saying, ‘Who is there like Tyre, like her who is brought to silence in the middle of the sea?’",
         "translation": "WEB",
         "illustrationId": "ill-ezk-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
+          }
+        ]
       },
       {
         "id": "EZK-27:33",
@@ -9372,6 +10378,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
           }
         ]
       },
@@ -9507,6 +10517,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
           }
         ]
       },
@@ -9659,6 +10673,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9675,6 +10693,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -9736,6 +10762,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -9756,6 +10786,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -9798,6 +10832,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9947,6 +10985,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9983,6 +11025,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
           }
         ]
       },
@@ -10047,6 +11093,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -10404,6 +11454,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -10424,6 +11478,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -10451,6 +11509,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Babylon",
             "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -10475,6 +11537,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -10536,6 +11602,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -10548,7 +11618,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, the Assyrian was a cedar in Lebanon with beautiful branches, and with a forest-like shade, of high stature; and its top was among the thick boughs.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          }
+        ]
       },
       {
         "id": "EZK-31:4",
@@ -10689,6 +11764,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
           }
         ]
       },
@@ -10701,7 +11780,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "I made the nations to shake at the sound of his fall, when I cast him down to Sheol with those who descend into the pit. All the trees of Eden, the choice and best of Lebanon, all that drink water, were comforted in the lower parts of the earth.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-31",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Lebanon",
+            "entityId": "place-lebanon"
+          }
+        ]
       },
       {
         "id": "EZK-31:17",
@@ -10727,6 +11811,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       }
@@ -10772,6 +11860,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Egypt",
             "entityId": "place-egypt"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -11127,7 +12219,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“There is Edom, her kings, and all her princes, who in their might are laid with those who are slain by the sword. They will lie with the uncircumcised, and with those who go down to the pit.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-32",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "EZK-32:30",
@@ -11153,6 +12250,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       },
@@ -11169,6 +12270,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Pharaoh",
+            "entityId": "char-pharaoh"
           }
         ]
       }
@@ -11210,7 +12315,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Son of man, speak to the children of your people, and tell them, ‘When I bring the sword on a land, and the people of the land take a man from among them, and set him for their watchman;",
         "translation": "WEB",
         "illustrationId": "ill-ezk-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "watchman",
+            "entityId": "term-watchman"
+          }
+        ]
       },
       {
         "id": "EZK-33:3",
@@ -11254,7 +12364,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "But if the watchman sees the sword come, and doesn’t blow the trumpet, and the people aren’t warned, and the sword comes, and takes any person from among them; he is taken away in his iniquity, but his blood I will require at the watchman’s hand.’",
         "translation": "WEB",
         "illustrationId": "ill-ezk-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "watchman",
+            "entityId": "term-watchman"
+          }
+        ]
       },
       {
         "id": "EZK-33:7",
@@ -11265,7 +12380,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“So you, son of man: I have set you a watchman to the house of Israel. Therefore hear the word from my mouth, and give them warnings from me.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "watchman",
+            "entityId": "term-watchman"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-33:8",
@@ -11298,7 +12422,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“You, son of man, tell the house of Israel: ‘You say this, “Our transgressions and our sins are on us, and we pine away in them. How then can we live?” ’",
         "translation": "WEB",
         "illustrationId": "ill-ezk-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-33:11",
@@ -11313,6 +12442,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11325,7 +12458,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“You, son of man, tell the children of your people, ‘The righteousness of the righteous will not deliver him in the day of his disobedience. And as for the wickedness of the wicked, he will not fall by it in the day that he turns from his wickedness; neither will he who is righteous be able to live by it in the day that he sins.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "EZK-33:13",
@@ -11336,7 +12474,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "When I tell the righteous that he will surely live; if he trusts in his righteousness, and commits iniquity, none of his righteous deeds will be remembered; but he will die in his iniquity that he has committed.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "EZK-33:14",
@@ -11391,7 +12534,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the righteous turns from his righteousness, and commits iniquity, he will even die therein.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          }
+        ]
       },
       {
         "id": "EZK-33:19",
@@ -11413,7 +12561,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yet you say, “The way of the Lord is not fair.” House of Israel, I will judge every one of you after his ways.’ ”",
         "translation": "WEB",
         "illustrationId": "ill-ezk-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-33:21",
@@ -11472,7 +12625,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Son of man, those who inhabit the waste places in the land of Israel speak, saying, ‘Abraham was one, and he inherited the land; but we are many. The land is given us for inheritance.’",
         "translation": "WEB",
         "illustrationId": "ill-ezk-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-33:25",
@@ -11526,7 +12684,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will make the land a desolation and an astonishment. The pride of her power will cease. The mountains of Israel will be desolate, so that no one will pass through.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-33",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-33:29",
@@ -11635,6 +12798,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "shepherds",
+            "entityId": "term-shepherd-king"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -11669,7 +12840,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "They were scattered, because there was no shepherd. They became food to all the animals of the field, and were scattered.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "shepherd",
+            "entityId": "term-shepherd-king"
+          }
+        ]
       },
       {
         "id": "EZK-34:6",
@@ -11695,6 +12871,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "shepherds",
+            "entityId": "term-shepherd-king"
           }
         ]
       },
@@ -11711,6 +12891,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "shepherds",
+            "entityId": "term-shepherd-king"
+          },
+          {
+            "spanText": "shepherd",
+            "entityId": "term-shepherd-king"
           }
         ]
       },
@@ -11727,6 +12915,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "shepherds",
+            "entityId": "term-shepherd-king"
           }
         ]
       },
@@ -11743,6 +12935,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "shepherds",
+            "entityId": "term-shepherd-king"
           }
         ]
       },
@@ -11771,7 +12967,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "As a shepherd seeks out his flock in the day that he is among his sheep that are scattered abroad, so I will seek out my sheep. I will deliver them out of all places where they have been scattered in the cloudy and dark day.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "shepherd",
+            "entityId": "term-shepherd-king"
+          }
+        ]
       },
       {
         "id": "EZK-34:13",
@@ -11782,7 +12983,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will bring them out from the peoples, and gather them from the countries, and will bring them into their own land. I will feed them on the mountains of Israel, by the watercourses, and in all the inhabited places of the country.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-34:14",
@@ -11793,7 +12999,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will feed them with good pasture; and their fold will be on the mountains of the height of Israel. There they will lie down in a good fold. They will feed on fat pasture on the mountains of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-34:15",
@@ -11808,6 +13019,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "shepherd",
+            "entityId": "term-shepherd-king"
           }
         ]
       },
@@ -11911,6 +13126,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "shepherd",
+            "entityId": "term-shepherd-king"
           }
         ]
       },
@@ -11943,7 +13162,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘I will make with them a covenant of peace, and will cause evil animals to cease out of the land. They will dwell securely in the wilderness, and sleep in the woods.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-34",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "EZK-34:26",
@@ -12007,6 +13231,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12107,7 +13335,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘ “Because you have had a perpetual hostility, and have given over the children of Israel to the power of the sword in the time of their calamity, in the time of the iniquity of the end;",
         "translation": "WEB",
         "illustrationId": "ill-ezk-35",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-35:6",
@@ -12208,6 +13441,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12251,6 +13488,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       }
@@ -12280,6 +13525,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12328,6 +13577,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12344,6 +13597,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -12360,6 +13617,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12388,7 +13649,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘ “But you, mountains of Israel, you shall shoot out your branches, and yield your fruit to my people Israel; for they are at hand to come.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-36",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-36:9",
@@ -12410,7 +13676,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will multiply men on you, all the house of Israel, even all of it. The cities will be inhabited, and the waste places will be built.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-36",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-36:11",
@@ -12437,7 +13708,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yes, I will cause men to walk on you, even my people Israel. They will possess you, and you will be their inheritance, and you will never again bereave them of their children.”",
         "translation": "WEB",
         "illustrationId": "ill-ezk-36",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-36:13",
@@ -12512,7 +13788,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Son of man, when the house of Israel lived in their own land, they defiled it by their ways and by their deeds. Their way before me was as the uncleanness of a woman in her impurity.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-36",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-36:18",
@@ -12561,7 +13842,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "But I had respect for my holy name, which the house of Israel had profaned among the nations where they went.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-36",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-36:22",
@@ -12576,6 +13862,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12629,6 +13919,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "linkedEntities": [
           {
             "spanText": "heart of flesh",
+            "entityId": "term-new-covenant"
+          },
+          {
+            "spanText": "new spirit",
+            "entityId": "term-new-covenant"
+          },
+          {
+            "spanText": "new heart",
             "entityId": "term-new-covenant"
           }
         ]
@@ -12706,6 +14004,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12776,6 +14078,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12825,6 +14131,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
+          },
+          {
+            "spanText": "bones",
+            "entityId": "term-dry-bones-spirit"
           }
         ]
       },
@@ -12852,6 +14166,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "bones",
+            "entityId": "term-dry-bones-spirit"
           }
         ]
       },
@@ -12872,6 +14190,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "bones",
+            "entityId": "term-dry-bones-spirit"
           }
         ]
       },
@@ -12888,6 +14210,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "bones",
+            "entityId": "term-dry-bones-spirit"
           }
         ]
       },
@@ -12916,7 +14242,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "So I prophesied as I was commanded. As I prophesied, there was a noise, and behold, there was an earthquake. Then the bones came together, bone to its bone.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "bones",
+            "entityId": "term-dry-bones-spirit"
+          }
+        ]
       },
       {
         "id": "EZK-37:8",
@@ -12965,7 +14296,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then he said to me, “Son of man, these bones are the whole house of Israel. Behold, they say, ‘Our bones are dried up, and our hope is lost. We are completely cut off.’",
         "translation": "WEB",
         "illustrationId": "ill-ezk-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "bones",
+            "entityId": "term-dry-bones-spirit"
+          }
+        ]
       },
       {
         "id": "EZK-37:12",
@@ -12980,6 +14320,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13044,7 +14388,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“You, son of man, take one stick, and write on it, ‘For Judah, and for the children of Israel his companions.’ Then take another stick, and write on it, ‘For Joseph, the stick of Ephraim, and for all the house of Israel his companions.’",
         "translation": "WEB",
         "illustrationId": "ill-ezk-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "EZK-37:17",
@@ -13081,6 +14434,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -13108,6 +14469,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13120,7 +14485,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will make them one nation in the land, on the mountains of Israel. One king will be king to them all. They will no longer be two nations. They won’t be divided into two kingdoms any more at all.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-37:23",
@@ -13146,6 +14516,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "shepherd",
+            "entityId": "term-shepherd-king"
           }
         ]
       },
@@ -13162,6 +14536,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -13174,7 +14552,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Moreover I will make a covenant of peace with them. It will be an everlasting covenant with them. I will place them, multiply them, and will set my sanctuary among them forever more.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-37",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "EZK-37:27",
@@ -13200,6 +14587,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       }
@@ -13241,7 +14636,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Son of man, set your face toward Gog, of the land of Magog, the prince of Rosh, Meshech, and Tubal, and prophesy against him,",
         "translation": "WEB",
         "illustrationId": "ill-ezk-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Magog",
+            "entityId": "char-gog"
+          },
+          {
+            "spanText": "Gog",
+            "entityId": "char-gog"
+          }
+        ]
       },
       {
         "id": "EZK-38:3",
@@ -13256,6 +14660,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Gog",
+            "entityId": "char-gog"
           }
         ]
       },
@@ -13312,7 +14720,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "After many days you will be visited. In the latter years you will come into the land that is brought back from the sword, that is gathered out of many peoples, on the mountains of Israel, which have been a continual waste; but it is brought out of the peoples, and they will dwell securely, all of them.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-38:9",
@@ -13387,6 +14800,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gog",
+            "entityId": "char-gog"
           }
         ]
       },
@@ -13410,7 +14831,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "You will come up against my people Israel, as a cloud to cover the land. It will happen in the latter days, that I will bring you against my land, that the nations may know me, when I am sanctified in you, Gog, before their eyes.”",
         "translation": "WEB",
         "illustrationId": "ill-ezk-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gog",
+            "entityId": "char-gog"
+          }
+        ]
       },
       {
         "id": "EZK-38:17",
@@ -13425,6 +14855,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13441,6 +14875,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gog",
+            "entityId": "char-gog"
           }
         ]
       },
@@ -13453,7 +14895,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "For in my jealousy and in the fire of my wrath I have spoken. Surely in that day there will be a great shaking in the land of Israel;",
         "translation": "WEB",
         "illustrationId": "ill-ezk-38",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-38:20",
@@ -13535,6 +14982,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Gog",
+            "entityId": "char-gog"
           }
         ]
       },
@@ -13547,7 +14998,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will turn you around, and will lead you on, and will cause you to come up from the uttermost parts of the north; and I will bring you onto the mountains of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-39",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-39:3",
@@ -13569,7 +15025,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "You will fall on the mountains of Israel, you, and all your hordes, and the peoples who are with you. I will give you to the ravenous birds of every sort, and to the animals of the field to be devoured.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-39",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-39:5",
@@ -13600,6 +15061,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Magog",
+            "entityId": "char-gog"
           }
         ]
       },
@@ -13616,6 +15081,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13644,7 +15113,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘ “Those who dwell in the cities of Israel will go out, and will make fires of the weapons and burn them, both the shields and the bucklers, the bows and the arrows, and the war clubs and the spears, and they will make fires with them for seven years;",
         "translation": "WEB",
         "illustrationId": "ill-ezk-39",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-39:10",
@@ -13671,7 +15145,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘ “It will happen in that day, that I will give to Gog a place for burial in Israel, the valley of those who pass through on the east of the sea; and it will stop those who pass through. They will bury Gog and all his multitude there; and they will call it ‘The valley of Hamon Gog’.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-39",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gog",
+            "entityId": "char-gog"
+          }
+        ]
       },
       {
         "id": "EZK-39:12",
@@ -13682,7 +15165,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘ “The house of Israel will be burying them for seven months, that they may cleanse the land.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-39",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-39:13",
@@ -13720,7 +15208,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Those who pass through the land will pass through; and when anyone sees a man’s bone, then he will set up a sign by it, until the undertakers have buried it in the valley of Hamon Gog.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-39",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gog",
+            "entityId": "char-gog"
+          }
+        ]
       },
       {
         "id": "EZK-39:16",
@@ -13746,6 +15239,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13758,7 +15255,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall eat the flesh of the mighty, and drink the blood of the princes of the earth, of rams, of lambs, and of goats, of bulls, all of them fatlings of Bashan.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-39",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Bashan",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "EZK-39:19",
@@ -13796,7 +15298,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“I will set my glory among the nations. Then all the nations will see my judgment that I have executed, and my hand that I have laid on them.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-39",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-yahweh"
+          }
+        ]
       },
       {
         "id": "EZK-39:22",
@@ -13811,6 +15318,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13823,7 +15334,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The nations will know that the house of Israel went into captivity for their iniquity; because they trespassed against me, and I hid my face from them; so I gave them into the hand of their adversaries, and they all fell by the sword.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-39",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-39:24",
@@ -13849,6 +15365,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -13903,6 +15427,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
           }
         ]
       }
@@ -13944,7 +15476,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "In the visions of God he brought me into the land of Israel, and set me down on a very high mountain, on which was something like the frame of a city to the south.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-40:3",
@@ -13966,7 +15503,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The man said to me, “Son of man, see with your eyes, and hear with your ears, and set your heart on all that I will show you; for you have been brought here so that I may show them to you. Declare all that you see to the house of Israel.”",
         "translation": "WEB",
         "illustrationId": "ill-ezk-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-40:5",
@@ -14340,7 +15882,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "A room with its door was by the posts at the gates. They washed the burnt offering there.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "EZK-40:39",
@@ -14351,7 +15898,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "In the porch of the gate were two tables on this side, and two tables on that side, on which to kill the burnt offering, the sin offering, and the trespass offering.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          }
+        ]
       },
       {
         "id": "EZK-40:40",
@@ -14384,7 +15940,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "There were four tables for the burnt offering, of cut stone, a cubit and a half long, and a cubit and a half wide, and one cubit high. They laid the instruments with which they killed the burnt offering and the sacrifice on them.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          }
+        ]
       },
       {
         "id": "EZK-40:43",
@@ -14417,7 +15978,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to me, “This room, which faces toward the south, is for the priests, the keepers of the duty of the house.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "EZK-40:46",
@@ -14432,6 +15998,18 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Zadok",
+            "entityId": "char-zadok"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -14444,7 +16022,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He measured the court, one hundred cubits long, and a hundred cubits wide, square. The altar was before the house.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-40",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EZK-40:48",
@@ -14490,7 +16073,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He brought me to the temple, and measured the posts, six cubits wide on the one side, and six cubits wide on the other side, which was the width of the tent.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
+          }
+        ]
       },
       {
         "id": "EZK-41:2",
@@ -14523,7 +16111,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He measured its length, twenty cubits, and the width, twenty cubits, before the temple. He said to me, “This is the most holy place.”",
         "translation": "WEB",
         "illustrationId": "ill-ezk-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
+          }
+        ]
       },
       {
         "id": "EZK-41:5",
@@ -14644,7 +16237,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He measured the length of the building before the separate place which was at its back, and its galleries on the one side and on the other side, one hundred cubits from the inner temple, and the porches of the court",
         "translation": "WEB",
         "illustrationId": "ill-ezk-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
+          }
+        ]
       },
       {
         "id": "EZK-41:16",
@@ -14677,7 +16275,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "It was made with cherubim and palm trees. A palm tree was between cherub and cherub, and every cherub had two faces;",
         "translation": "WEB",
         "illustrationId": "ill-ezk-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
+          }
+        ]
       },
       {
         "id": "EZK-41:19",
@@ -14699,7 +16302,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Cherubim and palm trees were made from the ground to above the door. The wall of the temple was like this.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Cherubim",
+            "entityId": "term-cherubim"
+          },
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
+          }
+        ]
       },
       {
         "id": "EZK-41:21",
@@ -14710,7 +16322,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "As for the temple, the door posts were squared. As for the face of the sanctuary, its appearance was as the appearance of the temple.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
+          }
+        ]
       },
       {
         "id": "EZK-41:22",
@@ -14725,6 +16346,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -14737,7 +16362,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The temple and the sanctuary had two doors.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
+          }
+        ]
       },
       {
         "id": "EZK-41:24",
@@ -14759,7 +16393,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "There were made on them, on the doors of the temple, cherubim and palm trees, like those made on the walls. There was a threshold of wood on the face of the porch outside.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-41",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
+          },
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
+          }
+        ]
       },
       {
         "id": "EZK-41:26",
@@ -14871,7 +16514,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "For the length of the rooms that were in the outer court was fifty cubits. Behold, before the temple were one hundred cubits.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-42",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "temple",
+            "entityId": "term-solomon-temple"
+          }
+        ]
       },
       {
         "id": "EZK-42:9",
@@ -14930,6 +16578,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -14942,7 +16598,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the priests enter in, then they shall not go out of the holy place into the outer court, but they shall lay their garments in which they minister there; for they are holy. Then they shall put on other garments, and shall approach that which is for the people.”",
         "translation": "WEB",
         "illustrationId": "ill-ezk-42",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "EZK-42:15",
@@ -15043,7 +16704,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, the glory of the God of Israel came from the way of the east. His voice was like the sound of many waters; and the earth was illuminated with his glory.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-43",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-yahweh"
+          }
+        ]
       },
       {
         "id": "EZK-43:3",
@@ -15054,7 +16724,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "It was according to the appearance of the vision which I saw, even according to the vision that I saw when I came to destroy the city; and the visions were like the vision that I saw by the river Chebar; and I fell on my face.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-43",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Chebar",
+            "entityId": "place-chebar"
+          }
+        ]
       },
       {
         "id": "EZK-43:4",
@@ -15069,6 +16744,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-yahweh"
           }
         ]
       },
@@ -15085,6 +16764,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Spirit",
+            "entityId": "term-ruach"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-yahweh"
           }
         ]
       },
@@ -15108,7 +16795,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to me, “Son of man, this is the place of my throne, and the place of the soles of my feet, where I will dwell among the children of Israel forever. The house of Israel will no more defile my holy name, neither they, nor their kings, by their prostitution, and by the dead bodies of their kings in their high places;",
         "translation": "WEB",
         "illustrationId": "ill-ezk-43",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-43:8",
@@ -15141,7 +16833,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“You, son of man, show the house to the house of Israel, that they may be ashamed of their iniquities; and let them measure the pattern.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-43",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-43:11",
@@ -15174,7 +16871,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“These are the measurements of the altar by cubits (the cubit is a cubit and a hand width): the bottom shall be a cubit, and the width a cubit, and its border around its edge a span; and this shall be the base of the altar.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-43",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EZK-43:14",
@@ -15196,7 +16898,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The upper altar shall be four cubits; and from the altar hearth and upward there shall be four horns.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-43",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EZK-43:16",
@@ -15207,7 +16914,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The altar hearth shall be twelve cubits long by twelve wide, square in its four sides.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-43",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EZK-43:17",
@@ -15233,6 +16945,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -15249,6 +16969,18 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Zadok",
+            "entityId": "char-zadok"
           }
         ]
       },
@@ -15272,7 +17004,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "You shall also take the bull of the sin offering, and it shall be burned in the appointed place of the house, outside of the sanctuary.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-43",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          }
+        ]
       },
       {
         "id": "EZK-43:22",
@@ -15283,7 +17024,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“On the second day you shall offer a male goat without defect for a sin offering; and they shall cleanse the altar, as they cleansed it with the bull.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-43",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EZK-43:23",
@@ -15309,6 +17059,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -15321,7 +17079,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Seven days you shall prepare every day a goat for a sin offering. They shall also prepare a young bull, and a ram out of the flock, without defect.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-43",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          }
+        ]
       },
       {
         "id": "EZK-43:26",
@@ -15332,7 +17095,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Seven days shall they make atonement for the altar and purify it. So shall they consecrate it.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-43",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EZK-43:27",
@@ -15347,6 +17115,18 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       }
@@ -15372,7 +17152,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then he brought me back by the way of the outer gate of the sanctuary, which looks toward the east; and it was shut.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-44",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          }
+        ]
       },
       {
         "id": "EZK-44:2",
@@ -15387,6 +17172,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15419,6 +17208,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "glory",
+            "entityId": "term-glory-yahweh"
           }
         ]
       },
@@ -15435,6 +17228,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
           }
         ]
       },
@@ -15451,6 +17248,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15463,7 +17264,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "in that you have brought in foreigners, uncircumcised in heart and uncircumcised in flesh, to be in my sanctuary, to profane it, even my house, when you offer my bread, the fat and the blood, and they have broken my covenant, to add to all your abominations.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-44",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "covenant",
+            "entityId": "term-covenant"
+          }
+        ]
       },
       {
         "id": "EZK-44:8",
@@ -15474,7 +17284,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "You have not performed the duty of my holy things; but you have set performers of my duty in my sanctuary for yourselves.”",
         "translation": "WEB",
         "illustrationId": "ill-ezk-44",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          }
+        ]
       },
       {
         "id": "EZK-44:9",
@@ -15489,6 +17304,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15501,7 +17324,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘ “But the Levites who went far from me, when Israel went astray, who went astray from me after their idols, they will bear their iniquity.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-44",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-44:11",
@@ -15512,7 +17344,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Yet they shall be ministers in my sanctuary, having oversight at the gates of the house, and ministering in the house. They shall kill the burnt offering and the sacrifice for the people, and they shall stand before them to minister to them.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-44",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          }
+        ]
       },
       {
         "id": "EZK-44:12",
@@ -15527,6 +17368,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15565,6 +17410,22 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Zadok",
+            "entityId": "char-zadok"
           }
         ]
       },
@@ -15577,7 +17438,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“They shall enter into my sanctuary, and they shall come near to my table, to minister to me, and they shall keep my instruction.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-44",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          }
+        ]
       },
       {
         "id": "EZK-44:17",
@@ -15632,7 +17498,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "None of the priests shall drink wine when they enter into the inner court.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-44",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "EZK-44:22",
@@ -15643,7 +17514,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "They shall not take for their wives a widow, or her who is put away; but they shall take virgins of the offspring of the house of Israel, or a widow who is the widow of a priest.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-44",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-44:23",
@@ -15665,7 +17541,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘ “In a controversy they shall stand to judge. They shall judge it according to my ordinances. They shall keep my laws and my statutes in all my appointed feasts. They shall make my Sabbaths holy.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-44",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
+          }
+        ]
       },
       {
         "id": "EZK-44:25",
@@ -15702,6 +17583,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
           }
         ]
       },
@@ -15714,7 +17603,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘They shall have an inheritance. I am their inheritance; and you shall give them no possession in Israel. I am their possession.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-44",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-44:29",
@@ -15725,7 +17619,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "They shall eat the meal offering, and the sin offering, and the trespass offering; and every devoted thing in Israel shall be theirs.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-44",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-44:30",
@@ -15736,7 +17639,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The first of all the first fruits of every thing, and every offering of everything, of all your offerings, shall be for the priest. You shall also give to the priests the first of your dough, to cause a blessing to rest on your house.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-44",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "EZK-44:31",
@@ -15747,7 +17655,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priests shall not eat of anything that dies of itself, or is torn, whether it is bird or animal.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-44",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       }
     ]
   },
@@ -15798,7 +17711,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of this measure you shall measure a length of twenty-five thousand, and a width of ten thousand. In it shall be the sanctuary, which is most holy.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-45",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          }
+        ]
       },
       {
         "id": "EZK-45:4",
@@ -15813,6 +17731,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -15825,7 +17751,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Twenty-five thousand in length, and ten thousand in width, shall be for the Levites, the ministers of the house, as a possession for themselves, for twenty rooms.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-45",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "char-levi"
+          }
+        ]
       },
       {
         "id": "EZK-45:6",
@@ -15836,7 +17767,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘ “You shall appoint the possession of the city five thousand wide, and twenty-five thousand long, side by side with the offering of the holy portion: it shall be for the whole house of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-45",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-45:7",
@@ -15858,7 +17794,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "In the land it shall be to him for a possession in Israel. My princes shall no more oppress my people; but they shall give the land to the house of Israel according to their tribes.”",
         "translation": "WEB",
         "illustrationId": "ill-ezk-45",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-45:9",
@@ -15873,6 +17814,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "righteousness",
+            "entityId": "term-righteousness"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15944,6 +17893,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -15956,7 +17913,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“All the people of the land shall give to this offering for the prince in Israel.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-45",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-45:17",
@@ -15967,7 +17929,28 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "It shall be the prince’s part to give the burnt offerings, the meal offerings, and the drink offerings, in the feasts, and on the new moons, and on the Sabbaths, in all the appointed feasts of the house of Israel. He shall prepare the sin offering, the meal offering, the burnt offering, and the peace offerings, to make atonement for the house of Israel.”",
         "translation": "WEB",
         "illustrationId": "ill-ezk-45",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-45:18",
@@ -15982,6 +17965,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
           }
         ]
       },
@@ -15994,7 +17981,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The priest shall take of the blood of the sin offering, and put it on the door posts of the house, and on the four corners of the ledge of the altar, and on the posts of the gate of the inner court.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-45",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EZK-45:20",
@@ -16027,7 +18023,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "On that day the prince shall prepare for himself and for all the people of the land a bull for a sin offering.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-45",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          }
+        ]
       },
       {
         "id": "EZK-45:23",
@@ -16042,6 +18043,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
           }
         ]
       },
@@ -16065,7 +18074,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“ ‘ “In the seventh month, in the fifteenth day of the month, in the feast, he shall do like that for seven days; according to the sin offering, according to the burnt offering, and according to the meal offering, and according to the oil.”",
         "translation": "WEB",
         "illustrationId": "ill-ezk-45",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          }
+        ]
       }
     ]
   },
@@ -16093,6 +18111,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
           }
         ]
       },
@@ -16105,7 +18127,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "The prince shall enter by the way of the porch of the gate outside, and shall stand by the post of the gate; and the priests shall prepare his burnt offering and his peace offerings, and he shall worship at the threshold of the gate. Then he shall go out; but the gate shall not be shut until the evening.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-46",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "EZK-46:3",
@@ -16120,6 +18151,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
           }
         ]
       },
@@ -16136,6 +18171,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
           }
         ]
       },
@@ -16234,6 +18277,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
           }
         ]
       },
@@ -16248,12 +18299,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-ezk-46",
         "linkedEntities": [
           {
-            "spanText": "Morning by morning",
-            "entityId": "term-great-faithfulness"
-          },
-          {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -16267,10 +18318,6 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "translation": "WEB",
         "illustrationId": "ill-ezk-46",
         "linkedEntities": [
-          {
-            "spanText": "morning by morning",
-            "entityId": "term-great-faithfulness"
-          },
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
@@ -16288,8 +18335,8 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "illustrationId": "ill-ezk-46",
         "linkedEntities": [
           {
-            "spanText": "morning by morning",
-            "entityId": "term-great-faithfulness"
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -16340,7 +18387,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then he brought me through the entry, which was at the side of the gate, into the holy rooms for the priests, which looked toward the north. Behold, there was a place on the back part westward.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-46",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "EZK-46:20",
@@ -16351,7 +18403,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said to me, “This is the place where the priests shall boil the trespass offering and the sin offering, and where they shall bake the meal offering; that they not bring them out into the outer court, to sanctify the people.”",
         "translation": "WEB",
         "illustrationId": "ill-ezk-46",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sin offering",
+            "entityId": "term-sin-offering"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "EZK-46:21",
@@ -16419,7 +18480,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "He brought me back to the door of the house; and behold, waters flowed out from under the threshold of the house eastward, for the front of the house faced toward the east. The waters came down from underneath, from the right side of the house, on the south of the altar.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-47",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "waters",
+            "entityId": "term-living-water-temple"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "EZK-47:2",
@@ -16441,7 +18511,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the man went out eastward with the line in his hand, he measured one thousand cubits, and he caused me to pass through the waters, waters that were to the ankles.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-47",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "waters",
+            "entityId": "term-living-water-temple"
+          }
+        ]
       },
       {
         "id": "EZK-47:4",
@@ -16452,7 +18527,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Again he measured one thousand, and caused me to pass through the waters, waters that were to the knees. Again he measured one thousand, and caused me to pass through waters that were to the waist.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-47",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "waters",
+            "entityId": "term-living-water-temple"
+          }
+        ]
       },
       {
         "id": "EZK-47:5",
@@ -16463,7 +18543,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Afterward he measured one thousand; and it was a river that I could not pass through; for the waters had risen, waters to swim in, a river that could not be walked through.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-47",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "waters",
+            "entityId": "term-living-water-temple"
+          }
+        ]
       },
       {
         "id": "EZK-47:6",
@@ -16496,7 +18581,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then he said to me, “These waters flow out toward the eastern region, and will go down into the Arabah. Then they will go toward the sea; and flow into the sea which will be made to flow out; and the waters will be healed.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-47",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "waters",
+            "entityId": "term-living-water-temple"
+          }
+        ]
       },
       {
         "id": "EZK-47:9",
@@ -16507,7 +18597,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "It will happen, that every living creature which swarms, in every place where the rivers come, will live. Then there will be a very great multitude of fish; for these waters have come there, and the waters of the sea will be healed, and everything will live wherever the river comes.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-47",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "waters",
+            "entityId": "term-living-water-temple"
+          }
+        ]
       },
       {
         "id": "EZK-47:10",
@@ -16540,7 +18635,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "By the river on its bank, on this side and on that side, will grow every tree for food, whose leaf won’t wither, neither will its fruit fail. It will produce new fruit every month, because its waters issue out of the sanctuary. Its fruit will be for food, and its leaf for healing.”",
         "translation": "WEB",
         "illustrationId": "ill-ezk-47",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "waters",
+            "entityId": "term-living-water-temple"
+          }
+        ]
       },
       {
         "id": "EZK-47:13",
@@ -16555,6 +18659,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -16611,7 +18719,20 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“The east side, between Hauran and Damascus and Gilead, and the land of Israel, shall be the Jordan; from the north border to the east sea you shall measure. This is the east side.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-47",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          },
+          {
+            "spanText": "Jordan",
+            "entityId": "place-jordan"
+          }
+        ]
       },
       {
         "id": "EZK-47:19",
@@ -16644,7 +18765,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“So you shall divide this land to yourselves according to the tribes of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-47",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-47:22",
@@ -16655,7 +18781,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "It will happen, that you shall divide it by lot for an inheritance to you and to the aliens who live among you, who will father children among you. Then they shall be to you as the native-born among the children of Israel. They shall have inheritance with you among the tribes of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-47",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-47:23",
@@ -16761,7 +18892,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“By the border of Reuben, from the east side to the west side, Judah, one portion.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "EZK-48:8",
@@ -16772,7 +18908,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“By the border of Judah, from the east side to the west side, shall be the offering which you shall offer, twenty-five thousand reeds in width, and in length as one of the portions, from the east side to the west side: and the sanctuary shall be in the middle of it.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "EZK-48:9",
@@ -16803,6 +18948,14 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -16815,7 +18968,24 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "It shall be for the priests who are sanctified of the sons of Zadok, who have kept my instruction, who didn’t go astray when the children of Israel went astray, as the Levites went astray.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Zadok",
+            "entityId": "char-zadok"
+          }
+        ]
       },
       {
         "id": "EZK-48:12",
@@ -16826,7 +18996,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "It shall be to them an offering from the offering of the land, a most holy thing, by the border of the Levites.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "char-levi"
+          }
+        ]
       },
       {
         "id": "EZK-48:13",
@@ -16837,7 +19012,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“Answerable to the border of the priests, the Levites shall have twenty-five thousand in length, and ten thousand in width. All the length shall be twenty-five thousand, and the width ten thousand.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "EZK-48:14",
@@ -16908,7 +19092,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Those who labor in the city, out of all the tribes of Israel, shall cultivate it.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "EZK-48:20",
@@ -16930,7 +19119,12 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "“The remainder shall be for the prince, on the one side and on the other of the holy offering and of the possession of the city; in front of the twenty-five thousand of the offering toward the east border, and westward in front of the twenty-five thousand toward the west border, alongside the portions, it shall be for the prince. The holy offering and the sanctuary of the house shall be in the middle of it.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sanctuary",
+            "entityId": "term-sanctuary"
+          }
+        ]
       },
       {
         "id": "EZK-48:22",
@@ -16941,7 +19135,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "Moreover from the possession of the Levites, and from the possession of the city, being in the middle of that which is the prince’s, between the border of Judah and the border of Benjamin, shall be for the prince.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "char-levi"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "EZK-48:23",
@@ -17022,6 +19225,10 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -17045,7 +19252,16 @@ export const EZEKIEL_CHAPTERS: Record<string, ChapterData> = {
         "text": "and the gates of the city shall be named after the tribes of Israel, three gates northward: the gate of Reuben, one; the gate of Judah, one; the gate of Levi, one.",
         "translation": "WEB",
         "illustrationId": "ill-ezk-48",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "EZK-48:32",
