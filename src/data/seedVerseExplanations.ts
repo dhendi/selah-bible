@@ -30,6 +30,10 @@ import { HOSEA_CHAPTERS } from './books/hoseaChapters';
 import { JOEL_CHAPTERS } from './books/joelChapters';
 import { AMOS_CHAPTERS } from './books/amosChapters';
 import { OBADIAH_CHAPTERS } from './books/obadiahChapters';
+import { JONAH_CHAPTERS } from './books/jonahChapters';
+import { MICAH_CHAPTERS } from './books/micahChapters';
+import { NAHUM_CHAPTERS } from './books/nahumChapters';
+import { HABAKKUK_CHAPTERS } from './books/habakkukChapters';
 
 export const SEED_VERSE_EXPLANATIONS: Record<string, VerseExplanation> = {
   // ================= GENESIS 1 =================
@@ -2134,6 +2138,70 @@ export function getExplanationForVerse(verseId: string): VerseExplanation {
         lessonForYou: `In ${chapData.title}, God humbles smug pride against hurting neighbors and proves His kingdom endures.`,
         tryThisAction: `Pray for humility and compassion toward struggling neighbors when reading ${ref}.`,
         kidFriendlySummary: `${chapData.subtitle} God protects the vulnerable and reigns forever as wise King!`,
+      };
+    }
+  }
+
+  if (verseId.startsWith('JON-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = JONAH_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Jonah ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, God pursues both reluctant believers and entire cities with surprising mercy.`,
+        tryThisAction: `Ask God to give you His heart of compassion for outsiders when reading ${ref}.`,
+        kidFriendlySummary: `${chapData.subtitle} God hears prayers from the deep sea and loves every city!`,
+      };
+    }
+  }
+
+  if (verseId.startsWith('MIC-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = MICAH_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Micah ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, God calls His people to do justice, love kindness, and trust the coming Shepherd-King.`,
+        tryThisAction: `Practice fairness, mercy, and humble walking with God today alongside ${ref}.`,
+        kidFriendlySummary: `${chapData.subtitle} God forgives sins deeply and sends the Shepherd-King from Bethlehem!`,
+      };
+    }
+  }
+
+  if (verseId.startsWith('NAM-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = NAHUM_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Nahum ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, Yahweh is slow to anger yet never ignores cruel empires forever—He is a stronghold in trouble.`,
+        tryThisAction: `Take refuge in God as your stronghold when the world feels violent while reading ${ref}.`,
+        kidFriendlySummary: `${chapData.subtitle} God stays strong and kind to everyone who trusts in Him!`,
+      };
+    }
+  }
+
+  if (verseId.startsWith('HAB-')) {
+    const [chapPart, verseNum] = verseId.split(':');
+    const chapData = HABAKKUK_CHAPTERS[chapPart];
+    if (chapData) {
+      const ref = `Habakkuk ${chapData.chapterNumber}:${verseNum || '1'}`;
+      return {
+        verseId,
+        verseRef: ref,
+        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
+        lessonForYou: `In ${chapData.title}, honest questions meet quiet watchtower patience until faith rejoices in God our Savior.`,
+        tryThisAction: `Bring one honest question to God and choose thankful trust today with ${ref}.`,
+        kidFriendlySummary: `${chapData.subtitle} Even when fields look empty, we can trust and sing to God!`,
       };
     }
   }

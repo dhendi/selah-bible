@@ -32,6 +32,10 @@ import { HOSEA_CHAPTERS } from '../../data/books/hoseaChapters';
 import { JOEL_CHAPTERS } from '../../data/books/joelChapters';
 import { AMOS_CHAPTERS } from '../../data/books/amosChapters';
 import { OBADIAH_CHAPTERS } from '../../data/books/obadiahChapters';
+import { JONAH_CHAPTERS } from '../../data/books/jonahChapters';
+import { MICAH_CHAPTERS } from '../../data/books/micahChapters';
+import { NAHUM_CHAPTERS } from '../../data/books/nahumChapters';
+import { HABAKKUK_CHAPTERS } from '../../data/books/habakkukChapters';
 
 export const ChapterPickerModal: React.FC = () => {
   const {
@@ -44,9 +48,17 @@ export const ChapterPickerModal: React.FC = () => {
   } = useStudyStore();
 
   const [selectedBookTab, setSelectedBookTab] = useState<
-    'GEN' | 'EXO' | 'LEV' | 'NUM' | 'DEU' | 'JOS' | 'JDG' | 'RUT' | '1SA' | '2SA' | '1KI' | '2KI' | '1CH' | '2CH' | 'EZR' | 'NEH' | 'EST' | 'JOB' | 'PSA' | 'PRO' | 'ECC' | 'SNG' | 'ISA' | 'JER' | 'LAM' | 'EZK' | 'DAN' | 'HOS' | 'JOL' | 'AMO' | 'OBA' | 'FEATURED'
+    'GEN' | 'EXO' | 'LEV' | 'NUM' | 'DEU' | 'JOS' | 'JDG' | 'RUT' | '1SA' | '2SA' | '1KI' | '2KI' | '1CH' | '2CH' | 'EZR' | 'NEH' | 'EST' | 'JOB' | 'PSA' | 'PRO' | 'ECC' | 'SNG' | 'ISA' | 'JER' | 'LAM' | 'EZK' | 'DAN' | 'HOS' | 'JOL' | 'AMO' | 'OBA' | 'JON' | 'MIC' | 'NAM' | 'HAB' | 'FEATURED'
   >(
-    currentChapterId.startsWith('OBA-')
+    currentChapterId.startsWith('HAB-')
+      ? 'HAB'
+      : currentChapterId.startsWith('NAM-')
+      ? 'NAM'
+      : currentChapterId.startsWith('MIC-')
+      ? 'MIC'
+      : currentChapterId.startsWith('JON-')
+      ? 'JON'
+      : currentChapterId.startsWith('OBA-')
       ? 'OBA'
       : currentChapterId.startsWith('AMO-')
       ? 'AMO'
@@ -150,6 +162,10 @@ export const ChapterPickerModal: React.FC = () => {
   const joelChapterNumbers = Array.from({ length: 3 }, (_, i) => i + 1);
   const amosChapterNumbers = Array.from({ length: 9 }, (_, i) => i + 1);
   const obadiahChapterNumbers = [1];
+  const jonahChapterNumbers = Array.from({ length: 4 }, (_, i) => i + 1);
+  const micahChapterNumbers = Array.from({ length: 7 }, (_, i) => i + 1);
+  const nahumChapterNumbers = Array.from({ length: 3 }, (_, i) => i + 1);
+  const habakkukChapterNumbers = Array.from({ length: 3 }, (_, i) => i + 1);
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
@@ -164,7 +180,7 @@ export const ChapterPickerModal: React.FC = () => {
           <div>
             <h3 className="text-lg font-serif font-bold text-[#2C2C2A]">Select Book & Chapter</h3>
             <p className="text-xs text-[#76746E]">
-              Gen through Obadiah (1) & Featured
+              Gen through Habakkuk (3) & Featured
             </p>
           </div>
           <button
@@ -517,6 +533,50 @@ export const ChapterPickerModal: React.FC = () => {
             }`}
           >
             <span>Oba (1)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('JON')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'JON'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Jon (4)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('MIC')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'MIC'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Mic (7)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('NAM')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'NAM'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Nam (3)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('HAB')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'HAB'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Hab (3)</span>
           </button>
 
           <button
@@ -2405,6 +2465,134 @@ export const ChapterPickerModal: React.FC = () => {
             </div>
           )}
 
+          {selectedBookTab === 'JON' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>4 Chapters · Full WEB Text</span>
+                <span>48 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-4 gap-2 mb-4">
+                {jonahChapterNumbers.map((num) => {
+                  const id = `JON-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = JONAH_CHAPTERS[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Jonah ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#C88A6B] text-white border-[#C88A6B] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#C88A6B]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {selectedBookTab === 'MIC' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>7 Chapters · Full WEB Text</span>
+                <span>105 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-4 gap-2 mb-4">
+                {micahChapterNumbers.map((num) => {
+                  const id = `MIC-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = MICAH_CHAPTERS[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Micah ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#C88A6B] text-white border-[#C88A6B] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#C88A6B]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {selectedBookTab === 'NAM' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>3 Chapters · Full WEB Text</span>
+                <span>47 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-3 gap-2 mb-4">
+                {nahumChapterNumbers.map((num) => {
+                  const id = `NAM-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = NAHUM_CHAPTERS[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Nahum ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#C88A6B] text-white border-[#C88A6B] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#C88A6B]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {selectedBookTab === 'HAB' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>3 Chapters · Full WEB Text</span>
+                <span>56 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-3 gap-2 mb-4">
+                {habakkukChapterNumbers.map((num) => {
+                  const id = `HAB-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = HABAKKUK_CHAPTERS[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Habakkuk ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#C88A6B] text-white border-[#C88A6B] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#C88A6B]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
           {selectedBookTab === 'FEATURED' && (
             <div className="space-y-2.5">
               {/* Genesis 1–50 */}
@@ -3159,6 +3347,33 @@ export const ChapterPickerModal: React.FC = () => {
                   </p>
                 </div>
                 {(currentChapterId.startsWith('HOS-') || currentChapterId.startsWith('JOL-') || currentChapterId.startsWith('AMO-') || currentChapterId.startsWith('OBA-')) && (
+                  <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
+                )}
+              </button>
+
+              {/* Jonah–Habakkuk */}
+              <button
+                onClick={() => handleSelect('JON-1')}
+                className={`w-full text-left p-3.5 rounded-2xl border transition-all flex items-center justify-between cursor-pointer ${
+                  currentChapterId.startsWith('JON-') || currentChapterId.startsWith('MIC-') || currentChapterId.startsWith('NAM-') || currentChapterId.startsWith('HAB-')
+                    ? 'bg-[#EBF2ED] border-[#7A9A82] shadow-sm'
+                    : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+                }`}
+              >
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-serif font-bold text-[#2C2C2A] flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5 text-[#C88A6B]" /> Jonah–Habakkuk
+                    </span>
+                    <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-[#F7EBE4] text-[#8F5338]">
+                      Full Books
+                    </span>
+                  </div>
+                  <p className="text-xs text-[#6B6862] mt-0.5">
+                    Mercy to Nineveh in Jonah, justice & Bethlehem in Micah, Nineveh’s fall in Nahum, living by faith in Habakkuk.
+                  </p>
+                </div>
+                {(currentChapterId.startsWith('JON-') || currentChapterId.startsWith('MIC-') || currentChapterId.startsWith('NAM-') || currentChapterId.startsWith('HAB-')) && (
                   <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
                 )}
               </button>

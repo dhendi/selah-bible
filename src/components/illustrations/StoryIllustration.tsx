@@ -342,6 +342,46 @@ function resolveChapterAsset(key: string): { src: string; alt: string } | undefi
       };
     }
   }
+  const jonMatch = /^ill-jon-(\d+)$/.exec(key);
+  if (jonMatch) {
+    const ch = Number(jonMatch[1]);
+    if (ch >= 1 && ch <= 4) {
+      return {
+        src: `/images/jon-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Jonah ${ch} illustration`,
+      };
+    }
+  }
+  const micMatch = /^ill-mic-(\d+)$/.exec(key);
+  if (micMatch) {
+    const ch = Number(micMatch[1]);
+    if (ch >= 1 && ch <= 7) {
+      return {
+        src: `/images/mic-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Micah ${ch} illustration`,
+      };
+    }
+  }
+  const namMatch = /^ill-nam-(\d+)$/.exec(key);
+  if (namMatch) {
+    const ch = Number(namMatch[1]);
+    if (ch >= 1 && ch <= 3) {
+      return {
+        src: `/images/nam-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Nahum ${ch} illustration`,
+      };
+    }
+  }
+  const habMatch = /^ill-hab-(\d+)$/.exec(key);
+  if (habMatch) {
+    const ch = Number(habMatch[1]);
+    if (ch >= 1 && ch <= 3) {
+      return {
+        src: `/images/hab-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Habakkuk ${ch} illustration`,
+      };
+    }
+  }
   return undefined;
 }
 

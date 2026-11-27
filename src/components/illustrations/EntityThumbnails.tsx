@@ -412,6 +412,14 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'term-day-of-yahweh': '/images/jol-02.jpg',
   'term-plumb-line': '/images/amo-07.jpg',
   'term-valley-of-achor': '/images/hos-02.jpg',
+  'char-jonah': '/images/portrait-jonah.jpg',
+  'char-micah': '/images/portrait-micah.jpg',
+  'char-nahum': '/images/portrait-nahum.jpg',
+  'char-habakkuk': '/images/portrait-habakkuk.jpg',
+  'place-tarshish': '/images/jon-01.jpg',
+  'place-joppa': '/images/jon-01.jpg',
+  'term-live-by-faith': '/images/hab-02.jpg',
+  'term-plowshares-peace': '/images/mic-04.jpg',
 };
 
 export interface ResolvedEntityAsset {

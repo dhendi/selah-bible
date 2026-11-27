@@ -30,6 +30,10 @@ import { HOSEA_CHAPTERS } from './books/hoseaChapters';
 import { JOEL_CHAPTERS } from './books/joelChapters';
 import { AMOS_CHAPTERS } from './books/amosChapters';
 import { OBADIAH_CHAPTERS } from './books/obadiahChapters';
+import { JONAH_CHAPTERS } from './books/jonahChapters';
+import { MICAH_CHAPTERS } from './books/micahChapters';
+import { NAHUM_CHAPTERS } from './books/nahumChapters';
+import { HABAKKUK_CHAPTERS } from './books/habakkukChapters';
 
 export const SEED_CHAPTERS: Record<string, ChapterData> = {
   ...GENESIS_CHAPTERS,
@@ -63,4 +67,8 @@ export const SEED_CHAPTERS: Record<string, ChapterData> = {
   ...JOEL_CHAPTERS,
   ...AMOS_CHAPTERS,
   ...OBADIAH_CHAPTERS,
+  ...JONAH_CHAPTERS,
+  ...MICAH_CHAPTERS,
+  ...NAHUM_CHAPTERS,
+  ...HABAKKUK_CHAPTERS,
 };
