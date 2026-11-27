@@ -40,73 +40,26 @@ function applyAccessibilityDOM(prefs: ReaderPreferences) {
 const DEFAULT_PROGRESS: UserStudyProgress = {
   hasCompletedOnboarding: false,
   experienceLevel: 'beginner',
-  streakDays: 3,
-  lastActiveDate: new Date().toISOString().split('T')[0],
+  streakDays: 0,
+  lastActiveDate: '',
   completedQuizzes: [],
-  quizScores: [
-    {
-      quizId: 'exo-16',
-      score: 3,
-      total: 3,
-      date: new Date(Date.now() - 86400000).toISOString(),
-    },
-  ],
-  readVersesCount: 10,
-  savedPassageBookmarks: ['GEN-1:1', 'EXO-16:15'],
+  quizScores: [],
+  readVersesCount: 0,
+  savedPassageBookmarks: [],
   lastReadPassage: {
-    bookId: 'EXO',
-    chapterNumber: 16,
-    verseNumber: 15,
+    bookId: 'GEN',
+    chapterNumber: 1,
+    verseNumber: 1,
   },
 };
 
-const DEFAULT_NOTES: UserVerseNote[] = [
-  {
-    id: 'note-1',
-    verseRef: 'Exodus 16:15',
-    bookId: 'EXO',
-    noteText: 'Manna means "What is it?"—God often meets my deepest needs through unexpected, daily packages rather than a lifetime supply all at once.',
-    tag: 'Daily Trust',
-    createdAt: new Date(Date.now() - 86400000 * 2).toISOString(),
-    updatedAt: new Date(Date.now() - 86400000 * 2).toISOString(),
-  },
-  {
-    id: 'note-2',
-    verseRef: 'Genesis 1:1',
-    bookId: 'GEN',
-    noteText: 'Bara is only ever done by God in Hebrew. Only the Creator can bring real light out of total void and chaos.',
-    tag: 'Theology',
-    createdAt: new Date(Date.now() - 86400000 * 4).toISOString(),
-    updatedAt: new Date(Date.now() - 86400000 * 4).toISOString(),
-  },
-];
+const DEFAULT_NOTES: UserVerseNote[] = [];
 
-const DEFAULT_JOURNAL_ENTRIES: JournalEntry[] = [
-  {
-    id: 'journal-seed-1',
-    createdAt: new Date(Date.now() - 86400000).toISOString(),
-    verseReference: 'Exodus 16:15',
-    passageSnapshotText: 'God fed two million hungry travelers in the desert by raining sweet white flakes called Manna every morning.',
-    illustrationId: 'ill-desert-manna',
-    reactionTags: ['Grateful', 'Want to Trust More'],
-    userReflectionText: 'I want to remember that I don’t need to figure out the next five years today—just gather today’s grace and trust God for tomorrow.',
-    linkedToPrayerList: true,
-    prayerAnswered: false,
-    bookId: 'EXO',
-  },
-  {
-    id: 'journal-seed-2',
-    createdAt: new Date(Date.now() - 86400000 * 3).toISOString(),
-    verseReference: 'Ruth 1:16',
-    passageSnapshotText: 'Ruth refuses to abandon her grieving mother-in-law Naomi, declaring faithful love and trust in God.',
-    illustrationId: 'ill-ruth-naomi',
-    reactionTags: ['Encouraged', 'Peaceful'],
-    userReflectionText: 'Praying for the same courage to show loyal kindness to family and friends when life feels uncertain.',
-    linkedToPrayerList: true,
-    prayerAnswered: true,
-    bookId: 'RUT',
-  },
-];
+const DEFAULT_JOURNAL_ENTRIES: JournalEntry[] = [];
+
+const LEGACY_SEED_NOTE_IDS = new Set(['note-1', 'note-2']);
+const LEGACY_SEED_JOURNAL_IDS = new Set(['journal-seed-1', 'journal-seed-2']);
+const CLEAN_SLATE_MIGRATION_KEY = 'selah_clean_slate_v1';
 
 export interface JournalTarget {
   verseRef: string;
@@ -152,11 +105,72 @@ class StudyStore {
     applyAccessibilityDOM(this.preferences);
     this.progress = this.loadFromStorage(STORAGE_KEYS.PROGRESS, DEFAULT_PROGRESS);
     this.notes = this.loadFromStorage(STORAGE_KEYS.NOTES, DEFAULT_NOTES);
-    this.flashcards = this.loadFromStorage(STORAGE_KEYS.CARDS, SEED_FLASHCARDS);
+    this.flashcards = this.loadFromStorage<Flashcard[]>(STORAGE_KEYS.CARDS, []);
     this.journalEntries = this.loadFromStorage(STORAGE_KEYS.JOURNAL, DEFAULT_JOURNAL_ENTRIES);
-    this.currentChapterId = this.loadFromStorage(STORAGE_KEYS.CURRENT_CHAPTER, 'EXO-16');
+    this.currentChapterId = this.loadFromStorage(STORAGE_KEYS.CURRENT_CHAPTER, 'GEN-1');
 
+    this.cleanSlateLegacySeedMigration();
     this.updateDailyStreak();
+  }
+
+  private cleanSlateLegacySeedMigration() {
+    try {
+      if (localStorage.getItem(CLEAN_SLATE_MIGRATION_KEY)) return;
+      localStorage.setItem(CLEAN_SLATE_MIGRATION_KEY, '1');
+
+      // Strip untouched legacy demo notes
+      const filteredNotes = this.notes.filter((n) => !LEGACY_SEED_NOTE_IDS.has(n.id));
+      if (filteredNotes.length !== this.notes.length) {
+        this.notes = filteredNotes;
+        this.saveToStorage(STORAGE_KEYS.NOTES, this.notes);
+      }
+
+      // Strip untouched legacy demo journal entries
+      const filteredJournal = this.journalEntries.filter(
+        (j) => !LEGACY_SEED_JOURNAL_IDS.has(j.id)
+      );
+      if (filteredJournal.length !== this.journalEntries.length) {
+        this.journalEntries = filteredJournal;
+        this.saveToStorage(STORAGE_KEYS.JOURNAL, this.journalEntries);
+      }
+
+      // Strip untouched starter flashcards if user hasn't reviewed any card
+      const seedIds = new Set(SEED_FLASHCARDS.map((c) => c.id));
+      if (
+        this.flashcards.length > 0 &&
+        this.flashcards.every((c) => seedIds.has(c.id) && c.repetitions === 0 && c.lastScore == null)
+      ) {
+        this.flashcards = [];
+        this.saveToStorage(STORAGE_KEYS.CARDS, this.flashcards);
+      }
+
+      // Reset untouched fake seed progress if still matching default seed
+      const hasOnlySeedQuiz =
+        this.progress.quizScores.length === 1 &&
+        this.progress.quizScores[0]?.quizId === 'exo-16' &&
+        this.progress.completedQuizzes.length === 0;
+      const hasOnlySeedBookmarks =
+        this.progress.savedPassageBookmarks.length === 2 &&
+        this.progress.savedPassageBookmarks.includes('GEN-1:1') &&
+        this.progress.savedPassageBookmarks.includes('EXO-16:15');
+      if (hasOnlySeedQuiz || (hasOnlySeedBookmarks && this.progress.readVersesCount === 10)) {
+        this.progress = {
+          ...this.progress,
+          streakDays: 0,
+          lastActiveDate: '',
+          quizScores: hasOnlySeedQuiz ? [] : this.progress.quizScores,
+          readVersesCount: this.progress.readVersesCount === 10 ? 0 : this.progress.readVersesCount,
+          savedPassageBookmarks: hasOnlySeedBookmarks ? [] : this.progress.savedPassageBookmarks,
+        };
+        this.saveToStorage(STORAGE_KEYS.PROGRESS, this.progress);
+      }
+
+      if (this.currentChapterId === 'EXO-16' && !localStorage.getItem(STORAGE_KEYS.CURRENT_CHAPTER)) {
+        this.currentChapterId = 'GEN-1';
+      }
+    } catch {
+      // Ignore storage availability errors
+    }
   }
 
   private loadFromStorage<T>(key: string, fallback: T): T {
@@ -235,6 +249,7 @@ class StudyStore {
       bookId,
       chapterNumber: parseInt(chap, 10) || 1,
     };
+    this.recordStudyActivity();
     this.saveToStorage(STORAGE_KEYS.PROGRESS, this.progress);
     this.notify();
   }
@@ -395,6 +410,7 @@ class StudyStore {
       updatedAt: new Date().toISOString(),
     };
     this.notes = [newNote, ...this.notes];
+    this.recordStudyActivity();
     this.saveToStorage(STORAGE_KEYS.NOTES, this.notes);
     this.notify();
   }
@@ -429,6 +445,7 @@ class StudyStore {
       createdAt: new Date().toISOString(),
     };
     this.journalEntries = [newEntry, ...this.journalEntries];
+    this.recordStudyActivity();
     this.saveToStorage(STORAGE_KEYS.JOURNAL, this.journalEntries);
     this.notify();
   }
@@ -531,19 +548,52 @@ class StudyStore {
   }
 
   private updateDailyStreak() {
-    const today = new Date().toISOString().split('T')[0];
     const lastActive = this.progress.lastActiveDate;
+    if (!lastActive) return;
 
+    const today = new Date().toISOString().split('T')[0];
     if (lastActive === today) return;
 
     const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
-    if (lastActive === yesterday) {
-      this.progress.streakDays += 1;
-    } else {
-      this.progress.streakDays = 1;
+    if (lastActive !== yesterday && this.progress.streakDays > 0) {
+      this.progress.streakDays = 0;
+      this.saveToStorage(STORAGE_KEYS.PROGRESS, this.progress);
     }
+  }
+
+  private recordStudyActivity() {
+    const today = new Date().toISOString().split('T')[0];
+    if (this.progress.lastActiveDate === today) return;
+    const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+    this.progress.streakDays = this.progress.lastActiveDate === yesterday ? this.progress.streakDays + 1 : 1;
     this.progress.lastActiveDate = today;
     this.saveToStorage(STORAGE_KEYS.PROGRESS, this.progress);
+  }
+
+  public loadStarterFlashcards() {
+    if (this.flashcards.length === 0) {
+      this.flashcards = SEED_FLASHCARDS.map((c) => ({ ...c }));
+      this.saveToStorage(STORAGE_KEYS.CARDS, this.flashcards);
+      this.notify();
+    }
+  }
+
+  public clearAllStudyData() {
+    this.notes = [];
+    this.journalEntries = [];
+    this.flashcards = [];
+    this.progress = {
+      ...DEFAULT_PROGRESS,
+      hasCompletedOnboarding: this.progress.hasCompletedOnboarding,
+      experienceLevel: this.progress.experienceLevel,
+    };
+    this.currentChapterId = 'GEN-1';
+    this.saveToStorage(STORAGE_KEYS.NOTES, this.notes);
+    this.saveToStorage(STORAGE_KEYS.JOURNAL, this.journalEntries);
+    this.saveToStorage(STORAGE_KEYS.CARDS, this.flashcards);
+    this.saveToStorage(STORAGE_KEYS.PROGRESS, this.progress);
+    this.saveToStorage(STORAGE_KEYS.CURRENT_CHAPTER, this.currentChapterId);
+    this.notify();
   }
 
   // 4-Step Progressive Flow Actions
@@ -707,6 +757,8 @@ export function useStudyStore() {
       globalStore.addFlashcard(ref, text, concept, hint, hebrewGreek),
     recordQuizCompletion: (qId: string, qIds: string[], score: number, total: number) => globalStore.recordQuizCompletion(qId, qIds, score, total),
     answerFlashcard: (cardId: string, score: number) => globalStore.answerFlashcard(cardId, score),
+    loadStarterFlashcards: () => globalStore.loadStarterFlashcards(),
+    clearAllStudyData: () => globalStore.clearAllStudyData(),
     openVisualOverview: (chapId: string, anchorVerseNum?: number) => globalStore.openVisualOverview(chapId, anchorVerseNum),
     startReadingFromOverview: () => globalStore.startReadingFromOverview(),
     navigateToPassage: (chapId: string, vNum?: number) => globalStore.navigateToPassage(chapId, vNum),

@@ -65,7 +65,7 @@ export const TodayScreen: React.FC = () => {
 
   const [activeQuizPassage, setActiveQuizPassage] = useState<string | null>(null);
 
-  const activeChapter = currentChapterId || 'EXO-16';
+  const activeChapter = currentChapterId || 'GEN-1';
   const bookId = parseBookIdFromChapter(activeChapter);
   const bookMeta = PICKER_BOOK_MAP[bookId];
   const groupMeta = BIBLE_BOOK_GROUPS.find((g) => g.id === bookMeta.groupId);

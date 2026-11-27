@@ -8,6 +8,7 @@ import {
   Plus,
 } from 'lucide-react';
 import { useStudyStore } from '../../store/useStudyStore';
+import { PICKER_BOOK_MAP, parseBookIdFromChapter, type BibleBookId } from '../../data/bookGroups';
 import { StoryIllustration } from '../illustrations/StoryIllustration';
 
 export const JournalTimeline: React.FC = () => {
@@ -17,12 +18,17 @@ export const JournalTimeline: React.FC = () => {
     deleteJournalEntry,
     navigateToPassage,
     openJournalSheet,
+    currentChapterId,
     preferences,
   } = useStudyStore();
 
-  const [filterMode, setFilterMode] = useState<'all' | 'prayer' | 'GEN' | 'EXO' | 'LEV' | 'NUM' | 'DEU' | 'JOS' | 'JDG' | 'RUT' | '1SA' | '2SA' | '1KI' | '2KI' | 'JOB' | 'PSA' | 'DAN'>('all');
+  const [filterMode, setFilterMode] = useState<'all' | 'prayer' | string>('all');
 
   const fontClass = preferences.isDyslexicFont ? 'font-dyslexic' : 'font-sans';
+
+  const curBookId = parseBookIdFromChapter(currentChapterId || 'GEN-1');
+  const curChapNum = (currentChapterId || 'GEN-1').split('-')[1] || '1';
+  const curBookTitle = PICKER_BOOK_MAP[curBookId]?.title || 'Genesis';
 
   const filteredEntries = journalEntries.filter((entry) => {
     if (filterMode === 'all') return true;
@@ -30,43 +36,20 @@ export const JournalTimeline: React.FC = () => {
     return entry.bookId === filterMode;
   });
 
-  const handleJump = (ref: string) => {
-    const stripped = ref.replace(/^(?:1|2)\s+(?:Samuel|Kings)\s+/i, '');
-    const chapMatch = stripped.match(/\b(\d+)(?::(\d+))?/);
+  const bookFilters = Array.from(new Set(journalEntries.map((e) => e.bookId))).map((bId) => ({
+    id: bId,
+    label: PICKER_BOOK_MAP[bId as BibleBookId]?.title || bId,
+  }));
+
+  const handleJump = (ref: string, fallbackBookId?: string) => {
+    const chapMatch = ref.match(/\b(\d+)(?::(\d+))?\s*$/);
     const chap = chapMatch ? chapMatch[1] : '1';
     const verse = chapMatch && chapMatch[2] ? parseInt(chapMatch[2], 10) : undefined;
-
-    if (ref.includes('Genesis')) {
-      navigateToPassage(`GEN-${chap}`, verse);
-    } else if (ref.includes('Leviticus')) {
-      navigateToPassage(`LEV-${chap}`, verse);
-    } else if (ref.includes('Numbers')) {
-      navigateToPassage(`NUM-${chap}`, verse);
-    } else if (ref.includes('Deuteronomy')) {
-      navigateToPassage(`DEU-${chap}`, verse);
-    } else if (ref.includes('Joshua')) {
-      navigateToPassage(`JOS-${chap}`, verse);
-    } else if (ref.includes('Judges')) {
-      navigateToPassage(`JDG-${chap}`, verse);
-    } else if (ref.includes('1 Samuel')) {
-      navigateToPassage(`1SA-${chap}`, verse);
-    } else if (ref.includes('2 Samuel')) {
-      navigateToPassage(`2SA-${chap}`, verse);
-    } else if (ref.includes('1 Kings')) {
-      navigateToPassage(`1KI-${chap}`, verse);
-    } else if (ref.includes('2 Kings')) {
-      navigateToPassage(`2KI-${chap}`, verse);
-    } else if (ref.includes('Job')) {
-      navigateToPassage(`JOB-${chap}`, verse);
-    } else if (ref.includes('Psalm')) {
-      navigateToPassage(`PSA-${chap}`, verse);
-    } else if (ref.includes('Daniel')) {
-      navigateToPassage(`DAN-${chap}`, verse);
-    } else if (ref.includes('Ruth')) {
-      navigateToPassage('RUT-1', verse || 16);
-    } else {
-      navigateToPassage(`EXO-${chap === '1' && !ref.includes('1:') ? '16' : chap}`, verse);
-    }
+    const bookEntry = Object.values(PICKER_BOOK_MAP).find((b) =>
+      ref.toLowerCase().startsWith(b.title.toLowerCase())
+    );
+    const bId = bookEntry?.id || (fallbackBookId as BibleBookId) || 'GEN';
+    navigateToPassage(`${bId}-${chap}`, verse);
   };
 
   return (
@@ -74,16 +57,15 @@ export const JournalTimeline: React.FC = () => {
       {/* Header & Quick Add */}
       <div className="flex items-center justify-between text-xs text-[#76746E] px-1">
         <span className="font-semibold text-[#2C2C2A]">
-          {journalEntries.length} Journal Reflections
+          {journalEntries.length} Journal {journalEntries.length === 1 ? 'Reflection' : 'Reflections'}
         </span>
         <button
           onClick={() =>
             openJournalSheet({
-              verseRef: 'Ruth 1:16',
-              bookId: 'RUT',
-              snapshotText:
-                'Ruth refuses to abandon her grieving mother-in-law Naomi, declaring faithful love and trust in God.',
-              illustrationId: 'ill-ruth-naomi',
+              verseRef: `${curBookTitle} ${curChapNum}:1`,
+              bookId: curBookId,
+              snapshotText: `Reflecting on ${curBookTitle} ${curChapNum}.`,
+              illustrationId: 'ill-creation',
             })
           }
           className="flex items-center gap-1 text-[#7A9A82] hover:text-[#5A7D63] font-medium cursor-pointer"
@@ -94,47 +76,37 @@ export const JournalTimeline: React.FC = () => {
       </div>
 
       {/* Filter Pills */}
-      <div className="flex gap-1.5 overflow-x-auto pb-1 scrollbar-none">
-        {[
-          { id: 'all', label: 'All' },
-          { id: 'prayer', label: 'Prayer List' },
-          { id: 'GEN', label: 'Genesis' },
-          { id: 'EXO', label: 'Exodus' },
-          { id: 'LEV', label: 'Leviticus' },
-          { id: 'NUM', label: 'Numbers' },
-          { id: 'DEU', label: 'Deuteronomy' },
-          { id: 'JOS', label: 'Joshua' },
-          { id: 'JDG', label: 'Judges' },
-          { id: 'RUT', label: 'Ruth' },
-          { id: '1SA', label: '1 Samuel' },
-          { id: '2SA', label: '2 Samuel' },
-          { id: '1KI', label: '1 Kings' },
-          { id: '2KI', label: '2 Kings' },
-          { id: 'JOB', label: 'Job' },
-          { id: 'PSA', label: 'Psalms' },
-          { id: 'DAN', label: 'Daniel' },
-        ].map((pill) => (
-          <button
-            key={pill.id}
-            onClick={() => setFilterMode(pill.id as any)}
-            className={`px-3 py-1 rounded-full text-xs font-medium whitespace-nowrap transition-all cursor-pointer ${
-              filterMode === pill.id
-                ? 'bg-[#7A9A82] text-white shadow-xs'
-                : 'bg-[#F3EFE6] text-[#76746E] hover:bg-[#EBE5DA]'
-            }`}
-          >
-            {pill.label}
-          </button>
-        ))}
-      </div>
+      {journalEntries.length > 0 && (
+        <div className="flex gap-1.5 overflow-x-auto pb-1 scrollbar-none">
+          {[
+            { id: 'all', label: 'All' },
+            { id: 'prayer', label: 'Prayer List' },
+            ...bookFilters,
+          ].map((pill) => (
+            <button
+              key={pill.id}
+              onClick={() => setFilterMode(pill.id)}
+              className={`px-3 py-1 rounded-full text-xs font-medium whitespace-nowrap transition-all cursor-pointer ${
+                filterMode === pill.id
+                  ? 'bg-[#7A9A82] text-white shadow-xs'
+                  : 'bg-[#F3EFE6] text-[#76746E] hover:bg-[#EBE5DA]'
+              }`}
+            >
+              {pill.label}
+            </button>
+          ))}
+        </div>
+      )}
 
       {/* Journal Feed */}
       {filteredEntries.length === 0 ? (
         <div className="bg-[#F3EFE6] rounded-3xl p-6 text-center border border-[#E5DFD5]">
           <PenLine className="w-8 h-8 text-[#96938B] mx-auto mb-2" />
-          <h4 className="text-sm font-semibold text-[#2C2C2A]">No entries matching filter</h4>
-          <p className="text-xs text-[#76746E] mt-1">
-            Tap "Reflect in Journal" while reading any passage to save your reflections here.
+          <h4 className="text-sm font-semibold text-[#2C2C2A]">
+            {journalEntries.length === 0 ? 'No journal reflections yet' : 'No entries matching filter'}
+          </h4>
+          <p className="text-xs text-[#76746E] mt-1 max-w-xs mx-auto">
+            Tap "Reflect in Journal" while reading any passage to save your personal reflections and prayer requests here.
           </p>
         </div>
       ) : (
@@ -191,7 +163,7 @@ export const JournalTimeline: React.FC = () => {
 
               {/* Embedded "What I Read" Snapshot Card */}
               <button
-                onClick={() => handleJump(entry.verseReference)}
+                onClick={() => handleJump(entry.verseReference, entry.bookId)}
                 className="w-full text-left bg-[#F3EFE6] hover:bg-[#EDE7DC] rounded-2xl p-2.5 border border-[#E5DFD5] flex gap-3 items-center transition-colors group cursor-pointer"
               >
                 <div className="w-16 h-16 flex-shrink-0 rounded-xl overflow-hidden">
@@ -217,7 +189,7 @@ export const JournalTimeline: React.FC = () => {
               <p
                 className="text-[#2C2C2A] leading-relaxed"
                 style={{
-                  fontSize: `${Math.max(13, Math.min(preferences.fontSize - 3, 19))}px`,
+                  fontSize: `${Math.max(14, Math.min(preferences.fontSize - 2, 24))}px`,
                   lineHeight: preferences.lineHeight,
                 }}
               >

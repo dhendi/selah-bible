@@ -4,14 +4,26 @@ import confetti from 'canvas-confetti';
 import { useStudyStore } from '../../store/useStudyStore';
 
 export const FlashcardDeck: React.FC = () => {
-  const { flashcards, answerFlashcard, navigateToPassage } = useStudyStore();
+  const { flashcards, answerFlashcard, loadStarterFlashcards, navigateToPassage } = useStudyStore();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
 
   if (flashcards.length === 0) {
     return (
-      <div className="bg-[#F3EFE6] rounded-3xl p-6 text-center border border-[#E5DFD5]">
-        <p className="text-sm text-[#76746E]">All flashcards reviewed for today!</p>
+      <div className="bg-[#F3EFE6] rounded-3xl p-6 text-center border border-[#E5DFD5] space-y-3">
+        <Sparkles className="w-7 h-7 text-[#7A9A82] mx-auto" />
+        <div>
+          <h4 className="text-sm font-semibold text-[#2C2C2A]">No flashcards yet</h4>
+          <p className="text-xs text-[#76746E] mt-1 max-w-xs mx-auto">
+            Your memory deck starts completely clean. You can also load starter Scripture cards anytime below.
+          </p>
+        </div>
+        <button
+          onClick={loadStarterFlashcards}
+          className="px-4 py-2 rounded-xl bg-[#FAF7F2] hover:bg-[#EBE5DA] border border-[#D8D1C4] text-xs font-semibold text-[#2C2C2A] transition-colors cursor-pointer"
+        >
+          Load Starter Memory Verses
+        </button>
       </div>
     );
   }

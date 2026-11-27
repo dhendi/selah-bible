@@ -10,6 +10,7 @@ import {
   PenLine,
 } from 'lucide-react';
 import { useStudyStore } from '../../store/useStudyStore';
+import { PICKER_BOOK_MAP, type BibleBookId } from '../../data/bookGroups';
 import { FlashcardDeck } from './FlashcardDeck';
 import { NotesManager } from './NotesManager';
 import { JournalTimeline } from './JournalTimeline';
@@ -21,24 +22,38 @@ export const LibraryScreen: React.FC = () => {
     flashcards,
     journalEntries,
     resetOnboarding,
+    clearAllStudyData,
     navigateToPassage,
   } = useStudyStore();
 
   const [activeSubTab, setActiveSubTab] = useState<'journal' | 'flashcards' | 'notes' | 'bookmarks'>('journal');
+  const [confirmClear, setConfirmClear] = useState(false);
 
   // Calculate quiz accuracy
-  const totalQuestions = progress.quizScores.reduce((acc, q) => acc + q.total, 0) || 1;
+  const totalQuestions = progress.quizScores.reduce((acc, q) => acc + q.total, 0);
   const totalCorrect = progress.quizScores.reduce((acc, q) => acc + q.score, 0);
-  const accuracyPercent = Math.round((totalCorrect / totalQuestions) * 100);
+  const accuracyDisplay =
+    progress.quizScores.length === 0 || totalQuestions === 0
+      ? '—'
+      : `${Math.round((totalCorrect / totalQuestions) * 100)}%`;
+
+  const formatBookmarkTitle = (ref: string) => {
+    const [chapPart, versePart] = ref.split(':');
+    const [bookId, chapNum] = chapPart.split('-');
+    const meta = PICKER_BOOK_MAP[bookId as BibleBookId];
+    if (meta && chapNum) {
+      return `${meta.title} ${chapNum}${versePart ? `:${versePart}` : ''}`;
+    }
+    return ref;
+  };
 
   const handleJumpToBookmark = (ref: string) => {
-    if (ref.includes('GEN') || ref.includes('Genesis')) {
-      navigateToPassage('GEN-1');
-    } else if (ref.includes('RUT') || ref.includes('Ruth')) {
-      navigateToPassage('RUT-1', 16);
-    } else {
-      navigateToPassage('EXO-16');
+    const [chapPart, versePart] = ref.split(':');
+    if (chapPart.includes('-')) {
+      navigateToPassage(chapPart, versePart ? parseInt(versePart, 10) : undefined);
+      return;
     }
+    navigateToPassage('GEN-1');
   };
 
   return (
@@ -71,7 +86,7 @@ export const LibraryScreen: React.FC = () => {
             {/* Metric 2: Quiz Accuracy */}
             <div className="bg-[#FAF7F2] p-3 rounded-2xl border border-[#E5DFD5] text-center">
               <Award className="w-5 h-5 text-[#7A9A82] mx-auto mb-1" />
-              <div className="text-base font-bold text-[#2C2C2A]">{accuracyPercent}%</div>
+              <div className="text-base font-bold text-[#2C2C2A]">{accuracyDisplay}</div>
               <div className="text-[0.625rem] text-[#76746E]">Quiz Accuracy</div>
             </div>
 
@@ -156,18 +171,14 @@ export const LibraryScreen: React.FC = () => {
                   <button
                     key={ref}
                     onClick={() => handleJumpToBookmark(ref)}
-                    className="w-full text-left bg-[#FAF7F2] hover:bg-[#F3EFE6] p-3.5 rounded-2xl border border-[#E5DFD5] flex items-center justify-between transition-colors group"
+                    className="w-full text-left bg-[#FAF7F2] hover:bg-[#F3EFE6] p-3.5 rounded-2xl border border-[#E5DFD5] flex items-center justify-between transition-colors group cursor-pointer"
                   >
                     <div>
                       <div className="text-sm font-serif font-bold text-[#2C2C2A] group-hover:text-[#7A9A82]">
-                        {ref === 'GEN-1:1' ? 'Genesis 1:1' : ref === 'EXO-16:15' ? 'Exodus 16:15' : ref}
+                        {formatBookmarkTitle(ref)}
                       </div>
                       <div className="text-xs text-[#76746E] mt-0.5">
-                        {ref.includes('GEN')
-                          ? 'In the beginning God created the heavens and the earth.'
-                          : ref.includes('Ruth')
-                          ? 'Wherever you go, I will go, and wherever you live, I will live...'
-                          : 'When the Israelites saw it, they said to each other, "What is it?" (Manna)...'}
+                        Saved reading bookmark
                       </div>
                     </div>
                     <span className="text-xs text-[#7A9A82] font-medium ml-2">Read →</span>
@@ -179,15 +190,43 @@ export const LibraryScreen: React.FC = () => {
         )}
       </main>
 
-      {/* Onboarding Re-Launch / Test Section */}
-      <footer className="pt-4 border-t border-[#E8E2D7] text-center">
+      {/* Onboarding Re-Launch & Clean Slate Reset Section */}
+      <footer className="pt-4 border-t border-[#E8E2D7] text-center space-y-3">
         <button
           onClick={resetOnboarding}
-          className="text-xs text-[#96938B] hover:text-[#2C2C2A] flex items-center gap-1.5 mx-auto transition-colors"
+          className="text-xs text-[#96938B] hover:text-[#2C2C2A] flex items-center gap-1.5 mx-auto transition-colors cursor-pointer"
         >
           <RotateCcw className="w-3.5 h-3.5" />
           <span>Re-launch 60-Second Onboarding Tour</span>
         </button>
+
+        {confirmClear ? (
+          <div className="inline-flex items-center gap-2 bg-[#FAECE5] border border-[#ECCDC0] px-3 py-1.5 rounded-xl text-xs">
+            <span className="text-[#8B3A2B] font-medium">Clear all notes, cards & journal?</span>
+            <button
+              onClick={() => {
+                clearAllStudyData();
+                setConfirmClear(false);
+              }}
+              className="px-2 py-0.5 rounded-lg bg-[#8B3A2B] text-white font-semibold cursor-pointer"
+            >
+              Yes, Clear
+            </button>
+            <button
+              onClick={() => setConfirmClear(false)}
+              className="px-2 py-0.5 rounded-lg bg-[#FAF7F2] text-[#2C2C2A] font-medium cursor-pointer"
+            >
+              Cancel
+            </button>
+          </div>
+        ) : (
+          <button
+            onClick={() => setConfirmClear(true)}
+            className="text-xs text-[#96938B] hover:text-[#8B3A2B] block mx-auto transition-colors cursor-pointer"
+          >
+            Reset Study Data (Clean Slate)
+          </button>
+        )}
       </footer>
     </div>
   );

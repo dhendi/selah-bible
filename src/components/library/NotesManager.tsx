@@ -1,11 +1,16 @@
 import React, { useState } from 'react';
 import { Bookmark, Trash2, ArrowRight, BookOpen, Plus } from 'lucide-react';
 import { useStudyStore } from '../../store/useStudyStore';
+import { PICKER_BOOK_MAP, parseBookIdFromChapter, type BibleBookId } from '../../data/bookGroups';
 import { AddNoteModal } from '../reader/AddNoteModal';
 
 export const NotesManager: React.FC = () => {
-  const { notes, deleteVerseNote, navigateToPassage } = useStudyStore();
+  const { notes, deleteVerseNote, navigateToPassage, currentChapterId } = useStudyStore();
   const [activeAddNoteRef, setActiveAddNoteRef] = useState<string | null>(null);
+
+  const curBookId = parseBookIdFromChapter(currentChapterId || 'GEN-1');
+  const curChapNum = (currentChapterId || 'GEN-1').split('-')[1] || '1';
+  const curBookTitle = PICKER_BOOK_MAP[curBookId]?.title || 'Genesis';
 
   // Group notes by bookId
   const groupedNotes: Record<string, typeof notes> = {};
@@ -17,12 +22,15 @@ export const NotesManager: React.FC = () => {
     groupedNotes[book].push(note);
   });
 
-  const handleJump = (verseRef: string) => {
-    if (verseRef.includes('Genesis')) {
-      navigateToPassage('GEN-1');
-    } else {
-      navigateToPassage('EXO-16');
-    }
+  const handleJump = (verseRef: string, fallbackBookId?: string) => {
+    const chapMatch = verseRef.match(/\b(\d+)(?::(\d+))?\s*$/);
+    const chap = chapMatch ? chapMatch[1] : '1';
+    const verse = chapMatch && chapMatch[2] ? parseInt(chapMatch[2], 10) : undefined;
+    const bookEntry = Object.values(PICKER_BOOK_MAP).find((b) =>
+      verseRef.toLowerCase().startsWith(b.title.toLowerCase())
+    );
+    const bId = bookEntry?.id || (fallbackBookId as BibleBookId) || 'GEN';
+    navigateToPassage(`${bId}-${chap}`, verse);
   };
 
   return (
@@ -30,11 +38,11 @@ export const NotesManager: React.FC = () => {
       {/* Header bar */}
       <div className="flex items-center justify-between text-xs text-[#76746E] px-1">
         <span className="font-semibold text-[#2C2C2A]">
-          {notes.length} Personal Study Notes
+          {notes.length} Personal Study {notes.length === 1 ? 'Note' : 'Notes'}
         </span>
         <button
-          onClick={() => setActiveAddNoteRef('Exodus 16:15')}
-          className="flex items-center gap-1 text-[#7A9A82] hover:text-[#5A7D63] font-medium"
+          onClick={() => setActiveAddNoteRef(`${curBookTitle} ${curChapNum}:1`)}
+          className="flex items-center gap-1 text-[#7A9A82] hover:text-[#5A7D63] font-medium cursor-pointer"
         >
           <Plus className="w-3.5 h-3.5" />
           <span>New Note</span>
@@ -46,13 +54,13 @@ export const NotesManager: React.FC = () => {
           <Bookmark className="w-8 h-8 text-[#96938B] mx-auto mb-2" />
           <h4 className="text-sm font-semibold text-[#2C2C2A]">No notes yet</h4>
           <p className="text-xs text-[#76746E] mt-1 max-w-xs mx-auto">
-            While reading, tap the note icon on any verse to record your personal insights and prayers.
+            While reading, tap any verse and select Note to record your personal insights and prayers.
           </p>
         </div>
       ) : (
         <div className="space-y-4">
           {Object.entries(groupedNotes).map(([bookId, bookNotes]) => {
-            const bookName = bookId === 'GEN' ? 'Genesis' : bookId === 'EXO' ? 'Exodus' : bookId;
+            const bookName = PICKER_BOOK_MAP[bookId as BibleBookId]?.title || bookId;
 
             return (
               <div key={bookId} className="space-y-2">
@@ -69,7 +77,7 @@ export const NotesManager: React.FC = () => {
                     >
                       <div className="flex items-start justify-between gap-2 mb-2">
                         <button
-                          onClick={() => handleJump(note.verseRef)}
+                          onClick={() => handleJump(note.verseRef, note.bookId)}
                           className="text-xs font-serif font-bold text-[#2C2C2A] hover:text-[#7A9A82] flex items-center gap-1 transition-colors"
                         >
                           <span>{note.verseRef}</span>
@@ -110,7 +118,7 @@ export const NotesManager: React.FC = () => {
       {activeAddNoteRef && (
         <AddNoteModal
           verseRef={activeAddNoteRef}
-          bookId={activeAddNoteRef.includes('Genesis') ? 'GEN' : 'EXO'}
+          bookId={curBookId}
           onClose={() => setActiveAddNoteRef(null)}
         />
       )}
