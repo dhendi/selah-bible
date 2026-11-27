@@ -1894,6 +1894,27 @@ const BOOK_EXPLANATION_TEMPLATES: Record<string, BookExplanationTemplate> = {
     action: (ref) => `Encourage a friend or pray boldly for someone across your neighborhood today alongside ${ref}.`,
     kid: (s) => `${s} God’s Holy Spirit helps ordinary friends share Jesus everywhere on earth!`,
   },
+  ROM: {
+    bookName: 'Romans',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, God’s righteousness is gifted freely through faith in Jesus Christ so Jew and Gentile alike live in unshakeable peace.`,
+    action: (ref) => `Thank Jesus today for one promised mercy in ${ref} and offer kindness freely to someone around you.`,
+    kid: (s) => `${s} Nothing can separate us from God’s big, warm love in Jesus!`,
+  },
+  '1CO': {
+    bookName: '1 Corinthians',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, Christ crucified reshapes quarrels and gifts around patient agape love anchored in Easter resurrection victory.`,
+    action: (ref) => `Choose patient, gentle love over winning an argument today as you reflect on ${ref}.`,
+    kid: (s) => `${s} Love is patient and kind—and every friend in Jesus’ church matters!`,
+  },
+  '2CO': {
+    bookName: '2 Corinthians',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, God pours bright resurrection treasure inside fragile clay vessels so Christ’s grace shines strongest in weakness.`,
+    action: (ref) => `Offer comforting encouragement to someone feeling weak or weary today alongside ${ref}.`,
+    kid: (s) => `${s} Jesus makes His brightest light shine right through ordinary fragile clay jars like us!`,
+  },
 };
 
 export function getExplanationForVerse(

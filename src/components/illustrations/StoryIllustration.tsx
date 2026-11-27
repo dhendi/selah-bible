@@ -472,6 +472,36 @@ function resolveChapterAsset(key: string): { src: string; alt: string } | undefi
       };
     }
   }
+  const romMatch = /^ill-rom-(\d+)$/.exec(key);
+  if (romMatch) {
+    const ch = Number(romMatch[1]);
+    if (ch >= 1 && ch <= 16) {
+      return {
+        src: `/images/rom-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `Romans ${ch} illustration`,
+      };
+    }
+  }
+  const cor1Match = /^ill-1co-(\d+)$/.exec(key);
+  if (cor1Match) {
+    const ch = Number(cor1Match[1]);
+    if (ch >= 1 && ch <= 16) {
+      return {
+        src: `/images/1co-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `1 Corinthians ${ch} illustration`,
+      };
+    }
+  }
+  const cor2Match = /^ill-2co-(\d+)$/.exec(key);
+  if (cor2Match) {
+    const ch = Number(cor2Match[1]);
+    if (ch >= 1 && ch <= 13) {
+      return {
+        src: `/images/2co-${String(ch).padStart(2, '0')}.jpg`,
+        alt: `2 Corinthians ${ch} illustration`,
+      };
+    }
+  }
   return undefined;
 }
 

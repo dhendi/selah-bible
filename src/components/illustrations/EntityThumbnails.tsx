@@ -526,6 +526,17 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'term-pentecost': '/images/act-02.jpg',
   'term-gentiles': '/images/act-10.jpg',
   'term-church-ekklesia': '/images/act-02.jpg',
+  'char-phoebe': '/images/portrait-phoebe.jpg',
+  'char-titus': '/images/portrait-titus.jpg',
+  'term-grace': '/images/rom-03.jpg',
+  'term-justification': '/images/rom-05.jpg',
+  'term-adoption': '/images/rom-08.jpg',
+  'term-reconciliation': '/images/2co-05.jpg',
+  'term-new-creation': '/images/2co-05.jpg',
+  'term-agape-love': '/images/1co-13.jpg',
+  'term-faith-pistis': '/images/rom-04.jpg',
+  'term-hope': '/images/rom-08.jpg',
+  'term-peace-eirene': '/images/rom-05.jpg',
 };
 
 export interface ResolvedEntityAsset {

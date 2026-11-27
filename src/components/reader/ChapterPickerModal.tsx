@@ -14,9 +14,15 @@ export const ChapterPickerModal: React.FC = () => {
   } = useStudyStore();
 
   const [selectedBookTab, setSelectedBookTab] = useState<
-    'GEN' | 'EXO' | 'LEV' | 'NUM' | 'DEU' | 'JOS' | 'JDG' | 'RUT' | '1SA' | '2SA' | '1KI' | '2KI' | '1CH' | '2CH' | 'EZR' | 'NEH' | 'EST' | 'JOB' | 'PSA' | 'PRO' | 'ECC' | 'SNG' | 'ISA' | 'JER' | 'LAM' | 'EZK' | 'DAN' | 'HOS' | 'JOL' | 'AMO' | 'OBA' | 'JON' | 'MIC' | 'NAM' | 'HAB' | 'ZEP' | 'HAG' | 'ZEC' | 'MAL' | 'MAT' | 'MRK' | 'LUK' | 'JHN' | 'ACT' | 'FEATURED'
+    'GEN' | 'EXO' | 'LEV' | 'NUM' | 'DEU' | 'JOS' | 'JDG' | 'RUT' | '1SA' | '2SA' | '1KI' | '2KI' | '1CH' | '2CH' | 'EZR' | 'NEH' | 'EST' | 'JOB' | 'PSA' | 'PRO' | 'ECC' | 'SNG' | 'ISA' | 'JER' | 'LAM' | 'EZK' | 'DAN' | 'HOS' | 'JOL' | 'AMO' | 'OBA' | 'JON' | 'MIC' | 'NAM' | 'HAB' | 'ZEP' | 'HAG' | 'ZEC' | 'MAL' | 'MAT' | 'MRK' | 'LUK' | 'JHN' | 'ACT' | 'ROM' | '1CO' | '2CO' | 'FEATURED'
   >(
-    currentChapterId.startsWith('ACT-')
+    currentChapterId.startsWith('2CO-')
+      ? '2CO'
+      : currentChapterId.startsWith('1CO-')
+      ? '1CO'
+      : currentChapterId.startsWith('ROM-')
+      ? 'ROM'
+      : currentChapterId.startsWith('ACT-')
       ? 'ACT'
       : currentChapterId.startsWith('JHN-')
       ? 'JHN'
@@ -163,6 +169,9 @@ export const ChapterPickerModal: React.FC = () => {
   const lukeChapterNumbers = Array.from({ length: 24 }, (_, i) => i + 1);
   const johnChapterNumbers = Array.from({ length: 21 }, (_, i) => i + 1);
   const actsChapterNumbers = Array.from({ length: 28 }, (_, i) => i + 1);
+  const romansChapterNumbers = Array.from({ length: 16 }, (_, i) => i + 1);
+  const firstCorinthiansChapterNumbers = Array.from({ length: 16 }, (_, i) => i + 1);
+  const secondCorinthiansChapterNumbers = Array.from({ length: 13 }, (_, i) => i + 1);
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
@@ -177,7 +186,7 @@ export const ChapterPickerModal: React.FC = () => {
           <div>
             <h3 className="text-lg font-serif font-bold text-[#2C2C2A]">Select Book & Chapter</h3>
             <p className="text-xs text-[#76746E]">
-              Full OT (39) + Gospels (4) + Acts (28) & Featured
+              OT (39) + Gospels (4) + Acts + Rom & 1–2 Cor
             </p>
           </div>
           <button
@@ -673,6 +682,39 @@ export const ChapterPickerModal: React.FC = () => {
             }`}
           >
             <span>Act (28)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('ROM')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === 'ROM'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>Rom (16)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('1CO')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === '1CO'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>1Co (16)</span>
+          </button>
+
+          <button
+            onClick={() => setSelectedBookTab('2CO')}
+            className={`py-2 px-1 rounded-xl text-[10px] sm:text-[11px] font-semibold flex items-center justify-center gap-0.5 transition-all cursor-pointer ${
+              selectedBookTab === '2CO'
+                ? 'bg-[#FAF7F2] text-[#2C2C2A] shadow-xs'
+                : 'text-[#76746E] hover:text-[#2C2C2A]'
+            }`}
+          >
+            <span>2Co (13)</span>
           </button>
 
           <button
@@ -2977,6 +3019,102 @@ export const ChapterPickerModal: React.FC = () => {
             </div>
           )}
 
+          {selectedBookTab === 'ROM' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>16 Chapters · Full WEB Text</span>
+                <span>434 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-5 gap-2 mb-4">
+                {romansChapterNumbers.map((num) => {
+                  const id = `ROM-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = bookChapters?.[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `Romans ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#C88A6B] text-white border-[#C88A6B] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#C88A6B]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {selectedBookTab === '1CO' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>16 Chapters · Full WEB Text</span>
+                <span>437 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-5 gap-2 mb-4">
+                {firstCorinthiansChapterNumbers.map((num) => {
+                  const id = `1CO-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = bookChapters?.[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `1 Corinthians ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#C88A6B] text-white border-[#C88A6B] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#C88A6B]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {selectedBookTab === '2CO' && (
+            <div>
+              <div className="flex items-center justify-between text-xs text-[#76746E] mb-2 px-1">
+                <span>13 Chapters · Full WEB Text</span>
+                <span>257 Verses</span>
+              </div>
+
+              <div className="grid grid-cols-5 gap-2 mb-4">
+                {secondCorinthiansChapterNumbers.map((num) => {
+                  const id = `2CO-${num}`;
+                  const isActive = currentChapterId === id;
+                  const chapInfo = bookChapters?.[id];
+
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => handleSelect(id)}
+                      title={chapInfo?.title || `2 Corinthians ${num}`}
+                      className={`py-2.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-[#C88A6B] text-white border-[#C88A6B] shadow-xs'
+                          : 'bg-[#F3EFE6] text-[#2C2C2A] border-[#E5DFD5] hover:bg-[#EBE5DA] hover:border-[#C88A6B]/50'
+                      }`}
+                    >
+                      {num}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
           {selectedBookTab === 'FEATURED' && (
             <div className="space-y-2.5">
               {/* Genesis 1–50 */}
@@ -3920,6 +4058,87 @@ export const ChapterPickerModal: React.FC = () => {
                   </p>
                 </div>
                 {currentChapterId.startsWith('ACT-') && (
+                  <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
+                )}
+              </button>
+
+              {/* Romans (Justification & Life in the Spirit) */}
+              <button
+                onClick={() => handleSelect('ROM-1')}
+                className={`w-full text-left p-3.5 rounded-2xl border transition-all flex items-center justify-between cursor-pointer ${
+                  currentChapterId.startsWith('ROM-')
+                    ? 'bg-[#EBF2ED] border-[#7A9A82] shadow-sm'
+                    : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+                }`}
+              >
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-serif font-bold text-[#2C2C2A] flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5 text-[#C88A6B]" /> Romans 1–16
+                    </span>
+                    <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-[#F7EBE4] text-[#8F5338]">
+                      Full Book
+                    </span>
+                  </div>
+                  <p className="text-xs text-[#6B6862] mt-0.5">
+                    Righteousness by faith, Romans 8 Spirit adoption, olive tree mercy & living sacrifices.
+                  </p>
+                </div>
+                {currentChapterId.startsWith('ROM-') && (
+                  <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
+                )}
+              </button>
+
+              {/* 1 Corinthians (Cross Wisdom, Agape & Resurrection) */}
+              <button
+                onClick={() => handleSelect('1CO-1')}
+                className={`w-full text-left p-3.5 rounded-2xl border transition-all flex items-center justify-between cursor-pointer ${
+                  currentChapterId.startsWith('1CO-')
+                    ? 'bg-[#EBF2ED] border-[#7A9A82] shadow-sm'
+                    : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+                }`}
+              >
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-serif font-bold text-[#2C2C2A] flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5 text-[#C88A6B]" /> 1 Corinthians 1–16
+                    </span>
+                    <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-[#F7EBE4] text-[#8F5338]">
+                      Full Book
+                    </span>
+                  </div>
+                  <p className="text-xs text-[#6B6862] mt-0.5">
+                    Living temples, Body & Spirit gifts, 1 Corinthians 13 agape love & Easter resurrection victory.
+                  </p>
+                </div>
+                {currentChapterId.startsWith('1CO-') && (
+                  <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
+                )}
+              </button>
+
+              {/* 2 Corinthians (Treasure in Clay Jars) */}
+              <button
+                onClick={() => handleSelect('2CO-1')}
+                className={`w-full text-left p-3.5 rounded-2xl border transition-all flex items-center justify-between cursor-pointer ${
+                  currentChapterId.startsWith('2CO-')
+                    ? 'bg-[#EBF2ED] border-[#7A9A82] shadow-sm'
+                    : 'bg-[#F3EFE6] border-[#E5DFD5] hover:bg-[#EBE5DA]'
+                }`}
+              >
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-serif font-bold text-[#2C2C2A] flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5 text-[#C88A6B]" /> 2 Corinthians 1–13
+                    </span>
+                    <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-[#F7EBE4] text-[#8F5338]">
+                      Full Book
+                    </span>
+                  </div>
+                  <p className="text-xs text-[#6B6862] mt-0.5">
+                    God of all comfort, treasure in clay jars, new creation reconciliation & strength in weakness.
+                  </p>
+                </div>
+                {currentChapterId.startsWith('2CO-') && (
                   <Check className="w-5 h-5 text-[#7A9A82] flex-shrink-0 ml-2" />
                 )}
               </button>

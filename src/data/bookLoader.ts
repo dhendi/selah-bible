@@ -49,6 +49,9 @@ const BOOK_IMPORTERS: Record<string, ChapterLoader> = {
   LUK: () => import('./books/lukeChapters').then((m) => m.LUKE_CHAPTERS),
   JHN: () => import('./books/johnChapters').then((m) => m.JOHN_CHAPTERS),
   ACT: () => import('./books/actsChapters').then((m) => m.ACTS_CHAPTERS),
+  ROM: () => import('./books/romansChapters').then((m) => m.ROMANS_CHAPTERS),
+  '1CO': () => import('./books/firstCorinthiansChapters').then((m) => m.FIRST_CORINTHIANS_CHAPTERS),
+  '2CO': () => import('./books/secondCorinthiansChapters').then((m) => m.SECOND_CORINTHIANS_CHAPTERS),
 };
 
 const bookCache: Record<string, ChapterMap> = {};
