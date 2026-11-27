@@ -142,7 +142,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Pathrusim, Casluhim (where the Philistines came from), and Caphtorim.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1CH-1:13",
@@ -307,7 +312,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Abram (also called Abraham).",
         "translation": "WEB",
         "illustrationId": "ill-1ch-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          }
+        ]
       },
       {
         "id": "1CH-1:28",
@@ -318,7 +328,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Abraham: Isaac and Ishmael.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          }
+        ]
       },
       {
         "id": "1CH-1:29",
@@ -362,7 +377,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Keturah, Abraham’s concubine: she bore Zimran, Jokshan, Medan, Midian, Ishbak, and Shuah. The sons of Jokshan: Sheba and Dedan.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          }
+        ]
       },
       {
         "id": "1CH-1:33",
@@ -384,7 +404,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Abraham became the father of Isaac. The sons of Isaac: Esau and Israel.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
+          }
+        ]
       },
       {
         "id": "1CH-1:35",
@@ -483,7 +512,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now these are the kings who reigned in the land of Edom, before any king reigned over the children of Israel: Bela the son of Beor; and the name of his city was Dinhabah.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "1CH-1:44",
@@ -516,7 +554,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Husham died, and Hadad the son of Bedad, who struck Midian in the field of Moab, reigned in his place; and the name of his city was Avith.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "1CH-1:47",
@@ -571,7 +614,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then Hadad died. The chiefs of Edom were: chief Timna, chief Aliah, chief Jetheth,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "1CH-1:52",
@@ -604,7 +652,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "chief Magdiel, and chief Iram. These are the chiefs of Edom.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       }
     ]
   },
@@ -628,7 +681,36 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the sons of Israel: Reuben, Simeon, Levi, Judah, Issachar, Zebulun,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          },
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          },
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "1CH-2:2",
@@ -639,7 +721,28 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Dan, Joseph, Benjamin, Naphtali, Gad, and Asher.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          },
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          },
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "1CH-2:3",
@@ -654,6 +757,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -666,7 +773,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Tamar his daughter-in-law bore him Perez and Zerah. All the sons of Judah were five.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "1CH-2:5",
@@ -708,7 +820,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The son of Carmi: Achar, the troubler of Israel, who committed a trespass in the devoted thing.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "1CH-2:8",
@@ -746,7 +863,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Ram became the father of Amminadab, and Amminadab became the father of Nahshon, prince of the children of Judah;",
         "translation": "WEB",
         "illustrationId": "ill-1ch-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "1CH-2:11",
@@ -825,6 +947,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abishai",
             "entityId": "char-abishai"
+          },
+          {
+            "spanText": "Zeruiah",
+            "entityId": "char-zeruiah"
           }
         ]
       },
@@ -881,7 +1007,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Afterward Hezron went in to the daughter of Machir the father of Gilead, whom he took as wife when he was sixty years old; and she bore him Segub.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "1CH-2:22",
@@ -892,7 +1023,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Segub became the father of Jair, who had twenty-three cities in the land of Gilead.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "1CH-2:23",
@@ -903,7 +1039,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Geshur and Aram took the towns of Jair from them, with Kenath, and its villages, even sixty cities. All these were the sons of Machir the father of Gilead.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "1CH-2:24",
@@ -1034,7 +1175,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now Sheshan had no sons, but daughters. Sheshan had a servant, an Egyptian, whose name was Jarha.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egyptian",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "1CH-2:35",
@@ -1462,6 +1608,18 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Solomon",
             "entityId": "char-solomon"
+          },
+          {
+            "spanText": "Rehoboam",
+            "entityId": "char-rehoboam"
+          },
+          {
+            "spanText": "Asa",
+            "entityId": "char-asa"
+          },
+          {
+            "spanText": "Jehoshaphat",
+            "entityId": "char-jehoshaphat"
           }
         ]
       },
@@ -1496,7 +1654,20 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Ahaz his son, Hezekiah his son, Manasseh his son,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh"
+          },
+          {
+            "spanText": "Ahaz",
+            "entityId": "char-ahaz"
+          },
+          {
+            "spanText": "Hezekiah",
+            "entityId": "char-hezekiah"
+          }
+        ]
       },
       {
         "id": "1CH-3:14",
@@ -1507,7 +1678,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Amon his son, and Josiah his son.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Josiah",
+            "entityId": "char-josiah"
+          }
+        ]
       },
       {
         "id": "1CH-3:15",
@@ -1518,7 +1694,20 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Josiah: the firstborn Johanan, the second Jehoiakim, the third Zedekiah, and the fourth Shallum.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Josiah",
+            "entityId": "char-josiah"
+          },
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Zedekiah",
+            "entityId": "char-zedekiah"
+          }
+        ]
       },
       {
         "id": "1CH-3:16",
@@ -1529,7 +1718,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Jehoiakim: Jeconiah his son, and Zedekiah his son.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jehoiakim",
+            "entityId": "char-jehoiakim"
+          },
+          {
+            "spanText": "Zedekiah",
+            "entityId": "char-zedekiah"
+          }
+        ]
       },
       {
         "id": "1CH-3:17",
@@ -1562,7 +1760,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Pedaiah: Zerubbabel and Shimei. The sons of Zerubbabel: Meshullam and Hananiah; and Shelomith was their sister;",
         "translation": "WEB",
         "illustrationId": "ill-1ch-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zerubbabel",
+            "entityId": "char-zerubbabel"
+          }
+        ]
       },
       {
         "id": "1CH-3:20",
@@ -1641,7 +1844,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Judah: Perez, Hezron, Carmi, Hur, and Shobal.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "1CH-4:2",
@@ -1754,6 +1962,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jabez",
             "entityId": "char-jabez"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -1815,7 +2027,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Caleb the son of Jephunneh: Iru, Elah, and Naam. The son of Elah: Kenaz.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Caleb",
+            "entityId": "char-caleb"
+          }
+        ]
       },
       {
         "id": "1CH-4:16",
@@ -1881,7 +2098,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Shelah the son of Judah: Er the father of Lecah, Laadah the father of Mareshah, and the families of the house of those who worked fine linen, of the house of Ashbea;",
         "translation": "WEB",
         "illustrationId": "ill-1ch-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "1CH-4:22",
@@ -1892,7 +2114,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "and Jokim, and the men of Cozeba, and Joash, and Saraph, who had dominion in Moab, and Jashubilehem. These records are ancient.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "1CH-4:23",
@@ -1914,7 +2141,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Simeon: Nemuel, Jamin, Jarib, Zerah, Shaul;",
         "translation": "WEB",
         "illustrationId": "ill-1ch-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "1CH-4:25",
@@ -1947,7 +2179,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Shimei had sixteen sons and six daughters; but his brothers didn’t have many children, and all their family didn’t multiply like the children of Judah.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "1CH-4:28",
@@ -1958,7 +2195,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They lived at Beersheba, Moladah, Hazarshual,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Beersheba",
+            "entityId": "place-beersheba"
+          }
+        ]
       },
       {
         "id": "1CH-4:29",
@@ -2111,7 +2353,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "These written by name came in the days of Hezekiah king of Judah, and struck their tents. The Meunim who were found there, and they destroyed them utterly to this day, and lived in their place; because there was pasture there for their flocks.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "1CH-4:42",
@@ -2122,7 +2369,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Some of them, even of the sons of Simeon, five hundred men, went to Mount Seir, having for their captains Pelatiah, Neariah, Rephaiah, and Uzziel, the sons of Ishi.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "1CH-4:43",
@@ -2157,7 +2409,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Reuben the firstborn of Israel (for he was the firstborn; but, because he defiled his father’s couch, his birthright was given to the sons of Joseph the son of Israel; and the genealogy is not to be listed according to the birthright.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "1CH-5:2",
@@ -2168,7 +2429,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "For Judah prevailed above his brothers, and from him came the prince; but the birthright was Joseph’s)—",
         "translation": "WEB",
         "illustrationId": "ill-1ch-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "1CH-5:3",
@@ -2179,7 +2445,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "the sons of Reuben the firstborn of Israel: Hanoch, Pallu, Hezron, and Carmi.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "1CH-5:4",
@@ -2212,7 +2487,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "and Beerah his son, whom Tilgath Pilneser king of Assyria carried away captive. He was prince of the Reubenites.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reubenites",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          }
+        ]
       },
       {
         "id": "1CH-5:7",
@@ -2245,7 +2529,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "and he lived eastward even to the entrance of the wilderness from the river Euphrates, because their livestock were multiplied in the land of Gilead.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "1CH-5:10",
@@ -2260,6 +2549,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -2272,7 +2565,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Gad lived beside them, in the land of Bashan to Salecah:",
         "translation": "WEB",
         "illustrationId": "ill-1ch-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          }
+        ]
       },
       {
         "id": "1CH-5:12",
@@ -2305,7 +2603,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "These were the sons of Abihail, the son of Huri, the son of Jaroah, the son of Gilead, the son of Michael, the son of Jeshishai, the son of Jahdo, the son of Buz;",
         "translation": "WEB",
         "illustrationId": "ill-1ch-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "1CH-5:15",
@@ -2327,7 +2630,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They lived in Gilead in Bashan, and in its towns, and in all the pasture lands of Sharon, as far as their borders.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "1CH-5:17",
@@ -2338,7 +2646,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "All these were listed by genealogies in the days of Jotham king of Judah, and in the days of Jeroboam king of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "1CH-5:18",
@@ -2349,7 +2666,20 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Reuben, the Gadites, and the half-tribe of Manasseh, of valiant men, men able to bear buckler and sword, and to shoot with bow, and skillful in war, were forty-four thousand seven hundred sixty, that were able to go out to war.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Gadites",
+            "entityId": "char-gad"
+          }
+        ]
       },
       {
         "id": "1CH-5:19",
@@ -2404,7 +2734,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of the half-tribe of Manasseh lived in the land: they increased from Bashan to Baal Hermon, Senir, and Mount Hermon.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          }
+        ]
       },
       {
         "id": "1CH-5:24",
@@ -2437,7 +2772,28 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "So the God of Israel stirred up the spirit of Pul king of Assyria, and the spirit of Tilgath Pilneser king of Assyria, and he carried them away, even the Reubenites, and the Gadites, and the half-tribe of Manasseh, and brought them to Halah, Habor, Hara, and to the river of Gozan, to this day.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-5",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Reubenites",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Gadites",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Assyria",
+            "entityId": "place-assyria"
+          }
+        ]
       }
     ]
   },
@@ -2461,7 +2817,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Levi: Gershon, Kohath, and Merari.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Gershon",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-6:2",
@@ -2476,6 +2841,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Kohath",
+            "entityId": "term-levite-clans"
           }
         ]
       },
@@ -2488,7 +2857,24 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Amram: Aaron, Moses, and Miriam. The sons of Aaron: Nadab, Abihu, Eleazar, and Ithamar.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Moses",
+            "entityId": "char-moses"
+          },
+          {
+            "spanText": "Eleazar",
+            "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "Ithamar",
+            "entityId": "char-ithamar"
+          }
+        ]
       },
       {
         "id": "1CH-6:4",
@@ -2499,7 +2885,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Eleazar became the father of Phinehas, Phinehas became the father of Abishua,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Eleazar",
+            "entityId": "char-eleazar"
+          }
+        ]
       },
       {
         "id": "1CH-6:5",
@@ -2578,6 +2969,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -2647,6 +3042,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Nebuchadnezzar",
+            "entityId": "char-nebuchadnezzar"
           }
         ]
       },
@@ -2659,7 +3062,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Levi: Gershom, Kohath, and Merari.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Gershom",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-6:17",
@@ -2670,7 +3082,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the names of the sons of Gershom: Libni and Shimei.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gershom",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-6:18",
@@ -2685,6 +3102,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Kohath",
+            "entityId": "term-levite-clans"
           }
         ]
       },
@@ -2697,7 +3118,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Merari: Mahli and Mushi. These are the families of the Levites according to their fathers’ households.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Merari",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-6:20",
@@ -2708,7 +3138,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of Gershom: Libni his son, Jahath his son, Zimmah his son,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gershom",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-6:21",
@@ -2730,7 +3165,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Kohath: Amminadab his son, Korah his son, Assir his son,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Kohath",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-6:23",
@@ -2812,7 +3252,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Merari: Mahli, Libni his son, Shimei his son, Uzzah his son,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Merari",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-6:30",
@@ -2890,6 +3335,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Heman",
             "entityId": "char-heman"
+          },
+          {
+            "spanText": "Kohathites",
+            "entityId": "term-levite-clans"
           }
         ]
       },
@@ -2946,7 +3395,20 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "the son of Izhar, the son of Kohath, the son of Levi, the son of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Kohath",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-6:39",
@@ -3011,7 +3473,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "the son of Jahath, the son of Gershom, the son of Levi.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Gershom",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-6:44",
@@ -3026,6 +3497,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ethan",
             "entityId": "char-jeduthun"
+          },
+          {
+            "spanText": "Merari",
+            "entityId": "term-levite-clans"
           }
         ]
       },
@@ -3060,7 +3535,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "the son of Mahli, the son of Mushi, the son of Merari, the son of Levi.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Merari",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-6:48",
@@ -3071,7 +3555,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Their brothers the Levites were appointed for all the service of the tabernacle of God’s house.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "1CH-6:49",
@@ -3082,7 +3571,32 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "But Aaron and his sons offered on the altar of burnt offering, and on the altar of incense, for all the work of the most holy place, and to make atonement for Israel, according to all that Moses the servant of God had commanded.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Moses",
+            "entityId": "char-moses"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
+          }
+        ]
       },
       {
         "id": "1CH-6:50",
@@ -3093,7 +3607,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the sons of Aaron: Eleazar his son, Phinehas his son, Abishua his son,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Eleazar",
+            "entityId": "char-eleazar"
+          }
+        ]
       },
       {
         "id": "1CH-6:51",
@@ -3142,7 +3665,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now these are their dwelling places according to their encampments in their borders: to the sons of Aaron, of the families of the Kohathites (for theirs was the first lot),",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Kohathites",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-6:55",
@@ -3157,6 +3689,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -3169,7 +3705,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "but the fields of the city, and its villages, they gave to Caleb the son of Jephunneh.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Caleb",
+            "entityId": "char-caleb"
+          }
+        ]
       },
       {
         "id": "1CH-6:57",
@@ -3184,6 +3725,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
           }
         ]
       },
@@ -3218,7 +3763,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "and out of the tribe of Benjamin, Geba with its pasture lands, Allemeth with its pasture lands, and Anathoth with its pasture lands. All their cities throughout their families were thirteen cities.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "1CH-6:61",
@@ -3229,7 +3779,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "To the rest of the sons of Kohath were given by lot, out of the family of the tribe, out of the half-tribe, the half of Manasseh, ten cities.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Kohath",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-6:62",
@@ -3240,7 +3799,28 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "To the sons of Gershom, according to their families, out of the tribe of Issachar, and out of the tribe of Asher, and out of the tribe of Naphtali, and out of the tribe of Manasseh in Bashan, thirteen cities.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          },
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          },
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          },
+          {
+            "spanText": "Gershom",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-6:63",
@@ -3251,7 +3831,24 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "To the sons of Merari were given by lot, according to their families, out of the tribe of Reuben, and out of the tribe of Gad, and out of the tribe of Zebulun, twelve cities.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          },
+          {
+            "spanText": "Merari",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-6:64",
@@ -3262,7 +3859,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Israel gave to the Levites the cities with their pasture lands.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "1CH-6:65",
@@ -3273,7 +3879,20 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They gave by lot out of the tribe of the children of Judah, and out of the tribe of the children of Simeon, and out of the tribe of the children of Benjamin, these cities which are mentioned by name.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "1CH-6:66",
@@ -3284,7 +3903,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Some of the families of the sons of Kohath had cities of their borders out of the tribe of Ephraim.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Kohath",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-6:67",
@@ -3295,7 +3923,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They gave to them the cities of refuge, Shechem in the hill country of Ephraim with its pasture lands, and Gezer with its pasture lands,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "1CH-6:68",
@@ -3328,7 +3961,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "and out of the half-tribe of Manasseh, Aner with its pasture lands, and Bileam with its pasture lands, for the rest of the family of the sons of Kohath.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Kohath",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-6:71",
@@ -3339,7 +3981,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "To the sons of Gershom were given, out of the family of the half-tribe of Manasseh, Golan in Bashan with its pasture lands, and Ashtaroth with its pasture lands;",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gershom",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-6:72",
@@ -3350,7 +4001,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "and out of the tribe of Issachar, Kedesh with its pasture lands, Daberath with its pasture lands,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          }
+        ]
       },
       {
         "id": "1CH-6:73",
@@ -3361,7 +4017,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Ramoth with its pasture lands, and Anem with its pasture lands;",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ramoth",
+            "entityId": "place-ramoth-gilead"
+          }
+        ]
       },
       {
         "id": "1CH-6:74",
@@ -3372,7 +4033,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "and out of the tribe of Asher, Mashal with its pasture lands, Abdon with its pasture lands,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "1CH-6:75",
@@ -3394,7 +4060,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "and out of the tribe of Naphtali, Kedesh in Galilee with its pasture lands, Hammon with its pasture lands, and Kiriathaim with its pasture lands.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          }
+        ]
       },
       {
         "id": "1CH-6:77",
@@ -3405,7 +4076,20 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "To the rest of the Levites, the sons of Merari, were given, out of the tribe of Zebulun, Rimmono with its pasture lands, Tabor with its pasture lands;",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          },
+          {
+            "spanText": "Merari",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-6:78",
@@ -3416,7 +4100,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "and beyond the Jordan at Jericho, on the east side of the Jordan, were given them, out of the tribe of Reuben, Bezer in the wilderness with its pasture lands, and Jahzah with its pasture lands,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reuben",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Jordan",
+            "entityId": "place-jordan"
+          }
+        ]
       },
       {
         "id": "1CH-6:79",
@@ -3438,7 +4131,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "and out of the tribe of Gad, Ramoth in Gilead with its pasture lands, Mahanaim with its pasture lands,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-6",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ramoth in Gilead",
+            "entityId": "place-ramoth-gilead"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          }
+        ]
       },
       {
         "id": "1CH-6:81",
@@ -3473,7 +4175,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the sons of Issachar: Tola, and Puah, Jashub, and Shimron, four.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          }
+        ]
       },
       {
         "id": "1CH-7:2",
@@ -3522,7 +4229,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Their brothers among all the families of Issachar, mighty men of valor, listed in all by genealogy, were eighty-seven thousand.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          }
+        ]
       },
       {
         "id": "1CH-7:6",
@@ -3533,7 +4245,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Benjamin: Bela, Becher, and Jediael, three.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "1CH-7:7",
@@ -3577,7 +4294,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The son of Jediael: Bilhan. The sons of Bilhan: Jeush, Benjamin, Ehud, Chenaanah, Zethan, Tarshish, and Ahishahar.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "1CH-7:11",
@@ -3610,7 +4332,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Naphtali: Jahziel, Guni, Jezer, Shallum, and the sons of Bilhah.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          }
+        ]
       },
       {
         "id": "1CH-7:14",
@@ -3621,7 +4348,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Manasseh: Asriel, whom his concubine the Aramitess bore. She bore Machir the father of Gilead.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "1CH-7:15",
@@ -3654,7 +4390,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Ulam: Bedan. These were the sons of Gilead the son of Machir, the son of Manasseh.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "1CH-7:18",
@@ -3687,7 +4432,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Ephraim: Shuthelah, Bered his son, Tahath his son, Eleadah his son, Tahath his son,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "1CH-7:21",
@@ -3709,7 +4459,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Ephraim their father mourned many days, and his brothers came to comfort him.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "1CH-7:23",
@@ -3786,7 +4541,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "and by the borders of the children of Manasseh, Beth Shean and its towns, Taanach and its towns, Megiddo and its towns, and Dor and its towns. The children of Joseph the son of Israel lived in these.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          }
+        ]
       },
       {
         "id": "1CH-7:30",
@@ -3797,7 +4561,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Asher: Imnah, Ishvah, Ishvi, and Beriah. Serah was their sister.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "1CH-7:31",
@@ -3907,7 +4676,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "All these were the children of Asher, heads of the fathers’ houses, choice and mighty men of valor, chief of the princes. The number of them listed by genealogy for service in war was twenty-six thousand men.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-7",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       }
     ]
   },
@@ -3931,7 +4705,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Benjamin became the father of Bela his firstborn, Ashbel the second, Aharah the third,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "1CH-8:2",
@@ -4008,7 +4787,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Shaharaim became the father of children in the field of Moab, after he had sent them away. Hushim and Baara were his wives.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "1CH-8:9",
@@ -4244,7 +5028,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The father of Gibeon, whose wife’s name was Maacah, lived in Gibeon,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gibeon",
+            "entityId": "place-gibeon"
+          }
+        ]
       },
       {
         "id": "1CH-8:30",
@@ -4384,7 +5173,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Ulam were mighty men of valor, archers, and had many sons, and sons’ sons, one hundred fifty. All these were of the sons of Benjamin.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       }
     ]
   },
@@ -4408,7 +5202,20 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "So all Israel were listed by genealogies; and behold, they are written in the book of the kings of Israel. Judah was carried away captive to Babylon for their disobedience.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          }
+        ]
       },
       {
         "id": "1CH-9:2",
@@ -4423,6 +5230,18 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "temple",
             "entityId": "term-temple-pattern"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -4439,6 +5258,22 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
           }
         ]
       },
@@ -4451,7 +5286,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Uthai the son of Ammihud, the son of Omri, the son of Imri, the son of Bani, of the children of Perez the son of Judah.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "1CH-9:5",
@@ -4484,7 +5324,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the sons of Benjamin: Sallu the son of Meshullam, the son of Hodaviah, the son of Hassenuah,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "1CH-9:8",
@@ -4517,7 +5362,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the priests: Jedaiah, Jehoiarib, Jachin,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "1CH-9:11",
@@ -4566,7 +5416,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the Levites: Shemaiah the son of Hasshub, the son of Azrikam, the son of Hashabiah, of the sons of Merari;",
         "translation": "WEB",
         "illustrationId": "ill-1ch-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Merari",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-9:15",
@@ -4609,7 +5468,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The gatekeepers: Shallum, Akkub, Talmon, Ahiman, and their brothers (Shallum was the chief),",
         "translation": "WEB",
         "illustrationId": "ill-1ch-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "gatekeepers",
+            "entityId": "term-temple-guilds"
+          }
+        ]
       },
       {
         "id": "1CH-9:18",
@@ -4620,7 +5484,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "who previously served in the king’s gate eastward. They were the gatekeepers for the camp of the children of Levi.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "gatekeepers",
+            "entityId": "term-temple-guilds"
+          }
+        ]
       },
       {
         "id": "1CH-9:19",
@@ -4682,6 +5555,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Samuel",
             "entityId": "char-samuel"
+          },
+          {
+            "spanText": "gatekeepers",
+            "entityId": "term-temple-guilds"
           }
         ]
       },
@@ -4710,7 +5587,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "On the four sides were the gatekeepers, toward the east, west, north, and south.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "gatekeepers",
+            "entityId": "term-temple-guilds"
+          }
+        ]
       },
       {
         "id": "1CH-9:25",
@@ -4732,7 +5614,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "for the four chief gatekeepers, who were Levites, were in an office of trust, and were over the rooms and over the treasuries in God’s house.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "gatekeepers",
+            "entityId": "term-temple-guilds"
+          }
+        ]
       },
       {
         "id": "1CH-9:27",
@@ -4776,7 +5667,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Some of the sons of the priests prepared the mixing of the spices.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "1CH-9:31",
@@ -4787,7 +5683,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Mattithiah, one of the Levites, who was the firstborn of Shallum the Korahite, had the office of trust over the things that were baked in pans.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "1CH-9:32",
@@ -4798,7 +5699,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Some of their brothers, of the sons of the Kohathites, were over the show bread, to prepare it every Sabbath.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Kohathites",
+            "entityId": "term-levite-clans"
+          },
+          {
+            "spanText": "Sabbath",
+            "entityId": "term-sabbath"
+          }
+        ]
       },
       {
         "id": "1CH-9:33",
@@ -4809,7 +5719,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are the singers, heads of fathers’ households of the Levites, who lived in the rooms and were free from other service; for they were employed in their work day and night.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
+          }
+        ]
       },
       {
         "id": "1CH-9:34",
@@ -4824,6 +5743,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -4836,7 +5759,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jeiel the father of Gibeon, whose wife’s name was Maacah, lived in Gibeon with",
         "translation": "WEB",
         "illustrationId": "ill-1ch-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gibeon",
+            "entityId": "place-gibeon"
+          }
+        ]
       },
       {
         "id": "1CH-9:36",
@@ -4978,7 +5906,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the Philistines fought against Israel, and the men of Israel fled from before the Philistines, and fell down slain on Mount Gilboa.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1CH-10:2",
@@ -4997,6 +5934,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jonathan",
             "entityId": "char-jonathan"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -5077,6 +6018,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -5093,6 +6042,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -5105,7 +6058,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "They stripped him, and took his head and his armor, and sent into the land of the Philistines all around, to carry the news to their idols, and to the people.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-10",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1CH-10:10",
@@ -5131,6 +6089,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -5220,6 +6186,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5240,6 +6210,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5272,6 +6246,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-davidic-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5292,6 +6270,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5308,6 +6290,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Zion",
+            "entityId": "place-zion"
           }
         ]
       },
@@ -5328,6 +6314,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joab",
             "entityId": "char-joab"
+          },
+          {
+            "spanText": "Zeruiah",
+            "entityId": "char-zeruiah"
           }
         ]
       },
@@ -5400,6 +6390,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -5443,6 +6437,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -5459,6 +6457,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -5475,6 +6477,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -5495,6 +6501,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethlehem",
             "entityId": "place-bethlehem"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -5539,6 +6549,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Bethlehem",
             "entityId": "place-bethlehem"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -5597,6 +6611,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Benaiah",
             "entityId": "char-benaiah"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -5609,7 +6627,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "He killed an Egyptian, a man of great stature, five cubits high. In the Egyptian’s hand was a spear like a weaver’s beam; and he went down to him with a staff, plucked the spear out of the Egyptian’s hand, and killed him with his own spear.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Egyptian",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "1CH-11:24",
@@ -5720,6 +6743,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Benaiah",
             "entityId": "char-benaiah"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -5823,6 +6850,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joab",
             "entityId": "char-joab"
+          },
+          {
+            "spanText": "Ammonite",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Zeruiah",
+            "entityId": "char-zeruiah"
           }
         ]
       },
@@ -5857,7 +6892,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Adina the son of Shiza the Reubenite, a chief of the Reubenites, and thirty with him,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Reubenite",
+            "entityId": "char-reuben"
+          }
+        ]
       },
       {
         "id": "1CH-11:43",
@@ -5901,7 +6941,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Eliel the Mahavite, and Jeribai, and Joshaviah, the sons of Elnaam, and Ithmah the Moabite,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-11",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moabite",
+            "entityId": "place-moab"
+          }
+        ]
       },
       {
         "id": "1CH-11:47",
@@ -5960,6 +7005,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -6031,6 +7080,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Gadites",
+            "entityId": "char-gad"
           }
         ]
       },
@@ -6098,7 +7151,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "These of the sons of Gad were captains of the army: he who was least was equal to one hundred, and the greatest to one thousand.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gad",
+            "entityId": "char-gad"
+          }
+        ]
       },
       {
         "id": "1CH-12:15",
@@ -6109,7 +7167,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "These are those who went over the Jordan in the first month, when it had overflowed all its banks; and they put to flight all who lived in the valleys, both toward the east and toward the west.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jordan",
+            "entityId": "place-jordan"
+          }
+        ]
       },
       {
         "id": "1CH-12:16",
@@ -6124,6 +7187,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -6176,6 +7247,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -6188,7 +7267,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "As he went to Ziklag, some from Manasseh joined him: Adnah, Jozabad, Jediael, Michael, Jozabad, Elihu, and Zillethai, captains of thousands who were of Manasseh.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          }
+        ]
       },
       {
         "id": "1CH-12:21",
@@ -6259,7 +7343,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Judah who bore shield and spear were six thousand eight hundred, armed for war.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          }
+        ]
       },
       {
         "id": "1CH-12:25",
@@ -6270,7 +7359,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the children of Simeon, mighty men of valor for the war: seven thousand one hundred.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Simeon",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "1CH-12:26",
@@ -6281,7 +7375,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the children of Levi: four thousand six hundred.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "1CH-12:27",
@@ -6292,7 +7391,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Jehoiada was the leader of the household of Aaron; and with him were three thousand seven hundred,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
+          }
+        ]
       },
       {
         "id": "1CH-12:28",
@@ -6323,6 +7427,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Saul",
             "entityId": "char-saul"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
           }
         ]
       },
@@ -6335,7 +7443,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the children of Ephraim: twenty thousand eight hundred, mighty men of valor, famous men in their fathers’ houses.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "1CH-12:31",
@@ -6350,6 +7463,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
           }
         ]
       },
@@ -6362,7 +7479,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the children of Issachar, men who had understanding of the times, to know what Israel ought to do, their heads were two hundred; and all their brothers were at their command.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          }
+        ]
       },
       {
         "id": "1CH-12:33",
@@ -6373,7 +7499,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of Zebulun, such as were able to go out in the army, who could set the battle in array, with all kinds of instruments of war: fifty thousand who could command and were not of double heart.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          }
+        ]
       },
       {
         "id": "1CH-12:34",
@@ -6384,7 +7515,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of Naphtali: one thousand captains, and with them with shield and spear thirty-seven thousand.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          }
+        ]
       },
       {
         "id": "1CH-12:35",
@@ -6395,7 +7531,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the Danites who could set the battle in array: twenty-eight thousand six hundred.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Danites",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "1CH-12:36",
@@ -6406,7 +7547,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of Asher, such as were able to go out in the army, who could set the battle in array: forty thousand.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Asher",
+            "entityId": "char-asher"
+          }
+        ]
       },
       {
         "id": "1CH-12:37",
@@ -6417,7 +7563,24 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "On the other side of the Jordan, of the Reubenites, the Gadites, and of the half-tribe of Manasseh, with all kinds of instruments of war for the battle: one hundred twenty thousand.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Reubenites",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Gadites",
+            "entityId": "char-gad"
+          },
+          {
+            "spanText": "Jordan",
+            "entityId": "place-jordan"
+          }
+        ]
       },
       {
         "id": "1CH-12:38",
@@ -6436,6 +7599,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6464,7 +7631,24 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Moreover those who were near to them, as far as Issachar, Zebulun, and Naphtali, brought bread on donkeys, on camels, on mules, and on oxen: supplies of flour, cakes of figs, clusters of raisins, wine, oil, cattle, and sheep in abundance; for there was joy in Israel.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-12",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          },
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          },
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          }
+        ]
       }
     ]
   },
@@ -6512,6 +7696,18 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -6563,6 +7759,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
           }
         ]
       },
@@ -6587,6 +7791,18 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
           }
         ]
       },
@@ -6619,6 +7835,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
           }
         ]
       },
@@ -6715,6 +7939,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -6735,6 +7963,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       }
@@ -6764,6 +7996,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
+          },
+          {
+            "spanText": "Hiram",
+            "entityId": "char-hiram"
           }
         ]
       },
@@ -6784,6 +8024,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -6877,6 +8121,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -6889,7 +8141,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the Philistines had come and made a raid in the valley of Rephaim.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1CH-14:10",
@@ -6908,6 +8165,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -6952,7 +8213,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Philistines made a another raid in the valley.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1CH-14:14",
@@ -6979,7 +8245,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "When you hear the sound of marching in the tops of the mulberry trees, then go out to battle; for God has gone out before you to strike the army of the Philistines.”",
         "translation": "WEB",
         "illustrationId": "ill-1ch-14",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1CH-14:16",
@@ -6994,6 +8265,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Gibeon",
+            "entityId": "place-gibeon"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -7071,6 +8350,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -7099,6 +8382,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -7115,6 +8402,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
           }
         ]
       },
@@ -7127,7 +8422,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "of the sons of Kohath, Uriel the chief, and his brothers one hundred twenty;",
         "translation": "WEB",
         "illustrationId": "ill-1ch-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Kohath",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-15:6",
@@ -7138,7 +8438,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "of the sons of Merari, Asaiah the chief, and his brothers two hundred twenty;",
         "translation": "WEB",
         "illustrationId": "ill-1ch-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Merari",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-15:7",
@@ -7149,7 +8454,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "of the sons of Gershom, Joel the chief, and his brothers one hundred thirty;",
         "translation": "WEB",
         "illustrationId": "ill-1ch-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gershom",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-15:8",
@@ -7206,6 +8516,18 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zadok",
             "entityId": "char-zadok"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Abiathar",
+            "entityId": "char-abiathar"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -7226,6 +8548,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark of Yahweh",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -7262,6 +8592,18 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark of Yahweh",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -7282,6 +8624,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Moses",
+            "entityId": "char-moses"
           }
         ]
       },
@@ -7298,6 +8648,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
           }
         ]
       },
@@ -7322,6 +8680,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Heman",
             "entityId": "char-heman"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Merari",
+            "entityId": "term-levite-clans"
           }
         ]
       },
@@ -7338,6 +8704,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Benaiah",
             "entityId": "char-benaiah"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -7362,6 +8732,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Heman",
             "entityId": "char-heman"
+          },
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
           }
         ]
       },
@@ -7390,7 +8764,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "and Mattithiah, Eliphelehu, Mikneiah, Obed-Edom, Jeiel, and Azaziah, with harps tuned to the eight-stringed lyre, to lead.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "1CH-15:22",
@@ -7401,7 +8780,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Chenaniah, chief of the Levites, was over the singing. He taught the singers, because he was skillful.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-15",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
+          }
+        ]
       },
       {
         "id": "1CH-15:23",
@@ -7436,6 +8824,18 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          },
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -7464,6 +8864,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-davidic-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -7488,6 +8896,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-davidic-covenant"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -7508,6 +8920,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "singers",
+            "entityId": "term-temple-guilds"
           }
         ]
       },
@@ -7532,6 +8952,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-davidic-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
           }
         ]
       },
@@ -7597,6 +9025,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -7617,6 +9049,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -7629,7 +9065,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "He gave to everyone of Israel, both man and woman, to everyone a loaf of bread, a portion of meat, and a cake of raisins.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "1CH-16:4",
@@ -7648,6 +9089,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "ark",
             "entityId": "term-ark-of-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -7668,6 +9117,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Asaph",
             "entityId": "char-asaph"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -7692,6 +9145,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-davidic-covenant"
+          },
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -7798,7 +9259,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "you offspring of Israel his servant, you children of Jacob, his chosen ones.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-16",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
+          }
+        ]
       },
       {
         "id": "1CH-16:14",
@@ -7845,6 +9315,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-davidic-covenant"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
           }
         ]
       },
@@ -7861,6 +9335,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-davidic-covenant"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jacob",
+            "entityId": "char-jacob"
           }
         ]
       },
@@ -8115,6 +9597,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8159,6 +9645,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jeduthun",
             "entityId": "char-jeduthun"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -8179,6 +9669,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zadok",
             "entityId": "char-zadok"
+          },
+          {
+            "spanText": "Gibeon",
+            "entityId": "place-gibeon"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -8195,6 +9693,18 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -8239,6 +9749,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Heman",
             "entityId": "char-heman"
+          },
+          {
+            "spanText": "trumpets",
+            "entityId": "term-trumpets"
           }
         ]
       },
@@ -8368,7 +9882,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "for I have not lived in a house since the day that I brought up Israel to this day, but have gone from tent to tent, and from one tent to another.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "1CH-17:6",
@@ -8379,7 +9898,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "In all places in which I have walked with all Israel, did I speak a word with any of the judges of Israel, whom I commanded to be shepherd of my people, saying, ‘Why have you not built me a house of cedar?’ ” ’",
         "translation": "WEB",
         "illustrationId": "ill-1ch-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "1CH-17:7",
@@ -8398,6 +9922,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8421,7 +9949,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "I will appoint a place for my people Israel, and will plant them, that they may dwell in their own place, and be moved no more. The children of wickedness will not waste them any more, as at the first,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "1CH-17:10",
@@ -8436,6 +9969,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8596,7 +10133,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "What one nation in the earth is like your people Israel, whom God went to redeem to himself for a people, to make you a name by great and awesome things, in driving out nations from before your people, whom you redeem out of Egypt?",
         "translation": "WEB",
         "illustrationId": "ill-1ch-17",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Egypt",
+            "entityId": "place-egypt"
+          }
+        ]
       },
       {
         "id": "1CH-17:22",
@@ -8611,6 +10157,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8647,6 +10197,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8719,6 +10273,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
           }
         ]
       },
@@ -8735,6 +10293,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
           }
         ]
       },
@@ -8751,6 +10313,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Hadadezer",
+            "entityId": "char-hadadezer"
           }
         ]
       },
@@ -8783,6 +10349,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Hadadezer",
+            "entityId": "char-hadadezer"
           }
         ]
       },
@@ -8803,6 +10377,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Syria",
+            "entityId": "place-syria"
           }
         ]
       },
@@ -8823,6 +10401,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Hadadezer",
+            "entityId": "char-hadadezer"
           }
         ]
       },
@@ -8843,6 +10425,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Solomon",
             "entityId": "char-solomon"
+          },
+          {
+            "spanText": "Hadadezer",
+            "entityId": "char-hadadezer"
           }
         ]
       },
@@ -8859,6 +10445,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Hadadezer",
+            "entityId": "char-hadadezer"
           }
         ]
       },
@@ -8875,6 +10465,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Hadadezer",
+            "entityId": "char-hadadezer"
           }
         ]
       },
@@ -8895,6 +10489,22 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Moab",
+            "entityId": "place-moab"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -8911,6 +10521,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abishai",
             "entityId": "char-abishai"
+          },
+          {
+            "spanText": "Edomites",
+            "entityId": "place-edom"
+          },
+          {
+            "spanText": "Zeruiah",
+            "entityId": "char-zeruiah"
           }
         ]
       },
@@ -8931,6 +10549,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
           }
         ]
       },
@@ -8947,6 +10569,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -8963,6 +10589,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joab",
             "entityId": "char-joab"
+          },
+          {
+            "spanText": "Zeruiah",
+            "entityId": "char-zeruiah"
           }
         ]
       },
@@ -8979,6 +10609,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zadok",
             "entityId": "char-zadok"
+          },
+          {
+            "spanText": "Abiathar",
+            "entityId": "char-abiathar"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -9024,7 +10662,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "After this, Nahash the king of the children of Ammon died, and his son reigned in his place.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          }
+        ]
       },
       {
         "id": "1CH-19:2",
@@ -9039,6 +10682,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -9055,6 +10702,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -9103,6 +10754,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -9115,7 +10770,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "So they hired for themselves thirty-two thousand chariots, and the king of Maacah with his people, who came and encamped near Medeba. The children of Ammon gathered themselves together from their cities, and came to battle.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          }
+        ]
       },
       {
         "id": "1CH-19:8",
@@ -9146,7 +10806,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The children of Ammon came out, and put the battle in array at the gate of the city; and the kings who had come were by themselves in the field.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          }
+        ]
       },
       {
         "id": "1CH-19:10",
@@ -9161,6 +10826,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joab",
             "entityId": "char-joab"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
           }
         ]
       },
@@ -9177,6 +10850,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Abishai",
             "entityId": "char-abishai"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -9189,7 +10866,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "He said, “If the Syrians are too strong for me, then you are to help me; but if the children of Ammon are too strong for you, then I will help you.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
+          }
+        ]
       },
       {
         "id": "1CH-19:13",
@@ -9220,6 +10906,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joab",
             "entityId": "char-joab"
+          },
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
           }
         ]
       },
@@ -9244,6 +10934,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
           }
         ]
       },
@@ -9256,7 +10954,20 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "When the Syrians saw that they were defeated by Israel, they sent messengers, and called out the Syrians who were beyond the River, with Shophach the captain of the army of Hadadezer leading them.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-19",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Hadadezer",
+            "entityId": "char-hadadezer"
+          }
+        ]
       },
       {
         "id": "1CH-19:17",
@@ -9271,6 +10982,18 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Jordan",
+            "entityId": "place-jordan"
           }
         ]
       },
@@ -9287,6 +11010,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
           }
         ]
       },
@@ -9303,6 +11034,22 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
+          },
+          {
+            "spanText": "Syrians",
+            "entityId": "place-syria"
+          },
+          {
+            "spanText": "Hadadezer",
+            "entityId": "char-hadadezer"
           }
         ]
       }
@@ -9340,6 +11087,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -9376,6 +11127,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Ammon",
+            "entityId": "place-ammon"
           }
         ]
       },
@@ -9388,7 +11143,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "After this, war arose at Gezer with the Philistines. Then Sibbecai the Hushathite killed Sippai, of the sons of the giant; and they were subdued.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1CH-20:5",
@@ -9399,7 +11159,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Again there was war with the Philistines; and Elhanan the son of Jair killed Lahmi the brother of Goliath the Gittite, the staff of whose spear was like a weaver’s beam.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-20",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Philistines",
+            "entityId": "char-philistines"
+          }
+        ]
       },
       {
         "id": "1CH-20:6",
@@ -9429,6 +11194,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jonathan",
             "entityId": "char-jonathan"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9474,6 +11243,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9494,6 +11267,18 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joab",
             "entityId": "char-joab"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          },
+          {
+            "spanText": "Beersheba",
+            "entityId": "place-beersheba"
           }
         ]
       },
@@ -9514,6 +11299,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joab",
             "entityId": "char-joab"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9534,6 +11323,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9554,6 +11347,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joab",
             "entityId": "char-joab"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -9570,6 +11371,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joab",
             "entityId": "char-joab"
+          },
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -9582,7 +11391,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "God was displeased with this thing; therefore he struck Israel.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-21",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "1CH-21:8",
@@ -9617,6 +11431,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-prophet-gad"
           }
         ]
       },
@@ -9657,6 +11475,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-prophet-gad"
           }
         ]
       },
@@ -9673,6 +11495,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9693,6 +11519,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-prophet-gad"
           }
         ]
       },
@@ -9709,6 +11539,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -9801,6 +11635,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ornan",
             "entityId": "place-ornan-threshing-floor"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-prophet-gad"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -9821,6 +11663,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-prophet-gad"
           }
         ]
       },
@@ -9881,6 +11727,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ornan",
             "entityId": "place-ornan-threshing-floor"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -9901,6 +11751,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ornan",
             "entityId": "place-ornan-threshing-floor"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -9925,6 +11779,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ornan",
             "entityId": "place-ornan-threshing-floor"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
           }
         ]
       },
@@ -9965,6 +11823,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -10021,6 +11887,22 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "Moses",
+            "entityId": "char-moses"
+          },
+          {
+            "spanText": "Gibeon",
+            "entityId": "place-gibeon"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -10078,6 +11960,18 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "house of Yahweh",
             "entityId": "term-temple-pattern"
+          },
+          {
+            "spanText": "burnt offering",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -10094,6 +11988,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10126,6 +12024,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Tyre",
+            "entityId": "place-tyre"
           }
         ]
       },
@@ -10170,6 +12072,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Solomon",
             "entityId": "char-solomon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10226,6 +12132,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Solomon",
             "entityId": "char-solomon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10238,7 +12148,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "He shall build a house for my name; and he will be my son, and I will be his father; and I will establish the throne of his kingdom over Israel forever.’",
         "translation": "WEB",
         "illustrationId": "ill-1ch-22",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "1CH-22:11",
@@ -10273,6 +12188,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10289,6 +12208,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Moses",
+            "entityId": "char-moses"
           }
         ]
       },
@@ -10352,6 +12279,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Solomon",
             "entityId": "char-solomon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10425,6 +12356,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Solomon",
             "entityId": "char-solomon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10437,7 +12372,20 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "He gathered together all the princes of Israel, with the priests and the Levites.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "1CH-23:3",
@@ -10448,7 +12396,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Levites were counted from thirty years old and upward; and their number by their polls, man by man, was thirty-eight thousand.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "1CH-23:4",
@@ -10499,6 +12452,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Gershon",
+            "entityId": "term-levite-clans"
           }
         ]
       },
@@ -10511,7 +12472,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the Gershonites: Ladan and Shimei.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gershonites",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-23:8",
@@ -10570,6 +12536,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Kohath",
+            "entityId": "term-levite-clans"
           }
         ]
       },
@@ -10586,6 +12556,18 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Moses",
+            "entityId": "char-moses"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
           }
         ]
       },
@@ -10598,7 +12580,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "But as for Moses the man of God, his sons were named among the tribe of Levi.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Moses",
+            "entityId": "char-moses"
+          }
+        ]
       },
       {
         "id": "1CH-23:15",
@@ -10609,7 +12600,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Moses: Gershom and Eliezer.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moses",
+            "entityId": "char-moses"
+          },
+          {
+            "spanText": "Gershom",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-23:16",
@@ -10620,7 +12620,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Gershom: Shebuel the chief.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gershom",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-23:17",
@@ -10680,7 +12685,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Merari: Mahli and Mushi. The sons of Mahli: Eleazar and Kish.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Eleazar",
+            "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "Merari",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-23:22",
@@ -10691,7 +12705,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Eleazar died, and had no sons, but daughters only: and their brothers the sons of Kish took them as wives.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Eleazar",
+            "entityId": "char-eleazar"
+          }
+        ]
       },
       {
         "id": "1CH-23:23",
@@ -10717,6 +12736,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -10741,6 +12764,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -10753,7 +12780,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Also the Levites will no longer need to carry the tabernacle and all its vessels for its service.”",
         "translation": "WEB",
         "illustrationId": "ill-1ch-23",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "1CH-23:27",
@@ -10768,6 +12800,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "term-levites"
           }
         ]
       },
@@ -10784,6 +12820,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
           }
         ]
       },
@@ -10827,6 +12867,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "Sabbaths",
+            "entityId": "term-sabbath"
           }
         ]
       },
@@ -10843,6 +12891,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
           }
         ]
       }
@@ -10868,7 +12920,20 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "These were the divisions of the sons of Aaron. The sons of Aaron: Nadab, Abihu, Eleazar, and Ithamar.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
+          },
+          {
+            "spanText": "Eleazar",
+            "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "Ithamar",
+            "entityId": "char-ithamar"
+          }
+        ]
       },
       {
         "id": "1CH-24:2",
@@ -10879,7 +12944,20 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "But Nadab and Abihu died before their father, and had no children: therefore Eleazar and Ithamar executed the priest’s office.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Eleazar",
+            "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "Ithamar",
+            "entityId": "char-ithamar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
+          }
+        ]
       },
       {
         "id": "1CH-24:3",
@@ -10898,6 +12976,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zadok",
             "entityId": "char-zadok"
+          },
+          {
+            "spanText": "Eleazar",
+            "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "Ithamar",
+            "entityId": "char-ithamar"
           }
         ]
       },
@@ -10910,7 +12996,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "There were more chief men found of the sons of Eleazar than of the sons of Ithamar; and they were divided like this: of the sons of Eleazar there were sixteen, heads of fathers’ houses; and of the sons of Ithamar, according to their fathers’ houses, eight.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Eleazar",
+            "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "Ithamar",
+            "entityId": "char-ithamar"
+          }
+        ]
       },
       {
         "id": "1CH-24:5",
@@ -10921,7 +13016,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Thus they were divided impartially by drawing lots; for there were princes of the sanctuary, and princes of God, both of the sons of Eleazar, and of the sons of Ithamar.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Eleazar",
+            "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "Ithamar",
+            "entityId": "char-ithamar"
+          }
+        ]
       },
       {
         "id": "1CH-24:6",
@@ -10936,6 +13040,26 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zadok",
             "entityId": "char-zadok"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Eleazar",
+            "entityId": "char-eleazar"
+          },
+          {
+            "spanText": "Ithamar",
+            "entityId": "char-ithamar"
+          },
+          {
+            "spanText": "Abiathar",
+            "entityId": "char-abiathar"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -11084,6 +13208,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
           }
         ]
       },
@@ -11096,7 +13228,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the rest of the sons of Levi: of the sons of Amram, Shubael; of the sons of Shubael, Jehdeiah.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levi",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "1CH-24:21",
@@ -11167,7 +13304,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Merari: Mahli and Mushi. The son of Jaaziah: Beno.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Merari",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-24:27",
@@ -11178,7 +13320,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Merari: of Jaaziah, Beno, Shoham, Zaccur, and Ibri.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Merari",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-24:28",
@@ -11189,7 +13336,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of Mahli: Eleazar, who had no sons.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Eleazar",
+            "entityId": "char-eleazar"
+          }
+        ]
       },
       {
         "id": "1CH-24:29",
@@ -11211,7 +13363,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Mushi: Mahli, Eder, and Jerimoth. These were the sons of the Levites after their fathers’ houses.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-24",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "1CH-24:31",
@@ -11230,6 +13387,18 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zadok",
             "entityId": "char-zadok"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       }
@@ -11715,7 +13884,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Obed-Edom had sons: Shemaiah the firstborn, Jehozabad the second, Joah the third, Sacar the fourth, Nethanel the fifth,",
         "translation": "WEB",
         "illustrationId": "ill-1ch-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "1CH-26:5",
@@ -11726,7 +13900,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Ammiel the sixth, Issachar the seventh, and Peullethai the eighth; for God blessed him.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
+          }
+        ]
       },
       {
         "id": "1CH-26:6",
@@ -11759,7 +13938,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "All these were of the sons of Obed-Edom: they and their sons and their brothers, able men in strength for the service: sixty-two of Obed-Edom.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "1CH-26:9",
@@ -11781,7 +13965,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Also Hosah, of the children of Merari, had sons: Shimri the chief (for though he was not the firstborn, yet his father made him chief),",
         "translation": "WEB",
         "illustrationId": "ill-1ch-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Merari",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-26:11",
@@ -11841,7 +14030,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "To Obed-Edom southward; and to his sons the storehouse.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Edom",
+            "entityId": "place-edom"
+          }
+        ]
       },
       {
         "id": "1CH-26:16",
@@ -11863,7 +14057,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Eastward were six Levites, northward four a day, southward four a day, and for the storehouse two and two.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "1CH-26:18",
@@ -11885,7 +14084,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "These were the divisions of the doorkeepers; of the sons of the Korahites, and of the sons of Merari.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Merari",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-26:20",
@@ -11896,7 +14100,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the Levites, Ahijah was over the treasures of God’s house and over the treasures of the dedicated things.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          }
+        ]
       },
       {
         "id": "1CH-26:21",
@@ -11907,7 +14116,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The sons of Ladan, the sons of the Gershonites belonging to Ladan, the heads of the fathers’ households belonging to Ladan the Gershonite: Jehieli.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Gershonites",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-26:22",
@@ -11945,7 +14159,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "and Shebuel the son of Gershom, the son of Moses, was ruler over the treasures.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Moses",
+            "entityId": "char-moses"
+          },
+          {
+            "spanText": "Gershom",
+            "entityId": "term-levite-clans"
+          }
+        ]
       },
       {
         "id": "1CH-26:25",
@@ -12011,6 +14234,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joab",
             "entityId": "char-joab"
+          },
+          {
+            "spanText": "Zeruiah",
+            "entityId": "char-zeruiah"
           }
         ]
       },
@@ -12023,7 +14250,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Of the Izharites, Chenaniah and his sons were for the outward business over Israel, for officers and judges.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-26",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "1CH-26:30",
@@ -12038,6 +14270,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Jordan",
+            "entityId": "place-jordan"
           }
         ]
       },
@@ -12054,6 +14294,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
           }
         ]
       },
@@ -12070,6 +14314,18 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Manassites",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Reubenites",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Gadites",
+            "entityId": "char-gad"
           }
         ]
       }
@@ -12095,7 +14351,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now the children of Israel after their number, the heads of fathers’ households and the captains of thousands and of hundreds, and their officers who served the king, in any matter of the divisions which came in and went out month by month throughout all the months of the year—of every division were twenty-four thousand.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "1CH-27:2",
@@ -12143,6 +14404,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Benaiah",
             "entityId": "char-benaiah"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -12209,7 +14474,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The seventh captain for the seventh month was Helez the Pelonite, of the children of Ephraim. In his division were twenty-four thousand.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          }
+        ]
       },
       {
         "id": "1CH-27:11",
@@ -12231,7 +14501,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "The ninth captain for the ninth month was Abiezer the Anathothite, of the Benjamites. In his division were twenty-four thousand.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamites",
+            "entityId": "char-benjamin"
+          }
+        ]
       },
       {
         "id": "1CH-27:13",
@@ -12257,6 +14532,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Benaiah",
             "entityId": "char-benaiah"
+          },
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
           }
         ]
       },
@@ -12280,7 +14559,20 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Furthermore over the tribes of Israel: of the Reubenites, Eliezer the son of Zichri was the ruler; of the Simeonites, Shephatiah the son of Maacah;",
         "translation": "WEB",
         "illustrationId": "ill-1ch-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Reubenites",
+            "entityId": "char-reuben"
+          },
+          {
+            "spanText": "Simeonites",
+            "entityId": "char-simeon"
+          }
+        ]
       },
       {
         "id": "1CH-27:17",
@@ -12295,6 +14587,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zadok",
             "entityId": "char-zadok"
+          },
+          {
+            "spanText": "Levi",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "Aaron",
+            "entityId": "char-aaron"
           }
         ]
       },
@@ -12311,6 +14611,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
+          },
+          {
+            "spanText": "Issachar",
+            "entityId": "char-issachar"
           }
         ]
       },
@@ -12323,7 +14631,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "of Zebulun, Ishmaiah the son of Obadiah; of Naphtali, Jeremoth the son of Azriel;",
         "translation": "WEB",
         "illustrationId": "ill-1ch-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Zebulun",
+            "entityId": "char-zebulun"
+          },
+          {
+            "spanText": "Naphtali",
+            "entityId": "char-naphtali"
+          }
+        ]
       },
       {
         "id": "1CH-27:20",
@@ -12334,7 +14651,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "of the children of Ephraim, Hoshea the son of Azaziah; of the half-tribe of Manasseh, Joel the son of Pedaiah;",
         "translation": "WEB",
         "illustrationId": "ill-1ch-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Ephraim",
+            "entityId": "char-ephraim"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          }
+        ]
       },
       {
         "id": "1CH-27:21",
@@ -12345,7 +14671,20 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "of the half-tribe of Manasseh in Gilead, Iddo the son of Zechariah; of Benjamin, Jaasiel the son of Abner;",
         "translation": "WEB",
         "illustrationId": "ill-1ch-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Benjamin",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Manasseh",
+            "entityId": "char-manasseh-joseph"
+          },
+          {
+            "spanText": "Gilead",
+            "entityId": "place-gilead"
+          }
+        ]
       },
       {
         "id": "1CH-27:22",
@@ -12356,7 +14695,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "of Dan, Azarel the son of Jeroham. These were the captains of the tribes of Israel.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-27",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Dan",
+            "entityId": "char-dan"
+          }
+        ]
       },
       {
         "id": "1CH-27:23",
@@ -12375,6 +14723,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12395,6 +14747,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Joab",
             "entityId": "char-joab"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Zeruiah",
+            "entityId": "char-zeruiah"
           }
         ]
       },
@@ -12533,6 +14893,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Benaiah",
             "entityId": "char-benaiah"
+          },
+          {
+            "spanText": "Abiathar",
+            "entityId": "char-abiathar"
           }
         ]
       }
@@ -12566,6 +14930,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12621,6 +14989,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -12641,6 +15017,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Solomon",
             "entityId": "char-solomon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12684,6 +15064,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -12776,6 +15160,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -12844,6 +15236,18 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "covenant",
             "entityId": "term-davidic-covenant"
+          },
+          {
+            "spanText": "cherubim",
+            "entityId": "term-cherubim"
+          },
+          {
+            "spanText": "incense",
+            "entityId": "term-incense"
+          },
+          {
+            "spanText": "altar",
+            "entityId": "term-altar"
           }
         ]
       },
@@ -12904,7 +15308,16 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Behold, there are the divisions of the priests and the Levites, for all the service of God’s house. Every willing man who has skill, for any kind of service, shall be with you in all kinds of work. Also the captains and all the people will be entirely at your command.”",
         "translation": "WEB",
         "illustrationId": "ill-1ch-28",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Levites",
+            "entityId": "term-levites"
+          },
+          {
+            "spanText": "priests",
+            "entityId": "term-priest"
+          }
+        ]
       }
     ]
   },
@@ -13001,7 +15414,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "Then the princes of the fathers’ households, and the princes of the tribes of Israel, and the captains of thousands and of hundreds, with the rulers over the king’s work, offered willingly;",
         "translation": "WEB",
         "illustrationId": "ill-1ch-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       },
       {
         "id": "1CH-29:7",
@@ -13067,6 +15485,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13170,6 +15592,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          },
+          {
+            "spanText": "Abraham",
+            "entityId": "char-abraham"
           }
         ]
       },
@@ -13222,6 +15652,14 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Yahweh",
             "entityId": "term-yahweh"
+          },
+          {
+            "spanText": "burnt offerings",
+            "entityId": "term-burnt-offering"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13250,6 +15688,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Zadok",
             "entityId": "char-zadok"
+          },
+          {
+            "spanText": "priest",
+            "entityId": "term-priest"
           }
         ]
       },
@@ -13274,6 +15716,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Solomon",
             "entityId": "char-solomon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13314,6 +15760,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Solomon",
             "entityId": "char-solomon"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13330,6 +15780,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "David",
             "entityId": "char-david"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13350,6 +15804,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Hebron",
             "entityId": "place-hebron"
+          },
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
           }
         ]
       },
@@ -13390,6 +15848,10 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Nathan",
             "entityId": "char-nathan"
+          },
+          {
+            "spanText": "Gad",
+            "entityId": "char-prophet-gad"
           }
         ]
       },
@@ -13402,7 +15864,12 @@ export const FIRST_CHRONICLES_CHAPTERS: Record<string, ChapterData> = {
         "text": "with all his reign and his might, and the times that went over him, and over Israel, and over all the kingdoms of the countries.",
         "translation": "WEB",
         "illustrationId": "ill-1ch-29",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Israel",
+            "entityId": "term-israel"
+          }
+        ]
       }
     ]
   }

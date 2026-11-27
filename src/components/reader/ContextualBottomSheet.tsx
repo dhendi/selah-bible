@@ -51,7 +51,7 @@ export const ContextualBottomSheet: React.FC = () => {
       navigateToMapPin('loc-goshen');
     } else if (region.includes('Ararat')) {
       navigateToMapPin('loc-ararat');
-    } else if (region.includes('Jerusalem') || region.includes('Moriah') || region.includes('Jebus')) {
+    } else if (region.includes('Jerusalem') || region.includes('Moriah') || region.includes('Jebus') || region.includes('Zion')) {
       navigateToMapPin('loc-jerusalem');
     } else if (region.includes('Midian')) {
       navigateToMapPin('loc-midian');
@@ -93,7 +93,7 @@ export const ContextualBottomSheet: React.FC = () => {
       navigateToMapPin('loc-ramah');
     } else if (region.includes('Syria') || region.includes('Damascus') || region.includes('Aram')) {
       navigateToMapPin('loc-haran');
-    } else if (region.includes('Babylon') || region.includes('Nineveh') || region.includes('Assyria') || region.includes('Chaldea')) {
+    } else if (region.includes('Babylon') || region.includes('Nineveh') || region.includes('Assyria') || region.includes('Chaldea') || region.includes('Persia') || region.includes('Susa') || region.includes('Ahava')) {
       navigateToMapPin('loc-babylon');
     } else if (region.includes('Elah')) {
       navigateToMapPin('loc-elah');
@@ -148,29 +148,35 @@ export const ContextualBottomSheet: React.FC = () => {
 
   const handleReflect = () => {
     const ref = entity.relatedVerseRefs[0] || 'Genesis 1:1';
-    const bookId = ref.includes('2 Kings')
-      ? '2KI'
-      : ref.includes('1 Kings')
-        ? '1KI'
-        : ref.includes('2 Samuel')
-          ? '2SA'
-          : ref.includes('1 Samuel')
-            ? '1SA'
-            : ref.includes('Ruth')
-              ? 'RUT'
-              : ref.includes('Judges')
-                ? 'JDG'
-                : ref.includes('Joshua')
-                  ? 'JOS'
-                  : ref.includes('Deuteronomy')
-                    ? 'DEU'
-                    : ref.includes('Numbers')
-                      ? 'NUM'
-                      : ref.includes('Leviticus')
-                        ? 'LEV'
-                        : ref.includes('Exodus')
-                          ? 'EXO'
-                          : 'GEN';
+    const bookId = ref.includes('Ezra')
+      ? 'EZR'
+      : ref.includes('2 Chronicles')
+        ? '2CH'
+        : ref.includes('1 Chronicles')
+          ? '1CH'
+          : ref.includes('2 Kings')
+            ? '2KI'
+            : ref.includes('1 Kings')
+              ? '1KI'
+              : ref.includes('2 Samuel')
+                ? '2SA'
+                : ref.includes('1 Samuel')
+                  ? '1SA'
+                  : ref.includes('Ruth')
+                    ? 'RUT'
+                    : ref.includes('Judges')
+                      ? 'JDG'
+                      : ref.includes('Joshua')
+                        ? 'JOS'
+                        : ref.includes('Deuteronomy')
+                          ? 'DEU'
+                          : ref.includes('Numbers')
+                            ? 'NUM'
+                            : ref.includes('Leviticus')
+                              ? 'LEV'
+                              : ref.includes('Exodus')
+                                ? 'EXO'
+                                : 'GEN';
     openJournalSheet({
       verseRef: ref,
       bookId,
