@@ -57,7 +57,20 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "in the third year of his reign, he made a feast for all his princes and his servants; the power of Persia and Media, the nobles and princes of the provinces, being before him.",
         "translation": "WEB",
         "illustrationId": "ill-est-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
+          },
+          {
+            "spanText": "Media",
+            "entityId": "place-media"
+          },
+          {
+            "spanText": "feast",
+            "entityId": "term-royal-feast"
+          }
+        ]
       },
       {
         "id": "EST-1:4",
@@ -83,6 +96,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Susa",
             "entityId": "place-susa"
+          },
+          {
+            "spanText": "feast",
+            "entityId": "term-royal-feast"
           }
         ]
       },
@@ -132,6 +149,14 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahasuerus",
             "entityId": "char-ahasuerus"
+          },
+          {
+            "spanText": "Vashti",
+            "entityId": "char-vashti"
+          },
+          {
+            "spanText": "feast",
+            "entityId": "term-royal-feast"
           }
         ]
       },
@@ -160,7 +185,12 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "to bring Vashti the queen before the king with the royal crown, to show the people and the princes her beauty; for she was beautiful.",
         "translation": "WEB",
         "illustrationId": "ill-est-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Vashti",
+            "entityId": "char-vashti"
+          }
+        ]
       },
       {
         "id": "EST-1:12",
@@ -171,7 +201,12 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "But the queen Vashti refused to come at the king’s commandment by the eunuchs. Therefore the king was very angry, and his anger burned in him.",
         "translation": "WEB",
         "illustrationId": "ill-est-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Vashti",
+            "entityId": "char-vashti"
+          }
+        ]
       },
       {
         "id": "EST-1:13",
@@ -193,7 +228,20 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "and the next to him were Carshena, Shethar, Admatha, Tarshish, Meres, Marsena, and Memucan, the seven princes of Persia and Media, who saw the king’s face, and sat first in the kingdom),",
         "translation": "WEB",
         "illustrationId": "ill-est-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Memucan",
+            "entityId": "char-memucan"
+          },
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
+          },
+          {
+            "spanText": "Media",
+            "entityId": "place-media"
+          }
+        ]
       },
       {
         "id": "EST-1:15",
@@ -208,6 +256,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahasuerus",
             "entityId": "char-ahasuerus"
+          },
+          {
+            "spanText": "Vashti",
+            "entityId": "char-vashti"
           }
         ]
       },
@@ -224,6 +276,14 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahasuerus",
             "entityId": "char-ahasuerus"
+          },
+          {
+            "spanText": "Memucan",
+            "entityId": "char-memucan"
+          },
+          {
+            "spanText": "Vashti",
+            "entityId": "char-vashti"
           }
         ]
       },
@@ -240,6 +300,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahasuerus",
             "entityId": "char-ahasuerus"
+          },
+          {
+            "spanText": "Vashti",
+            "entityId": "char-vashti"
           }
         ]
       },
@@ -252,7 +316,16 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "Today, the princesses of Persia and Media who have heard of the queen’s deed will tell all the king’s princes. This will cause much contempt and wrath.",
         "translation": "WEB",
         "illustrationId": "ill-est-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
+          },
+          {
+            "spanText": "Media",
+            "entityId": "place-media"
+          }
+        ]
       },
       {
         "id": "EST-1:19",
@@ -267,6 +340,18 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahasuerus",
             "entityId": "char-ahasuerus"
+          },
+          {
+            "spanText": "Persians",
+            "entityId": "place-persia"
+          },
+          {
+            "spanText": "Vashti",
+            "entityId": "char-vashti"
+          },
+          {
+            "spanText": "Medes",
+            "entityId": "place-media"
           }
         ]
       },
@@ -290,7 +375,12 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "This advice pleased the king and the princes, and the king did according to the word of Memucan:",
         "translation": "WEB",
         "illustrationId": "ill-est-1",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Memucan",
+            "entityId": "char-memucan"
+          }
+        ]
       },
       {
         "id": "EST-1:22",
@@ -329,6 +419,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahasuerus",
             "entityId": "char-ahasuerus"
+          },
+          {
+            "spanText": "Vashti",
+            "entityId": "char-vashti"
           }
         ]
       },
@@ -356,6 +450,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Susa",
             "entityId": "place-susa"
+          },
+          {
+            "spanText": "Hegai",
+            "entityId": "char-hegai"
           }
         ]
       },
@@ -368,7 +466,12 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "and let the maiden who pleases the king be queen instead of Vashti.” The thing pleased the king, and he did so.",
         "translation": "WEB",
         "illustrationId": "ill-est-2",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Vashti",
+            "entityId": "char-vashti"
+          }
+        ]
       },
       {
         "id": "EST-2:5",
@@ -387,6 +490,14 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Susa",
             "entityId": "place-susa"
+          },
+          {
+            "spanText": "Benjamite",
+            "entityId": "char-benjamin"
+          },
+          {
+            "spanText": "Jew",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -403,6 +514,18 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Jerusalem",
             "entityId": "place-jerusalem"
+          },
+          {
+            "spanText": "Nebuchadnezzar",
+            "entityId": "char-nebuchadnezzar"
+          },
+          {
+            "spanText": "Babylon",
+            "entityId": "place-babylon"
+          },
+          {
+            "spanText": "Judah",
+            "entityId": "char-judah"
           }
         ]
       },
@@ -423,6 +546,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mordecai",
             "entityId": "char-mordecai"
+          },
+          {
+            "spanText": "Esther",
+            "entityId": "char-esther"
           }
         ]
       },
@@ -443,6 +570,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Susa",
             "entityId": "place-susa"
+          },
+          {
+            "spanText": "Hegai",
+            "entityId": "char-hegai"
           }
         ]
       },
@@ -552,6 +683,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mordecai",
             "entityId": "char-mordecai"
+          },
+          {
+            "spanText": "Hegai",
+            "entityId": "char-hegai"
           }
         ]
       },
@@ -588,6 +723,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Esther",
             "entityId": "char-esther"
+          },
+          {
+            "spanText": "Vashti",
+            "entityId": "char-vashti"
           }
         ]
       },
@@ -604,6 +743,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Esther",
             "entityId": "char-esther"
+          },
+          {
+            "spanText": "feast",
+            "entityId": "term-royal-feast"
           }
         ]
       },
@@ -724,6 +867,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Haman",
             "entityId": "char-haman"
+          },
+          {
+            "spanText": "Agagite",
+            "entityId": "char-agag"
           }
         ]
       },
@@ -780,6 +927,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Haman",
             "entityId": "char-haman"
+          },
+          {
+            "spanText": "Jew",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -824,6 +975,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Haman",
             "entityId": "char-haman"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -895,6 +1050,18 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Haman",
             "entityId": "char-haman"
+          },
+          {
+            "spanText": "Agagite",
+            "entityId": "char-agag"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          },
+          {
+            "spanText": "ring",
+            "entityId": "term-signet-decree"
           }
         ]
       },
@@ -931,6 +1098,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Haman",
             "entityId": "char-haman"
+          },
+          {
+            "spanText": "ring",
+            "entityId": "term-signet-decree"
           }
         ]
       },
@@ -943,7 +1114,12 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "Letters were sent by couriers into all the king’s provinces, to destroy, to kill, and to cause to perish, all Jews, both young and old, little children and women, in one day, even on the thirteenth day of the twelfth month, which is the month Adar, and to plunder their possessions.",
         "translation": "WEB",
         "illustrationId": "ill-est-3",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "EST-3:14",
@@ -1002,6 +1178,14 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mordecai",
             "entityId": "char-mordecai"
+          },
+          {
+            "spanText": "sackcloth",
+            "entityId": "term-sackcloth-ashes"
+          },
+          {
+            "spanText": "ashes",
+            "entityId": "term-sackcloth-ashes"
           }
         ]
       },
@@ -1014,7 +1198,12 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "He came even before the king’s gate, for no one is allowed inside the king’s gate clothed with sackcloth.",
         "translation": "WEB",
         "illustrationId": "ill-est-4",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "sackcloth",
+            "entityId": "term-sackcloth-ashes"
+          }
+        ]
       },
       {
         "id": "EST-4:3",
@@ -1029,6 +1218,18 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "fasting",
             "entityId": "term-esther-fast"
+          },
+          {
+            "spanText": "sackcloth",
+            "entityId": "term-sackcloth-ashes"
+          },
+          {
+            "spanText": "ashes",
+            "entityId": "term-sackcloth-ashes"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -1049,6 +1250,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mordecai",
             "entityId": "char-mordecai"
+          },
+          {
+            "spanText": "sackcloth",
+            "entityId": "term-sackcloth-ashes"
           }
         ]
       },
@@ -1069,6 +1274,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mordecai",
             "entityId": "char-mordecai"
+          },
+          {
+            "spanText": "Hathach",
+            "entityId": "char-hathach"
           }
         ]
       },
@@ -1085,6 +1294,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mordecai",
             "entityId": "char-mordecai"
+          },
+          {
+            "spanText": "Hathach",
+            "entityId": "char-hathach"
           }
         ]
       },
@@ -1105,6 +1318,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Haman",
             "entityId": "char-haman"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -1145,6 +1362,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mordecai",
             "entityId": "char-mordecai"
+          },
+          {
+            "spanText": "Hathach",
+            "entityId": "char-hathach"
           }
         ]
       },
@@ -1165,6 +1386,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mordecai",
             "entityId": "char-mordecai"
+          },
+          {
+            "spanText": "Hathach",
+            "entityId": "char-hathach"
           }
         ]
       },
@@ -1221,6 +1446,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mordecai",
             "entityId": "char-mordecai"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -1237,6 +1466,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "for such a time as this",
             "entityId": "term-such-a-time"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -1277,6 +1510,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "fast",
             "entityId": "term-esther-fast"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -1486,6 +1723,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Haman",
             "entityId": "char-haman"
+          },
+          {
+            "spanText": "Zeresh",
+            "entityId": "char-zeresh"
           }
         ]
       },
@@ -1538,6 +1779,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mordecai",
             "entityId": "char-mordecai"
+          },
+          {
+            "spanText": "Jew",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -1558,6 +1803,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Haman",
             "entityId": "char-haman"
+          },
+          {
+            "spanText": "Zeresh",
+            "entityId": "char-zeresh"
           }
         ]
       }
@@ -1728,6 +1977,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Haman",
             "entityId": "char-haman"
+          },
+          {
+            "spanText": "Jew",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -1788,6 +2041,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Haman",
             "entityId": "char-haman"
+          },
+          {
+            "spanText": "Zeresh",
+            "entityId": "char-zeresh"
           }
         ]
       },
@@ -2045,6 +2302,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Haman",
             "entityId": "char-haman"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -2069,6 +2330,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Haman",
             "entityId": "char-haman"
+          },
+          {
+            "spanText": "ring",
+            "entityId": "term-signet-decree"
           }
         ]
       },
@@ -2089,6 +2354,14 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Haman",
             "entityId": "char-haman"
+          },
+          {
+            "spanText": "Agagite",
+            "entityId": "char-agag"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -2125,6 +2398,14 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Haman",
             "entityId": "char-haman"
+          },
+          {
+            "spanText": "Agagite",
+            "entityId": "char-agag"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -2164,6 +2445,14 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Haman",
             "entityId": "char-haman"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          },
+          {
+            "spanText": "Jew",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -2176,7 +2465,16 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "Write also to the Jews, as it pleases you, in the king’s name, and seal it with the king’s ring; for the writing which is written in the king’s name, and sealed with the king’s ring, may not be reversed by any man.”",
         "translation": "WEB",
         "illustrationId": "ill-est-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          },
+          {
+            "spanText": "ring",
+            "entityId": "term-signet-decree"
+          }
+        ]
       },
       {
         "id": "EST-8:9",
@@ -2191,6 +2489,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mordecai",
             "entityId": "char-mordecai"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -2207,6 +2509,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahasuerus",
             "entityId": "char-ahasuerus"
+          },
+          {
+            "spanText": "ring",
+            "entityId": "term-signet-decree"
           }
         ]
       },
@@ -2219,7 +2525,12 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "In those letters, the king granted the Jews who were in every city to gather themselves together, and to defend their life, to destroy, to kill, and to cause to perish, all the power of the people and province that would assault them, their little ones and women, and to plunder their possessions,",
         "translation": "WEB",
         "illustrationId": "ill-est-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "EST-8:12",
@@ -2246,7 +2557,12 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "A copy of the letter, that the decree should be given out in every province, was published to all the peoples, that the Jews should be ready for that day to avenge themselves on their enemies.",
         "translation": "WEB",
         "illustrationId": "ill-est-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "EST-8:14",
@@ -2293,7 +2609,12 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Jews had light, gladness, joy, and honor.",
         "translation": "WEB",
         "illustrationId": "ill-est-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "EST-8:17",
@@ -2304,7 +2625,16 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "In every province, and in every city, wherever the king’s commandment and his decree came, the Jews had gladness, joy, a feast, and a good day. Many from among the peoples of the land became Jews; for the fear of the Jews was fallen on them.",
         "translation": "WEB",
         "illustrationId": "ill-est-8",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          },
+          {
+            "spanText": "feast",
+            "entityId": "term-purim"
+          }
+        ]
       }
     ]
   },
@@ -2328,7 +2658,12 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "Now in the twelfth month, which is the month Adar, on the thirteenth day of the month, when the king’s commandment and his decree came near to be put in execution, on the day that the enemies of the Jews hoped to conquer them, (but it was turned out the opposite happened, that the Jews conquered those who hated them),",
         "translation": "WEB",
         "illustrationId": "ill-est-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "EST-9:2",
@@ -2343,6 +2678,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahasuerus",
             "entityId": "char-ahasuerus"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -2359,6 +2698,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mordecai",
             "entityId": "char-mordecai"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -2387,7 +2730,12 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "The Jews struck all their enemies with the stroke of the sword, and with slaughter and destruction, and did what they wanted to those who hated them.",
         "translation": "WEB",
         "illustrationId": "ill-est-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "EST-9:6",
@@ -2402,6 +2750,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Susa",
             "entityId": "place-susa"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -2451,6 +2803,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Haman",
             "entityId": "char-haman"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -2491,6 +2847,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Susa",
             "entityId": "place-susa"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -2515,6 +2875,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Susa",
             "entityId": "place-susa"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -2551,6 +2915,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Susa",
             "entityId": "place-susa"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -2563,7 +2931,12 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "The other Jews who were in the king’s provinces gathered themselves together, defended their lives, had rest from their enemies, and killed seventy-five thousand of those who hated them; but they didn’t lay their hand on the plunder.",
         "translation": "WEB",
         "illustrationId": "ill-est-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "EST-9:17",
@@ -2574,7 +2947,12 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "This was done on the thirteenth day of the month Adar; and on the fourteenth day of that month they rested and made it a day of feasting and gladness.",
         "translation": "WEB",
         "illustrationId": "ill-est-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "feasting",
+            "entityId": "term-purim"
+          }
+        ]
       },
       {
         "id": "EST-9:18",
@@ -2589,6 +2967,14 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Susa",
             "entityId": "place-susa"
+          },
+          {
+            "spanText": "feasting",
+            "entityId": "term-purim"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -2601,7 +2987,16 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "Therefore the Jews of the villages, who live in the unwalled towns, make the fourteenth day of the month Adar a day of gladness and feasting, a good day, and a day of sending presents of food to one another.",
         "translation": "WEB",
         "illustrationId": "ill-est-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "feasting",
+            "entityId": "term-purim"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "EST-9:20",
@@ -2620,6 +3015,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahasuerus",
             "entityId": "char-ahasuerus"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -2643,7 +3042,16 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "as the days in which the Jews had rest from their enemies, and the month which was turned to them from sorrow to gladness, and from mourning into a good day; that they should make them days of feasting and gladness, and of sending presents of food to one another, and gifts to the needy.",
         "translation": "WEB",
         "illustrationId": "ill-est-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "feasting",
+            "entityId": "term-purim"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "EST-9:23",
@@ -2658,6 +3066,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mordecai",
             "entityId": "char-mordecai"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -2678,6 +3090,14 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Pur",
             "entityId": "term-purim"
+          },
+          {
+            "spanText": "Agagite",
+            "entityId": "char-agag"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -2690,7 +3110,12 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "but when this became known to the king, he commanded by letters that his wicked plan, which he had planned against the Jews, should return on his own head, and that he and his sons should be hanged on the gallows.",
         "translation": "WEB",
         "illustrationId": "ill-est-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "EST-9:26",
@@ -2717,7 +3142,12 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
         "text": "the Jews established and imposed on themselves, and on their descendants, and on all those who joined themselves to them, so that it should not fail that they would keep these two days according to what was written, and according to its appointed time, every year;",
         "translation": "WEB",
         "illustrationId": "ill-est-9",
-        "linkedEntities": []
+        "linkedEntities": [
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          }
+        ]
       },
       {
         "id": "EST-9:28",
@@ -2732,6 +3162,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Purim",
             "entityId": "term-purim"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -2756,6 +3190,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Purim",
             "entityId": "term-purim"
+          },
+          {
+            "spanText": "Jew",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -2772,6 +3210,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahasuerus",
             "entityId": "char-ahasuerus"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -2796,6 +3238,10 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Purim",
             "entityId": "term-purim"
+          },
+          {
+            "spanText": "Jew",
+            "entityId": "term-jews"
           }
         ]
       },
@@ -2861,6 +3307,14 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Mordecai",
             "entityId": "char-mordecai"
+          },
+          {
+            "spanText": "Persia",
+            "entityId": "place-persia"
+          },
+          {
+            "spanText": "Media",
+            "entityId": "place-media"
           }
         ]
       },
@@ -2881,6 +3335,14 @@ export const ESTHER_CHAPTERS: Record<string, ChapterData> = {
           {
             "spanText": "Ahasuerus",
             "entityId": "char-ahasuerus"
+          },
+          {
+            "spanText": "Jews",
+            "entityId": "term-jews"
+          },
+          {
+            "spanText": "Jew",
+            "entityId": "term-jews"
           }
         ]
       }

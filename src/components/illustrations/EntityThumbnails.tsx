@@ -335,6 +335,18 @@ const ENTITY_SCENE_MAP: Record<string, string> = {
   'char-geshem': '/images/portrait-geshem.jpg',
   'char-eliashib': '/images/portrait-eliashib.jpg',
   'char-hanani': '/images/portrait-hanani.jpg',
+  'term-esther-fast': '/images/word-esther-fast.jpg',
+  'term-purim': '/images/est-09.jpg',
+  'term-such-a-time': '/images/est-05.jpg',
+  'term-sackcloth-ashes': '/images/est-04.jpg',
+  'term-royal-feast': '/images/est-01.jpg',
+  'char-vashti': '/images/portrait-vashti.jpg',
+  'char-hathach': '/images/portrait-hathach.jpg',
+  'char-zeresh': '/images/portrait-zeresh.jpg',
+  'char-hegai': '/images/portrait-hegai.jpg',
+  'char-memucan': '/images/portrait-memucan.jpg',
+  'place-media': '/images/word-media.jpg',
+  'term-signet-decree': '/images/word-signet-decree.jpg',
 };
 
 export interface ResolvedEntityAsset {
