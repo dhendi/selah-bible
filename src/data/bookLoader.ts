@@ -1,0 +1,147 @@
+import { useEffect, useState } from 'react';
+import type { ChapterData } from '../types/bible';
+
+type ChapterMap = Record<string, ChapterData>;
+type ChapterLoader = () => Promise<ChapterMap>;
+
+const BOOK_IMPORTERS: Record<string, ChapterLoader> = {
+  GEN: () => import('./books/genesisChapters').then((m) => m.GENESIS_CHAPTERS),
+  EXO: () => import('./books/exodusChapters').then((m) => m.EXODUS_CHAPTERS),
+  LEV: () => import('./books/leviticusChapters').then((m) => m.LEVITICUS_CHAPTERS),
+  NUM: () => import('./books/numbersChapters').then((m) => m.NUMBERS_CHAPTERS),
+  DEU: () => import('./books/deuteronomyChapters').then((m) => m.DEUTERONOMY_CHAPTERS),
+  JOS: () => import('./books/joshuaChapters').then((m) => m.JOSHUA_CHAPTERS),
+  JDG: () => import('./books/judgesChapters').then((m) => m.JUDGES_CHAPTERS),
+  RUT: () => import('./books/ruthChapters').then((m) => m.RUTH_CHAPTERS),
+  '1SA': () => import('./books/firstSamuelChapters').then((m) => m.FIRST_SAMUEL_CHAPTERS),
+  '2SA': () => import('./books/secondSamuelChapters').then((m) => m.SECOND_SAMUEL_CHAPTERS),
+  '1KI': () => import('./books/firstKingsChapters').then((m) => m.FIRST_KINGS_CHAPTERS),
+  '2KI': () => import('./books/secondKingsChapters').then((m) => m.SECOND_KINGS_CHAPTERS),
+  '1CH': () => import('./books/firstChroniclesChapters').then((m) => m.FIRST_CHRONICLES_CHAPTERS),
+  '2CH': () => import('./books/secondChroniclesChapters').then((m) => m.SECOND_CHRONICLES_CHAPTERS),
+  EZR: () => import('./books/ezraChapters').then((m) => m.EZRA_CHAPTERS),
+  NEH: () => import('./books/nehemiahChapters').then((m) => m.NEHEMIAH_CHAPTERS),
+  EST: () => import('./books/estherChapters').then((m) => m.ESTHER_CHAPTERS),
+  JOB: () => import('./books/jobChapters').then((m) => m.JOB_CHAPTERS),
+  PSA: () => import('./books/psalmsChapters').then((m) => m.PSALMS_CHAPTERS),
+  PRO: () => import('./books/proverbsChapters').then((m) => m.PROVERBS_CHAPTERS),
+  ECC: () => import('./books/ecclesiastesChapters').then((m) => m.ECCLESIASTES_CHAPTERS),
+  SNG: () => import('./books/songOfSolomonChapters').then((m) => m.SONG_OF_SOLOMON_CHAPTERS),
+  ISA: () => import('./books/isaiahChapters').then((m) => m.ISAIAH_CHAPTERS),
+  JER: () => import('./books/jeremiahChapters').then((m) => m.JEREMIAH_CHAPTERS),
+  LAM: () => import('./books/lamentationsChapters').then((m) => m.LAMENTATIONS_CHAPTERS),
+  EZK: () => import('./books/ezekielChapters').then((m) => m.EZEKIEL_CHAPTERS),
+  DAN: () => import('./books/danielChapters').then((m) => m.DANIEL_CHAPTERS),
+  HOS: () => import('./books/hoseaChapters').then((m) => m.HOSEA_CHAPTERS),
+  JOL: () => import('./books/joelChapters').then((m) => m.JOEL_CHAPTERS),
+  AMO: () => import('./books/amosChapters').then((m) => m.AMOS_CHAPTERS),
+  OBA: () => import('./books/obadiahChapters').then((m) => m.OBADIAH_CHAPTERS),
+  JON: () => import('./books/jonahChapters').then((m) => m.JONAH_CHAPTERS),
+  MIC: () => import('./books/micahChapters').then((m) => m.MICAH_CHAPTERS),
+  NAM: () => import('./books/nahumChapters').then((m) => m.NAHUM_CHAPTERS),
+  HAB: () => import('./books/habakkukChapters').then((m) => m.HABAKKUK_CHAPTERS),
+  ZEP: () => import('./books/zephaniahChapters').then((m) => m.ZEPHANIAH_CHAPTERS),
+  HAG: () => import('./books/haggaiChapters').then((m) => m.HAGGAI_CHAPTERS),
+  ZEC: () => import('./books/zechariahChapters').then((m) => m.ZECHARIAH_CHAPTERS),
+  MAL: () => import('./books/malachiChapters').then((m) => m.MALACHI_CHAPTERS),
+};
+
+const bookCache: Record<string, ChapterMap> = {};
+const inFlightLoads: Record<string, Promise<ChapterMap>> = {};
+const cacheListeners = new Set<() => void>();
+
+function notifyListeners() {
+  cacheListeners.forEach((fn) => fn());
+}
+
+export function extractBookId(chapterOrVerseId: string): string {
+  if (!chapterOrVerseId) return '';
+  const chapPart = chapterOrVerseId.split(':')[0];
+  const dashIdx = chapPart.indexOf('-');
+  return dashIdx >= 0 ? chapPart.slice(0, dashIdx) : chapPart;
+}
+
+export function isBookSupported(bookId: string): boolean {
+  return Boolean(BOOK_IMPORTERS[bookId]);
+}
+
+export function getCachedBookChapters(bookId: string): ChapterMap | undefined {
+  return bookCache[bookId];
+}
+
+export function getCachedChapter(chapterId: string): ChapterData | undefined {
+  if (!chapterId) return undefined;
+  const chapKey = chapterId.split(':')[0];
+  const bookId = extractBookId(chapKey);
+  return bookCache[bookId]?.[chapKey];
+}
+
+export async function loadBookChapters(bookId: string): Promise<ChapterMap> {
+  if (!bookId) return {};
+  if (bookCache[bookId]) return bookCache[bookId];
+
+  const existingPromise = inFlightLoads[bookId];
+  if (existingPromise) return existingPromise;
+
+  const loader = BOOK_IMPORTERS[bookId];
+  if (!loader) return {};
+
+  const promise = loader()
+    .then((chapters) => {
+      bookCache[bookId] = chapters;
+      delete inFlightLoads[bookId];
+      notifyListeners();
+      return chapters;
+    })
+    .catch((err) => {
+      delete inFlightLoads[bookId];
+      throw err;
+    });
+
+  inFlightLoads[bookId] = promise;
+  return promise;
+}
+
+export function preloadBookForChapter(chapterOrVerseId: string): void {
+  const bookId = extractBookId(chapterOrVerseId);
+  if (bookId && BOOK_IMPORTERS[bookId] && !bookCache[bookId]) {
+    void loadBookChapters(bookId);
+  }
+}
+
+export function useBookChapters(bookId: string): {
+  bookChapters: ChapterMap | undefined;
+  isLoading: boolean;
+} {
+  const [, setVersion] = useState(0);
+
+  useEffect(() => {
+    const listener = () => setVersion((v) => v + 1);
+    cacheListeners.add(listener);
+    if (bookId && BOOK_IMPORTERS[bookId] && !bookCache[bookId]) {
+      void loadBookChapters(bookId);
+    }
+    return () => {
+      cacheListeners.delete(listener);
+    };
+  }, [bookId]);
+
+  const cached = bookId ? bookCache[bookId] : undefined;
+  const isLoading = Boolean(bookId && BOOK_IMPORTERS[bookId] && !cached);
+  return { bookChapters: cached, isLoading };
+}
+
+export function useChapterData(chapterOrVerseId: string): {
+  chapterData: ChapterData | undefined;
+  bookChapters: ChapterMap | undefined;
+  isLoading: boolean;
+} {
+  const bookId = extractBookId(chapterOrVerseId);
+  const { bookChapters, isLoading } = useBookChapters(bookId);
+  const chapKey = chapterOrVerseId.split(':')[0];
+  return {
+    chapterData: bookChapters?.[chapKey],
+    bookChapters,
+    isLoading,
+  };
+}

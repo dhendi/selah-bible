@@ -1,7 +1,7 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Sliders, ChevronDown, ChevronLeft, ChevronRight, BookOpen } from 'lucide-react';
 import { useStudyStore } from '../../store/useStudyStore';
-import { SEED_CHAPTERS } from '../../data/seedPassages';
+import { preloadBookForChapter, useChapterData } from '../../data/bookLoader';
 import { TypographyDrawer } from '../reader/TypographyDrawer';
 import { ChapterPickerModal } from '../reader/ChapterPickerModal';
 
@@ -63,15 +63,21 @@ export const BibleScreen: React.FC = () => {
     setActiveTab,
   } = useStudyStore();
 
-  const chapterData = SEED_CHAPTERS[currentChapterId] || SEED_CHAPTERS['GEN-1'];
-  const currentIndex = ORDERED_CHAPTER_IDS.indexOf(
-    `${chapterData.bookId}-${chapterData.chapterNumber}`
-  );
+  const targetChapterId = currentChapterId || 'GEN-1';
+  const { chapterData, isLoading } = useChapterData(targetChapterId);
+  const currentIndex = chapterData
+    ? ORDERED_CHAPTER_IDS.indexOf(`${chapterData.bookId}-${chapterData.chapterNumber}`)
+    : ORDERED_CHAPTER_IDS.indexOf(targetChapterId);
   const prevChapterId = currentIndex > 0 ? ORDERED_CHAPTER_IDS[currentIndex - 1] : null;
   const nextChapterId =
     currentIndex >= 0 && currentIndex < ORDERED_CHAPTER_IDS.length - 1
       ? ORDERED_CHAPTER_IDS[currentIndex + 1]
       : null;
+
+  useEffect(() => {
+    if (prevChapterId) preloadBookForChapter(prevChapterId);
+    if (nextChapterId) preloadBookForChapter(nextChapterId);
+  }, [prevChapterId, nextChapterId]);
 
   const getFontFamilyClass = () => {
     if (preferences.isDyslexicFont || preferences.fontFamily === 'dyslexic') {
@@ -96,9 +102,47 @@ export const BibleScreen: React.FC = () => {
 
   const formatChapterLabel = (id: string | null) => {
     if (!id) return '';
-    const ch = SEED_CHAPTERS[id];
-    return ch ? `${ch.bookName} ${ch.chapterNumber}` : id;
+    const dash = id.indexOf('-');
+    if (dash < 0) return id;
+    const bId = id.slice(0, dash);
+    const chNum = id.slice(dash + 1);
+    const meta = BOOK_SEQUENCE.find((b) => b.bookId === bId);
+    return meta ? `${meta.bookName} ${chNum}` : id;
   };
+
+  const targetMeta = (() => {
+    const dash = targetChapterId.indexOf('-');
+    const bId = dash >= 0 ? targetChapterId.slice(0, dash) : targetChapterId;
+    const chNum = dash >= 0 ? targetChapterId.slice(dash + 1) : '1';
+    const meta = BOOK_SEQUENCE.find((b) => b.bookId === bId);
+    return {
+      bookName: chapterData?.bookName || meta?.bookName || bId,
+      chapterNumber: chapterData?.chapterNumber || Number(chNum) || 1,
+    };
+  })();
+
+  if (!chapterData) {
+    return (
+      <div ref={containerRef} className="relative min-h-full pb-28 bg-[#FAF7F2] text-[#2C2C2A]">
+        <header className="sticky top-0 z-30 bg-[#FAF7F2]/95 backdrop-blur-md border-b border-[#E8E2D7] px-4 py-3 flex items-center justify-between gap-2">
+          <button
+            onClick={() => setShowChapterPicker(true)}
+            className="flex items-center gap-1.5 text-sm font-semibold text-[#2C2C2A] hover:bg-[#F3EFE6] px-2.5 py-1.5 rounded-xl border border-transparent hover:border-[#E5DFD5] transition-all cursor-pointer"
+            aria-label="Choose Bible book and chapter"
+          >
+            <span>
+              {targetMeta.bookName} {targetMeta.chapterNumber}
+            </span>
+            <ChevronDown className="w-4 h-4 text-[#7A9A82]" />
+          </button>
+        </header>
+        <div className="max-w-2xl mx-auto px-5 pt-16 text-center text-sm text-[#76746E]">
+          {isLoading ? `Loading ${targetMeta.bookName}…` : 'Passage unavailable.'}
+        </div>
+        <ChapterPickerModal />
+      </div>
+    );
+  }
 
   return (
     <div ref={containerRef} className="relative min-h-full pb-28 bg-[#FAF7F2] text-[#2C2C2A]">

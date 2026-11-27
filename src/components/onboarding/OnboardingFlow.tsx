@@ -9,7 +9,7 @@ import {
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { useStudyStore } from '../../store/useStudyStore';
-import { SEED_ENTITIES } from '../../data/seedEntities';
+import { TERM_MANNA_ENTITY } from '../../data/wordOfTheDay';
 import { ONBOARDING_QUIZ } from '../../data/seedQuizzes';
 import { EntityThumbnail } from '../illustrations/EntityThumbnails';
 
@@ -36,7 +36,7 @@ export const OnboardingFlow: React.FC = () => {
   // If already completed onboarding, do not show
   if (progress.hasCompletedOnboarding) return null;
 
-  const mannaEntity = SEED_ENTITIES['term-manna'];
+  const mannaEntity = TERM_MANNA_ENTITY;
 
   const handleNextStep = () => {
     if (step === 2) {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   Flame,
   ArrowRight,
@@ -8,7 +8,8 @@ import {
 } from 'lucide-react';
 import { useStudyStore } from '../../store/useStudyStore';
 import { MiniQuizModal } from '../quiz/MiniQuizModal';
-import { SEED_ENTITIES } from '../../data/seedEntities';
+import { TERM_MANNA_ENTITY } from '../../data/wordOfTheDay';
+import { preloadBookForChapter } from '../../data/bookLoader';
 
 export const TodayScreen: React.FC = () => {
   const {
@@ -21,7 +22,11 @@ export const TodayScreen: React.FC = () => {
 
   const [activeQuizPassage, setActiveQuizPassage] = useState<string | null>(null);
 
-  const wordOfTheDay = SEED_ENTITIES['term-manna'];
+  useEffect(() => {
+    preloadBookForChapter(currentChapterId || 'EXO-16');
+  }, [currentChapterId]);
+
+  const wordOfTheDay = TERM_MANNA_ENTITY;
 
   const handleResumeReading = () => {
     navigateToPassage(currentChapterId || 'EXO-16');

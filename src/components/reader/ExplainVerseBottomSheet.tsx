@@ -12,7 +12,7 @@ import {
 } from 'lucide-react';
 import { useStudyStore } from '../../store/useStudyStore';
 import { getExplanationForVerse } from '../../data/seedVerseExplanations';
-import { SEED_CHAPTERS } from '../../data/seedPassages';
+import { getCachedChapter, useChapterData } from '../../data/bookLoader';
 
 export const ExplainVerseBottomSheet: React.FC = () => {
   const {
@@ -27,17 +27,21 @@ export const ExplainVerseBottomSheet: React.FC = () => {
     openJournalSheet,
   } = useStudyStore();
 
+  const { chapterData } = useChapterData(activeExplainVerseId || '');
+
   if (!activeExplainVerseId) return null;
 
-  const explanation = getExplanationForVerse(activeExplainVerseId);
+  const chapPart = activeExplainVerseId.split(':')[0];
+  const resolvedChapter = chapterData || getCachedChapter(chapPart);
+  const explanation = getExplanationForVerse(activeExplainVerseId, resolvedChapter);
 
   // Locate actual verse object to grab text & illustrationId
   let verseText = '';
   let illustrationId = 'ill-creation';
   let bookId = 'GEN';
 
-  for (const chap of Object.values(SEED_CHAPTERS)) {
-    const found = chap.verses.find(
+  if (resolvedChapter) {
+    const found = resolvedChapter.verses.find(
       (v) =>
         v.id === activeExplainVerseId ||
         `${v.bookId}-${v.chapterNumber}:${v.verseNumber}` === activeExplainVerseId
@@ -46,7 +50,6 @@ export const ExplainVerseBottomSheet: React.FC = () => {
       verseText = found.text;
       illustrationId = found.illustrationId;
       bookId = found.bookId;
-      break;
     }
   }
 

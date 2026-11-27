@@ -1,45 +1,7 @@
 import React, { useState } from 'react';
 import { X, Check, Sparkles, BookOpen } from 'lucide-react';
 import { useStudyStore } from '../../store/useStudyStore';
-import { GENESIS_CHAPTERS } from '../../data/books/genesisChapters';
-import { EXODUS_CHAPTERS } from '../../data/books/exodusChapters';
-import { LEVITICUS_CHAPTERS } from '../../data/books/leviticusChapters';
-import { NUMBERS_CHAPTERS } from '../../data/books/numbersChapters';
-import { DEUTERONOMY_CHAPTERS } from '../../data/books/deuteronomyChapters';
-import { JOSHUA_CHAPTERS } from '../../data/books/joshuaChapters';
-import { JUDGES_CHAPTERS } from '../../data/books/judgesChapters';
-import { RUTH_CHAPTERS } from '../../data/books/ruthChapters';
-import { FIRST_SAMUEL_CHAPTERS } from '../../data/books/firstSamuelChapters';
-import { SECOND_SAMUEL_CHAPTERS } from '../../data/books/secondSamuelChapters';
-import { FIRST_KINGS_CHAPTERS } from '../../data/books/firstKingsChapters';
-import { SECOND_KINGS_CHAPTERS } from '../../data/books/secondKingsChapters';
-import { FIRST_CHRONICLES_CHAPTERS } from '../../data/books/firstChroniclesChapters';
-import { SECOND_CHRONICLES_CHAPTERS } from '../../data/books/secondChroniclesChapters';
-import { EZRA_CHAPTERS } from '../../data/books/ezraChapters';
-import { NEHEMIAH_CHAPTERS } from '../../data/books/nehemiahChapters';
-import { ESTHER_CHAPTERS } from '../../data/books/estherChapters';
-import { JOB_CHAPTERS } from '../../data/books/jobChapters';
-import { PSALMS_CHAPTERS } from '../../data/books/psalmsChapters';
-import { PROVERBS_CHAPTERS } from '../../data/books/proverbsChapters';
-import { ECCLESIASTES_CHAPTERS } from '../../data/books/ecclesiastesChapters';
-import { SONG_OF_SOLOMON_CHAPTERS } from '../../data/books/songOfSolomonChapters';
-import { ISAIAH_CHAPTERS } from '../../data/books/isaiahChapters';
-import { JEREMIAH_CHAPTERS } from '../../data/books/jeremiahChapters';
-import { LAMENTATIONS_CHAPTERS } from '../../data/books/lamentationsChapters';
-import { EZEKIEL_CHAPTERS } from '../../data/books/ezekielChapters';
-import { DANIEL_CHAPTERS } from '../../data/books/danielChapters';
-import { HOSEA_CHAPTERS } from '../../data/books/hoseaChapters';
-import { JOEL_CHAPTERS } from '../../data/books/joelChapters';
-import { AMOS_CHAPTERS } from '../../data/books/amosChapters';
-import { OBADIAH_CHAPTERS } from '../../data/books/obadiahChapters';
-import { JONAH_CHAPTERS } from '../../data/books/jonahChapters';
-import { MICAH_CHAPTERS } from '../../data/books/micahChapters';
-import { NAHUM_CHAPTERS } from '../../data/books/nahumChapters';
-import { HABAKKUK_CHAPTERS } from '../../data/books/habakkukChapters';
-import { ZEPHANIAH_CHAPTERS } from '../../data/books/zephaniahChapters';
-import { HAGGAI_CHAPTERS } from '../../data/books/haggaiChapters';
-import { ZECHARIAH_CHAPTERS } from '../../data/books/zechariahChapters';
-import { MALACHI_CHAPTERS } from '../../data/books/malachiChapters';
+import { useBookChapters } from '../../data/bookLoader';
 
 export const ChapterPickerModal: React.FC = () => {
   const {
@@ -133,6 +95,10 @@ export const ChapterPickerModal: React.FC = () => {
       : currentChapterId.startsWith('GEN-')
       ? 'GEN'
       : 'FEATURED'
+  );
+
+  const { bookChapters } = useBookChapters(
+    showChapterPicker && selectedBookTab !== 'FEATURED' ? selectedBookTab : ''
   );
 
   if (!showChapterPicker) return null;
@@ -665,7 +631,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {genesisChapterNumbers.map((num) => {
                   const id = `GEN-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = GENESIS_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -727,7 +693,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {exodusChapterNumbers.map((num) => {
                   const id = `EXO-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = EXODUS_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -789,7 +755,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {leviticusChapterNumbers.map((num) => {
                   const id = `LEV-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = LEVITICUS_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -850,7 +816,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {numbersChapterNumbers.map((num) => {
                   const id = `NUM-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = NUMBERS_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -912,7 +878,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {deuteronomyChapterNumbers.map((num) => {
                   const id = `DEU-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = DEUTERONOMY_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -974,7 +940,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {joshuaChapterNumbers.map((num) => {
                   const id = `JOS-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = JOSHUA_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -1036,7 +1002,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {judgesChapterNumbers.map((num) => {
                   const id = `JDG-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = JUDGES_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -1098,7 +1064,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {ruthChapterNumbers.map((num) => {
                   const id = `RUT-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = RUTH_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -1157,7 +1123,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {firstSamuelChapterNumbers.map((num) => {
                   const id = `1SA-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = FIRST_SAMUEL_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -1219,7 +1185,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {secondSamuelChapterNumbers.map((num) => {
                   const id = `2SA-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = SECOND_SAMUEL_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -1281,7 +1247,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {firstKingsChapterNumbers.map((num) => {
                   const id = `1KI-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = FIRST_KINGS_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -1343,7 +1309,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {secondKingsChapterNumbers.map((num) => {
                   const id = `2KI-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = SECOND_KINGS_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -1405,7 +1371,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {firstChroniclesChapterNumbers.map((num) => {
                   const id = `1CH-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = FIRST_CHRONICLES_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -1468,7 +1434,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {secondChroniclesChapterNumbers.map((num) => {
                   const id = `2CH-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = SECOND_CHRONICLES_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -1532,7 +1498,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {ezraChapterNumbers.map((num) => {
                   const id = `EZR-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = EZRA_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -1592,7 +1558,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {nehemiahChapterNumbers.map((num) => {
                   const id = `NEH-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = NEHEMIAH_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -1654,7 +1620,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {estherChapterNumbers.map((num) => {
                   const id = `EST-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = ESTHER_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -1715,7 +1681,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {jobChapterNumbers.map((num) => {
                   const id = `JOB-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = JOB_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -1777,7 +1743,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {psalmsChapterNumbers.map((num) => {
                   const id = `PSA-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = PSALMS_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -1841,7 +1807,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {proverbsChapterNumbers.map((num) => {
                   const id = `PRO-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = PROVERBS_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -1903,7 +1869,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {eccChapterNumbers.map((num) => {
                   const id = `ECC-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = ECCLESIASTES_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -1963,7 +1929,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {sngChapterNumbers.map((num) => {
                   const id = `SNG-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = SONG_OF_SOLOMON_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -2022,7 +1988,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {isaiahChapterNumbers.map((num) => {
                   const id = `ISA-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = ISAIAH_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -2085,7 +2051,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {jeremiahChapterNumbers.map((num) => {
                   const id = `JER-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = JEREMIAH_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -2146,7 +2112,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {lamChapterNumbers.map((num) => {
                   const id = `LAM-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = LAMENTATIONS_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -2204,7 +2170,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {ezekielChapterNumbers.map((num) => {
                   const id = `EZK-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = EZEKIEL_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -2266,7 +2232,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {danielChapterNumbers.map((num) => {
                   const id = `DAN-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = DANIEL_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -2328,7 +2294,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {hoseaChapterNumbers.map((num) => {
                   const id = `HOS-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = HOSEA_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -2387,7 +2353,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {joelChapterNumbers.map((num) => {
                   const id = `JOL-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = JOEL_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -2445,7 +2411,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {amosChapterNumbers.map((num) => {
                   const id = `AMO-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = AMOS_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -2504,7 +2470,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {obadiahChapterNumbers.map((num) => {
                   const id = `OBA-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = OBADIAH_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -2536,7 +2502,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {jonahChapterNumbers.map((num) => {
                   const id = `JON-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = JONAH_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -2568,7 +2534,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {micahChapterNumbers.map((num) => {
                   const id = `MIC-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = MICAH_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -2600,7 +2566,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {nahumChapterNumbers.map((num) => {
                   const id = `NAM-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = NAHUM_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -2632,7 +2598,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {habakkukChapterNumbers.map((num) => {
                   const id = `HAB-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = HABAKKUK_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -2664,7 +2630,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {zephaniahChapterNumbers.map((num) => {
                   const id = `ZEP-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = ZEPHANIAH_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -2696,7 +2662,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {haggaiChapterNumbers.map((num) => {
                   const id = `HAG-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = HAGGAI_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -2728,7 +2694,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {zechariahChapterNumbers.map((num) => {
                   const id = `ZEC-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = ZECHARIAH_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button
@@ -2760,7 +2726,7 @@ export const ChapterPickerModal: React.FC = () => {
                 {malachiChapterNumbers.map((num) => {
                   const id = `MAL-${num}`;
                   const isActive = currentChapterId === id;
-                  const chapInfo = MALACHI_CHAPTERS[id];
+                  const chapInfo = bookChapters?.[id];
 
                   return (
                     <button

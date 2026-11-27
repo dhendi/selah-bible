@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import {
   Calendar,
   BookOpen,
@@ -8,16 +8,44 @@ import {
 } from 'lucide-react';
 import { useStudyStore } from './store/useStudyStore';
 import { TodayScreen } from './components/today/TodayScreen';
-import { BibleScreen } from './components/bible/BibleScreen';
-import { ReaderScreen } from './components/reader/ReaderScreen';
-import { ExploreScreen } from './components/explore/ExploreScreen';
-import { LibraryScreen } from './components/library/LibraryScreen';
 import { OnboardingFlow } from './components/onboarding/OnboardingFlow';
-import { ContextualBottomSheet } from './components/reader/ContextualBottomSheet';
-import { ExplainVerseBottomSheet } from './components/reader/ExplainVerseBottomSheet';
-import { SmartJournalModal } from './components/journal/SmartJournalModal';
-import { ShareVerseModal } from './components/reader/ShareVerseModal';
-import { CharacterCardModal } from './components/explore/CharacterCardModal';
+
+const ContextualBottomSheet = lazy(() =>
+  import('./components/reader/ContextualBottomSheet').then((m) => ({
+    default: m.ContextualBottomSheet,
+  }))
+);
+
+const BibleScreen = lazy(() =>
+  import('./components/bible/BibleScreen').then((m) => ({ default: m.BibleScreen }))
+);
+const ReaderScreen = lazy(() =>
+  import('./components/reader/ReaderScreen').then((m) => ({ default: m.ReaderScreen }))
+);
+const ExploreScreen = lazy(() =>
+  import('./components/explore/ExploreScreen').then((m) => ({ default: m.ExploreScreen }))
+);
+const LibraryScreen = lazy(() =>
+  import('./components/library/LibraryScreen').then((m) => ({ default: m.LibraryScreen }))
+);
+const ExplainVerseBottomSheet = lazy(() =>
+  import('./components/reader/ExplainVerseBottomSheet').then((m) => ({
+    default: m.ExplainVerseBottomSheet,
+  }))
+);
+const SmartJournalModal = lazy(() =>
+  import('./components/journal/SmartJournalModal').then((m) => ({
+    default: m.SmartJournalModal,
+  }))
+);
+const ShareVerseModal = lazy(() =>
+  import('./components/reader/ShareVerseModal').then((m) => ({ default: m.ShareVerseModal }))
+);
+const CharacterCardModal = lazy(() =>
+  import('./components/explore/CharacterCardModal').then((m) => ({
+    default: m.CharacterCardModal,
+  }))
+);
 
 export const App: React.FC = () => {
   const { activeTab, setActiveTab, preferences } = useStudyStore();
@@ -48,11 +76,19 @@ export const App: React.FC = () => {
         <div className="relative w-full bg-[#FAF7F2] sm:max-w-4xl min-h-[calc(100dvh-2.75rem)] sm:min-h-[85dvh] sm:rounded-3xl sm:shadow-sm sm:border sm:border-[#E5DFD5] flex flex-col">
           {/* Active Screen View Container */}
           <div className="flex-1 w-full relative">
-            {activeTab === 'today' && <TodayScreen />}
-            {activeTab === 'read' && <ReaderScreen />}
-            {activeTab === 'bible' && <BibleScreen />}
-            {activeTab === 'explore' && <ExploreScreen />}
-            {activeTab === 'library' && <LibraryScreen />}
+            <Suspense
+              fallback={
+                <div className="min-h-[60vh] flex items-center justify-center text-sm text-[#76746E] font-serif">
+                  Loading view…
+                </div>
+              }
+            >
+              {activeTab === 'today' && <TodayScreen />}
+              {activeTab === 'read' && <ReaderScreen />}
+              {activeTab === 'bible' && <BibleScreen />}
+              {activeTab === 'explore' && <ExploreScreen />}
+              {activeTab === 'library' && <LibraryScreen />}
+            </Suspense>
           </div>
 
           {/* ================= BOTTOM NAVIGATION BAR ================= */}
@@ -154,11 +190,13 @@ export const App: React.FC = () => {
           </footer>
 
           {/* Global Context & Study Modals */}
-          <ContextualBottomSheet />
-          <CharacterCardModal />
-          <ExplainVerseBottomSheet />
-          <SmartJournalModal />
-          <ShareVerseModal />
+          <Suspense fallback={null}>
+            <ContextualBottomSheet />
+            <CharacterCardModal />
+            <ExplainVerseBottomSheet />
+            <SmartJournalModal />
+            <ShareVerseModal />
+          </Suspense>
 
           {/* Onboarding Overlay Flow (First Launch or Triggered) */}
           <OnboardingFlow />

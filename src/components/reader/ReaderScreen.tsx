@@ -13,7 +13,7 @@ import {
   Share2,
 } from 'lucide-react';
 import { useStudyStore } from '../../store/useStudyStore';
-import { SEED_CHAPTERS } from '../../data/seedPassages';
+import { useChapterData } from '../../data/bookLoader';
 import { SEED_STORY_MODULES } from '../../data/seedStoryModules';
 import { StoryIllustration } from '../illustrations/StoryIllustration';
 import { TypographyDrawer } from './TypographyDrawer';
@@ -43,14 +43,26 @@ export const ReaderScreen: React.FC = () => {
   const [activeNoteVerse, setActiveNoteVerse] = useState<string | null>(null);
   const highlightedRef = useRef<HTMLDivElement | null>(null);
 
-  const chapterData = SEED_CHAPTERS[currentChapterId] || SEED_CHAPTERS['EXO-16'];
-  const matchingStory = SEED_STORY_MODULES.find((s) => s.chapterId === currentChapterId);
+  const targetChapterId = currentChapterId || 'EXO-16';
+  const { chapterData, isLoading } = useChapterData(targetChapterId);
+  const matchingStory = SEED_STORY_MODULES.find((s) => s.chapterId === targetChapterId);
 
   useEffect(() => {
     if (!showVisualHookHeader && highlightedVerseNumber && highlightedRef.current) {
       highlightedRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
   }, [showVisualHookHeader, highlightedVerseNumber, currentChapterId]);
+
+  if (!chapterData) {
+    return (
+      <div className="min-h-full bg-[#FAF7F2] text-[#2C2C2A] flex flex-col items-center justify-center px-6 py-24 text-center">
+        <p className="text-sm font-serif text-[#76746E]">
+          {isLoading ? 'Loading chapter…' : 'Chapter not found.'}
+        </p>
+        <ChapterPickerModal />
+      </div>
+    );
+  }
 
   const getFontFamilyClass = () => {
     if (preferences.isDyslexicFont || preferences.fontFamily === 'dyslexic') {

@@ -1,43 +1,5 @@
-import type { VerseExplanation } from '../types/bible';
-import { GENESIS_CHAPTERS } from './books/genesisChapters';
-import { EXODUS_CHAPTERS } from './books/exodusChapters';
-import { LEVITICUS_CHAPTERS } from './books/leviticusChapters';
-import { NUMBERS_CHAPTERS } from './books/numbersChapters';
-import { DEUTERONOMY_CHAPTERS } from './books/deuteronomyChapters';
-import { JOSHUA_CHAPTERS } from './books/joshuaChapters';
-import { JUDGES_CHAPTERS } from './books/judgesChapters';
-import { RUTH_CHAPTERS } from './books/ruthChapters';
-import { FIRST_SAMUEL_CHAPTERS } from './books/firstSamuelChapters';
-import { SECOND_SAMUEL_CHAPTERS } from './books/secondSamuelChapters';
-import { FIRST_KINGS_CHAPTERS } from './books/firstKingsChapters';
-import { SECOND_KINGS_CHAPTERS } from './books/secondKingsChapters';
-import { FIRST_CHRONICLES_CHAPTERS } from './books/firstChroniclesChapters';
-import { SECOND_CHRONICLES_CHAPTERS } from './books/secondChroniclesChapters';
-import { EZRA_CHAPTERS } from './books/ezraChapters';
-import { NEHEMIAH_CHAPTERS } from './books/nehemiahChapters';
-import { ESTHER_CHAPTERS } from './books/estherChapters';
-import { JOB_CHAPTERS } from './books/jobChapters';
-import { PSALMS_CHAPTERS } from './books/psalmsChapters';
-import { PROVERBS_CHAPTERS } from './books/proverbsChapters';
-import { ECCLESIASTES_CHAPTERS } from './books/ecclesiastesChapters';
-import { SONG_OF_SOLOMON_CHAPTERS } from './books/songOfSolomonChapters';
-import { ISAIAH_CHAPTERS } from './books/isaiahChapters';
-import { JEREMIAH_CHAPTERS } from './books/jeremiahChapters';
-import { LAMENTATIONS_CHAPTERS } from './books/lamentationsChapters';
-import { EZEKIEL_CHAPTERS } from './books/ezekielChapters';
-import { DANIEL_CHAPTERS } from './books/danielChapters';
-import { HOSEA_CHAPTERS } from './books/hoseaChapters';
-import { JOEL_CHAPTERS } from './books/joelChapters';
-import { AMOS_CHAPTERS } from './books/amosChapters';
-import { OBADIAH_CHAPTERS } from './books/obadiahChapters';
-import { JONAH_CHAPTERS } from './books/jonahChapters';
-import { MICAH_CHAPTERS } from './books/micahChapters';
-import { NAHUM_CHAPTERS } from './books/nahumChapters';
-import { HABAKKUK_CHAPTERS } from './books/habakkukChapters';
-import { ZEPHANIAH_CHAPTERS } from './books/zephaniahChapters';
-import { HAGGAI_CHAPTERS } from './books/haggaiChapters';
-import { ZECHARIAH_CHAPTERS } from './books/zechariahChapters';
-import { MALACHI_CHAPTERS } from './books/malachiChapters';
+import type { ChapterData, VerseExplanation } from '../types/bible';
+import { getCachedChapter } from './bookLoader';
 
 export const SEED_VERSE_EXPLANATIONS: Record<string, VerseExplanation> = {
   // ================= GENESIS 1 =================
@@ -1615,663 +1577,317 @@ export const SEED_VERSE_EXPLANATIONS: Record<string, VerseExplanation> = {
   },
 };
 
-export function getExplanationForVerse(verseId: string): VerseExplanation {
+interface BookExplanationTemplate {
+  bookName: string;
+  fallbackKey: string;
+  lesson: (title: string) => string;
+  action: (ref: string) => string;
+  kid: (subtitle: string) => string;
+}
+
+const BOOK_EXPLANATION_TEMPLATES: Record<string, BookExplanationTemplate> = {
+  GEN: {
+    bookName: 'Genesis',
+    fallbackKey: 'GEN-1:1',
+    lesson: (t) => `In ${t.toLowerCase()}, we see how God faithfully guides ordinary, imperfect people step by step toward His larger promise.`,
+    action: (ref) => `Pause and reflect on what ${ref} reveals about God’s character or human trust in this chapter.`,
+    kid: (s) => `${s} God stays right beside His family in every part of this adventure!`,
+  },
+  EXO: {
+    bookName: 'Exodus',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t.toLowerCase()}, we watch the faithful God rescue, guide, and dwell closely among His people.`,
+    action: (ref) => `Ask yourself how ${ref} invites you to trust God’s guidance and faithfulness today.`,
+    kid: (s) => `${s} God stayed close to Moses and the people every single step of the way!`,
+  },
+  LEV: {
+    bookName: 'Leviticus',
+    fallbackKey: 'LEV-19:18',
+    lesson: (t) => `In ${t.toLowerCase()}, God shows how holiness and grace allow ordinary people to live joyfully near Him.`,
+    action: (ref) => `Consider how ${ref} calls us to reverence, gratitude, and loving our neighbors today.`,
+    kid: (s) => `${s} God always makes a loving way for His people to draw near to Him!`,
+  },
+  NUM: {
+    bookName: 'Numbers',
+    fallbackKey: 'NUM-6:24',
+    lesson: (t) => `In ${t.toLowerCase()}, God faithfully guides, corrects, and carries His imperfect people across the wilderness.`,
+    action: (ref) => `Consider how ${ref} invites deeper trust in God’s faithfulness along your own journey today.`,
+    kid: (s) => `${s} Even in the desert, God stayed right in the middle of the camp to guide His people!`,
+  },
+  DEU: {
+    bookName: 'Deuteronomy',
+    fallbackKey: 'DEU-6:5',
+    lesson: (t) => `In ${t.toLowerCase()}, Moses invites Israel to remember God’s faithfulness and choose wholehearted love today.`,
+    action: (ref) => `Consider how ${ref} calls us to gratitude, open-handed justice, and loving God with all our heart.`,
+    kid: (s) => `${s} Moses reminded everyone to love God with all their heart and choose life!`,
+  },
+  JOS: {
+    bookName: 'Joshua',
+    fallbackKey: 'JOS-1:9',
+    lesson: (t) => `In ${t.toLowerCase()}, God shows that courageous obedience and remembrance unlock His good promises.`,
+    action: (ref) => `Ask how ${ref} invites you to step forward bravely with God today.`,
+    kid: (s) => `${s} Whenever Israel trusted and obeyed God’s word, He went right ahead of them!`,
+  },
+  JDG: {
+    bookName: 'Judges',
+    fallbackKey: 'JDG-6:14',
+    lesson: (t) => `In ${t.toLowerCase()}, Judges shows both the pain of forgetting God and His faithful mercy whenever people cry out.`,
+    action: (ref) => `Notice how ${ref} points us toward humble dependence on God’s wise leadership today.`,
+    kid: (s) => `${s} Whenever Israel cried out for help, God faithfully sent a rescuer!`,
+  },
+  RUT: {
+    bookName: 'Ruth',
+    fallbackKey: 'RUT-1:16',
+    lesson: (t) => `In ${t}, ordinary loyal love (chesed) quietly carries God’s redeeming story from Bethlehem to King David.`,
+    action: (ref) => `Ask how ${ref} invites you to show steady, generous kindness to someone close to you today.`,
+    kid: (s) => `${s} God used Ruth and Boaz’s kindness to grow King David’s family!`,
+  },
+  '1SA': {
+    bookName: '1 Samuel',
+    fallbackKey: '1SA-16:7',
+    lesson: (t) => `In ${t}, God reminds Israel that humble listening and a heart after Him matter far more than outward appearance.`,
+    action: (ref) => `Ask how ${ref} invites you to listen attentively to God’s gentle leading today.`,
+    kid: (s) => `${s} God always looks at our hearts and stays close to faithful listeners!`,
+  },
+  '2SA': {
+    bookName: '2 Samuel',
+    fallbackKey: '2SA-9:7',
+    lesson: (t) => `In ${t}, 2 Samuel traces God’s steadfast covenant kindness alongside honest lessons on humility and grace.`,
+    action: (ref) => `Notice how ${ref} calls us to show generous kindness and walk honestly before God today.`,
+    kid: (s) => `${s} God kept His loving promise to King David even through hard days!`,
+  },
+  '1KI': {
+    bookName: '1 Kings',
+    fallbackKey: '1KI-3:9',
+    lesson: (t) => `In ${t}, 1 Kings contrasts humble listening hearts with divided loyalty—showing how faithful prayer invites God’s wisdom and provision.`,
+    action: (ref) => `Ask how ${ref} calls us to listen attentively and remain faithful amid pressure today.`,
+    kid: (s) => `${s} God gives wisdom, daily bread, and gentle whispers to humble hearts!`,
+  },
+  '2KI': {
+    bookName: '2 Kings',
+    fallbackKey: '2KI-6:17',
+    lesson: (t) => `In ${t}, 2 Kings reminds us that God’s healing mercy, unseen protection, and rediscovered Word outlast empires.`,
+    action: (ref) => `Ask how ${ref} calls us to open our eyes to God’s quiet care today.`,
+    kid: (s) => `${s} God protects, heals, and keeps His faithful promise even through dark days!`,
+  },
+  '1CH': {
+    bookName: '1 Chronicles',
+    fallbackKey: '1CH-16:34',
+    lesson: (t) => `In ${t}, 1 Chronicles roots ordinary families and leaders in joyful worship, covenant faithfulness, and generous legacy.`,
+    action: (ref) => `Ask how ${ref} invites you into wholehearted worship or grateful generosity today.`,
+    kid: (s) => `${s} God remembers every faithful family and loves cheerful thankful hearts!`,
+  },
+  '2CH': {
+    bookName: '2 Chronicles',
+    fallbackKey: '2CH-7:14',
+    lesson: (t) => `In ${t}, 2 Chronicles reveals how humble prayer, heartfelt worship, and turning back to God invite mercy even in hard times.`,
+    action: (ref) => `Ask how ${ref} invites you to seek God humbly and trust His help today.`,
+    kid: (s) => `${s} When God’s people pray humbly, Heaven hears and helps!`,
+  },
+  EZR: {
+    bookName: 'Ezra',
+    fallbackKey: 'EZR-7:10',
+    lesson: (t) => `In ${t}, Ezra reminds us God’s good hand guides faithful study, prayerful journeys, and humble worship restoration.`,
+    action: (ref) => `Ask how ${ref} calls you to trust God’s good hand and live His Word cheerfully today.`,
+    kid: (s) => `${s} God’s gentle hand helps families rebuild worship and learn His Word together!`,
+  },
+  NEH: {
+    bookName: 'Nehemiah',
+    fallbackKey: 'NEH-8:10',
+    lesson: (t) => `In ${t}, Nehemiah pairs persistent prayer with focused teamwork, neighbor justice, and strength-giving joy.`,
+    action: (ref) => `Pause for a quick prayer before your next task today remembering ${ref}.`,
+    kid: (s) => `${s} Prayer and working together turn broken ruins into happy singing cities!`,
+  },
+  EST: {
+    bookName: 'Esther',
+    fallbackKey: 'EST-4:14',
+    lesson: (t) => `In ${t}, Esther reminds us God’s quiet providence works through fasting, wise courage, and unexpected reversals.`,
+    action: (ref) => `Ask where you may be placed “for such a time as this” today while reflecting on ${ref}.`,
+    kid: (s) => `${s} God watches over His people quietly—turning scary days into Purim joy!`,
+  },
+  JOB: {
+    bookName: 'Job',
+    fallbackKey: 'JOB-38:4',
+    lesson: (t) => `In ${t}, Job invites honest questions and deep trust when easy answers run dry before God’s majesty.`,
+    action: (ref) => `Reflect on how ${ref} invites honest prayer and quiet wonder before the Creator today.`,
+    kid: (s) => `${s} God welcomes honest feelings and meets us in wonderful ways!`,
+  },
+  PSA: {
+    bookName: 'Psalm',
+    fallbackKey: 'PSA-23:1',
+    lesson: (t) => `In ${t}, Israel’s prayerbook invites us to bring real tears, questions, and thanksgiving straight into God’s listening presence.`,
+    action: (ref) => `Pray ${ref} back to God today in your own honest words.`,
+    kid: (s) => `${s} God loves hearing our songs whether we feel joyful, tired, or scared!`,
+  },
+  PRO: {
+    bookName: 'Proverbs',
+    fallbackKey: 'PRO-3:5',
+    lesson: (t) => `In ${t}, Proverbs invites everyday skill for living rooted in humble awe before God, gentle speech, and honest love.`,
+    action: (ref) => `Apply ${ref} directly in one small conversation or decision ahead today.`,
+    kid: (s) => `${s} God’s wisdom helps make homes kinder, calmer, and full of joyful learning!`,
+  },
+  ECC: {
+    bookName: 'Ecclesiastes',
+    fallbackKey: 'ECC-3:1',
+    lesson: (t) => `In ${t}, Ecclesiastes honors honest questions while pointing toward quiet gratitude and reverence for our Creator.`,
+    action: (ref) => `Ask how ${ref} invites peaceful contentment in your work or friendships today.`,
+    kid: (s) => `${s} Remembering our Creator brings calm joy in every changing season!`,
+  },
+  SNG: {
+    bookName: 'Song of Solomon',
+    fallbackKey: 'SNG-8:6',
+    lesson: (t) => `In ${t}, Song of Solomon celebrates tender, faithful love and beauty as sacred gifts.`,
+    action: (ref) => `Reflect warmly on ${ref} and express gratitude to someone you love today.`,
+    kid: (s) => `${s} Faithful, kind love is one of God’s brightest springtime treasures!`,
+  },
+  ISA: {
+    bookName: 'Isaiah',
+    fallbackKey: 'ISA-40:31',
+    lesson: (t) => `In ${t}, Isaiah lifts eyes beyond crisis to the Holy One of Israel and His coming Prince of Peace.`,
+    action: (ref) => `Trust God’s promise in ${ref} with one anxious concern in your week today.`,
+    kid: (s) => `${s} Even when storms gather, God comforts His people and lifts waiting hearts like eagles!`,
+  },
+  JER: {
+    bookName: 'Jeremiah',
+    fallbackKey: 'JER-29:11',
+    lesson: (t) => `In ${t}, Jeremiah proves honest weeping and courageous faith walk hand in hand toward God’s New Covenant.`,
+    action: (ref) => `Pause calmly over ${ref} today and entrust your path patiently into the Potter’s hands.`,
+    kid: (s) => `${s} God stays beside faithful helpers like Jeremiah and promises bright hope written right inside our hearts!`,
+  },
+  LAM: {
+    bookName: 'Lamentations',
+    fallbackKey: 'LAM-3:22',
+    lesson: (t) => `In ${t}, Lamentations gives you sacred space to grieve honestly while trusting mercies made new every sunrise.`,
+    action: (ref) => `Bring one honest worry into prayer around ${ref}, remembering God’s compassion never fails.`,
+    kid: (s) => `${s} Even on sad days, God’s kindness wakes up fresh and new every single morning!`,
+  },
+  EZK: {
+    bookName: 'Ezekiel',
+    fallbackKey: 'EZK-37:5',
+    lesson: (t) => `In ${t}, Ezekiel lifts exiles’ eyes to God’s mobile glory, living Spirit renewal, and healing river waters.`,
+    action: (ref) => `Ask God through ${ref} to breathe fresh compassion and courage into your week.`,
+    kid: (s) => `${s} God brings dry lifeless things singing back to life beside a crystal healing river!`,
+  },
+  DAN: {
+    bookName: 'Daniel',
+    fallbackKey: 'DAN-6:10',
+    lesson: (t) => `In ${t}, Daniel models steady daily conviction in exile grounded in Heaven’s everlasting Kingdom.`,
+    action: (ref) => `Stand quietly faithful in one small choice today remembering ${ref}.`,
+    kid: (s) => `${s} God walks right beside His faithful people inside fires, lions’ dens, and starry dreams!`,
+  },
+  HOS: {
+    bookName: 'Hosea',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, God’s patient redeeming love calls unfaithful hearts back home like spring rain.`,
+    action: (ref) => `Pause over ${ref} and choose wholehearted loyalty over empty substitutes today.`,
+    kid: (s) => `${s} God never stops loving His children and invites us joyfully back home!`,
+  },
+  JOL: {
+    bookName: 'Joel',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, sincere repentance (“rend your hearts”) unlocks God’s Spirit and restoration.`,
+    action: (ref) => `Read ${ref} slowly and ask God for fresh renewal in your prayers today.`,
+    kid: (s) => `${s} God promises to pour out His Spirit and bring healing streams of joy!`,
+  },
+  AMO: {
+    bookName: 'Amos',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, true reverence for God always cares about honesty and justice for the vulnerable.`,
+    action: (ref) => `Look for one quiet practical way to encourage or stand fairly for someone today alongside ${ref}.`,
+    kid: (s) => `${s} God wants kindness and fairness to flow like a clean rushing river!`,
+  },
+  OBA: {
+    bookName: 'Obadiah',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, God humbles smug pride against hurting neighbors and proves His kingdom endures.`,
+    action: (ref) => `Pray for humility and compassion toward struggling neighbors when reading ${ref}.`,
+    kid: (s) => `${s} God protects the vulnerable and reigns forever as wise King!`,
+  },
+  JON: {
+    bookName: 'Jonah',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, God pursues both reluctant believers and entire cities with surprising mercy.`,
+    action: (ref) => `Ask God to give you His heart of compassion for outsiders when reading ${ref}.`,
+    kid: (s) => `${s} God hears prayers from the deep sea and loves every city!`,
+  },
+  MIC: {
+    bookName: 'Micah',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, God calls His people to do justice, love kindness, and trust the coming Shepherd-King.`,
+    action: (ref) => `Practice fairness, mercy, and humble walking with God today alongside ${ref}.`,
+    kid: (s) => `${s} God forgives sins deeply and sends the Shepherd-King from Bethlehem!`,
+  },
+  NAM: {
+    bookName: 'Nahum',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, Yahweh is slow to anger yet never ignores cruel empires forever—He is a stronghold in trouble.`,
+    action: (ref) => `Take refuge in God as your stronghold when the world feels violent while reading ${ref}.`,
+    kid: (s) => `${s} God stays strong and kind to everyone who trusts in Him!`,
+  },
+  HAB: {
+    bookName: 'Habakkuk',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, honest questions meet quiet watchtower patience until faith rejoices in God our Savior.`,
+    action: (ref) => `Bring one honest question to God and choose thankful trust today with ${ref}.`,
+    kid: (s) => `${s} Even when fields look empty, we can trust and sing to God!`,
+  },
+  ZEP: {
+    bookName: 'Zephaniah',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, seeking humility removes hollow pride so God Himself rejoices over His people with singing.`,
+    action: (ref) => `Choose quiet humility and gratitude in God’s love today as you read ${ref}.`,
+    kid: (s) => `${s} God stays right beside His people and sings for joy over them!`,
+  },
+  HAG: {
+    bookName: 'Haggai',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, God’s encouraging presence turns discouraged builders toward wholehearted work in His house.`,
+    action: (ref) => `Take one concrete step today in a worthy work you had postponed while reading ${ref}.`,
+    kid: (s) => `${s} God says, “Be strong and work—for I am with you!”`,
+  },
+  ZEC: {
+    bookName: 'Zechariah',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, God works not by human might or power alone, but by His Spirit—preparing Zion for the humble King.`,
+    action: (ref) => `Ask God’s Spirit for strength rather than leaning only on your own effort in ${ref}.`,
+    kid: (s) => `${s} God remembers His promises and pours out living water and peace!`,
+  },
+  MAL: {
+    bookName: 'Malachi',
+    fallbackKey: 'EXO-16:15',
+    lesson: (t) => `In ${t}, sincere wholehearted worship and covenant loyalty open the windows of blessing and healing dawn.`,
+    action: (ref) => `Give God your wholehearted best today in worship and kindness to others alongside ${ref}.`,
+    kid: (s) => `${s} God’s Sun of Righteousness rises with warm healing in His wings!`,
+  },
+};
+
+export function getExplanationForVerse(
+  verseId: string,
+  chapterOverride?: ChapterData
+): VerseExplanation {
   if (SEED_VERSE_EXPLANATIONS[verseId]) {
     return SEED_VERSE_EXPLANATIONS[verseId];
   }
 
-  // Dynamic chapter-grounded explanation for any verse across Genesis 1–50
-  if (verseId.startsWith('GEN-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = GENESIS_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Genesis ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title.toLowerCase()}, we see how God faithfully guides ordinary, imperfect people step by step toward His larger promise.`,
-        tryThisAction: `Pause and reflect on what ${ref} reveals about God’s character or human trust in this chapter.`,
-        kidFriendlySummary: `${chapData.subtitle} God stays right beside His family in every part of this adventure!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['GEN-1:1'];
-  }
+  const [chapPart, verseNum] = verseId.split(':');
+  const dashIdx = chapPart.indexOf('-');
+  const bookId = dashIdx >= 0 ? chapPart.slice(0, dashIdx) : chapPart;
+  const tpl = BOOK_EXPLANATION_TEMPLATES[bookId];
+  const chapData = chapterOverride || getCachedChapter(chapPart);
 
-  // Dynamic chapter-grounded explanation for any verse across Exodus 1–40
-  if (verseId.startsWith('EXO-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = EXODUS_CHAPTERS[chapPart];
+  if (tpl) {
     if (chapData) {
-      const ref = `Exodus ${chapData.chapterNumber}:${verseNum || '1'}`;
+      const ref = `${tpl.bookName} ${chapData.chapterNumber}:${verseNum || '1'}`;
       return {
         verseId,
         verseRef: ref,
         whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title.toLowerCase()}, we watch the faithful God rescue, guide, and dwell closely among His people.`,
-        tryThisAction: `Ask yourself how ${ref} invites you to trust God’s guidance and faithfulness today.`,
-        kidFriendlySummary: `${chapData.subtitle} God stayed close to Moses and the people every single step of the way!`,
+        lessonForYou: tpl.lesson(chapData.title),
+        tryThisAction: tpl.action(ref),
+        kidFriendlySummary: tpl.kid(chapData.subtitle),
       };
     }
-    return SEED_VERSE_EXPLANATIONS['EXO-16:15'];
-  }
-
-  // Dynamic chapter-grounded explanation for any verse across Leviticus 1–27
-  if (verseId.startsWith('LEV-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = LEVITICUS_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Leviticus ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title.toLowerCase()}, God shows how holiness and grace allow ordinary people to live joyfully near Him.`,
-        tryThisAction: `Consider how ${ref} calls us to reverence, gratitude, and loving our neighbors today.`,
-        kidFriendlySummary: `${chapData.subtitle} God always makes a loving way for His people to draw near to Him!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['LEV-19:18'];
-  }
-
-  if (verseId.startsWith('NUM-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = NUMBERS_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Numbers ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title.toLowerCase()}, God faithfully guides, corrects, and carries His imperfect people across the wilderness.`,
-        tryThisAction: `Consider how ${ref} invites deeper trust in God’s faithfulness along your own journey today.`,
-        kidFriendlySummary: `${chapData.subtitle} Even in the desert, God stayed right in the middle of the camp to guide His people!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['NUM-6:24'];
-  }
-
-  if (verseId.startsWith('DEU-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = DEUTERONOMY_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Deuteronomy ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title.toLowerCase()}, Moses invites Israel to remember God’s faithfulness and choose wholehearted love today.`,
-        tryThisAction: `Consider how ${ref} calls us to gratitude, open-handed justice, and loving God with all our heart.`,
-        kidFriendlySummary: `${chapData.subtitle} Moses reminded everyone to love God with all their heart and choose life!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['DEU-6:5'];
-  }
-
-  if (verseId.startsWith('JOS-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = JOSHUA_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Joshua ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title.toLowerCase()}, God shows that courageous obedience and remembrance unlock His good promises.`,
-        tryThisAction: `Ask how ${ref} invites you to step forward bravely with God today.`,
-        kidFriendlySummary: `${chapData.subtitle} Whenever Israel trusted and obeyed God’s word, He went right ahead of them!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['JOS-1:9'];
-  }
-
-  if (verseId.startsWith('JDG-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = JUDGES_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Judges ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title.toLowerCase()}, Judges shows both the pain of forgetting God and His faithful mercy whenever people cry out.`,
-        tryThisAction: `Notice how ${ref} points us toward humble dependence on God’s wise leadership today.`,
-        kidFriendlySummary: `${chapData.subtitle} Whenever Israel cried out for help, God faithfully sent a rescuer!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['JDG-6:14'];
-  }
-
-  if (verseId.startsWith('RUT-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = RUTH_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Ruth ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, ordinary loyal love (chesed) quietly carries God’s redeeming story from Bethlehem to King David.`,
-        tryThisAction: `Ask how ${ref} invites you to show steady, generous kindness to someone close to you today.`,
-        kidFriendlySummary: `${chapData.subtitle} God used Ruth and Boaz’s kindness to grow King David’s family!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['RUT-1:16'];
-  }
-
-  if (verseId.startsWith('1SA-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = FIRST_SAMUEL_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `1 Samuel ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, God reminds Israel that humble listening and a heart after Him matter far more than outward appearance.`,
-        tryThisAction: `Ask how ${ref} invites you to listen attentively to God’s gentle leading today.`,
-        kidFriendlySummary: `${chapData.subtitle} God always looks at our hearts and stays close to faithful listeners!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['1SA-16:7'];
-  }
-
-  if (verseId.startsWith('2SA-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = SECOND_SAMUEL_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `2 Samuel ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, 2 Samuel traces God’s steadfast covenant kindness alongside honest lessons on humility and grace.`,
-        tryThisAction: `Notice how ${ref} calls us to show generous kindness and walk honestly before God today.`,
-        kidFriendlySummary: `${chapData.subtitle} God kept His loving promise to King David even through hard days!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['2SA-9:7'];
-  }
-
-  if (verseId.startsWith('1KI-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = FIRST_KINGS_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `1 Kings ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, 1 Kings contrasts humble listening hearts with divided loyalty—showing how faithful prayer invites God’s wisdom and provision.`,
-        tryThisAction: `Ask how ${ref} calls us to listen attentively and remain faithful amid pressure today.`,
-        kidFriendlySummary: `${chapData.subtitle} God gives wisdom, daily bread, and gentle whispers to humble hearts!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['1KI-3:9'];
-  }
-
-  if (verseId.startsWith('2KI-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = SECOND_KINGS_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `2 Kings ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, 2 Kings reminds us that God’s healing mercy, unseen protection, and rediscovered Word outlast empires.`,
-        tryThisAction: `Ask how ${ref} calls us to open our eyes to God’s quiet care today.`,
-        kidFriendlySummary: `${chapData.subtitle} God protects, heals, and keeps His faithful promise even through dark days!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['2KI-6:17'];
-  }
-
-  if (verseId.startsWith('1CH-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = FIRST_CHRONICLES_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `1 Chronicles ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, 1 Chronicles roots ordinary families and leaders in joyful worship, covenant faithfulness, and generous legacy.`,
-        tryThisAction: `Ask how ${ref} invites you into wholehearted worship or grateful generosity today.`,
-        kidFriendlySummary: `${chapData.subtitle} God remembers every faithful family and loves cheerful thankful hearts!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['1CH-16:34'];
-  }
-
-  if (verseId.startsWith('2CH-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = SECOND_CHRONICLES_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `2 Chronicles ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, 2 Chronicles reveals how humble prayer, heartfelt worship, and turning back to God invite mercy even in hard times.`,
-        tryThisAction: `Ask how ${ref} invites you to seek God humbly and trust His help today.`,
-        kidFriendlySummary: `${chapData.subtitle} When God’s people pray humbly, Heaven hears and helps!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['2CH-7:14'];
-  }
-
-  if (verseId.startsWith('EZR-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = EZRA_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Ezra ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, Ezra reminds us God’s good hand guides faithful study, prayerful journeys, and humble worship restoration.`,
-        tryThisAction: `Ask how ${ref} calls you to trust God’s good hand and live His Word cheerfully today.`,
-        kidFriendlySummary: `${chapData.subtitle} God’s gentle hand helps families rebuild worship and learn His Word together!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['EZR-7:10'];
-  }
-
-  if (verseId.startsWith('NEH-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = NEHEMIAH_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Nehemiah ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, Nehemiah pairs persistent prayer with focused teamwork, neighbor justice, and strength-giving joy.`,
-        tryThisAction: `Pause for a quick prayer before your next task today remembering ${ref}.`,
-        kidFriendlySummary: `${chapData.subtitle} Prayer and working together turn broken ruins into happy singing cities!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['NEH-8:10'];
-  }
-
-  if (verseId.startsWith('EST-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = ESTHER_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Esther ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, Esther reminds us God’s quiet providence works through fasting, wise courage, and unexpected reversals.`,
-        tryThisAction: `Ask where you may be placed “for such a time as this” today while reflecting on ${ref}.`,
-        kidFriendlySummary: `${chapData.subtitle} God watches over His people quietly—turning scary days into Purim joy!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['EST-4:14'];
-  }
-
-  if (verseId.startsWith('JOB-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = JOB_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Job ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, Job invites honest questions and deep trust when easy answers run dry before God’s majesty.`,
-        tryThisAction: `Reflect on how ${ref} invites honest prayer and quiet wonder before the Creator today.`,
-        kidFriendlySummary: `${chapData.subtitle} God welcomes honest feelings and meets us in wonderful ways!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['JOB-38:4'];
-  }
-
-  if (verseId.startsWith('PSA-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = PSALMS_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Psalm ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, Israel’s prayerbook invites us to bring real tears, questions, and thanksgiving straight into God’s listening presence.`,
-        tryThisAction: `Pray ${ref} back to God today in your own honest words.`,
-        kidFriendlySummary: `${chapData.subtitle} God loves hearing our songs whether we feel joyful, tired, or scared!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['PSA-23:1'];
-  }
-
-  if (verseId.startsWith('PRO-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = PROVERBS_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Proverbs ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, Proverbs invites everyday skill for living rooted in humble awe before God, gentle speech, and honest love.`,
-        tryThisAction: `Apply ${ref} directly in one small conversation or decision ahead today.`,
-        kidFriendlySummary: `${chapData.subtitle} God’s wisdom helps make homes kinder, calmer, and full of joyful learning!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['PRO-3:5'];
-  }
-
-  if (verseId.startsWith('ECC-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = ECCLESIASTES_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Ecclesiastes ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, Ecclesiastes honors honest questions while pointing toward quiet gratitude and reverence for our Creator.`,
-        tryThisAction: `Ask how ${ref} invites peaceful contentment in your work or friendships today.`,
-        kidFriendlySummary: `${chapData.subtitle} Remembering our Creator brings calm joy in every changing season!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['ECC-3:1'];
-  }
-
-  if (verseId.startsWith('SNG-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = SONG_OF_SOLOMON_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Song of Solomon ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, Song of Solomon celebrates tender, faithful love and beauty as sacred gifts.`,
-        tryThisAction: `Reflect warmly on ${ref} and express gratitude to someone you love today.`,
-        kidFriendlySummary: `${chapData.subtitle} Faithful, kind love is one of God’s brightest springtime treasures!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['SNG-8:6'];
-  }
-
-  if (verseId.startsWith('ISA-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = ISAIAH_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Isaiah ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, Isaiah lifts eyes beyond crisis to the Holy One of Israel and His coming Prince of Peace.`,
-        tryThisAction: `Trust God’s promise in ${ref} with one anxious concern in your week today.`,
-        kidFriendlySummary: `${chapData.subtitle} Even when storms gather, God comforts His people and lifts waiting hearts like eagles!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['ISA-40:31'];
-  }
-
-  if (verseId.startsWith('JER-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = JEREMIAH_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Jeremiah ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, Jeremiah proves honest weeping and courageous faith walk hand in hand toward God’s New Covenant.`,
-        tryThisAction: `Pause calmly over ${ref} today and entrust your path patiently into the Potter’s hands.`,
-        kidFriendlySummary: `${chapData.subtitle} God stays beside faithful helpers like Jeremiah and promises bright hope written right inside our hearts!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['JER-29:11'];
-  }
-
-  if (verseId.startsWith('LAM-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = LAMENTATIONS_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Lamentations ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, Lamentations gives you sacred space to grieve honestly while trusting mercies made new every sunrise.`,
-        tryThisAction: `Bring one honest worry into prayer around ${ref}, remembering God’s compassion never fails.`,
-        kidFriendlySummary: `${chapData.subtitle} Even on sad days, God’s kindness wakes up fresh and new every single morning!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['LAM-3:22'];
-  }
-
-  if (verseId.startsWith('EZK-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = EZEKIEL_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Ezekiel ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, Ezekiel lifts exiles’ eyes to God’s mobile glory, living Spirit renewal, and healing river waters.`,
-        tryThisAction: `Ask God through ${ref} to breathe fresh compassion and courage into your week.`,
-        kidFriendlySummary: `${chapData.subtitle} God brings dry lifeless things singing back to life beside a crystal healing river!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['EZK-37:5'];
-  }
-
-  if (verseId.startsWith('DAN-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = DANIEL_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Daniel ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, Daniel models steady daily conviction in exile grounded in Heaven’s everlasting Kingdom.`,
-        tryThisAction: `Stand quietly faithful in one small choice today remembering ${ref}.`,
-        kidFriendlySummary: `${chapData.subtitle} God walks right beside His faithful people inside fires, lions’ dens, and starry dreams!`,
-      };
-    }
-    return SEED_VERSE_EXPLANATIONS['DAN-6:10'];
-  }
-
-  if (verseId.startsWith('HOS-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = HOSEA_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Hosea ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, God’s patient redeeming love calls unfaithful hearts back home like spring rain.`,
-        tryThisAction: `Pause over ${ref} and choose wholehearted loyalty over empty substitutes today.`,
-        kidFriendlySummary: `${chapData.subtitle} God never stops loving His children and invites us joyfully back home!`,
-      };
-    }
-  }
-
-  if (verseId.startsWith('JOL-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = JOEL_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Joel ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, sincere repentance (“rend your hearts”) unlocks God’s Spirit and restoration.`,
-        tryThisAction: `Read ${ref} slowly and ask God for fresh renewal in your prayers today.`,
-        kidFriendlySummary: `${chapData.subtitle} God promises to pour out His Spirit and bring healing streams of joy!`,
-      };
-    }
-  }
-
-  if (verseId.startsWith('AMO-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = AMOS_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Amos ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, true reverence for God always cares about honesty and justice for the vulnerable.`,
-        tryThisAction: `Look for one quiet practical way to encourage or stand fairly for someone today alongside ${ref}.`,
-        kidFriendlySummary: `${chapData.subtitle} God wants kindness and fairness to flow like a clean rushing river!`,
-      };
-    }
-  }
-
-  if (verseId.startsWith('OBA-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = OBADIAH_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Obadiah ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, God humbles smug pride against hurting neighbors and proves His kingdom endures.`,
-        tryThisAction: `Pray for humility and compassion toward struggling neighbors when reading ${ref}.`,
-        kidFriendlySummary: `${chapData.subtitle} God protects the vulnerable and reigns forever as wise King!`,
-      };
-    }
-  }
-
-  if (verseId.startsWith('JON-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = JONAH_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Jonah ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, God pursues both reluctant believers and entire cities with surprising mercy.`,
-        tryThisAction: `Ask God to give you His heart of compassion for outsiders when reading ${ref}.`,
-        kidFriendlySummary: `${chapData.subtitle} God hears prayers from the deep sea and loves every city!`,
-      };
-    }
-  }
-
-  if (verseId.startsWith('MIC-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = MICAH_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Micah ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, God calls His people to do justice, love kindness, and trust the coming Shepherd-King.`,
-        tryThisAction: `Practice fairness, mercy, and humble walking with God today alongside ${ref}.`,
-        kidFriendlySummary: `${chapData.subtitle} God forgives sins deeply and sends the Shepherd-King from Bethlehem!`,
-      };
-    }
-  }
-
-  if (verseId.startsWith('NAM-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = NAHUM_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Nahum ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, Yahweh is slow to anger yet never ignores cruel empires forever—He is a stronghold in trouble.`,
-        tryThisAction: `Take refuge in God as your stronghold when the world feels violent while reading ${ref}.`,
-        kidFriendlySummary: `${chapData.subtitle} God stays strong and kind to everyone who trusts in Him!`,
-      };
-    }
-  }
-
-  if (verseId.startsWith('HAB-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = HABAKKUK_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Habakkuk ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, honest questions meet quiet watchtower patience until faith rejoices in God our Savior.`,
-        tryThisAction: `Bring one honest question to God and choose thankful trust today with ${ref}.`,
-        kidFriendlySummary: `${chapData.subtitle} Even when fields look empty, we can trust and sing to God!`,
-      };
-    }
-  }
-
-  if (verseId.startsWith('ZEP-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = ZEPHANIAH_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Zephaniah ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, seeking humility removes hollow pride so God Himself rejoices over His people with singing.`,
-        tryThisAction: `Choose quiet humility and gratitude in God’s love today as you read ${ref}.`,
-        kidFriendlySummary: `${chapData.subtitle} God stays right beside His people and sings for joy over them!`,
-      };
-    }
-  }
-
-  if (verseId.startsWith('HAG-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = HAGGAI_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Haggai ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, God’s encouraging presence turns discouraged builders toward wholehearted work in His house.`,
-        tryThisAction: `Take one concrete step today in a worthy work you had postponed while reading ${ref}.`,
-        kidFriendlySummary: `${chapData.subtitle} God says, “Be strong and work—for I am with you!”`,
-      };
-    }
-  }
-
-  if (verseId.startsWith('ZEC-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = ZECHARIAH_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Zechariah ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, God works not by human might or power alone, but by His Spirit—preparing Zion for the humble King.`,
-        tryThisAction: `Ask God’s Spirit for strength rather than leaning only on your own effort in ${ref}.`,
-        kidFriendlySummary: `${chapData.subtitle} God remembers His promises and pours out living water and peace!`,
-      };
-    }
-  }
-
-  if (verseId.startsWith('MAL-')) {
-    const [chapPart, verseNum] = verseId.split(':');
-    const chapData = MALACHI_CHAPTERS[chapPart];
-    if (chapData) {
-      const ref = `Malachi ${chapData.chapterNumber}:${verseNum || '1'}`;
-      return {
-        verseId,
-        verseRef: ref,
-        whatThisMeans: `${chapData.title}: ${chapData.bigPictureText}`,
-        lessonForYou: `In ${chapData.title}, sincere wholehearted worship and covenant loyalty open the windows of blessing and healing dawn.`,
-        tryThisAction: `Give God your wholehearted best today in worship and kindness to others alongside ${ref}.`,
-        kidFriendlySummary: `${chapData.subtitle} God’s Sun of Righteousness rises with warm healing in His wings!`,
-      };
-    }
+    return SEED_VERSE_EXPLANATIONS[tpl.fallbackKey] || SEED_VERSE_EXPLANATIONS['EXO-16:15'];
   }
 
   if (verseId.startsWith('RUT')) return SEED_VERSE_EXPLANATIONS['RUT-1:16'];
