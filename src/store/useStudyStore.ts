@@ -92,7 +92,8 @@ class StudyStore {
   private activeShareVerse: ShareVerseTarget | null = null;
   private highlightedVerseNumber: number | null = null;
   private isKidsMode: boolean = false;
-  private activeTab: 'today' | 'bible' | 'read' | 'explore' | 'library' = 'today';
+  private activeTab: 'today' | 'bible' | 'read' | 'explore' | 'hymnals' | 'library' = 'today';
+  private activeHymnNumber: number | null = null;
   private showTypographyDrawer = false;
   private showChapterPicker = false;
   private showVisualHookHeader = true;
@@ -227,6 +228,7 @@ class StudyStore {
   public getHighlightedVerseNumber() { return this.highlightedVerseNumber; }
   public getIsKidsMode() { return this.isKidsMode; }
   public getActiveTab() { return this.activeTab; }
+  public getActiveHymnNumber() { return this.activeHymnNumber; }
   public getShowTypographyDrawer() { return this.showTypographyDrawer; }
   public getShowChapterPicker() { return this.showChapterPicker; }
   public getShowVisualHookHeader() { return this.showVisualHookHeader; }
@@ -234,8 +236,13 @@ class StudyStore {
   public getSelectedExploreItem() { return this.selectedExploreItem; }
 
   // Actions
-  public setActiveTab(tab: 'today' | 'bible' | 'read' | 'explore' | 'library') {
+  public setActiveTab(tab: 'today' | 'bible' | 'read' | 'explore' | 'hymnals' | 'library') {
     this.activeTab = tab;
+    this.notify();
+  }
+
+  public setActiveHymnNumber(hymnNumber: number | null) {
+    this.activeHymnNumber = hymnNumber;
     this.notify();
   }
 
@@ -690,6 +697,11 @@ class StudyStore {
    */
   public handleNativeBack(): boolean {
     if (this.closeTopOverlay()) return true;
+    if (this.activeTab === 'hymnals' && this.activeHymnNumber !== null) {
+      this.activeHymnNumber = null;
+      this.notify();
+      return true;
+    }
     if (this.activeTab !== 'today') {
       this.setActiveTab('today');
       return true;
@@ -728,13 +740,15 @@ export function useStudyStore() {
     highlightedVerseNumber: globalStore.getHighlightedVerseNumber(),
     isKidsMode: globalStore.getIsKidsMode(),
     activeTab: globalStore.getActiveTab(),
+    activeHymnNumber: globalStore.getActiveHymnNumber(),
     showTypographyDrawer: globalStore.getShowTypographyDrawer(),
     showChapterPicker: globalStore.getShowChapterPicker(),
     showVisualHookHeader: globalStore.getShowVisualHookHeader(),
     exploreView: globalStore.getExploreView(),
     selectedExploreItem: globalStore.getSelectedExploreItem(),
 
-    setActiveTab: (tab: 'today' | 'bible' | 'read' | 'explore' | 'library') => globalStore.setActiveTab(tab),
+    setActiveTab: (tab: 'today' | 'bible' | 'read' | 'explore' | 'hymnals' | 'library') => globalStore.setActiveTab(tab),
+    setActiveHymnNumber: (num: number | null) => globalStore.setActiveHymnNumber(num),
     setCurrentChapterId: (id: string) => globalStore.setCurrentChapterId(id),
     openEntitySheet: (id: string) => globalStore.openEntitySheet(id),
     closeEntitySheet: () => globalStore.closeEntitySheet(),

@@ -3,6 +3,7 @@ import {
   Bookmark,
   BookOpen,
   Compass,
+  Music,
   PenLine,
 } from 'lucide-react';
 import { globalStore, useStudyStore } from './store/useStudyStore';
@@ -22,6 +23,9 @@ const ExploreScreen = lazy(() =>
 );
 const LibraryScreen = lazy(() =>
   import('./components/library/LibraryScreen').then((m) => ({ default: m.LibraryScreen }))
+);
+const HymnalsScreen = lazy(() =>
+  import('./components/hymnals/HymnalsScreen').then((m) => ({ default: m.HymnalsScreen }))
 );
 const ChapterPickerModal = lazy(() =>
   import('./components/reader/ChapterPickerModal').then((m) => ({
@@ -152,15 +156,16 @@ export const App: React.FC = () => {
               {activeTab === 'today' && <TodayScreen />}
               {isReaderTab && <ReaderScreen />}
               {activeTab === 'explore' && <ExploreScreen />}
+              {activeTab === 'hymnals' && <HymnalsScreen />}
               {activeTab === 'library' && <LibraryScreen />}
             </Suspense>
           </div>
 
           {/* Quiet Editorial Bottom Navigation */}
-          <footer ref={footerRef} className="sticky bottom-0 left-0 right-0 z-30 bg-[#FBF8F1]/95 backdrop-blur-xs border-t border-[#DDD3C1] px-4 pt-0 pb-[max(0.75rem,env(safe-area-inset-bottom))] flex items-center justify-around select-none">
+          <footer ref={footerRef} className="sticky bottom-0 left-0 right-0 z-30 bg-[#FBF8F1]/95 backdrop-blur-xs border-t border-[#DDD3C1] px-2 sm:px-4 pt-0 pb-[max(0.75rem,env(safe-area-inset-bottom))] flex items-center justify-around select-none">
             <button
               onClick={() => setActiveTab('today')}
-              className={`flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-3 border-t-2 transition-colors cursor-pointer ${
+              className={`flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-2 sm:px-3 border-t-2 transition-colors cursor-pointer ${
                 activeTab === 'today'
                   ? 'border-[#8B3A2B] text-[#24221E] font-semibold'
                   : 'border-transparent text-[#8C867B] hover:text-[#24221E]'
@@ -172,7 +177,7 @@ export const App: React.FC = () => {
 
             <button
               onClick={() => setActiveTab('read')}
-              className={`flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-3 border-t-2 transition-colors cursor-pointer ${
+              className={`flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-2 sm:px-3 border-t-2 transition-colors cursor-pointer ${
                 isReaderTab
                   ? 'border-[#8B3A2B] text-[#24221E] font-semibold'
                   : 'border-transparent text-[#8C867B] hover:text-[#24221E]'
@@ -184,7 +189,7 @@ export const App: React.FC = () => {
 
             <button
               onClick={() => setActiveTab('explore')}
-              className={`flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-3 border-t-2 transition-colors cursor-pointer ${
+              className={`flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-2 sm:px-3 border-t-2 transition-colors cursor-pointer ${
                 activeTab === 'explore'
                   ? 'border-[#8B3A2B] text-[#24221E] font-semibold'
                   : 'border-transparent text-[#8C867B] hover:text-[#24221E]'
@@ -195,8 +200,20 @@ export const App: React.FC = () => {
             </button>
 
             <button
+              onClick={() => setActiveTab('hymnals')}
+              className={`flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-2 sm:px-3 border-t-2 transition-colors cursor-pointer ${
+                activeTab === 'hymnals'
+                  ? 'border-[#8B3A2B] text-[#24221E] font-semibold'
+                  : 'border-transparent text-[#8C867B] hover:text-[#24221E]'
+              }`}
+            >
+              <Music className="w-4 h-4" />
+              <span className="text-[0.6875rem] font-serif tracking-wide">Hymnals</span>
+            </button>
+
+            <button
               onClick={() => setActiveTab('library')}
-              className={`flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-3 border-t-2 transition-colors cursor-pointer ${
+              className={`flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-2 sm:px-3 border-t-2 transition-colors cursor-pointer ${
                 activeTab === 'library'
                   ? 'border-[#8B3A2B] text-[#24221E] font-semibold'
                   : 'border-transparent text-[#8C867B] hover:text-[#24221E]'
