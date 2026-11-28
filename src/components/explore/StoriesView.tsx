@@ -204,16 +204,13 @@ export const StoriesView: React.FC = () => {
               className="bg-white/95 rounded-2xl border border-[#E5DFD5] overflow-hidden shadow-xs"
             >
               {/* Watercolor Scene Graphic */}
-              <div className="relative bg-[#F5EFE4] border-b border-[#EFE9DD]">
+              <div className="bg-[#F5EFE4] border-b border-[#EFE9DD]">
                 <img
                   src={assetUrl(beat.imageUrl)}
                   alt={beat.imageAlt}
                   className="w-full aspect-[6/5] object-cover block"
                   loading="lazy"
                 />
-                <span className="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-[#FAF7F2]/95 backdrop-blur-xs border border-[#DED7CB] text-[0.6875rem] font-bold text-[#2C2C2A] shadow-xs">
-                  Scene {beat.beatNumber} of {activeStory.beats.length}
-                </span>
               </div>
 
               {/* Scene Narrative & Scripture References */}
