@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 import { useStudyStore } from '../../store/useStudyStore';
 import { preloadBookForChapter, useChapterData } from '../../data/bookLoader';
+import { useKjvChapter } from '../../data/kjvLoader';
 import { SEED_STORY_MODULES } from '../../data/seedStoryModules';
 import { formatChapterTitle, getAdjacentChapters } from '../../data/bookGroups';
 import type { Verse } from '../../types/bible';
@@ -37,12 +38,13 @@ function groupVersesIntoParagraphs(verses: Verse[], bookId: string): Verse[][] {
 
 export const ReaderScreen: React.FC = () => {
   const containerRef = useRef<HTMLDivElement | null>(null);
-  const highlightedRef = useRef<HTMLSpanElement | null>(null);
+  const highlightedRef = useRef<HTMLElement | null>(null);
 
   const {
     currentChapterId,
     setCurrentChapterId,
     preferences,
+    updatePreferences,
     showVisualHookHeader,
     setShowVisualHookHeader,
     setShowTypographyDrawer,
@@ -63,8 +65,10 @@ export const ReaderScreen: React.FC = () => {
   const [isReadingAloud, setIsReadingAloud] = useState(false);
 
   const isPureTextMode = activeTab === 'bible';
+  const translationMode = preferences.translationMode ?? 'WEB';
   const targetChapterId = currentChapterId || 'GEN-1';
   const { chapterData, isLoading } = useChapterData(targetChapterId);
+  const { kjvVerses, isLoadingKjv } = useKjvChapter(targetChapterId, translationMode !== 'WEB');
   const matchingStory = SEED_STORY_MODULES.find((s) => s.chapterId === targetChapterId);
 
   const { prevChapterId, nextChapterId } = useMemo(
@@ -110,7 +114,10 @@ export const ReaderScreen: React.FC = () => {
 
     setIsReadingAloud(true);
     verses.forEach((v, idx) => {
-      const utt = new SpeechSynthesisUtterance(v.text);
+      const kjvText = kjvVerses?.[v.verseNumber - 1];
+      const spokenText =
+        translationMode === 'KJV' && kjvText ? kjvText : v.text;
+      const utt = new SpeechSynthesisUtterance(spokenText);
       utt.rate = rate;
       utt.onend = () => {
         if (idx === verses.length - 1) setIsReadingAloud(false);
@@ -396,7 +403,12 @@ export const ReaderScreen: React.FC = () => {
         <article>
           <header className="text-center mb-6 pb-4 border-b border-[#E2DACB]">
             <div className="text-[0.625rem] uppercase tracking-[0.2em] text-[#8B3A2B] font-semibold">
-              {chapterData.verses[0]?.translation || 'WEB'} · Chapter {chapterData.chapterNumber}
+              {translationMode === 'COMPARE'
+                ? 'WEB + KJV Parallel'
+                : translationMode === 'KJV'
+                  ? 'KJV · King James Version'
+                  : chapterData.verses[0]?.translation || 'WEB'}{' '}
+              · Chapter {chapterData.chapterNumber}
             </div>
             <h1 className="text-2xl sm:text-[1.85rem] font-serif font-semibold text-[#24221E] mt-1 leading-tight">
               {chapterData.title.includes(':')
@@ -410,7 +422,7 @@ export const ReaderScreen: React.FC = () => {
               </p>
             )}
 
-            <div className="mt-3 flex items-center justify-center gap-3 text-[0.6875rem] text-[#8C867B]">
+            <div className="mt-3 flex flex-wrap items-center justify-center gap-2.5 text-[0.6875rem] text-[#8C867B]">
               <span>{chapterData.verses.length} Verses</span>
               {!isPureTextMode && (
                 <>
@@ -423,69 +435,164 @@ export const ReaderScreen: React.FC = () => {
                   </button>
                 </>
               )}
+              <span>·</span>
+              <div
+                className="inline-flex items-center rounded-full bg-[#F3EFE6] border border-[#DED7CB] p-0.5 font-sans"
+                role="group"
+                aria-label="Bible translation mode"
+              >
+                {(['WEB', 'KJV', 'COMPARE'] as const).map((mode) => (
+                  <button
+                    key={mode}
+                    onClick={() => updatePreferences({ translationMode: mode })}
+                    className={`px-2 py-0.5 rounded-full text-[0.625rem] font-semibold transition-colors cursor-pointer ${
+                      translationMode === mode
+                        ? 'bg-[#24221E] text-[#FBF8F1]'
+                        : 'text-[#666158] hover:text-[#24221E]'
+                    }`}
+                  >
+                    {mode === 'COMPARE' ? 'Compare' : mode}
+                  </button>
+                ))}
+              </div>
             </div>
+            {translationMode !== 'WEB' && isLoadingKjv && (
+              <p className="mt-2 text-[0.6875rem] font-serif italic text-[#8C867B]">
+                Loading King James text…
+              </p>
+            )}
           </header>
 
-          {/* Flowing Printed Scripture Paragraphs */}
-          <div
-            className={`${isPoetry ? 'space-y-4' : 'space-y-5'} ${getFontFamilyClass()} text-[#24221E]`}
-            style={{
-              fontSize: `${preferences.fontSize}px`,
-              lineHeight: preferences.lineHeight,
-            }}
-          >
-            {paragraphs.map((paraVerses, pIdx) => (
-              <p
-                key={pIdx}
-                className={`${
-                  !isPoetry && pIdx > 0 ? 'indent-5' : ''
-                } text-left sm:text-justify selection:bg-[#7A9A82]/20`}
-              >
-                {pIdx === 0 && (
-                  <span className="book-dropcap text-[2.85em]" aria-hidden="true">
-                    {chapterData.chapterNumber}
-                  </span>
-                )}
-                {paraVerses.map((verse, vIdx) => {
-                  const verseRef = `${chapterData.bookName} ${verse.chapterNumber}:${verse.verseNumber}`;
-                  const bookmarked = isBookmarked(verseRef);
-                  const isHighlighted = highlightedVerseNumber === verse.verseNumber;
-                  const isSelected = selectedVerseNum === verse.verseNumber;
-                  const isFirstVerseInChapter = pIdx === 0 && vIdx === 0;
+          {/* Flowing Printed Scripture Paragraphs or Parallel Compare View */}
+          {translationMode === 'COMPARE' ? (
+            <div
+              className={`space-y-4 ${getFontFamilyClass()} text-[#24221E]`}
+              style={{
+                fontSize: `${preferences.fontSize}px`,
+                lineHeight: preferences.lineHeight,
+              }}
+            >
+              {chapterData.verses.map((verse) => {
+                const verseRef = `${chapterData.bookName} ${verse.chapterNumber}:${verse.verseNumber}`;
+                const bookmarked = isBookmarked(verseRef);
+                const isHighlighted = highlightedVerseNumber === verse.verseNumber;
+                const isSelected = selectedVerseNum === verse.verseNumber;
+                const kjvText = kjvVerses?.[verse.verseNumber - 1];
 
-                  return (
-                    <span
-                      key={`${verse.chapterNumber}-${verse.verseNumber}`}
-                      ref={isHighlighted ? highlightedRef : null}
-                      onClick={() =>
-                        setSelectedVerseNum(isSelected ? null : verse.verseNumber)
-                      }
-                      className={`cursor-pointer transition-colors rounded-[2px] ${
-                        isSelected
-                          ? 'bg-[#EDE3CE]'
-                          : isHighlighted
-                          ? 'bg-[#F3E9D2]'
-                          : 'hover:bg-[#F3EDE0]/70'
-                      }`}
-                    >
-                      {!isFirstVerseInChapter && (
-                        <sup className="font-sans text-[0.625rem] font-semibold text-[#8B3A2B]/80 mr-1 ml-1 select-none">
-                          {verse.verseNumber}
-                        </sup>
-                      )}
+                return (
+                  <div
+                    key={`${verse.chapterNumber}-${verse.verseNumber}`}
+                    ref={(el) => {
+                      if (isHighlighted) highlightedRef.current = el;
+                    }}
+                    onClick={() => setSelectedVerseNum(isSelected ? null : verse.verseNumber)}
+                    className={`rounded-xl border p-3.5 sm:p-4 cursor-pointer transition-colors ${
+                      isSelected
+                        ? 'bg-[#EDE3CE] border-[#CBB99B]'
+                        : isHighlighted
+                          ? 'bg-[#F3E9D2] border-[#DDD0B6]'
+                          : 'bg-[#FAF7F2] border-[#E5DFD5] hover:bg-[#F5EFE2]/70'
+                    }`}
+                  >
+                    <div className="flex items-baseline gap-2 mb-1.5">
+                      <span className="font-sans text-xs font-bold text-[#8B3A2B]">
+                        v.{verse.verseNumber}
+                      </span>
                       {bookmarked && (
                         <span
-                          className="inline-block w-1.5 h-1.5 rounded-full bg-[#8B3A2B] align-middle mr-1"
+                          className="inline-block w-1.5 h-1.5 rounded-full bg-[#8B3A2B]"
                           title="Bookmarked verse"
                         />
                       )}
-                      {renderInteractiveVerse(verse.text, verse.linkedEntities)}{' '}
+                      <span className="font-sans text-[0.625rem] font-semibold uppercase tracking-wider text-[#8B3A2B]">
+                        WEB
+                      </span>
+                    </div>
+                    <p className="text-[#24221E]">
+                      {renderInteractiveVerse(verse.text, verse.linkedEntities)}
+                    </p>
+                    <div className="mt-2.5 pt-2.5 border-t border-[#E5DFD5]">
+                      <div className="font-sans text-[0.625rem] font-semibold uppercase tracking-wider text-[#7A9A82] mb-1">
+                        KJV
+                      </div>
+                      <p className="text-[#4A463F]">
+                        {kjvText ?? 'Loading King James text…'}
+                      </p>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          ) : (
+            <div
+              className={`${isPoetry ? 'space-y-4' : 'space-y-5'} ${getFontFamilyClass()} text-[#24221E]`}
+              style={{
+                fontSize: `${preferences.fontSize}px`,
+                lineHeight: preferences.lineHeight,
+              }}
+            >
+              {paragraphs.map((paraVerses, pIdx) => (
+                <p
+                  key={pIdx}
+                  className={`${
+                    !isPoetry && pIdx > 0 ? 'indent-5' : ''
+                  } text-left sm:text-justify selection:bg-[#7A9A82]/20`}
+                >
+                  {pIdx === 0 && (
+                    <span className="book-dropcap text-[2.85em]" aria-hidden="true">
+                      {chapterData.chapterNumber}
                     </span>
-                  );
-                })}
-              </p>
-            ))}
-          </div>
+                  )}
+                  {paraVerses.map((verse, vIdx) => {
+                    const verseRef = `${chapterData.bookName} ${verse.chapterNumber}:${verse.verseNumber}`;
+                    const bookmarked = isBookmarked(verseRef);
+                    const isHighlighted = highlightedVerseNumber === verse.verseNumber;
+                    const isSelected = selectedVerseNum === verse.verseNumber;
+                    const isFirstVerseInChapter = pIdx === 0 && vIdx === 0;
+                    const kjvText = kjvVerses?.[verse.verseNumber - 1];
+                    const displayText =
+                      translationMode === 'KJV' && kjvText ? kjvText : verse.text;
+
+                    return (
+                      <span
+                        key={`${verse.chapterNumber}-${verse.verseNumber}`}
+                        ref={(el) => {
+                          if (isHighlighted) highlightedRef.current = el;
+                        }}
+                        onClick={() =>
+                          setSelectedVerseNum(isSelected ? null : verse.verseNumber)
+                        }
+                        className={`cursor-pointer transition-colors rounded-[2px] ${
+                          isSelected
+                            ? 'bg-[#EDE3CE]'
+                            : isHighlighted
+                            ? 'bg-[#F3E9D2]'
+                            : 'hover:bg-[#F3EDE0]/70'
+                        }`}
+                      >
+                        {!isFirstVerseInChapter && (
+                          <sup className="font-sans text-[0.625rem] font-semibold text-[#8B3A2B]/80 mr-1 ml-1 select-none">
+                            {verse.verseNumber}
+                          </sup>
+                        )}
+                        {bookmarked && (
+                          <span
+                            className="inline-block w-1.5 h-1.5 rounded-full bg-[#8B3A2B] align-middle mr-1"
+                            title="Bookmarked verse"
+                          />
+                        )}
+                        {translationMode === 'KJV' && kjvText ? (
+                          <span>{displayText}</span>
+                        ) : (
+                          renderInteractiveVerse(displayText, verse.linkedEntities)
+                        )}{' '}
+                      </span>
+                    );
+                  })}
+                </p>
+              ))}
+            </div>
+          )}
 
           {/* Quiet Colophon Hint */}
           <p className="mt-7 text-center text-[0.6875rem] font-serif italic text-[#8C867B]">
@@ -569,6 +676,11 @@ export const ReaderScreen: React.FC = () => {
           `${chapterData.bookId}-${selectedVerse.chapterNumber}:${selectedVerse.verseNumber}`;
         const vRef = `${chapterData.bookName} ${selectedVerse.chapterNumber}:${selectedVerse.verseNumber}`;
         const bookmarked = isBookmarked(vRef);
+        const kjvSelectedText = kjvVerses?.[selectedVerse.verseNumber - 1];
+        const activeVerseText =
+          translationMode === 'KJV' && kjvSelectedText ? kjvSelectedText : selectedVerse.text;
+        const shareVerseRef =
+          translationMode === 'KJV' && kjvSelectedText ? `${vRef} (KJV)` : vRef;
 
         return (
           <div
@@ -593,7 +705,7 @@ export const ReaderScreen: React.FC = () => {
                   openJournalSheet({
                     verseRef: vRef,
                     bookId: chapterData.bookId,
-                    snapshotText: selectedVerse.text,
+                    snapshotText: activeVerseText,
                     illustrationId: selectedVerse.illustrationId,
                   })
                 }
@@ -634,8 +746,8 @@ export const ReaderScreen: React.FC = () => {
               <button
                 onClick={() =>
                   openShareModal({
-                    verseRef: vRef,
-                    verseText: selectedVerse.text,
+                    verseRef: shareVerseRef,
+                    verseText: activeVerseText,
                     illustrationId: selectedVerse.illustrationId,
                   })
                 }

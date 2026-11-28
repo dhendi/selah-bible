@@ -15,6 +15,7 @@ const STORAGE_KEYS = {
   CARDS: 'selah_bible_flashcards_v1',
   CURRENT_CHAPTER: 'selah_bible_current_chapter_v1',
   JOURNAL: 'selah_bible_journal_v1',
+  FAVORITE_HYMNS: 'selah_favorite_hymns_v1',
 };
 
 const DEFAULT_PREFERENCES: ReaderPreferences = {
@@ -26,6 +27,7 @@ const DEFAULT_PREFERENCES: ReaderPreferences = {
   highlightConnections: true,
   audioSpeechRate: 1.0,
   uiScale: 'normal',
+  translationMode: 'WEB',
 };
 
 function applyAccessibilityDOM(prefs: ReaderPreferences) {
@@ -46,12 +48,27 @@ const DEFAULT_PROGRESS: UserStudyProgress = {
   quizScores: [],
   readVersesCount: 0,
   savedPassageBookmarks: [],
+  activePlanId: 'foundations-sda-14',
+  completedPlanDays: {},
   lastReadPassage: {
     bookId: 'GEN',
     chapterNumber: 1,
     verseNumber: 1,
   },
 };
+
+export interface SelahStudyBackup {
+  version: 1;
+  app: 'Selah';
+  exportedAt: string;
+  currentChapterId: string;
+  preferences: ReaderPreferences;
+  progress: UserStudyProgress;
+  notes: UserVerseNote[];
+  flashcards: Flashcard[];
+  journalEntries: JournalEntry[];
+  favoriteHymns: number[];
+}
 
 const DEFAULT_NOTES: UserVerseNote[] = [];
 
@@ -83,6 +100,7 @@ class StudyStore {
   private notes: UserVerseNote[];
   private flashcards: Flashcard[];
   private journalEntries: JournalEntry[];
+  private favoriteHymns: number[];
   private currentChapterId: string;
   private activeEntityId: string | null = null;
   private activeCharacterId: string | null = null;
@@ -108,6 +126,9 @@ class StudyStore {
     this.notes = this.loadFromStorage(STORAGE_KEYS.NOTES, DEFAULT_NOTES);
     this.flashcards = this.loadFromStorage<Flashcard[]>(STORAGE_KEYS.CARDS, []);
     this.journalEntries = this.loadFromStorage(STORAGE_KEYS.JOURNAL, DEFAULT_JOURNAL_ENTRIES);
+    this.favoriteHymns = this.loadFromStorage<number[]>(STORAGE_KEYS.FAVORITE_HYMNS, []).filter(
+      (n) => typeof n === 'number'
+    );
     this.currentChapterId = this.loadFromStorage(STORAGE_KEYS.CURRENT_CHAPTER, 'GEN-1');
 
     this.cleanSlateLegacySeedMigration();
@@ -218,6 +239,7 @@ class StudyStore {
   public getNotes() { return this.notes; }
   public getFlashcards() { return this.flashcards; }
   public getJournalEntries() { return this.journalEntries; }
+  public getFavoriteHymns() { return this.favoriteHymns; }
   public getCurrentChapterId() { return this.currentChapterId; }
   public getActiveEntityId() { return this.activeEntityId; }
   public getActiveCharacterId() { return this.activeCharacterId; }
@@ -589,6 +611,7 @@ class StudyStore {
     this.notes = [];
     this.journalEntries = [];
     this.flashcards = [];
+    this.favoriteHymns = [];
     this.progress = {
       ...DEFAULT_PROGRESS,
       hasCompletedOnboarding: this.progress.hasCompletedOnboarding,
@@ -598,9 +621,245 @@ class StudyStore {
     this.saveToStorage(STORAGE_KEYS.NOTES, this.notes);
     this.saveToStorage(STORAGE_KEYS.JOURNAL, this.journalEntries);
     this.saveToStorage(STORAGE_KEYS.CARDS, this.flashcards);
+    this.saveToStorage(STORAGE_KEYS.FAVORITE_HYMNS, this.favoriteHymns);
     this.saveToStorage(STORAGE_KEYS.PROGRESS, this.progress);
     this.saveToStorage(STORAGE_KEYS.CURRENT_CHAPTER, this.currentChapterId);
     this.notify();
+  }
+
+  public toggleFavoriteHymn(hymnNumber: number) {
+    const exists = this.favoriteHymns.includes(hymnNumber);
+    this.favoriteHymns = exists
+      ? this.favoriteHymns.filter((n) => n !== hymnNumber)
+      : [...this.favoriteHymns, hymnNumber].sort((a, b) => a - b);
+    this.saveToStorage(STORAGE_KEYS.FAVORITE_HYMNS, this.favoriteHymns);
+    this.notify();
+  }
+
+  public setActivePlanId(planId: string) {
+    this.progress = {
+      ...this.progress,
+      activePlanId: planId,
+    };
+    this.saveToStorage(STORAGE_KEYS.PROGRESS, this.progress);
+    this.notify();
+  }
+
+  public togglePlanDayComplete(planId: string, day: number) {
+    const currentMap = this.progress.completedPlanDays ?? {};
+    const existing = currentMap[planId] ?? [];
+    const nextDays = existing.includes(day)
+      ? existing.filter((d) => d !== day)
+      : [...existing, day].sort((a, b) => a - b);
+    this.progress = {
+      ...this.progress,
+      completedPlanDays: {
+        ...currentMap,
+        [planId]: nextDays,
+      },
+    };
+    if (!existing.includes(day)) {
+      this.recordStudyActivity();
+    }
+    this.saveToStorage(STORAGE_KEYS.PROGRESS, this.progress);
+    this.notify();
+  }
+
+  public exportStudyBackup(): SelahStudyBackup {
+    return {
+      version: 1,
+      app: 'Selah',
+      exportedAt: new Date().toISOString(),
+      currentChapterId: this.currentChapterId,
+      preferences: this.preferences,
+      progress: this.progress,
+      notes: this.notes,
+      flashcards: this.flashcards,
+      journalEntries: this.journalEntries,
+      favoriteHymns: this.favoriteHymns,
+    };
+  }
+
+  public importStudyBackup(
+    payload: unknown,
+    mode: 'merge' | 'replace' = 'merge'
+  ): { ok: boolean; summary: string } {
+    if (!payload || typeof payload !== 'object') {
+      return { ok: false, summary: 'Invalid backup file format.' };
+    }
+    const raw = payload as Partial<SelahStudyBackup>;
+    const hasKnownField =
+      Array.isArray(raw.notes) ||
+      Array.isArray(raw.journalEntries) ||
+      Array.isArray(raw.flashcards) ||
+      Array.isArray(raw.favoriteHymns) ||
+      Boolean(raw.progress) ||
+      Boolean(raw.preferences);
+
+    if (!hasKnownField) {
+      return { ok: false, summary: 'This JSON file does not contain Selah study data.' };
+    }
+
+    const incomingNotes = Array.isArray(raw.notes) ? raw.notes : [];
+    const incomingJournal = Array.isArray(raw.journalEntries) ? raw.journalEntries : [];
+    const incomingCards = Array.isArray(raw.flashcards) ? raw.flashcards : [];
+    const incomingHymns = Array.isArray(raw.favoriteHymns)
+      ? raw.favoriteHymns.filter((n): n is number => typeof n === 'number' && n >= 1 && n <= 695)
+      : [];
+
+    if (mode === 'replace') {
+      this.notes = incomingNotes;
+      this.journalEntries = incomingJournal;
+      this.flashcards = incomingCards;
+      this.favoriteHymns = Array.from(new Set(incomingHymns)).sort((a, b) => a - b);
+      if (raw.preferences) {
+        this.preferences = { ...DEFAULT_PREFERENCES, ...raw.preferences };
+        applyAccessibilityDOM(this.preferences);
+      }
+      if (raw.progress) {
+        this.progress = { ...DEFAULT_PROGRESS, ...raw.progress };
+      }
+      if (typeof raw.currentChapterId === 'string' && raw.currentChapterId.includes('-')) {
+        this.currentChapterId = raw.currentChapterId;
+      }
+    } else {
+      const seenNoteIds = new Set(this.notes.map((n) => n.id));
+      this.notes = [...incomingNotes.filter((n) => n?.id && !seenNoteIds.has(n.id)), ...this.notes];
+
+      const seenJournalIds = new Set(this.journalEntries.map((j) => j.id));
+      this.journalEntries = [
+        ...incomingJournal.filter((j) => j?.id && !seenJournalIds.has(j.id)),
+        ...this.journalEntries,
+      ];
+
+      const seenCardIds = new Set(this.flashcards.map((c) => c.id));
+      this.flashcards = [
+        ...incomingCards.filter((c) => c?.id && !seenCardIds.has(c.id)),
+        ...this.flashcards,
+      ];
+
+      this.favoriteHymns = Array.from(new Set([...this.favoriteHymns, ...incomingHymns])).sort(
+        (a, b) => a - b
+      );
+
+      if (raw.progress) {
+        const mergedBookmarks = Array.from(
+          new Set([
+            ...this.progress.savedPassageBookmarks,
+            ...(Array.isArray(raw.progress.savedPassageBookmarks)
+              ? raw.progress.savedPassageBookmarks
+              : []),
+          ])
+        );
+        const mergedPlanDays: Record<string, number[]> = {
+          ...(this.progress.completedPlanDays ?? {}),
+        };
+        if (raw.progress.completedPlanDays) {
+          for (const [planId, days] of Object.entries(raw.progress.completedPlanDays)) {
+            if (Array.isArray(days)) {
+              mergedPlanDays[planId] = Array.from(
+                new Set([...(mergedPlanDays[planId] ?? []), ...days])
+              ).sort((a, b) => a - b);
+            }
+          }
+        }
+        this.progress = {
+          ...this.progress,
+          savedPassageBookmarks: mergedBookmarks,
+          completedPlanDays: mergedPlanDays,
+          readVersesCount: Math.max(this.progress.readVersesCount, raw.progress.readVersesCount ?? 0),
+          streakDays: Math.max(this.progress.streakDays, raw.progress.streakDays ?? 0),
+        };
+      }
+    }
+
+    this.saveToStorage(STORAGE_KEYS.PREFS, this.preferences);
+    this.saveToStorage(STORAGE_KEYS.PROGRESS, this.progress);
+    this.saveToStorage(STORAGE_KEYS.NOTES, this.notes);
+    this.saveToStorage(STORAGE_KEYS.CARDS, this.flashcards);
+    this.saveToStorage(STORAGE_KEYS.JOURNAL, this.journalEntries);
+    this.saveToStorage(STORAGE_KEYS.FAVORITE_HYMNS, this.favoriteHymns);
+    this.saveToStorage(STORAGE_KEYS.CURRENT_CHAPTER, this.currentChapterId);
+    this.notify();
+
+    return {
+      ok: true,
+      summary: `${mode === 'replace' ? 'Restored' : 'Merged'} ${this.notes.length} notes, ${this.journalEntries.length} journal entries, ${this.flashcards.length} flashcards, and ${this.favoriteHymns.length} saved hymns.`,
+    };
+  }
+
+  public async exportStudyMarkdown(): Promise<string> {
+    let hymnTitleMap = new Map<number, string>();
+    if (this.favoriteHymns.length > 0) {
+      try {
+        const { SDA_HYMNS } = await import('../data/sdaHymnal');
+        hymnTitleMap = new Map(SDA_HYMNS.map((h) => [h.number, h.title]));
+      } catch {
+        // Fallback cleanly to hymn numbers
+      }
+    }
+
+    const lines: string[] = [
+      '# Selah Study Archive',
+      `Exported: ${new Date().toLocaleDateString()}`,
+      '',
+      `Streak: ${this.progress.streakDays} days | Verses Studied: ${this.progress.readVersesCount} | Bookmarks: ${this.progress.savedPassageBookmarks.length}`,
+      '',
+    ];
+
+    if (this.journalEntries.length > 0) {
+      lines.push('## Journal & Prayers', '');
+      for (const entry of this.journalEntries) {
+        const date = entry.createdAt ? entry.createdAt.split('T')[0] : '';
+        const status = entry.linkedToPrayerList
+          ? entry.prayerAnswered
+            ? ' [Prayer Answered]'
+            : ' [Prayer]'
+          : '';
+        lines.push(`### ${entry.verseReference || 'Reflection'}${status}${date ? ` (${date})` : ''}`);
+        if (entry.passageSnapshotText) lines.push(`> "${entry.passageSnapshotText}"`, '');
+        if (entry.userReflectionText) lines.push(entry.userReflectionText);
+        if (entry.reactionTags?.length) lines.push('', `Tags: ${entry.reactionTags.join(', ')}`);
+        lines.push('');
+      }
+    }
+
+    if (this.notes.length > 0) {
+      lines.push('## Verse Notes', '');
+      for (const note of this.notes) {
+        const tag = note.tag ? ` [${note.tag}]` : '';
+        lines.push(`- **${note.verseRef}**${tag}: ${note.noteText}`);
+      }
+      lines.push('');
+    }
+
+    if (this.progress.savedPassageBookmarks.length > 0) {
+      lines.push('## Bookmarked Passages', '');
+      for (const b of this.progress.savedPassageBookmarks) {
+        lines.push(`- ${b}`);
+      }
+      lines.push('');
+    }
+
+    if (this.favoriteHymns.length > 0) {
+      lines.push('## Saved SDA Hymns', '');
+      for (const num of this.favoriteHymns) {
+        const title = hymnTitleMap.get(num);
+        lines.push(`- #${num}${title ? ` — ${title}` : ''}`);
+      }
+      lines.push('');
+    }
+
+    if (
+      this.journalEntries.length === 0 &&
+      this.notes.length === 0 &&
+      this.progress.savedPassageBookmarks.length === 0 &&
+      this.favoriteHymns.length === 0
+    ) {
+      lines.push('_No notes, journal entries, bookmarks, or saved hymns recorded yet._');
+    }
+
+    return lines.join('\n');
   }
 
   // 4-Step Progressive Flow Actions
@@ -730,6 +989,7 @@ export function useStudyStore() {
     notes: globalStore.getNotes(),
     flashcards: globalStore.getFlashcards(),
     journalEntries: globalStore.getJournalEntries(),
+    favoriteHymns: globalStore.getFavoriteHymns(),
     currentChapterId: globalStore.getCurrentChapterId(),
     activeEntityId: globalStore.getActiveEntityId(),
     activeCharacterId: globalStore.getActiveCharacterId(),
@@ -785,6 +1045,12 @@ export function useStudyStore() {
     answerFlashcard: (cardId: string, score: number) => globalStore.answerFlashcard(cardId, score),
     loadStarterFlashcards: () => globalStore.loadStarterFlashcards(),
     clearAllStudyData: () => globalStore.clearAllStudyData(),
+    toggleFavoriteHymn: (num: number) => globalStore.toggleFavoriteHymn(num),
+    setActivePlanId: (planId: string) => globalStore.setActivePlanId(planId),
+    togglePlanDayComplete: (planId: string, day: number) => globalStore.togglePlanDayComplete(planId, day),
+    exportStudyBackup: () => globalStore.exportStudyBackup(),
+    importStudyBackup: (payload: unknown, mode?: 'merge' | 'replace') => globalStore.importStudyBackup(payload, mode),
+    exportStudyMarkdown: () => globalStore.exportStudyMarkdown(),
     openVisualOverview: (chapId: string, anchorVerseNum?: number) => globalStore.openVisualOverview(chapId, anchorVerseNum),
     startReadingFromOverview: () => globalStore.startReadingFromOverview(),
     navigateToPassage: (chapId: string, vNum?: number) => globalStore.navigateToPassage(chapId, vNum),

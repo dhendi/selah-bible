@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import {
   Layers,
   Bookmark,
@@ -7,6 +7,9 @@ import {
   BookOpen,
   CheckCircle,
   PenLine,
+  Download,
+  Upload,
+  FileText,
 } from 'lucide-react';
 import { useStudyStore } from '../../store/useStudyStore';
 import { PICKER_BOOK_MAP, type BibleBookId } from '../../data/bookGroups';
@@ -14,18 +17,75 @@ import { FlashcardDeck } from './FlashcardDeck';
 import { NotesManager } from './NotesManager';
 import { JournalTimeline } from './JournalTimeline';
 
+function triggerDownload(filename: string, content: string, mimeType: string) {
+  const blob = new Blob([content], { type: mimeType });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
 export const LibraryScreen: React.FC = () => {
   const {
     progress,
     notes,
     flashcards,
     journalEntries,
+    favoriteHymns,
     clearAllStudyData,
     navigateToPassage,
+    exportStudyBackup,
+    importStudyBackup,
+    exportStudyMarkdown,
   } = useStudyStore();
 
   const [activeSubTab, setActiveSubTab] = useState<'journal' | 'flashcards' | 'notes' | 'bookmarks'>('journal');
   const [confirmClear, setConfirmClear] = useState(false);
+  const [restoreMode, setRestoreMode] = useState<'merge' | 'replace'>('merge');
+  const [backupStatus, setBackupStatus] = useState<{ ok: boolean; message: string } | null>(null);
+  const fileInputRef = useRef<HTMLInputElement | null>(null);
+
+  const handleDownloadBackup = () => {
+    const backup = exportStudyBackup();
+    const stamp = new Date().toISOString().split('T')[0];
+    triggerDownload(
+      `selah-study-backup-${stamp}.json`,
+      JSON.stringify(backup, null, 2),
+      'application/json'
+    );
+    setBackupStatus({
+      ok: true,
+      message: `Saved backup (${notes.length} notes, ${journalEntries.length} journal, ${flashcards.length} cards, ${favoriteHymns.length} hymns).`,
+    });
+  };
+
+  const handleDownloadMarkdown = async () => {
+    const md = await exportStudyMarkdown();
+    const stamp = new Date().toISOString().split('T')[0];
+    triggerDownload(`selah-study-archive-${stamp}.md`, md, 'text/markdown;charset=utf-8');
+    setBackupStatus({ ok: true, message: 'Exported Markdown study archive (.md).' });
+  };
+
+  const handleFileSelected = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    e.target.value = '';
+    if (!file) return;
+    try {
+      const text = await file.text();
+      const parsed = JSON.parse(text);
+      const res = importStudyBackup(parsed, restoreMode);
+      setBackupStatus({ ok: res.ok, message: res.summary });
+    } catch {
+      setBackupStatus({
+        ok: false,
+        message: 'Could not read that file. Please select a valid Selah JSON backup.',
+      });
+    }
+  };
 
   // Calculate quiz accuracy
   const totalQuestions = progress.quizScores.reduce((acc, q) => acc + q.total, 0);
@@ -187,6 +247,87 @@ export const LibraryScreen: React.FC = () => {
           </div>
         )}
       </main>
+
+      {/* Backup & Export Archive Card */}
+      <section className="mb-6 bg-[#F3EFE6] rounded-3xl p-4 sm:p-5 border border-[#E5DFD5] space-y-3">
+        <div className="flex items-start justify-between gap-2">
+          <div>
+            <div className="text-[0.6875rem] font-bold uppercase tracking-wider text-[#7A9A82]">
+              Backup &amp; Export
+            </div>
+            <p className="text-xs text-[#666158] mt-0.5">
+              Save your notes, journal, flashcards, reading plans, and {favoriteHymns.length} saved{' '}
+              {favoriteHymns.length === 1 ? 'hymn' : 'hymns'} to keep across devices.
+            </p>
+          </div>
+        </div>
+
+        <div className="grid sm:grid-cols-2 gap-2">
+          <button
+            onClick={handleDownloadBackup}
+            className="inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl bg-[#24221E] hover:bg-[#3A3731] text-[#FAF7F2] text-xs font-semibold transition-colors cursor-pointer"
+          >
+            <Download className="w-3.5 h-3.5" />
+            <span>Download JSON Backup</span>
+          </button>
+
+          <button
+            onClick={handleDownloadMarkdown}
+            className="inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl bg-[#FAF7F2] hover:bg-[#EFE9DC] border border-[#DED7CB] text-[#24221E] text-xs font-semibold transition-colors cursor-pointer"
+          >
+            <FileText className="w-3.5 h-3.5 text-[#8B3A2B]" />
+            <span>Export Study Archive (.md)</span>
+          </button>
+        </div>
+
+        <div className="pt-2 border-t border-[#E5DFD5] flex flex-wrap items-center justify-between gap-2">
+          <div className="inline-flex items-center gap-1 text-[0.6875rem] bg-[#FAF7F2] p-0.5 rounded-lg border border-[#E5DFD5]">
+            <button
+              onClick={() => setRestoreMode('merge')}
+              className={`px-2 py-1 rounded-md font-semibold cursor-pointer ${
+                restoreMode === 'merge' ? 'bg-[#7A9A82] text-white' : 'text-[#666158]'
+              }`}
+            >
+              Merge
+            </button>
+            <button
+              onClick={() => setRestoreMode('replace')}
+              className={`px-2 py-1 rounded-md font-semibold cursor-pointer ${
+                restoreMode === 'replace' ? 'bg-[#8B3A2B] text-white' : 'text-[#666158]'
+              }`}
+            >
+              Replace
+            </button>
+          </div>
+
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept=".json,application/json"
+            onChange={handleFileSelected}
+            className="hidden"
+          />
+          <button
+            onClick={() => fileInputRef.current?.click()}
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#FAF7F2] hover:bg-[#EFE9DC] border border-[#DED7CB] text-xs font-semibold text-[#24221E] transition-colors cursor-pointer"
+          >
+            <Upload className="w-3.5 h-3.5 text-[#7A9A82]" />
+            <span>Import JSON ({restoreMode === 'merge' ? 'Merge' : 'Replace'})</span>
+          </button>
+        </div>
+
+        {backupStatus && (
+          <div
+            className={`text-xs px-3 py-2 rounded-xl border ${
+              backupStatus.ok
+                ? 'bg-[#EBF2ED] border-[#C6DBC9] text-[#285842]'
+                : 'bg-[#FAECE5] border-[#ECCDC0] text-[#8B3A2B]'
+            }`}
+          >
+            {backupStatus.message}
+          </div>
+        )}
+      </section>
 
       {/* Clean Slate Reset Section */}
       <footer className="pt-4 border-t border-[#E8E2D7] text-center space-y-3">

@@ -3,30 +3,64 @@ import {
   ArrowLeft,
   ArrowRight,
   BookMarked,
+  BookOpen,
   Check,
+  ChevronLeft,
+  ChevronRight,
   Copy,
   Heart,
+  Maximize2,
+  Moon,
   Music,
   Search,
+  Share2,
   Square,
+  Sun,
   Volume2,
   X,
 } from 'lucide-react';
 import { SDA_HYMNAL_SECTIONS, SDA_HYMNS, type HymnEntry } from '../../data/sdaHymnal';
+import { getHymnScriptureLinks } from '../../data/hymnScriptureLinks';
 import { useStudyStore } from '../../store/useStudyStore';
 
-const FAVORITE_HYMNS_KEY = 'selah_favorite_hymns_v1';
 const PAGE_BATCH_SIZE = 80;
 
-function loadFavoriteHymns(): number[] {
-  try {
-    const raw = localStorage.getItem(FAVORITE_HYMNS_KEY);
-    if (!raw) return [];
-    const parsed = JSON.parse(raw);
-    return Array.isArray(parsed) ? parsed.filter((n) => typeof n === 'number') : [];
-  } catch {
-    return [];
+interface WorshipSlide {
+  label: string;
+  text: string;
+  isRefrain?: boolean;
+}
+
+function buildWorshipSlides(hymn: HymnEntry): WorshipSlide[] {
+  const slides: WorshipSlide[] = [];
+  hymn.verses.forEach((v, idx) => {
+    slides.push({
+      label: `Stanza ${idx + 1} of ${hymn.verses.length}`,
+      text: v,
+    });
+    if (hymn.refrain && !(hymn.refrain2 && idx === hymn.verses.length - 1)) {
+      slides.push({
+        label: 'Refrain',
+        text: hymn.refrain,
+        isRefrain: true,
+      });
+    }
+  });
+  if (hymn.refrain2) {
+    slides.push({
+      label: 'Final Refrain',
+      text: hymn.refrain2,
+      isRefrain: true,
+    });
   }
+  return slides;
+}
+
+function getHymnIllustrationId(sectionId: number): string {
+  if (sectionId === 2 || sectionId === 3) return 'ill-creation';
+  if (sectionId === 6) return 'ill-wisdom-scroll';
+  if (sectionId === 7 || sectionId === 9 || sectionId === 10) return 'ill-courage-light';
+  return 'ill-peace-pastures';
 }
 
 export const HymnalsScreen: React.FC = () => {
@@ -34,14 +68,21 @@ export const HymnalsScreen: React.FC = () => {
     preferences,
     activeHymnNumber,
     setActiveHymnNumber,
+    favoriteHymns,
+    toggleFavoriteHymn,
+    navigateToPassage,
+    openShareModal,
   } = useStudyStore();
 
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedSectionId, setSelectedSectionId] = useState<'all' | 'saved' | number>('all');
   const [visibleLimit, setVisibleLimit] = useState(PAGE_BATCH_SIZE);
-  const [favoriteNumbers, setFavoriteNumbers] = useState<number[]>(() => loadFavoriteHymns());
   const [copiedNumber, setCopiedNumber] = useState<number | null>(null);
   const [isSpeaking, setIsSpeaking] = useState(false);
+  const [worshipMode, setWorshipMode] = useState(false);
+  const [worshipSlideIdx, setWorshipSlideIdx] = useState(0);
+  const [worshipTheme, setWorshipTheme] = useState<'dark' | 'parchment'>('dark');
+  const [worshipFontPx, setWorshipFontPx] = useState(28);
   const topRef = useRef<HTMLDivElement>(null);
 
   const sectionMap = useMemo(() => {
@@ -50,12 +91,17 @@ export const HymnalsScreen: React.FC = () => {
     return m;
   }, []);
 
-  const favoriteSet = useMemo(() => new Set(favoriteNumbers), [favoriteNumbers]);
+  const favoriteSet = useMemo(() => new Set(favoriteHymns), [favoriteHymns]);
 
   const activeHymn: HymnEntry | null = useMemo(() => {
     if (activeHymnNumber == null) return null;
     return SDA_HYMNS.find((h) => h.number === activeHymnNumber) ?? null;
   }, [activeHymnNumber]);
+
+  const worshipSlides = useMemo(
+    () => (activeHymn ? buildWorshipSlides(activeHymn) : []),
+    [activeHymn]
+  );
 
   useEffect(() => {
     if (activeHymnNumber != null) {
@@ -69,18 +115,44 @@ export const HymnalsScreen: React.FC = () => {
     };
   }, [activeHymnNumber]);
 
+  useEffect(() => {
+    if (!worshipMode) return;
+    let wakeLock: { release?: () => Promise<void> } | null = null;
+    const navWithWake = navigator as Navigator & {
+      wakeLock?: { request: (type: 'screen') => Promise<{ release?: () => Promise<void> }> };
+    };
+    if (navWithWake.wakeLock?.request) {
+      navWithWake.wakeLock
+        .request('screen')
+        .then((sentinel) => {
+          wakeLock = sentinel;
+        })
+        .catch(() => {});
+    }
+
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setWorshipMode(false);
+      } else if (e.key === 'ArrowRight' || e.key === ' ') {
+        e.preventDefault();
+        setWorshipSlideIdx((i) => Math.min(i + 1, Math.max(0, worshipSlides.length - 1)));
+      } else if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        setWorshipSlideIdx((i) => Math.max(i - 1, 0));
+      }
+    };
+    window.addEventListener('keydown', onKeyDown);
+    return () => {
+      window.removeEventListener('keydown', onKeyDown);
+      if (wakeLock?.release) {
+        wakeLock.release().catch(() => {});
+      }
+    };
+  }, [worshipMode, worshipSlides.length]);
+
   const toggleFavorite = (num: number, e?: React.MouseEvent) => {
     if (e) e.stopPropagation();
-    setFavoriteNumbers((prev) => {
-      const exists = prev.includes(num);
-      const next = exists ? prev.filter((n) => n !== num) : [num, ...prev].sort((a, b) => a - b);
-      try {
-        localStorage.setItem(FAVORITE_HYMNS_KEY, JSON.stringify(next));
-      } catch {
-        // ignore storage quota errors
-      }
-      return next;
-    });
+    toggleFavoriteHymn(num);
   };
 
   const trimmedQuery = searchQuery.trim();
@@ -120,6 +192,8 @@ export const HymnalsScreen: React.FC = () => {
       window.speechSynthesis.cancel();
     }
     setIsSpeaking(false);
+    setWorshipMode(false);
+    setWorshipSlideIdx(0);
     setActiveHymnNumber(num);
   };
 
@@ -176,9 +250,156 @@ export const HymnalsScreen: React.FC = () => {
     const nextNum = activeHymn.number < SDA_HYMNS.length ? activeHymn.number + 1 : null;
     const isFav = favoriteSet.has(activeHymn.number);
     const secName = sectionMap.get(activeHymn.sectionId) || 'SDA Hymnal';
+    const scriptureLinks = getHymnScriptureLinks(activeHymn.number, activeHymn.sectionId);
+    const currentSlide = worshipSlides[worshipSlideIdx] ?? worshipSlides[0];
+    const isDarkWorship = worshipTheme === 'dark';
 
     return (
       <div ref={topRef} className="px-4 sm:px-8 py-5 pb-10 space-y-6">
+        {/* Full-Screen Worship / Projection Mode */}
+        {worshipMode && currentSlide && (
+          <div
+            className={`fixed inset-0 z-50 flex flex-col justify-between p-5 sm:p-10 transition-colors ${
+              isDarkWorship
+                ? 'bg-[#171614] text-[#FAF7F2]'
+                : 'bg-[#FBF8F1] text-[#24221E]'
+            }`}
+            role="dialog"
+            aria-modal="true"
+            aria-label={`Worship projection for Hymn ${activeHymn.number}`}
+          >
+            {/* Projection Top Controls */}
+            <div className="flex flex-wrap items-center justify-between gap-2">
+              <div className="min-w-0">
+                <div
+                  className={`text-xs font-semibold uppercase tracking-[0.14em] ${
+                    isDarkWorship ? 'text-[#D69B84]' : 'text-[#8B3A2B]'
+                  }`}
+                >
+                  Hymn #{activeHymn.number} · {secName}
+                </div>
+                <div className="font-serif font-bold text-base sm:text-lg truncate">
+                  {activeHymn.title}
+                </div>
+              </div>
+
+              <div className="flex items-center gap-1.5 sm:gap-2">
+                <button
+                  onClick={() => setWorshipFontPx((s) => Math.max(20, s - 3))}
+                  className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold border cursor-pointer ${
+                    isDarkWorship
+                      ? 'border-[#3B3732] bg-[#24221E] text-[#FAF7F2]'
+                      : 'border-[#DED7CB] bg-[#F3EFE6] text-[#24221E]'
+                  }`}
+                  aria-label="Decrease projection text size"
+                >
+                  A-
+                </button>
+                <button
+                  onClick={() => setWorshipFontPx((s) => Math.min(44, s + 3))}
+                  className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold border cursor-pointer ${
+                    isDarkWorship
+                      ? 'border-[#3B3732] bg-[#24221E] text-[#FAF7F2]'
+                      : 'border-[#DED7CB] bg-[#F3EFE6] text-[#24221E]'
+                  }`}
+                  aria-label="Increase projection text size"
+                >
+                  A+
+                </button>
+                <button
+                  onClick={() => setWorshipTheme((t) => (t === 'dark' ? 'parchment' : 'dark'))}
+                  className={`inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-semibold border cursor-pointer ${
+                    isDarkWorship
+                      ? 'border-[#3B3732] bg-[#24221E] text-[#FAF7F2]'
+                      : 'border-[#DED7CB] bg-[#F3EFE6] text-[#24221E]'
+                  }`}
+                  aria-label="Toggle worship projection theme"
+                >
+                  {isDarkWorship ? <Sun className="w-3.5 h-3.5" /> : <Moon className="w-3.5 h-3.5" />}
+                  <span className="hidden sm:inline">{isDarkWorship ? 'Light' : 'Dark'}</span>
+                </button>
+                <button
+                  onClick={() => setWorshipMode(false)}
+                  className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-[#8B3A2B] text-white text-xs font-semibold cursor-pointer hover:bg-[#722E21]"
+                >
+                  <X className="w-3.5 h-3.5" />
+                  <span>Exit</span>
+                </button>
+              </div>
+            </div>
+
+            {/* Centered Stanza / Refrain */}
+            <div className="flex-1 flex flex-col items-center justify-center max-w-3xl mx-auto w-full py-6 text-center overflow-y-auto">
+              <span
+                className={`inline-block px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-widest mb-5 ${
+                  currentSlide.isRefrain
+                    ? 'bg-[#8B3A2B] text-white'
+                    : isDarkWorship
+                      ? 'bg-[#282521] text-[#D6CFC3]'
+                      : 'bg-[#EFE9DC] text-[#8B3A2B]'
+                }`}
+              >
+                {currentSlide.label}
+              </span>
+              <p
+                className={`whitespace-pre-line font-serif leading-relaxed ${
+                  currentSlide.isRefrain ? 'italic' : ''
+                }`}
+                style={{ fontSize: `${worshipFontPx}px` }}
+              >
+                {currentSlide.text}
+              </p>
+            </div>
+
+            {/* Bottom Slide Navigation */}
+            <div className="flex flex-col items-center gap-3">
+              <div className="flex items-center gap-1.5 flex-wrap justify-center">
+                {worshipSlides.map((slide, idx) => (
+                  <button
+                    key={`${slide.label}-${idx}`}
+                    onClick={() => setWorshipSlideIdx(idx)}
+                    aria-label={`Go to ${slide.label}`}
+                    className={`h-2 rounded-full transition-all cursor-pointer ${
+                      idx === worshipSlideIdx
+                        ? 'w-6 bg-[#8B3A2B]'
+                        : isDarkWorship
+                          ? 'w-2 bg-[#4A453F] hover:bg-[#766E65]'
+                          : 'w-2 bg-[#D6CCBA] hover:bg-[#8C867B]'
+                    }`}
+                  />
+                ))}
+              </div>
+              <div className="w-full max-w-md flex items-center justify-between gap-3">
+                <button
+                  onClick={() => setWorshipSlideIdx((i) => Math.max(0, i - 1))}
+                  disabled={worshipSlideIdx === 0}
+                  className={`inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-xs font-semibold border disabled:opacity-30 cursor-pointer ${
+                    isDarkWorship
+                      ? 'border-[#3B3732] bg-[#24221E] text-[#FAF7F2]'
+                      : 'border-[#DED7CB] bg-[#F3EFE6] text-[#24221E]'
+                  }`}
+                >
+                  <ChevronLeft className="w-4 h-4" />
+                  <span>Previous</span>
+                </button>
+                <span className="text-xs opacity-70 font-medium">
+                  Slide {worshipSlideIdx + 1} / {worshipSlides.length}
+                </span>
+                <button
+                  onClick={() =>
+                    setWorshipSlideIdx((i) => Math.min(worshipSlides.length - 1, i + 1))
+                  }
+                  disabled={worshipSlideIdx >= worshipSlides.length - 1}
+                  className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-xs font-semibold bg-[#8B3A2B] text-white disabled:opacity-30 cursor-pointer hover:bg-[#722E21]"
+                >
+                  <span>Next</span>
+                  <ChevronRight className="w-4 h-4" />
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Top Action Bar */}
         <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-[#E5DFD5]">
           <button
@@ -189,7 +410,19 @@ export const HymnalsScreen: React.FC = () => {
             <span>All Hymns</span>
           </button>
 
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
+            <button
+              onClick={() => {
+                setWorshipSlideIdx(0);
+                setWorshipMode(true);
+              }}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#24221E] text-[#FBF8F1] hover:bg-[#3A3731] text-xs font-semibold transition-colors cursor-pointer"
+              aria-label="Open Worship Mode projection"
+            >
+              <Maximize2 className="w-3.5 h-3.5" />
+              <span>Worship</span>
+            </button>
+
             <button
               onClick={(e) => toggleFavorite(activeHymn.number, e)}
               className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-xs font-semibold transition-colors cursor-pointer ${
@@ -201,6 +434,23 @@ export const HymnalsScreen: React.FC = () => {
             >
               <Heart className={`w-3.5 h-3.5 ${isFav ? 'fill-[#8B3A2B] text-[#8B3A2B]' : ''}`} />
               <span>{isFav ? 'Saved' : 'Save'}</span>
+            </button>
+
+            <button
+              onClick={() =>
+                openShareModal({
+                  verseRef: `Seventh-day Adventist Hymnal #${activeHymn.number}`,
+                  verseText: activeHymn.refrain || activeHymn.verses[0] || activeHymn.title,
+                  illustrationId: getHymnIllustrationId(activeHymn.sectionId),
+                  cardTitle: activeHymn.title,
+                  cardCategory: secName,
+                })
+              }
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border bg-[#FAF7F2] border-[#DED7CB] text-[#484642] hover:bg-[#F3EFE6] text-xs font-semibold transition-colors cursor-pointer"
+              aria-label="Share hymn quote card"
+            >
+              <Share2 className="w-3.5 h-3.5 text-[#7A9A82]" />
+              <span>Share</span>
             </button>
 
             <button
@@ -301,6 +551,26 @@ export const HymnalsScreen: React.FC = () => {
             </section>
           )}
         </div>
+
+        {/* Connected Scripture Passages */}
+        <section className="rounded-xl bg-[#F4EFE4] border border-[#E2DACB] p-4 space-y-2.5">
+          <div className="flex items-center gap-1.5 text-[0.6875rem] uppercase tracking-[0.14em] font-semibold text-[#7A9A82]">
+            <BookOpen className="w-3.5 h-3.5" />
+            <span>Scripture Connections</span>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {scriptureLinks.map((link) => (
+              <button
+                key={`${link.chapterId}-${link.label}`}
+                onClick={() => navigateToPassage(link.chapterId, link.verseNumber)}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#FAF7F2] hover:bg-[#EFE7D6] border border-[#DED7CB] text-xs font-serif font-semibold text-[#24221E] transition-colors cursor-pointer"
+              >
+                <span>{link.label}</span>
+                <ArrowRight className="w-3 h-3 text-[#8B3A2B]" />
+              </button>
+            ))}
+          </div>
+        </section>
 
         {/* Prev / Next Navigation */}
         <div className="pt-4 border-t border-[#E5DFD5] flex items-center justify-between gap-3">
@@ -445,7 +715,7 @@ export const HymnalsScreen: React.FC = () => {
             }`}
           >
             <Heart className={`w-3 h-3 ${selectedSectionId === 'saved' ? 'fill-white' : 'text-[#8B3A2B]'}`} />
-            <span>Saved ({favoriteNumbers.length})</span>
+            <span>Saved ({favoriteHymns.length})</span>
           </button>
 
           {SDA_HYMNAL_SECTIONS.map((sec) => (

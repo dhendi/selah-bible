@@ -215,6 +215,7 @@ export interface ReaderPreferences {
   highlightConnections: boolean;
   audioSpeechRate: number;
   uiScale?: 'normal' | 'large' | 'xlarge';
+  translationMode?: 'WEB' | 'KJV' | 'COMPARE';
 }
 
 export interface UserStudyProgress {
@@ -226,6 +227,8 @@ export interface UserStudyProgress {
   quizScores: { quizId: string; score: number; total: number; date: string }[];
   readVersesCount: number;
   savedPassageBookmarks: string[];
+  activePlanId?: string;
+  completedPlanDays?: Record<string, number[]>;
   lastReadPassage: {
     bookId: string;
     chapterNumber: number;

@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { ArrowRight, BookOpen, BookOpenText } from 'lucide-react';
+import { ArrowRight, BookOpen, BookOpenText, Check, ChevronDown, ChevronUp } from 'lucide-react';
 import { useStudyStore } from '../../store/useStudyStore';
 import { MiniQuizModal } from '../quiz/MiniQuizModal';
 import { getWordStudyForChapter } from '../../data/wordOfTheDay';
 import { preloadBookForChapter, useChapterData } from '../../data/bookLoader';
+import { READING_PLANS } from '../../data/readingPlans';
 import { assetUrl } from '../../utils/assetUrl';
 import {
   BIBLE_BOOK_GROUPS,
@@ -72,15 +73,28 @@ function resolveQuizId(chapterId: string): string {
 
 export const TodayScreen: React.FC = () => {
   const {
+    preferences,
     progress,
     navigateToPassage,
     navigateToStory,
     openEntitySheet,
     currentChapterId,
     setShowChapterPicker,
+    setActivePlanId,
+    togglePlanDayComplete,
   } = useStudyStore();
 
   const [activeQuizPassage, setActiveQuizPassage] = useState<string | null>(null);
+  const [showAllPlanDays, setShowAllPlanDays] = useState(false);
+
+  const activePlan =
+    READING_PLANS.find((p) => p.id === (progress.activePlanId || 'foundations-sda-14')) ??
+    READING_PLANS[0];
+  const completedSet = new Set(progress.completedPlanDays?.[activePlan.id] ?? []);
+  const nextDay =
+    activePlan.days.find((d) => !completedSet.has(d.day)) ??
+    activePlan.days[activePlan.days.length - 1];
+  const planPct = Math.round((completedSet.size / activePlan.days.length) * 100);
 
   const activeChapter = currentChapterId || 'GEN-1';
   const bookId = parseBookIdFromChapter(activeChapter);
@@ -109,7 +123,12 @@ export const TodayScreen: React.FC = () => {
       {/* Book Flyleaf / Title Page Masthead */}
       <header className="text-center pb-6 border-b border-[#E2DACB] mb-7">
         <div className="text-[0.625rem] uppercase tracking-[0.24em] text-[#8B3A2B] font-semibold">
-          The Holy Scriptures · World English Bible
+          The Holy Scriptures ·{' '}
+          {preferences.translationMode === 'COMPARE'
+            ? 'WEB & King James Parallel'
+            : preferences.translationMode === 'KJV'
+              ? 'King James Version'
+              : 'World English Bible'}
         </div>
         <h1 className="text-3xl font-serif font-semibold text-[#24221E] mt-2 tracking-tight">
           Selah Study Edition
@@ -245,6 +264,144 @@ export const TodayScreen: React.FC = () => {
           </div>
           <ArrowRight className="w-4 h-4 text-[#8B3A2B] flex-shrink-0 transform group-hover:translate-x-0.5 transition-transform" />
         </button>
+      </section>
+
+      {/* 2.75 Guided Reading Plans */}
+      <section className="pb-7 mb-7 border-b border-[#E2DACB] space-y-3.5">
+        <div className="flex items-baseline justify-between gap-2">
+          <h3 className="text-xs font-bold uppercase tracking-[0.16em] text-[#666158]">
+            Guided Reading Plans
+          </h3>
+          <span className="text-[0.6875rem] font-semibold text-[#7A9A82]">
+            {completedSet.size}/{activePlan.days.length} days ({planPct}%)
+          </span>
+        </div>
+
+        {/* Plan Selector Pills */}
+        <div className="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar">
+          {READING_PLANS.map((plan) => {
+            const isSelected = plan.id === activePlan.id;
+            return (
+              <button
+                key={plan.id}
+                onClick={() => {
+                  setActivePlanId(plan.id);
+                  setShowAllPlanDays(false);
+                }}
+                className={`shrink-0 px-3 py-1 rounded-full text-xs font-semibold border transition-colors cursor-pointer ${
+                  isSelected
+                    ? 'bg-[#24221E] text-[#FBF8F1] border-[#24221E]'
+                    : 'bg-[#F4EFE4] text-[#484642] border-[#DED7CB] hover:bg-[#EAE3D5]'
+                }`}
+              >
+                {plan.title}
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Active Plan Card */}
+        <div className="bg-[#F4EFE4] border border-[#DDD3C1] p-4 sm:p-5 space-y-3">
+          <div className="flex items-center justify-between gap-2">
+            <div>
+              <div className="text-[0.625rem] uppercase tracking-[0.16em] text-[#8B3A2B] font-semibold">
+                {activePlan.badge} · {activePlan.title}
+              </div>
+              <p className="text-xs text-[#666158] mt-0.5">{activePlan.subtitle}</p>
+            </div>
+          </div>
+
+          {/* Progress Bar */}
+          <div className="w-full h-1.5 bg-[#E2DACB] rounded-full overflow-hidden">
+            <div
+              className="h-full bg-[#7A9A82] transition-all duration-300"
+              style={{ width: `${planPct}%` }}
+            />
+          </div>
+
+          {/* Next Up / Today's Reading */}
+          {nextDay && (
+            <div className="bg-[#FBF8F1] border border-[#E2DACB] p-3.5 space-y-2">
+              <div className="flex items-center justify-between gap-2">
+                <span className="text-[0.625rem] uppercase tracking-[0.14em] font-bold text-[#7A9A82]">
+                  {completedSet.size === activePlan.days.length
+                    ? 'Plan Completed'
+                    : `Day ${nextDay.day} · ${nextDay.passageLabel}`}
+                </span>
+                <button
+                  onClick={() => togglePlanDayComplete(activePlan.id, nextDay.day)}
+                  className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[0.6875rem] font-semibold border transition-colors cursor-pointer ${
+                    completedSet.has(nextDay.day)
+                      ? 'bg-[#EBF2ED] border-[#7A9A82] text-[#285842]'
+                      : 'bg-[#F4EFE4] border-[#DED7CB] text-[#484642] hover:bg-[#EAE3D5]'
+                  }`}
+                >
+                  <Check className="w-3 h-3" />
+                  <span>{completedSet.has(nextDay.day) ? 'Done' : 'Mark Read'}</span>
+                </button>
+              </div>
+              <div className="font-serif font-semibold text-sm text-[#24221E]">
+                {nextDay.title}
+              </div>
+              <p className="text-xs text-[#5B564D] leading-relaxed">{nextDay.reflection}</p>
+              <div className="pt-1 flex items-center justify-between gap-2">
+                <button
+                  onClick={() => navigateToPassage(nextDay.chapterId)}
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-[#24221E] hover:bg-[#3A3731] text-[#FBF8F1] text-xs font-medium rounded-sm transition-colors cursor-pointer"
+                >
+                  <BookOpen className="w-3.5 h-3.5" />
+                  <span>Read {nextDay.passageLabel}</span>
+                </button>
+                <button
+                  onClick={() => setShowAllPlanDays((v) => !v)}
+                  className="inline-flex items-center gap-1 text-xs font-serif italic text-[#8B3A2B] hover:underline cursor-pointer"
+                >
+                  <span>{showAllPlanDays ? 'Hide schedule' : 'All days'}</span>
+                  {showAllPlanDays ? (
+                    <ChevronUp className="w-3.5 h-3.5" />
+                  ) : (
+                    <ChevronDown className="w-3.5 h-3.5" />
+                  )}
+                </button>
+              </div>
+            </div>
+          )}
+
+          {/* Expandable Full Schedule */}
+          {showAllPlanDays && (
+            <div className="max-h-60 overflow-y-auto divide-y divide-[#E2DACB] border-t border-[#E2DACB] pt-1">
+              {activePlan.days.map((d) => {
+                const isDone = completedSet.has(d.day);
+                return (
+                  <div key={d.day} className="py-2 flex items-center justify-between gap-2 text-xs">
+                    <button
+                      onClick={() => navigateToPassage(d.chapterId)}
+                      className="flex items-baseline gap-2 min-w-0 text-left hover:text-[#8B3A2B] cursor-pointer"
+                    >
+                      <span className="font-semibold text-[#8C867B] w-10 shrink-0">
+                        Day {d.day}
+                      </span>
+                      <span className={`font-serif font-semibold truncate ${isDone ? 'line-through text-[#8C867B]' : 'text-[#24221E]'}`}>
+                        {d.passageLabel} — {d.title}
+                      </span>
+                    </button>
+                    <button
+                      onClick={() => togglePlanDayComplete(activePlan.id, d.day)}
+                      aria-label={`Toggle Day ${d.day} complete`}
+                      className={`shrink-0 w-6 h-6 rounded-full border flex items-center justify-center cursor-pointer transition-colors ${
+                        isDone
+                          ? 'bg-[#7A9A82] border-[#7A9A82] text-white'
+                          : 'bg-[#FBF8F1] border-[#D6CCBA] text-transparent hover:border-[#7A9A82]'
+                      }`}
+                    >
+                      <Check className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
       </section>
 
       {/* 3. Table of Contents Excerpt — Key Passages Across All 66 Books */}

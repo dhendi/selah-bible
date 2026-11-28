@@ -231,7 +231,7 @@ export const ShareVerseModal: React.FC = () => {
                   </p>
                 )}
                 <p
-                  className={`text-[#484642] leading-relaxed mt-2.5 ${fontClass}`}
+                  className={`whitespace-pre-line text-[#484642] leading-relaxed mt-2.5 ${fontClass}`}
                   style={{
                     fontSize: `${Math.min(preferences.fontSize - 2, 16)}px`,
                     lineHeight: preferences.lineHeight,

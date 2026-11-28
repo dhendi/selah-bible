@@ -3,7 +3,6 @@ import {
   Compass,
   ArrowRight,
   CheckCircle2,
-  Sparkles,
   BookOpen,
   XCircle,
 } from 'lucide-react';
@@ -273,7 +272,7 @@ export const OnboardingFlow: React.FC = () => {
           <div className="space-y-4 animate-fade-in py-1">
             <div>
               <span className="text-xs font-bold uppercase tracking-wider text-[#7A9A82] flex items-center gap-1">
-                <Sparkles className="w-3.5 h-3.5" />
+                <Compass className="w-3.5 h-3.5" />
                 The 30-Second "Aha!" Moment
               </span>
               <h2 className="text-xl font-serif font-bold text-[#2C2C2A] mt-1">
