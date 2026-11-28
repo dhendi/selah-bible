@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
 import {
   ArrowLeft,
   ArrowRight,
@@ -105,7 +106,7 @@ export const HymnalsScreen: React.FC = () => {
 
   useEffect(() => {
     if (activeHymnNumber != null) {
-      topRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
     return () => {
       if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
@@ -257,148 +258,150 @@ export const HymnalsScreen: React.FC = () => {
     return (
       <div ref={topRef} className="px-4 sm:px-8 py-5 pb-10 space-y-6">
         {/* Full-Screen Worship / Projection Mode */}
-        {worshipMode && currentSlide && (
-          <div
-            className={`fixed inset-0 z-50 flex flex-col justify-between p-5 sm:p-10 transition-colors ${
-              isDarkWorship
-                ? 'bg-[#171614] text-[#FAF7F2]'
-                : 'bg-[#FBF8F1] text-[#24221E]'
-            }`}
-            role="dialog"
-            aria-modal="true"
-            aria-label={`Worship projection for Hymn ${activeHymn.number}`}
-          >
-            {/* Projection Top Controls */}
-            <div className="flex flex-wrap items-center justify-between gap-2">
-              <div className="min-w-0">
-                <div
-                  className={`text-xs font-semibold uppercase tracking-[0.14em] ${
-                    isDarkWorship ? 'text-[#D69B84]' : 'text-[#8B3A2B]'
-                  }`}
-                >
-                  Hymn #{activeHymn.number} · {secName}
-                </div>
-                <div className="font-serif font-bold text-base sm:text-lg truncate">
-                  {activeHymn.title}
-                </div>
-              </div>
-
-              <div className="flex items-center gap-1.5 sm:gap-2">
-                <button
-                  onClick={() => setWorshipFontPx((s) => Math.max(20, s - 3))}
-                  className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold border cursor-pointer ${
-                    isDarkWorship
-                      ? 'border-[#3B3732] bg-[#24221E] text-[#FAF7F2]'
-                      : 'border-[#DED7CB] bg-[#F3EFE6] text-[#24221E]'
-                  }`}
-                  aria-label="Decrease projection text size"
-                >
-                  A-
-                </button>
-                <button
-                  onClick={() => setWorshipFontPx((s) => Math.min(44, s + 3))}
-                  className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold border cursor-pointer ${
-                    isDarkWorship
-                      ? 'border-[#3B3732] bg-[#24221E] text-[#FAF7F2]'
-                      : 'border-[#DED7CB] bg-[#F3EFE6] text-[#24221E]'
-                  }`}
-                  aria-label="Increase projection text size"
-                >
-                  A+
-                </button>
-                <button
-                  onClick={() => setWorshipTheme((t) => (t === 'dark' ? 'parchment' : 'dark'))}
-                  className={`inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-semibold border cursor-pointer ${
-                    isDarkWorship
-                      ? 'border-[#3B3732] bg-[#24221E] text-[#FAF7F2]'
-                      : 'border-[#DED7CB] bg-[#F3EFE6] text-[#24221E]'
-                  }`}
-                  aria-label="Toggle worship projection theme"
-                >
-                  {isDarkWorship ? <Sun className="w-3.5 h-3.5" /> : <Moon className="w-3.5 h-3.5" />}
-                  <span className="hidden sm:inline">{isDarkWorship ? 'Light' : 'Dark'}</span>
-                </button>
-                <button
-                  onClick={() => setWorshipMode(false)}
-                  className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-[#8B3A2B] text-white text-xs font-semibold cursor-pointer hover:bg-[#722E21]"
-                >
-                  <X className="w-3.5 h-3.5" />
-                  <span>Exit</span>
-                </button>
-              </div>
-            </div>
-
-            {/* Centered Stanza / Refrain */}
-            <div className="flex-1 flex flex-col items-center justify-center max-w-3xl mx-auto w-full py-6 text-center overflow-y-auto">
-              <span
-                className={`inline-block px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-widest mb-5 ${
-                  currentSlide.isRefrain
-                    ? 'bg-[#8B3A2B] text-white'
-                    : isDarkWorship
-                      ? 'bg-[#282521] text-[#D6CFC3]'
-                      : 'bg-[#EFE9DC] text-[#8B3A2B]'
-                }`}
-              >
-                {currentSlide.label}
-              </span>
-              <p
-                className={`whitespace-pre-line font-serif leading-relaxed ${
-                  currentSlide.isRefrain ? 'italic' : ''
-                }`}
-                style={{ fontSize: `${worshipFontPx}px` }}
-              >
-                {currentSlide.text}
-              </p>
-            </div>
-
-            {/* Bottom Slide Navigation */}
-            <div className="flex flex-col items-center gap-3">
-              <div className="flex items-center gap-1.5 flex-wrap justify-center">
-                {worshipSlides.map((slide, idx) => (
-                  <button
-                    key={`${slide.label}-${idx}`}
-                    onClick={() => setWorshipSlideIdx(idx)}
-                    aria-label={`Go to ${slide.label}`}
-                    className={`h-2 rounded-full transition-all cursor-pointer ${
-                      idx === worshipSlideIdx
-                        ? 'w-6 bg-[#8B3A2B]'
-                        : isDarkWorship
-                          ? 'w-2 bg-[#4A453F] hover:bg-[#766E65]'
-                          : 'w-2 bg-[#D6CCBA] hover:bg-[#8C867B]'
+        {worshipMode && currentSlide && typeof document !== 'undefined' &&
+          createPortal(
+            <div
+              className={`fixed inset-0 z-[70] flex flex-col justify-between p-5 sm:p-10 transition-colors ${
+                isDarkWorship
+                  ? 'bg-[#171614] text-[#FAF7F2]'
+                  : 'bg-[#FBF8F1] text-[#24221E]'
+              }`}
+              role="dialog"
+              aria-modal="true"
+              aria-label={`Worship projection for Hymn ${activeHymn.number}`}
+            >
+              {/* Projection Top Controls */}
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <div className="min-w-0">
+                  <div
+                    className={`text-xs font-semibold uppercase tracking-[0.14em] ${
+                      isDarkWorship ? 'text-[#D69B84]' : 'text-[#8B3A2B]'
                     }`}
-                  />
-                ))}
+                  >
+                    Hymn #{activeHymn.number} · {secName}
+                  </div>
+                  <div className="font-serif font-bold text-base sm:text-lg truncate">
+                    {activeHymn.title}
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-1.5 sm:gap-2">
+                  <button
+                    onClick={() => setWorshipFontPx((s) => Math.max(20, s - 3))}
+                    className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold border cursor-pointer ${
+                      isDarkWorship
+                        ? 'border-[#3B3732] bg-[#24221E] text-[#FAF7F2]'
+                        : 'border-[#DED7CB] bg-[#F3EFE6] text-[#24221E]'
+                    }`}
+                    aria-label="Decrease projection text size"
+                  >
+                    A-
+                  </button>
+                  <button
+                    onClick={() => setWorshipFontPx((s) => Math.min(44, s + 3))}
+                    className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold border cursor-pointer ${
+                      isDarkWorship
+                        ? 'border-[#3B3732] bg-[#24221E] text-[#FAF7F2]'
+                        : 'border-[#DED7CB] bg-[#F3EFE6] text-[#24221E]'
+                    }`}
+                    aria-label="Increase projection text size"
+                  >
+                    A+
+                  </button>
+                  <button
+                    onClick={() => setWorshipTheme((t) => (t === 'dark' ? 'parchment' : 'dark'))}
+                    className={`inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-semibold border cursor-pointer ${
+                      isDarkWorship
+                        ? 'border-[#3B3732] bg-[#24221E] text-[#FAF7F2]'
+                        : 'border-[#DED7CB] bg-[#F3EFE6] text-[#24221E]'
+                    }`}
+                    aria-label="Toggle worship projection theme"
+                  >
+                    {isDarkWorship ? <Sun className="w-3.5 h-3.5" /> : <Moon className="w-3.5 h-3.5" />}
+                    <span className="hidden sm:inline">{isDarkWorship ? 'Light' : 'Dark'}</span>
+                  </button>
+                  <button
+                    onClick={() => setWorshipMode(false)}
+                    className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-[#8B3A2B] text-white text-xs font-semibold cursor-pointer hover:bg-[#722E21]"
+                  >
+                    <X className="w-3.5 h-3.5" />
+                    <span>Exit</span>
+                  </button>
+                </div>
               </div>
-              <div className="w-full max-w-md flex items-center justify-between gap-3">
-                <button
-                  onClick={() => setWorshipSlideIdx((i) => Math.max(0, i - 1))}
-                  disabled={worshipSlideIdx === 0}
-                  className={`inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-xs font-semibold border disabled:opacity-30 cursor-pointer ${
-                    isDarkWorship
-                      ? 'border-[#3B3732] bg-[#24221E] text-[#FAF7F2]'
-                      : 'border-[#DED7CB] bg-[#F3EFE6] text-[#24221E]'
+
+              {/* Centered Stanza / Refrain */}
+              <div className="flex-1 flex flex-col items-center justify-center max-w-3xl mx-auto w-full py-6 text-center overflow-y-auto">
+                <span
+                  className={`inline-block px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-widest mb-5 ${
+                    currentSlide.isRefrain
+                      ? 'bg-[#8B3A2B] text-white'
+                      : isDarkWorship
+                        ? 'bg-[#282521] text-[#D6CFC3]'
+                        : 'bg-[#EFE9DC] text-[#8B3A2B]'
                   }`}
                 >
-                  <ChevronLeft className="w-4 h-4" />
-                  <span>Previous</span>
-                </button>
-                <span className="text-xs opacity-70 font-medium">
-                  Slide {worshipSlideIdx + 1} / {worshipSlides.length}
+                  {currentSlide.label}
                 </span>
-                <button
-                  onClick={() =>
-                    setWorshipSlideIdx((i) => Math.min(worshipSlides.length - 1, i + 1))
-                  }
-                  disabled={worshipSlideIdx >= worshipSlides.length - 1}
-                  className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-xs font-semibold bg-[#8B3A2B] text-white disabled:opacity-30 cursor-pointer hover:bg-[#722E21]"
+                <p
+                  className={`whitespace-pre-line font-serif leading-relaxed ${
+                    currentSlide.isRefrain ? 'italic' : ''
+                  }`}
+                  style={{ fontSize: `${worshipFontPx}px` }}
                 >
-                  <span>Next</span>
-                  <ChevronRight className="w-4 h-4" />
-                </button>
+                  {currentSlide.text}
+                </p>
               </div>
-            </div>
-          </div>
-        )}
+
+              {/* Bottom Slide Navigation */}
+              <div className="flex flex-col items-center gap-3">
+                <div className="flex items-center gap-1.5 flex-wrap justify-center">
+                  {worshipSlides.map((slide, idx) => (
+                    <button
+                      key={`${slide.label}-${idx}`}
+                      onClick={() => setWorshipSlideIdx(idx)}
+                      aria-label={`Go to ${slide.label}`}
+                      className={`h-2 rounded-full transition-all cursor-pointer ${
+                        idx === worshipSlideIdx
+                          ? 'w-6 bg-[#8B3A2B]'
+                          : isDarkWorship
+                            ? 'w-2 bg-[#4A453F] hover:bg-[#766E65]'
+                            : 'w-2 bg-[#D6CCBA] hover:bg-[#8C867B]'
+                      }`}
+                    />
+                  ))}
+                </div>
+                <div className="w-full max-w-md flex items-center justify-between gap-3">
+                  <button
+                    onClick={() => setWorshipSlideIdx((i) => Math.max(0, i - 1))}
+                    disabled={worshipSlideIdx === 0}
+                    className={`inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-xs font-semibold border disabled:opacity-30 cursor-pointer ${
+                      isDarkWorship
+                        ? 'border-[#3B3732] bg-[#24221E] text-[#FAF7F2]'
+                        : 'border-[#DED7CB] bg-[#F3EFE6] text-[#24221E]'
+                    }`}
+                  >
+                    <ChevronLeft className="w-4 h-4" />
+                    <span>Previous</span>
+                  </button>
+                  <span className="text-xs opacity-70 font-medium">
+                    Slide {worshipSlideIdx + 1} / {worshipSlides.length}
+                  </span>
+                  <button
+                    onClick={() =>
+                      setWorshipSlideIdx((i) => Math.min(worshipSlides.length - 1, i + 1))
+                    }
+                    disabled={worshipSlideIdx >= worshipSlides.length - 1}
+                    className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-xs font-semibold bg-[#8B3A2B] text-white disabled:opacity-30 cursor-pointer hover:bg-[#722E21]"
+                  >
+                    <span>Next</span>
+                    <ChevronRight className="w-4 h-4" />
+                  </button>
+                </div>
+              </div>
+            </div>,
+            document.body
+          )}
 
         {/* Top Action Bar */}
         <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-[#E5DFD5]">
