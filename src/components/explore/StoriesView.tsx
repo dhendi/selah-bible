@@ -7,7 +7,6 @@ import {
   HeartHandshake,
   Images,
   PenLine,
-  Sparkles,
   Square,
   Volume2,
 } from 'lucide-react';
@@ -322,7 +321,7 @@ export const StoriesView: React.FC = () => {
           <div className="bg-[#FAF7F2] rounded-xl border border-[#DED7CB] p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div className="space-y-1">
               <div className="text-[0.6875rem] font-bold uppercase tracking-wider text-[#8B3A2B] flex items-center gap-1">
-                <Sparkles className="w-3.5 h-3.5" />
+                <PenLine className="w-3.5 h-3.5" />
                 <span>Reflect</span>
               </div>
               <p className="text-sm font-serif italic text-[#2C2C2A]">

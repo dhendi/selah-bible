@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, BookOpen, BookmarkPlus, Check, Share2, Sparkles } from 'lucide-react';
+import { X, BookOpen, BookmarkPlus, Check, Share2 } from 'lucide-react';
 import type { StoryModule } from '../../types/bible';
 import { useStudyStore } from '../../store/useStudyStore';
 import { StoryIllustration } from '../illustrations/StoryIllustration';
@@ -91,7 +91,7 @@ export const VerseSnapshotModal: React.FC<{
 
           <div className="absolute bottom-3 left-4">
             <span className="text-[0.625rem] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-[#FAF7F2]/95 text-[#5A7D63] shadow-xs flex items-center gap-1">
-              <Sparkles className="w-3 h-3" />
+              <BookOpen className="w-3 h-3" />
               {story.anchorVerseRef}
             </span>
           </div>

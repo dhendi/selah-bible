@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   X,
-  Sparkles,
   BookOpen,
   Heart,
   MapPin,
@@ -144,7 +143,7 @@ export const ExplainVerseBottomSheet: React.FC = () => {
         <div className="flex items-start justify-between gap-2 pb-3 border-b border-[#E8E2D7] mb-4">
           <div>
             <div className="flex items-center gap-1.5 text-[0.6875rem] font-bold uppercase tracking-wider text-[#7A9A82]">
-              <Sparkles className="w-3.5 h-3.5" />
+              <BookOpen className="w-3.5 h-3.5" />
               <span>Explain What This Means</span>
             </div>
             <h3 className="text-xl font-serif font-bold text-[#2C2C2A] mt-0.5">

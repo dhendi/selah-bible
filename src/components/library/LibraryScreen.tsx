@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {
-  Sparkles,
+  Layers,
   Bookmark,
   Award,
   Flame,
@@ -120,7 +120,7 @@ export const LibraryScreen: React.FC = () => {
               : 'text-[#76746E] hover:text-[#2C2C2A]'
           }`}
         >
-          <Sparkles className="w-3.5 h-3.5 text-[#7A9A82] flex-shrink-0" />
+          <Layers className="w-3.5 h-3.5 text-[#7A9A82] flex-shrink-0" />
           <span className="whitespace-nowrap">Cards ({flashcards.length})</span>
         </button>
 

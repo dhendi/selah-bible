@@ -6,7 +6,6 @@ import {
   Bookmark,
   BookmarkCheck,
   MessageSquarePlus,
-  Sparkles,
   PenLine,
   Share2,
   X,
@@ -585,7 +584,7 @@ export const ReaderScreen: React.FC = () => {
                 onClick={() => openExplainDrawer(vId)}
                 className="px-2.5 py-1 rounded-md bg-[#8B3A2B] hover:bg-[#9E4534] text-white text-[0.6875rem] font-medium flex items-center gap-1 transition-colors cursor-pointer"
               >
-                <Sparkles className="w-3 h-3" />
+                <BookOpen className="w-3 h-3" />
                 <span>Explain</span>
               </button>
 

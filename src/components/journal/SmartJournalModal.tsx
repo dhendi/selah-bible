@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, PenLine, Check, Sparkles, HeartHandshake } from 'lucide-react';
+import { X, PenLine, Check, BookOpen, HeartHandshake } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { useStudyStore } from '../../store/useStudyStore';
 import { StoryIllustration } from '../illustrations/StoryIllustration';
@@ -135,7 +135,7 @@ export const SmartJournalModal: React.FC = () => {
               </div>
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-1 text-[0.625rem] font-bold uppercase tracking-wider text-[#7A9A82]">
-                  <Sparkles className="w-3 h-3" />
+                  <BookOpen className="w-3 h-3" />
                   <span>What I Read • {activeJournalTarget.verseRef}</span>
                 </div>
                 <p

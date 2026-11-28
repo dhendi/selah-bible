@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { X, Check, Sparkles, BookOpen } from 'lucide-react';
+import { X, Check, Bookmark, BookOpen } from 'lucide-react';
 import { useStudyStore } from '../../store/useStudyStore';
 import { useBookChapters } from '../../data/bookLoader';
 import {
@@ -184,7 +184,7 @@ export const ChapterPickerModal: React.FC = () => {
                 : 'text-[#76746E] hover:text-[#2C2C2A]'
             }`}
           >
-            <Sparkles className="w-3 h-3 text-[#7A9A82]" />
+            <Bookmark className="w-3 h-3 text-[#7A9A82]" />
             <span>Featured</span>
           </button>
         </div>

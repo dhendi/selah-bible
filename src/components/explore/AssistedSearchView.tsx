@@ -4,7 +4,6 @@ import {
   X,
   ArrowRight,
   BookOpen,
-  Sparkles,
   User,
   MapPin,
   FileText,
@@ -437,7 +436,7 @@ export const AssistedSearchView: React.FC = () => {
                   </h4>
                   {results.usedSemantic && (
                     <span className="text-[0.625rem] font-serif italic text-[#5A7D63] flex items-center gap-1">
-                      <Sparkles className="w-3 h-3" /> Meaning + Verse Ranking
+                      <BookOpen className="w-3 h-3" /> Meaning + Verse Ranking
                     </span>
                   )}
                 </div>

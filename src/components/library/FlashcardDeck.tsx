@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { RotateCw, Sparkles, ChevronRight, ChevronLeft } from 'lucide-react';
+import { RotateCw, Layers, ChevronRight, ChevronLeft } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { useStudyStore } from '../../store/useStudyStore';
 
@@ -11,7 +11,7 @@ export const FlashcardDeck: React.FC = () => {
   if (flashcards.length === 0) {
     return (
       <div className="bg-[#F3EFE6] rounded-3xl p-6 text-center border border-[#E5DFD5] space-y-3">
-        <Sparkles className="w-7 h-7 text-[#7A9A82] mx-auto" />
+        <Layers className="w-7 h-7 text-[#7A9A82] mx-auto" />
         <div>
           <h4 className="text-sm font-semibold text-[#2C2C2A]">No flashcards yet</h4>
           <p className="text-xs text-[#76746E] mt-1 max-w-xs mx-auto">
@@ -65,7 +65,7 @@ export const FlashcardDeck: React.FC = () => {
       {/* Deck Header */}
       <div className="flex items-center justify-between text-xs text-[#76746E] px-1">
         <span className="flex items-center gap-1 font-semibold text-[#7A9A82]">
-          <Sparkles className="w-3.5 h-3.5" />
+          <Layers className="w-3.5 h-3.5" />
           Active Recall Spaced Repetition (SM-2)
         </span>
         <span className="font-mono">

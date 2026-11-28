@@ -4,7 +4,6 @@ import {
   ArrowLeft,
   Users,
   MapPin,
-  Sparkles,
   BookOpen,
   ArrowRight,
   GitFork,
@@ -220,7 +219,7 @@ export const CharacterCardModal: React.FC = () => {
           {/* 5. Why They Matter */}
           <div className="bg-[#EFE9DC]/70 rounded-2xl p-4 border border-[#E2D6C3]">
             <h3 className="text-xs font-bold uppercase tracking-wider text-[#B07456] mb-2 flex items-center gap-1.5">
-              <Sparkles className="w-3.5 h-3.5" />
+              <BookOpen className="w-3.5 h-3.5" />
               Why They Matter
             </h3>
             <ul className="space-y-1.5">
