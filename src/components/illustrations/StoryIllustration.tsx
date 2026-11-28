@@ -719,6 +719,11 @@ export function resolveStoryIllustrationAsset(
       'story-daniel-lions': { src: '/images/stories/daniel-lions-4.jpg', alt: 'Daniel in the Lions Den' },
       'story-good-samaritan': { src: '/images/stories/good-samaritan-4.jpg', alt: 'The Good Samaritan' },
       'story-prodigal-son': { src: '/images/stories/prodigal-son-4.jpg', alt: 'The Prodigal Son' },
+      'story-red-sea': { src: '/images/stories/red-sea-4.jpg', alt: 'Moses and the Crossing of the Red Sea' },
+      'story-jonah-fish': { src: '/images/stories/jonah-3.jpg', alt: 'Jonah and the Great Fish' },
+      'story-queen-esther': { src: '/images/stories/esther-4.jpg', alt: 'Queen Esthers Courage' },
+      'story-feeding-5000': { src: '/images/stories/feeding-5000-2.jpg', alt: 'Feeding the Five Thousand' },
+      'story-parable-sower': { src: '/images/stories/sower-6.jpg', alt: 'The Parable of the Sower' },
     };
     if (coverMap[key]) return coverMap[key];
   }

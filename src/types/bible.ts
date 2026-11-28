@@ -283,7 +283,7 @@ export interface BibleStory {
   title: string;
   subtitle: string;
   testament: Testament;
-  category: 'Old Testament Classics' | 'Parables of Jesus';
+  category: 'Old Testament Classics' | 'Parables of Jesus' | 'Miracles of Jesus';
   scriptureRange: string;
   readingTimeMinutes: number;
   coverImageUrl: string;

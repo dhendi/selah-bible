@@ -583,4 +583,578 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
     reflectionPrompt:
       'Have you ever felt “too far off” to come back cleanly? What does the father’s running embrace tell you about God’s heart today?',
   },
+  {
+    id: 'story-red-sea',
+    slug: 'red-sea',
+    title: 'Moses & the Crossing of the Red Sea',
+    subtitle: 'Stand Still and Watch the Lord Fight for You',
+    testament: 'OT',
+    category: 'Old Testament Classics',
+    scriptureRange: 'Exodus 13–15',
+    readingTimeMinutes: 8,
+    coverImageUrl: '/images/stories/red-sea-4.jpg',
+    primaryChapterId: 'EXO-14',
+    summary:
+      'Leading newly freed families out of Egypt only to find deep sea waters ahead and thundering iron chariots closing in behind, Moses lifted his wooden shepherd staff—and God carved a dry highway right through the waves.',
+    beats: [
+      {
+        id: 'rs-1',
+        beatNumber: 1,
+        title: 'Guided by Cloud & Fire',
+        narrative:
+          'After four hundred years of harsh brickmaking in Egypt, hundreds of thousands of Israelite men, women, and children walked out under night skies carrying leaven-free dough wrapped in kneading bowls. They carried no military maps or compasses—only God’s promise and Moses leading them step by step.\n\nBetter than any earthly scout, Yahweh Himself traveled directly ahead of their column: as a towering bright pillar of cloud shielding them from scorching desert sun by day, and a warm glowing pillar of fire lighting every dusty mile by night so the whole camp could keep moving forward in peace.',
+        imageUrl: '/images/stories/red-sea-1.jpg',
+        imageAlt: 'A towering golden pillar of cloud and fire guiding Israelite families across desert twilight',
+        scriptureRefs: [
+          { label: 'Exodus 13:17–18', chapterId: 'EXO-13', verseNumber: 17 },
+          { label: 'Exodus 13:21–22', chapterId: 'EXO-13', verseNumber: 21 },
+        ],
+      },
+      {
+        id: 'rs-2',
+        beatNumber: 2,
+        title: 'Trapped Between Waves & Chariots',
+        narrative:
+          'Following the pillar’s strange south turn, the families pitched camp right beside shimmering blue-teal waters of the Red Sea. Back inside his stone palace, Pharaoh suddenly regretted letting his unpaid builders go—hitching up six hundred of his finest bronze chariots and riding out fast in furious pursuit.\n\nJust as Israelite parents unpacked cooking pots beside the shore, someone looked back toward the western dunes and saw dust rising thick across the horizon. Fear swept through the tents like wildfire: shimmering waves blocked the front, steep ridges rose beside them, and hoofbeats thundered behind. Panic-stricken voices cried out to Moses, “Were there no graves in Egypt, that you brought us here to die?”',
+        imageUrl: '/images/stories/red-sea-2.jpg',
+        imageAlt: 'Anxious Israelite families along the Red Sea shoreline as distant chariot dust rises behind',
+        scriptureRefs: [
+          { label: 'Exodus 14:5–9', chapterId: 'EXO-14', verseNumber: 8 },
+          { label: 'Exodus 14:10–12', chapterId: 'EXO-14', verseNumber: 10 },
+        ],
+      },
+      {
+        id: 'rs-3',
+        beatNumber: 3,
+        title: 'Parting Towering Walls of Water',
+        narrative:
+          'Standing calmly before frightened thousands, silver-bearded Moses spoke words etched forever into Scripture: “Don’t be afraid. Stand still, and see the salvation of Yahweh, which He will work for you today! Yahweh will fight for you, and you shall be still.” Behind them, God moved the glowing pillar between Israel’s tents and Pharaoh’s horses—shrouding the Egyptian camp in thick darkness while pouring calm light across Israel.\n\nThen God gave Moses one simple command: “Lift up your rod, and stretch out your hand over the sea!” Stepping onto the rocky edge, Moses raised his simple wooden shepherd’s staff toward heaven. Immediately a fierce steady east wind roared across the bay all night long, rolling deep turquoise waters backward until two gleaming crystal walls stood tall on left and right.',
+        imageUrl: '/images/stories/red-sea-3.jpg',
+        imageAlt: 'Moses raising his wooden shepherd staff as fierce wind parts the turquoise sea into tall walls',
+        scriptureRefs: [
+          { label: 'Exodus 14:13–14', chapterId: 'EXO-14', verseNumber: 13 },
+          { label: 'Exodus 14:19–21', chapterId: 'EXO-14', verseNumber: 21 },
+        ],
+      },
+      {
+        id: 'rs-4',
+        beatNumber: 4,
+        title: 'Dry Ground Through the Deep',
+        narrative:
+          'No muddy bog trapped their sandals—God’s steady wind dried the seabed cleanly down to firm hard sand. Holding tiny hands tightly and leading bleating sheep beside heavy wooden carts, grandparents and toddlers stepped forward between shimmering walls of living blue-green water.\n\nLight glinted through towering water walls studded with quiet sea shells while fishes darted just behind invisible barriers. Throughout those dark pre-dawn hours, every single family, elder, and flock crossed safely through the heart of the sea without losing even one person to the waves.',
+        imageUrl: '/images/stories/red-sea-4.jpg',
+        imageAlt: 'Families holding hands walking across dry sandy seabed between translucent walls of water',
+        scriptureRefs: [
+          { label: 'Exodus 14:22', chapterId: 'EXO-14', verseNumber: 22 },
+          { label: 'Exodus 14:29', chapterId: 'EXO-14', verseNumber: 29 },
+        ],
+      },
+      {
+        id: 'rs-5',
+        beatNumber: 5,
+        title: 'Dawn Brings Final Rescue',
+        narrative:
+          'Determined not to stop, Pharaoh’s drivers whipped their chariot teams straight into the parted seabed behind the last Israelite carts. Right before sunrise, God looked down from the fiery cloud and threw the heavy wheels into confusion—bolts shook loose and wooden wheels sank deep into wet sand.\n\nOnce the very last Israelite foot stepped safely onto the eastern bank, the Lord spoke again: “Stretch out your hand over the sea!” As bright golden morning sunlight spilled across the water, Moses stretched his staff outward—and with a mighty rush, the towering water walls crashed back together, swallowing chasing chariots completely and sealing Israel’s freedom forever.',
+        imageUrl: '/images/stories/red-sea-5.jpg',
+        imageAlt: 'Golden morning sunrise over rejoined peaceful waves as Moses lowers his staff along the eastern bank',
+        scriptureRefs: [
+          { label: 'Exodus 14:23–25', chapterId: 'EXO-14', verseNumber: 24 },
+          { label: 'Exodus 14:26–31', chapterId: 'EXO-14', verseNumber: 30 },
+        ],
+      },
+      {
+        id: 'rs-6',
+        beatNumber: 6,
+        title: 'Miriam’s Song on the Shore',
+        narrative:
+          'Watching the calm morning sea sparkle along the desert shoreline, fear melted into thunderous relief. Moses and all Israel lifted their voices together in the Bible’s earliest full song of triumph: “Yahweh is my strength and song! He has become my salvation!”\n\nPicking up a round wooden tambourine beside swaying morning palm trees, Moses’ sister Miriam led the women in joyful circle dances across the sunny beach, echoing the chorus back across the bay: “Sing to Yahweh, for He has triumphed gloriously!” What had looked like a hopeless dead end at midnight had become their forever proof of God’s power.',
+        imageUrl: '/images/stories/red-sea-6.jpg',
+        imageAlt: 'Joyful Miriam lifting a tambourine beside singing women and families beneath morning palm trees',
+        scriptureRefs: [
+          { label: 'Exodus 15:1–3', chapterId: 'EXO-15', verseNumber: 2 },
+          { label: 'Exodus 15:20–21', chapterId: 'EXO-15', verseNumber: 20 },
+        ],
+      },
+    ],
+    lessonsLearned: [
+      {
+        title: 'What looks like a dead end may be God’s setup for rescue',
+        description:
+          'Israel wasn’t led beside the Red Sea by mistake—God chose the very spot where only His power could open a way nobody else could imagine.',
+        anchorRef: { label: 'Exodus 14:13–14', chapterId: 'EXO-14', verseNumber: 13 },
+      },
+      {
+        title: 'God steps between His people and pursuing fear',
+        description:
+          'Notice how the pillar of cloud moved behind Israel before parting the sea—guarding their backs while opening a clear path ahead.',
+        anchorRef: { label: 'Exodus 14:19–20', chapterId: 'EXO-14', verseNumber: 19 },
+      },
+      {
+        title: 'Take time to celebrate God’s faithfulness aloud',
+        description:
+          'Moses and Miriam stopped on the eastern shore to sing and remember—turning fresh deliverance into lasting courage for miles still ahead.',
+        anchorRef: { label: 'Exodus 15:2', chapterId: 'EXO-15', verseNumber: 2 },
+      },
+    ],
+    reflectionPrompt:
+      'Have you ever felt hemmed in with nowhere to turn—and later saw God open a path you couldn’t see beforehand?',
+  },
+  {
+    id: 'story-jonah-fish',
+    slug: 'jonah-fish',
+    title: 'Jonah & the Great Fish',
+    subtitle: 'Running From Mercy—and Being Caught by Grace',
+    testament: 'OT',
+    category: 'Old Testament Classics',
+    scriptureRange: 'Jonah 1–4',
+    readingTimeMinutes: 8,
+    coverImageUrl: '/images/stories/jonah-3.jpg',
+    primaryChapterId: 'JON-1',
+    summary:
+      'When God told prophet Jonah to bring warning—and a chance for mercy—to Israel’s fiercest enemy Nineveh, Jonah bought a ship ticket heading the exact opposite way, learning deep underwater that you cannot outrun God’s compassion.',
+    beats: [
+      {
+        id: 'jon-1',
+        beatNumber: 1,
+        title: 'A Ticket in the Wrong Direction',
+        narrative:
+          '“Arise, go to Nineveh, that great city,” God spoke clearly to Jonah, “and preach against it, for their wickedness has come up before Me.” Nineveh lay far east overland—a wealthy, brutal Assyrian capital dreaded across the ancient world. Jonah wanted judgment to fall on Nineveh, not forgiveness.\n\nSo instead of heading east, bearded Jonah slung a traveler’s satchel over his shoulder, hurried down to the Mediterranean harbor steps of Joppa at dawn, paid full silver fare, and climbed aboard a wooden Phoenician merchant ship bound far west for Tarshish—thinking he could flee cleanly away from the presence of Yahweh.',
+        imageUrl: '/images/stories/jonah-1.jpg',
+        imageAlt: 'Jonah hurrying down stone harbor steps at Joppa toward a waiting wooden merchant vessel',
+        scriptureRefs: [
+          { label: 'Jonah 1:1–3', chapterId: 'JON-1', verseNumber: 3 },
+        ],
+      },
+      {
+        id: 'jon-2',
+        beatNumber: 2,
+        title: 'Furious Waves & Honest Confession',
+        narrative:
+          'Scarcely had the white sail filled before the sea turned black and violent. Huge slate-gray swells slammed against wooden planks until sailors feared the ship would snap right in half. Every crewman cried desperately to his own gods and began tossing heavy cargo jars overboard while Jonah slept exhausted deep inside the lower hold.\n\nWoken by the captain, Jonah knew why the storm was roaring—even casting lots pointed straight at him. “Pick me up and throw me into the sea,” Jonah admitted honestly, “for I know this great storm has come upon you because of me.” Reluctantly rowing hard to save him first, the exhausted sailors finally lifted Jonah over the rail—and instantly the raging sea turned glassy and still.',
+        imageUrl: '/images/stories/jonah-2.jpg',
+        imageAlt: 'Stormy waves tossing the sailing vessel under dark skies as sailors grip the rigging',
+        scriptureRefs: [
+          { label: 'Jonah 1:4–6', chapterId: 'JON-1', verseNumber: 4 },
+          { label: 'Jonah 1:12–16', chapterId: 'JON-1', verseNumber: 15 },
+        ],
+      },
+      {
+        id: 'jon-3',
+        beatNumber: 3,
+        title: 'Rescued Inside the Deep Waters',
+        narrative:
+          'Sinking into quiet dim teal depths far from sunlit waves, Jonah thought his stubborn flight had ended his life forever. Yet even at the bottom of the sea, God did not abandon His runaway prophet—preparing a massive gentle great fish to swallow Jonah whole and keep him alive.\n\nFor three days and three nights in the silent underwater deep, surrounded by stillness, Jonah prayed one of the most honest prayers in Scripture: “I called out because of my affliction to Yahweh, and He answered me… Salvation belongs to Yahweh!” Pride gave way cleanly to humble gratitude inside the deep.',
+        imageUrl: '/images/stories/jonah-3.jpg',
+        imageAlt: 'A massive great fish swimming smoothly beneath soft underwater sunbeams rescuing Jonah',
+        scriptureRefs: [
+          { label: 'Jonah 1:17', chapterId: 'JON-1', verseNumber: 17 },
+          { label: 'Jonah 2:1–9', chapterId: 'JON-2', verseNumber: 2 },
+        ],
+      },
+      {
+        id: 'jon-4',
+        beatNumber: 4,
+        title: 'A Second Chance on Dry Sand',
+        narrative:
+          'On the third day, Yahweh spoke directly to the great fish—which glided gently toward pale morning surf and deposited soaked, astonished Jonah cleanly back onto warm golden sand beside coastal stones. Sunlight warmed his trembling shoulders while gulls wheeled overhead.\n\nRemarkably, God didn’t discard His imperfect messenger or choose somebody else. Once again the gentle call came: “Arise, go to Nineveh, that great city, and preach to it the message that I give you.” This time, dripping sand from his sandals, Jonah got up and walked straight toward Nineveh.',
+        imageUrl: '/images/stories/jonah-4.jpg',
+        imageAlt: 'Great fish returning soaked astonished Jonah safely onto a peaceful dawn beach',
+        scriptureRefs: [
+          { label: 'Jonah 2:10', chapterId: 'JON-2', verseNumber: 10 },
+          { label: 'Jonah 3:1–3', chapterId: 'JON-3', verseNumber: 3 },
+        ],
+      },
+      {
+        id: 'jon-5',
+        beatNumber: 5,
+        title: 'An Entire City Turns From Pride',
+        narrative:
+          'Nineveh was massive—a bustling fortress city requiring three full days simply to walk across its crowded districts and mud-brick arches. Stepping right into its noisy marketplaces, Jonah preached just one stark, unadorned sentence: “Forty days more, and Nineveh shall be overthrown!”\n\nSomething extraordinary happened. Without seeing a single firestorm miracle, bakers, merchants, elders, and even the great king sitting on his royal throne humbled themselves in dust, put away violence, and begged for mercy. Seeing their genuine repentance, God gladly relented and spared the whole city.',
+        imageUrl: '/images/stories/jonah-5.jpg',
+        imageAlt: 'Jonah walking through crowded ancient stone arches of Nineveh as townspeople bow in repentance',
+        scriptureRefs: [
+          { label: 'Jonah 3:4–6', chapterId: 'JON-3', verseNumber: 5 },
+          { label: 'Jonah 3:7–10', chapterId: 'JON-3', verseNumber: 10 },
+        ],
+      },
+      {
+        id: 'jon-6',
+        beatNumber: 6,
+        title: 'Learning God’s Heart Under a Leafy Vine',
+        narrative:
+          'Instead of celebrating, bitter disappointment seized Jonah—he marched out onto an eastern hilltop overlooking Nineveh’s towers and pouted: “I knew You are a gracious God, full of compassion and slow to anger!” Gently, Yahweh caused a broad leafy gourd vine to spring up overnight, shading Jonah’s head from fierce desert sun.\n\nWhen a worm withered that plant next morning, Jonah mourned loudly over losing his comfortable shade. Quietly, God asked a question that still touches every reader today: “You feel pity for a plant you didn’t plant or grow… shouldn’t I have pity on Nineveh, home to over a hundred and twenty thousand precious people who don’t even know right from left?”',
+        imageUrl: '/images/stories/jonah-6.jpg',
+        imageAlt: 'Jonah resting under a curling leafy gourd vine overlooking Nineveh walls at golden sunset',
+        scriptureRefs: [
+          { label: 'Jonah 4:1–6', chapterId: 'JON-4', verseNumber: 2 },
+          { label: 'Jonah 4:10–11', chapterId: 'JON-4', verseNumber: 11 },
+        ],
+      },
+    ],
+    lessonsLearned: [
+      {
+        title: 'Running from God’s call only leads into rougher seas',
+        description:
+          'Jonah thought Tarshish offered peace, yet obedience—even when hard—was always safer than running the opposite direction.',
+        anchorRef: { label: 'Jonah 1:3–4', chapterId: 'JON-1', verseNumber: 3 },
+      },
+      {
+        title: 'God specializes in second chances after detours',
+        description:
+          'When Jonah came out of the sea onto dry sand, God gave him the exact same mission again—proving failure doesn’t disqualify us from grace.',
+        anchorRef: { label: 'Jonah 3:1–3', chapterId: 'JON-3', verseNumber: 1 },
+      },
+      {
+        title: 'Never begrudge God showing others the mercy we received',
+        description:
+          'Jonah gladly accepted rescue underwater yet resented mercy shown to Nineveh. True love learns to share God’s heart even for difficult people.',
+        anchorRef: { label: 'Jonah 4:11', chapterId: 'JON-4', verseNumber: 11 },
+      },
+    ],
+    reflectionPrompt:
+      'Is there an area where you’ve been tempted to head toward “Tarshish” instead of trusting God’s gentle nudge?',
+  },
+  {
+    id: 'story-queen-esther',
+    slug: 'queen-esther',
+    title: 'Queen Esther’s Courage',
+    subtitle: 'Called Into the Palace for Such a Time as This',
+    testament: 'OT',
+    category: 'Old Testament Classics',
+    scriptureRange: 'Esther 4–7',
+    readingTimeMinutes: 8,
+    coverImageUrl: '/images/stories/esther-4.jpg',
+    primaryChapterId: 'EST-4',
+    summary:
+      'Born an orphaned Jewish girl living quietly in Persia, Esther suddenly wore a royal crown when a ruthless official plotted to wipe out her entire people—forcing one frightened young queen to risk her life before the throne.',
+    beats: [
+      {
+        id: 'est-1',
+        beatNumber: 1,
+        title: '“For Such a Time as This”',
+        narrative:
+          'Raised tenderly by her wise older cousin Mordecai in the Persian capital city of Susa, humble young Esther never dreamed of silk curtains or royal crowns. Chosen for her quiet grace to become queen beside King Xerxes, she still respected Mordecai’s guidance and kept her Jewish heritage quietly hidden inside palace walls.\n\nSuddenly terror struck every province: proud prime minister Haman—furious because Mordecai would not bow down to him—tricked the king into sealing an empire-wide death decree against every Jewish family. Tearing his clothes outside the courtyard gate, Mordecai sent Esther an urgent message across palace arches: “Don’t think you will escape inside the king’s house… Who knows whether you haven’t come to the kingdom for such a time as this?”',
+        imageUrl: '/images/stories/esther-1.jpg',
+        imageAlt: 'Wise bearded Mordecai speaking earnestly beneath a Susa courtyard arch to crowned Queen Esther',
+        scriptureRefs: [
+          { label: 'Esther 2:7–17', chapterId: 'EST-2', verseNumber: 17 },
+          { label: 'Esther 4:13–14', chapterId: 'EST-4', verseNumber: 14 },
+        ],
+      },
+      {
+        id: 'est-2',
+        beatNumber: 2,
+        title: 'Three Days of Quiet Fasting & Prayer',
+        narrative:
+          'Royal law carried one terrifying shadow: anyone walking into the king’s inner throne hall without an official summons faced instant execution—unless the king happened to extend his golden scepter in mercy. Esther had not even been called before the king for thirty days.\n\nRather than rushing rashly on impulse, young Esther sent word back to Mordecai with quiet steel: “Go, gather together all the Jews who are present in Susa, and fast for me… My maidens and I will also fast the same way. Then I will go in to the king, which is against the law; and if I perish, I perish.” For three quiet candlelit days, silence and earnest prayer filled Susa’s homes and royal rooms.',
+        imageUrl: '/images/stories/esther-2.jpg',
+        imageAlt: 'Queen Esther kneeling serenely in candlelit prayer and fasting alongside her companions',
+        scriptureRefs: [
+          { label: 'Esther 4:11', chapterId: 'EST-4', verseNumber: 11 },
+          { label: 'Esther 4:15–17', chapterId: 'EST-4', verseNumber: 16 },
+        ],
+      },
+      {
+        id: 'est-3',
+        beatNumber: 3,
+        title: 'Stepping Into the Golden Throne Hall',
+        narrative:
+          'On the third morning, rising softly from prayer, Esther dressed in her finest royal plum-and-gold robes, lifted her chin, and walked steadily past tall carved palace pillars into the open doorway of the royal inner courtyard.\n\nEvery soldier’s breath caught as the young queen stepped completely unannounced straight into full view of the throne. Across sunlit stone floor tiles lay absolute danger—yet peace held her shoulders calm and upright.',
+        imageUrl: '/images/stories/esther-3.jpg',
+        imageAlt: 'Queen Esther standing poised in royal robes at the sunlit entrance of the grand throne room',
+        scriptureRefs: [
+          { label: 'Esther 5:1', chapterId: 'EST-5', verseNumber: 1 },
+        ],
+      },
+      {
+        id: 'est-4',
+        beatNumber: 4,
+        title: 'The Extended Golden Scepter',
+        narrative:
+          'Seated high on his carved golden throne, King Xerxes looked down at the unexpected figure standing quietly in the archway—and hidden favor softened his heart immediately. Leaning forward with a warm expression, the king held out his long gleaming golden scepter directly toward bowing Esther.\n\nStepping safely forward to touch the scepter’s golden tip, Esther heard his generous question echo through the hall: “What would you like, Queen Esther? Even up to half the kingdom, it shall be given to you!” Quietly wise, she invited the king and Haman to an intimate dinner banquet that very evening.',
+        imageUrl: '/images/stories/esther-4.jpg',
+        imageAlt: 'King Xerxes leaning forward from his throne extending his gleaming golden scepter toward bowing Esther',
+        scriptureRefs: [
+          { label: 'Esther 5:2–4', chapterId: 'EST-5', verseNumber: 2 },
+        ],
+      },
+      {
+        id: 'est-5',
+        beatNumber: 5,
+        title: 'Speaking Truth at the Royal Banquet',
+        narrative:
+          'That night—and again at a second warm oil-lamp banquet the next evening, after a sleepless night had already led the king to remember Mordecai’s past loyalty—the moment arrived. Again King Xerxes asked gently what burdened her heart.\n\nSteadying her voice by flickering table lamps, Esther spoke the fearless truth: “If I have found favor in your sight, O king, let my life be given me at my petition, and my people at my request—for we are sold to be destroyed!” Shocked, the king demanded, “Who has dared presume such a thing?” Turning calmly toward the trembling official beside them, Esther declared cleanly: “An adversary and an enemy—even this wicked Haman!”',
+        imageUrl: '/images/stories/esther-5.jpg',
+        imageAlt: 'Warm evening royal banquet glowing with oil lamps as Esther speaks truth exposing Haman',
+        scriptureRefs: [
+          { label: 'Esther 7:1–4', chapterId: 'EST-7', verseNumber: 3 },
+          { label: 'Esther 7:5–6', chapterId: 'EST-7', verseNumber: 6 },
+        ],
+      },
+      {
+        id: 'est-6',
+        beatNumber: 6,
+        title: 'Mourning Turned Into Bright Celebration',
+        narrative:
+          'Justice moved swiftly once the hidden plot stood in open light: wicked Haman’s scheme collapsed onto his own head, honorable Mordecai stepped into high service, and royal riders galloped out across every road carrying a new life-saving decree allowing Esther’s people to defend themselves safely.\n\nAcross Susa and every distant province, tears of terror transformed into morning light, joyful music, baskets of shared loaves, and gifts sent warmly to neighbors and the poor—remembered forever as the Feast of Purim.',
+        imageUrl: '/images/stories/esther-6.jpg',
+        imageAlt: 'Joyful Susa courtyard celebration with families embracing, baskets of bread, and glowing lanterns',
+        scriptureRefs: [
+          { label: 'Esther 8:15–17', chapterId: 'EST-8', verseNumber: 16 },
+          { label: 'Esther 9:22', chapterId: 'EST-9', verseNumber: 22 },
+        ],
+      },
+    ],
+    lessonsLearned: [
+      {
+        title: 'Your quiet placement may be God’s strategic purpose',
+        description:
+          'Esther felt ordinary inside an intimidating palace until Mordecai reminded her: “Who knows if you arrived right where you are for such a time as this?”',
+        anchorRef: { label: 'Esther 4:14', chapterId: 'EST-4', verseNumber: 14 },
+      },
+      {
+        title: 'Prayer and patience strengthen brave action',
+        description:
+          'Before stepping into the throne room—and before exposing Haman—Esther prayed with friends and moved with thoughtful wisdom instead of panic.',
+        anchorRef: { label: 'Esther 4:16', chapterId: 'EST-4', verseNumber: 16 },
+      },
+      {
+        title: 'Real courage speaks up even when knees shake',
+        description:
+          'Courage didn’t mean Esther felt zero fear; it meant caring more about rescuing others than protecting her own quiet comfort.',
+        anchorRef: { label: 'Esther 7:3–6', chapterId: 'EST-7', verseNumber: 3 },
+      },
+    ],
+    reflectionPrompt:
+      'Where has life placed you right now—in your family, neighborhood, or church—that might be your “for such a time as this”?',
+  },
+  {
+    id: 'story-feeding-5000',
+    slug: 'feeding-5000',
+    title: 'Feeding the Five Thousand',
+    subtitle: 'Little in Jesus’s Hands Becomes More Than Enough',
+    testament: 'NT',
+    category: 'Miracles of Jesus',
+    scriptureRange: 'John 6:1–15',
+    readingTimeMinutes: 7,
+    coverImageUrl: '/images/stories/feeding-5000-2.jpg',
+    primaryChapterId: 'JHN-6',
+    summary:
+      'Facing thousands of hungry families far from any village bakery, the disciples saw an impossible shortage—until one young boy placed five simple barley loaves and two small fish right into Jesus’s thankful hands.',
+    beats: [
+      {
+        id: 'f5k-1',
+        beatNumber: 1,
+        title: 'Hungry Crowds on a Green Galilean Hillside',
+        narrative:
+          'Word of Jesus’s gentle healing touch spread across every shore of Lake Galilee. Crossing over to a quiet grassy hillside opposite Capernaum to rest briefly with His tired disciples, Jesus looked up—and saw a massive multitude winding eagerly along the shore on foot, carrying sick loved ones and listening hungrily to every word.\n\nWarm spring wildflowers dotted the green slopes overlooking shimmering blue water while afternoon sunlight stretched long across the hills. Moved with shepherd love, Jesus healed the hurting and taught until evening drew near—five thousand men alone, plus mothers, grandparents, and children seated all around the grass.',
+        imageUrl: '/images/stories/feeding-5000-1.jpg',
+        imageAlt: 'Crowds of families seated warmly across lush spring hillside grass overlooking Lake Galilee',
+        scriptureRefs: [
+          { label: 'John 6:1–5', chapterId: 'JHN-6', verseNumber: 5 },
+          { label: 'Mark 6:34', chapterId: 'MRK-6', verseNumber: 34 },
+        ],
+      },
+      {
+        id: 'f5k-2',
+        beatNumber: 2,
+        title: 'Five Barley Loaves & Two Small Fish',
+        narrative:
+          'Worried by the growing shadows, Philip shook his head cleanly at Jesus’s question about buying supper: “Two hundred denarii worth of bread wouldn’t give even a small bite to each!” Then Andrew stepped softly through the grass bringing a shy young boy clutching a modest woven lunch basket.\n\n“There is a boy here,” Andrew whispered doubtfully, “who has five barley loaves and two small fish—but what are these among so many?” Barley bread was the humble lunch of working families, barely enough for one hungry child, yet the boy willingly placed every single crumb he owned into Jesus’s palm.',
+        imageUrl: '/images/stories/feeding-5000-2.jpg',
+        imageAlt: 'Young boy offering his woven basket of five barley loaves and two small fish to Jesus',
+        scriptureRefs: [
+          { label: 'John 6:7–9', chapterId: 'JHN-6', verseNumber: 9 },
+        ],
+      },
+      {
+        id: 'f5k-3',
+        beatNumber: 3,
+        title: 'Giving Thanks Under Open Heaven',
+        narrative:
+          'Jesus never scoffed at how small the boy’s lunch looked. Asking the disciples to invite everyone to sit down comfortably in relaxed groups across the soft green meadow, Jesus took those five ordinary flatbreads and two dried fish right into His steady hands.\n\nLifting His calm eyes toward bright Galilean skies, He paused quietly and spoke a prayer of warm gratitude to His Father—thanking God not just after plenty arrived, but while only a child’s tiny lunch lay in His palms.',
+        imageUrl: '/images/stories/feeding-5000-3.jpg',
+        imageAlt: 'Jesus standing amid the grassy meadow lifting simple bread loaves in thanksgiving toward heaven',
+        scriptureRefs: [
+          { label: 'John 6:10–11', chapterId: 'JHN-6', verseNumber: 11 },
+        ],
+      },
+      {
+        id: 'f5k-4',
+        beatNumber: 4,
+        title: 'Passing Overflowing Baskets Row by Row',
+        narrative:
+          'Breaking the bread calmly piece by piece, Jesus began filling empty woven baskets held by astonished disciples. Walking slowly up and down orderly rows of sitting families, Peter, Andrew, and the rest kept reaching down to hand out warm golden slices of bread and tender fish—and somehow the basket never emptied.\n\nNo matter how many outstretched hands they served along the hillside paths, fresh loaves rested warm inside the wicker weave, multiplying quietly each time they passed it onward.',
+        imageUrl: '/images/stories/feeding-5000-4.jpg',
+        imageAlt: 'Disciples distributing overflowing woven baskets of bread through rows of seated families',
+        scriptureRefs: [
+          { label: 'John 6:11', chapterId: 'JHN-6', verseNumber: 11 },
+          { label: 'Luke 9:16–17', chapterId: 'LUK-9', verseNumber: 16 },
+        ],
+      },
+      {
+        id: 'f5k-5',
+        beatNumber: 5,
+        title: 'Everyone Ate Until Satisfied',
+        narrative:
+          'Not a stingy sample or rushed nibble—Gospel writers emphasize that thousands ate freely “as much as they wanted” until every child’s laughter rang clear and every weary grandparent sat contented under evening sky.\n\nAcross the quiet hillside, neighbors shared bread with neighbors who had arrived strangers hours earlier, tasting not merely warm barley loaves but tangible proof that God notices tired bodies as tenderly as hungry souls.',
+        imageUrl: '/images/stories/feeding-5000-5.jpg',
+        imageAlt: 'Smiling grandparents, parents, and children sharing bread happily on sunny lakeside grass',
+        scriptureRefs: [
+          { label: 'John 6:11–12', chapterId: 'JHN-6', verseNumber: 11 },
+          { label: 'Mark 6:42', chapterId: 'MRK-6', verseNumber: 42 },
+        ],
+      },
+      {
+        id: 'f5k-6',
+        beatNumber: 6,
+        title: 'Twelve Baskets Remaining at Dusk',
+        narrative:
+          'When quiet sunset gold shimmered across Lake Galilee and every person was completely full, Jesus gave one more thoughtful instruction: “Gather up the broken pieces which remain, that nothing be lost.”\n\nWalking back through the soft twilight meadow, each of the twelve surprised disciples filled an entire tall wicker basket brim-full with leftover bread—more surplus left afterward than the boy had held before Jesus gave thanks!',
+        imageUrl: '/images/stories/feeding-5000-6.jpg',
+        imageAlt: 'At golden sunset beside Lake Galilee, disciples gathering overflowing wicker baskets of leftover loaves',
+        scriptureRefs: [
+          { label: 'John 6:12–13', chapterId: 'JHN-6', verseNumber: 13 },
+          { label: 'John 6:14', chapterId: 'JHN-6', verseNumber: 14 },
+        ],
+      },
+    ],
+    lessonsLearned: [
+      {
+        title: 'God multiplies what we place in His hands—not what we hide',
+        description:
+          'One boy’s small lunch looked laughable compared to five thousand hungry people, yet giving it openly allowed Jesus to feed an entire hillside.',
+        anchorRef: { label: 'John 6:9–11', chapterId: 'JHN-6', verseNumber: 9 },
+      },
+      {
+        title: 'Gratitude before plenty invites God’s provision',
+        description:
+          'Jesus gave sincere thanks while holding just five small loaves—teaching us to honor what God has already given before asking for more.',
+        anchorRef: { label: 'John 6:11', chapterId: 'JHN-6', verseNumber: 11 },
+      },
+      {
+        title: 'Jesus cares deeply about practical everyday needs',
+        description:
+          'Feeding hungry families at sunset reminds us that no burden is “too ordinary” to bring warmly to God.',
+        anchorRef: { label: 'John 6:12–13', chapterId: 'JHN-6', verseNumber: 13 },
+      },
+    ],
+    reflectionPrompt:
+      'What small “five loaves and two fish” resource, skill, or encouragement could you offer God today trusting Him to multiply it?',
+  },
+  {
+    id: 'story-parable-sower',
+    slug: 'parable-sower',
+    title: 'The Parable of the Sower',
+    subtitle: 'Preparing a Soft, Welcoming Heart for God’s Word',
+    testament: 'NT',
+    category: 'Parables of Jesus',
+    scriptureRange: 'Matthew 13:1–23',
+    readingTimeMinutes: 7,
+    coverImageUrl: '/images/stories/sower-6.jpg',
+    primaryChapterId: 'MAT-13',
+    summary:
+      'Sitting in a quiet wooden fishing boat just off the shore of Lake Galilee, Jesus pointed up at farmers scattering seed across four very different kinds of soil—inviting every listener to ask how deeply they receive God’s Word.',
+    beats: [
+      {
+        id: 'sow-1',
+        beatNumber: 1,
+        title: 'Teaching From a Boat Beside Galilee',
+        narrative:
+          'Crowds pressed eagerly down along the smooth pebbles of Capernaum’s shoreline just to hear Jesus’s gentle voice. Stepping onto the weathered planks of a simple wooden fishing boat pushed a few yards out onto calm turquoise water, Jesus sat down comfortably—letting the natural harbor breeze carry His words clearly across the whole listening beach.\n\nRather than opening with abstract philosophy, Jesus invited everyone sitting along the shore to lift their eyes toward the sunlit terraced farming slopes right behind them and watch a familiar everyday picture unfold: “Behold, a farmer went out to sow.”',
+        imageUrl: '/images/stories/sower-1.jpg',
+        imageAlt: 'Jesus seated in a wooden boat gently off Lake Galilee shore teaching listening crowds',
+        scriptureRefs: [
+          { label: 'Matthew 13:1–3', chapterId: 'MAT-13', verseNumber: 2 },
+        ],
+      },
+      {
+        id: 'sow-2',
+        beatNumber: 2,
+        title: 'Scattering Good Seed Generously',
+        narrative:
+          'Carrying a heavy cloth apron folded neatly against his hip, the Galilean farmer walked steady furrowed rows across sunlit hills—sweeping wide handfuls of good golden grain cleanly left and right across the hillside.\n\nNotice how generous the farmer was: he didn’t hoard seed only for picture-perfect corners of soil. Good seed—which Jesus later explained is the message of God’s kingdom—flew evenly across worn trails, hidden stones, wild edges, and rich dark furrows alike.',
+        imageUrl: '/images/stories/sower-2.jpg',
+        imageAlt: 'Galilean farmer striding across sunlit terraced hills scattering golden seeds widely',
+        scriptureRefs: [
+          { label: 'Matthew 13:3–4', chapterId: 'MAT-13', verseNumber: 3 },
+          { label: 'Matthew 13:18–19', chapterId: 'MAT-13', verseNumber: 18 },
+        ],
+      },
+      {
+        id: 'sow-3',
+        beatNumber: 3,
+        title: 'Hard Path Seed Snatched by Birds',
+        narrative:
+          'Some flying seeds drifted cleanly onto the hard-packed walking path cutting along the border of the field—soil stamped concrete-flat by countless passing sandals and donkey hooves. Lying uncovered atop dry crusted dust, not a single kernel could slip down below the surface.\n\nBefore evening settled over the valley, quick flocks of fluttering sparrows swooped down and pecked every last seed away. So it happens, Jesus gently explained, when someone hears God’s truth without letting it sink past distracted, closed thoughts.',
+        imageUrl: '/images/stories/sower-3.jpg',
+        imageAlt: 'Small brown sparrows pecking scattered seeds resting on a packed stony dirt footpath',
+        scriptureRefs: [
+          { label: 'Matthew 13:4', chapterId: 'MAT-13', verseNumber: 4 },
+          { label: 'Matthew 13:19', chapterId: 'MAT-13', verseNumber: 19 },
+        ],
+      },
+      {
+        id: 'sow-4',
+        beatNumber: 4,
+        title: 'Quick Sprouts on Shallow Rock',
+        narrative:
+          'Other handfuls landed across thin dust hiding solid flat bedrock just an inch beneath. At first that soil looked promising—warm surface earth made frail little green shoots pop straight upward overnight! Neighbors might even smile at how fast those stems shot toward sky.\n\nYet beneath the thin topsoil, tangled roots struck immovable stone and could go no deeper for moisture. When blinding noon sun blazed down relentlessly across the limestone hills, shallow leaves curled crisp and withered—picturing joy that flashes brightly at first, yet wilts when quiet endurance or hard times test roots.',
+        imageUrl: '/images/stories/sower-4.jpg',
+        imageAlt: 'Frail young wheat shoots wilting beneath intense midday sun on shallow rocky ground',
+        scriptureRefs: [
+          { label: 'Matthew 13:5–6', chapterId: 'MAT-13', verseNumber: 5 },
+          { label: 'Matthew 13:20–21', chapterId: 'MAT-13', verseNumber: 21 },
+        ],
+      },
+      {
+        id: 'sow-5',
+        beatNumber: 5,
+        title: 'Young Wheat Crowded by Thorns',
+        narrative:
+          'Still other seeds settled cleanly into loose field dirt along the wild border—only to share dark underground moisture with hidden roots of tough prickly briers and crowding weeds. Day after day, tender green wheat stalks and spiky briars raced upward side by side.\n\nBefore harvest ever formed in the ear, fierce tangled thorns stole sunlight, choked water, and crowded life right out of the wheat. With tender honesty, Jesus named those silent weeds for His listeners: “the worry of this age, and the deceitfulness of wealth” quietly squeezing out room for God.',
+        imageUrl: '/images/stories/sower-5.jpg',
+        imageAlt: 'Young green wheat stalks tangled densely among prickly wild brier bushes and weeds',
+        scriptureRefs: [
+          { label: 'Matthew 13:7', chapterId: 'MAT-13', verseNumber: 7 },
+          { label: 'Matthew 13:22', chapterId: 'MAT-13', verseNumber: 22 },
+        ],
+      },
+      {
+        id: 'sow-6',
+        beatNumber: 6,
+        title: 'Good Soil Yielding a Golden Harvest',
+        narrative:
+          '“And others fell on the good soil,” Jesus smiled warmly across the boat’s edge—soft, broken-open, stone-cleared dark earth ready to drink morning rain deeply in. There those tiny golden kernels anchored strong unseen roots downward while rising steadily through cool wind and warm rain alike.\n\nBy sunset harvest, entire hillsides swayed heavy with tall ripe golden heads of wheat—yielding thirty, sixty, even a hundred times more grain than the farmer ever scattered! Finishing His story, Jesus gently invited every listener on the shore: “He who has ears to hear, let him hear.”',
+        imageUrl: '/images/stories/sower-6.jpg',
+        imageAlt: 'Lush golden hillside bursting with ripe heavy-headed wheat in rich dark soil at sunset',
+        scriptureRefs: [
+          { label: 'Matthew 13:8–9', chapterId: 'MAT-13', verseNumber: 8 },
+          { label: 'Matthew 13:23', chapterId: 'MAT-13', verseNumber: 23 },
+        ],
+      },
+    ],
+    lessonsLearned: [
+      {
+        title: 'How we listen shapes what grows in our lives',
+        description:
+          'All four grounds received the exact same good seed—the difference was whether hearts slowed down long enough to understand and welcome it deeply.',
+        anchorRef: { label: 'Matthew 13:18–23', chapterId: 'MAT-13', verseNumber: 23 },
+      },
+      {
+        title: 'Quiet roots matter more than quick flashy beginnings',
+        description:
+          'Shallow soil sprouted fastest yet withered first. Patient unseen time in prayer and Scripture builds deep roots that outlast noon heat.',
+        anchorRef: { label: 'Matthew 13:20–21', chapterId: 'MAT-13', verseNumber: 21 },
+      },
+      {
+        title: 'Pull daily “weeds” of worry before they crowd out peace',
+        description:
+          'Busy anxiety doesn’t look dangerous at first, yet left untended it quietly steals warmth and joy—invite God gently into today’s cares.',
+        anchorRef: { label: 'Matthew 13:22', chapterId: 'MAT-13', verseNumber: 22 },
+      },
+    ],
+    reflectionPrompt:
+      'Which soil feels closest to your heart this week—and what small stone or “worry weed” could you gently ask God to clear away?',
+  },
 ];

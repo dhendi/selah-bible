@@ -234,13 +234,13 @@ export const TodayScreen: React.FC = () => {
           <div className="min-w-0 flex-1">
             <div className="flex items-center gap-1.5 text-[0.625rem] uppercase tracking-[0.16em] text-[#8B3A2B] font-semibold">
               <BookOpenText className="w-3 h-3" />
-              <span>Illustrated Stories · 5 Classics</span>
+              <span>Illustrated Stories · 10 Classics</span>
             </div>
             <div className="font-serif font-semibold text-base text-[#24221E] mt-0.5 group-hover:text-[#8B3A2B] transition-colors">
               Famous Stories &amp; Parables
             </div>
             <p className="text-xs text-[#666158] mt-0.5 line-clamp-2">
-              Noah, David &amp; Goliath, Daniel, Good Samaritan &amp; Prodigal Son — 6 scenes each with scripture links &amp; lessons learned.
+              Noah, Moses, David, Esther, Jonah, Feeding the 5,000 &amp; more — illustrated scenes with verse links &amp; lessons learned.
             </p>
           </div>
           <ArrowRight className="w-4 h-4 text-[#8B3A2B] flex-shrink-0 transform group-hover:translate-x-0.5 transition-transform" />

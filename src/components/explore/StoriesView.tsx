@@ -423,7 +423,7 @@ export const StoriesView: React.FC = () => {
               : 'bg-[#F3EFE6] text-[#5C5852] hover:bg-[#EAE3D5]'
           }`}
         >
-          Old Testament (3)
+          Old Testament ({SEED_BIBLE_STORIES.filter((s) => s.testament === 'OT').length})
         </button>
         <button
           onClick={() => setCategoryFilter('NT')}
@@ -433,7 +433,7 @@ export const StoriesView: React.FC = () => {
               : 'bg-[#F3EFE6] text-[#5C5852] hover:bg-[#EAE3D5]'
           }`}
         >
-          Parables of Jesus (2)
+          Jesus &amp; Gospels ({SEED_BIBLE_STORIES.filter((s) => s.testament === 'NT').length})
         </button>
       </div>
 
