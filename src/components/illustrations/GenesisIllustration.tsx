@@ -5,7 +5,7 @@ export const GenesisIllustration: React.FC<{ className?: string }> = ({ classNam
   return (
     <div className={`relative overflow-hidden rounded-2xl bg-[#1E293B] shadow-inner select-none ${className}`}>
       <img
-        src={assetUrl('/images/genesis-creation.jpg')}
+        src={assetUrl('/images/genesis-creation.webp')}
         alt="Genesis 1: Creation and Beginnings"
         className="w-full h-full object-cover object-center"
         loading="lazy"

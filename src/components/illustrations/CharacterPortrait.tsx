@@ -3,723 +3,723 @@ import { assetUrl } from '../../utils/assetUrl';
 
 const PORTRAIT_URL_MAP: Record<string, { src: string; alt: string }> = {
   'portrait-moses': {
-    src: '/images/portrait-moses.jpg',
+    src: '/images/portrait-moses.webp',
     alt: 'Portrait of Moses',
   },
   'portrait-aaron': {
-    src: '/images/portrait-aaron.jpg',
+    src: '/images/portrait-aaron.webp',
     alt: 'Portrait of Aaron the High Priest',
   },
   'portrait-ruth': {
-    src: '/images/portrait-ruth.jpg',
+    src: '/images/portrait-ruth.webp',
     alt: 'Portrait of Ruth',
   },
   'portrait-naomi': {
-    src: '/images/portrait-naomi.jpg',
+    src: '/images/portrait-naomi.webp',
     alt: 'Portrait of Naomi',
   },
   'portrait-adam': {
-    src: '/images/portrait-adam.jpg',
+    src: '/images/portrait-adam.webp',
     alt: 'Portrait of Adam',
   },
   'portrait-eve': {
-    src: '/images/portrait-eve.jpg',
+    src: '/images/portrait-eve.webp',
     alt: 'Portrait of Eve',
   },
   'portrait-cain': {
-    src: '/images/portrait-cain.jpg',
+    src: '/images/portrait-cain.webp',
     alt: 'Portrait of Cain',
   },
   'portrait-abel': {
-    src: '/images/portrait-abel.jpg',
+    src: '/images/portrait-abel.webp',
     alt: 'Portrait of Abel',
   },
   'portrait-seth': {
-    src: '/images/portrait-seth.jpg',
+    src: '/images/portrait-seth.webp',
     alt: 'Portrait of Seth',
   },
   'portrait-noah': {
-    src: '/images/portrait-noah.jpg',
+    src: '/images/portrait-noah.webp',
     alt: 'Portrait of Noah',
   },
   'portrait-abraham': {
-    src: '/images/portrait-abraham.jpg',
+    src: '/images/portrait-abraham.webp',
     alt: 'Portrait of Abraham',
   },
   'portrait-sarah': {
-    src: '/images/portrait-sarah.jpg',
+    src: '/images/portrait-sarah.webp',
     alt: 'Portrait of Sarah, Mother of Nations',
   },
   'portrait-hagar': {
-    src: '/images/portrait-hagar.jpg',
+    src: '/images/portrait-hagar.webp',
     alt: 'Portrait of Hagar beside the desert spring',
   },
   'portrait-isaac': {
-    src: '/images/portrait-isaac.jpg',
+    src: '/images/portrait-isaac.webp',
     alt: 'Portrait of Isaac',
   },
   'portrait-rebekah': {
-    src: '/images/portrait-rebekah.jpg',
+    src: '/images/portrait-rebekah.webp',
     alt: 'Portrait of Rebekah',
   },
   'portrait-jacob': {
-    src: '/images/portrait-jacob.jpg',
+    src: '/images/portrait-jacob.webp',
     alt: 'Portrait of Jacob',
   },
   'portrait-esau': {
-    src: '/images/portrait-esau.jpg',
+    src: '/images/portrait-esau.webp',
     alt: 'Portrait of Esau',
   },
   'portrait-rachel': {
-    src: '/images/portrait-rachel.jpg',
+    src: '/images/portrait-rachel.webp',
     alt: 'Portrait of Rachel',
   },
   'portrait-leah': {
-    src: '/images/portrait-leah.jpg',
+    src: '/images/portrait-leah.webp',
     alt: 'Portrait of Leah',
   },
   'portrait-joseph': {
-    src: '/images/portrait-joseph.jpg',
+    src: '/images/portrait-joseph.webp',
     alt: 'Portrait of Joseph, Governor of Egypt',
   },
   'portrait-miriam': {
-    src: '/images/portrait-miriam.jpg',
+    src: '/images/portrait-miriam.webp',
     alt: 'Portrait of Miriam the Prophetess',
   },
   'portrait-zipporah': {
-    src: '/images/portrait-zipporah.jpg',
+    src: '/images/portrait-zipporah.webp',
     alt: 'Portrait of Zipporah of Midian',
   },
   'portrait-jethro': {
-    src: '/images/portrait-jethro.jpg',
+    src: '/images/portrait-jethro.webp',
     alt: 'Portrait of Jethro, Priest of Midian',
   },
   'portrait-joshua': {
-    src: '/images/portrait-joshua.jpg',
+    src: '/images/portrait-joshua.webp',
     alt: 'Portrait of Joshua, Son of Nun',
   },
   'portrait-bezalel': {
-    src: '/images/portrait-bezalel.jpg',
+    src: '/images/portrait-bezalel.webp',
     alt: 'Portrait of Bezalel, Tabernacle Artisan',
   },
   'portrait-pharaoh': {
-    src: '/images/portrait-pharaoh.jpg',
+    src: '/images/portrait-pharaoh.webp',
     alt: 'Portrait of Pharaoh of Egypt',
   },
   'portrait-jochebed': {
-    src: '/images/portrait-jochebed.jpg',
+    src: '/images/portrait-jochebed.webp',
     alt: 'Portrait of Jochebed, Mother of Moses',
   },
   'portrait-hur': {
-    src: '/images/portrait-hur.jpg',
+    src: '/images/portrait-hur.webp',
     alt: 'Portrait of Hur, Elder of Judah',
   },
   'portrait-eleazar': {
-    src: '/images/portrait-eleazar.jpg',
+    src: '/images/portrait-eleazar.webp',
     alt: 'Portrait of Eleazar the High Priest',
   },
   'portrait-ithamar': {
-    src: '/images/portrait-ithamar.jpg',
+    src: '/images/portrait-ithamar.webp',
     alt: 'Portrait of Ithamar, Priest of the Sanctuary',
   },
   'portrait-nadab': {
-    src: '/images/portrait-nadab.jpg',
+    src: '/images/portrait-nadab.webp',
     alt: 'Portrait of Nadab, Son of Aaron',
   },
   'portrait-abihu': {
-    src: '/images/portrait-abihu.jpg',
+    src: '/images/portrait-abihu.webp',
     alt: 'Portrait of Abihu, Son of Aaron',
   },
   'portrait-caleb': {
-    src: '/images/portrait-caleb.jpg',
+    src: '/images/portrait-caleb.webp',
     alt: 'Portrait of Caleb, Wholehearted Explorer',
   },
   'portrait-balaam': {
-    src: '/images/portrait-balaam.jpg',
+    src: '/images/portrait-balaam.webp',
     alt: 'Portrait of Balaam the Seer',
   },
   'portrait-zelophehad': {
-    src: '/images/portrait-zelophehad.jpg',
+    src: '/images/portrait-zelophehad.webp',
     alt: 'Portrait of the Daughters of Zelophehad',
   },
   'portrait-phinehas': {
-    src: '/images/portrait-phinehas.jpg',
+    src: '/images/portrait-phinehas.webp',
     alt: 'Portrait of Phinehas, Priest of the Covenant of Peace',
   },
   'portrait-korah': {
-    src: '/images/portrait-korah.jpg',
+    src: '/images/portrait-korah.webp',
     alt: 'Portrait of Korah of Levi',
   },
   'portrait-rahab': {
-    src: '/images/portrait-rahab.jpg',
+    src: '/images/portrait-rahab.webp',
     alt: 'Portrait of Rahab of Jericho',
   },
   'portrait-deborah': {
-    src: '/images/portrait-deborah.jpg',
+    src: '/images/portrait-deborah.webp',
     alt: 'Deborah, Prophetess and Judge of Israel',
   },
   'portrait-gideon': {
-    src: '/images/portrait-gideon.jpg',
+    src: '/images/portrait-gideon.webp',
     alt: 'Gideon and the 300 Torches',
   },
   'portrait-samson': {
-    src: '/images/portrait-samson.jpg',
+    src: '/images/portrait-samson.webp',
     alt: 'Samson, Nazirite Deliverer',
   },
   'portrait-barak': {
-    src: '/images/portrait-barak.jpg',
+    src: '/images/portrait-barak.webp',
     alt: 'Barak, Commander at Mount Tabor',
   },
   'portrait-delilah': {
-    src: '/images/portrait-delilah.jpg',
+    src: '/images/portrait-delilah.webp',
     alt: 'Delilah of the Valley of Sorek',
   },
   'portrait-hannah': {
-    src: '/images/portrait-hannah.jpg',
+    src: '/images/portrait-hannah.webp',
     alt: 'Hannah Praying at Shiloh',
   },
   'portrait-eli': {
-    src: '/images/portrait-eli.jpg',
+    src: '/images/portrait-eli.webp',
     alt: 'Eli, High Priest at Shiloh',
   },
   'portrait-samuel': {
-    src: '/images/portrait-samuel.jpg',
+    src: '/images/portrait-samuel.webp',
     alt: 'Samuel the Prophet',
   },
   'portrait-saul': {
-    src: '/images/portrait-saul.jpg',
+    src: '/images/portrait-saul.webp',
     alt: 'King Saul of Israel',
   },
   'portrait-jonathan': {
-    src: '/images/portrait-jonathan.jpg',
+    src: '/images/portrait-jonathan.webp',
     alt: 'Jonathan, Loyal Prince of Israel',
   },
   'portrait-david': {
-    src: '/images/portrait-david.jpg',
+    src: '/images/portrait-david.webp',
     alt: 'Portrait of King David with wooden harp',
   },
   'portrait-goliath': {
-    src: '/images/portrait-goliath.jpg',
+    src: '/images/portrait-goliath.webp',
     alt: 'Goliath of Gath',
   },
   'portrait-abigail': {
-    src: '/images/portrait-abigail.jpg',
+    src: '/images/portrait-abigail.webp',
     alt: 'Abigail, Wise Peacemaker',
   },
   'portrait-nathan': {
-    src: '/images/portrait-nathan.jpg',
+    src: '/images/portrait-nathan.webp',
     alt: 'Nathan the Prophet',
   },
   'portrait-mephibosheth': {
-    src: '/images/portrait-mephibosheth.jpg',
+    src: '/images/portrait-mephibosheth.webp',
     alt: 'Mephibosheth at the King’s Table',
   },
   'portrait-bathsheba': {
-    src: '/images/portrait-bathsheba.jpg',
+    src: '/images/portrait-bathsheba.webp',
     alt: 'Bathsheba, Mother of Solomon',
   },
   'portrait-absalom': {
-    src: '/images/portrait-absalom.jpg',
+    src: '/images/portrait-absalom.webp',
     alt: 'Absalom, Son of David',
   },
   'portrait-joab': {
-    src: '/images/portrait-joab.jpg',
+    src: '/images/portrait-joab.webp',
     alt: 'Joab, Commander of Israel',
   },
   'portrait-solomon': {
-    src: '/images/portrait-solomon.jpg',
+    src: '/images/portrait-solomon.webp',
     alt: 'Solomon (Jedidiah, Loved by Yahweh)',
   },
   'portrait-elijah': {
-    src: '/images/portrait-elijah.jpg',
+    src: '/images/portrait-elijah.webp',
     alt: 'Elijah the Prophet',
   },
   'portrait-elisha': {
-    src: '/images/portrait-elisha.jpg',
+    src: '/images/portrait-elisha.webp',
     alt: 'Elisha, Prophet of Israel',
   },
   'portrait-queen-sheba': {
-    src: '/images/portrait-queen-sheba.jpg',
+    src: '/images/portrait-queen-sheba.webp',
     alt: 'Queen of Sheba',
   },
   'portrait-rehoboam': {
-    src: '/images/portrait-rehoboam.jpg',
+    src: '/images/portrait-rehoboam.webp',
     alt: 'King Rehoboam of Judah',
   },
   'portrait-jeroboam': {
-    src: '/images/portrait-jeroboam.jpg',
+    src: '/images/portrait-jeroboam.webp',
     alt: 'King Jeroboam of Northern Israel',
   },
   'portrait-ahab': {
-    src: '/images/portrait-ahab.jpg',
+    src: '/images/portrait-ahab.webp',
     alt: 'King Ahab of Israel',
   },
   'portrait-jezebel': {
-    src: '/images/portrait-jezebel.jpg',
+    src: '/images/portrait-jezebel.webp',
     alt: 'Queen Jezebel',
   },
   'portrait-naaman': {
-    src: '/images/portrait-naaman.jpg',
+    src: '/images/portrait-naaman.webp',
     alt: 'Naaman, Commander of Aram',
   },
   'portrait-hezekiah': {
-    src: '/images/portrait-hezekiah.jpg',
+    src: '/images/portrait-hezekiah.webp',
     alt: 'King Hezekiah of Judah',
   },
   'portrait-josiah': {
-    src: '/images/portrait-josiah.jpg',
+    src: '/images/portrait-josiah.webp',
     alt: 'King Josiah of Judah',
   },
   'portrait-isaiah': {
-    src: '/images/portrait-isaiah.jpg',
+    src: '/images/portrait-isaiah.webp',
     alt: 'Isaiah the Prophet',
   },
   'portrait-shunammite': {
-    src: '/images/portrait-shunammite.jpg',
+    src: '/images/portrait-shunammite.webp',
     alt: 'The Shunammite Woman',
   },
   'portrait-huldah': {
-    src: '/images/portrait-huldah.jpg',
+    src: '/images/portrait-huldah.webp',
     alt: 'Huldah the Prophetess',
   },
   'portrait-job': {
-    src: '/images/portrait-job.jpg',
+    src: '/images/portrait-job.webp',
     alt: 'Job of the Land of Uz',
   },
   'portrait-eliphaz': {
-    src: '/images/portrait-eliphaz.jpg',
+    src: '/images/portrait-eliphaz.webp',
     alt: 'Eliphaz the Temanite',
   },
   'portrait-bildad': {
-    src: '/images/portrait-bildad.jpg',
+    src: '/images/portrait-bildad.webp',
     alt: 'Bildad the Shuhite',
   },
   'portrait-zophar': {
-    src: '/images/portrait-zophar.jpg',
+    src: '/images/portrait-zophar.webp',
     alt: 'Zophar the Naamathite',
   },
   'portrait-elihu': {
-    src: '/images/portrait-elihu.jpg',
+    src: '/images/portrait-elihu.webp',
     alt: 'Elihu the Younger Counselor',
   },
   'portrait-asaph': {
-    src: '/images/portrait-asaph.jpg',
+    src: '/images/portrait-asaph.webp',
     alt: 'Asaph, Chief Temple Musician',
   },
   'portrait-heman': {
-    src: '/images/portrait-heman.jpg',
+    src: '/images/portrait-heman.webp',
     alt: 'Heman & Sons of Korah',
   },
   'portrait-daniel': {
-    src: '/images/portrait-daniel.jpg',
+    src: '/images/portrait-daniel.webp',
     alt: 'Daniel the Prophet',
   },
   'portrait-shadrach': {
-    src: '/images/portrait-shadrach.jpg',
+    src: '/images/portrait-shadrach.webp',
     alt: 'Shadrach (Hananiah)',
   },
   'portrait-meshach': {
-    src: '/images/portrait-meshach.jpg',
+    src: '/images/portrait-meshach.webp',
     alt: 'Meshach (Mishael)',
   },
   'portrait-abednego': {
-    src: '/images/portrait-abednego.jpg',
+    src: '/images/portrait-abednego.webp',
     alt: 'Abednego (Azariah)',
   },
   'portrait-nebuchadnezzar': {
-    src: '/images/portrait-nebuchadnezzar.jpg',
+    src: '/images/portrait-nebuchadnezzar.webp',
     alt: 'King Nebuchadnezzar of Babylon',
   },
   'portrait-darius': {
-    src: '/images/portrait-darius.jpg',
+    src: '/images/portrait-darius.webp',
     alt: 'King Darius the Mede',
   },
   'portrait-jabez': {
-    src: '/images/portrait-jabez.jpg',
+    src: '/images/portrait-jabez.webp',
     alt: 'Portrait of Jabez of Judah',
   },
   'portrait-benaiah': {
-    src: '/images/portrait-benaiah.jpg',
+    src: '/images/portrait-benaiah.webp',
     alt: 'Portrait of Benaiah, Mighty Warrior & Commander',
   },
   'portrait-abishai': {
-    src: '/images/portrait-abishai.jpg',
+    src: '/images/portrait-abishai.webp',
     alt: 'Portrait of Abishai, Captain of the Thirty',
   },
   'portrait-zadok': {
-    src: '/images/portrait-zadok.jpg',
+    src: '/images/portrait-zadok.webp',
     alt: 'Portrait of Zadok the High Priest',
   },
   'portrait-jeduthun': {
-    src: '/images/portrait-jeduthun.jpg',
+    src: '/images/portrait-jeduthun.webp',
     alt: 'Portrait of Jeduthun (Ethan), Chief Sanctuary Musician',
   },
   'portrait-asa': {
-    src: '/images/portrait-asa.jpg',
+    src: '/images/portrait-asa.webp',
     alt: 'Portrait of King Asa of Judah',
   },
   'portrait-jehoshaphat': {
-    src: '/images/portrait-jehoshaphat.jpg',
+    src: '/images/portrait-jehoshaphat.webp',
     alt: 'Portrait of King Jehoshaphat of Judah',
   },
   'portrait-jehoshabeath': {
-    src: '/images/portrait-jehoshabeath.jpg',
+    src: '/images/portrait-jehoshabeath.webp',
     alt: 'Portrait of Princess Jehoshabeath of Judah',
   },
   'portrait-jehoiada': {
-    src: '/images/portrait-jehoiada.jpg',
+    src: '/images/portrait-jehoiada.webp',
     alt: 'Portrait of High Priest Jehoiada',
   },
   'portrait-manasseh': {
-    src: '/images/portrait-manasseh.jpg',
+    src: '/images/portrait-manasseh.webp',
     alt: 'Portrait of Penitent King Manasseh',
   },
   'portrait-cyrus': {
-    src: '/images/portrait-cyrus.jpg',
+    src: '/images/portrait-cyrus.webp',
     alt: 'Portrait of King Cyrus of Persia',
   },
   'portrait-zerubbabel': {
-    src: '/images/portrait-zerubbabel.jpg',
+    src: '/images/portrait-zerubbabel.webp',
     alt: 'Portrait of Zerubbabel, Governor of Judah',
   },
   'portrait-ezra': {
-    src: '/images/portrait-ezra.jpg',
+    src: '/images/portrait-ezra.webp',
     alt: 'Portrait of Ezra the Scribe & Priest',
   },
   'portrait-nehemiah': {
-    src: '/images/portrait-nehemiah.jpg',
+    src: '/images/portrait-nehemiah.webp',
     alt: 'Portrait of Nehemiah, Governor & Wall Builder',
   },
   'portrait-jeshua': {
-    src: '/images/portrait-jeshua.jpg',
+    src: '/images/portrait-jeshua.webp',
     alt: 'Portrait of High Priest Jeshua (Joshua)',
   },
   'portrait-artaxerxes': {
-    src: '/images/portrait-artaxerxes.jpg',
+    src: '/images/portrait-artaxerxes.webp',
     alt: 'Portrait of King Artaxerxes of Persia',
   },
   'portrait-esther': {
-    src: '/images/portrait-esther.jpg',
+    src: '/images/portrait-esther.webp',
     alt: 'Portrait of Queen Esther (Hadassah)',
   },
   'portrait-mordecai': {
-    src: '/images/portrait-mordecai.jpg',
+    src: '/images/portrait-mordecai.webp',
     alt: 'Portrait of Mordecai of Susa',
   },
   'portrait-ahasuerus': {
-    src: '/images/portrait-ahasuerus.jpg',
+    src: '/images/portrait-ahasuerus.webp',
     alt: 'Portrait of King Ahasuerus (Xerxes)',
   },
   'portrait-haman': {
-    src: '/images/portrait-haman.jpg',
+    src: '/images/portrait-haman.webp',
     alt: 'Portrait of Haman the Agagite',
   },
   'portrait-lady-wisdom': {
-    src: '/images/portrait-lady-wisdom.jpg',
+    src: '/images/portrait-lady-wisdom.webp',
     alt: 'Portrait of Lady Wisdom (Chochmah)',
   },
   'portrait-agur': {
-    src: '/images/portrait-agur.jpg',
+    src: '/images/portrait-agur.webp',
     alt: 'Portrait of Agur, Son of Jakeh',
   },
   'portrait-lemuel': {
-    src: '/images/portrait-lemuel.jpg',
+    src: '/images/portrait-lemuel.webp',
     alt: 'Portrait of King Lemuel',
   },
   'portrait-proverbs-31-woman': {
-    src: '/images/portrait-proverbs-31-woman.jpg',
+    src: '/images/portrait-proverbs-31-woman.webp',
     alt: 'Portrait of the Noble Woman of Proverbs 31',
   },
   'portrait-qohelet': {
-    src: '/images/portrait-qohelet.jpg',
+    src: '/images/portrait-qohelet.webp',
     alt: 'Portrait of Qohelet (The Teacher)',
   },
   'portrait-shulammite': {
-    src: '/images/portrait-shulammite.jpg',
+    src: '/images/portrait-shulammite.webp',
     alt: 'Portrait of the Shulammite Bride',
   },
   'portrait-beloved-shepherd': {
-    src: '/images/portrait-beloved-shepherd.jpg',
+    src: '/images/portrait-beloved-shepherd.webp',
     alt: 'Portrait of the Beloved Shepherd',
   },
   'portrait-uzziah': {
-    src: '/images/portrait-uzziah.jpg',
+    src: '/images/portrait-uzziah.webp',
     alt: 'Portrait of King Uzziah of Judah',
   },
   'portrait-ahaz': {
-    src: '/images/portrait-ahaz.jpg',
+    src: '/images/portrait-ahaz.webp',
     alt: 'Portrait of King Ahaz of Judah',
   },
   'portrait-eliakim': {
-    src: '/images/portrait-eliakim.jpg',
+    src: '/images/portrait-eliakim.webp',
     alt: 'Portrait of Eliakim son of Hilkiah',
   },
   'portrait-sennacherib': {
-    src: '/images/portrait-sennacherib.jpg',
+    src: '/images/portrait-sennacherib.webp',
     alt: 'Portrait of King Sennacherib of Assyria',
   },
   'portrait-jeremiah': {
-    src: '/images/portrait-jeremiah.jpg',
+    src: '/images/portrait-jeremiah.webp',
     alt: 'Portrait of Jeremiah the Prophet',
   },
   'portrait-baruch': {
-    src: '/images/portrait-baruch.jpg',
+    src: '/images/portrait-baruch.webp',
     alt: 'Portrait of Baruch son of Neriah',
   },
   'portrait-ebed-melech': {
-    src: '/images/portrait-ebed-melech.jpg',
+    src: '/images/portrait-ebed-melech.webp',
     alt: 'Portrait of Ebed-melech of Cush',
   },
   'portrait-zedekiah': {
-    src: '/images/portrait-zedekiah.jpg',
+    src: '/images/portrait-zedekiah.webp',
     alt: 'Portrait of King Zedekiah of Judah',
   },
   'portrait-ezekiel': {
-    src: '/images/portrait-ezekiel.jpg',
+    src: '/images/portrait-ezekiel.webp',
     alt: 'Portrait of Ezekiel the Prophet',
   },
   'portrait-boaz': {
-    src: '/images/portrait-boaz.jpg',
+    src: '/images/portrait-boaz.webp',
     alt: 'Portrait of Boaz of Bethlehem',
   },
   'portrait-peter': {
-    src: '/images/portrait-peter.jpg',
+    src: '/images/portrait-peter.webp',
     alt: 'Portrait of Simon Peter',
   },
   'portrait-jesus': {
-    src: '/images/portrait-jesus.jpg',
+    src: '/images/portrait-jesus.webp',
     alt: 'Portrait of Jesus Christ',
   },
   'portrait-paul': {
-    src: '/images/portrait-paul.jpg',
+    src: '/images/portrait-paul.webp',
     alt: 'Portrait of Paul the Apostle',
   },
   'portrait-mary-jesus': {
-    src: '/images/portrait-mary-jesus.jpg',
+    src: '/images/portrait-mary-jesus.webp',
     alt: 'Portrait of Mary, Mother of Jesus',
   },
   'portrait-joseph-nazareth': {
-    src: '/images/portrait-joseph-nazareth.jpg',
+    src: '/images/portrait-joseph-nazareth.webp',
     alt: 'Portrait of Joseph of Nazareth',
   },
   'portrait-john-baptist': {
-    src: '/images/portrait-john-baptist.jpg',
+    src: '/images/portrait-john-baptist.webp',
     alt: 'Portrait of John the Baptist',
   },
   'portrait-matthew': {
-    src: '/images/portrait-matthew.jpg',
+    src: '/images/portrait-matthew.webp',
     alt: 'Portrait of Matthew (Levi)',
   },
   'portrait-john-apostle': {
-    src: '/images/portrait-john-apostle.jpg',
+    src: '/images/portrait-john-apostle.webp',
     alt: 'Portrait of John the Apostle',
   },
   'portrait-james-zebedee': {
-    src: '/images/portrait-james-zebedee.jpg',
+    src: '/images/portrait-james-zebedee.webp',
     alt: 'Portrait of James, Son of Zebedee',
   },
   'portrait-andrew': {
-    src: '/images/portrait-andrew.jpg',
+    src: '/images/portrait-andrew.webp',
     alt: 'Portrait of Andrew the Apostle',
   },
   'portrait-mary-magdalene': {
-    src: '/images/portrait-mary-magdalene.jpg',
+    src: '/images/portrait-mary-magdalene.webp',
     alt: 'Portrait of Mary Magdalene',
   },
   'portrait-martha': {
-    src: '/images/portrait-martha.jpg',
+    src: '/images/portrait-martha.webp',
     alt: 'Portrait of Martha of Bethany',
   },
   'portrait-mary-bethany': {
-    src: '/images/portrait-mary-bethany.jpg',
+    src: '/images/portrait-mary-bethany.webp',
     alt: 'Portrait of Mary of Bethany',
   },
   'portrait-lazarus-bethany': {
-    src: '/images/portrait-lazarus.jpg',
+    src: '/images/portrait-lazarus.webp',
     alt: 'Portrait of Lazarus of Bethany',
   },
   'portrait-nicodemus': {
-    src: '/images/portrait-nicodemus.jpg',
+    src: '/images/portrait-nicodemus.webp',
     alt: 'Portrait of Nicodemus',
   },
   'portrait-zacchaeus': {
-    src: '/images/portrait-zacchaeus.jpg',
+    src: '/images/portrait-zacchaeus.webp',
     alt: 'Portrait of Zacchaeus',
   },
   'portrait-thomas': {
-    src: '/images/portrait-thomas.jpg',
+    src: '/images/portrait-thomas.webp',
     alt: 'Portrait of Thomas',
   },
   'portrait-philip-apostle': {
-    src: '/images/portrait-philip-apostle.jpg',
+    src: '/images/portrait-philip-apostle.webp',
     alt: 'Portrait of Philip the Apostle',
   },
   'portrait-nathanael': {
-    src: '/images/portrait-nathanael.jpg',
+    src: '/images/portrait-nathanael.webp',
     alt: 'Portrait of Nathanael',
   },
   'portrait-judas-iscariot': {
-    src: '/images/portrait-judas-iscariot.jpg',
+    src: '/images/portrait-judas-iscariot.webp',
     alt: 'Portrait of Judas Iscariot',
   },
   'portrait-luke': {
-    src: '/images/portrait-luke.jpg',
+    src: '/images/portrait-luke.webp',
     alt: 'Portrait of Luke the Physician',
   },
   'portrait-mark': {
-    src: '/images/portrait-mark.jpg',
+    src: '/images/portrait-mark.webp',
     alt: 'Portrait of John Mark',
   },
   'portrait-barnabas': {
-    src: '/images/portrait-barnabas.jpg',
+    src: '/images/portrait-barnabas.webp',
     alt: 'Portrait of Barnabas',
   },
   'portrait-stephen': {
-    src: '/images/portrait-stephen.jpg',
+    src: '/images/portrait-stephen.webp',
     alt: 'Portrait of Stephen',
   },
   'portrait-philip-evangelist': {
-    src: '/images/portrait-philip-evangelist.jpg',
+    src: '/images/portrait-philip-evangelist.webp',
     alt: 'Portrait of Philip the Evangelist',
   },
   'portrait-timothy': {
-    src: '/images/portrait-timothy.jpg',
+    src: '/images/portrait-timothy.webp',
     alt: 'Portrait of Timothy',
   },
   'portrait-titus': {
-    src: '/images/portrait-titus.jpg',
+    src: '/images/portrait-titus.webp',
     alt: 'Portrait of Titus',
   },
   'portrait-silas': {
-    src: '/images/portrait-silas.jpg',
+    src: '/images/portrait-silas.webp',
     alt: 'Portrait of Silas',
   },
   'portrait-james-jerusalem': {
-    src: '/images/portrait-james-jerusalem.jpg',
+    src: '/images/portrait-james-jerusalem.webp',
     alt: 'Portrait of James of Jerusalem',
   },
   'portrait-jude': {
-    src: '/images/portrait-jude.jpg',
+    src: '/images/portrait-jude.webp',
     alt: 'Portrait of Jude',
   },
   'portrait-cornelius': {
-    src: '/images/portrait-cornelius.jpg',
+    src: '/images/portrait-cornelius.webp',
     alt: 'Portrait of Cornelius',
   },
   'portrait-lydia': {
-    src: '/images/portrait-lydia.jpg',
+    src: '/images/portrait-lydia.webp',
     alt: 'Portrait of Lydia of Thyatira',
   },
   'portrait-priscilla-aquila': {
-    src: '/images/portrait-priscilla-aquila.jpg',
+    src: '/images/portrait-priscilla-aquila.webp',
     alt: 'Portrait of Priscilla & Aquila',
   },
   'portrait-apollos': {
-    src: '/images/portrait-apollos.jpg',
+    src: '/images/portrait-apollos.webp',
     alt: 'Portrait of Apollos',
   },
   'portrait-phoebe': {
-    src: '/images/portrait-phoebe.jpg',
+    src: '/images/portrait-phoebe.webp',
     alt: 'Portrait of Phoebe',
   },
   'portrait-dorcas': {
-    src: '/images/portrait-dorcas.jpg',
+    src: '/images/portrait-dorcas.webp',
     alt: 'Portrait of Dorcas (Tabitha)',
   },
   'portrait-onesimus': {
-    src: '/images/portrait-onesimus.jpg',
+    src: '/images/portrait-onesimus.webp',
     alt: 'Portrait of Onesimus',
   },
   'portrait-philemon': {
-    src: '/images/portrait-philemon.jpg',
+    src: '/images/portrait-philemon.webp',
     alt: 'Portrait of Philemon',
   },
   'portrait-gamaliel': {
-    src: '/images/portrait-gamaliel.jpg',
+    src: '/images/portrait-gamaliel.webp',
     alt: 'Portrait of Gamaliel',
   },
   'portrait-pilate': {
-    src: '/images/portrait-pilate.jpg',
+    src: '/images/portrait-pilate.webp',
     alt: 'Portrait of Pontius Pilate',
   },
   'portrait-caiaphas': {
-    src: '/images/portrait-caiaphas.jpg',
+    src: '/images/portrait-caiaphas.webp',
     alt: 'Portrait of Caiaphas',
   },
   'portrait-annas': {
-    src: '/images/portrait-annas.jpg',
+    src: '/images/portrait-annas.webp',
     alt: 'Portrait of Annas',
   },
   'portrait-herod-great': {
-    src: '/images/portrait-herod-great.jpg',
+    src: '/images/portrait-herod-great.webp',
     alt: 'Portrait of Herod the Great',
   },
   'portrait-herod-antipas': {
-    src: '/images/portrait-herod-antipas.jpg',
+    src: '/images/portrait-herod-antipas.webp',
     alt: 'Portrait of Herod Antipas',
   },
   'portrait-joseph-arimathaea': {
-    src: '/images/portrait-joseph-arimathaea.jpg',
+    src: '/images/portrait-joseph-arimathaea.webp',
     alt: 'Portrait of Joseph of Arimathea',
   },
   'portrait-simon-cyrene': {
-    src: '/images/portrait-simon-cyrene.jpg',
+    src: '/images/portrait-simon-cyrene.webp',
     alt: 'Portrait of Simon of Cyrene',
   },
   'portrait-zacharias-luke': {
-    src: '/images/portrait-zacharias-luke.jpg',
+    src: '/images/portrait-zacharias-luke.webp',
     alt: 'Portrait of Zacharias',
   },
   'portrait-elizabeth': {
-    src: '/images/portrait-elizabeth.jpg',
+    src: '/images/portrait-elizabeth.webp',
     alt: 'Portrait of Elizabeth',
   },
   'portrait-simeon-temple': {
-    src: '/images/portrait-simeon.jpg',
+    src: '/images/portrait-simeon.webp',
     alt: 'Portrait of Simeon',
   },
   'portrait-anna-prophetess': {
-    src: '/images/portrait-anna-prophetess.jpg',
+    src: '/images/portrait-anna-prophetess.webp',
     alt: 'Portrait of Anna',
   },
   'portrait-bartimaeus': {
-    src: '/images/portrait-bartimaeus.jpg',
+    src: '/images/portrait-bartimaeus.webp',
     alt: 'Portrait of Bartimaeus',
   },
   'portrait-jairus': {
-    src: '/images/portrait-jairus.jpg',
+    src: '/images/portrait-jairus.webp',
     alt: 'Portrait of Jairus',
   },
   'portrait-ananias-damascus': {
-    src: '/images/portrait-ananias-damascus.jpg',
+    src: '/images/portrait-ananias-damascus.webp',
     alt: 'Portrait of Ananias of Damascus',
   },
   'portrait-matthias': {
-    src: '/images/portrait-matthias.jpg',
+    src: '/images/portrait-matthias.webp',
     alt: 'Portrait of Matthias',
   },
   'portrait-ethiopian-eunuch': {
-    src: '/images/portrait-ethiopian-eunuch.jpg',
+    src: '/images/portrait-ethiopian-eunuch.webp',
     alt: 'Portrait of Ethiopian Official',
   },
   'portrait-epaphroditus': {
-    src: '/images/portrait-epaphroditus.jpg',
+    src: '/images/portrait-epaphroditus.webp',
     alt: 'Portrait of Epaphroditus',
   },
   'portrait-epaphras': {
-    src: '/images/portrait-epaphras.jpg',
+    src: '/images/portrait-epaphras.webp',
     alt: 'Portrait of Epaphras',
   },
   'portrait-tychicus': {
-    src: '/images/portrait-tychicus.jpg',
+    src: '/images/portrait-tychicus.webp',
     alt: 'Portrait of Tychicus',
   },
   'portrait-lois-eunice': {
-    src: '/images/portrait-lois-eunice.jpg',
+    src: '/images/portrait-lois-eunice.webp',
     alt: 'Portrait of Lois & Eunice',
   },
   'portrait-gaius': {
-    src: '/images/portrait-gaius.jpg',
+    src: '/images/portrait-gaius.webp',
     alt: 'Portrait of Gaius',
   },
 };

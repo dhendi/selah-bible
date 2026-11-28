@@ -227,7 +227,7 @@ export const TodayScreen: React.FC = () => {
           className="w-full text-left p-4 bg-[#F4EFE4]/70 hover:bg-[#F4EFE4] border border-[#E2DACB] transition-colors group cursor-pointer flex items-center gap-4"
         >
           <img
-            src={assetUrl('/images/stories/david-goliath-4.jpg')}
+            src={assetUrl('/images/stories/david-goliath-4.webp')}
             alt="Illustrated Bible Stories"
             className="w-20 h-16 sm:w-24 sm:h-20 object-cover rounded-sm border border-[#D6CCBA] flex-shrink-0"
           />

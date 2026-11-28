@@ -7,10 +7,10 @@ export const ThematicIllustration: React.FC<{
 }> = ({ type, className = 'w-full h-48' }) => {
   const src =
     type === 'peace-pastures'
-      ? '/images/peace-pastures.jpg'
+      ? '/images/peace-pastures.webp'
       : type === 'wisdom-scroll'
-      ? '/images/wisdom-scroll.jpg'
-      : '/images/courage-light.jpg';
+      ? '/images/wisdom-scroll.webp'
+      : '/images/courage-light.webp';
 
   return (
     <div className={`relative overflow-hidden rounded-2xl bg-[#F4EDE4] shadow-inner select-none ${className}`}>
