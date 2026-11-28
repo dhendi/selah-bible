@@ -162,65 +162,65 @@ export const App: React.FC = () => {
           </div>
 
           {/* Quiet Editorial Bottom Navigation */}
-          <footer ref={footerRef} className="sticky bottom-0 left-0 right-0 z-30 bg-[#FBF8F1]/95 backdrop-blur-xs border-t border-[#DDD3C1] px-2 sm:px-4 pt-0 pb-[max(0.75rem,env(safe-area-inset-bottom))] flex items-center justify-around select-none">
+          <footer ref={footerRef} className="sticky bottom-0 left-0 right-0 z-30 bg-[#FBF8F1]/95 backdrop-blur-xs border-t border-[#DDD3C1] px-1 sm:px-4 pt-0 pb-[max(0.75rem,env(safe-area-inset-bottom))] grid grid-cols-5 sm:flex sm:items-center sm:justify-around select-none">
             <button
               onClick={() => setActiveTab('today')}
-              className={`flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-2 sm:px-3 border-t-2 transition-colors cursor-pointer ${
+              className={`min-w-0 flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-0.5 sm:px-3 border-t-2 transition-colors cursor-pointer ${
                 activeTab === 'today'
                   ? 'border-[#8B3A2B] text-[#24221E] font-semibold'
                   : 'border-transparent text-[#8C867B] hover:text-[#24221E]'
               }`}
             >
-              <Bookmark className="w-4 h-4" />
-              <span className="text-[0.6875rem] font-serif tracking-wide">Bookmark</span>
+              <Bookmark className="w-4 h-4 shrink-0" />
+              <span className="text-[0.625rem] sm:text-[0.6875rem] font-serif tracking-tight sm:tracking-wide truncate max-w-full">Bookmark</span>
             </button>
 
             <button
               onClick={() => setActiveTab('read')}
-              className={`flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-2 sm:px-3 border-t-2 transition-colors cursor-pointer ${
+              className={`min-w-0 flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-0.5 sm:px-3 border-t-2 transition-colors cursor-pointer ${
                 isReaderTab
                   ? 'border-[#8B3A2B] text-[#24221E] font-semibold'
                   : 'border-transparent text-[#8C867B] hover:text-[#24221E]'
               }`}
             >
-              <BookOpen className="w-4 h-4" />
-              <span className="text-[0.6875rem] font-serif tracking-wide">Bible</span>
+              <BookOpen className="w-4 h-4 shrink-0" />
+              <span className="text-[0.625rem] sm:text-[0.6875rem] font-serif tracking-tight sm:tracking-wide truncate max-w-full">Bible</span>
             </button>
 
             <button
               onClick={() => setActiveTab('explore')}
-              className={`flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-2 sm:px-3 border-t-2 transition-colors cursor-pointer ${
+              className={`min-w-0 flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-0.5 sm:px-3 border-t-2 transition-colors cursor-pointer ${
                 activeTab === 'explore'
                   ? 'border-[#8B3A2B] text-[#24221E] font-semibold'
                   : 'border-transparent text-[#8C867B] hover:text-[#24221E]'
               }`}
             >
-              <Compass className="w-4 h-4" />
-              <span className="text-[0.6875rem] font-serif tracking-wide">Explore</span>
+              <Compass className="w-4 h-4 shrink-0" />
+              <span className="text-[0.625rem] sm:text-[0.6875rem] font-serif tracking-tight sm:tracking-wide truncate max-w-full">Explore</span>
             </button>
 
             <button
               onClick={() => setActiveTab('hymnals')}
-              className={`flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-2 sm:px-3 border-t-2 transition-colors cursor-pointer ${
+              className={`min-w-0 flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-0.5 sm:px-3 border-t-2 transition-colors cursor-pointer ${
                 activeTab === 'hymnals'
                   ? 'border-[#8B3A2B] text-[#24221E] font-semibold'
                   : 'border-transparent text-[#8C867B] hover:text-[#24221E]'
               }`}
             >
-              <Music className="w-4 h-4" />
-              <span className="text-[0.6875rem] font-serif tracking-wide">Hymnals</span>
+              <Music className="w-4 h-4 shrink-0" />
+              <span className="text-[0.625rem] sm:text-[0.6875rem] font-serif tracking-tight sm:tracking-wide truncate max-w-full">Hymnals</span>
             </button>
 
             <button
               onClick={() => setActiveTab('library')}
-              className={`flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-2 sm:px-3 border-t-2 transition-colors cursor-pointer ${
+              className={`min-w-0 flex flex-col items-center justify-center gap-1 pt-2.5 pb-1 px-0.5 sm:px-3 border-t-2 transition-colors cursor-pointer ${
                 activeTab === 'library'
                   ? 'border-[#8B3A2B] text-[#24221E] font-semibold'
                   : 'border-transparent text-[#8C867B] hover:text-[#24221E]'
               }`}
             >
-              <PenLine className="w-4 h-4" />
-              <span className="text-[0.6875rem] font-serif tracking-wide">Journal</span>
+              <PenLine className="w-4 h-4 shrink-0" />
+              <span className="text-[0.625rem] sm:text-[0.6875rem] font-serif tracking-tight sm:tracking-wide truncate max-w-full">Journal</span>
             </button>
           </footer>
         </div>
