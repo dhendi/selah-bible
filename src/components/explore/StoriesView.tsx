@@ -92,7 +92,7 @@ export const StoriesView: React.FC = () => {
     window.speechSynthesis.cancel();
     const parts = [
       `${activeStory.title}. ${activeStory.subtitle}. ${activeStory.summary}`,
-      ...activeStory.beats.map((b) => `${b.title}. ${b.narrative}`),
+      ...activeStory.beats.map((b) => `${b.title}. ${b.narrative.replace(/\n+/g, ' ')}`),
       `Lessons Learned. ${activeStory.lessonsLearned
         .map((l, idx) => `${idx + 1}. ${l.title}. ${l.description}`)
         .join(' ')}`,
@@ -222,15 +222,20 @@ export const StoriesView: React.FC = () => {
                   {beat.title}
                 </h3>
 
-                <p
-                  className={`text-[#383632] ${fontClass}`}
-                  style={{
-                    fontSize: `${preferences.fontSize}px`,
-                    lineHeight: preferences.lineHeight,
-                  }}
-                >
-                  {beat.narrative}
-                </p>
+                <div className="space-y-3">
+                  {beat.narrative.split('\n\n').map((paragraph, pIdx) => (
+                    <p
+                      key={`${beat.id}-p-${pIdx}`}
+                      className={`text-[#383632] ${fontClass}`}
+                      style={{
+                        fontSize: `${preferences.fontSize}px`,
+                        lineHeight: preferences.lineHeight,
+                      }}
+                    >
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
 
                 {/* Inline Scripture Location Links */}
                 <div className="pt-2 border-t border-[#F0EAE0] flex flex-wrap items-center gap-2">

@@ -9,22 +9,23 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
     testament: 'OT',
     category: 'Old Testament Classics',
     scriptureRange: 'Genesis 6–9',
-    readingTimeMinutes: 4,
+    readingTimeMinutes: 8,
     coverImageUrl: '/images/stories/noah-2.jpg',
     primaryChapterId: 'GEN-6',
     summary:
-      'When the earth grew filled with violence and selfishness, God asked one gentle, faithful man to build an enormous wooden rescue vessel far from any ocean—and trust His promise through a storm that reshaped the world.',
+      'In a generation consumed by violence and forgetfulness of God, one quiet righteous man named Noah found grace in the Lord’s eyes—and trusted Him enough to build an enormous wooden rescue vessel long before a single cloud appeared.',
     beats: [
       {
         id: 'noah-1',
         beatNumber: 1,
         title: 'A Giant Boat on Dry Ground',
         narrative:
-          'Long before a single drop of rain fell, God warned Noah that a flood was coming and gave him careful measurements for a towering three-story ark made of cypress wood. Year after year, Noah measured, sawed, and sealed every plank with pitch—staying steady in faith even when neighbors wondered why he was building a ship miles from the sea.',
+          'Long before a single drop of rain fell from the sky, God looked down with sorrow upon an earth filled with cruelty and corruption. Yet Noah, Scripture tells us, “walked with God.” Speaking directly to His faithful servant, the Lord revealed a coming flood and gave detailed blueprints for an enormous three-story vessel of gopher wood—four hundred and fifty feet long, lined inside and out with pitch, with rooms built to shelter both Noah’s family and living creatures of every kind.\n\nDay after day, season after season, the sharp ring of hammer and chisel echoed across the sunlit olive hills. Neighbors paused to stare and whisper at an aging carpenter raising a sea-sized wooden frame miles from any coast. Still, Noah did not argue or quit; Genesis pauses simply to note, “Noah did this. According to all that God commanded him, so he did.”',
         imageUrl: '/images/stories/noah-1.jpg',
         imageAlt: 'Noah building the massive wooden ark beams beside sunlit olive hills',
         scriptureRefs: [
           { label: 'Genesis 6:8–14', chapterId: 'GEN-6', verseNumber: 14 },
+          { label: 'Genesis 6:15–16', chapterId: 'GEN-6', verseNumber: 15 },
           { label: 'Genesis 6:22', chapterId: 'GEN-6', verseNumber: 22 },
         ],
       },
@@ -33,11 +34,12 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 2,
         title: 'Two by Two Into Shelter',
         narrative:
-          'When the timber work finally stood complete, God guided pairs of every creature—elephants, deer, lions, sheep, and fluttering birds—up the wide wooden ramp into the safety of the ark. Noah, his wife, their three sons, and their wives stepped inside last, and God Himself shut the heavy door behind them.',
+          'At last the towering timber frame stood finished, stocked with baskets of grain, fruit, and dried hay for months ahead. Then God gave the quiet word: “Come, you and all your household, into the ship.” Soon an unforgettable procession moved across the valley grass—heavy gray elephants, quiet spotted deer, thick-maned lions, gentle wooly sheep, and pairs of fluttering birds walking peacefully up the wide plank ramp.\n\nNo net or whip was needed to herd them; the same Creator who formed every living wing and hoof gently guided them into safety before a storm nobody else believed was coming. Once Noah, his wife, their three sons Shem, Ham, and Japheth, and their wives stepped inside, Genesis records a tender detail: Yahweh Himself shut the heavy door behind them.',
         imageUrl: '/images/stories/noah-2.jpg',
         imageAlt: 'Pairs of gentle animals walking up the wooden ramp into Noah’s ark before storm clouds',
         scriptureRefs: [
           { label: 'Genesis 7:1–5', chapterId: 'GEN-7', verseNumber: 1 },
+          { label: 'Genesis 7:7–9', chapterId: 'GEN-7', verseNumber: 9 },
           { label: 'Genesis 7:15–16', chapterId: 'GEN-7', verseNumber: 16 },
         ],
       },
@@ -46,12 +48,13 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 3,
         title: 'Forty Days of Relentless Rain',
         narrative:
-          'Then the deep springs burst upward and the windows of heaven poured down rain for forty days and forty nights. Dark waves rose above hills and mountaintops alike, tossing the vast sea, yet the pitch-sealed ark floated securely—carrying Noah’s family and every living creature safe inside.',
+          'Seven days later, the sky darkened to deep slate and “all the fountains of the great deep burst open, and the sky’s windows were opened.” Torrential sheets of water poured relentlessly for forty days and forty nights without pause. Streams overflowed their banks, valleys turned into roaring lakes, and swelling waves climbed past ancient forests until even the highest mountain ridges sank beneath the sea.\n\nInside the pitch-dark hull, the timber beams groaned and lifted upward on the rising tide. Every familiar landmark outside vanished behind churning foam, yet the pitch-sealed ark held dry and steady—carrying that small remnant of humanity and Creation safely above the storm.',
         imageUrl: '/images/stories/noah-3.jpg',
         imageAlt: 'The sturdy wooden ark riding high waves beneath pouring rain',
         scriptureRefs: [
           { label: 'Genesis 7:11–12', chapterId: 'GEN-7', verseNumber: 11 },
-          { label: 'Genesis 7:17–24', chapterId: 'GEN-7', verseNumber: 17 },
+          { label: 'Genesis 7:17–20', chapterId: 'GEN-7', verseNumber: 19 },
+          { label: 'Genesis 7:23–24', chapterId: 'GEN-7', verseNumber: 24 },
         ],
       },
       {
@@ -59,11 +62,12 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 4,
         title: 'God Remembers & Calms the Waters',
         narrative:
-          'At last, Scripture says, “God remembered Noah.” A gentle wind swept across the flooded earth, the rains ceased, and the deep waters slowly began to recede. After five quiet months afloat, the heavy keel settled safely onto the high slopes of Mount Ararat under pale golden sunlight.',
+          'For one hundred and fifty long days the waters prevailed while Noah’s family cared for the animals in quiet patience, waiting without knowing when land would appear again. Then comes one of the most comforting turning points in all of Genesis: “God remembered Noah, and every living thing, and all the livestock that were with him in the ship.”\n\nImmediately God sent a warm steady wind across the flooded world. The hidden fountains sealed shut, the pouring rain halted, and week after week the vast sea began pulling slowly back. On the seventeenth day of the seventh month, Noah felt a gentle scrape beneath the keel—the heavy ark had come safely to rest high upon the misty mountains of Ararat under pale sunrise skies.',
         imageUrl: '/images/stories/noah-4.jpg',
         imageAlt: 'Calm sunrise light breaking over flat waters as mountain peaks emerge near the ark',
         scriptureRefs: [
-          { label: 'Genesis 8:1–4', chapterId: 'GEN-8', verseNumber: 1 },
+          { label: 'Genesis 8:1–2', chapterId: 'GEN-8', verseNumber: 1 },
+          { label: 'Genesis 8:3–4', chapterId: 'GEN-8', verseNumber: 4 },
           { label: 'Genesis 8:5', chapterId: 'GEN-8', verseNumber: 5 },
         ],
       },
@@ -72,11 +76,12 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 5,
         title: 'The Dove With the Olive Leaf',
         narrative:
-          'To test whether dry ground had appeared in the valleys below, Noah opened the window and sent out a white dove. Twice she left; the second evening she fluttered back to Noah’s outstretched hand holding a freshly plucked green olive leaf in her beak—clear proof that new life was already budding outside.',
+          'Still Noah waited patiently for the deep valleys far below the mountaintops to drain. Unlatching the ark’s wooden window, he first sent out a strong black raven, then released a gentle white dove to search for dry footing. When the dove found only endless water, she flew back weary to the window ledge, and Noah reached out to bring her lovingly inside.\n\nSeven days later he opened his hands and sent her out once more. That evening, just as dusk softened the horizon, white wings fluttered back toward the ark—and in her beak gleamed a freshly plucked green olive leaf! Noah knew at once that new life was already sprouting across the earth, and when he waited seven days longer and sent her a third time, she never needed to return.',
         imageUrl: '/images/stories/noah-5.jpg',
         imageAlt: 'Noah gently receiving a white dove carrying a fresh green olive twig',
         scriptureRefs: [
-          { label: 'Genesis 8:8–11', chapterId: 'GEN-8', verseNumber: 11 },
+          { label: 'Genesis 8:6–9', chapterId: 'GEN-8', verseNumber: 9 },
+          { label: 'Genesis 8:10–11', chapterId: 'GEN-8', verseNumber: 11 },
           { label: 'Genesis 8:12', chapterId: 'GEN-8', verseNumber: 12 },
         ],
       },
@@ -85,11 +90,12 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 6,
         title: 'The Rainbow Promise',
         narrative:
-          'Once the soil dried, Noah built a simple stone altar to thank God for carrying them safely through the flood. In reply, God painted a radiant rainbow across the clearing clouds—promising never again to destroy the earth by water and inviting humanity into a fresh beginning of peace and stewardship.',
+          'At last God lifted the waiting: “Go out of the ship, you, your wife, your sons, and your sons’ wives with you.” Footsteps echoed down the wooden ramp onto firm green soil as birds burst into clear sky and herds wandered back across fresh meadows. Before pitching a single tent or plowing a single field, Noah gathered stones, built a simple altar, and offered up a sacrifice of pure gratitude to the Lord.\n\nDelighted by his thankful heart, God spoke an eternal covenant over all living generations—setting His radiant watercolor bow across the drifting rainclouds. From that morning onward, every rainbow shining through storm mist stands as a quiet pledge of God’s mercy: never again would floodwaters wipe out the earth, and His faithfulness would endure through every season to come.',
         imageUrl: '/images/stories/noah-6.jpg',
         imageAlt: 'A soft watercolor rainbow arcing over green hills beside a thanksgiving altar',
         scriptureRefs: [
-          { label: 'Genesis 8:20', chapterId: 'GEN-8', verseNumber: 20 },
+          { label: 'Genesis 8:15–19', chapterId: 'GEN-8', verseNumber: 16 },
+          { label: 'Genesis 8:20–22', chapterId: 'GEN-8', verseNumber: 20 },
           { label: 'Genesis 9:12–16', chapterId: 'GEN-9', verseNumber: 13 },
         ],
       },
@@ -98,19 +104,19 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
       {
         title: 'Faithful steps come before seeing the outcome',
         description:
-          'Noah trusted God’s word and started building years before the first raindrop appeared. Steady obedience today prepares us for tomorrow’s storms.',
+          'Noah started sawing timber years before a drop of rain appeared, even while neighbors doubted. Steady, quiet obedience today builds shelter long before life’s storms arrive.',
         anchorRef: { label: 'Genesis 6:22', chapterId: 'GEN-6', verseNumber: 22 },
       },
       {
         title: 'God never forgets those waiting inside the storm',
         description:
-          'Even during long months when nothing seemed to change on the surface, God kept Noah in mind and brought quiet calm in His timing.',
+          'Months drifted by without visible change, yet Scripture says “God remembered Noah.” Silence does not mean absence—God keeps track of every waiting heart.',
         anchorRef: { label: 'Genesis 8:1', chapterId: 'GEN-8', verseNumber: 1 },
       },
       {
         title: 'Gratitude welcomes a new beginning',
         description:
-          'Noah’s very first act on dry land was pausing to give thanks—reminding us to honor God before rushing back into busy life.',
+          'Noah’s very first act on dry land was building an altar of thanks before tending anything else—reminding us to pause and honor God at the start of every new chapter.',
         anchorRef: { label: 'Genesis 8:20', chapterId: 'GEN-8', verseNumber: 20 },
       },
     ],
@@ -125,23 +131,23 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
     testament: 'OT',
     category: 'Old Testament Classics',
     scriptureRange: '1 Samuel 17',
-    readingTimeMinutes: 4,
+    readingTimeMinutes: 8,
     coverImageUrl: '/images/stories/david-goliath-4.jpg',
     primaryChapterId: '1SA-17',
     summary:
-      'When an intimidating bronze-clad champion paralyzed an entire army with fear, an overlooked young shepherd stepped onto the valley floor—not in heavy royal armor, but armed with trust in the living God.',
+      'While an intimidating giant champion paralyzed an entire army with forty days of fear, a teenage shepherd arrived carrying simple bread and cheese for his brothers—and showed everyone what ordinary faith in the living God can do.',
     beats: [
       {
         id: 'dg-1',
         beatNumber: 1,
         title: 'Two Camps Across the Valley of Elah',
         narrative:
-          'The Philistine army and the soldiers of Israel pitched their tents on opposite hillsides above the rocky Valley of Elah. Every morning and evening for forty days, the valley echoed with tension while David’s older brothers stood nervously in the battle line and young David brought them bread and cheese from home.',
+          'War broke out again between Israel and the Philistine cities, and both armies dug in on facing limestone slopes above the rocky Valley of Elah. Every morning, trumpets sounded across the dry riverbed separating the camps, yet neither side dared charge downhill first. Back home in quiet Bethlehem hills, young David—the youngest of Jesse’s eight sons—spent his days watching sheep and strumming songs on his harp.\n\nOne morning his aging father packed roasted grain, ten fresh loaves of bread, and ten cuts of cheese, sending David twenty miles down to the army camp to check on his three oldest brothers. Arriving just as soldiers hurried toward the front lines shouting battle cries, David left his supplies with the baggage keeper and ran eagerly forward to greet his family.',
         imageUrl: '/images/stories/david-goliath-1.jpg',
         imageAlt: 'Two ancient armies encamped on facing hills above the Valley of Elah',
         scriptureRefs: [
           { label: '1 Samuel 17:1–3', chapterId: '1SA-17', verseNumber: 1 },
-          { label: '1 Samuel 17:16–18', chapterId: '1SA-17', verseNumber: 16 },
+          { label: '1 Samuel 17:17–22', chapterId: '1SA-17', verseNumber: 20 },
         ],
       },
       {
@@ -149,12 +155,13 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 2,
         title: 'A Giant’s Boast Silences the Army',
         narrative:
-          'Striding out between the lines stood Goliath of Gath—over nine feet tall, draped in bronze scale armor, carrying a massive spear and heavy shield. Hearing his thunderous challenge to single combat, seasoned soldiers backed away in dread, forgetting the God who had rescued Israel so many times before.',
+          'Suddenly a hush fell across the hillside lines. Out from the Philistine ranks strode their towering champion, Goliath of Gath—standing over nine feet tall, clad from brow to shin in heavy bronze scale armor weighing well over a hundred pounds. A thick wooden spear tipped with gleaming iron rested over his shoulder while a shield-bearer marched steadily ahead of him.\n\nEvery morning and evening for forty straight days, Goliath’s deep voice had thundered across the valley: “Choose a man for yourselves, and let him come down to me! Today I defy the armies of Israel!” Watching seasoned Israelite warriors turn pale and stumble backward in dread, young David burned with quiet astonishment—how could anyone let an outsider insult the living God of Israel without answering?',
         imageUrl: '/images/stories/david-goliath-2.jpg',
         imageAlt: 'Towering bronze-armored Goliath standing across the valley ridge before fearful troops',
         scriptureRefs: [
           { label: '1 Samuel 17:4–11', chapterId: '1SA-17', verseNumber: 4 },
-          { label: '1 Samuel 17:24', chapterId: '1SA-17', verseNumber: 24 },
+          { label: '1 Samuel 17:16', chapterId: '1SA-17', verseNumber: 16 },
+          { label: '1 Samuel 17:24–26', chapterId: '1SA-17', verseNumber: 26 },
         ],
       },
       {
@@ -162,7 +169,7 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 3,
         title: 'Setting Aside Heavy Armor',
         narrative:
-          'David stepped forward and volunteered to fight. King Saul dressed the young shepherd in his own bronze helmet and coat of mail, yet David could barely walk under the unfamiliar weight. Gently taking them off, he chose instead to go as himself—remembering how God had delivered him from lions and bears in the pastures.',
+          'Word of David’s fearless questions reached King Saul, who summoned the curly-haired youth into his royal tent. “You aren’t able to go against this Philistine,” Saul sighed, seeing only a boy beside a lifelong warrior. Quietly, David told the king how lions and bears had tried to steal lambs from his father’s flock—and how Yahweh Himself had given the young shepherd strength to rescue every lamb safely. Convinced by his calm faith, Saul agreed, saying, “Go, and may Yahweh be with you.”\n\nWanting to protect the boy, Saul buckled his own heavy bronze helmet onto David’s head, cinched a thick coat of bronze mail around his chest, and strapped a heavy sword to his belt. David tried to take a few steps—and nearly buckled beneath the unfamiliar metal. Respectfully lifting off the royal armor, he answered honestly: “I cannot go in these, for I have not tested them.”',
         imageUrl: '/images/stories/david-goliath-3.jpg',
         imageAlt: 'Young David setting aside King Saul’s oversized bronze helmet and armor inside a tent',
         scriptureRefs: [
@@ -175,12 +182,12 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 4,
         title: 'Five Smooth Stones From the Stream',
         narrative:
-          'Walking down into the valley floor, David knelt beside a clear rushing brook and chose five smooth gray stones worn round by the current, tucking them neatly into his leather shepherd’s bag. With only his wooden staff and worn wool sling in hand, he walked calmly up to meet his towering opponent.',
+          'Stepping out of the king’s tent wearing only his light linen shepherd tunic, David gripped his wooden walking staff and walked down alone into the wide valley floor. Reaching the clear, rippling creek that wound between the two armies, he knelt beside the sunlit pebbles and took his time—feeling for five smooth river stones worn perfectly round by rushing water.\n\nDropping them neatly into the worn leather pouch slung at his side, he checked his simple braided wool sling—a tool he had practiced with across lonely Bethlehem hills for years. No gleaming shield covered his chest, yet peace rested on his brow as he rose and walked briskly across the gravel toward the waiting giant.',
         imageUrl: '/images/stories/david-goliath-4.jpg',
         imageAlt: 'Young shepherd David kneeling beside a clear stream choosing five smooth river stones',
         scriptureRefs: [
           { label: '1 Samuel 17:40', chapterId: '1SA-17', verseNumber: 40 },
-          { label: '1 Samuel 17:42–44', chapterId: '1SA-17', verseNumber: 42 },
+          { label: '1 Samuel 17:41–44', chapterId: '1SA-17', verseNumber: 43 },
         ],
       },
       {
@@ -188,7 +195,7 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 5,
         title: 'Standing in the Name of the Lord',
         narrative:
-          'Goliath mocked the shepherd boy, yet David answered boldly: “You come to me with a sword and a spear, but I come to you in the name of Yahweh of Armies.” Reaching into his pouch, David whirled one smooth stone through the air with practiced aim—bringing the boasting giant crashing down with a single shot.',
+          'When Goliath squinted at the rosy-cheeked shepherd carrying a stick instead of a spear, he roared with insulted laughter: “Am I a dog, that you come to me with sticks?” Cursing David by his Philistine idols, the armored giant lumbered angrily forward across the valley dust.\n\nDavid did not flinch—in fact, he began to run straight toward the battle line, calling out loud enough for both hillsides to hear: “You come to me with a sword, with a spear, and with a javelin; but I come to you in the name of Yahweh of Armies!” Reaching smoothly into his shepherd bag, David slipped one round stone into his leather sling, whirled it overhead with a sharp hum, and let fly. God guided that single stone straight into the one unarmored gap above Goliath’s brow—sending the towering champion crashing face-first to the earth.',
         imageUrl: '/images/stories/david-goliath-5.jpg',
         imageAlt: 'Courageous young David striding forward whirling his leather sling in golden light',
         scriptureRefs: [
@@ -201,12 +208,12 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 6,
         title: 'Courage That Inspires Everyone Around',
         narrative:
-          'Seeing God’s deliverance through one small servant, fear evaporated across the hillsides. Israel’s demoralized soldiers cheered and rallied forward together—discovering that when one person trusts God boldly, quiet courage spreads to the whole community.',
+          'For one breathless second, utter silence hung across the Valley of Elah. Then an unstoppable roar of joy broke from the Israelite ridge—men who had hidden behind boulders for forty days leaped to their feet and surged forward together while the Philistine ranks turned and scattered down the western road.\n\nLater that golden afternoon, Saul welcomed the humble young shepherd back, amazed at how completely God had rescued an entire nation without sword or spear in David’s hand. One faithful heart, choosing trust over terror, had broken the grip of fear across an entire generation.',
         imageUrl: '/images/stories/david-goliath-6.jpg',
         imageAlt: 'Golden sunrise over the Valley of Elah as David lifts his shepherd staff in thanksgiving',
         scriptureRefs: [
-          { label: '1 Samuel 17:51–52', chapterId: '1SA-17', verseNumber: 51 },
-          { label: '1 Samuel 17:57–58', chapterId: '1SA-17', verseNumber: 57 },
+          { label: '1 Samuel 17:51–53', chapterId: '1SA-17', verseNumber: 52 },
+          { label: '1 Samuel 17:55–58', chapterId: '1SA-17', verseNumber: 58 },
         ],
       },
     ],
@@ -214,19 +221,19 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
       {
         title: 'You don’t need someone else’s armor to serve God',
         description:
-          'Saul’s heavy bronze weighed David down. God uses your ordinary, everyday experiences—like David’s quiet days tending sheep—when you bring them faithfully to Him.',
+          'Saul’s bronze helmet and breastplate only slowed David down. God equips you through your own quiet training and everyday skills—not by copying someone else’s size.',
         anchorRef: { label: '1 Samuel 17:39', chapterId: '1SA-17', verseNumber: 39 },
       },
       {
         title: 'Remember past rescues when facing today’s giant',
         description:
-          'David faced Goliath with confidence because he remembered how God had protected him from the lion and bear long before anyone was watching.',
+          'David faced Goliath with confidence because he treasured every memory of how God had protected his flock from lion and bear when nobody was watching.',
         anchorRef: { label: '1 Samuel 17:37', chapterId: '1SA-17', verseNumber: 37 },
       },
       {
         title: 'The battle belongs to God, not outward strength',
         description:
-          'Size, loud boasting, and heavy weapons look decisive on the surface, yet God loves winning through humble, trusting hearts.',
+          'Loud boasting and heavy gear look decisive to human eyes, yet God delights in showing His strength through humble, trusting servants.',
         anchorRef: { label: '1 Samuel 17:47', chapterId: '1SA-17', verseNumber: 47 },
       },
     ],
@@ -241,22 +248,22 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
     testament: 'OT',
     category: 'Old Testament Classics',
     scriptureRange: 'Daniel 6',
-    readingTimeMinutes: 4,
+    readingTimeMinutes: 8,
     coverImageUrl: '/images/stories/daniel-lions-4.jpg',
     primaryChapterId: 'DAN-6',
     summary:
-      'Now an older statesman in Babylon, Daniel was so trustworthy that rivals could find no flaw in his work—so they targeted his daily habit of prayer instead, leading to a night among hungry lions.',
+      'Now a silver-haired statesman in his eighties, Daniel had served kingdoms honestly for decades—until jealous rivals turned his steady daily habit of prayer into a deadly trap inside a stone-sealed lions’ pit.',
     beats: [
       {
         id: 'dan-1',
         beatNumber: 1,
         title: 'Steady Prayer by an Open Window',
         narrative:
-          'In his eighties, Daniel served with rare wisdom and honesty at the heart of King Darius’s empire. Three times every single day—morning, noon, and evening—he went upstairs to his room, opened his arched windows toward distant Jerusalem, knelt down, and gave thanks to God just as he had done since youth.',
+          'Even after empires rose and fell around Babylon, aging Daniel shone above every administrator in King Darius’s court because an “excellent spirit was in him.” So clear were his accounts and so upright his decisions that the king planned to set him over the whole realm. Fame, however, never crowded out Daniel’s oldest friendship.\n\nThree times every single day—at morning light, midday heat, and quiet dusk—he walked up the stone stairs of his house, pushed open the shutters facing distant Jerusalem, got down on his knees, and prayed aloud with thanksgiving just as he had faithfully done since his youth.',
         imageUrl: '/images/stories/daniel-lions-1.jpg',
         imageAlt: 'Elder white-bearded Daniel kneeling serenely in prayer beside an arched window at sunrise',
         scriptureRefs: [
-          { label: 'Daniel 6:3–4', chapterId: 'DAN-6', verseNumber: 4 },
+          { label: 'Daniel 6:1–4', chapterId: 'DAN-6', verseNumber: 3 },
           { label: 'Daniel 6:10', chapterId: 'DAN-6', verseNumber: 10 },
         ],
       },
@@ -265,11 +272,12 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 2,
         title: 'A Jealous Plot Behind Palace Doors',
         narrative:
-          'Envious officials searched Daniel’s records for bribery or carelessness and found none. So they flattered King Darius into signing an unbreakable thirty-day decree: anyone caught praying to any god or person except the king himself would be thrown into the den of lions.',
+          'Jealous governors and court officials met in hushed anger beneath carved sandstone arches, combing through years of Daniel’s paperwork to ruin his name. To their frustration, they found no bribery, no favoritism, and not a single careless line. Finally one plotter whispered the truth they knew well: “We will not find any occasion against this Daniel, unless we find it against him concerning the law of his God.”\n\nFlattering King Darius’s pride, they coaxed him into sealing an unchangeable thirty-day law under the royal signet ring: anyone praying to any god or mortal besides the king himself would be thrown straight into the den of hungry lions.',
         imageUrl: '/images/stories/daniel-lions-2.jpg',
         imageAlt: 'Scheming officials whispering beneath carved sandstone arches with a royal scroll',
         scriptureRefs: [
-          { label: 'Daniel 6:5–9', chapterId: 'DAN-6', verseNumber: 7 },
+          { label: 'Daniel 6:4–5', chapterId: 'DAN-6', verseNumber: 5 },
+          { label: 'Daniel 6:6–9', chapterId: 'DAN-6', verseNumber: 8 },
           { label: 'Daniel 6:11', chapterId: 'DAN-6', verseNumber: 11 },
         ],
       },
@@ -278,10 +286,11 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 3,
         title: 'Lowered Into the Sealed Pit at Dusk',
         narrative:
-          'Daniel heard about the signed law, walked straight home, and kept kneeling peacefully before God. Brokenhearted at being trapped by his own proud decree, King Darius tried until sunset to rescue his friend, then whispered a prayer as guards rolled a heavy stone over the den’s mouth: “May your God, whom you serve continually, rescue you!”',
+          'When Daniel learned that the decree bore the king’s fresh wax seal, he didn’t close his blinds or switch to hiding under covers. He walked peacefully upstairs, opened his shutters toward Jerusalem, knelt as always, and gave thanks to God. Spies stationed outside rushed straight back to the palace in triumph.\n\nHearing their accusation, King Darius instantly realized he had been tricked—and spent the rest of the afternoon pacing law books until sunset trying desperately to rescue his trusted elder statesman. At twilight, bound by the proud customs of his kingdom, Darius watched helplessly as guards guided calm, unresisting Daniel down into the rocky pit and rolled a massive stone wheel over its mouth, whispering: “Your God whom you serve continually, He will deliver you!”',
         imageUrl: '/images/stories/daniel-lions-3.jpg',
         imageAlt: 'Calm elder Daniel descending into the stone pit as guards roll a heavy sealing stone',
         scriptureRefs: [
+          { label: 'Daniel 6:10–13', chapterId: 'DAN-6', verseNumber: 10 },
           { label: 'Daniel 6:14–16', chapterId: 'DAN-6', verseNumber: 16 },
           { label: 'Daniel 6:17', chapterId: 'DAN-6', verseNumber: 17 },
         ],
@@ -291,7 +300,7 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 4,
         title: 'Angels Quiet the Lions Through the Night',
         narrative:
-          'While King Darius paced sleeplessly without food or music in his palace above, quiet peace filled the shadowy stone pit below. God sent His angel to shut the lions’ mouths completely, leaving the massive golden-maned beasts resting harmlessly like tame sheep beside Daniel until morning.',
+          'Back inside his golden palace, King Darius refused supper, sent away every palace musician, and lay awake listening to the ticking silence until dawn. Yet deep beneath the courtyard stone, where growls usually echoed through the dark, remarkable stillness settled over the cavern.\n\nA messenger from heaven stood invisibly beside the silver-haired man of prayer. Massive golden-maned lions—fierce beasts kept half-starved at the palace edge—blinked softly, folded their heavy paws, and curled fast asleep around Daniel like gentle shepherd lambs while soft moonlight fell across his folded hands.',
         imageUrl: '/images/stories/daniel-lions-4.jpg',
         imageAlt: 'Inside the moonlit stone cavern, Daniel resting calmly in prayer beside sleeping golden lions',
         scriptureRefs: [
@@ -304,7 +313,7 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 5,
         title: 'An Anxious Call at First Light',
         narrative:
-          'At the very first streak of dawn, Darius hurried out to the stone den and called down with a trembling voice: “Daniel, servant of the living God, has your God been able to save you?” Out of the stillness rose Daniel’s calm, respectful reply: “O king, live forever! My God sent His angel and shut the lions’ mouths.”',
+          'At the very first pale streak of sunrise, Darius rose hurriedly from his unrumpled bed and ran across the cool palace stones to the sealed lions’ pit. As attendants strained to roll aside the heavy stone cover, warm golden daylight spilled down into the cavern.\n\nLeaning forward with a cracked, grieving voice, the king called down into the shaft: “Daniel, servant of the living God, has your God, whom you serve continually, been able to deliver you from the lions?” Out of the sunlit pit rose a steady, cheerful, unhurried voice: “O king, live forever! My God has sent His angel, and has shut the lions’ mouths, and they have not hurt me!”',
         imageUrl: '/images/stories/daniel-lions-5.jpg',
         imageAlt: 'Warm sunrise streaming into the opened pit as King Darius looks down eagerly',
         scriptureRefs: [
@@ -317,12 +326,12 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 6,
         title: 'Unharmed and Honoring God Across the Empire',
         narrative:
-          'When guards lifted Daniel back into the morning sun, not a single scratch was found on him, because he had trusted in his God. Overjoyed, King Darius wrote to people of every nation across his realm honoring the living God whose kingdom never fades.',
+          'Overwhelmed with gladness, Darius ordered guards to lift Daniel gently up out of the pit at once. Watching closely in bright courtyard morning light, attendants marveled to find “no kind of harm was found on him, because he had trusted in his God”—not even a torn hem or scratched sleeve from a long night among predators.\n\nInstead of hidden schemers controlling the realm, the living God of Daniel was proclaimed to every language and province across the empire: “He is the living God, and steadfast forever! He rescues and delivers, and works signs and wonders in heaven and on earth.”',
         imageUrl: '/images/stories/daniel-lions-6.jpg',
         imageAlt: 'Joyous sunlit reunion as Daniel stands unharmed beside the relieved king',
         scriptureRefs: [
           { label: 'Daniel 6:23', chapterId: 'DAN-6', verseNumber: 23 },
-          { label: 'Daniel 6:25–27', chapterId: 'DAN-6', verseNumber: 26 },
+          { label: 'Daniel 6:25–28', chapterId: 'DAN-6', verseNumber: 26 },
         ],
       },
     ],
@@ -330,19 +339,19 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
       {
         title: 'Quiet daily habits build crisis-ready courage',
         description:
-          'Daniel didn’t invent courage on the day of the decree—it grew naturally out of decades of kneeling in prayer three times every day.',
+          'Daniel didn’t suddenly invent bravery on the afternoon of the decree—it grew steadily from decades of kneeling three times a day when life was ordinary.',
         anchorRef: { label: 'Daniel 6:10', chapterId: 'DAN-6', verseNumber: 10 },
       },
       {
         title: 'Integrity leaves critics with nothing shameful to find',
         description:
-          'Because Daniel worked honestly without cutting corners, his enemies could only attack his devotion to God—never his character.',
+          'Because Daniel worked with complete fairness and clean hands, his opponents could only target his devotion to God—never his character.',
         anchorRef: { label: 'Daniel 6:4', chapterId: 'DAN-6', verseNumber: 4 },
       },
       {
-        title: 'No sealed door can keep God’s care outside',
+        title: 'No sealed stone can lock God’s presence outside',
         description:
-          'When human authority feels heavy or unfair, God steps right into the deepest pit beside those who trust Him.',
+          'Human decrees and stone seals felt final at dusk, yet God entered the cavern Himself and turned a place of dread into peace until dawn.',
         anchorRef: { label: 'Daniel 6:22–23', chapterId: 'DAN-6', verseNumber: 23 },
       },
     ],
@@ -357,18 +366,18 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
     testament: 'NT',
     category: 'Parables of Jesus',
     scriptureRange: 'Luke 10:25–37',
-    readingTimeMinutes: 3,
+    readingTimeMinutes: 7,
     coverImageUrl: '/images/stories/good-samaritan-4.jpg',
     primaryChapterId: 'LUK-10',
     summary:
-      'Asked “Who is my neighbor?”, Jesus told a vivid story set on the rocky desert road from Jerusalem down to Jericho—showing that true love bends down to help, regardless of labels or convenience.',
+      'When a legal expert tried to draw neat boundary lines around whom he had to love, Jesus painted an unforgettable story along the dangerous canyon trail down to Jericho—showing that real love stops, kneels, and shares.',
     beats: [
       {
         id: 'gs-1',
         beatNumber: 1,
         title: 'The Steep Road Down to Jericho',
         narrative:
-          'A legal scholar asked Jesus where the boundary line for loving neighbors ends. Instead of giving a legal checklist, Jesus pictured the steep seventeen-mile desert trail plunging from golden Jerusalem cliffs down toward Jericho—a lonely canyon road famous for blind turns and hidden ambushes.',
+          'One day a trained expert in Scripture stood up to test Jesus: “Teacher, what shall I do to inherit eternal life?” Jesus gently pointed him right back to the ancient commandments he knew by heart: “Love the Lord your God with all your heart… and love your neighbor as yourself.” Hoping to narrow that second duty down to friends like himself, the scholar pressed back, “And who is my neighbor?”\n\nInstead of debating definitions, Jesus told a story everyone in His crowd could picture clearly. A traveler set out walking from bright Jerusalem rooftops down the winding seventeen-mile mountain road toward palm-dotted Jericho—a steep, barren limestone pass dropping over three thousand feet through lonely canyon bends.',
         imageUrl: '/images/stories/good-samaritan-1.jpg',
         imageAlt: 'Winding dusty desert road descending limestone hills between Jerusalem and Jericho',
         scriptureRefs: [
@@ -381,7 +390,7 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 2,
         title: 'Ambushed and Left Beside the Stones',
         narrative:
-          'Jesus described a lone traveler overtaken by bandits along that canyon pass. Stripped of his cloak and bruised by their blows, he lay stranded beside dusty boulders under the desert sun—helpless unless someone chose to stop.',
+          'Known even in ancient times as “The Way of Blood” for its blind rock overhangs and outlaw hiding caves, that desert trail held sudden danger for anyone traveling alone. Rounding a quiet bend beneath golden cliffs, the lone traveler fell straight into the hands of waiting robbers.\n\nQuickly they tore away his heavy traveling coat, emptied his pouch, struck him hard, and hurried off into the canyon dust—leaving him bruised, exhausted, and half-conscious beside dry roadside boulders beneath the glaring noon heat.',
         imageUrl: '/images/stories/good-samaritan-2.jpg',
         imageAlt: 'A weary bruised traveler slumped beside desert roadside stones awaiting help',
         scriptureRefs: [
@@ -393,7 +402,7 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 3,
         title: 'Passing By on the Opposite Side',
         narrative:
-          'Soon a temple priest walked down the same road—followed later by a Levite helper. Both saw the wounded traveler clearly, yet each quietly crossed over to the far edge of the path and kept hurrying down the hill, leaving their fellow citizen behind.',
+          'Hope stirred when footsteps echoed down the gravel path—a temple priest, fresh from serving God in Jerusalem, walked down the very same trail! Yet catching sight of the groaning figure slumped against the stones, the priest quietly drifted to the far edge of the desert road and hurried on without breaking stride.\n\nSoon after, a Levite worship helper arrived at the same bend, glanced over closely at the wounded man’s bruised shoulders, and likewise angled safely across to the opposite side. Both men knew every verse about mercy—yet fear, hurry, or inconvenience kept their robes clean and their hands empty.',
         imageUrl: '/images/stories/good-samaritan-3.jpg',
         imageAlt: 'Two finely robed travelers hurrying along the far side of the road without stopping',
         scriptureRefs: [
@@ -405,7 +414,7 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 4,
         title: 'The Outsider Who Stopped With Compassion',
         narrative:
-          'Then a Samaritan traveler—someone from a neighboring people long despised by the crowd listening to Jesus—came along the trail. Seeing the injured man, his heart moved with compassion. He knelt down in the dust, soothed his wounds with olive oil and wine, and bound them gently with clean cloth strips.',
+          'Then Jesus introduced a twist that startled His whole audience: “But a certain Samaritan, as he traveled, came where he was.” For centuries, bitter distrust had divided Jewish listeners and Samaritans into strangers who rarely spoke at a town well, let alone helped on a lonely mountain pass.\n\nYet when this Samaritan saw the stranded stranger hurting in the dirt, Luke writes that “he was moved with compassion.” Disregarding danger, delay, and old divisions, he climbed down beside the rocks, poured soothing wine to clean the scrapes and soothing olive oil to ease the sting, and patiently wrapped clean linen strips around the man’s bruised arms.',
         imageUrl: '/images/stories/good-samaritan-4.jpg',
         imageAlt: 'A kind Samaritan kneeling beside the wounded man wrapping clean bandages around his arm',
         scriptureRefs: [
@@ -417,7 +426,7 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 5,
         title: 'Walking While Another Rides',
         narrative:
-          'Not rushing off once the bandages were tied, the Samaritan lifted the hurt stranger onto his own sure-footed donkey and walked beside him along the rocky heat—turning his personal schedule inside out to carry someone else’s weight.',
+          'Kind words alone could not carry an injured man out of an empty canyon before dark. With gentle steady strength, the Samaritan supported the bandaged traveler upright, helped lift him carefully onto the padded saddle of his own sure-footed gray donkey, and took the lead rope himself.\n\nStep after rocky step through the warm afternoon sun, the rescuer walked on dusty feet while the stranger rested safely above—trading personal comfort and hours of travel to make sure another human being reached shelter alive.',
         imageUrl: '/images/stories/good-samaritan-5.jpg',
         imageAlt: 'The Samaritan guiding his donkey carrying the bandaged traveler down the sunlit trail',
         scriptureRefs: [
@@ -429,7 +438,7 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 6,
         title: 'Generous Care Until Full Recovery',
         narrative:
-          'At dusk they reached a warm roadside inn, where the Samaritan stayed through the night and paid two days’ wages to the innkeeper the next morning—promising to cover any extra care on his return trip. Jesus looked gently at the scholar and said, “Go and do likewise.”',
+          'Just as amber lantern light warmed the stone walls of a roadside Jericho inn at dusk, they arrived safely. The Samaritan stayed up caring for the man through the night, then reached into his travel bag next morning, pulled out two silver denarii—two full days’ wages covering weeks of quiet lodging—and placed them into the innkeeper’s palm: “Take care of him; whatever you spend beyond that, I will repay you when I return.”\n\nPausing, Jesus looked directly at the legal scholar and asked gently, “Now which of these three do you think seemed to be a neighbor to him?” Even reluctant lips had to whisper the truth: “He who showed mercy on him.” With quiet clarity, Jesus replied, “Go and do likewise.”',
         imageUrl: '/images/stories/good-samaritan-6.jpg',
         imageAlt: 'Warm inn courtyard at dusk as the Samaritan hands silver coins to a welcoming innkeeper',
         scriptureRefs: [
@@ -440,21 +449,21 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
     ],
     lessonsLearned: [
       {
-        title: 'Love is measured by stopping, not status',
+        title: 'Love is measured by stopping, not religious status',
         description:
-          'Religious titles or busy schedules mean little if we walk past someone hurting right in front of us.',
+          'Knowledge, titles, and busy schedules mean little if hurry convinces us to cross the street around someone hurting in front of us.',
         anchorRef: { label: 'Luke 10:31–33', chapterId: 'LUK-10', verseNumber: 33 },
       },
       {
         title: 'Every person in need is our neighbor',
         description:
-          'Jesus replaced “Who deserves my help?” with “Who can I show mercy to today?”—crossing old divisions and labels.',
+          'Jesus flipped “Who deserves my care?” into “Whose neighbor can I become today?”—calling us to cross old social walls with simple kindness.',
         anchorRef: { label: 'Luke 10:36–37', chapterId: 'LUK-10', verseNumber: 36 },
       },
       {
         title: 'Compassion finishes what it starts',
         description:
-          'The Samaritan didn’t stop at kind words; he gave his time, oil, donkey, and silver until his neighbor was truly safe.',
+          'The Samaritan offered practical care—bandages, his own seat on the donkey, his night’s rest, and money for recovery—sticking with his neighbor until safe.',
         anchorRef: { label: 'Luke 10:34–35', chapterId: 'LUK-10', verseNumber: 35 },
       },
     ],
@@ -469,21 +478,22 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
     testament: 'NT',
     category: 'Parables of Jesus',
     scriptureRange: 'Luke 15:11–32',
-    readingTimeMinutes: 4,
+    readingTimeMinutes: 8,
     coverImageUrl: '/images/stories/prodigal-son-4.jpg',
     primaryChapterId: 'LUK-15',
     summary:
-      'To show what God’s heart feels like when a wandering soul turns homeward, Jesus told one of the most tender stories ever spoken: of wasted treasure, honest repentance, and extravagant fatherly welcome.',
+      'Criticized for sharing meals with broken outsiders, Jesus told one of the most moving stories ever spoken—revealing a heavenly Father who watches the horizon eagerly and runs to welcome returning hearts.',
     beats: [
       {
         id: 'ps-1',
         beatNumber: 1,
         title: 'Asking to Leave Home Early',
         narrative:
-          'A loving father had two sons. One day the younger son grew restless, asked for his share of the estate early, packed his belongings, and walked out from under his father’s shady courtyard arches toward a distant country—eager to live strictly by his own rules.',
+          'Religious critics grumbled aloud because Jesus welcomed tax collectors and ordinary sinners around His table. In answer, Jesus pictured a warmhearted landowner who had two sons. One day the younger son stepped beneath the sunny stone courtyard arch with an aching restlessness: “Father, give me the share of your property that will come to me.”\n\nIn the ancient world, demanding an inheritance early felt like wishing a parent gone—yet instead of exploding in anger, the silver-haired father quietly divided his estate with sorrowful generosity. Only a few days later, the younger son gathered his silver coins into a leather satchel, embraced his father at the gate, and set off down the dusty hill toward a far-off country.',
         imageUrl: '/images/stories/prodigal-son-1.jpg',
         imageAlt: 'Silver-haired father standing gently beneath courtyard olive shade as his younger son departs',
         scriptureRefs: [
+          { label: 'Luke 15:1–2', chapterId: 'LUK-15', verseNumber: 2 },
           { label: 'Luke 15:11–13', chapterId: 'LUK-15', verseNumber: 12 },
         ],
       },
@@ -492,7 +502,7 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 2,
         title: 'Fast Living & Empty Pockets',
         narrative:
-          'In that faraway city, silver coins slipped easily through the young man’s fingers on loud banquets, fine clothes, and noisy companions. Yet the moment a severe famine swept across the land and his last coins vanished, every fairweather friend quietly disappeared.',
+          'Free at last from family advice and dawn chores, the young man arrived in bustling foreign streets glowing with warm paper lanterns, loud music, and crowded banquet tables. Silver coins clinked easily from his open hand as smiling acquaintances gathered round, cheering every toast as long as he paid the bill.\n\nYet careless wealth never lasts. Just when his pouch grew light, a severe famine parched that distant land—bread prices soared, tables fell silent, and one by one every cheerful companion vanished into the evening alleys, leaving him frightened, hungry, and completely alone.',
         imageUrl: '/images/stories/prodigal-son-2.jpg',
         imageAlt: 'Bright evening town square where the young man spends his coins freely in crowds',
         scriptureRefs: [
@@ -504,11 +514,12 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 3,
         title: 'Coming to His Senses in the Fields',
         narrative:
-          'Hungry and ashamed, he ended up tending muddy pigs—wishing he could eat even the pods tossed into the wooden troughs. Sitting alone under pale skies, he finally came to his senses: “Even my father’s hired workers have more bread than they can eat. I will rise, go home, and ask only to work as a servant.”',
+          'Desperate for even a crust of bread, he hired himself out to a local farmer—who sent the once-proud son out into the mud to feed pigs, the lowest, loneliest task imaginable to Jesus’s listeners. Sitting barefoot on a damp rock beneath pale overcast hills, his stomach ached so fiercely that he longed just to eat the coarse carob pods spilled into the wooden troughs, yet no one gave him anything.\n\nIn that quiet mud, honesty broke through pride. “When he came to himself,” Luke writes, “he said, ‘How many hired servants of my father’s have bread enough to spare, and I’m dying with hunger! I will get up and go to my father, and will tell him, Father, I have sinned against heaven, and in your sight. I am no longer worthy to be called your son. Make me as one of your hired servants.’”',
         imageUrl: '/images/stories/prodigal-son-3.jpg',
         imageAlt: 'Ragged humble young man sitting beside muddy wooden troughs looking homeward',
         scriptureRefs: [
-          { label: 'Luke 15:15–19', chapterId: 'LUK-15', verseNumber: 17 },
+          { label: 'Luke 15:15–16', chapterId: 'LUK-15', verseNumber: 16 },
+          { label: 'Luke 15:17–19', chapterId: 'LUK-15', verseNumber: 17 },
         ],
       },
       {
@@ -516,7 +527,7 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 4,
         title: 'Spotted From Afar & Met With a Sprint',
         narrative:
-          'So he began the long dusty walk home, rehearsing his apology at every milestone. Yet while he was still a long way off down the cypress-lined road, his watching father caught sight of his silhouette, lifted his dignified robes, and sprinted straight down the hill to meet him.',
+          'Rehearsing his humble confession step after weary step, the tattered traveler finally rounded the last familiar cypress bend overlooking his childhood vineyard walls—expecting at best a cold glance from the porch or a bed in the outer barn.\n\nWhat he did not know was that his father had never stopped scanning the horizon road. “While he was still far off,” Jesus told the hushed crowd, “his father saw him, and was moved with compassion!” Dignity mattered little to a loving father’s heart—he bunched his long outer robes into his belt and sprinted straight down the gravel road with arms wide open.',
         imageUrl: '/images/stories/prodigal-son-4.jpg',
         imageAlt: 'Elderly father lifting his robes and running swiftly down a sunlit path toward his distant son',
         scriptureRefs: [
@@ -528,7 +539,7 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 5,
         title: 'Tears, Forgiveness & an Open Embrace',
         narrative:
-          'Before the ragged son could even finish asking to be hired as a servant, his father threw both arms warmly around his shoulders and kissed his face. Shame melted away in a single embrace—proving that love had been waiting on the doorstep every day he was gone.',
+          'Catching up in golden late-afternoon sunlight beside the low stone wall, the father didn’t wait for a formal speech or demand proof first. He threw both arms tightly around his ragged, dusty son and kissed his cheeks with tears of pure relief.\n\nCatching his breath, the son tried to finish the speech he had practiced on the road: “Father, I have sinned against heaven and in your sight. I am no longer worthy to be called your son—” Yet the father gently cut off the “make me a servant” line before it could leave his boy’s lips, calling warmly toward the house at once.',
         imageUrl: '/images/stories/prodigal-son-5.jpg',
         imageAlt: 'Warm golden-hour reunion embrace as the father holds his kneeling son tightly',
         scriptureRefs: [
@@ -540,7 +551,7 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
         beatNumber: 6,
         title: 'A Fine Robe & a Joyful Table',
         narrative:
-          'Calling the household together, the father clothed his son in the finest robe, slipped a family ring onto his finger, put sandals on his bare feet, and lit courtyard lanterns for a great feast—rejoicing aloud: “This son of mine was lost and is found!”',
+          '“Bring out the best robe,” the father beamed, “and put it on him! Put a ring on his hand, and sandals on his feet!” Not a uniform for a field worker, but the family seal of honor—proclaiming before every neighbor that shame was finished and full belonging was restored.\n\nSoon glowing oil lamps hung beneath courtyard olive trees, music drifted into the night air, and family and neighbors gathered around a joyful banquet table—celebrating what heaven itself looks like whenever one lost heart comes home: “This son of mine was dead, and is alive again! He was lost, and is found!”',
         imageUrl: '/images/stories/prodigal-son-6.jpg',
         imageAlt: 'Lantern-lit courtyard celebration with the son wearing a fine robe beside a joyful table',
         scriptureRefs: [
@@ -551,21 +562,21 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
     ],
     lessonsLearned: [
       {
-        title: 'No mistake makes you too far gone to turn back',
+        title: 'No mistake leaves you too far gone to turn back',
         description:
-          'No matter how far we drift or how messy our choices become, honest humility always opens the door toward home.',
+          'Even from the muddiest low point, honest humility—admitting where we drifted and turning toward home—always finds the road still open.',
         anchorRef: { label: 'Luke 15:17–18', chapterId: 'LUK-15', verseNumber: 17 },
       },
       {
         title: 'God doesn’t wait stiffly—He runs to meet returning hearts',
         description:
-          'The father didn’t sit on the porch demanding proof first; his compassion moved him into a sprint while his child was still far off.',
+          'The father didn’t fold his arms on the porch until his son earned back trust; his compassion moved him into a sprint while his child was still far down the road.',
         anchorRef: { label: 'Luke 15:20', chapterId: 'LUK-15', verseNumber: 20 },
       },
       {
-        title: 'Grace restores identity, not just forgiveness',
+        title: 'Grace restores full belonging, not just bare pardon',
         description:
-          'The robe, ring, and sandals show that God welcomes repentant people back as beloved family, not second-class servants.',
+          'The best robe, family ring, sandals, and feast declare that God welcomes repentant people back as beloved family—never as second-class servants.',
         anchorRef: { label: 'Luke 15:22–24', chapterId: 'LUK-15', verseNumber: 22 },
       },
     ],
