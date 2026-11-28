@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { X, Sliders, ZoomIn, Eye } from 'lucide-react';
 import { useStudyStore } from '../../store/useStudyStore';
 
@@ -9,6 +9,15 @@ export const TypographyDrawer: React.FC = () => {
     preferences,
     updatePreferences,
   } = useStudyStore();
+
+  useEffect(() => {
+    if (!showTypographyDrawer) return;
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = prevOverflow;
+    };
+  }, [showTypographyDrawer]);
 
   if (!showTypographyDrawer) return null;
 
@@ -25,34 +34,42 @@ export const TypographyDrawer: React.FC = () => {
   };
 
   return (
-    <div className="fixed inset-0 z-[60] flex items-end justify-center pointer-events-auto">
+    <div className="fixed inset-0 z-[60] flex items-end sm:items-center justify-center sm:p-4 pointer-events-auto">
       <div
         className="absolute inset-0 bg-[#2C2C2A]/35 backdrop-blur-xs animate-fade-in"
         onClick={() => setShowTypographyDrawer(false)}
       />
 
       <div
-        className="relative w-full max-w-lg bg-[#FAF7F2] rounded-t-[32px] shadow-2xl border-t border-[#E8E2D7] p-5 pb-8 z-10 animate-slide-up max-h-[88vh] overflow-y-auto"
+        className="relative w-full max-w-lg bg-[#FAF7F2] rounded-t-[28px] sm:rounded-3xl shadow-2xl border border-[#E8E2D7] z-10 animate-slide-up max-h-[88dvh] flex flex-col overflow-hidden"
         role="dialog"
         aria-modal="true"
         aria-label="Display Size and Reading Comfort"
       >
-        {/* Handle */}
-        <div className="w-12 h-1.5 bg-[#DED7CB] rounded-full mx-auto mb-4" />
+        {/* Fixed Header */}
+        <div className="flex-shrink-0 px-5 pt-4 pb-3 border-b border-[#E8E2D7] bg-[#FAF7F2]">
+          <div className="w-12 h-1.5 bg-[#DED7CB] rounded-full mx-auto mb-3 sm:hidden" />
 
-        <div className="flex items-center justify-between pb-3 border-b border-[#E8E2D7] mb-4">
-          <div className="flex items-center gap-2">
-            <Sliders className="w-4 h-4 text-[#7A9A82]" />
-            <h3 className="text-base font-bold text-[#2C2C2A]">Display Size & Reading Comfort</h3>
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <Sliders className="w-4 h-4 text-[#7A9A82]" />
+              <h3 className="text-base font-bold text-[#2C2C2A]">Display Size &amp; Reading Comfort</h3>
+            </div>
+            <button
+              onClick={() => setShowTypographyDrawer(false)}
+              className="p-2 rounded-full hover:bg-[#F3EFE6] text-[#76746E] cursor-pointer"
+              aria-label="Close display settings"
+            >
+              <X className="w-5 h-5" />
+            </button>
           </div>
-          <button
-            onClick={() => setShowTypographyDrawer(false)}
-            className="p-2 rounded-full hover:bg-[#F3EFE6] text-[#76746E] cursor-pointer"
-            aria-label="Close display settings"
-          >
-            <X className="w-5 h-5" />
-          </button>
         </div>
+
+        {/* Scrollable Settings Body */}
+        <div
+          className="flex-1 min-h-0 overflow-y-auto overscroll-contain px-5 py-4"
+          style={{ WebkitOverflowScrolling: 'touch' }}
+        >
 
         {/* Whole-App UI & Button Size selector */}
         <div className="mb-4 bg-[#EBF2ED]/70 p-3.5 rounded-2xl border border-[#7A9A82]/35">
@@ -267,6 +284,17 @@ export const TypographyDrawer: React.FC = () => {
               className="w-5 h-5 accent-[#7A9A82] cursor-pointer flex-shrink-0"
             />
           </label>
+        </div>
+        </div>
+
+        {/* Fixed Bottom Done Bar */}
+        <div className="flex-shrink-0 px-5 pt-3 pb-[max(1rem,env(safe-area-inset-bottom))] border-t border-[#E8E2D7] bg-[#FAF7F2]">
+          <button
+            onClick={() => setShowTypographyDrawer(false)}
+            className="w-full py-2.5 rounded-xl bg-[#5A7D63] hover:bg-[#4C6B54] text-white text-sm font-semibold transition-colors cursor-pointer"
+          >
+            Done
+          </button>
         </div>
       </div>
     </div>
