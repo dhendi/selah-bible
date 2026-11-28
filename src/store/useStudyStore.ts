@@ -15,7 +15,7 @@ const STORAGE_KEYS = {
   CARDS: 'selah_bible_flashcards_v1',
   CURRENT_CHAPTER: 'selah_bible_current_chapter_v1',
   JOURNAL: 'selah_bible_journal_v1',
-  FAVORITE_HYMNS: 'selah_favorite_hymns_v1',
+  FAVORITE_HYMNS: 'selah_pd_favorite_hymns_v1',
 };
 
 const DEFAULT_PREFERENCES: ReaderPreferences = {
@@ -704,7 +704,7 @@ class StudyStore {
     const incomingJournal = Array.isArray(raw.journalEntries) ? raw.journalEntries : [];
     const incomingCards = Array.isArray(raw.flashcards) ? raw.flashcards : [];
     const incomingHymns = Array.isArray(raw.favoriteHymns)
-      ? raw.favoriteHymns.filter((n): n is number => typeof n === 'number' && n >= 1 && n <= 695)
+      ? raw.favoriteHymns.filter((n): n is number => typeof n === 'number' && n >= 1 && n <= 350)
       : [];
 
     if (mode === 'replace') {
@@ -792,8 +792,8 @@ class StudyStore {
     let hymnTitleMap = new Map<number, string>();
     if (this.favoriteHymns.length > 0) {
       try {
-        const { SDA_HYMNS } = await import('../data/sdaHymnal');
-        hymnTitleMap = new Map(SDA_HYMNS.map((h) => [h.number, h.title]));
+        const { PUBLIC_DOMAIN_HYMNS } = await import('../data/publicDomainHymnal');
+        hymnTitleMap = new Map(PUBLIC_DOMAIN_HYMNS.map((h) => [h.number, h.title]));
       } catch {
         // Fallback cleanly to hymn numbers
       }
@@ -842,7 +842,7 @@ class StudyStore {
     }
 
     if (this.favoriteHymns.length > 0) {
-      lines.push('## Saved SDA Hymns', '');
+      lines.push('## Saved Public Domain Hymns', '');
       for (const num of this.favoriteHymns) {
         const title = hymnTitleMap.get(num);
         lines.push(`- #${num}${title ? ` — ${title}` : ''}`);

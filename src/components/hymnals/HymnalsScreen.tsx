@@ -20,8 +20,11 @@ import {
   Volume2,
   X,
 } from 'lucide-react';
-import { SDA_HYMNAL_SECTIONS, SDA_HYMNS, type HymnEntry } from '../../data/sdaHymnal';
-import { getHymnScriptureLinks } from '../../data/hymnScriptureLinks';
+import {
+  HYMNAL_SECTIONS,
+  PUBLIC_DOMAIN_HYMNS,
+  type PublicDomainHymnEntry,
+} from '../../data/publicDomainHymnal';
 import { useStudyStore } from '../../store/useStudyStore';
 
 const PAGE_BATCH_SIZE = 80;
@@ -32,14 +35,14 @@ interface WorshipSlide {
   isRefrain?: boolean;
 }
 
-function buildWorshipSlides(hymn: HymnEntry): WorshipSlide[] {
+function buildWorshipSlides(hymn: PublicDomainHymnEntry): WorshipSlide[] {
   const slides: WorshipSlide[] = [];
   hymn.verses.forEach((v, idx) => {
     slides.push({
       label: `Stanza ${idx + 1} of ${hymn.verses.length}`,
       text: v,
     });
-    if (hymn.refrain && !(hymn.refrain2 && idx === hymn.verses.length - 1)) {
+    if (hymn.refrain) {
       slides.push({
         label: 'Refrain',
         text: hymn.refrain,
@@ -47,20 +50,13 @@ function buildWorshipSlides(hymn: HymnEntry): WorshipSlide[] {
       });
     }
   });
-  if (hymn.refrain2) {
-    slides.push({
-      label: 'Final Refrain',
-      text: hymn.refrain2,
-      isRefrain: true,
-    });
-  }
   return slides;
 }
 
 function getHymnIllustrationId(sectionId: number): string {
-  if (sectionId === 2 || sectionId === 3) return 'ill-creation';
-  if (sectionId === 6) return 'ill-wisdom-scroll';
-  if (sectionId === 7 || sectionId === 9 || sectionId === 10) return 'ill-courage-light';
+  if (sectionId === 2) return 'ill-creation';
+  if (sectionId === 4) return 'ill-wisdom-scroll';
+  if (sectionId === 5 || sectionId === 6) return 'ill-courage-light';
   return 'ill-peace-pastures';
 }
 
@@ -88,15 +84,15 @@ export const HymnalsScreen: React.FC = () => {
 
   const sectionMap = useMemo(() => {
     const m = new Map<number, string>();
-    for (const s of SDA_HYMNAL_SECTIONS) m.set(s.id, s.title);
+    for (const s of HYMNAL_SECTIONS) m.set(s.id, s.title);
     return m;
   }, []);
 
   const favoriteSet = useMemo(() => new Set(favoriteHymns), [favoriteHymns]);
 
-  const activeHymn: HymnEntry | null = useMemo(() => {
+  const activeHymn: PublicDomainHymnEntry | null = useMemo(() => {
     if (activeHymnNumber == null) return null;
-    return SDA_HYMNS.find((h) => h.number === activeHymnNumber) ?? null;
+    return PUBLIC_DOMAIN_HYMNS.find((h) => h.number === activeHymnNumber) ?? null;
   }, [activeHymnNumber]);
 
   const worshipSlides = useMemo(
@@ -160,17 +156,19 @@ export const HymnalsScreen: React.FC = () => {
   const parsedJumpNumber = useMemo(() => {
     if (!/^\d{1,3}$/.test(trimmedQuery)) return null;
     const n = parseInt(trimmedQuery, 10);
-    return n >= 1 && n <= 695 ? n : null;
+    return n >= 1 && n <= PUBLIC_DOMAIN_HYMNS.length ? n : null;
   }, [trimmedQuery]);
 
   const filteredHymns = useMemo(() => {
     const q = trimmedQuery.toLowerCase();
-    return SDA_HYMNS.filter((h) => {
+    return PUBLIC_DOMAIN_HYMNS.filter((h) => {
       if (selectedSectionId === 'saved' && !favoriteSet.has(h.number)) return false;
       if (typeof selectedSectionId === 'number' && h.sectionId !== selectedSectionId) return false;
       if (!q) return true;
       if (String(h.number) === q || String(h.number).includes(q)) return true;
       if (h.title.toLowerCase().includes(q)) return true;
+      if (h.altTitle && h.altTitle.toLowerCase().includes(q)) return true;
+      if (h.wordsCredit.toLowerCase().includes(q)) return true;
       if (h.refrain && h.refrain.toLowerCase().includes(q)) return true;
       return h.verses.some((v) => v.toLowerCase().includes(q));
     });
@@ -198,17 +196,14 @@ export const HymnalsScreen: React.FC = () => {
     setActiveHymnNumber(num);
   };
 
-  const handleCopyHymn = async (hymn: HymnEntry) => {
-    const blocks = [`#${hymn.number} — ${hymn.title}`];
+  const handleCopyHymn = async (hymn: PublicDomainHymnEntry) => {
+    const blocks = [`#${hymn.number} — ${hymn.title} (${hymn.wordsCredit})`];
     hymn.verses.forEach((v, idx) => {
       blocks.push(`\n${idx + 1}.\n${v}`);
       if (idx === 0 && hymn.refrain) {
         blocks.push(`\nRefrain\n${hymn.refrain}`);
       }
     });
-    if (hymn.refrain2) {
-      blocks.push(`\nFinal Refrain\n${hymn.refrain2}`);
-    }
     try {
       await navigator.clipboard.writeText(blocks.join('\n'));
       setCopiedNumber(hymn.number);
@@ -218,7 +213,7 @@ export const HymnalsScreen: React.FC = () => {
     }
   };
 
-  const toggleSpeakHymn = (hymn: HymnEntry) => {
+  const toggleSpeakHymn = (hymn: PublicDomainHymnEntry) => {
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
     if (isSpeaking) {
       window.speechSynthesis.cancel();
@@ -234,9 +229,6 @@ export const HymnalsScreen: React.FC = () => {
         parts.push(`Refrain. ${hymn.refrain.replace(/\n+/g, ' ')}`);
       }
     });
-    if (hymn.refrain2) {
-      parts.push(`Final Refrain. ${hymn.refrain2.replace(/\n+/g, ' ')}`);
-    }
 
     const utterance = new SpeechSynthesisUtterance(parts.join(' '));
     utterance.rate = preferences.audioSpeechRate || 1.0;
@@ -248,10 +240,11 @@ export const HymnalsScreen: React.FC = () => {
 
   if (activeHymn) {
     const prevNum = activeHymn.number > 1 ? activeHymn.number - 1 : null;
-    const nextNum = activeHymn.number < SDA_HYMNS.length ? activeHymn.number + 1 : null;
+    const nextNum =
+      activeHymn.number < PUBLIC_DOMAIN_HYMNS.length ? activeHymn.number + 1 : null;
     const isFav = favoriteSet.has(activeHymn.number);
-    const secName = sectionMap.get(activeHymn.sectionId) || 'SDA Hymnal';
-    const scriptureLinks = getHymnScriptureLinks(activeHymn.number, activeHymn.sectionId);
+    const secName = sectionMap.get(activeHymn.sectionId) || 'Heritage Hymnal';
+    const scriptureLinks = activeHymn.scriptureLinks;
     const currentSlide = worshipSlides[worshipSlideIdx] ?? worshipSlides[0];
     const isDarkWorship = worshipTheme === 'dark';
 
@@ -442,7 +435,7 @@ export const HymnalsScreen: React.FC = () => {
             <button
               onClick={() =>
                 openShareModal({
-                  verseRef: `Seventh-day Adventist Hymnal #${activeHymn.number}`,
+                  verseRef: `Heritage Hymnal #${activeHymn.number}`,
                   verseText: activeHymn.refrain || activeHymn.verses[0] || activeHymn.title,
                   illustrationId: getHymnIllustrationId(activeHymn.sectionId),
                   cardTitle: activeHymn.title,
@@ -507,12 +500,29 @@ export const HymnalsScreen: React.FC = () => {
             <span className="inline-flex items-center px-2.5 py-0.5 rounded-full bg-[#F3EFE6] border border-[#DED7CB] text-[#5C5852] font-medium">
               {secName}
             </span>
-            <span className="text-[#8C867B]">• Seventh-day Adventist Hymnal</span>
+            <span className="inline-flex items-center px-2.5 py-0.5 rounded-full bg-[#EBF2ED] border border-[#C6DBC9] text-[#285842] font-semibold">
+              Public Domain
+            </span>
           </div>
 
           <h1 className="text-2xl sm:text-3xl font-serif font-bold text-[#24221E] leading-tight">
             {activeHymn.title}
           </h1>
+          {activeHymn.altTitle && (
+            <p className="text-xs font-serif italic text-[#666158]">
+              Also known as: {activeHymn.altTitle}
+            </p>
+          )}
+          <div className="text-xs text-[#666158] space-y-0.5">
+            <div>
+              <span className="font-semibold text-[#484642]">Words:</span> {activeHymn.wordsCredit}
+            </div>
+            {activeHymn.musicCredit && (
+              <div>
+                <span className="font-semibold text-[#484642]">Tune:</span> {activeHymn.musicCredit}
+              </div>
+            )}
+          </div>
         </header>
 
         {/* Hymn Stanzas & Refrain */}
@@ -544,15 +554,6 @@ export const HymnalsScreen: React.FC = () => {
               )}
             </React.Fragment>
           ))}
-
-          {activeHymn.refrain2 && (
-            <section className="ml-3 sm:ml-6 rounded-xl bg-[#F5EFE2] border-l-4 border-[#8B3A2B] border-y border-r border-[#E2D8C7] p-4 sm:p-5">
-              <div className="text-[0.6875rem] uppercase tracking-[0.14em] font-semibold text-[#8B3A2B] mb-1.5 font-sans">
-                Final Refrain
-              </div>
-              <p className="whitespace-pre-line italic text-[#24221E]">{activeHymn.refrain2}</p>
-            </section>
-          )}
         </div>
 
         {/* Connected Scripture Passages */}
@@ -616,9 +617,9 @@ export const HymnalsScreen: React.FC = () => {
               Sing and meditate alongside Scripture
             </p>
           </div>
-          <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#EFE9DC] text-[#8B3A2B] text-xs font-semibold">
+          <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#EBF2ED] border border-[#C6DBC9] text-[#285842] text-xs font-semibold">
             <Music className="w-3.5 h-3.5" />
-            <span>695 Hymns</span>
+            <span>{PUBLIC_DOMAIN_HYMNS.length} Public Domain</span>
           </span>
         </div>
 
@@ -628,14 +629,14 @@ export const HymnalsScreen: React.FC = () => {
               <BookMarked className="w-5 h-5" />
             </div>
             <div>
-              <div className="text-[0.6875rem] font-semibold uppercase tracking-wider text-[#8B3A2B]">
-                Active Hymnal
+              <div className="text-[0.6875rem] font-semibold uppercase tracking-wider text-[#285842]">
+                Verified Public Domain • Commercial-Safe
               </div>
               <h2 className="font-serif font-bold text-base text-[#24221E]">
-                Seventh-day Adventist Hymnal
+                Adventist Heritage &amp; Classic Hymnal
               </h2>
               <p className="text-xs text-[#5C5852]">
-                1985 Edition • Numbers 1–695 • 13 Topical Sections
+                {PUBLIC_DOMAIN_HYMNS.length} Pre-1923 Originals • {HYMNAL_SECTIONS.length} Topical Sections • Open Hymnal Texts
               </p>
             </div>
           </div>
@@ -661,8 +662,8 @@ export const HymnalsScreen: React.FC = () => {
               setSearchQuery(e.target.value);
               setVisibleLimit(PAGE_BATCH_SIZE);
             }}
-            placeholder="Search hymn number (#1–695), title, or lyrics…"
-            aria-label="Search Seventh-day Adventist Hymnal"
+            placeholder={`Search hymn (#1–${PUBLIC_DOMAIN_HYMNS.length}), title, author, or lyrics…`}
+            aria-label="Search Public Domain Heritage Hymnal"
             className="w-full pl-10 pr-24 py-2.5 rounded-xl bg-[#FAF7F2] border border-[#DED7CB] text-sm text-[#24221E] placeholder-[#8C867B] focus:outline-none focus:border-[#8B3A2B]"
           />
           <div className="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1">
@@ -703,7 +704,7 @@ export const HymnalsScreen: React.FC = () => {
                 : 'bg-[#FAF7F2] text-[#484642] border-[#DED7CB] hover:bg-[#F3EFE6]'
             }`}
           >
-            All (695)
+            All ({PUBLIC_DOMAIN_HYMNS.length})
           </button>
 
           <button
@@ -721,7 +722,7 @@ export const HymnalsScreen: React.FC = () => {
             <span>Saved ({favoriteHymns.length})</span>
           </button>
 
-          {SDA_HYMNAL_SECTIONS.map((sec) => (
+          {HYMNAL_SECTIONS.map((sec) => (
             <button
               key={sec.id}
               onClick={() => {
@@ -734,7 +735,7 @@ export const HymnalsScreen: React.FC = () => {
                   : 'bg-[#FAF7F2] text-[#484642] border-[#DED7CB] hover:bg-[#F3EFE6]'
               }`}
             >
-              {sec.title} ({sec.firstHymn}–{sec.lastHymn})
+              {sec.title} ({sec.count})
             </button>
           ))}
         </div>
@@ -767,7 +768,7 @@ export const HymnalsScreen: React.FC = () => {
           <p className="text-xs text-[#666158]">
             {selectedSectionId === 'saved'
               ? 'Tap the heart icon on any hymn to save favorites for quick worship access.'
-              : 'Try searching by hymn number (1–695), title, or a phrase from the lyrics.'}
+              : `Try searching by hymn number (1–${PUBLIC_DOMAIN_HYMNS.length}), title, author, or a phrase from the lyrics.`}
           </p>
         </div>
       ) : (
@@ -803,7 +804,7 @@ export const HymnalsScreen: React.FC = () => {
                     <p className="text-xs text-[#666158] truncate mt-0.5">{firstLine}</p>
                     <span className="inline-block text-[0.6875rem] text-[#8C867B] mt-1">
                       {secName} • {hymn.verses.length} {hymn.verses.length === 1 ? 'stanza' : 'stanzas'}
-                      {hymn.refrain ? ' + Refrain' : ''}
+                      {hymn.refrain ? ' + Refrain' : ''} • {hymn.wordsCredit}
                     </span>
                   </div>
                 </div>
