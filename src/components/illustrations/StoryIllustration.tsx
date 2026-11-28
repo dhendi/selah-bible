@@ -729,6 +729,11 @@ export function resolveStoryIllustrationAsset(
       'story-walks-water': { src: '/images/stories/walks-water-2.webp', alt: 'Jesus Walks on Water' },
       'story-lost-sheep': { src: '/images/stories/lost-sheep-4.webp', alt: 'The Lost Sheep and the Good Shepherd' },
       'story-first-christmas': { src: '/images/stories/christmas-2.webp', alt: 'The First Christmas: Birth of Jesus' },
+      'story-fiery-furnace': { src: '/images/stories/fiery-furnace-5.webp', alt: 'The Fiery Furnace' },
+      'story-zacchaeus': { src: '/images/stories/zacchaeus-3.webp', alt: 'Zacchaeus Climbs the Sycamore' },
+      'story-paul-silas': { src: '/images/stories/paul-silas-2.webp', alt: 'Paul and Silas Sing in Prison' },
+      'story-wedding-cana': { src: '/images/stories/wedding-cana-4.webp', alt: 'The Wedding at Cana' },
+      'story-jericho-walls': { src: '/images/stories/jericho-walls-3.webp', alt: 'Joshua and the Walls of Jericho' },
     };
     if (coverMap[key]) return coverMap[key];
   }

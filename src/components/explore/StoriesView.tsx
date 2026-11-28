@@ -10,10 +10,18 @@ import {
   Square,
   Volume2,
 } from 'lucide-react';
-import { SEED_BIBLE_STORIES } from '../../data/seedBibleStories';
+import {
+  SEED_BIBLE_STORIES,
+  STORY_SECTIONS,
+  getStoryPrimarySection,
+  getStorySections,
+} from '../../data/seedBibleStories';
+import type { StorySection } from '../../types/bible';
 import { parseBookIdFromChapter } from '../../data/bookGroups';
 import { useStudyStore } from '../../store/useStudyStore';
 import { assetUrl } from '../../utils/assetUrl';
+
+type StoryFilter = 'all' | 'OT' | 'NT' | StorySection;
 
 export const StoriesView: React.FC = () => {
   const {
@@ -24,7 +32,7 @@ export const StoriesView: React.FC = () => {
     openJournalSheet,
   } = useStudyStore();
 
-  const [categoryFilter, setCategoryFilter] = useState<'all' | 'OT' | 'NT'>('all');
+  const [categoryFilter, setCategoryFilter] = useState<StoryFilter>('all');
   const [activeStoryId, setActiveStoryId] = useState<string | null>(() =>
     selectedExploreItem?.startsWith('story-') ? selectedExploreItem : null,
   );
@@ -51,7 +59,18 @@ export const StoriesView: React.FC = () => {
 
   const filteredStories = useMemo(() => {
     if (categoryFilter === 'all') return SEED_BIBLE_STORIES;
-    return SEED_BIBLE_STORIES.filter((s) => s.testament === categoryFilter);
+    if (categoryFilter === 'OT' || categoryFilter === 'NT') {
+      return SEED_BIBLE_STORIES.filter((s) => s.testament === categoryFilter);
+    }
+    return SEED_BIBLE_STORIES.filter((s) => getStorySections(s).includes(categoryFilter));
+  }, [categoryFilter]);
+
+  const groupedSections = useMemo(() => {
+    if (categoryFilter !== 'all') return [];
+    return STORY_SECTIONS.map((sec) => ({
+      ...sec,
+      stories: SEED_BIBLE_STORIES.filter((s) => getStoryPrimarySection(s) === sec.id),
+    })).filter((g) => g.stories.length > 0);
   }, [categoryFilter]);
 
   const activeStoryIndex = activeStoryId
@@ -386,24 +405,94 @@ export const StoriesView: React.FC = () => {
   }
 
   // Catalog View (All Illustrated Stories & Parables)
+  const renderStoryCard = (story: (typeof SEED_BIBLE_STORIES)[number]) => {
+    const storySections = getStorySections(story);
+    return (
+      <button
+        key={story.id}
+        onClick={() => handleOpenStory(story.id)}
+        className="w-full text-left bg-white rounded-2xl border border-[#E5DFD5] overflow-hidden shadow-xs hover:shadow-md hover:border-[#C8B9A6] transition-all group cursor-pointer"
+      >
+        <div className="relative bg-[#F5EFE4]">
+          <img
+            src={assetUrl(story.coverImageUrl)}
+            alt={story.title}
+            className="w-full aspect-[6/5] sm:aspect-[4/3] object-cover block group-hover:scale-[1.015] transition-transform duration-300"
+            loading="lazy"
+          />
+          <div className="absolute top-3 left-3 flex flex-wrap items-center gap-1.5">
+            <span className="px-2.5 py-1 rounded-full bg-[#FAF7F2]/95 backdrop-blur-xs text-[0.6875rem] font-bold text-[#2C2C2A] border border-[#E5DFD5]">
+              {getStoryPrimarySection(story)}
+            </span>
+            <span className="px-2.5 py-1 rounded-full bg-[#24221E]/85 text-[#FAF7F2] text-[0.6875rem] font-semibold inline-flex items-center gap-1">
+              <Images className="w-3 h-3" />
+              {story.beats.length} Scenes
+            </span>
+          </div>
+        </div>
+
+        <div className="p-4 space-y-2">
+          <div className="flex flex-wrap items-center justify-between gap-2 text-[0.6875rem] font-semibold text-[#76746E]">
+            <span className="text-[#8B3A2B] font-bold uppercase tracking-wider">
+              {story.scriptureRange}
+            </span>
+            <span className="inline-flex items-center gap-1">
+              <Clock className="w-3 h-3" />
+              {story.readingTimeMinutes} min read
+            </span>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-serif font-bold text-[#2C2C2A] group-hover:text-[#8B3A2B] transition-colors">
+              {story.title}
+            </h3>
+            <p className="text-xs font-serif italic text-[#7A6B5D] mt-0.5">
+              {story.subtitle}
+            </p>
+          </div>
+
+          <p className="text-sm text-[#484642] leading-relaxed line-clamp-2">
+            {story.summary}
+          </p>
+
+          <div className="flex flex-wrap gap-1.5 pt-0.5">
+            {storySections.map((sec) => (
+              <span
+                key={sec}
+                className="px-2 py-0.5 rounded-full bg-[#F3EFE6] text-[0.625rem] font-semibold text-[#5C5852]"
+              >
+                {sec}
+              </span>
+            ))}
+          </div>
+
+          <div className="pt-1 flex items-center justify-between text-xs font-semibold text-[#285842]">
+            <span>Read Story & Lessons Learned</span>
+            <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
+          </div>
+        </div>
+      </button>
+    );
+  };
+
   return (
     <div className="space-y-4 pb-4">
       <div className="flex flex-wrap items-center justify-between gap-2">
         <div>
           <h2 className="text-lg font-serif font-bold text-[#2C2C2A]">
-            Famous Stories & Parables
+            Famous Stories &amp; Parables
           </h2>
           <p className="text-xs text-[#76746E]">
-            Easy-to-read illustrated retellings with verse links and lessons learned.
+            {SEED_BIBLE_STORIES.length} illustrated retellings organized by theme, with verse links and lessons learned.
           </p>
         </div>
       </div>
 
-      {/* Filter Pills */}
-      <div className="flex flex-wrap items-center gap-1.5">
+      {/* Thematic Section & Testament Filter Pills */}
+      <div className="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar">
         <button
           onClick={() => setCategoryFilter('all')}
-          className={`px-3 py-1.5 rounded-full text-xs font-semibold transition-colors cursor-pointer ${
+          className={`shrink-0 px-3 py-1.5 rounded-full text-xs font-semibold transition-colors cursor-pointer ${
             categoryFilter === 'all'
               ? 'bg-[#2C2C2A] text-white'
               : 'bg-[#F3EFE6] text-[#5C5852] hover:bg-[#EAE3D5]'
@@ -411,11 +500,31 @@ export const StoriesView: React.FC = () => {
         >
           All Stories ({SEED_BIBLE_STORIES.length})
         </button>
+
+        {STORY_SECTIONS.map((sec) => {
+          const count = SEED_BIBLE_STORIES.filter((s) =>
+            getStorySections(s).includes(sec.id)
+          ).length;
+          return (
+            <button
+              key={sec.id}
+              onClick={() => setCategoryFilter(sec.id)}
+              className={`shrink-0 px-3 py-1.5 rounded-full text-xs font-semibold transition-colors cursor-pointer ${
+                categoryFilter === sec.id
+                  ? 'bg-[#8B3A2B] text-white'
+                  : 'bg-[#F3EFE6] text-[#5C5852] hover:bg-[#EAE3D5]'
+              }`}
+            >
+              {sec.id} ({count})
+            </button>
+          );
+        })}
+
         <button
           onClick={() => setCategoryFilter('OT')}
-          className={`px-3 py-1.5 rounded-full text-xs font-semibold transition-colors cursor-pointer ${
+          className={`shrink-0 px-3 py-1.5 rounded-full text-xs font-semibold transition-colors cursor-pointer ${
             categoryFilter === 'OT'
-              ? 'bg-[#8B3A2B] text-white'
+              ? 'bg-[#285842] text-white'
               : 'bg-[#F3EFE6] text-[#5C5852] hover:bg-[#EAE3D5]'
           }`}
         >
@@ -423,74 +532,46 @@ export const StoriesView: React.FC = () => {
         </button>
         <button
           onClick={() => setCategoryFilter('NT')}
-          className={`px-3 py-1.5 rounded-full text-xs font-semibold transition-colors cursor-pointer ${
+          className={`shrink-0 px-3 py-1.5 rounded-full text-xs font-semibold transition-colors cursor-pointer ${
             categoryFilter === 'NT'
               ? 'bg-[#285842] text-white'
               : 'bg-[#F3EFE6] text-[#5C5852] hover:bg-[#EAE3D5]'
           }`}
         >
-          Jesus &amp; Gospels ({SEED_BIBLE_STORIES.filter((s) => s.testament === 'NT').length})
+          New Testament ({SEED_BIBLE_STORIES.filter((s) => s.testament === 'NT').length})
         </button>
       </div>
 
-      {/* Illustrated Story Cards */}
-      <div className="space-y-4">
-        {filteredStories.map((story) => (
-          <button
-            key={story.id}
-            onClick={() => handleOpenStory(story.id)}
-            className="w-full text-left bg-white rounded-2xl border border-[#E5DFD5] overflow-hidden shadow-xs hover:shadow-md hover:border-[#C8B9A6] transition-all group cursor-pointer"
-          >
-            <div className="relative bg-[#F5EFE4]">
-              <img
-                src={assetUrl(story.coverImageUrl)}
-                alt={story.title}
-                className="w-full aspect-[6/5] sm:aspect-[4/3] object-cover block group-hover:scale-[1.015] transition-transform duration-300"
-                loading="lazy"
-              />
-              <div className="absolute top-3 left-3 flex flex-wrap items-center gap-1.5">
-                <span className="px-2.5 py-1 rounded-full bg-[#FAF7F2]/95 backdrop-blur-xs text-[0.6875rem] font-bold text-[#2C2C2A] border border-[#E5DFD5]">
-                  {story.category}
-                </span>
-                <span className="px-2.5 py-1 rounded-full bg-[#24221E]/85 text-[#FAF7F2] text-[0.6875rem] font-semibold inline-flex items-center gap-1">
-                  <Images className="w-3 h-3" />
-                  {story.beats.length} Scenes
-                </span>
+      {/* Grouped Section Shelves (when viewing All) OR Filtered Story Cards */}
+      {categoryFilter === 'all' ? (
+        <div className="space-y-8 pt-1">
+          {groupedSections.map((group) => (
+            <section key={group.id} className="space-y-3">
+              <div className="flex items-end justify-between gap-2 border-b border-[#E5DFD5] pb-2">
+                <div>
+                  <h3 className="text-base font-serif font-bold text-[#2C2C2A]">
+                    {group.id}
+                  </h3>
+                  <p className="text-xs text-[#76746E]">{group.tagline}</p>
+                </div>
+                <button
+                  onClick={() => setCategoryFilter(group.id)}
+                  className="shrink-0 text-xs font-semibold text-[#8B3A2B] hover:underline cursor-pointer"
+                >
+                  See all ({SEED_BIBLE_STORIES.filter((s) => getStorySections(s).includes(group.id)).length}) →
+                </button>
               </div>
-            </div>
-
-            <div className="p-4 space-y-2">
-              <div className="flex flex-wrap items-center justify-between gap-2 text-[0.6875rem] font-semibold text-[#76746E]">
-                <span className="text-[#8B3A2B] font-bold uppercase tracking-wider">
-                  {story.scriptureRange}
-                </span>
-                <span className="inline-flex items-center gap-1">
-                  <Clock className="w-3 h-3" />
-                  {story.readingTimeMinutes} min read
-                </span>
+              <div className="space-y-4">
+                {group.stories.map((story) => renderStoryCard(story))}
               </div>
-
-              <div>
-                <h3 className="text-xl font-serif font-bold text-[#2C2C2A] group-hover:text-[#8B3A2B] transition-colors">
-                  {story.title}
-                </h3>
-                <p className="text-xs font-serif italic text-[#7A6B5D] mt-0.5">
-                  {story.subtitle}
-                </p>
-              </div>
-
-              <p className="text-sm text-[#484642] leading-relaxed line-clamp-2">
-                {story.summary}
-              </p>
-
-              <div className="pt-1 flex items-center justify-between text-xs font-semibold text-[#285842]">
-                <span>Read Story & Lessons Learned</span>
-                <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
-              </div>
-            </div>
-          </button>
-        ))}
-      </div>
+            </section>
+          ))}
+        </div>
+      ) : (
+        <div className="space-y-4">
+          {filteredStories.map((story) => renderStoryCard(story))}
+        </div>
+      )}
     </div>
   );
 };

@@ -280,13 +280,26 @@ export interface BibleStoryLesson {
   anchorRef?: BibleStoryRef;
 }
 
+export type StorySection =
+  | 'Stories for Kids'
+  | 'Love & Kindness'
+  | 'Perseverance & Trials'
+  | 'Courage & Faith'
+  | 'Jesus & Miracles';
+
 export interface BibleStory {
   id: string;
   slug: string;
   title: string;
   subtitle: string;
   testament: Testament;
-  category: 'Old Testament Classics' | 'Parables of Jesus' | 'Miracles of Jesus';
+  category:
+    | 'Old Testament Classics'
+    | 'Parables of Jesus'
+    | 'Miracles of Jesus'
+    | 'Early Church & Courage';
+  primarySection?: StorySection;
+  sections?: StorySection[];
   scriptureRange: string;
   readingTimeMinutes: number;
   coverImageUrl: string;

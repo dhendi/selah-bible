@@ -1,4 +1,111 @@
-import type { BibleStory } from '../types/bible';
+import type { BibleStory, StorySection } from '../types/bible';
+
+export interface StorySectionConfig {
+  id: StorySection;
+  tagline: string;
+}
+
+export const STORY_SECTIONS: StorySectionConfig[] = [
+  { id: 'Stories for Kids', tagline: 'Wonder-filled classics ideal for family and younger readers' },
+  { id: 'Love & Kindness', tagline: 'Compassion, loyal friendship, grace, and generous hearts' },
+  { id: 'Perseverance & Trials', tagline: 'Steady hope and praise when facing long storms or locked doors' },
+  { id: 'Courage & Faith', tagline: 'Standing firm under pressure and trusting God against the odds' },
+  { id: 'Jesus & Miracles', tagline: 'Signs of the Savior’s presence, power, and welcoming joy' },
+];
+
+const STORY_SECTION_MAP: Record<
+  string,
+  { primary: StorySection; all: StorySection[] }
+> = {
+  'story-noah-flood': {
+    primary: 'Stories for Kids',
+    all: ['Stories for Kids', 'Perseverance & Trials'],
+  },
+  'story-jonah-fish': {
+    primary: 'Stories for Kids',
+    all: ['Stories for Kids', 'Perseverance & Trials'],
+  },
+  'story-lost-sheep': {
+    primary: 'Stories for Kids',
+    all: ['Stories for Kids', 'Love & Kindness', 'Jesus & Miracles'],
+  },
+  'story-zacchaeus': {
+    primary: 'Stories for Kids',
+    all: ['Stories for Kids', 'Love & Kindness', 'Jesus & Miracles'],
+  },
+  'story-ruth-naomi': {
+    primary: 'Love & Kindness',
+    all: ['Love & Kindness', 'Perseverance & Trials'],
+  },
+  'story-good-samaritan': {
+    primary: 'Love & Kindness',
+    all: ['Love & Kindness', 'Stories for Kids'],
+  },
+  'story-prodigal-son': {
+    primary: 'Love & Kindness',
+    all: ['Love & Kindness', 'Perseverance & Trials'],
+  },
+  'story-wedding-cana': {
+    primary: 'Love & Kindness',
+    all: ['Love & Kindness', 'Jesus & Miracles', 'Stories for Kids'],
+  },
+  'story-joseph-coat': {
+    primary: 'Perseverance & Trials',
+    all: ['Perseverance & Trials', 'Love & Kindness'],
+  },
+  'story-red-sea': {
+    primary: 'Perseverance & Trials',
+    all: ['Perseverance & Trials', 'Courage & Faith', 'Stories for Kids'],
+  },
+  'story-paul-silas': {
+    primary: 'Perseverance & Trials',
+    all: ['Perseverance & Trials', 'Courage & Faith'],
+  },
+  'story-parable-sower': {
+    primary: 'Perseverance & Trials',
+    all: ['Perseverance & Trials', 'Jesus & Miracles'],
+  },
+  'story-jericho-walls': {
+    primary: 'Perseverance & Trials',
+    all: ['Perseverance & Trials', 'Courage & Faith', 'Stories for Kids'],
+  },
+  'story-david-goliath': {
+    primary: 'Courage & Faith',
+    all: ['Courage & Faith', 'Stories for Kids'],
+  },
+  'story-daniel-lions': {
+    primary: 'Courage & Faith',
+    all: ['Courage & Faith', 'Perseverance & Trials', 'Stories for Kids'],
+  },
+  'story-queen-esther': {
+    primary: 'Courage & Faith',
+    all: ['Courage & Faith', 'Perseverance & Trials'],
+  },
+  'story-fiery-furnace': {
+    primary: 'Courage & Faith',
+    all: ['Courage & Faith', 'Perseverance & Trials', 'Stories for Kids'],
+  },
+  'story-first-christmas': {
+    primary: 'Jesus & Miracles',
+    all: ['Jesus & Miracles', 'Stories for Kids', 'Love & Kindness'],
+  },
+  'story-feeding-5000': {
+    primary: 'Jesus & Miracles',
+    all: ['Jesus & Miracles', 'Stories for Kids', 'Love & Kindness'],
+  },
+  'story-walks-water': {
+    primary: 'Jesus & Miracles',
+    all: ['Jesus & Miracles', 'Courage & Faith'],
+  },
+};
+
+export function getStoryPrimarySection(story: BibleStory): StorySection {
+  return story.primarySection ?? STORY_SECTION_MAP[story.id]?.primary ?? 'Stories for Kids';
+}
+
+export function getStorySections(story: BibleStory): StorySection[] {
+  return story.sections ?? STORY_SECTION_MAP[story.id]?.all ?? [getStoryPrimarySection(story)];
+}
 
 export const SEED_BIBLE_STORIES: BibleStory[] = [
   {
@@ -1728,5 +1835,575 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
     ],
     reflectionPrompt:
       'In what small, quiet, everyday place do you notice God drawing close to you right now?',
+  },
+  {
+    id: 'story-fiery-furnace',
+    slug: 'fiery-furnace',
+    title: 'The Fiery Furnace',
+    subtitle: 'Shadrach, Meshach & Abednego Stand Firm in Fire',
+    testament: 'OT',
+    category: 'Old Testament Classics',
+    primarySection: 'Courage & Faith',
+    sections: ['Courage & Faith', 'Perseverance & Trials', 'Stories for Kids'],
+    scriptureRange: 'Daniel 3',
+    readingTimeMinutes: 7,
+    coverImageUrl: '/images/stories/fiery-furnace-5.webp',
+    primaryChapterId: 'DAN-3',
+    summary:
+      'When King Nebuchadnezzar ordered every official in Babylon to bow before a towering ninety-foot golden statue or die in flames, three exiled young Hebrew friends refused to trade away their loyalty to God—and met the Savior walking right inside the fire.',
+    beats: [
+      {
+        id: 'ff-1',
+        beatNumber: 1,
+        title: 'Ninety Feet of Gold on the Plain of Dura',
+        narrative:
+          'Determined to dazzle his empire into absolute loyalty, King Nebuchadnezzar erected an immense golden statue—nearly ninety feet tall—gleaming under the desert sun on the flat plain of Dura. Governors, judges, counselors, and captains streamed in from across the provinces.\n\nA royal herald shouted the decree over brass horns, flutes, and harps: the instant the music sounded, every single person must drop face-down in worship of the king’s image—or be thrown straight into a roaring brick furnace.',
+        imageUrl: '/images/stories/fiery-furnace-1.webp',
+        imageAlt: 'Towering golden statue gleaming on the plain of Dura as Babylonian crowds bow down',
+        scriptureRefs: [
+          { label: 'Daniel 3:1–5', chapterId: 'DAN-3', verseNumber: 1 },
+          { label: 'Daniel 3:6', chapterId: 'DAN-3', verseNumber: 6 },
+        ],
+      },
+      {
+        id: 'ff-2',
+        beatNumber: 2,
+        title: 'Three Friends Who Refused to Bow',
+        narrative:
+          'When music swelled across the crowded plain, thousands fell instantly onto dusty ground in unison. Yet standing calmly upright like solitary oaks across the flat sea of bowing robes were three young Jewish exiles serving in Babylon’s courts: Shadrach, Meshach, and Abednego.\n\nJealous courtiers hurried gleefully to accuse them before the throne. Far from home and stripped of family protection, the three friends remembered God’s clear command—never bow to carved gold, no matter how powerful the king.',
+        imageUrl: '/images/stories/fiery-furnace-2.webp',
+        imageAlt: 'Three brave Hebrew friends standing upright side by side while crowds bow around them',
+        scriptureRefs: [
+          { label: 'Daniel 3:8–12', chapterId: 'DAN-3', verseNumber: 12 },
+          { label: 'Exodus 20:4–5', chapterId: 'EXO-20', verseNumber: 4 },
+        ],
+      },
+      {
+        id: 'ff-3',
+        beatNumber: 3,
+        title: 'Heated Seven Times Hotter',
+        narrative:
+          'Seething with rage, Nebuchadnezzar gave them one last chance—demanding aloud, “What god is there who will deliver you out of my hands?” Their answer still echoes as one of Scripture’s finest portraits of steady perseverance: “Our God whom we serve is able to deliver us... But if not, let it be known to you, O king, that we will not serve your gods.”\n\nStung by fearless honesty, the king commanded soldiers to stoke the arched brick kiln seven times hotter than usual and bind the three men in their coats and tunics.',
+        imageUrl: '/images/stories/fiery-furnace-3.webp',
+        imageAlt: 'Angry King Nebuchadnezzar ordering soldiers to heat the glowing stone kiln sevenfold',
+        scriptureRefs: [
+          { label: 'Daniel 3:15–18', chapterId: 'DAN-3', verseNumber: 17 },
+          { label: 'Daniel 3:19–21', chapterId: 'DAN-3', verseNumber: 19 },
+        ],
+      },
+      {
+        id: 'ff-4',
+        beatNumber: 4,
+        title: 'Cast Into the Blazing Furnace',
+        narrative:
+          'The kiln roared so fiercely that swirling heat struck down the very soldiers carrying Shadrach, Meshach, and Abednego up to its mouth. Bound tight with rope, the three faithful friends dropped straight into white-hot flames while watchers expected instant ash.\n\nEverything earthly hope trusted in—rank, influence, escape—was gone. Only God’s faithfulness remained inside that furnace.',
+        imageUrl: '/images/stories/fiery-furnace-4.webp',
+        imageAlt: 'Swirling golden flames pouring from the domed brick kiln as the three faithful friends enter',
+        scriptureRefs: [
+          { label: 'Daniel 3:22–23', chapterId: 'DAN-3', verseNumber: 23 },
+        ],
+      },
+      {
+        id: 'ff-5',
+        beatNumber: 5,
+        title: 'Four Figures Walking Unharmed',
+        narrative:
+          'Suddenly King Nebuchadnezzar leaped pale to his feet from his royal seat! Leaning toward the glowing doorway, he asked his startled counselors: “Didn’t we throw three men bound into the fire? Look! I see four men loose, walking in the middle of the fire, and they aren’t hurt; and the aspect of the fourth is like a son of the gods!”\n\nFlames burned away nothing except the ropes tying their wrists—giving them complete freedom right at the heart of the trial, accompanied face-to-face by the Lord Himself.',
+        imageUrl: '/images/stories/fiery-furnace-5.webp',
+        imageAlt: 'Four peaceful figures—the three friends beside a luminous companion—walking unharmed inside the fire',
+        scriptureRefs: [
+          { label: 'Daniel 3:24–25', chapterId: 'DAN-3', verseNumber: 25 },
+          { label: 'Isaiah 43:2', chapterId: 'ISA-43', verseNumber: 2 },
+        ],
+      },
+      {
+        id: 'ff-6',
+        beatNumber: 6,
+        title: 'Stepping Out Without Even Smoke',
+        narrative:
+          'Calling from the furnace mouth, Nebuchadnezzar cried, “Shadrach, Meshach, and Abednego, you servants of the Most High God, come out!” Calmly the three stepped into the sunlight surrounded by astonished princes and captains.\n\nNot a single hair was singed, not a thread of their linen cloaks scorched—not even the faintest smell of smoke clung to them! Right there on Dura’s plain, a proud pagan king praised the God who rescues those who trust Him.',
+        imageUrl: '/images/stories/fiery-furnace-6.webp',
+        imageAlt: 'Shadrach, Meshach, and Abednego stepping spotless from the kiln before an amazed king',
+        scriptureRefs: [
+          { label: 'Daniel 3:26–27', chapterId: 'DAN-3', verseNumber: 27 },
+          { label: 'Daniel 3:28–29', chapterId: 'DAN-3', verseNumber: 28 },
+        ],
+      },
+    ],
+    lessonsLearned: [
+      {
+        title: 'Courage says “even if not” before rescue arrives',
+        description:
+          'The three friends loved God for who He is—not just for easy outcomes. True faith obeys even when rescue isn’t guaranteed beforehand.',
+        anchorRef: { label: 'Daniel 3:17–18', chapterId: 'DAN-3', verseNumber: 18 },
+      },
+      {
+        title: 'God often meets us inside the fire, not around it',
+        description:
+          'God didn’t extinguish the furnace from afar; Jesus stepped directly into the flames beside His friends and burned off only their chains.',
+        anchorRef: { label: 'Daniel 3:25', chapterId: 'DAN-3', verseNumber: 25 },
+      },
+      {
+        title: 'Quiet conviction speaks louder than crowds',
+        description:
+          'Three young exiles stood upright while an empire knelt—reminding us never to measure truth by how popular it looks.',
+        anchorRef: { label: 'Daniel 3:28', chapterId: 'DAN-3', verseNumber: 28 },
+      },
+    ],
+    reflectionPrompt:
+      'Where is God inviting you to stay quietly faithful even if everyone around you bows to pressure?',
+  },
+  {
+    id: 'story-zacchaeus',
+    slug: 'zacchaeus',
+    title: 'Zacchaeus Climbs the Sycamore',
+    subtitle: 'Big Grace for a Small, Overlooked Heart',
+    testament: 'NT',
+    category: 'Miracles of Jesus',
+    primarySection: 'Stories for Kids',
+    sections: ['Stories for Kids', 'Love & Kindness', 'Jesus & Miracles'],
+    scriptureRange: 'Luke 19:1–10',
+    readingTimeMinutes: 5,
+    coverImageUrl: '/images/stories/zacchaeus-3.webp',
+    primaryChapterId: 'LUK-19',
+    summary:
+      'Rich yet lonely, short in stature and disliked across Jericho for collecting Roman taxes, Zacchaeus swallowed his pride, climbed into leafy sycamore branches just to glimpse Jesus—and found Jesus inviting Himself straight into his home.',
+    beats: [
+      {
+        id: 'zac-1',
+        beatNumber: 1,
+        title: 'Too Short in a Crowded Street',
+        narrative:
+          'Excited murmurs swept through Jericho’s sunlit palm streets: Jesus of Nazareth was walking straight through town! Hundreds pressed shoulder-to-shoulder along the limestone road hoping for a glimpse.\n\nAt the edge stood Zacchaeus, chief tax collector—wealthy in silver coins yet deeply unpopular among neighbors who resented Roman taxes. Standing short in stature, every time Zacchaeus hopped on tiptoe he saw only tall backs and shoulders blocking the path.',
+        imageUrl: '/images/stories/zacchaeus-1.webp',
+        imageAlt: 'Short Zacchaeus trying to peek over a tall crowd lining sunny Jericho street',
+        scriptureRefs: [
+          { label: 'Luke 19:1–3', chapterId: 'LUK-19', verseNumber: 2 },
+        ],
+      },
+      {
+        id: 'zac-2',
+        beatNumber: 2,
+        title: 'Up Into the Sycamore Branches',
+        narrative:
+          'Instead of giving up or going home bitter, Zacchaeus refused to miss Jesus! Remembering the route ahead, this grown respected official ran eagerly down the dusty street and scrambled straight up the thick low-hanging trunk of a broad leafy sycamore fig tree.\n\nTucking his cloak neatly along a wide shaded bough above the road, he leaned forward eagerly through green leaves for a clear view.',
+        imageUrl: '/images/stories/zacchaeus-2.webp',
+        imageAlt: 'Zacchaeus perched cheerfully on thick leafy sycamore branch overlooking the road',
+        scriptureRefs: [
+          { label: 'Luke 19:4', chapterId: 'LUK-19', verseNumber: 4 },
+        ],
+      },
+      {
+        id: 'zac-3',
+        beatNumber: 3,
+        title: 'Jesus Stops & Calls Him by Name',
+        narrative:
+          'When Jesus reached the sycamore tree, the noisy crowd hushed in surprise as He stopped dead in His tracks, tilted His head upward through sunlit leaves, and locked warm eyes directly onto Zacchaeus.\n\nBefore Zacchaeus could stammer a greeting, Jesus called him lovingly by his very own name: “Zacchaeus, hurry and come down, for today I must stay at your house!” Nobody in Jericho had ever spoken to him with kindness like that.',
+        imageUrl: '/images/stories/zacchaeus-3.webp',
+        imageAlt: 'Kind smiling Jesus looking up beneath leafy sycamore branches toward Zacchaeus',
+        scriptureRefs: [
+          { label: 'Luke 19:5', chapterId: 'LUK-19', verseNumber: 5 },
+        ],
+      },
+      {
+        id: 'zac-4',
+        beatNumber: 4,
+        title: 'Welcoming Jesus With Joy',
+        narrative:
+          'Zacchaeus scrambled down fast as a boy and welcomed Jesus joyfully across his stone doorway! Outside in the lane, grumblers muttered under their breath: “He has gone in to lodge with a man who is a sinner!”\n\nYet inside warm lantern light beside shared bread and olives, unhurried grace melted years of loneliness. Being welcomed by Jesus healed what hoarded silver never could.',
+        imageUrl: '/images/stories/zacchaeus-4.webp',
+        imageAlt: 'Smiling Zacchaeus sharing bread and warm hospitality at home with Jesus',
+        scriptureRefs: [
+          { label: 'Luke 19:6–7', chapterId: 'LUK-19', verseNumber: 6 },
+        ],
+      },
+      {
+        id: 'zac-5',
+        beatNumber: 5,
+        title: 'A Heart Changed Into Generosity',
+        narrative:
+          'Nobody lectured Zacchaeus about his moneybag—yet sitting close to overflowing love sparked instant change! Standing upright before everyone, Zacchaeus pledged joyfully: “Behold, Lord, half of my goods I give to the poor. If I have wrongfully exacted anything of anyone, I restore four times as much.”\n\nCoins that once separated him from neighbors suddenly became open-handed repair and kindness.',
+        imageUrl: '/images/stories/zacchaeus-5.webp',
+        imageAlt: 'Joyful Zacchaeus pouring generous coins into the open hands of poor neighbors',
+        scriptureRefs: [
+          { label: 'Luke 19:8', chapterId: 'LUK-19', verseNumber: 8 },
+        ],
+      },
+      {
+        id: 'zac-6',
+        beatNumber: 6,
+        title: 'Seeking and Saving the Lost',
+        narrative:
+          'Beaming warmly across the courtyard, Jesus spoke words every outsider treasures: “Today, salvation has come to this house, because he also is a son of Abraham. For the Son of Man came to seek and to save that which was lost.”\n\nZacchaeus climbed a tree hoping simply to see Jesus—only to learn Jesus had come down that road specifically looking for him.',
+        imageUrl: '/images/stories/zacchaeus-6.webp',
+        imageAlt: 'Gentle Jesus resting a reassuring hand on joyful Zacchaeus beside sunlit courtyard arch',
+        scriptureRefs: [
+          { label: 'Luke 19:9–10', chapterId: 'LUK-19', verseNumber: 10 },
+        ],
+      },
+    ],
+    lessonsLearned: [
+      {
+        title: 'Jesus notices the person tucked out of sight',
+        description:
+          'Even in a pressing crowd, Jesus paused beneath one tree and called Zacchaeus by name—showing no one is too small or sidelined for His attention.',
+        anchorRef: { label: 'Luke 19:5', chapterId: 'LUK-19', verseNumber: 5 },
+      },
+      {
+        title: 'Real grace transforms our hands, not just our words',
+        description:
+          'True repentance in Zacchaeus looked joyfully practical: giving half to the poor and repairing old wrongs fourfold.',
+        anchorRef: { label: 'Luke 19:8', chapterId: 'LUK-19', verseNumber: 8 },
+      },
+      {
+        title: 'Never let pride stop you from seeking Jesus',
+        description:
+          'Running ahead and climbing a sycamore looked undignified—yet earnest humility led straight to Jesus’ table.',
+        anchorRef: { label: 'Luke 19:4', chapterId: 'LUK-19', verseNumber: 4 },
+      },
+    ],
+    reflectionPrompt:
+      'Who around you feels pushed to the edges like Zacchaeus—and how can you welcome them kindly today?',
+  },
+  {
+    id: 'story-paul-silas',
+    slug: 'paul-silas',
+    title: 'Paul & Silas Sing in Prison',
+    subtitle: 'Midnight Songs That Opened Locked Doors',
+    testament: 'NT',
+    category: 'Early Church & Courage',
+    primarySection: 'Perseverance & Trials',
+    sections: ['Perseverance & Trials', 'Courage & Faith'],
+    scriptureRange: 'Acts 16:16–34',
+    readingTimeMinutes: 7,
+    coverImageUrl: '/images/stories/paul-silas-2.webp',
+    primaryChapterId: 'ACT-16',
+    summary:
+      'Wrongly beaten and locked inside the darkest inner cell of a Roman dungeon in Philippi, missionaries Paul and Silas chose worship over bitterness—until a midnight earthquake broke every chain and led the stunned jailer’s family to faith.',
+    beats: [
+      {
+        id: 'ps-1',
+        beatNumber: 1,
+        title: 'Beaten & Locked in the Inner Cell',
+        narrative:
+          'After freeing a tormented slave girl in Philippi through Jesus’ name, Paul and Silas found angry owners dragging them straight before town magistrates. Without a fair trial, guards stripped their cloaks, beat their backs with wooden rods, and marched them bruised into stone prison.\n\n“Having received such a command, the jailer threw them into the inner prison, and fastened their feet in the stocks”—locking heavy timber clamps tight around weary ankles in pitch dark.',
+        imageUrl: '/images/stories/paul-silas-1.webp',
+        imageAlt: 'Calm Paul and Silas led through stone Roman prison gates by armed soldiers at dusk',
+        scriptureRefs: [
+          { label: 'Acts 16:22–24', chapterId: 'ACT-16', verseNumber: 23 },
+        ],
+      },
+      {
+        id: 'ps-2',
+        beatNumber: 2,
+        title: 'Prayers & Hymns Rising at Midnight',
+        narrative:
+          'Midnight settled cold and suffocating across the dungeon. With bleeding backs pressed against rough damp wall and legs aching in wooden stocks, complaining would have felt completely natural.\n\nInstead, around midnight voices echoed softly from the deepest cell—Paul and Silas were praying aloud and singing joyful psalms of praise to God! Luke adds an unforgettable detail: “and the prisoners were listening to them.”',
+        imageUrl: '/images/stories/paul-silas-2.webp',
+        imageAlt: 'Paul and Silas sitting in wooden stocks by torchlight lifting joyful faces singing hymns',
+        scriptureRefs: [
+          { label: 'Acts 16:25', chapterId: 'ACT-16', verseNumber: 25 },
+        ],
+      },
+      {
+        id: 'ps-3',
+        beatNumber: 3,
+        title: 'Earthquake Splits Every Chain Open',
+        narrative:
+          'While hymns rose through stone vaults, God answered with power! “Suddenly there was a great earthquake, so that the foundations of the prison were shaken: and immediately all the doors were opened, and everyone’s bonds were loosened.”\n\nHeavy iron bars clattered loose, thick timber doors swung wide onto the corridor—yet nobody panicked or bolted into the dark streets.',
+        imageUrl: '/images/stories/paul-silas-3.webp',
+        imageAlt: 'Shaking prison corridor as heavy barred cell doors swing open and iron chains fall loose',
+        scriptureRefs: [
+          { label: 'Acts 16:26', chapterId: 'ACT-16', verseNumber: 26 },
+        ],
+      },
+      {
+        id: 'ps-4',
+        beatNumber: 4,
+        title: '“Do Yourself No Harm—We Are All Here!”',
+        narrative:
+          'Jolted awake and seeing wide-open prison doors, the terrified Roman jailer knew Roman law meant execution if prisoners escaped—and drew his sword in despair.\n\nBefore blade could fall, Paul called calmly through the dark archway: “Don’t harm yourself, for we are all here!” Trembling with a swinging oil lamp, the astonished officer rushed inside and dropped to his knees asking, “Sirs, what must I do to be saved?”',
+        imageUrl: '/images/stories/paul-silas-4.webp',
+        imageAlt: 'Apostle Paul calmly stopping the startled Roman jailer holding a flickering oil lamp',
+        scriptureRefs: [
+          { label: 'Acts 16:27–30', chapterId: 'ACT-16', verseNumber: 28 },
+          { label: 'Acts 16:31', chapterId: 'ACT-16', verseNumber: 31 },
+        ],
+      },
+      {
+        id: 'ps-5',
+        beatNumber: 5,
+        title: 'Washing Wounds & Healing Hearts',
+        narrative:
+          'That very hour before dawn, grace turned captor into brother! Leading Paul and Silas out to a courtyard basin beneath quiet stars, the same hands that had locked wooden stocks washed their bruised wounds gently with cool water.\n\nSoon Paul and Silas spoke the word of Jesus to everyone in his house, and the entire family stepped gladly into baptism before sunrise.',
+        imageUrl: '/images/stories/paul-silas-5.webp',
+        imageAlt: 'Grateful Roman jailer washing Paul and Silas wounds gently beside clay water basin at night',
+        scriptureRefs: [
+          { label: 'Acts 16:32–33', chapterId: 'ACT-16', verseNumber: 33 },
+        ],
+      },
+      {
+        id: 'ps-6',
+        beatNumber: 6,
+        title: 'Joyful Bread Around the Table Before Dawn',
+        narrative:
+          'Bringing his guests straight upstairs into warm kitchen lamp-light, the jailer set fresh bread and food before them while “rejoicing greatly, with all his household, having believed in God.”\n\nWhat began as the darkest night in Philippi ended in dawn songs around an overflowing table—a living reminder that praising God in hard midnight hours turns locks into open doors for others.',
+        imageUrl: '/images/stories/paul-silas-6.webp',
+        imageAlt: 'Smiling jailer’s family breaking bread warmly with joyful Paul and Silas before sunrise',
+        scriptureRefs: [
+          { label: 'Acts 16:34', chapterId: 'ACT-16', verseNumber: 34 },
+        ],
+      },
+    ],
+    lessonsLearned: [
+      {
+        title: 'Worship in dark seasons sustains perseverance',
+        description:
+          'Paul and Silas sang hymns before the earthquake ever came—proving praise doesn’t wait for circumstances to change first.',
+        anchorRef: { label: 'Acts 16:25', chapterId: 'ACT-16', verseNumber: 25 },
+      },
+      {
+        title: 'Others are listening when trials test our faith',
+        description:
+          '“And the prisoners were listening to them.” Calm patience under unfair treatment preaches louder than words.',
+        anchorRef: { label: 'Acts 16:25–28', chapterId: 'ACT-16', verseNumber: 28 },
+      },
+      {
+        title: 'Compassion toward enemies opens doors to grace',
+        description:
+          'Refusing to run saved the jailer’s life and won his entire household to Jesus before morning.',
+        anchorRef: { label: 'Acts 16:31–34', chapterId: 'ACT-16', verseNumber: 31 },
+      },
+    ],
+    reflectionPrompt:
+      'What “midnight” worry are you carrying right now where quiet gratitude could steady your heart?',
+  },
+  {
+    id: 'story-wedding-cana',
+    slug: 'wedding-cana',
+    title: 'The Wedding at Cana',
+    subtitle: 'Jesus’ First Miracle Turns Water Into Joyful Abundance',
+    testament: 'NT',
+    category: 'Miracles of Jesus',
+    primarySection: 'Love & Kindness',
+    sections: ['Love & Kindness', 'Jesus & Miracles', 'Stories for Kids'],
+    scriptureRange: 'John 2:1–11',
+    readingTimeMinutes: 5,
+    coverImageUrl: '/images/stories/wedding-cana-4.webp',
+    primaryChapterId: 'JHN-2',
+    summary:
+      'When wine unexpectedly ran dry during a small Galilean wedding feast—threatening deep embarrassment for a young couple—Jesus honored His mother’s quiet compassion and turned six stone water jars into rich, abundant blessing.',
+    beats: [
+      {
+        id: 'cana-1',
+        beatNumber: 1,
+        title: 'Festive Joy in a Galilean Courtyard',
+        narrative:
+          'Freshly baptized and walking beside His earliest disciples, Jesus traveled to Cana in Galilee for a joyful village wedding. Courtyard arches bloomed with olive branches and festive garlands while laughter and music echoed around warm banquet tables.\n\nInstead of standing aloof from everyday life, heaven’s Creator stepped gladly right into family celebration.',
+        imageUrl: '/images/stories/wedding-cana-1.webp',
+        imageAlt: 'Smiling Galilean wedding guests dining cheerfully beneath sunlit stone courtyard arches',
+        scriptureRefs: [
+          { label: 'John 2:1–2', chapterId: 'JHN-2', verseNumber: 2 },
+        ],
+      },
+      {
+        id: 'cana-2',
+        beatNumber: 2,
+        title: 'Empty Jars & Mary’s Quiet Trust',
+        narrative:
+          'Midway through the celebration, a quiet crisis unfolded behind the courtyard alcove: the wedding wine ran completely out! In village hospitality, running dry meant lasting shame for the newlyweds.\n\nEver observant, Jesus’ mother Mary noticed at once, whispered the need softly to Jesus, and gave servants timeless counsel: “Whatever He says to you, do it.”',
+        imageUrl: '/images/stories/wedding-cana-2.webp',
+        imageAlt: 'Gentle Mary speaking quietly with attentive servants beside empty clay amphora jars',
+        scriptureRefs: [
+          { label: 'John 2:3–5', chapterId: 'JHN-2', verseNumber: 5 },
+        ],
+      },
+      {
+        id: 'cana-3',
+        beatNumber: 3,
+        title: 'Six Stone Water Jars Along the Wall',
+        narrative:
+          'Standing quietly along the sandstone wall sat six large stone water jars—each holding twenty to thirty gallons for customary Jewish washing before meals.\n\nJesus pointed simply to those ordinary stone vessels used for daily cleansing and gave a surprising order: “Fill the water pots with water.”',
+        imageUrl: '/images/stories/wedding-cana-3.webp',
+        imageAlt: 'Six tall carved stone water jars lined neatly along shaded Galilean courtyard wall',
+        scriptureRefs: [
+          { label: 'John 2:6–7', chapterId: 'JHN-2', verseNumber: 6 },
+        ],
+      },
+      {
+        id: 'cana-4',
+        beatNumber: 4,
+        title: 'Poured Up to the Very Brim',
+        narrative:
+          'Though pouring water for a wine shortage sounded puzzling, the servants trusted Mary’s words and obeyed without arguing. Carrying terracotta pitchers back and forth from the well, they poured clear sparkling water until every single jar shimmered right up to the brim.\n\nThen came Jesus’ calm second command: “Now draw some out, and take it to the ruler of the feast.”',
+        imageUrl: '/images/stories/wedding-cana-4.webp',
+        imageAlt: 'Servants tipping terracotta pitchers pouring clear water up to the brim of tall stone jars',
+        scriptureRefs: [
+          { label: 'John 2:7–8', chapterId: 'JHN-2', verseNumber: 7 },
+        ],
+      },
+      {
+        id: 'cana-5',
+        beatNumber: 5,
+        title: 'Best Kept Until Now',
+        narrative:
+          'Without thunder or fanfare, clear water ladled into the goblet gleamed deep ruby grape-wine of extraordinary fragrance! Tasting it unaware of how it arrived, the amazed master of the feast called the bridegroom aside in joyful wonder:\n\n“Every man sets on the good wine first... You have kept the good wine until now!”',
+        imageUrl: '/images/stories/wedding-cana-5.webp',
+        imageAlt: 'Amazed smiling banquet steward raising brimming ruby cup while servant holds ladle',
+        scriptureRefs: [
+          { label: 'John 2:9–10', chapterId: 'JHN-2', verseNumber: 10 },
+        ],
+      },
+      {
+        id: 'cana-6',
+        beatNumber: 6,
+        title: 'His Glory Revealed in Quiet Kindness',
+        narrative:
+          'John records this quiet miracle as the very first of Jesus’ signs—saving an ordinary village couple from public humiliation while blessing their guests with overflowing abundance.\n\nWatching silently beside Mary as laughter resumed around the courtyard tables, “His disciples believed in Him”—discovering a Savior who cares deeply about both big griefs and everyday joys.',
+        imageUrl: '/images/stories/wedding-cana-6.webp',
+        imageAlt: 'Compassionate Jesus standing quietly beside Mary and His disciples in afternoon light',
+        scriptureRefs: [
+          { label: 'John 2:11', chapterId: 'JHN-2', verseNumber: 11 },
+        ],
+      },
+    ],
+    lessonsLearned: [
+      {
+        title: 'Nothing caring or ordinary is too small for Jesus',
+        description:
+          'Jesus’ very first miracle rescued a humble wedding from embarrassment—showing God delights in everyday love, family, and joy.',
+        anchorRef: { label: 'John 2:1–11', chapterId: 'JHN-2', verseNumber: 11 },
+      },
+      {
+        title: 'Faith often looks like filling ordinary jars to the brim',
+        description:
+          'Servants did the simple work they could do—carrying water—while leaving the transformation entirely to Jesus.',
+        anchorRef: { label: 'John 2:5–8', chapterId: 'JHN-2', verseNumber: 7 },
+      },
+      {
+        title: 'Notice quiet needs like Mary did',
+        description:
+          'Before embarrassment spread across the feast, gentle awareness and prayer invited Jesus right into the gap.',
+        anchorRef: { label: 'John 2:3–5', chapterId: 'JHN-2', verseNumber: 3 },
+      },
+    ],
+    reflectionPrompt:
+      'Where do you feel like “your jars are empty” right now—and what small faithful step can you bring to Jesus?',
+  },
+  {
+    id: 'story-jericho-walls',
+    slug: 'jericho-walls',
+    title: 'Joshua & the Walls of Jericho',
+    subtitle: 'Patient Faith Marching Around Towering Stone Walls',
+    testament: 'OT',
+    category: 'Old Testament Classics',
+    primarySection: 'Perseverance & Trials',
+    sections: ['Perseverance & Trials', 'Courage & Faith', 'Stories for Kids'],
+    scriptureRange: 'Joshua 6',
+    readingTimeMinutes: 7,
+    coverImageUrl: '/images/stories/jericho-walls-3.webp',
+    primaryChapterId: 'JOS-6',
+    summary:
+      'Standing before Jericho’s massive double stone walls after forty years in the wilderness, Joshua and Israel obeyed an unusual battle plan—marching patiently in silence day after day until God Himself brought the ramparts tumbling down while sparing faithful Rahab.',
+    beats: [
+      {
+        id: 'jer-1',
+        beatNumber: 1,
+        title: 'Shut Tight Behind Towering Walls',
+        narrative:
+          'After forty years wandering the desert, Israel crossed the Jordan River and faced Jericho—a mighty fortress city locked tightly behind tall thick sandstone walls and heavy barred gates. Nobody went out, and nobody came in.\n\nHigh along one wall window hung a narrow bright scarlet cord—the covenant token keeping watch over Rahab and her trusting household inside.',
+        imageUrl: '/images/stories/jericho-walls-1.webp',
+        imageAlt: 'Tall fortified stone walls of Jericho with a red scarlet cord hanging from an upper window',
+        scriptureRefs: [
+          { label: 'Joshua 6:1', chapterId: 'JOS-6', verseNumber: 1 },
+          { label: 'Joshua 2:18–21', chapterId: 'JOS-2', verseNumber: 21 },
+        ],
+      },
+      {
+        id: 'jer-2',
+        beatNumber: 2,
+        title: 'Trumpets & the Ark Lead the Way',
+        narrative:
+          'Instead of battering rams or siege towers, God gave Joshua a startling battle order: seven priests carrying curved ram’s-horn trumpets would walk ahead of the gold-covered Ark of the Covenant, surrounded respectfully by marching soldiers.\n\nEvery eyes-up step reminded the people whose strength they were leaning on: Jericho belonged to the Lord before a stone ever shifted.',
+        imageUrl: '/images/stories/jericho-walls-2.webp',
+        imageAlt: 'Israelite priests in white linen carrying the gold Ark preceded by curved ram’s horns',
+        scriptureRefs: [
+          { label: 'Joshua 6:2–5', chapterId: 'JOS-6', verseNumber: 4 },
+        ],
+      },
+      {
+        id: 'jer-3',
+        beatNumber: 3,
+        title: 'Marching in Quiet Obedience',
+        narrative:
+          'Rising early the next morning, Joshua organized the entire host and issued one strict instruction: “You shall not shout, nor let your voice be heard, neither shall any word proceed out of your mouth, until the day I tell you to shout.”\n\nAll day watchers along Jericho’s ramparts stared bewildered downward at thousands of footsteps circling silently around their city once—broken only by the echoing blast of seven ram’s horns—before returning quietly to camp.',
+        imageUrl: '/images/stories/jericho-walls-3.webp',
+        imageAlt: 'Long orderly procession marching silently around massive sunlit Jericho stone walls',
+        scriptureRefs: [
+          { label: 'Joshua 6:8–11', chapterId: 'JOS-6', verseNumber: 10 },
+        ],
+      },
+      {
+        id: 'jer-4',
+        beatNumber: 4,
+        title: 'Six Days Without a Single Crack',
+        narrative:
+          'Day two came—one lap, silence, back to camp. Day three, day four, day five, and day six passed the exact same way! Not a single stone budged, not a single crack widened in Jericho’s mortar.\n\nWait without seeing results tests every heart. Yet Joshua and Israel kept showing up faithfully under dawn sun, trusting God’s promise even when onlookers laughed from high walls.',
+        imageUrl: '/images/stories/jericho-walls-4.webp',
+        imageAlt: 'Joshua guiding Hebrew soldiers calmly toward distant Jericho ramparts under dawn mist',
+        scriptureRefs: [
+          { label: 'Joshua 6:12–14', chapterId: 'JOS-6', verseNumber: 14 },
+          { label: 'Hebrews 11:30', chapterId: 'HEB-11', verseNumber: 30 },
+        ],
+      },
+      {
+        id: 'jer-5',
+        beatNumber: 5,
+        title: 'The Seventh Day Shout & Falling Stones',
+        narrative:
+          'At dawn on the seventh day, the host marched around Jericho not once, not twice, but seven steady times! At the finish of the seventh circuit, as seven trumpets sounded one long sustained blast, Joshua cried out: “Shout! For Yahweh has given you the city!”\n\nA mighty roar of faith shook the morning air—and suddenly heavy sandstone ramparts collapsed flat outward all around the city, letting Israel walk straight ahead.',
+        imageUrl: '/images/stories/jericho-walls-5.webp',
+        imageAlt: 'Massive stone blocks of Jericho crumbling downward as seven priests blow ram’s horns',
+        scriptureRefs: [
+          { label: 'Joshua 6:15–16', chapterId: 'JOS-6', verseNumber: 16 },
+          { label: 'Joshua 6:20', chapterId: 'JOS-6', verseNumber: 20 },
+        ],
+      },
+      {
+        id: 'jer-6',
+        beatNumber: 6,
+        title: 'Rahab’s Scarlet Promise Honored',
+        narrative:
+          'Right amid collapsing masonry, one section of wall with a red cord held fast! Faithful to their solemn word, two Hebrew scouts hurried directly to Rahab’s doorway and brought Rahab, her mother, father, and entire family safely outside.\n\nYears later, Rahab’s courage of faith earned her an honored place right in King David’s—and Jesus’—very own family tree!',
+        imageUrl: '/images/stories/jericho-walls-6.webp',
+        imageAlt: 'Grateful Rahab and her family led safely past unbroken house with scarlet cord at dawn',
+        scriptureRefs: [
+          { label: 'Joshua 6:22–25', chapterId: 'JOS-6', verseNumber: 25 },
+          { label: 'Matthew 1:5', chapterId: 'MAT-1', verseNumber: 5 },
+        ],
+      },
+    ],
+    lessonsLearned: [
+      {
+        title: 'Perseverance keeps marching during Days 2 through 6',
+        description:
+          'Nothing visibly moved for six straight days—yet showing up faithfully in quiet obedience prepared the seventh-day breakthrough.',
+        anchorRef: { label: 'Joshua 6:14–20', chapterId: 'JOS-6', verseNumber: 20 },
+      },
+      {
+        title: 'By faith the walls fell down',
+        description:
+          'Hebrews reminds us trumpets and footsteps didn’t topple stone—trusting God’s odd instructions made room for His power.',
+        anchorRef: { label: 'Hebrews 11:30', chapterId: 'HEB-11', verseNumber: 30 },
+      },
+      {
+        title: 'God always keeps His promise to outsiders who trust Him',
+        description:
+          'Rahab’s simple scarlet cord sheltered her whole household and wove her into the lineage of Jesus.',
+        anchorRef: { label: 'Joshua 6:25', chapterId: 'JOS-6', verseNumber: 25 },
+      },
+    ],
+    reflectionPrompt:
+      'What tall “wall” feels unmovable in your life—and what quiet, steady step can you take today in trust?',
   },
 ];
