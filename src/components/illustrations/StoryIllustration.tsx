@@ -724,6 +724,11 @@ export function resolveStoryIllustrationAsset(
       'story-queen-esther': { src: '/images/stories/esther-4.jpg', alt: 'Queen Esthers Courage' },
       'story-feeding-5000': { src: '/images/stories/feeding-5000-2.jpg', alt: 'Feeding the Five Thousand' },
       'story-parable-sower': { src: '/images/stories/sower-6.jpg', alt: 'The Parable of the Sower' },
+      'story-joseph-coat': { src: '/images/stories/joseph-1.jpg', alt: 'Joseph and His Coat of Many Colors' },
+      'story-ruth-naomi': { src: '/images/stories/ruth-2.jpg', alt: 'Ruth and Naomi' },
+      'story-walks-water': { src: '/images/stories/walks-water-2.jpg', alt: 'Jesus Walks on Water' },
+      'story-lost-sheep': { src: '/images/stories/lost-sheep-4.jpg', alt: 'The Lost Sheep and the Good Shepherd' },
+      'story-first-christmas': { src: '/images/stories/christmas-2.jpg', alt: 'The First Christmas: Birth of Jesus' },
     };
     if (coverMap[key]) return coverMap[key];
   }

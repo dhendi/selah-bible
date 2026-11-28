@@ -1157,4 +1157,576 @@ export const SEED_BIBLE_STORIES: BibleStory[] = [
     reflectionPrompt:
       'Which soil feels closest to your heart this week—and what small stone or “worry weed” could you gently ask God to clear away?',
   },
+  {
+    id: 'story-joseph-coat',
+    slug: 'joseph-coat',
+    title: 'Joseph & His Coat of Many Colors',
+    subtitle: 'What Others Meant for Harm, God Used for Good',
+    testament: 'OT',
+    category: 'Old Testament Classics',
+    scriptureRange: 'Genesis 37–45',
+    readingTimeMinutes: 8,
+    coverImageUrl: '/images/stories/joseph-1.jpg',
+    primaryChapterId: 'GEN-37',
+    summary:
+      'Betrayed and sold far from home by his own jealous brothers, young Joseph endured slavery and an unjust prison cell in Egypt—never imagining God was shaping him to save kingdoms and embrace his family with forgiveness.',
+    beats: [
+      {
+        id: 'jos-1',
+        beatNumber: 1,
+        title: 'A Vibrant Coat Under Olive Trees',
+        narrative:
+          'Aging father Jacob loved all twelve of his sons, yet his gentle seventeen-year-old son Joseph—born to his beloved late wife Rachel—held a tender place close to Jacob’s heart. To mark his affection, Jacob wove an extraordinary gift: a long richly striped tunic gleaming with cobalt blue, saffron gold, crimson, and emerald bands reaching down to Joseph’s wrists and ankles.\n\nProudly wearing his colorful coat beneath dusty Canaan olive trees, young Joseph also began dreaming vivid night visions from God—sheaves of grain bowing round one upright stalk, even sun, moon, and eleven stars bowing low. Innocently sharing those dreams aloud at breakfast, Joseph didn’t notice the quiet bitterness growing around him.',
+        imageUrl: '/images/stories/joseph-1.jpg',
+        imageAlt: 'Young Joseph wearing a vibrantly striped colorful coat beside proud father Jacob under olive trees',
+        scriptureRefs: [
+          { label: 'Genesis 37:3–4', chapterId: 'GEN-37', verseNumber: 3 },
+          { label: 'Genesis 37:5–9', chapterId: 'GEN-37', verseNumber: 7 },
+        ],
+      },
+      {
+        id: 'jos-2',
+        beatNumber: 2,
+        title: 'Sold Far From Home by Jealous Brothers',
+        narrative:
+          'Seeing their younger brother cross the sunny grass hills of Dothan wearing that brightly woven tunic, Joseph’s older brothers muttered coldly from beside their grazing flocks: “Look, this dreamer comes! Let’s see what becomes of his dreams!”\n\nStripping away his precious coat, they tossed frightened Joseph down into an empty limestone pit, and soon sold him for twenty pieces of silver to passing spice merchants bound straight across the desert toward Egypt. Dipping his torn tunic in goat’s blood, they broke old Jacob’s heart—while chained young Joseph stared backward across unfamiliar desert dunes wondering if God had forgotten him.',
+        imageUrl: '/images/stories/joseph-2.jpg',
+        imageAlt: 'Jealous shepherd brothers watching Joseph walk across Canaan hills in his colorful coat',
+        scriptureRefs: [
+          { label: 'Genesis 37:18–24', chapterId: 'GEN-37', verseNumber: 19 },
+          { label: 'Genesis 37:26–28', chapterId: 'GEN-37', verseNumber: 28 },
+        ],
+      },
+      {
+        id: 'jos-3',
+        beatNumber: 3,
+        title: 'From Lonely Prison to Pharaoh’s Throne Room',
+        narrative:
+          'Years tested Joseph harshly in Egypt. Serving faithfully even as an enslaved household steward, he was falsely accused and locked away for years inside a royal dungeon. Yet Scripture repeats one golden refrain through every dark chapter: “Yahweh was with Joseph, and showed kindness to him.”\n\nWhen troubled Pharaoh woke from puzzling dreams of seven sleek cows devoured by seven bony cattle along the Nile, nobody in Egypt could explain them—until an escaped cupbearer remembered Joseph! Brought neatly shaved and dressed in clean white Egyptian linen before grand sandstone palace columns, Joseph pointed credit cleanly away from himself: “It isn’t in me. God will give Pharaoh an answer of peace.”',
+        imageUrl: '/images/stories/joseph-3.jpg',
+        imageAlt: 'Clean-shaven governor Joseph inside grand sunlit Egyptian palace hall interpreting Pharaoh dreams',
+        scriptureRefs: [
+          { label: 'Genesis 39:21–23', chapterId: 'GEN-39', verseNumber: 21 },
+          { label: 'Genesis 41:14–16', chapterId: 'GEN-41', verseNumber: 16 },
+          { label: 'Genesis 41:25–32', chapterId: 'GEN-41', verseNumber: 25 },
+        ],
+      },
+      {
+        id: 'jos-4',
+        beatNumber: 4,
+        title: 'Storehouses Overflowing Against the Famine',
+        narrative:
+          'Warning Pharaoh that seven bountiful harvests would soon turn into seven blistering years of regional famine, Joseph offered a steady plan—and astonished Pharaoh placed his own golden signet ring onto Joseph’s finger, lifting him straight from prisoner to second-in-command across all Egypt!\n\nTrue to God’s word, abundant barley and golden wheat soon poured endlessly into Egypt. Traveling across sunlit fields, Joseph supervised workers filling towering sandstone storehouses with grain until tallies couldn’t even keep count—storing mercy long before dry winds began.',
+        imageUrl: '/images/stories/joseph-4.jpg',
+        imageAlt: 'Workers filling sunlit sandstone storehouses in Egypt with sacks of golden grain',
+        scriptureRefs: [
+          { label: 'Genesis 41:38–42', chapterId: 'GEN-41', verseNumber: 41 },
+          { label: 'Genesis 41:47–49', chapterId: 'GEN-41', verseNumber: 49 },
+        ],
+      },
+      {
+        id: 'jos-5',
+        beatNumber: 5,
+        title: 'Ten Bowed Heads & Secret Tears',
+        narrative:
+          'Soon severe famine parched Canaan too, emptying family bread bowls back home. Desperate, Jacob sent Joseph’s ten older brothers walking south down dusty Egyptian roads to buy food. Entering the echoing stone audience hall holding empty burlap sacks, they dropped low with faces touching stone floor before Egypt’s stately governor.\n\nIn a heartbeat, Joseph recognized the exact brothers who had thrown him into the pit—while they saw only a grand Egyptian lord speaking through a translator! Slipping quietly into another room, powerful governor Joseph buried his face in his hands and wept—testing their hearts gently to see if cruelty had finally changed into love.',
+        imageUrl: '/images/stories/joseph-5.jpg',
+        imageAlt: 'Humbled Hebrew brothers bowing with empty sacks before Egyptian governor Joseph on stone dais',
+        scriptureRefs: [
+          { label: 'Genesis 42:6–9', chapterId: 'GEN-42', verseNumber: 6 },
+          { label: 'Genesis 42:24', chapterId: 'GEN-42', verseNumber: 24 },
+          { label: 'Genesis 44:33–34', chapterId: 'GEN-44', verseNumber: 33 },
+        ],
+      },
+      {
+        id: 'jos-6',
+        beatNumber: 6,
+        title: '“I Am Joseph—Fear Not!”',
+        narrative:
+          'Seeing Judah step forward bravely offering himself as a slave just to keep youngest brother Benjamin safe for old Jacob, Joseph could hold back tears no longer. Sending every palace attendant outside, he cried out in their childhood Hebrew tongue: “I am Joseph! Does my father still live?” Terrified silence froze the room until Joseph stepped close with open arms.\n\nThrowing himself around their trembling shoulders, he kissed every one of them with overflowing mercy: “Now don’t be grieved, nor angry with yourselves that you sold me here, for God sent me before you to preserve life!” Years later he summed up his whole journey cleanly: “As for you, you meant evil against me; but God meant it for good.”',
+        imageUrl: '/images/stories/joseph-6.jpg',
+        imageAlt: 'Tearful joyful reunion hug as Joseph embraces his forgiven brothers beneath Egyptian palace arches',
+        scriptureRefs: [
+          { label: 'Genesis 45:1–5', chapterId: 'GEN-45', verseNumber: 5 },
+          { label: 'Genesis 45:14–15', chapterId: 'GEN-45', verseNumber: 15 },
+          { label: 'Genesis 50:20', chapterId: 'GEN-50', verseNumber: 20 },
+        ],
+      },
+    ],
+    lessonsLearned: [
+      {
+        title: 'Hidden valleys aren’t wasted years when God walks beside you',
+        description:
+          'Every painful detour—slavery, false accusation, forgotten prison—prepared Joseph quietly to shepherd nations when the time arrived.',
+        anchorRef: { label: 'Genesis 39:21', chapterId: 'GEN-39', verseNumber: 21 },
+      },
+      {
+        title: 'Work faithfully right where you are, seen or unseen',
+        description:
+          'Joseph didn’t wait for a crown to serve with integrity; he gave his very best in Potiphar’s house and the prison cell alike.',
+        anchorRef: { label: 'Genesis 41:38–41', chapterId: 'GEN-41', verseNumber: 41 },
+      },
+      {
+        title: 'Forgiveness frees your heart to see God’s larger tapestry',
+        description:
+          'Instead of hoarding revenge when power finally came, Joseph released bitterness—discovering God had woven hurt into healing for thousands.',
+        anchorRef: { label: 'Genesis 50:20', chapterId: 'GEN-50', verseNumber: 20 },
+      },
+    ],
+    reflectionPrompt:
+      'Looking back across a hard season from years ago, can you glimpse any quiet good God wove out of it later on?',
+  },
+  {
+    id: 'story-ruth-naomi',
+    slug: 'ruth-naomi',
+    title: 'Ruth & Naomi',
+    subtitle: 'Loyal Love That Turns Emptiness Into Harvest',
+    testament: 'OT',
+    category: 'Old Testament Classics',
+    scriptureRange: 'Ruth 1–4',
+    readingTimeMinutes: 8,
+    coverImageUrl: '/images/stories/ruth-2.jpg',
+    primaryChapterId: 'RUT-1',
+    summary:
+      'Left widowed and empty-handed far from home, a faithful young Moabite woman refused to let her grieving mother-in-law walk alone—discovering quiet dignity, kindness from Boaz, and a place right inside the family line of King David and Jesus.',
+    beats: [
+      {
+        id: 'rut-1',
+        beatNumber: 1,
+        title: '“Where You Go, I Will Go”',
+        narrative:
+          'Seeking bread during a fierce Bethlehem famine, Naomi and her husband had moved east into hilly Moab—only to lose her husband and both grown sons within ten aching years. Hearing at last that Yahweh had blessed Bethlehem with fresh grain harvests, gray-haired Naomi packed her tiny bundle and started the lonely climb homeward.\n\nStanding along the dusty mountain border, Naomi gently urged her two young widowed daughters-in-law to stay safely with their own mothers. Orpah wept, kissed Naomi goodbye, and turned back—but loving Ruth threw her arms tightly round Naomi and spoke one of the purest vows in human history: “Don’t urge me to leave you! For wherever you go, I will go; and wherever you stay, I will stay. Your people shall be my people, and your God my God.”',
+        imageUrl: '/images/stories/ruth-1.jpg',
+        imageAlt: 'Faithful Ruth embracing gray-haired Naomi along dusty stone trail out of Moab hills',
+        scriptureRefs: [
+          { label: 'Ruth 1:6–9', chapterId: 'RUT-1', verseNumber: 8 },
+          { label: 'Ruth 1:14–17', chapterId: 'RUT-1', verseNumber: 16 },
+        ],
+      },
+      {
+        id: 'rut-2',
+        beatNumber: 2,
+        title: 'Gleaning Humble Ears of Barley',
+        narrative:
+          'Two tired widows walked quietly into sun-bleached Bethlehem gates just as golden barley harvest began. Empty cupboards left no time for pride; asking Naomi’s gentle blessing early next morning, Ruth tied a linen kerchief around her hair and walked down to the open hillside fields.\n\nFollowing God’s compassionate ancient law—commanding farmers never to strip field corners clean so widows and travelers could glean dropped grain—humble Ruth stooped patiently behind reaping workers row after row under morning sky, picking up single fallen stalks to keep bread on Naomi’s table.',
+        imageUrl: '/images/stories/ruth-2.jpg',
+        imageAlt: 'Ruth gathering fallen golden barley stalks across sunlit hillside fields near Bethlehem',
+        scriptureRefs: [
+          { label: 'Ruth 1:22', chapterId: 'RUT-1', verseNumber: 22 },
+          { label: 'Ruth 2:2–3', chapterId: 'RUT-2', verseNumber: 2 },
+          { label: 'Ruth 2:7', chapterId: 'RUT-2', verseNumber: 7 },
+        ],
+      },
+      {
+        id: 'rut-3',
+        beatNumber: 3,
+        title: 'Generous Kindness of Boaz',
+        narrative:
+          'Unknown to Ruth, that sunlit slope belonged to Boaz—a generous, honorable kinsman of Naomi’s late husband. Arriving from town with warm greetings for his workers (“Yahweh be with you!”), Boaz instantly noticed the hardworking outsider quietly gleaning at the edge and asked his foreman who she was.\n\nTouched to hear how faithfully she had cared for grieving Naomi, Boaz walked over calmly, offered cool spring water, shared roasted grain beside his reapers, and whispered to his men to quietly drop extra full barley bundles right across her path—praying softly: “May a full reward be given you from Yahweh, under whose wings you have come to take refuge.”',
+        imageUrl: '/images/stories/ruth-3.jpg',
+        imageAlt: 'Warm-hearted landowner Boaz beside golden barley sheaves instructing workers to care for Ruth',
+        scriptureRefs: [
+          { label: 'Ruth 2:4–12', chapterId: 'RUT-2', verseNumber: 12 },
+          { label: 'Ruth 2:14–17', chapterId: 'RUT-2', verseNumber: 16 },
+        ],
+      },
+      {
+        id: 'rut-4',
+        beatNumber: 4,
+        title: 'Quiet Hope Beneath Starry Harvest Skies',
+        narrative:
+          'When Ruth carried home a massive heap of beaten barley—and told Naomi she had worked beside kindly Boaz—old Naomi’s eyes lit with sudden hope: “He is our close kinsman-redeemer!” Someone strong enough inside their extended family to protect their home and carry forward their family name.\n\nAt the close of harvest, under clear starry evening skies across Bethlehem’s breezy stone threshing floor, Ruth respectfully approached honorable Boaz seeking protection and redemption. Moved by her gentle integrity rather than selfish ambition, Boaz spread his mantle gently in promise: “Don’t be afraid, my daughter. All the city knows you are a worthy woman!”',
+        imageUrl: '/images/stories/ruth-4.jpg',
+        imageAlt: 'Starry twilight over stone Bethlehem threshing courtyard piled warmly with golden wheat sheaves',
+        scriptureRefs: [
+          { label: 'Ruth 2:20', chapterId: 'RUT-2', verseNumber: 20 },
+          { label: 'Ruth 3:8–11', chapterId: 'RUT-3', verseNumber: 11 },
+        ],
+      },
+      {
+        id: 'rut-5',
+        beatNumber: 5,
+        title: 'Redeemed & Blessed at the Town Gate',
+        narrative:
+          'Boaz wasted no time on empty promises. Walking straight down to Bethlehem’s sunny limestone gate at daybreak, he assembled ten respected village elders under olive shade and settled every legal family obligation cleanly and publicly in open daylight.\n\nStepping forward joyfully as redeemer, Boaz pledged openly to care for Naomi’s land and marry Ruth. Lifting their weathered hands in blessing, every elder and townsman smiled across the sunny archway, praying peace and fruitfulness over their new household.',
+        imageUrl: '/images/stories/ruth-5.jpg',
+        imageAlt: 'Bethlehem limestone village gate where smiling elders bless joyful Boaz and Ruth',
+        scriptureRefs: [
+          { label: 'Ruth 4:1–2', chapterId: 'RUT-4', verseNumber: 1 },
+          { label: 'Ruth 4:9–12', chapterId: 'RUT-4', verseNumber: 10 },
+        ],
+      },
+      {
+        id: 'rut-6',
+        beatNumber: 6,
+        title: 'A Full Arms Harvest & Royal Lineage',
+        narrative:
+          'Not long afterward, laughter echoed warmly inside Naomi’s sunlit Bethlehem courtyard. Laying newborn baby Obed tenderly into grieving-turned-radiant grandmother Naomi’s lap, smiling village women whispered joy: “Blessed be Yahweh, who hasn’t left you without a redeemer! Your daughter-in-law, who loves you, is better to you than seven sons!”\n\nLittle did any neighbor cradling sleepy baby Obed know how far their quiet kindness would echo: Obed became the grandfather of King David—and generations later, right inside that very town of Bethlehem, Jesus Christ Himself was born into their grateful family tree.',
+        imageUrl: '/images/stories/ruth-6.jpg',
+        imageAlt: 'Radiant grandmother Naomi cradling baby Obed beside loving Ruth and Boaz in sunny Bethlehem home',
+        scriptureRefs: [
+          { label: 'Ruth 4:13–17', chapterId: 'RUT-4', verseNumber: 15 },
+          { label: 'Ruth 4:18–22', chapterId: 'RUT-4', verseNumber: 17 },
+        ],
+      },
+    ],
+    lessonsLearned: [
+      {
+        title: 'Steadfast loyalty changes lives more than grand speeches',
+        description:
+          'Ruth held no wealth or influence—just faithful love refusing to desert a hurting friend when life grew bare.',
+        anchorRef: { label: 'Ruth 1:16–17', chapterId: 'RUT-1', verseNumber: 16 },
+      },
+      {
+        title: 'No act of quiet generosity goes unnoticed by God',
+        description:
+          'Leaving extra stalks for someone gleaning silently in the corners looks small on paper, yet God wove Boaz’s kindness straight into Israel’s royal story.',
+        anchorRef: { label: 'Ruth 2:12', chapterId: 'RUT-2', verseNumber: 12 },
+      },
+      {
+        title: 'Emptiness is never the final word with God',
+        description:
+          'Naomi returned to Bethlehem calling herself “bitter,” yet by the closing page God gently filled her empty arms with joy.',
+        anchorRef: { label: 'Ruth 4:14–15', chapterId: 'RUT-4', verseNumber: 14 },
+      },
+    ],
+    reflectionPrompt:
+      'Who in your life is walking through a bare season right now who simply needs your faithful companionship?',
+  },
+  {
+    id: 'story-walks-water',
+    slug: 'walks-water',
+    title: 'Jesus Walks on Water',
+    subtitle: 'Keep Your Eyes on Jesus When Waves Rise',
+    testament: 'NT',
+    category: 'Miracles of Jesus',
+    scriptureRange: 'Matthew 14:22–33',
+    readingTimeMinutes: 7,
+    coverImageUrl: '/images/stories/walks-water-2.jpg',
+    primaryChapterId: 'MAT-14',
+    summary:
+      'Caught hours from shore in a howling midnight gale across Lake Galilee, twelve exhausted disciples saw Jesus striding calmly toward them atop churning waves—inviting brave Peter to step outside the boat onto impossible grace.',
+    beats: [
+      {
+        id: 'ww-1',
+        beatNumber: 1,
+        title: 'Fighting Headwinds in the Middle of Night',
+        narrative:
+          'Immediately after feeding five thousand hungry families on the green hillside, Jesus urged His tired disciples to climb into their wooden fishing boat and cross Lake Galilee ahead of Him while He slipped quietly up a mountain ridge alone to pray beneath evening stars.\n\nHours past midnight, far from either dark shoreline, furious mountain gusts slammed straight down across the lake. Foaming slate waves battered the creaking wooden bow over and over while soaked, aching fishermen strained every muscle on wooden oars—fighting against fierce headwinds mile after endless mile until nearly four in the morning.',
+        imageUrl: '/images/stories/walks-water-1.jpg',
+        imageAlt: 'Wooden fishing boat pitching steeply atop stormy dark Lake Galilee waves at midnight',
+        scriptureRefs: [
+          { label: 'Matthew 14:22–24', chapterId: 'MAT-14', verseNumber: 24 },
+        ],
+      },
+      {
+        id: 'ww-2',
+        beatNumber: 2,
+        title: 'A Serene Presence Across Churning Waves',
+        narrative:
+          'In the dim fourth watch before dawn, tired eyes squinting through stinging wind-spray froze in sudden astonishment. Moving steadily across rolling valleys of dark turquoise water stood a calm, upright human figure striding forward as peacefully as if walking across flat stone courtyard tiles!\n\n“It’s a ghost!” panicked sailors shouted across the howling spray. Instantly above wind and crashing surf rang a warm, unmistakable, grounding voice they loved: “Cheer up! It is I! Don’t be afraid.” Even in the darkest hour of storm, Jesus had never taken His eyes off His friends’ boat.',
+        imageUrl: '/images/stories/walks-water-2.jpg',
+        imageAlt: 'Serene Jesus in cream and indigo linen robes striding calmly across dark misty Galilee waves',
+        scriptureRefs: [
+          { label: 'Matthew 14:25–27', chapterId: 'MAT-14', verseNumber: 27 },
+        ],
+      },
+      {
+        id: 'ww-3',
+        beatNumber: 3,
+        title: '“Lord, Command Me to Come!”',
+        narrative:
+          'Hearing Jesus’s dear voice over storm winds, impetuous Peter leaned eagerly over the low wet boat rail. Not wanting to stay safely anchored while his Master stood out on the sea, Peter cried back through dark wind: “Lord, if it is You, command me to come to You on the waters!”\n\nSmiling gently across rolling swells, Jesus spoke one welcoming word: “Come.” Holding tight to that invitation, brave Peter swung one sandal over the wooden gunwale, planted his foot straight down onto liquid turquoise lake water—and walked! Step after astonishing step, solid faith carried an ordinary fisherman right across open water toward his Lord.',
+        imageUrl: '/images/stories/walks-water-3.jpg',
+        imageAlt: 'Courageous fisherman Peter stepping over low wooden boat rail onto moonlit lake ripples reaching toward Jesus',
+        scriptureRefs: [
+          { label: 'Matthew 14:28–29', chapterId: 'MAT-14', verseNumber: 29 },
+        ],
+      },
+      {
+        id: 'ww-4',
+        beatNumber: 4,
+        title: 'When Fear Looks Away From Jesus',
+        narrative:
+          'Halfway between creaking oak planks and calm Jesus, a howling side gust slapped cold spray cleanly into Peter’s face. Startled, Peter dropped his gaze away from Jesus’s steady eyes to stare instead at roaring whitecaps swirling beneath his sandals.\n\nInstantly fear flooded where trust had been. Feeling solid buoyancy slip beneath his weight, Peter dropped knee-deep into cold churning lake water—yet even while sinking, his heart knew the one shortest prayer in Scripture: “Lord, save me!”',
+        imageUrl: '/images/stories/walks-water-4.jpg',
+        imageAlt: 'Foaming splash rising around Peter sinking ankle-deep into choppy waves looking down in fear',
+        scriptureRefs: [
+          { label: 'Matthew 14:30', chapterId: 'MAT-14', verseNumber: 30 },
+        ],
+      },
+      {
+        id: 'ww-5',
+        beatNumber: 5,
+        title: 'Immediately Held by an Outstretched Hand',
+        narrative:
+          'Matthew records no lecture first and no hesitation: “Immediately Jesus stretched out His hand, took hold of him.” Before another wave could pull bruised fisherman down, Jesus’s warm grip closed firmly around Peter’s wrist and lifted him right back above the dark swells.\n\n“You of little faith,” Jesus murmured tenderly—not scolding him for stepping out of the boat, only wondering gently: “why did you doubt?” Hand safely inside Jesus’s hand, even faltering steps walked together back to safety.',
+        imageUrl: '/images/stories/walks-water-5.jpg',
+        imageAlt: 'Loving Jesus reaching swiftly across shimmering waves gripping Peter securely by the wrist',
+        scriptureRefs: [
+          { label: 'Matthew 14:31', chapterId: 'MAT-14', verseNumber: 31 },
+        ],
+      },
+      {
+        id: 'ww-6',
+        beatNumber: 6,
+        title: 'Wind Dies Down & Hearts Worship',
+        narrative:
+          'The very moment Jesus and soaked, relieved Peter stepped together back over the wooden side rail into the boat, howling midnight wind dropped dead silent. Churning swells smoothed cleanly into rosy morning glass reflecting waking Galilean hills.\n\nAstonished beyond words—still wiping salty hair from their foreheads—every disciple dropped quietly to his knees along wet wooden deck boards before Him, whispering in awe: “Truly, You are the Son of God!”',
+        imageUrl: '/images/stories/walks-water-6.jpg',
+        imageAlt: 'Glassy rosy sunrise calm on Lake Galilee as amazed disciples sit safely inside wooden boat',
+        scriptureRefs: [
+          { label: 'Matthew 14:32–33', chapterId: 'MAT-14', verseNumber: 33 },
+        ],
+      },
+    ],
+    lessonsLearned: [
+      {
+        title: 'Obedience doesn’t promise smooth waters—only Jesus’s nearness',
+        description:
+          'Notice Jesus Himself sent the disciples into the boat that evening. Facing tough headwinds doesn’t mean God forgot you; He sees every oar stroke.',
+        anchorRef: { label: 'Matthew 14:22–25', chapterId: 'MAT-14', verseNumber: 24 },
+      },
+      {
+        title: 'What we fix our eyes on grows larger inside us',
+        description:
+          'As long as Peter looked at Jesus, waves stayed beneath his feet; the second he measured the roaring wind instead, fear pulled him down.',
+        anchorRef: { label: 'Matthew 14:30', chapterId: 'MAT-14', verseNumber: 30 },
+      },
+      {
+        title: 'Three honest words—“Lord, save me!”—always reach Jesus in time',
+        description:
+          'Even when faith wobbles halfway across, Jesus doesn’t wait for polished speeches—He catches sinking hands immediately.',
+        anchorRef: { label: 'Matthew 14:31', chapterId: 'MAT-14', verseNumber: 31 },
+      },
+    ],
+    reflectionPrompt:
+      'Right now, are your eyes fixed mostly on the size of the waves around you—or on Jesus walking toward you?',
+  },
+  {
+    id: 'story-lost-sheep',
+    slug: 'lost-sheep',
+    title: 'The Lost Sheep & the Good Shepherd',
+    subtitle: 'Every Single One Matters Enough to Search For',
+    testament: 'NT',
+    category: 'Parables of Jesus',
+    scriptureRange: 'Luke 15:1–7',
+    readingTimeMinutes: 7,
+    coverImageUrl: '/images/stories/lost-sheep-4.jpg',
+    primaryChapterId: 'LUK-15',
+    summary:
+      'Surrounded by neighbors complaining that Jesus cared too warmly for wandering outsiders, Jesus told the simple story of a shepherd who couldn’t rest until the one missing lamb out of a hundred was lifted safely home.',
+    beats: [
+      {
+        id: 'ls-1',
+        beatNumber: 1,
+        title: 'Ninety-Nine Safe Upon Green Hills',
+        narrative:
+          'When grumbling religious leaders frowned because Jesus welcomed weary outsiders closely beside Him, Jesus asked a question every Galilean villager understood instantly: “Which of you men, having one hundred sheep and losing one of them, wouldn’t leave the ninety-nine in the pasture and go after the one that is lost until he finds it?”\n\nAll afternoon under warm golden Judean sunlight, the kind shepherd had led his hundred gentle sheep from lush grassy wildflower hills to cool rocky springs—watching attentively over sturdy ewes and bouncing white lambs alike while leaning softly on his wooden crook.',
+        imageUrl: '/images/stories/lost-sheep-1.jpg',
+        imageAlt: 'Judean shepherd leaning on crooked wooden staff watching sunny flock grazing wildflower hills',
+        scriptureRefs: [
+          { label: 'Luke 15:1–4', chapterId: 'LUK-15', verseNumber: 4 },
+          { label: 'John 10:11–14', chapterId: 'JHN-10', verseNumber: 11 },
+        ],
+      },
+      {
+        id: 'ls-2',
+        beatNumber: 2,
+        title: 'Counting One Lamb Missing at Dusk',
+        narrative:
+          'As lavender twilight crept steadily across limestone ridges, the shepherd called his flock cleanly home toward stone fold walls, resting his staff across the narrow stone doorway to count every wooly back trotting inside. Ninety-seven… ninety-eight… ninety-nine.\n\nWait. Turning quickly back toward dark misty cliffs, he counted twice more in rising worry. Out across rugged lonely rocks, distracted by a tuft of sweet grass and trapped beside thorny mountain brambles, one tiny frightened white lamb stood bleating helplessly alone.',
+        imageUrl: '/images/stories/lost-sheep-2.jpg',
+        imageAlt: 'Worried shepherd scanning rocky mountain ridge at purple dusk while one tiny lamb stands lost afar',
+        scriptureRefs: [
+          { label: 'Luke 15:4', chapterId: 'LUK-15', verseNumber: 4 },
+        ],
+      },
+      {
+        id: 'ls-3',
+        beatNumber: 3,
+        title: 'Climbing Steep Cliffs With a Lantern',
+        narrative:
+          'Practical voices might mutter, “Ninety-nine out of a hundred is a great score—stay warm inside tonight!” Not a true Good Shepherd. Leaving the ninety-nine safe inside walled shelter with fellow keepers, he trimmed a bright brass oil lamp, gripped his wooden staff tightly, and stepped back out into icy hillside dusk.\n\nScrambling carefully over loose shale ledges, peering beneath thorny ravine overhangs, and calling softly into swirling night mist, he searched tirelessly without turning back—loving that one wandering creature far too deeply to settle for “almost all.”',
+        imageUrl: '/images/stories/lost-sheep-3.jpg',
+        imageAlt: 'Determined shepherd climbing moonlit rocky canyon crags holding warm glowing oil lamp',
+        scriptureRefs: [
+          { label: 'Luke 15:4', chapterId: 'LUK-15', verseNumber: 4 },
+          { label: 'Ezekiel 34:11–12', chapterId: 'EZK-34', verseNumber: 11 },
+        ],
+      },
+      {
+        id: 'ls-4',
+        beatNumber: 4,
+        title: 'Tender Rescue Along Narrow Ledges',
+        narrative:
+          'At last—a faint quivering cry echoed from down beside a narrow limestone ledge! Lifting his glowing bronze lantern forward, the shepherd spotted dusty tangled wool shivering against cold cliff stone.\n\nDropping eagerly to his knees with overflowing relief, he spoke gentle soothing words to quiet the lamb’s racing heart, untangled sticky briers gently from its coat without scolding or striking it, and scooped the trembling exhausted creature securely into both warm arms.',
+        imageUrl: '/images/stories/lost-sheep-4.jpg',
+        imageAlt: 'Shepherd kneeling gently beside rocky ridge cradling tiny rescued lamb securely in both arms',
+        scriptureRefs: [
+          { label: 'Luke 15:5', chapterId: 'LUK-15', verseNumber: 5 },
+          { label: 'Isaiah 40:11', chapterId: 'ISA-40', verseNumber: 11 },
+        ],
+      },
+      {
+        id: 'ls-5',
+        beatNumber: 5,
+        title: 'Lifted Joyfully Across Strong Shoulders',
+        narrative:
+          'Look at Jesus’s tender word picture: “When he has found it, he lays it on his shoulders, rejoicing!” Tired legs didn’t get forced to limp miles back downhill over sharp gravel alone.\n\nInstead, the strong shepherd wrapped gentle steady hands around its four small hooves, resting the rescued lamb safely warm across his broad cloak shoulders as starry morning light softened eastern hills on their cheerful walk home.',
+        imageUrl: '/images/stories/lost-sheep-5.jpg',
+        imageAlt: 'Smiling shepherd walking briskly home at dawn carrying tiny peaceful lamb gently across his shoulders',
+        scriptureRefs: [
+          { label: 'Luke 15:5', chapterId: 'LUK-15', verseNumber: 5 },
+        ],
+      },
+      {
+        id: 'ls-6',
+        beatNumber: 6,
+        title: '“Rejoice With Me—I Found My Lost One!”',
+        narrative:
+          'Stepping joyfully back into sunlit Bethlehem stone village courtyards, the shepherd didn’t keep quiet about his midnight climb—he called friends and neighbors straight outside to laugh and feast beside the returned flock: “Rejoice with me, for I have found my sheep which was lost!”\n\nFinishing His story, Jesus smiled warmly at listeners both humbled and amazed: “I tell you that even so there will be more joy in heaven over one sinner who repents, than over ninety-nine righteous people who need no repentance.”',
+        imageUrl: '/images/stories/lost-sheep-6.jpg',
+        imageAlt: 'Happy limestone village courtyard gathering as shepherd and neighbors celebrate beside returned sheep',
+        scriptureRefs: [
+          { label: 'Luke 15:6–7', chapterId: 'LUK-15', verseNumber: 7 },
+        ],
+      },
+    ],
+    lessonsLearned: [
+      {
+        title: 'You are never “just one in a crowd” to the Good Shepherd',
+        description:
+          'Even with ninety-nine safe beside Him, God notices when one single heart drifts—and searches tirelessly until He finds you.',
+        anchorRef: { label: 'Luke 15:4', chapterId: 'LUK-15', verseNumber: 4 },
+      },
+      {
+        title: 'Jesus carries exhausted hearts home rather than scolding them',
+        description:
+          'Notice the shepherd lifted the tired lamb onto his own shoulders instead of forcing it to limp back—grace carries our weight when strength runs out.',
+        anchorRef: { label: 'Luke 15:5', chapterId: 'LUK-15', verseNumber: 5 },
+      },
+      {
+        title: 'Every quiet turn back toward God sparks joy in heaven',
+        description:
+          'God isn’t reluctant when someone comes home—heaven celebrates warmly over every single restored life.',
+        anchorRef: { label: 'Luke 15:7', chapterId: 'LUK-15', verseNumber: 7 },
+      },
+    ],
+    reflectionPrompt:
+      'Does it change how you view yourself—or a loved one who feels far away—knowing Jesus gladly climbs cliffs to carry one lamb home?',
+  },
+  {
+    id: 'story-first-christmas',
+    slug: 'first-christmas',
+    title: 'The First Christmas: Birth of Jesus',
+    subtitle: 'Light Shining Quietly Inside a Humble Manger',
+    testament: 'NT',
+    category: 'Miracles of Jesus',
+    scriptureRange: 'Luke 2:1–20',
+    readingTimeMinutes: 8,
+    coverImageUrl: '/images/stories/christmas-2.jpg',
+    primaryChapterId: 'LUK-2',
+    summary:
+      'Far from marble palaces and noisy crowds, the promised King of Heaven entered earth wrapped softly in linen cloths beside a wooden feeding trough in quiet Bethlehem—greeted first by singing sky angels and humble hillside shepherds.',
+    beats: [
+      {
+        id: 'xmas-1',
+        beatNumber: 1,
+        title: 'The Long Road to Bethlehem',
+        narrative:
+          'Across every Roman road came Emperor Augustus’s decree ordering families back to their ancestral hometowns to register for taxes. Gentle carpenter Joseph left his quiet Nazareth workshop, leading a calm little brown donkey down ninety steep limestone miles toward Bethlehem—the ancient hilltop city of King David—with young Mary close beside him carrying heaven’s promised child.\n\nArriving at dusk when golden oil lamps flickered along terraced olive walls, every guest room in crowded Bethlehem stood completely full. Yet God’s quiet plan had already prepared an unassuming shelter tucked gently behind stone courtyard walls.',
+        imageUrl: '/images/stories/christmas-1.jpg',
+        imageAlt: 'Joseph leading calm brown donkey carrying veiled Mary along olive hillside toward lamp-lit Bethlehem',
+        scriptureRefs: [
+          { label: 'Luke 2:1–5', chapterId: 'LUK-2', verseNumber: 4 },
+          { label: 'Luke 2:6–7', chapterId: 'LUK-2', verseNumber: 7 },
+        ],
+      },
+      {
+        id: 'xmas-2',
+        beatNumber: 2,
+        title: 'A King Cradled in Clean Swaddling Linen',
+        narrative:
+          'Inside a quiet candlelit limestone stable smelling faintly of sweet dry hay and warm cedar beams, the long-awaited hour arrived. Without royal trumpets or silk canopies, young Mary brought forth her firstborn Son—wrapping tiny Jesus snugly in crisp white strips of swaddling linen to keep His small limbs warm and comforted.\n\nHaving no carved ivory cradle, Mary and smiling Joseph lined a humble wooden animal feeding manger with clean straw and laid the Savior of the world gently down to rest while gentle donkeys breathed softly nearby.',
+        imageUrl: '/images/stories/christmas-2.jpg',
+        imageAlt: 'Candlelit stone-and-timber stable as Mary and Joseph lay swaddled baby Jesus softly into wooden manger',
+        scriptureRefs: [
+          { label: 'Luke 2:7', chapterId: 'LUK-2', verseNumber: 7 },
+        ],
+      },
+      {
+        id: 'xmas-3',
+        beatNumber: 3,
+        title: 'Startled Watchmen on Moonlit Hills',
+        narrative:
+          'Just beyond the sleeping village walls out upon chilly moonlit Bethlehem meadows—the very hills where young shepherd David once kept his flock—lowly night-shift shepherds wrapped wool cloaks tighter around their shoulders beside huddled white sheep.\n\nSuddenly pitch-dark midnight sky split wide open with dazzling, unearthly brightness! “The glory of the Lord shone around them,” Luke remembers, leaving grown men shielding wide eyes in breathless awe while an angel gently spoke first: “Don’t be afraid, for behold, I bring you good news of great joy which will be to all the people!”',
+        imageUrl: '/images/stories/christmas-3.jpg',
+        imageAlt: 'Astonished shepherds beside calm white sheep shielding eyes beneath dazzling sky opening over Bethlehem',
+        scriptureRefs: [
+          { label: 'Luke 2:8–11', chapterId: 'LUK-2', verseNumber: 10 },
+          { label: 'Luke 2:12', chapterId: 'LUK-2', verseNumber: 12 },
+        ],
+      },
+      {
+        id: 'xmas-4',
+        beatNumber: 4,
+        title: 'Heaven’s Choir Singing Peace on Earth',
+        narrative:
+          'Before shepherds could catch their breath at hearing a Savior had been born right inside nearby Bethlehem—found simply “wrapped in strips of cloth, lying in a feeding trough”—the whole starry dome burst alive with a luminous heavenly choir.\n\nHundreds of radiant golden-winged angels filled the night clouds praising God aloud with music nobody on those hills would ever forget: “Glory to God in the highest, on earth peace, good will toward men!” God chose humble working shepherds to receive earth’s grandest concert.',
+        imageUrl: '/images/stories/christmas-4.jpg',
+        imageAlt: 'Radiant sky filled with joyful angel choir singing high above quiet Bethlehem sheep hills',
+        scriptureRefs: [
+          { label: 'Luke 2:13–14', chapterId: 'LUK-2', verseNumber: 14 },
+        ],
+      },
+      {
+        id: 'xmas-5',
+        beatNumber: 5,
+        title: 'Hurrying Under Starlight to See',
+        narrative:
+          'As radiant clouds faded gently back into calm indigo stars, shepherds didn’t sit debating until morning! Grasping crooks excitedly, they urged one another right up the stony footpath: “Let’s go to Bethlehem, now, and see this thing that has happened, which the Lord has made known to us!”\n\nHurrying warmly down quiet lantern-less village lanes guided by clear starlight overhead, they followed the angel’s simple signpost straight toward one warmly glowing stable doorway.',
+        imageUrl: '/images/stories/christmas-5.jpg',
+        imageAlt: 'Joyful shepherds hurrying through quiet stone Bethlehem street toward glowing stable under bright star',
+        scriptureRefs: [
+          { label: 'Luke 2:15–16', chapterId: 'LUK-2', verseNumber: 16 },
+        ],
+      },
+      {
+        id: 'xmas-6',
+        beatNumber: 6,
+        title: 'Quiet Wonder Beside the Manger',
+        narrative:
+          'Stepping softly across the threshold into warm golden lantern light, dusty shepherds saw every word stood true—kind Joseph watching over gentle Mary and tiny sleeping Jesus resting peacefully inside the hay manger. Dropping respectfully to weathered knees on stone floor, they whispered out everything the bright angels had sung over the hills.\n\n“Mary kept all these sayings, pondering them in her heart,” Luke writes tenderly—while joyful shepherds walked back to dawn pastures praising God loudly with every step for all they had seen and heard.',
+        imageUrl: '/images/stories/christmas-6.jpg',
+        imageAlt: 'Warm candlelit stable interior as grateful shepherds kneel softly beside Mary, Joseph, and sleeping Jesus',
+        scriptureRefs: [
+          { label: 'Luke 2:16–18', chapterId: 'LUK-2', verseNumber: 17 },
+          { label: 'Luke 2:19–20', chapterId: 'LUK-2', verseNumber: 19 },
+        ],
+      },
+    ],
+    lessonsLearned: [
+      {
+        title: 'God loves entering ordinary humble places',
+        description:
+          'Instead of choosing gold marble halls, Heaven’s King rested in a simple stone feeding trough—proving no home or life is too humble for His presence.',
+        anchorRef: { label: 'Luke 2:7', chapterId: 'LUK-2', verseNumber: 7 },
+      },
+      {
+        title: 'Good news of great joy is meant for everyday people',
+        description:
+          'Night-shift shepherds ranked low in society, yet God invited them first to hear angels sing and meet Jesus personally.',
+        anchorRef: { label: 'Luke 2:10–14', chapterId: 'LUK-2', verseNumber: 10 },
+      },
+      {
+        title: 'Slow down like Mary to treasure quiet wonders in your heart',
+        description:
+          'Amid noisy streets and amazed visitors, Mary paused quietly to hold onto God’s faithfulness—inviting us to savor grace peacefully too.',
+        anchorRef: { label: 'Luke 2:19', chapterId: 'LUK-2', verseNumber: 19 },
+      },
+    ],
+    reflectionPrompt:
+      'In what small, quiet, everyday place do you notice God drawing close to you right now?',
+  },
 ];
