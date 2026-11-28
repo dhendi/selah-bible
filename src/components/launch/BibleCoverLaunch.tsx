@@ -48,73 +48,67 @@ export const BibleCoverLaunch: React.FC = () => {
           handleTriggerOpen();
         }
       }}
-      aria-label="Opening Holy Bible"
-      className={`fixed inset-0 z-[100] flex items-center justify-center p-6 select-none cursor-pointer transition-opacity duration-300 ease-out ${
+      aria-label="Opening Selah Bible"
+      className={`fixed inset-0 z-[100] overflow-hidden flex items-center justify-center p-0 sm:py-6 sm:px-4 select-none cursor-pointer transition-opacity duration-300 ease-out ${
         isFading ? 'opacity-0 pointer-events-none' : 'opacity-100'
       }`}
       style={{
-        background: 'radial-gradient(circle at 50% 44%, #F6F0E4 0%, #DFD3BD 100%)',
+        background: 'radial-gradient(circle at 50% 45%, #EFE8D8 0%, #DDD2BD 100%)',
       }}
     >
-      {/* 3D Book Stage */}
+      {/* Full App-Sized 3D Book Stage */}
       <div
-        className={`relative w-[min(78vw,320px)] aspect-[3/4.25] transition-transform duration-700 ease-out ${
-          isFading ? 'scale-[1.06]' : isOpeningOrFading ? 'scale-[1.02]' : 'scale-100'
+        className={`relative w-full h-[100dvh] sm:max-w-3xl sm:h-[88dvh] transition-transform duration-700 ease-out ${
+          isFading ? 'scale-[1.02]' : 'scale-100'
         }`}
-        style={{ perspective: '1750px' }}
+        style={{ perspective: '2400px' }}
       >
-        {/* Ambient Ground Shadow Under Bible */}
+        {/* Ambient Ground Shadow Under Book (Desktop Sheet Frame) */}
         <div
-          className={`absolute -inset-x-4 -bottom-5 top-6 rounded-2xl transition-opacity duration-700 pointer-events-none ${
+          className={`hidden sm:block absolute -inset-x-3 -bottom-4 top-4 rounded-2xl transition-opacity duration-700 pointer-events-none ${
             isFading ? 'opacity-0' : 'opacity-100'
           }`}
           style={{
-            background: 'radial-gradient(ellipse at 50% 62%, rgba(44,32,22,0.34) 0%, rgba(44,32,22,0) 72%)',
-            filter: 'blur(12px)',
+            background: 'radial-gradient(ellipse at 50% 60%, rgba(44,32,22,0.34) 0%, rgba(44,32,22,0) 75%)',
+            filter: 'blur(14px)',
           }}
         />
 
         {/* Silk Crimson Bookmark Ribbon Peeking Bottom */}
         <div
-          className="absolute left-[46%] -bottom-4 w-3.5 h-10 bg-[#8B3A2B] shadow-md transition-transform duration-700"
+          className="hidden sm:block absolute left-[48%] -bottom-5 w-4 h-10 bg-[#8B3A2B] shadow-md transition-transform duration-700"
           style={{
             clipPath: 'polygon(0 0, 100% 0, 100% 100%, 50% 78%, 0 100%)',
             transform: isOpeningOrFading ? 'translateY(3px)' : 'translateY(0)',
           }}
         />
 
-        {/* Back Board + Stacked Gilded Page Block (Visible Under Cover) */}
+        {/* Back Board + Cream Flyleaf Page Block (Matches App Page Sheet Under Cover) */}
         <div
-          className="absolute inset-0 rounded-r-xl rounded-l-[4px] bg-[#2D1A15] shadow-2xl overflow-hidden"
+          className="absolute inset-0 sm:rounded-r-xl sm:rounded-l-[6px] bg-[#2D1A15] shadow-2xl overflow-hidden"
           style={{ transform: 'translateZ(0)' }}
         >
-          {/* Inner Cream Flyleaf Sheet */}
-          <div className="absolute inset-y-[5px] left-[10px] right-[5px] rounded-r-lg bg-[#FBF8F1] border border-[#DDD3C1] flex flex-col items-center justify-center px-6 text-center shadow-inner">
+          {/* Inner Cream Book Sheet */}
+          <div className="absolute inset-y-0 sm:inset-y-[6px] left-0 sm:left-[12px] right-[5px] sm:right-[7px] sm:rounded-r-lg bg-[#FBF8F1] border border-[#DDD3C1] flex flex-col items-center justify-center px-8 text-center shadow-inner">
             {/* Subtle Inner Gutter Shadow */}
             <div
-              className="absolute inset-y-0 left-0 w-7 pointer-events-none"
+              className="absolute inset-y-0 left-0 w-9 pointer-events-none"
               style={{
-                background: 'linear-gradient(90deg, rgba(60,44,32,0.18) 0%, rgba(60,44,32,0) 100%)',
+                background: 'linear-gradient(90deg, rgba(60,44,32,0.16) 0%, rgba(60,44,32,0) 100%)',
               }}
             />
-            {/* Inner Crimson Ribbon Line */}
-            <div className="absolute top-0 bottom-0 left-[22px] w-[2.5px] bg-[#8B3A2B]/80" />
+            {/* Inner Crimson Bookmark Ribbon Line */}
+            <div className="absolute top-0 bottom-0 left-6 sm:left-8 w-[3px] bg-[#8B3A2B]/80" />
 
-            <div className="text-[0.6rem] uppercase tracking-[0.26em] text-[#8B3A2B] font-semibold">
-              The Holy Scriptures
+            <div className="font-serif text-4xl sm:text-5xl font-semibold text-[#24221E] tracking-[0.06em]">
+              Selah
             </div>
-            <div className="mt-2 font-serif text-xl font-semibold text-[#24221E] tracking-tight">
-              Selah Study Edition
-            </div>
-            <div className="mt-2 w-10 h-px bg-[#D6CCBA]" />
-            <p className="mt-2 font-serif italic text-xs text-[#666158]">
-              World English Bible
-            </p>
+            <div className="mt-3 w-12 h-px bg-[#D6CCBA]" />
           </div>
 
           {/* Right Page-Block Depth Stripes */}
           <div
-            className="absolute top-[5px] bottom-[5px] right-0 w-[6px] pointer-events-none"
+            className="absolute top-0 bottom-0 sm:top-[6px] sm:bottom-[6px] right-0 w-[6px] sm:w-[8px] pointer-events-none"
             style={{
               background:
                 'repeating-linear-gradient(90deg, #EDE4D3 0px, #EDE4D3 1px, #D7CBB4 1px, #D7CBB4 2px)',
@@ -122,36 +116,36 @@ export const BibleCoverLaunch: React.FC = () => {
           />
         </div>
 
-        {/* Hinged Front Leather Cover (Swings Left Along Spine) */}
+        {/* Hinged Front Leather Cover (Same Dimensions as the App) */}
         <div
-          className="absolute inset-0 rounded-r-xl rounded-l-[5px] shadow-[6px_10px_28px_rgba(32,20,14,0.38)]"
+          className="absolute inset-0 sm:rounded-r-xl sm:rounded-l-[6px] shadow-[8px_12px_32px_rgba(32,20,14,0.4)]"
           style={{
             transformOrigin: 'left center',
             transformStyle: 'preserve-3d',
-            transition: 'transform 820ms cubic-bezier(0.22, 1, 0.36, 1)',
-            transform: isOpeningOrFading ? 'rotateY(-128deg)' : 'rotateY(0deg)',
+            transition: 'transform 850ms cubic-bezier(0.22, 1, 0.36, 1)',
+            transform: isOpeningOrFading ? 'rotateY(-125deg)' : 'rotateY(0deg)',
           }}
         >
-          {/* Front Face of Cover */}
+          {/* Front Face of Leather Cover */}
           <div
-            className="absolute inset-0 rounded-r-xl rounded-l-[5px] overflow-hidden flex flex-col justify-between p-5 sm:p-6"
+            className="absolute inset-0 sm:rounded-r-xl sm:rounded-l-[6px] overflow-hidden flex flex-col justify-between p-5 sm:p-8"
             style={{
               backfaceVisibility: 'hidden',
               background:
                 'linear-gradient(135deg, #4B2E26 0%, #382019 52%, #2B1712 100%)',
-              boxShadow: 'inset 0 1px 1px rgba(255,235,205,0.16), inset 0 -2px 6px rgba(0,0,0,0.45)',
+              boxShadow: 'inset 0 1px 1px rgba(255,235,205,0.16), inset 0 -2px 8px rgba(0,0,0,0.45)',
             }}
           >
             {/* Tactile Spine Ridges on Left Edge */}
             <div
-              className="absolute inset-y-0 left-0 w-6 pointer-events-none border-r border-black/30"
+              className="absolute inset-y-0 left-0 w-6 sm:w-8 pointer-events-none border-r border-black/30"
               style={{
                 background:
                   'linear-gradient(90deg, #24130E 0%, #4E3027 42%, #2B1813 100%)',
               }}
             >
               {/* Raised Horizontal Spine Bands */}
-              {[14, 32, 68, 86].map((pct) => (
+              {[12, 30, 70, 88].map((pct) => (
                 <div
                   key={pct}
                   className="absolute inset-x-0 h-[3px]"
@@ -165,53 +159,37 @@ export const BibleCoverLaunch: React.FC = () => {
             </div>
 
             {/* Double Gold-Foil Debossed Cover Frame */}
-            <div className="relative z-10 ml-5 h-full rounded-r-md border border-[#D4B06A]/50 p-1.5 flex flex-col">
-              <div className="flex-1 border border-[#D4B06A]/30 rounded-r-sm px-4 py-6 flex flex-col items-center justify-between text-center">
-                {/* Top Decorative Ornament + Cross */}
-                <div className="flex flex-col items-center gap-2 pt-2">
+            <div className="relative z-10 ml-5 sm:ml-7 h-full rounded-r-lg border border-[#D4B06A]/50 p-2 sm:p-2.5 flex flex-col">
+              <div className="flex-1 border border-[#D4B06A]/30 rounded-r-md px-6 py-10 sm:py-14 flex flex-col items-center justify-center text-center">
+                {/* Centered Engraved Gold Title: Selah */}
+                <div className="flex flex-col items-center gap-6 my-auto">
                   <svg
-                    width="22"
-                    height="28"
-                    viewBox="0 0 22 28"
+                    width="24"
+                    height="32"
+                    viewBox="0 0 24 32"
                     fill="none"
                     aria-hidden="true"
-                    className="opacity-90"
+                    className="opacity-85"
                   >
                     <path
-                      d="M11 2V26M4 9.5H18"
+                      d="M12 2V30M4.5 10.5H19.5"
                       stroke="#DFC17E"
                       strokeWidth="1.6"
                       strokeLinecap="round"
                     />
                   </svg>
-                  <div className="w-12 h-px bg-[#D4B06A]/45" />
-                </div>
 
-                {/* Engraved Center Gold Foil Title */}
-                <div className="space-y-2.5 my-auto">
                   <h1
-                    className="font-serif font-bold text-2xl sm:text-[1.65rem] tracking-[0.2em] leading-snug"
+                    className="font-serif font-bold text-5xl sm:text-6xl tracking-[0.14em]"
                     style={{
                       color: '#EAD092',
-                      textShadow: '0 1px 1px rgba(0,0,0,0.6)',
+                      textShadow: '0 2px 3px rgba(0,0,0,0.55)',
                     }}
                   >
-                    HOLY
-                    <br />
-                    BIBLE
+                    Selah
                   </h1>
-                  <div className="w-8 h-[1px] bg-[#D4B06A]/55 mx-auto" />
-                  <p className="font-serif italic text-xs text-[#DFC17E]/90 tracking-wide">
-                    Selah Edition
-                  </p>
-                </div>
 
-                {/* Bottom Subtle Foil Stamp */}
-                <div className="pb-1 space-y-1">
-                  <div className="w-10 h-px bg-[#D4B06A]/40 mx-auto" />
-                  <div className="text-[0.55rem] uppercase tracking-[0.22em] text-[#D4B06A]/75 font-medium">
-                    World English Bible
-                  </div>
+                  <div className="w-16 h-px bg-[#D4B06A]/45" />
                 </div>
               </div>
             </div>
@@ -219,11 +197,11 @@ export const BibleCoverLaunch: React.FC = () => {
 
           {/* Inside Back Surface of Swinging Cover */}
           <div
-            className="absolute inset-0 rounded-l-xl bg-[#EAE2D2] border border-[#D4C9B4]"
+            className="absolute inset-0 sm:rounded-l-xl bg-[#EAE2D2] border border-[#D4C9B4]"
             style={{
               backfaceVisibility: 'hidden',
               transform: 'rotateY(180deg)',
-              boxShadow: 'inset -8px 0 18px rgba(44,32,22,0.16)',
+              boxShadow: 'inset -10px 0 24px rgba(44,32,22,0.18)',
             }}
           />
         </div>
